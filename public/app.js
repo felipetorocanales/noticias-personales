@@ -44,59 +44,23 @@ function isGenericImageUrl(url) {
 }
 
 
-const STORIES_CHANNELS = [
-  { id: "story-high", label: "Alto Impacto", icon: "🔥", category: "Investigación y Poder", matcher: (a) => a.relevanceTier === "alta", sort: (a, b) => b.relevanceScore - a.relevanceScore },
-  { id: "story-chile", label: "Chile al Día", icon: "🇨🇱", category: "Prensa Chilena", matcher: (a) => a.region === "chile", sort: (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt) },
-  { id: "story-mundo", label: "Mundo", icon: "🌍", category: "Geopolítica y Global", matcher: (a) => a.region === "mundo", sort: (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt) },
-  { id: "story-low", label: "Bajo el Radar", icon: "📡", category: "Regiones y Ciencia", matcher: (a) => a.relevanceTier === "bajo_radar", sort: (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt) },
-  { id: "story-ciper", label: "CIPER", icon: "🕵️", category: "Centro de Investigación", matcher: (a) => a.sourceId === "ciper" },
-  { id: "story-interf", label: "Interferencia", icon: "⚡", category: "Prensa Independiente", matcher: (a) => a.sourceId === "interferencia" },
-  { id: "story-fastcheck", label: "Fast Check", icon: "🔎", category: "Fact Checking", matcher: (a) => a.sourceId === "fastcheck" },
-  { id: "story-ladera", label: "Ladera Sur", icon: "🌿", category: "Medioambiente y Conservación", matcher: (a) => a.sourceId === "laderasur" },
-  { id: "story-uchile", label: "Radio UChile", icon: "📻", category: "Radio Pública Universitaria", matcher: (a) => a.sourceId === "radiouchile" },
-  { id: "story-bellingcat", label: "Bellingcat", icon: "🌐", category: "Investigación OSINT", matcher: (a) => a.sourceId === "bellingcat" },
-  { id: "story-propub", label: "ProPublica", icon: "📜", category: "Periodismo Sin Fines de Lucro", matcher: (a) => a.sourceId === "propublica" },
-  { id: "story-eldiario", label: "elDiario.es", icon: "🗞️", category: "Prensa Española", matcher: (a) => a.sourceId === "eldiarioes" }
+const FILTER_PRESETS = [
+  { id: "all", label: "Todo", icon: "⚡", matcher: () => true },
+  { id: "high", label: "Alto Impacto", icon: "🔥", matcher: (a) => a.relevanceTier === "alta" },
+  { id: "chile", label: "Chile al Día", icon: "🇨🇱", matcher: (a) => a.region === "chile" },
+  { id: "mundo", label: "Mundo", icon: "🌍", matcher: (a) => a.region === "mundo" },
+  { id: "low", label: "Bajo el Radar", icon: "📡", matcher: (a) => a.relevanceTier === "bajo_radar" },
+  { id: "ciper", label: "CIPER", icon: "🕵️", matcher: (a) => a.sourceId === "ciper" },
+  { id: "interf", label: "Interferencia", icon: "⚡", matcher: (a) => a.sourceId === "interferencia" },
+  { id: "fastcheck", label: "Fast Check", icon: "🔎", matcher: (a) => a.sourceId === "fastcheck" },
+  { id: "ladera", label: "Ladera Sur", icon: "🌿", matcher: (a) => a.sourceId === "laderasur" },
+  { id: "uchile", label: "Radio UChile", icon: "📻", matcher: (a) => a.sourceId === "radiouchile" },
+  { id: "cooperativa", label: "Cooperativa", icon: "🎙️", matcher: (a) => a.sourceId === "cooperativa" },
+  { id: "bellingcat", label: "Bellingcat", icon: "🌐", matcher: (a) => a.sourceId === "bellingcat" },
+  { id: "propub", label: "ProPublica", icon: "📜", matcher: (a) => a.sourceId === "propublica" },
+  { id: "eldiario", label: "elDiario.es", icon: "🗞️", matcher: (a) => a.sourceId === "eldiarioes" },
+  { id: "saved", label: "Guardadas", icon: "🔖", matcher: (a) => state.savedIds.has(a.id) }
 ];
-
-function getStoryGroups() {
-  const groups = [];
-
-  for (const ch of STORIES_CHANNELS) {
-    let matches = state.articles.filter((a) => ch.matcher(a));
-    if (ch.sort) {
-      matches = [...matches].sort(ch.sort);
-    }
-    const articles = matches.slice(0, 6);
-    if (articles.length > 0) {
-      groups.push({
-        id: ch.id,
-        label: ch.label,
-        title: ch.label,
-        icon: ch.icon,
-        category: ch.category,
-        articles
-      });
-    }
-  }
-
-  // Si hay notas guardadas por el usuario, incluir historia destacada de guardadas
-  if (state.savedIds.size > 0) {
-    const savedArticles = state.articles.filter((a) => state.savedIds.has(a.id)).slice(0, 6);
-    if (savedArticles.length > 0) {
-      groups.unshift({
-        id: "story-saved",
-        label: "Guardadas",
-        title: "Tus Guardadas",
-        icon: "🔖",
-        category: "Notas favoritas para leer",
-        articles: savedArticles
-      });
-    }
-  }
-
-  return groups;
-}
 
 function getSourceBadge(sourceId, region) {
   const flags = {
@@ -145,16 +109,12 @@ const state = {
   sources: [],
   blockedExamples: [],
   totalBlockedCount: 0,
-  region: "all",
-  tier: "all",
-  category: "all",
-  sourceId: "all",
+  activeFilter: "all",
   onlyIndependent: false,
   searchQuery: "",
-  viewMode: "split", // 'split' | 'grid'
-  sortBy: localStorage.getItem("pulso_sort_by") || "date_desc", // 'date_desc' | 'relevance_desc' | 'relevance_asc' | 'date_asc'
+  viewMode: "split",
+  sortBy: localStorage.getItem("pulso_sort_by") || "date_desc",
   savedIds: new Set(JSON.parse(localStorage.getItem("pulso_saved_ids") || "[]")),
-  viewedStoryIds: new Set(JSON.parse(localStorage.getItem("pulso_viewed_stories") || "[]")),
   customBlockedWords: JSON.parse(localStorage.getItem("pulso_custom_blocked") || "[]"),
   customSources: JSON.parse(localStorage.getItem("pulso_custom_sources") || "[]"),
   activeReaderArticle: null
@@ -600,21 +560,20 @@ async function fetchLiveUpdates() {
 
 // Filtering Logic
 function getFilteredArticles() {
+  const currentPreset = FILTER_PRESETS.find((p) => p.id === state.activeFilter);
+
   return state.articles.filter((art) => {
     // Re-check custom blocked words dynamically
     if (checkFarandula(art.title, art.summary).blocked) return false;
 
-    if (state.onlyIndependent && !art.independent) return false;
-    if (state.region !== "all" && art.region !== state.region) return false;
-    if (state.sourceId !== "all" && art.sourceId !== state.sourceId) return false;
-    if (state.category !== "all" && art.category !== state.category) return false;
-
-    if (state.tier === "saved") {
-      if (!state.savedIds.has(art.id)) return false;
-    } else if (state.tier !== "all" && art.relevanceTier !== state.tier) {
-      return false;
+    // Apply active filter preset or direct sourceId match
+    if (currentPreset) {
+      if (!currentPreset.matcher(art)) return false;
+    } else if (state.activeFilter && state.activeFilter !== "all") {
+      if (art.sourceId !== state.activeFilter) return false;
     }
 
+    // Apply search query if typed
     if (state.searchQuery) {
       const q = state.searchQuery.toLowerCase();
       const hay = `${art.title} ${art.summary} ${art.sourceName} ${art.category} ${art.sourceType}`.toLowerCase();
@@ -625,414 +584,38 @@ function getFilteredArticles() {
   });
 }
 
-// Stories Reel & Instagram Stories Player Engine
-function renderStoriesReel() {
-  const container = document.getElementById("storiesReel");
+function renderFilterButtons() {
+  const container = document.getElementById("filtersBar");
   if (!container) return;
 
-  const groups = getStoryGroups();
-  if (!groups.length) {
-    container.innerHTML = `<span class="mono-label" style="padding: 6px 12px;">Cargando historias independientes...</span>`;
-    return;
-  }
+  const unblockedArticles = state.articles.filter(
+    (art) => !checkFarandula(art.title, art.summary).blocked
+  );
 
-  container.innerHTML = groups.map((g) => {
-    const isViewed = state.viewedStoryIds.has(g.id);
+  container.innerHTML = FILTER_PRESETS.map((preset) => {
+    const isActive = state.activeFilter === preset.id;
+    const count = unblockedArticles.filter((art) => preset.matcher(art)).length;
+
     return `
-      <div class="story-item ${isViewed ? "viewed" : ""}" data-story-id="${escapeHtml(g.id)}" role="button" tabindex="0" title="Ver historia de ${escapeHtml(g.label)} (${g.articles.length} noticias)">
-        <div class="story-ring">
-          <div class="story-avatar">${g.icon}</div>
-          <span class="story-badge-count">${g.articles.length}</span>
-        </div>
-        <span class="story-label">${escapeHtml(g.label)}</span>
-      </div>
+      <button 
+        type="button" 
+        class="filter-btn ${isActive ? "active" : ""}" 
+        data-filter-id="${escapeHtml(preset.id)}"
+        role="tab"
+        aria-selected="${isActive ? "true" : "false"}"
+      >
+        <span class="filter-icon">${preset.icon}</span>
+        <span class="filter-label">${escapeHtml(preset.label)}</span>
+        <span class="filter-count">${count}</span>
+      </button>
     `;
   }).join("");
 }
 
-const StoriesPlayer = {
-  activeGroups: [],
-  currentGroupIndex: 0,
-  currentSlideIndex: 0,
-  isOpen: false,
-  isPaused: false,
-  slideDurationMs: 5500, // 5.5s por slide
-  elapsedMs: 0,
-  lastTimestamp: 0,
-  animFrameId: null,
-  touchStartY: 0,
-  touchStartX: 0,
-  isHolding: false,
-
-  open(groupId) {
-    this.activeGroups = getStoryGroups();
-    if (!this.activeGroups.length) {
-      showToast("No hay historias disponibles en este momento");
-      return;
-    }
-
-    const targetIdx = this.activeGroups.findIndex((g) => g.id === groupId);
-    this.currentGroupIndex = targetIdx !== -1 ? targetIdx : 0;
-    this.currentSlideIndex = 0;
-    this.isOpen = true;
-    this.isPaused = false;
-    this.elapsedMs = 0;
-
-    const modal = document.getElementById("storiesViewerModal");
-    if (modal) {
-      modal.classList.remove("hidden");
-    }
-    document.body.style.overflow = "hidden";
-
-    this.renderCurrentSlide();
-    this.startProgress();
-    this.markCurrentGroupViewed();
-  },
-
-  close() {
-    this.isOpen = false;
-    this.isPaused = false;
-    this.isHolding = false;
-    if (this.animFrameId) {
-      cancelAnimationFrame(this.animFrameId);
-      this.animFrameId = null;
-    }
-
-    const modal = document.getElementById("storiesViewerModal");
-    if (modal) {
-      modal.classList.add("hidden");
-    }
-    document.body.style.overflow = "";
-
-    const slide = document.getElementById("storySlide");
-    if (slide) slide.classList.remove("playing");
-
-    renderStoriesReel();
-  },
-
-  getCurrentGroup() {
-    return this.activeGroups[this.currentGroupIndex];
-  },
-
-  getCurrentArticle() {
-    const group = this.getCurrentGroup();
-    if (!group || !group.articles || !group.articles.length) return null;
-    return group.articles[this.currentSlideIndex];
-  },
-
-  markCurrentGroupViewed() {
-    const group = this.getCurrentGroup();
-    if (!group) return;
-    state.viewedStoryIds.add(group.id);
-    localStorage.setItem("pulso_viewed_stories", JSON.stringify([...state.viewedStoryIds]));
-  },
-
-  renderCurrentSlide() {
-    const group = this.getCurrentGroup();
-    const article = this.getCurrentArticle();
-    if (!group || !article) {
-      this.close();
-      return;
-    }
-
-    // 1. Render Segmented Progress Bars
-    const progressWrapper = document.getElementById("storyProgressWrapper");
-    if (progressWrapper) {
-      progressWrapper.innerHTML = group.articles.map((_, idx) => {
-        let cls = "story-progress-segment";
-        let width = "0%";
-        if (idx < this.currentSlideIndex) {
-          cls += " completed";
-          width = "100%";
-        } else if (idx === this.currentSlideIndex) {
-          width = `${(this.elapsedMs / this.slideDurationMs) * 100}%`;
-        }
-        return `
-          <div class="${cls}" data-segment-idx="${idx}">
-            <div class="story-progress-fill" style="width: ${width};"></div>
-          </div>
-        `;
-      }).join("");
-    }
-
-    // 2. Header Info
-    const avatarEl = document.getElementById("storyHeaderAvatar");
-    if (avatarEl) avatarEl.textContent = group.icon;
-    const sourceEl = document.getElementById("storyHeaderSource");
-    if (sourceEl) sourceEl.textContent = article.sourceName || group.title;
-    const timeEl = document.getElementById("storyHeaderTime");
-    if (timeEl) timeEl.textContent = formatRelativeTime(article.publishedAt);
-    const catEl = document.getElementById("storyHeaderCategory");
-    if (catEl) catEl.textContent = `${group.title} · ${article.category || group.category}`;
-
-    // 3. Media Background
-    const mediaBg = document.getElementById("storyMediaBg");
-    if (mediaBg) {
-      if (article.image) {
-        mediaBg.style.backgroundImage = `url('${article.image}')`;
-        mediaBg.classList.remove("story-bg-editorial");
-      } else {
-        mediaBg.style.backgroundImage = "none";
-        mediaBg.classList.add("story-bg-editorial");
-      }
-    }
-
-    const slide = document.getElementById("storySlide");
-    if (slide) {
-      slide.classList.remove("playing");
-      void slide.offsetWidth; // force DOM reflow for CSS zoom animation
-      slide.classList.add("playing");
-    }
-
-    // 4. Foreground Content
-    const tierBadge = document.getElementById("storyTierBadge");
-    if (tierBadge) {
-      tierBadge.textContent = article.relevanceTier === "alta" ? "🔥 MÁS RELEVANTE" : "📡 BAJO EL RADAR";
-      tierBadge.className = `story-tier-badge tier-${article.relevanceTier}`;
-    }
-
-    const idxIndicator = document.getElementById("storyIndexIndicator");
-    if (idxIndicator) {
-      idxIndicator.textContent = `${this.currentSlideIndex + 1} / ${group.articles.length}`;
-    }
-
-    const titleEl = document.getElementById("storyTitle");
-    if (titleEl) titleEl.textContent = article.title;
-
-    const summaryEl = document.getElementById("storySummary");
-    if (summaryEl) summaryEl.textContent = article.summary;
-
-    const whyText = document.getElementById("storyWhyText");
-    if (whyText) whyText.textContent = `${article.relevanceReason} (${article.sourceType}).`;
-
-    // 5. Bookmark button state
-    const bookmarkBtn = document.getElementById("storyBookmarkBtn");
-    if (bookmarkBtn) {
-      const isSaved = state.savedIds.has(article.id);
-      bookmarkBtn.textContent = isSaved ? "🔖" : "🤍";
-      bookmarkBtn.title = isSaved ? "Guardada en tu lista" : "Guardar noticia";
-    }
-
-    // Pause toggle icon
-    const pauseBtn = document.getElementById("storyPauseToggleBtn");
-    if (pauseBtn) {
-      pauseBtn.textContent = this.isPaused ? "▶" : "⏸";
-    }
-  },
-
-  startProgress() {
-    if (this.animFrameId) cancelAnimationFrame(this.animFrameId);
-    this.lastTimestamp = performance.now();
-
-    const loop = (timestamp) => {
-      if (!this.isOpen) return;
-
-      if (!this.isPaused && !this.isHolding) {
-        const delta = timestamp - this.lastTimestamp;
-        this.elapsedMs += delta;
-
-        // Update active segment
-        const activeSegment = document.querySelector(`.story-progress-segment[data-segment-idx="${this.currentSlideIndex}"] .story-progress-fill`);
-        if (activeSegment) {
-          const pct = Math.min(100, (this.elapsedMs / this.slideDurationMs) * 100);
-          activeSegment.style.width = `${pct}%`;
-        }
-
-        if (this.elapsedMs >= this.slideDurationMs) {
-          this.nextSlide();
-          return;
-        }
-      }
-
-      this.lastTimestamp = timestamp;
-      this.animFrameId = requestAnimationFrame(loop);
-    };
-
-    this.animFrameId = requestAnimationFrame(loop);
-  },
-
-  pause() {
-    this.isPaused = true;
-    const pauseBtn = document.getElementById("storyPauseToggleBtn");
-    if (pauseBtn) pauseBtn.textContent = "▶";
-    const slide = document.getElementById("storySlide");
-    if (slide) slide.classList.remove("playing");
-  },
-
-  resume() {
-    this.isPaused = false;
-    this.lastTimestamp = performance.now();
-    const pauseBtn = document.getElementById("storyPauseToggleBtn");
-    if (pauseBtn) pauseBtn.textContent = "⏸";
-    const slide = document.getElementById("storySlide");
-    if (slide) slide.classList.add("playing");
-  },
-
-  togglePause() {
-    if (this.isPaused) this.resume();
-    else this.pause();
-  },
-
-  nextSlide() {
-    const group = this.getCurrentGroup();
-    if (!group) return;
-
-    if (this.currentSlideIndex < group.articles.length - 1) {
-      this.currentSlideIndex++;
-      this.elapsedMs = 0;
-      this.renderCurrentSlide();
-      this.startProgress();
-    } else {
-      // Avanzar al siguiente canal de historias
-      if (this.currentGroupIndex < this.activeGroups.length - 1) {
-        this.currentGroupIndex++;
-        this.currentSlideIndex = 0;
-        this.elapsedMs = 0;
-        this.markCurrentGroupViewed();
-        this.renderCurrentSlide();
-        this.startProgress();
-      } else {
-        // Se vieron todas las historias disponibles
-        this.close();
-        showToast("Has completado todas las historias del día ✨");
-      }
-    }
-  },
-
-  prevSlide() {
-    if (this.currentSlideIndex > 0) {
-      this.currentSlideIndex--;
-      this.elapsedMs = 0;
-      this.renderCurrentSlide();
-      this.startProgress();
-    } else if (this.currentGroupIndex > 0) {
-      this.currentGroupIndex--;
-      const prevGroup = this.getCurrentGroup();
-      this.currentSlideIndex = Math.max(0, (prevGroup?.articles.length || 1) - 1);
-      this.elapsedMs = 0;
-      this.renderCurrentSlide();
-      this.startProgress();
-    } else {
-      // Re-iniciar la primera noticia
-      this.elapsedMs = 0;
-      this.renderCurrentSlide();
-      this.startProgress();
-    }
-  },
-
-  initListeners() {
-    // Next / Prev touch zone clicks
-    document.getElementById("storyTouchNext")?.addEventListener("click", () => {
-      this.nextSlide();
-    });
-
-    document.getElementById("storyTouchPrev")?.addEventListener("click", () => {
-      this.prevSlide();
-    });
-
-    // Press and hold to pause (identical to Instagram / Facebook)
-    const slideContainer = document.getElementById("storySlide");
-    if (slideContainer) {
-      const handlePressStart = (e) => {
-        if (!this.isOpen) return;
-        this.isHolding = true;
-        this.pause();
-        if (e.touches && e.touches[0]) {
-          this.touchStartY = e.touches[0].clientY;
-          this.touchStartX = e.touches[0].clientX;
-        }
-      };
-
-      const handlePressEnd = (e) => {
-        if (!this.isOpen) return;
-        if (this.isHolding) {
-          this.isHolding = false;
-          this.resume();
-        }
-        // Swipe down to close check
-        if (e.changedTouches && e.changedTouches[0]) {
-          const deltaY = e.changedTouches[0].clientY - this.touchStartY;
-          const deltaX = Math.abs(e.changedTouches[0].clientX - this.touchStartX);
-          if (deltaY > 65 && deltaY > deltaX) {
-            this.close();
-          }
-        }
-      };
-
-      slideContainer.addEventListener("touchstart", handlePressStart, { passive: true });
-      slideContainer.addEventListener("touchend", handlePressEnd, { passive: true });
-      slideContainer.addEventListener("touchcancel", handlePressEnd, { passive: true });
-      slideContainer.addEventListener("mousedown", handlePressStart);
-      slideContainer.addEventListener("mouseup", handlePressEnd);
-      slideContainer.addEventListener("mouseleave", handlePressEnd);
-    }
-
-    // Top action buttons
-    document.getElementById("storyCloseBtn")?.addEventListener("click", () => {
-      this.close();
-    });
-
-    document.getElementById("storyPauseToggleBtn")?.addEventListener("click", () => {
-      this.togglePause();
-    });
-
-    // Bottom action buttons
-    document.getElementById("storyReadFullBtn")?.addEventListener("click", () => {
-      const art = this.getCurrentArticle();
-      if (art) {
-        this.close();
-        openReaderModal(art.id);
-      }
-    });
-
-    document.getElementById("storyBookmarkBtn")?.addEventListener("click", () => {
-      const art = this.getCurrentArticle();
-      if (art) {
-        toggleSaveArticle(art.id);
-        const isSaved = state.savedIds.has(art.id);
-        const bookmarkBtn = document.getElementById("storyBookmarkBtn");
-        if (bookmarkBtn) {
-          bookmarkBtn.textContent = isSaved ? "🔖" : "🤍";
-        }
-        showToast(isSaved ? "Guardada en tus notas 🔖" : "Eliminada de tus notas");
-      }
-    });
-
-    document.getElementById("storyShareBtn")?.addEventListener("click", () => {
-      const art = this.getCurrentArticle();
-      if (!art) return;
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(art.url).then(() => {
-          showToast("¡Enlace de la historia copiado! 📋");
-        }).catch(() => {
-          showToast("Enlace: " + art.url);
-        });
-      } else {
-        showToast("Enlace: " + art.url);
-      }
-    });
-
-    // Keyboard controls
-    document.addEventListener("keydown", (e) => {
-      if (!this.isOpen) return;
-      if (e.key === "Escape") {
-        this.close();
-      } else if (e.key === "ArrowRight") {
-        this.nextSlide();
-      } else if (e.key === "ArrowLeft") {
-        this.prevSlide();
-      } else if (e.key === " ") {
-        e.preventDefault();
-        this.togglePause();
-      }
-    });
-  }
-};
-
 // Rendering (Minimalist Unified Feed)
 function renderAll() {
   updateMetricsAndCounters();
-  renderStoriesReel();
+  renderFilterButtons();
   const filtered = getFilteredArticles();
   const sorted = sortArticles(filtered, state.sortBy);
 
@@ -1419,16 +1002,15 @@ function bindEvents() {
   });
 
 
-  // Initialize Instagram Stories viewer listeners
-  StoriesPlayer.initListeners();
 
   // Delegated clicks for cards and modals
   document.addEventListener("click", (e) => {
-    // Story reel bubble click -> Open full-screen Instagram Stories viewer
-    const storyTrigger = e.target.closest("[data-story-id]");
-    if (storyTrigger) {
-      const storyId = storyTrigger.getAttribute("data-story-id");
-      StoriesPlayer.open(storyId);
+    // Filter buttons click -> Modifica inmediatamente la lista de noticias
+    const filterBtnTrigger = e.target.closest("[data-filter-id]");
+    if (filterBtnTrigger) {
+      const filterId = filterBtnTrigger.getAttribute("data-filter-id");
+      state.activeFilter = filterId;
+      renderAll();
       return;
     }
 
@@ -1452,11 +1034,16 @@ function bindEvents() {
     const filterSourceTrigger = e.target.closest("[data-filter-source]");
     if (filterSourceTrigger) {
       const srcId = filterSourceTrigger.getAttribute("data-filter-source");
-      state.sourceId = state.sourceId === srcId ? "all" : srcId;
-      const sourceSelect = document.getElementById("sourceSelect");
-      if (sourceSelect) sourceSelect.value = state.sourceId;
+      let targetFilter = srcId;
+      if (srcId === "interferencia") targetFilter = "interf";
+      if (srcId === "radiouchile") targetFilter = "uchile";
+      if (srcId === "laderasur") targetFilter = "ladera";
+      if (srcId === "propublica") targetFilter = "propub";
+      if (srcId === "eldiarioes") targetFilter = "eldiario";
+
+      state.activeFilter = state.activeFilter === targetFilter ? "all" : targetFilter;
       renderAll();
-      showToast(state.sourceId === "all" ? "Mostrando todos los medios" : "Filtrado por medio");
+      showToast(state.activeFilter === "all" ? "Mostrando todas las fuentes" : "Filtrado por fuente");
       return;
     }
 

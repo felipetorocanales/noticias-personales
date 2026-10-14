@@ -18,22 +18,12 @@
         <span class="brand-logo">Pulso<span class="brand-dot">.</span></span>
       </div>
 
-      <!-- Minimalist Navigation Tabs -->
-      <nav class="nav-tabs" role="tablist" aria-label="Filtro principal">
-        <button class="nav-tab active" data-region="all">Todo</button>
-        <button class="nav-tab" data-region="chile">🇨🇱 Chile</button>
-        <button class="nav-tab" data-region="mundo">🌍 Mundo</button>
-        <button class="nav-tab" data-region="saved" title="Noticias guardadas">🔖</button>
-      </nav>
-
       <!-- Quick Action Icons -->
       <div class="header-actions">
         <button class="btn-icon-nav" id="searchToggleBtn" title="Buscar noticias" aria-label="Buscar">🔍</button>
         <button class="btn-icon-nav" id="themeToggleBtn" title="Cambiar tema" aria-label="Tema">☀️</button>
       </div>
     </div>
-
-
 
     <!-- Collapsible Clean Search Drawer -->
     <div class="search-drawer hidden" id="searchDrawer">
@@ -50,11 +40,11 @@
     </div>
   </header>
 
-  <!-- Instagram Style Stories Reel -->
-  <section class="stories-section" aria-label="Historias destacadas">
+  <!-- Filter Buttons Bar (Botones que filtran directamente las noticias) -->
+  <section class="filters-section" aria-label="Filtros de noticias">
     <div class="container">
-      <div class="stories-reel" id="storiesReel">
-        <!-- Generado dinámicamente -->
+      <div class="filters-bar" id="filtersBar" role="tablist">
+        <!-- Botones de filtro generados dinámicamente -->
       </div>
     </div>
   </section>
@@ -65,74 +55,6 @@
       <!-- Tarjetas de noticias inyectadas dinámicamente -->
     </div>
   </main>
-
-  <!-- INSTAGRAM / FACEBOOK STORIES VIEWER MODAL -->
-  <div id="storiesViewerModal" class="stories-viewer-backdrop hidden" role="dialog" aria-modal="true" aria-label="Visor de Historias">
-    <div class="stories-viewer-container" id="storiesViewerContainer">
-      <!-- Segmented Progress Bars -->
-      <div class="story-progress-wrapper" id="storyProgressWrapper">
-        <!-- Generado dinámicamente según la historia activa -->
-      </div>
-
-      <!-- Top Header -->
-      <div class="story-viewer-header" id="storyViewerHeader">
-        <div class="story-header-left">
-          <div class="story-header-avatar" id="storyHeaderAvatar">🔥</div>
-          <div class="story-header-info">
-            <div class="story-header-title-row">
-              <span class="story-header-source" id="storyHeaderSource">Alto Impacto</span>
-              <span class="story-header-dot">·</span>
-              <span class="story-header-time" id="storyHeaderTime">Hace instantes</span>
-            </div>
-            <span class="story-header-category" id="storyHeaderCategory">Investigación y Poder</span>
-          </div>
-        </div>
-        <div class="story-header-actions">
-          <button class="story-icon-btn" id="storyPauseToggleBtn" type="button" title="Pausar / Reanudar" aria-label="Pausar">⏸</button>
-          <button class="story-icon-btn story-close-btn" id="storyCloseBtn" type="button" title="Cerrar historias" aria-label="Cerrar">✕</button>
-        </div>
-      </div>
-
-      <!-- Story Visual Slide -->
-      <div class="story-slide" id="storySlide">
-        <!-- Background Media -->
-        <div class="story-media-bg" id="storyMediaBg"></div>
-        <div class="story-gradient-overlay"></div>
-
-        <!-- Interactive Touch & Click Zones (Left = Prev, Right = Next) -->
-        <button class="story-touch-zone story-touch-prev" id="storyTouchPrev" type="button" aria-label="Historia anterior"></button>
-        <button class="story-touch-zone story-touch-next" id="storyTouchNext" type="button" aria-label="Historia siguiente"></button>
-
-        <!-- Story Foreground Content -->
-        <div class="story-content-body" id="storyContentBody">
-          <div class="story-badge-row">
-            <span class="story-tier-badge" id="storyTierBadge">🔥 MÁS RELEVANTE</span>
-            <span class="story-index-indicator" id="storyIndexIndicator">1 / 5</span>
-          </div>
-          <h2 class="story-title" id="storyTitle">Cargando historia...</h2>
-          <p class="story-summary" id="storySummary">Resumen de la noticia independiente seleccionada.</p>
-          <div class="story-why-box" id="storyWhyBox">
-            <span class="story-why-label">¿Por qué importa?</span>
-            <span class="story-why-text" id="storyWhyText">Investigación y relevancia pública verificada</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Story Bottom Bar Actions -->
-      <div class="story-bottom-bar" id="storyBottomBar">
-        <button class="story-btn-read" id="storyReadFullBtn" type="button">
-          <span>Leer noticia completa</span>
-          <span class="story-btn-arrow">↗</span>
-        </button>
-        <button class="story-btn-icon" id="storyBookmarkBtn" type="button" title="Guardar noticia" aria-label="Guardar">
-          🔖
-        </button>
-        <button class="story-btn-icon" id="storyShareBtn" type="button" title="Compartir enlace" aria-label="Compartir">
-          🔗
-        </button>
-      </div>
-    </div>
-  </div>
 
   <!-- Minimalist Clean Footer -->
   <footer class="site-footer">
