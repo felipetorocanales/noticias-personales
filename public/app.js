@@ -44,22 +44,25 @@ function isGenericImageUrl(url) {
 }
 
 
-const FILTER_PRESETS = [
+const MAIN_FILTERS = [
   { id: "all", label: "Todo", icon: "⚡", matcher: () => true },
-  { id: "high", label: "Alto Impacto", icon: "🔥", matcher: (a) => a.relevanceTier === "alta" },
-  { id: "chile", label: "Chile al Día", icon: "🇨🇱", matcher: (a) => a.region === "chile" },
+  { id: "chile", label: "Chile", icon: "🇨🇱", matcher: (a) => a.region === "chile" },
   { id: "mundo", label: "Mundo", icon: "🌍", matcher: (a) => a.region === "mundo" },
+  { id: "high", label: "Alto Impacto", icon: "🔥", matcher: (a) => a.relevanceTier === "alta" },
   { id: "low", label: "Bajo el Radar", icon: "📡", matcher: (a) => a.relevanceTier === "bajo_radar" },
-  { id: "ciper", label: "CIPER", icon: "🕵️", matcher: (a) => a.sourceId === "ciper" },
-  { id: "interf", label: "Interferencia", icon: "⚡", matcher: (a) => a.sourceId === "interferencia" },
-  { id: "fastcheck", label: "Fast Check", icon: "🔎", matcher: (a) => a.sourceId === "fastcheck" },
-  { id: "ladera", label: "Ladera Sur", icon: "🌿", matcher: (a) => a.sourceId === "laderasur" },
-  { id: "uchile", label: "Radio UChile", icon: "📻", matcher: (a) => a.sourceId === "radiouchile" },
-  { id: "cooperativa", label: "Cooperativa", icon: "🎙️", matcher: (a) => a.sourceId === "cooperativa" },
-  { id: "bellingcat", label: "Bellingcat", icon: "🌐", matcher: (a) => a.sourceId === "bellingcat" },
-  { id: "propub", label: "ProPublica", icon: "📜", matcher: (a) => a.sourceId === "propublica" },
-  { id: "eldiario", label: "elDiario.es", icon: "🗞️", matcher: (a) => a.sourceId === "eldiarioes" },
   { id: "saved", label: "Guardadas", icon: "🔖", matcher: (a) => state.savedIds.has(a.id) }
+];
+
+const TOPIC_FILTERS = [
+  { id: "all", label: "Todas las temáticas", icon: "🎯", matcher: () => true },
+  { id: "investigacion", label: "Investigación", icon: "🕵️", matcher: (a) => /investigaci/i.test(a.category || "") },
+  { id: "politica", label: "Política", icon: "🏛️", matcher: (a) => /pol[ií]tic/i.test(a.category || "") },
+  { id: "medioambiente", label: "Medioambiente", icon: "🌿", matcher: (a) => /medioambiente|ambiente|territorio/i.test(a.category || "") },
+  { id: "ciencia", label: "Ciencia y Salud", icon: "🔬", matcher: (a) => /ciencia|salud|futuro/i.test(a.category || "") },
+  { id: "economia", label: "Economía", icon: "📈", matcher: (a) => /econom[ií]a/i.test(a.category || "") },
+  { id: "ddhh", label: "DD.HH. y Justicia", icon: "⚖️", matcher: (a) => /derechos|humanos|ciudadan/i.test(a.category || "") },
+  { id: "geopolitica", label: "Geopolítica", icon: "🌐", matcher: (a) => /geopol[ií]tic|mundo/i.test(a.category || "") },
+  { id: "cultura", label: "Cultura", icon: "🎨", matcher: (a) => /cultura/i.test(a.category || "") }
 ];
 
 function getSourceBadge(sourceId, region) {
@@ -109,7 +112,8 @@ const state = {
   sources: [],
   blockedExamples: [],
   totalBlockedCount: 0,
-  activeFilter: "all",
+  mainFilter: "all",
+  topicFilter: "all",
   onlyIndependent: false,
   searchQuery: "",
   viewMode: "split",
@@ -558,22 +562,22 @@ async function fetchLiveUpdates() {
   renderAll();
 }
 
-// Filtering Logic
+// Filtering Logic (Filtro Principal de Ámbito + Subfiltro de Temáticas)
 function getFilteredArticles() {
-  const currentPreset = FILTER_PRESETS.find((p) => p.id === state.activeFilter);
+  const currentMain = MAIN_FILTERS.find((p) => p.id === state.mainFilter) || MAIN_FILTERS[0];
+  const currentTopic = TOPIC_FILTERS.find((p) => p.id === state.topicFilter) || TOPIC_FILTERS[0];
 
   return state.articles.filter((art) => {
     // Re-check custom blocked words dynamically
     if (checkFarandula(art.title, art.summary).blocked) return false;
 
-    // Apply active filter preset or direct sourceId match
-    if (currentPreset) {
-      if (!currentPreset.matcher(art)) return false;
-    } else if (state.activeFilter && state.activeFilter !== "all") {
-      if (art.sourceId !== state.activeFilter) return false;
-    }
+    // Filtro Principal (Todo, Chile, Mundo, Alto Impacto, Bajo el Radar, Guardadas)
+    if (!currentMain.matcher(art)) return false;
 
-    // Apply search query if typed
+    // Subfiltro Temático (Todas, Investigación, Política, Medioambiente, Ciencia, etc.)
+    if (!currentTopic.matcher(art)) return false;
+
+    // Búsqueda por texto libre
     if (state.searchQuery) {
       const q = state.searchQuery.toLowerCase();
       const hay = `${art.title} ${art.summary} ${art.sourceName} ${art.category} ${art.sourceType}`.toLowerCase();
@@ -584,38 +588,64 @@ function getFilteredArticles() {
   });
 }
 
-function renderFilterButtons() {
-  const container = document.getElementById("filtersBar");
-  if (!container) return;
+function renderFilterBars() {
+  const mainContainer = document.getElementById("mainFiltersBar");
+  const topicContainer = document.getElementById("topicFiltersBar");
 
   const unblockedArticles = state.articles.filter(
     (art) => !checkFarandula(art.title, art.summary).blocked
   );
 
-  container.innerHTML = FILTER_PRESETS.map((preset) => {
-    const isActive = state.activeFilter === preset.id;
-    const count = unblockedArticles.filter((art) => preset.matcher(art)).length;
+  // 1. Barra Principal (Ámbito e Impacto)
+  if (mainContainer) {
+    mainContainer.innerHTML = MAIN_FILTERS.map((f) => {
+      const isActive = state.mainFilter === f.id;
+      const count = unblockedArticles.filter((art) => f.matcher(art)).length;
+      return `
+        <button 
+          type="button" 
+          class="filter-main-btn ${isActive ? "active" : ""}" 
+          data-main-filter="${escapeHtml(f.id)}"
+          role="tab"
+          aria-selected="${isActive ? "true" : "false"}"
+        >
+          <span class="filter-icon">${f.icon}</span>
+          <span class="filter-label">${escapeHtml(f.label)}</span>
+          <span class="filter-count">${count}</span>
+        </button>
+      `;
+    }).join("");
+  }
 
-    return `
-      <button 
-        type="button" 
-        class="filter-btn ${isActive ? "active" : ""}" 
-        data-filter-id="${escapeHtml(preset.id)}"
-        role="tab"
-        aria-selected="${isActive ? "true" : "false"}"
-      >
-        <span class="filter-icon">${preset.icon}</span>
-        <span class="filter-label">${escapeHtml(preset.label)}</span>
-        <span class="filter-count">${count}</span>
-      </button>
-    `;
-  }).join("");
+  // 2. Subfiltro de Temáticas (Calculado contextualmente sobre el filtro principal activo)
+  if (topicContainer) {
+    const currentMain = MAIN_FILTERS.find((p) => p.id === state.mainFilter) || MAIN_FILTERS[0];
+    const contextualArticles = unblockedArticles.filter((art) => currentMain.matcher(art));
+
+    topicContainer.innerHTML = TOPIC_FILTERS.map((t) => {
+      const isActive = state.topicFilter === t.id;
+      const count = contextualArticles.filter((art) => t.matcher(art)).length;
+      return `
+        <button 
+          type="button" 
+          class="filter-topic-btn ${isActive ? "active" : ""}" 
+          data-topic-filter="${escapeHtml(t.id)}"
+          role="tab"
+          aria-selected="${isActive ? "true" : "false"}"
+        >
+          <span class="filter-icon">${t.icon}</span>
+          <span class="filter-label">${escapeHtml(t.label)}</span>
+          <span class="filter-count">${count}</span>
+        </button>
+      `;
+    }).join("");
+  }
 }
 
 // Rendering (Minimalist Unified Feed)
 function renderAll() {
   updateMetricsAndCounters();
-  renderFilterButtons();
+  renderFilterBars();
   const filtered = getFilteredArticles();
   const sorted = sortArticles(filtered, state.sortBy);
 
@@ -645,9 +675,9 @@ function renderCardsInto(container, list) {
 
       return `
         <article class="feed-card ${hasRealImage ? "" : "feed-card-editorial"}" data-article-id="${escapeHtml(art.id)}">
-          <!-- Card Header: Source, Time, Save Button -->
+          <!-- Card Header: Source, Time, Category Pill, Save Button -->
           <div class="card-header">
-            <div class="card-author" data-filter-source="${escapeHtml(art.sourceId)}">
+            <div class="card-author">
               <span class="card-avatar">${badgeInfo.icon}</span>
               <div class="card-meta">
                 <span class="card-source-name">${escapeHtml(art.sourceName)}</span>
@@ -655,9 +685,14 @@ function renderCardsInto(container, list) {
                 <span class="card-time">${formatRelativeTime(art.publishedAt)}</span>
               </div>
             </div>
-            <button class="card-btn-icon ${isSaved ? "saved" : ""}" data-toggle-save="${escapeHtml(art.id)}" title="${isSaved ? "Guardada" : "Guardar"}">
-              ${isSaved ? "🔖" : "🤍"}
-            </button>
+            <div class="card-header-actions">
+              <span class="card-category-pill" data-filter-topic-name="${escapeHtml(art.category)}" title="Filtrar por temática: ${escapeHtml(art.category)}">
+                ${escapeHtml(art.category)}
+              </span>
+              <button class="card-btn-icon ${isSaved ? "saved" : ""}" data-toggle-save="${escapeHtml(art.id)}" title="${isSaved ? "Guardada" : "Guardar"}">
+                ${isSaved ? "🔖" : "🤍"}
+              </button>
+            </div>
           </div>
 
           ${
@@ -1005,12 +1040,34 @@ function bindEvents() {
 
   // Delegated clicks for cards and modals
   document.addEventListener("click", (e) => {
-    // Filter buttons click -> Modifica inmediatamente la lista de noticias
-    const filterBtnTrigger = e.target.closest("[data-filter-id]");
-    if (filterBtnTrigger) {
-      const filterId = filterBtnTrigger.getAttribute("data-filter-id");
-      state.activeFilter = filterId;
+    // Filtro Principal click (Todo, Chile, Mundo, Alto Impacto, Bajo el Radar, Guardadas)
+    const mainBtnTrigger = e.target.closest("[data-main-filter]");
+    if (mainBtnTrigger) {
+      const mainId = mainBtnTrigger.getAttribute("data-main-filter");
+      state.mainFilter = mainId;
       renderAll();
+      return;
+    }
+
+    // Subfiltro Temático click (Todas, Investigación, Política, Medioambiente, Ciencia, etc.)
+    const topicBtnTrigger = e.target.closest("[data-topic-filter]");
+    if (topicBtnTrigger) {
+      const topicId = topicBtnTrigger.getAttribute("data-topic-filter");
+      state.topicFilter = topicId;
+      renderAll();
+      return;
+    }
+
+    // Click directo en chip de categoría en tarjeta
+    const catPillTrigger = e.target.closest("[data-filter-topic-name]");
+    if (catPillTrigger) {
+      const catName = catPillTrigger.getAttribute("data-filter-topic-name");
+      const matched = TOPIC_FILTERS.slice(1).find((t) => t.matcher({ category: catName }));
+      if (matched) {
+        state.topicFilter = state.topicFilter === matched.id ? "all" : matched.id;
+        renderAll();
+        showToast(state.topicFilter === "all" ? "Todas las temáticas" : `Temática: ${matched.label}`);
+      }
       return;
     }
 
@@ -1027,23 +1084,6 @@ function bindEvents() {
       } else {
         showToast("Enlace: " + url);
       }
-      return;
-    }
-
-    // Filter by medium author click
-    const filterSourceTrigger = e.target.closest("[data-filter-source]");
-    if (filterSourceTrigger) {
-      const srcId = filterSourceTrigger.getAttribute("data-filter-source");
-      let targetFilter = srcId;
-      if (srcId === "interferencia") targetFilter = "interf";
-      if (srcId === "radiouchile") targetFilter = "uchile";
-      if (srcId === "laderasur") targetFilter = "ladera";
-      if (srcId === "propublica") targetFilter = "propub";
-      if (srcId === "eldiarioes") targetFilter = "eldiario";
-
-      state.activeFilter = state.activeFilter === targetFilter ? "all" : targetFilter;
-      renderAll();
-      showToast(state.activeFilter === "all" ? "Mostrando todas las fuentes" : "Filtrado por fuente");
       return;
     }
 
