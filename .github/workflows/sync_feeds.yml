@@ -1,0 +1,31 @@
+name: Pulso News Auto Sync
+
+on:
+  schedule:
+    # Run every 30 minutes 24/7
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch RSS Feeds
+        run: |
+          python scripts/fetch_feeds.py
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NOTICIAS_PERSONALES_CL }}'
+          channelId: live
+          projectId: noticias-personales-cl

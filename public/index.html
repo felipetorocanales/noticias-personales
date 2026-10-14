@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pulso Independiente | Noticias de Chile y el Mundo — Sin Farándula</title>
+  <meta name="description" content="Recopilador de noticias relevantes y bajo el radar de Chile y el mundo desde medios independientes. Cero espectáculo, cero farándula." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- Minimalist Clean Top Header -->
+  <header class="app-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-logo">Pulso<span class="brand-dot">.</span></span>
+      </div>
+
+      <!-- Minimalist Navigation Tabs -->
+      <nav class="nav-tabs" role="tablist" aria-label="Filtro principal">
+        <button class="nav-tab active" data-region="all">Todo</button>
+        <button class="nav-tab" data-region="chile">🇨🇱 Chile</button>
+        <button class="nav-tab" data-region="mundo">🌍 Mundo</button>
+        <button class="nav-tab" data-region="saved" title="Noticias guardadas">🔖</button>
+      </nav>
+
+      <!-- Quick Action Icons -->
+      <div class="header-actions">
+        <button class="btn-icon-nav" id="searchToggleBtn" title="Buscar noticias" aria-label="Buscar">🔍</button>
+        <button class="btn-icon-nav" id="themeToggleBtn" title="Cambiar tema" aria-label="Tema">☀️</button>
+      </div>
+    </div>
+
+
+
+    <!-- Collapsible Clean Search Drawer -->
+    <div class="search-drawer hidden" id="searchDrawer">
+      <div class="container search-drawer-inner">
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Buscar por tema, palabra clave o medio..."
+          autocomplete="off"
+        />
+        <button class="clear-search-btn hidden" id="clearSearchBtn" title="Limpiar">✕</button>
+        <button class="btn-close-search" id="closeSearchBtn" title="Cerrar búsqueda">✕</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Instagram Style Stories Reel -->
+  <section class="stories-section" aria-label="Historias destacadas">
+    <div class="container">
+      <div class="stories-reel" id="storiesReel">
+        <!-- Generado dinámicamente -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Feed Principal Unificado de Noticias -->
+  <main class="container feed-container">
+    <div class="feed-grid" id="gridViewContainer">
+      <!-- Tarjetas de noticias inyectadas dinámicamente -->
+    </div>
+  </main>
+
+  <!-- INSTAGRAM / FACEBOOK STORIES VIEWER MODAL -->
+  <div id="storiesViewerModal" class="stories-viewer-backdrop hidden" role="dialog" aria-modal="true" aria-label="Visor de Historias">
+    <div class="stories-viewer-container" id="storiesViewerContainer">
+      <!-- Segmented Progress Bars -->
+      <div class="story-progress-wrapper" id="storyProgressWrapper">
+        <!-- Generado dinámicamente según la historia activa -->
+      </div>
+
+      <!-- Top Header -->
+      <div class="story-viewer-header" id="storyViewerHeader">
+        <div class="story-header-left">
+          <div class="story-header-avatar" id="storyHeaderAvatar">🔥</div>
+          <div class="story-header-info">
+            <div class="story-header-title-row">
+              <span class="story-header-source" id="storyHeaderSource">Alto Impacto</span>
+              <span class="story-header-dot">·</span>
+              <span class="story-header-time" id="storyHeaderTime">Hace instantes</span>
+            </div>
+            <span class="story-header-category" id="storyHeaderCategory">Investigación y Poder</span>
+          </div>
+        </div>
+        <div class="story-header-actions">
+          <button class="story-icon-btn" id="storyPauseToggleBtn" type="button" title="Pausar / Reanudar" aria-label="Pausar">⏸</button>
+          <button class="story-icon-btn story-close-btn" id="storyCloseBtn" type="button" title="Cerrar historias" aria-label="Cerrar">✕</button>
+        </div>
+      </div>
+
+      <!-- Story Visual Slide -->
+      <div class="story-slide" id="storySlide">
+        <!-- Background Media -->
+        <div class="story-media-bg" id="storyMediaBg"></div>
+        <div class="story-gradient-overlay"></div>
+
+        <!-- Interactive Touch & Click Zones (Left = Prev, Right = Next) -->
+        <button class="story-touch-zone story-touch-prev" id="storyTouchPrev" type="button" aria-label="Historia anterior"></button>
+        <button class="story-touch-zone story-touch-next" id="storyTouchNext" type="button" aria-label="Historia siguiente"></button>
+
+        <!-- Story Foreground Content -->
+        <div class="story-content-body" id="storyContentBody">
+          <div class="story-badge-row">
+            <span class="story-tier-badge" id="storyTierBadge">🔥 MÁS RELEVANTE</span>
+            <span class="story-index-indicator" id="storyIndexIndicator">1 / 5</span>
+          </div>
+          <h2 class="story-title" id="storyTitle">Cargando historia...</h2>
+          <p class="story-summary" id="storySummary">Resumen de la noticia independiente seleccionada.</p>
+          <div class="story-why-box" id="storyWhyBox">
+            <span class="story-why-label">¿Por qué importa?</span>
+            <span class="story-why-text" id="storyWhyText">Investigación y relevancia pública verificada</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story Bottom Bar Actions -->
+      <div class="story-bottom-bar" id="storyBottomBar">
+        <button class="story-btn-read" id="storyReadFullBtn" type="button">
+          <span>Leer noticia completa</span>
+          <span class="story-btn-arrow">↗</span>
+        </button>
+        <button class="story-btn-icon" id="storyBookmarkBtn" type="button" title="Guardar noticia" aria-label="Guardar">
+          🔖
+        </button>
+        <button class="story-btn-icon" id="storyShareBtn" type="button" title="Compartir enlace" aria-label="Compartir">
+          🔗
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Minimalist Clean Footer -->
+  <footer class="site-footer">
+    <div class="container footer-clean">
+      <p>Pulso Independiente · Periodismo libre de farándula · 23 medios de Chile 🇨🇱 y el Mundo 🌍</p>
+    </div>
+  </footer>
+
+  <!-- MODAL 1: Article Reader ("Modo Lectura") -->
+  <div class="modal-backdrop hidden" id="readerModal" role="dialog" aria-modal="true" aria-labelledby="readerModalTitle">
+    <div class="modal-card modal-reader">
+      <div class="modal-header">
+        <div class="reader-meta-top" id="readerMetaTop"></div>
+        <button class="modal-close-btn" data-close-modal="readerModal" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="modal-body">
+        <h2 class="reader-title" id="readerModalTitle"></h2>
+        <div class="reader-badges" id="readerBadges"></div>
+        <div class="reader-image-wrap hidden" id="readerImageWrap">
+          <img id="readerImage" alt="" loading="lazy" />
+        </div>
+        <div class="reader-summary" id="readerSummary"></div>
+        <div class="reader-relevance-box" id="readerRelevanceBox"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" id="readerBookmarkBtn">🔖 Guardar para leer después</button>
+        <a class="btn-primary" id="readerExternalLink" href="#" target="_blank" rel="noopener noreferrer">
+          Leer artículo completo en la fuente original ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: Anti-Farándula Shield Inspector & Custom Keyword Blocker -->
+  <div class="modal-backdrop hidden" id="shieldModal" role="dialog" aria-modal="true" aria-labelledby="shieldModalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="shieldModalTitle">🛡️ Escudo Anti-Farándula y Espectáculo</h2>
+        <button class="modal-close-btn" data-close-modal="shieldModal" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-intro">
+          Todas las noticias entrantes (tanto del snapshot como de las actualizaciones RSS en vivo) pasan por un filtro estricto que bloquea cualquier nota de <strong>espectáculo, farándula, realities, vida de celebridades, horóscopo o prensa rosa</strong>.
+        </p>
+
+        <div class="shield-stats-row">
+          <div class="shield-stat">
+            <span class="shield-stat-val" id="modalBlockedCount">0</span>
+            <span class="shield-stat-lbl">Notas de espectáculo bloqueadas</span>
+          </div>
+          <div class="shield-stat">
+            <span class="shield-stat-val" id="modalActivePatternsCount">38+</span>
+            <span class="shield-stat-lbl">Patrones de bloqueo activos</span>
+          </div>
+        </div>
+
+        <div class="custom-filter-section">
+          <h3>Añadir palabra o tema bloqueado personalizado</h3>
+          <form id="addCustomBlockForm" class="inline-form">
+            <input type="text" id="customBlockInput" placeholder="Ej: fútbol, gala, influencer..." required />
+            <button type="submit" class="btn-primary">Bloquear término</button>
+          </form>
+          <div class="custom-words-list" id="customBlockedWordsList"></div>
+        </div>
+
+        <div class="blocked-log-section">
+          <h3>Términos bloqueados de raíz</h3>
+          <div class="default-tags-cloud" id="defaultBlockedTagsCloud"></div>
+        </div>
+
+        <div class="blocked-log-section" id="blockedExamplesSection">
+          <h3>Últimas notas interceptadas y omitidas</h3>
+          <ul class="blocked-examples-list" id="blockedExamplesList"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 3: Independent Sources Directory & Add Custom RSS -->
+  <div class="modal-backdrop hidden" id="sourcesModal" role="dialog" aria-modal="true" aria-labelledby="sourcesModalTitle">
+    <div class="modal-card modal-wide">
+      <div class="modal-header">
+        <h2 id="sourcesModalTitle">📡 Directorio de Fuentes Independientes y RSS</h2>
+        <button class="modal-close-btn" data-close-modal="sourcesModal" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-intro">
+          Priorizamos medios de investigación sin fines de lucro, cooperativas de periodistas, radios universitarias y prensa regional independiente de Chile y el mundo. Puedes activar/desactivar medios o agregar cualquier feed RSS personalizado.
+        </p>
+
+        <div class="custom-rss-box">
+          <h3>➕ Agregar nueva fuente RSS independiente</h3>
+          <form id="addCustomRssForm" class="rss-form-grid">
+            <input type="text" id="rssNameInput" placeholder="Nombre del medio (ej. Cooperativa / Ctxt)" required />
+            <input type="url" id="rssUrlInput" placeholder="URL del Feed RSS (https://...)" required />
+            <select id="rssRegionInput">
+              <option value="chile">🇨🇱 Chile</option>
+              <option value="mundo">🌍 Mundo</option>
+            </select>
+            <button type="submit" class="btn-primary">Añadir y Sincronizar</button>
+          </form>
+        </div>
+
+        <div class="sources-directory-grid" id="sourcesDirectoryGrid"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast notification -->
+  <div id="toastMessage" class="toast-popup hidden" role="status" aria-live="polite"></div>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>
