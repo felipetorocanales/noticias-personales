@@ -1,38 +1,40 @@
 :root,
 [data-theme="dark"] {
-  --bg-body: #141517;
-  --bg-surface: #1a1c20;
-  --bg-card: #212328;
-  --bg-card-hover: #282a30;
-  --bg-elevated: #2f3239;
-  --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.16);
+  /* Tinta & Greda Dark: Carbón Ahumado / Arcilla Oscura + Cobre Fundido + Verde Alerce */
+  --bg-body: #17181a;
+  --bg-surface: #1e2024;
+  --bg-card: #25282d;
+  --bg-card-hover: #2c2f36;
+  --bg-elevated: #33373f;
+  --border-subtle: rgba(235, 225, 210, 0.08);
+  --border-strong: rgba(235, 225, 210, 0.16);
 
-  --text-primary: #f5f5f3;
-  --text-secondary: #b2b6bf;
-  --text-muted: #727782;
+  --text-primary: #f4efe8;
+  --text-secondary: #b8b2a8;
+  --text-muted: #7c776e;
 
-  /* Rosa Maglia / Giro Pink (High Impact, Pulso Dot, Primary Editorial Badge) */
-  --accent-high: #e84a6e;
-  --accent-high-hover: #f06282;
-  --accent-high-bg: rgba(232, 74, 110, 0.14);
-  --accent-high-border: rgba(232, 74, 110, 0.4);
+  /* Cobre Fundido / Terracota Andina (Titulares destacados, Pulso dot, Notas de alto impacto) */
+  --accent-high: #c85a32;
+  --accent-high-hover: #d96b43;
+  --accent-high-bg: rgba(200, 90, 50, 0.15);
+  --accent-high-border: rgba(200, 90, 50, 0.42);
 
-  /* Monocle Steel / Editorial Slate */
-  --accent-low: #9aa5b5;
-  --accent-low-bg: rgba(154, 165, 181, 0.12);
-  --accent-low-border: rgba(154, 165, 181, 0.35);
+  /* Ocre / Ámbar Envejecido (Archivo, Bajo el Radar, Notas en profundidad) */
+  --accent-low: #d4a359;
+  --accent-low-bg: rgba(212, 163, 89, 0.12);
+  --accent-low-border: rgba(212, 163, 89, 0.38);
 
-  /* Alpine Gravel Green (Independent Journalism, Verified) */
-  --accent-indep: #2e8b57;
-  --accent-indep-hover: #3cb371;
-  --accent-indep-bg: rgba(46, 139, 87, 0.14);
-  --accent-indep-border: rgba(46, 139, 87, 0.4);
+  /* Verde Alerce / Bosque Cordillerano (Periodismo Independiente, Fuentes Verificadas) */
+  --accent-indep: #3d5a45;
+  --accent-indep-hover: #4e7359;
+  --accent-indep-bg: rgba(61, 90, 69, 0.22);
+  --accent-indep-border: rgba(61, 90, 69, 0.48);
 
-  --accent-danger: #e63946;
-  --accent-danger-bg: rgba(230, 57, 70, 0.12);
+  /* Rojo Lacre / Alerta */
+  --accent-danger: #bd2d2b;
+  --accent-danger-bg: rgba(189, 45, 43, 0.14);
 
-  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.35);
+  --shadow-card: 0 4px 22px rgba(0, 0, 0, 0.4);
   --radius-card: 4px;
   --radius-btn: 3px;
   --font-serif: 'Instrument Serif', Georgia, serif;
@@ -41,36 +43,37 @@
 }
 
 [data-theme="light"] {
-  --bg-body: #f5f4ef;
-  --bg-surface: #eae7de;
-  --bg-card: #ffffff;
-  --bg-card-hover: #faf9f5;
-  --bg-elevated: #dedacf;
-  --border-subtle: rgba(20, 21, 23, 0.1);
-  --border-strong: rgba(20, 21, 23, 0.22);
+  /* Tinta & Greda Light: Papel Manila / Arcilla Clara + Cobre Profundo + Alerce */
+  --bg-body: #f4f0e8;
+  --bg-surface: #e8e2d5;
+  --bg-card: #faf7f2;
+  --bg-card-hover: #ffffff;
+  --bg-elevated: #ddd5c4;
+  --border-subtle: rgba(50, 40, 30, 0.1);
+  --border-strong: rgba(50, 40, 30, 0.22);
 
-  --text-primary: #141517;
-  --text-secondary: #4a4d54;
-  --text-muted: #787d88;
+  --text-primary: #211e1a;
+  --text-secondary: #5c5549;
+  --text-muted: #8a8172;
 
-  --accent-high: #d8375c;
-  --accent-high-hover: #c2294c;
-  --accent-high-bg: rgba(216, 55, 92, 0.1);
-  --accent-high-border: rgba(216, 55, 92, 0.35);
+  --accent-high: #b34822;
+  --accent-high-hover: #9e3e1c;
+  --accent-high-bg: rgba(179, 72, 34, 0.1);
+  --accent-high-border: rgba(179, 72, 34, 0.35);
 
-  --accent-low: #64748b;
-  --accent-low-bg: rgba(100, 116, 139, 0.1);
-  --accent-low-border: rgba(100, 116, 139, 0.35);
+  --accent-low: #8c6228;
+  --accent-low-bg: rgba(140, 98, 40, 0.1);
+  --accent-low-border: rgba(140, 98, 40, 0.35);
 
-  --accent-indep: #1f6b40;
-  --accent-indep-hover: #165230;
-  --accent-indep-bg: rgba(31, 107, 64, 0.1);
-  --accent-indep-border: rgba(31, 107, 64, 0.35);
+  --accent-indep: #274732;
+  --accent-indep-hover: #1e3726;
+  --accent-indep-bg: rgba(39, 71, 50, 0.12);
+  --accent-indep-border: rgba(39, 71, 50, 0.35);
 
-  --accent-danger: #c5221f;
-  --accent-danger-bg: rgba(197, 34, 31, 0.1);
+  --accent-danger: #a8201e;
+  --accent-danger-bg: rgba(168, 32, 30, 0.1);
 
-  --shadow-card: 0 3px 12px rgba(20, 21, 23, 0.06);
+  --shadow-card: 0 3px 14px rgba(40, 30, 20, 0.08);
   --radius-card: 4px;
   --radius-btn: 3px;
 }
@@ -653,21 +656,21 @@ body {
 
 .pill-high {
   background: var(--accent-high);
-  color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 2px 8px rgba(232, 74, 110, 0.35);
+  color: #fff8f0;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 2px 8px rgba(200, 90, 50, 0.38);
 }
 
 .pill-low {
-  background: rgba(20, 21, 24, 0.88);
-  color: #b2b6bf;
-  border: 1px solid var(--border-strong);
+  background: rgba(23, 24, 26, 0.9);
+  color: var(--accent-low);
+  border: 1px solid var(--accent-low-border);
 }
 
 [data-theme="light"] .pill-low {
-  background: rgba(255, 255, 255, 0.92);
-  color: #4a4d54;
-  border: 1px solid var(--border-strong);
+  background: rgba(250, 247, 242, 0.95);
+  color: var(--accent-low);
+  border: 1px solid var(--accent-low-border);
 }
 
 .feed-card-editorial {
@@ -1941,13 +1944,13 @@ body {
    ======================================================== */
 .feed-card.highlight-target-card {
   outline: 2px solid var(--accent-high) !important;
-  box-shadow: 0 0 30px rgba(232, 74, 110, 0.45) !important;
+  box-shadow: 0 0 30px rgba(200, 90, 50, 0.5) !important;
   animation: pulseTargetCard 1.8s ease-in-out infinite alternate;
 }
 
 @keyframes pulseTargetCard {
   0% {
-    box-shadow: 0 0 15px rgba(232, 74, 110, 0.3);
+    box-shadow: 0 0 15px rgba(200, 90, 50, 0.35);
   }
   100% {
     box-shadow: 0 0 35px rgba(232, 74, 110, 0.7);
@@ -1962,7 +1965,7 @@ body {
   border-radius: 9999px;
   font-size: 0.72rem;
   font-weight: 600;
-  background: linear-gradient(45deg, rgba(232, 74, 110, 0.18), rgba(46, 139, 87, 0.18));
+  background: linear-gradient(45deg, rgba(200, 90, 50, 0.2), rgba(61, 90, 69, 0.2));
   border: 1px solid rgba(232, 74, 110, 0.35);
   color: var(--text-primary);
   margin-left: 6px;
@@ -1970,7 +1973,7 @@ body {
 }
 
 .instagram-deep-link-banner {
-  background: linear-gradient(90deg, #1c1e23, #252830);
+  background: linear-gradient(90deg, #1f2126, #292d35);
   border: 1px solid rgba(232, 74, 110, 0.35);
   border-left: 4px solid var(--accent-high);
   padding: 12px 18px;
