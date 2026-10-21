@@ -1,12 +1,24 @@
 import os
 import sys
 import json
+import subprocess
 import urllib.request
 import urllib.parse
+from datetime import datetime, timezone
 from generate_instagram_post import create_instagram_card
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
+
+# Cargar variables de entorno desde .env si existe
+env_path = os.path.join(os.path.dirname(__file__), "..", ".env")
+if os.path.exists(env_path):
+    with open(env_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip())
 
 HISTORY_FILE = "public/data/instagram_history.json"
 
@@ -75,13 +87,25 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
         print("="*70)
         return False
 
-    # 2. La URL pública de la imagen (Instagram Graph API requiere que la imagen sea accesible por HTTPS)
-    public_img_url = f"https://noticias-personales-cl.web.app/instagram_posts/{article['id']}.jpg"
+    # 2. Subir imagen a Cloud Storage para que Instagram la descargue en milisegundos
+    bucket_url = f"gs://pulso-instagram-media/{article['id']}.jpg"
+    public_img_url = f"https://storage.googleapis.com/pulso-instagram-media/{article['id']}.jpg"
+    print(f"[STORAGE] Subiendo imagen a Google Cloud Storage...")
+    try:
+        subprocess.run(["gcloud", "storage", "cp", output_img, bucket_url], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, shell=True)
+        print(f"[STORAGE] Imagen pública disponible en: {public_img_url}")
+    except Exception as e:
+        print(f"[STORAGE] Advertencia: Fallo gcloud cp, intentando fallback de hosting: {e}")
+        public_img_url = f"https://noticias-personales-cl.web.app/instagram_posts/{article['id']}.jpg"
+
     caption = generate_caption(article)
 
-    # Paso A: Crear el contenedor del medio en Meta
-    print(f"[META] Creando contenedor de medio en Instagram para cuenta {ig_account_id}...")
-    container_url = f"https://graph.facebook.com/v21.0/{ig_account_id}/media"
+    # Determinar endpoint según el tipo de token (Instagram Login vs Facebook Login)
+    api_base = "https://graph.instagram.com/v20.0" if ig_token.startswith("IG") else "https://graph.facebook.com/v21.0"
+
+    # Paso A: Crear el contenedor del medio en Meta / Instagram
+    print(f"[META] Creando contenedor de medio en Instagram ({api_base}) para cuenta {ig_account_id}...")
+    container_url = f"{api_base}/{ig_account_id}/media"
     container_data = urllib.parse.urlencode({
         "image_url": public_img_url,
         "caption": caption,
@@ -98,9 +122,28 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
         print(f"[ERROR] Error creando contenedor en Meta: {e}")
         return False
 
-    # Paso B: Publicar el contenedor
+    # Paso B: Esperar a que Meta termine de procesar el medio (status_code == 'FINISHED')
+    print(f"[META] Esperando procesamiento del medio en Instagram...")
+    import time
+    for _ in range(10):
+        time.sleep(2)
+        try:
+            status_url = f"{api_base}/{creation_id}?fields=status_code&access_token={ig_token}"
+            with urllib.request.urlopen(status_url, timeout=10) as s_resp:
+                s_data = json.loads(s_resp.read().decode())
+                status = s_data.get("status_code")
+                if status == "FINISHED":
+                    print("[META] Medio procesado y listo.")
+                    break
+                elif status == "ERROR":
+                    print("[ERROR] Meta reportó un error procesando la imagen.")
+                    return False
+        except Exception:
+            pass
+
+    # Paso C: Publicar el contenedor
     print(f"[META] Publicando post en el feed de Instagram...")
-    publish_url = f"https://graph.facebook.com/v21.0/{ig_account_id}/media_publish"
+    publish_url = f"{api_base}/{ig_account_id}/media_publish"
     publish_data = urllib.parse.urlencode({
         "creation_id": creation_id,
         "access_token": ig_token
@@ -118,7 +161,8 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
                 "articleId": article["id"],
                 "title": article["title"],
                 "postId": post_id,
-                "publishedAt": article.get("publishedAt")
+                "publishedAt": article.get("publishedAt"),
+                "timestamp": datetime.now(timezone.utc).isoformat()
             })
             save_history(history)
             return True
@@ -126,23 +170,89 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
         print(f"[ERROR] Error al publicar en Instagram: {e}")
         return False
 
-if __name__ == "__main__":
-    with open("public/data/initial-feeds.json", encoding="utf-8") as f:
-        data = json.load(f)
+PENDING_POST_FILE = "public/data/pending_instagram_post.json"
 
-    history = load_history()
+def get_candidate(data, history):
     published_ids = set(h["articleId"] for h in history)
-
     # Candidato prioritario: Ciclismo o Alto Impacto con foto real
-    candidate = None
-    for a in data["articles"]:
+    for a in data.get("articles", []):
         if a["id"] not in published_ids and a.get("image"):
             if a.get("category") == "Ciclismo y Deporte" or a.get("relevanceTier") == "alta":
-                candidate = a
-                break
+                return a
+    return None
 
-    if candidate:
-        print(f"Candidato seleccionado: [{candidate.get('category')}] {candidate.get('title')}")
-        publish_to_instagram(candidate)
-    else:
+def check_cooldown(history):
+    cooldown_hours = float(os.environ.get("INSTAGRAM_POST_COOLDOWN_HOURS", "3.0"))
+    force_post = os.environ.get("INSTAGRAM_FORCE_POST", "0") == "1"
+
+    if history and not force_post:
+        last_item = history[-1]
+        last_time_str = last_item.get("timestamp")
+        if last_time_str:
+            try:
+                last_time = datetime.fromisoformat(last_time_str)
+                now = datetime.now(timezone.utc)
+                elapsed_hours = (now - last_time).total_seconds() / 3600.0
+                if elapsed_hours < cooldown_hours:
+                    print(f"[COOLDOWN] La última publicación en Instagram fue hace {elapsed_hours:.1f}h. Frecuencia configurada: al menos {cooldown_hours}h entre posts.")
+                    return False
+            except Exception:
+                pass
+    return True
+
+def prepare_post():
+    if not os.path.exists("public/data/initial-feeds.json"):
+        return None
+    with open("public/data/initial-feeds.json", encoding="utf-8") as f:
+        data = json.load(f)
+    history = load_history()
+    if not check_cooldown(history):
+        return None
+    candidate = get_candidate(data, history)
+    if not candidate:
         print("No se encontraron notas nuevas pendientes de publicar.")
+        return None
+
+    print(f"Candidato preparado: [{candidate.get('category')}] {candidate.get('title')}")
+    output_img = f"public/instagram_posts/{candidate['id']}.jpg"
+    create_instagram_card(candidate, output_img)
+    print(f"[IMAGEN] Imagen de publicación lista en: {output_img}")
+
+    os.makedirs(os.path.dirname(PENDING_POST_FILE), exist_ok=True)
+    with open(PENDING_POST_FILE, "w", encoding="utf-8") as f:
+        json.dump(candidate, f, ensure_ascii=False, indent=2)
+    return candidate
+
+def publish_pending_post():
+    if not os.path.exists(PENDING_POST_FILE):
+        return False
+    with open(PENDING_POST_FILE, "r", encoding="utf-8") as f:
+        candidate = json.load(f)
+    success = publish_to_instagram(candidate)
+    if success and os.path.exists(PENDING_POST_FILE):
+        try:
+            os.remove(PENDING_POST_FILE)
+        except Exception:
+            pass
+    return success
+
+if __name__ == "__main__":
+    mode = sys.argv[1] if len(sys.argv) > 1 else "all"
+
+    if mode == "--prepare":
+        prepare_post()
+    elif mode == "--publish":
+        publish_pending_post()
+    else:
+        # Modo completo
+        history = load_history()
+        if not check_cooldown(history):
+            sys.exit(0)
+        with open("public/data/initial-feeds.json", encoding="utf-8") as f:
+            data = json.load(f)
+        cand = get_candidate(data, history)
+        if cand:
+            print(f"Candidato seleccionado: [{cand.get('category')}] {cand.get('title')}")
+            publish_to_instagram(cand)
+        else:
+            print("No se encontraron notas nuevas pendientes de publicar.")

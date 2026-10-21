@@ -6,20 +6,26 @@ from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 def get_font(font_name, size, fallback_name="arial.ttf"):
-    fonts_dir = "C:\\Windows\\Fonts"
-    path = os.path.join(fonts_dir, font_name)
-    if os.path.exists(path):
-        try:
-            return ImageFont.truetype(path, size)
-        except Exception:
-            pass
-    fallback_path = os.path.join(fonts_dir, fallback_name)
-    if os.path.exists(fallback_path):
-        try:
-            return ImageFont.truetype(fallback_path, size)
-        except Exception:
-            pass
-    return ImageFont.load_default()
+    possible_dirs = [
+        "C:\\Windows\\Fonts",
+        "/usr/share/fonts/truetype/dejavu",
+        "/usr/share/fonts/truetype/freefont",
+        "/usr/share/fonts/truetype",
+        "/usr/share/fonts"
+    ]
+    for d in possible_dirs:
+        if os.path.exists(d):
+            for candidate in [font_name, fallback_name, "DejaVuSerif-Bold.ttf", "DejaVuSans-Bold.ttf", "DejaVuSans.ttf"]:
+                p = os.path.join(d, candidate)
+                if os.path.exists(p):
+                    try:
+                        return ImageFont.truetype(p, size)
+                    except Exception:
+                        pass
+    try:
+        return ImageFont.load_default(size=size)
+    except Exception:
+        return ImageFont.load_default()
 
 def create_instagram_card(article, output_path="public/instagram_posts/preview.jpg"):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
