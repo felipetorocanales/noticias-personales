@@ -717,6 +717,15 @@ def fetch_all():
                 if len(summary) < 25:
                     summary = f"Nota publicada por {src['name']} ({src['type']}). Haz clic para leer el reportaje o cobertura completa en la fuente original."
 
+                # Descartar traducciones y duplicados multilingües de medios en español
+                # (ej: El Ciudadano publica copias automáticas en alemán /deustche/ e inglés /en/)
+                link = entry.get("link", "")
+                if src.get("region") == "chile" or src.get("id") in ["elciudadano", "elmostrador", "eldesconcierto", "ciper", "interferencia", "cooperativa"]:
+                    if re.search(r"/(deustche|deutsch|de|en|fr|it|pt)/", link, re.I):
+                        continue
+                    if re.search(r"\b(originalbeitrag|original article|article original)\b", summary, re.I):
+                        continue
+
                 cats = entry["categories"]
                 blocked, matched_word = is_farandula(title, summary, cats)
                 if blocked:

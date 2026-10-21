@@ -244,6 +244,17 @@ function formatRelativeTime(isoDate) {
 }
 
 
+function isTranslationDuplicate(art) {
+  const url = art.url || "";
+  const summary = (art.summary || "").toLowerCase();
+  const src = art.sourceId || "";
+  if (src === "elciudadano" || art.region === "chile") {
+    if (/\/(deustche|deutsch|de|en|fr|it|pt)\//i.test(url)) return true;
+    if (/\b(originalbeitrag|original article|article original)\b/i.test(summary)) return true;
+  }
+  return false;
+}
+
 function checkFarandula(title, summary) {
   const text = `${title} ${summary}`.toLowerCase();
   const allTerms = [...DEFAULT_BLOCKED_TERMS, ...state.customBlockedWords];
@@ -381,6 +392,7 @@ async function loadInitialSnapshot() {
     // Filter snapshot articles against any custom user blocked words
     const validArticles = [];
     for (const art of data.articles || []) {
+      if (isTranslationDuplicate(art)) continue;
       const check = checkFarandula(art.title, art.summary);
       if (check.blocked) {
         state.totalBlockedCount++;
@@ -508,6 +520,7 @@ function applyFreshSnapshot(data) {
 
   const validArticles = [];
   for (const art of data.articles || []) {
+    if (isTranslationDuplicate(art)) continue;
     const check = checkFarandula(art.title, art.summary);
     if (!check.blocked) {
       validArticles.push(art);
@@ -704,6 +717,9 @@ function getFilteredArticles() {
   return state.articles.filter((art) => {
     // Re-check custom blocked words dynamically
     if (checkFarandula(art.title, art.summary).blocked) return false;
+
+    // Descartar traducciones y duplicados multilingües
+    if (isTranslationDuplicate(art)) return false;
 
     // Filtro Principal (Todo, Chile, Mundo, Alto Impacto, Bajo el Radar, Guardadas)
     if (!currentMain.matcher(art)) return false;
