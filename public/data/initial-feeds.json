@@ -1,11 +1,21 @@
 {
-  "generatedAt": "2026-10-21T21:50:53.735017+00:00",
+  "generatedAt": "2026-10-21T22:01:55.599889+00:00",
   "totalArticles": 259,
-  "totalBlockedFarandula": 13,
+  "totalBlockedFarandula": 16,
   "blockedExamples": [
     {
       "title": "El fútbol chileno juega cuando lo dejan",
       "source": "Interferencia",
+      "reason": "fútbol"
+    },
+    {
+      "title": "Emily Wittbrodt llega a la Plataforma Cultural de la U. de Chile con un concierto gratuito",
+      "source": "Radio U. de Chile",
+      "reason": "universidad de chile"
+    },
+    {
+      "title": "Una oportunidad más allá del horizonte",
+      "source": "Radio U. de Chile",
       "reason": "fútbol"
     },
     {
@@ -59,14 +69,14 @@
       "reason": "colo colo"
     },
     {
-      "title": "El Team Chile de ciclismo femenino se tituló campeón en la vuelta a Costa Rica - Universidad de Chile",
+      "title": "Movilidad urbana y convivencia vial en bicicleta - Universidad de Chile",
       "source": "Ciclismo Chile",
       "reason": "universidad de chile"
     },
     {
-      "title": "Informe desde París: Tras el 4-2 , Barcelona y PSG se enfocan en sus próximos duelos",
-      "source": "France 24 Español",
-      "reason": "fútbol"
+      "title": "El Team Chile de ciclismo femenino se tituló campeón en la vuelta a Costa Rica - Universidad de Chile",
+      "source": "Ciclismo Chile",
+      "reason": "universidad de chile"
     }
   ],
   "sources": [
@@ -380,7 +390,7 @@
       "independent": true,
       "status": "ok",
       "count": 10,
-      "blocked": 1
+      "blocked": 3
     },
     {
       "id": "resumen",
@@ -470,7 +480,7 @@
       "independent": true,
       "status": "ok",
       "count": 10,
-      "blocked": 1
+      "blocked": 2
     },
     {
       "id": "ciclo21",
@@ -615,6 +625,168 @@
   ],
   "articles": [
     {
+      "id": "diariouach-69",
+      "title": "En Valdivia se llevó a cabo el Primer Simposio de Laboratorios de Dendrocronología y Ciencias Ambientales de Chile",
+      "summary": "Por primera vez en Chile se reunieron en un evento científico la totalidad de…",
+      "url": "https://diario.uach.cl/en-valdivia-se-llevo-a-cabo-el-primer-simposio-de-laboratorios-de-dendrocronologia-y-ciencias-ambientales-de-chile/",
+      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/IMG_2810.jpg",
+      "publishedAt": "2026-10-21T22:01:25+00:00",
+      "sourceId": "diariouach",
+      "sourceName": "Diario UACh (Valdivia)",
+      "sourceType": "Regional / Ciencia (Sur)",
+      "sourceSite": "https://diario.uach.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Medioambiente y Territorio",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 57,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "radiouchile-30",
+      "title": "Brasil: denuncias cruzadas y encuestas ajustadas marcan recta final de la elección presidencial",
+      "summary": "A cuatro días de la segunda vuelta en Brasil, Lula reduce su distancia con Flávio Bolsonaro en las encuestas, mientras la judicialización electoral y los ataques personales intensifican la polarización en el país. La entrada Brasil: denuncias cruzadas y encuestas ajustadas marcan recta final de la elección presidencial se publicó...",
+      "url": "https://radio.uchile.cl/2026/10/21/brasil-denuncias-cruzadas-y-encuestas-ajustadas-marcan-recta-final-de-la-eleccion-presidencial/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/09/01172824/elecciones-en-brasil.png",
+      "publishedAt": "2026-10-21T22:00:48+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 84,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "diariouach-70",
+      "title": "El Campus Patagonia UACh y Huawei Chile realizarán seminario clave sobre transición energética y descarbonización industrial en Aysén",
+      "summary": "Con el objetivo de abordar los desafíos de la matriz energética en la Patagonia…",
+      "url": "https://diario.uach.cl/el-campus-patagonia-uach-y-huawei-chile-realizaran-seminario-clave-sobre-transicion-energetica-y-descarbonizacion-industrial-en-aysen/",
+      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/seminario-Huawei-enero-26.jpeg",
+      "publishedAt": "2026-10-21T22:00:11+00:00",
+      "sourceId": "diariouach",
+      "sourceName": "Diario UACh (Valdivia)",
+      "sourceType": "Regional / Ciencia (Sur)",
+      "sourceSite": "https://diario.uach.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 57,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "diariouach-71",
+      "title": "Agricultores de Argentina conocieron trabajo de la UACh en cultivo de cebada",
+      "summary": "Agricultores de Argentina visitaron la Estación Experimental Agropecuaria Austral de la Universidad Austral de…",
+      "url": "https://diario.uach.cl/agricultores-de-argentina-conocieron-trabajo-de-la-uach-en-cultivo-de-cebada/",
+      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/CREA-Ranqueles-08.jpeg",
+      "publishedAt": "2026-10-21T21:59:22+00:00",
+      "sourceId": "diariouach",
+      "sourceName": "Diario UACh (Valdivia)",
+      "sourceType": "Regional / Ciencia (Sur)",
+      "sourceSite": "https://diario.uach.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 61,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "diariouach-72",
+      "title": "Regresa el Cine Club con los estrenos de “Digger” y “Fatherland”",
+      "summary": "El reconocido actor Tom Cruise llega a la pantalla del Cine Club UACh con…",
+      "url": "https://diario.uach.cl/regresa-el-cine-club-con-los-estrenos-de-digger-y-fatherland/",
+      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/Digger-23-octubre-1_01.png",
+      "publishedAt": "2026-10-21T21:58:31+00:00",
+      "sourceId": "diariouach",
+      "sourceName": "Diario UACh (Valdivia)",
+      "sourceType": "Regional / Ciencia (Sur)",
+      "sourceSite": "https://diario.uach.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Cultura y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 65,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "diariouach-73",
+      "title": "UACh invita a postular a “Foro ACCESS Chile-Suecia 2027”",
+      "summary": "La Universidad Austral de Chile participará por primera vez en el “Foro ACCESS Chile-Suecia…",
+      "url": "https://diario.uach.cl/uach-invita-a-postular-a-foro-access-chile-suecia-2027/",
+      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/2027ACCESSForum.webp",
+      "publishedAt": "2026-10-21T21:57:45+00:00",
+      "sourceId": "diariouach",
+      "sourceName": "Diario UACh (Valdivia)",
+      "sourceType": "Regional / Ciencia (Sur)",
+      "sourceSite": "https://diario.uach.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 61,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "radiouchile-31",
+      "title": "Tambalea el acuerdo administrativo del Senado tras la remoción de Pedro Araya (PPD) de la Comisión de Constitución",
+      "summary": "Los senadores Squella (Republicanos) y Longton (RN) acusan un incumplimiento de lo pactado entre las bancadas, mientras el Socialismo Democrático defendió que la designación de Vlado Mirosevic (PR) no invalida el documento firmado. La entrada Tambalea el acuerdo administrativo del Senado tras la remoción de Pedro Araya (PPD) de la...",
+      "url": "https://radio.uchile.cl/2026/10/21/tambalea-el-acuerdo-administrativo-del-senado-tras-la-remocion-de-pedro-araya-ppd-de-la-comision-de-constitucion/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/21181205/pedro-araya.jpg",
+      "publishedAt": "2026-10-21T21:56:28+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elciudadano-98",
+      "title": "ONU alerta que El Niño es «una bola de demolición» que arrasará con todo a su paso y libera US$ 50 millones para 11 países «en primera línea»",
+      "summary": "El Ciudadano Dos agencias de la ONU lanzaron este miércoles 21/10 un enérgico llamado para obtener «asistencia inmediata» para las comunidades que ya están sufriendo el impacto del patrón climático de El Niño más fuerte registrado en la historia. «El actual episodio de El Niño podría ser de una intensidad sin precedentes, literalmente...",
+      "url": "https://www.elciudadano.com/medio-ambiente/onu-alerta-que-el-nino-es-una-bola-de-demolicion-que-arrasara-con-todo-a-su-paso-y-libera-us-50-millones-para-11-paises-en-primera-linea/10/21/",
+      "image": "https://www.elciudadano.com/wp-content/uploads/2024/05/lluvias-brasil.jpg",
+      "publishedAt": "2026-10-21T21:56:28+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "fastcheck-20",
+      "title": "\"Fucktop\", el libro de Rodrigo Topelberg sobre el caso Factop y su particular mirada sobre el poder en Chile",
+      "summary": "\"Si lo que voy a contar fuera un chiste, el cuento podría comenzar con cuatro ucranianas, tres polacas y dos argentinas, todas juntas en un yate. Sobre la cubierta, un abogado vinculado a la política y un par de empresarios judíos.\" Así comienza parte del libro de Rodrigo Topelberg que escribió durante su estadía en Capitán Yáber tras...",
+      "url": "https://www.fastcheck.cl/2026/10/21/fucktop-el-libro-de-rodrigo-topelberg-sobre-el-caso-factop/",
+      "image": "https://www.fastcheck.cl/media/images/2026/10/fucktop-el-libro-de-rodrigo-topelberg-sobre-el-caso-factop-y-su-particular-mirada-sobre-el-poder-en-chile.webp",
+      "publishedAt": "2026-10-21T21:55:00+00:00",
+      "sourceId": "fastcheck",
+      "sourceName": "Fast Check CL",
+      "sourceType": "Fact-Checking Independiente",
+      "sourceSite": "https://www.fastcheck.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Cultura y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 81,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "cooperativa-102",
       "title": "Champions: Aston Villa batió a Viking FK y mantuvo su campaña perfecta",
       "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -633,7 +805,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-30",
+      "id": "radiouchile-32",
       "title": "¿Fin de los problemas comunicacionales? Las dudas ante la llegada de un nuevo vocero a La Moneda",
       "summary": "El subsecretario de Gobierno, Gonzalo Arenas, promete un estilo directo y pedagógico. La oposición cuestiona que su llegada resuelva las dificultades del Ejecutivo y analistas apuntan a la necesidad de respaldo político y las atribuciones del cargo. La entrada ¿Fin de los problemas comunicacionales? Las dudas ante la llegada de un...",
       "url": "https://radio.uchile.cl/2026/10/21/fin-de-los-problemas-comunicacionales-las-dudas-ante-la-llegada-de-un-nuevo-vocero-a-la-moneda/",
@@ -723,7 +895,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elciudadano-98",
+      "id": "elciudadano-99",
       "title": "Investigadores chilenos lanzan pionera plataforma interactiva dedicada a los geoglifos de la Región de Antofagasta",
       "summary": "El Ciudadano A contar de octubre de 2026 y sin importar en qué lugar del mundo se encuentre, cualquier persona podrá visitar los geoglifos del Desierto de Atacama. Este viaje virtual, pero lleno de información y visualidad, es posible gracias al proyecto geoglifos.cl, impulsado por expertas y expertos de la Fundación Desierto de...",
       "url": "https://www.elciudadano.com/chile/investigadores-chilenos-lanzan-pionera-plataforma-interactiva-dedicada-a-los-geoglifos-de-la-region-de-antofagasta/10/21/",
@@ -761,7 +933,7 @@
     {
       "id": "cooperativa-106",
       "title": "¡Otro hito de Pellegrini! Real Betis encadenó su tercera victoria en la Liga de Campeones",
-      "summary": "Real Betis , equipo que dirige el chileno Manuel Pellegrini , anotó un hito en la Liga de Campeones al extender su inicio perfecto con un gran triunfo 1-0 sobre Feyenoord en La Cartuja, por la tercera fecha del torneo europeo. El cuadro andaluz dominó las acciones durante una primera mitad en la que Troy Parrott no pudo superar al...",
+      "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes Real Betis , equipo que dirige el chileno Manuel Pellegrini , anotó un hito en la Liga de Campeones al extender su inicio perfecto con un gran triunfo 1-0 sobre Feyenoord en La Cartuja, por la tercera fecha del torneo europeo. El cuadro andaluz dominó las acciones durante una...",
       "url": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-campeones/otro-hito-de-pellegrini-real-betis-encadeno-su-tercera-victoria-en-la/2026-10-21/181023.html",
       "image": "https://www.cooperativa.cl/noticias/site/artic/20261021/imag/foto_0000000220261021181023.png",
       "publishedAt": "2026-10-21T21:10:23+00:00",
@@ -773,11 +945,11 @@
       "independent": false,
       "category": "Ciencia, Salud y Futuro",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 78,
+      "relevanceScore": 74,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elciudadano-99",
+      "id": "elciudadano-100",
       "title": "Rectora de la U. de Chile pide al Gobierno reponer financiamiento de la Gran Sala Sinfónica Nacional: Fue eliminado del Presupuesto 2027",
       "summary": "El Ciudadano La rectora de la U. de Chile, Alejandra Mizala, junto a la directora del Centro de Extensión Artística y Cultural (CEAC), Dominique Thomann, solicitaron la reposición del aporte incluido en 2026 en la partida del Ministerio de las Culturas, que permitía la operación del recinto y que fue eliminado para 2027. Luego de la...",
       "url": "https://www.elciudadano.com/chile/rectora-de-la-u-de-chile-pide-al-gobierno-reponer-financiamiento-de-la-gran-sala-sinfonica-nacional-fue-eliminado-del-presupuesto-2027/10/21/",
@@ -795,7 +967,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-69",
+      "id": "diariouach-74",
       "title": "Consejo Académico UACh aprobó denominación del Auditorio Carlos Amtmann Moyano ubicado en el Edificio Nahmías",
       "summary": "El Rector UACh (2002-2006) Carlos Amtmann Moyano será reconocido con la denominación del actual…",
       "url": "https://diario.uach.cl/consejo-academico-uach-aprobo-denominacion-del-auditorio-carlos-amtmann-moyano-ubicado-en-el-edificio-nahmias/",
@@ -903,7 +1075,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elciudadano-100",
+      "id": "elciudadano-101",
       "title": "(VIDEO) Las ‘cabras bomberas’ de la UdeC: Iniciativa ecofriendly contra incendios",
       "summary": "El Ciudadano Una singular brigada de cabras en la Universidad de Concepción actúa como cortafuegos naturales, controlando maleza y material inflamable en sus cerros para prevenir incendios forestales. Este método sustentable, sin químicos ni costos elevados, resalta el poder de la gestión comunitaria y ecológica en la protección...",
       "url": "https://www.elciudadano.com/reels/video-las-cabras-bomberas-de-la-udec-iniciativa-ecofriendly-contra-incendios/10/21/",
@@ -937,24 +1109,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 80,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "elciudadano-101",
-      "title": "Recortan los derechos, pero no la voz",
-      "summary": "El Ciudadano Por Javiera Leal Villalón, cientista política, encargada Unidad de Estudios Fundación Voz Pública “Fue una marcha preventiva”, dijo el Presidente José Antonio Kast al día siguiente de que miles de estudiantes, profesores y trabajadores llenaran la Alameda bajo el lema “Ni un peso menos para la educación” y se preguntó por...",
-      "url": "https://www.elciudadano.com/chile/recortan-los-derechos-pero-no-la-voz/10/21/",
-      "image": "https://www.elciudadano.com/wp-content/uploads/2026/05/carta-confech.jpeg",
-      "publishedAt": "2026-10-21T20:42:35+00:00",
-      "sourceId": "elciudadano",
-      "sourceName": "El Ciudadano",
-      "sourceType": "Prensa Alternativa",
-      "sourceSite": "https://www.elciudadano.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 80,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "cooperativa-107",
@@ -1011,7 +1165,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "fastcheck-20",
+      "id": "fastcheck-21",
       "title": "Diputada Javiera Rodríguez votó en contra de una resolución sobre el Estrecho de Magallanes, no de un proyecto de ley sobre su soberanía",
       "summary": "En el marco de las controversias entre Chile y Argentina por el Estrecho de Magallanes circuló una publicación afirmando que la diputada Javiera Rodriguez votó en contra de la ley que busca proteger su soberanía. Fast Check califica esto como #Engañoso, ya que la parlamentaria en realidad votó en contra de una resolución de la Cámara...",
       "url": "https://www.fastcheck.cl/2026/10/21/diputada-javiera-rodriguez-voto-en-contra-de-una-resolucion-sobre-el-estrecho-de-magallanes-no-de-un-proyecto-de-ley-sobre-su-soberania/",
@@ -1029,7 +1183,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-31",
+      "id": "radiouchile-33",
       "title": "El lado invisible de la arquitectura: Estación Mapocho inaugura exposición fotográfica de Patricio Gómez",
       "summary": "La muestra “El Alma de la Forma: Anatomía Urbana”, reúne 25 imágenes en blanco y negro tomadas en distintas ciudades del mundo. La exposición estará disponible hasta el 6 de diciembre en la Galería Bicentenario del centro cultural. La entrada El lado invisible de la arquitectura: Estación Mapocho inaugura exposición fotográfica de...",
       "url": "https://radio.uchile.cl/2026/10/21/el-lado-invisible-de-la-arquitectura-estacion-mapocho-inaugura-exposicion-fotografica-de-patricio-gomez/",
@@ -1047,7 +1201,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-32",
+      "id": "radiouchile-34",
       "title": "José Miguel Izquierdo retrata la soledad en el Metro: “Estamos juntos, pero solos”",
       "summary": "A través de una serie fotográfica en blanco y negro, el periodista y fotógrafo explora el anonimato, la desconexión digital y las relaciones humanas en este espacio de tránsito de la ciudad. Exposición disponible en el Centro Cultural Las Condes. La entrada José Miguel Izquierdo retrata la soledad en el Metro: “Estamos juntos, pero...",
       "url": "https://radio.uchile.cl/2026/10/21/jose-miguel-izquierdo-retrata-la-soledad-en-el-metro-estamos-juntos-pero-solos/",
@@ -1101,7 +1255,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-33",
+      "id": "radiouchile-35",
       "title": "Sobreestimación de producción en Codelco: CEI apunta a ejecutivos y emite recomendaciones",
       "summary": "El informe de la instancia fue aprobado por unanimidad y despachado a la Sala. El texto pide a la Cámara de Diputados respaldar que se trata de un hecho “de la mayor gravedad” y que \"el daño a la reputación de la corporación debe ser resarcido\". La entrada Sobreestimación de producción en Codelco: CEI apunta a ejecutivos y emite...",
       "url": "https://radio.uchile.cl/2026/10/21/sobreestimacion-de-produccion-en-codelco-cei-apunta-a-ejecutivos-y-emite-recomendaciones/",
@@ -1119,7 +1273,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-70",
+      "id": "diariouach-75",
       "title": "Innovador cómic creado por académicas UACh valora la cultura sorda e ilustra interacción en Lengua de Señas Chilena",
       "summary": "Un aporte inédito a la educación inclusiva y la literatura del país es la…",
       "url": "https://diario.uach.cl/innovador-comic-creado-por-academicas-uach-valora-la-cultura-sorda-e-ilustra-interaccion-en-lengua-de-senas-chilena/",
@@ -1245,7 +1399,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "diariouach-71",
+      "id": "diariouach-76",
       "title": "Segunda caminata por el Cáncer de Mama en UACh",
       "summary": "En una mañana lluviosa y primaveral de Valdivia junto a funcionarios y funcionarias, estudiantes…",
       "url": "https://diario.uach.cl/segunda-caminata-por-el-cancer-de-mama-en-uach/",
@@ -1335,7 +1489,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "radiouchile-34",
+      "id": "radiouchile-36",
       "title": "Defensoría de la Niñez exige al Ministerio de Justicia explicar 56 rebajas de condena por delitos sexuales contra menores de edad",
       "summary": "El organismo solicitará los antecedentes del cambio de criterio y evaluará acciones dentro de sus atribuciones legales. \"Detrás de estas condenas hay víctimas que tienen derecho a la protección\", dijo el defensor Anuar Quesille. La entrada Defensoría de la Niñez exige al Ministerio de Justicia explicar 56 rebajas de condena por...",
       "url": "https://radio.uchile.cl/2026/10/21/defensoria-de-la-ninez-exige-al-ministerio-de-justicia-explicar-56-rebajas-de-condena-por-delitos-sexuales-contra-menores-de-edad/",
@@ -1407,7 +1561,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "radiouchile-35",
+      "id": "radiouchile-37",
       "title": "Calama: la riqueza minera y el abandono de quienes la sostienen",
       "summary": "Calama, conocida como la “capital minera del mundo”, sigue sin un Plan de Descontaminación Atmosférica vigente. Declarada zona saturada por material particulado MP10 en 2009, la ciudad y su área circundante han visto pasar gobiernos, anuncios y nuevas inversiones sin que el Estado asegure una respuesta efectiva a la contaminación. En...",
       "url": "https://radio.uchile.cl/2026/10/21/calama-la-riqueza-minera-y-el-abandono-de-quienes-la-sostienen/",
@@ -1515,7 +1669,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-72",
+      "id": "diariouach-77",
       "title": "Académico UACh explicó el impacto ambiental y beneficios de los polímeros",
       "summary": "El Dr. Mario Flores, académico del Instituto de Ciencias Químicas de la Facultad de…",
       "url": "https://diario.uach.cl/academico-uach-explico-el-impacto-ambiental-y-beneficios-de-los-polimeros/",
@@ -1530,60 +1684,6 @@
       "category": "Ciencia, Salud y Futuro",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 61,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "diariouach-73",
-      "title": "Alumni invita a votar por docente de Paillaco finalista del Premio Profesor/a Bicentenario 2026",
-      "summary": "Tatiana Mellado Vásquez (36) es oriunda de Paillaco, estudió en la Escuela Olegario Morales…",
-      "url": "https://diario.uach.cl/alumni-invita-a-votar-por-docente-de-paillaco-finalista-del-premio-profesor-a-bicentenario-2026/",
-      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/Tatiana01.png",
-      "publishedAt": "2026-10-21T17:14:12+00:00",
-      "sourceId": "diariouach",
-      "sourceName": "Diario UACh (Valdivia)",
-      "sourceType": "Regional / Ciencia (Sur)",
-      "sourceSite": "https://diario.uach.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 65,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "diariouach-74",
-      "title": "Denuncias falsas",
-      "summary": "En su carta del 13 de octubre pasado, publicada en El Mercurio, la senadora…",
-      "url": "https://diario.uach.cl/denuncias-falsas/",
-      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/Denuncias-falsas.png",
-      "publishedAt": "2026-10-21T17:13:21+00:00",
-      "sourceId": "diariouach",
-      "sourceName": "Diario UACh (Valdivia)",
-      "sourceType": "Regional / Ciencia (Sur)",
-      "sourceSite": "https://diario.uach.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 70,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "diariouach-75",
-      "title": "Primera versión de SaludFest + Puertas Abiertas UACh reunió a estudiantes de enseñanza media",
-      "summary": "Con una jornada de experiencias prácticas, recorridos por espacios universitarios y actividades interactivas, la…",
-      "url": "https://diario.uach.cl/primera-version-de-saludfest-puertas-abiertas-uach-reunio-a-estudiantes-de-ensenanza-media/",
-      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/image00200.jpeg",
-      "publishedAt": "2026-10-21T17:07:02+00:00",
-      "sourceId": "diariouach",
-      "sourceName": "Diario UACh (Valdivia)",
-      "sourceType": "Regional / Ciencia (Sur)",
-      "sourceSite": "https://diario.uach.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 65,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
@@ -1623,7 +1723,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-36",
+      "id": "radiouchile-38",
       "title": "Ministro Arrau destaca fiscalización masiva a extranjeros: PDI identificó a 347 en situación irregular",
       "summary": "El procedimiento, desarrollado por la Policía de Investigaciones (PDI) entre este lunes y martes, terminó con más de 2 mil 55 personas controladas. 39 personas que tenían una expulsión notificada fueron detenidas. La entrada Ministro Arrau destaca fiscalización masiva a extranjeros: PDI identificó a 347 en situación irregular se...",
       "url": "https://radio.uchile.cl/2026/10/21/ministro-arrau-destaca-fiscalizacion-masiva-a-extranjeros-pdi-identifico-a-347-en-situacion-irregular/",
@@ -1641,25 +1741,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-76",
-      "title": "Sede Puerto Montt UACh firmó Convenio de Desempeño para el periodo 2026–2028",
-      "summary": "Este martes 20 de octubre, en el Salón Jorge Millas de la Universidad Austral…",
-      "url": "https://diario.uach.cl/sede-puerto-montt-uach-firmo-convenio-de-desempeno-para-el-periodo-2026-2028/",
-      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/1-3-scaled.jpg",
-      "publishedAt": "2026-10-21T16:33:14+00:00",
-      "sourceId": "diariouach",
-      "sourceName": "Diario UACh (Valdivia)",
-      "sourceType": "Regional / Ciencia (Sur)",
-      "sourceSite": "https://diario.uach.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 61,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "radiouchile-37",
+      "id": "radiouchile-39",
       "title": "Disturbios en Francia: Macron rechaza los comentarios “estúpidos” de mandatarios extranjeros",
       "summary": "Varios dirigentes, como el presidente estadounidense, Donald Trump, el primer ministro israelí, Benjamin Netanyahu, y líderes ultraderechistas en Europa abordaron los recientes episodios de violencia que vivió la segunda mayor economía de la UE. La entrada Disturbios en Francia: Macron rechaza los comentarios “estúpidos” de...",
       "url": "https://radio.uchile.cl/2026/10/21/disturbios-en-francia-macron-rechaza-los-comentarios-estupidos-de-mandatarios-extranjeros/",
@@ -1695,7 +1777,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-21",
+      "id": "fastcheck-22",
       "title": "Video de manifestación en Argentina circula como si mostrara protestas por aniversario del estallido social en Chile",
       "summary": "En el marco del aniversario del estallido social, circuló un video que mostraría las manifestaciones y enfrentamientos con carabineros. Fast Check calificó esto como #Falso, ya que el registro en realidad corresponde a protestas realizadas en Argentina contra la aprobación de un proyecto de ley, por lo que no guarda relación con Chile.",
       "url": "https://www.fastcheck.cl/2026/10/21/video-de-manifestacion-en-argentina-circula-como-si-mostrara-protestas-por-aniversario-del-estallido-social-en-chile/",
@@ -1803,24 +1885,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-38",
-      "title": "Ante suspensión de clases: ¿qué opciones tienes en el trabajo si no cuentas con quién cuidar a tu hijo?",
-      "summary": "La normativa no concede un permiso pagado automático; teletrabajo, ajustes de horario o acuerdos con el empleador son alternativas que dependen de cada caso y deben respaldarse por escrito. La entrada Ante suspensión de clases: ¿qué opciones tienes en el trabajo si no cuentas con quién cuidar a tu hijo? se publicó primero en Diario y...",
-      "url": "https://radio.uchile.cl/2026/10/21/ante-suspension-de-clases-que-opciones-tienes-en-el-trabajo-si-no-tienes-con-quien-dejar-a-tu-hijo/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/07/27090324/lluvias-6.jpg",
-      "publishedAt": "2026-10-21T15:56:46+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "alta",
-      "relevanceScore": 84,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "timeline-64",
       "title": "Feria en Calama conecta a comités de agua rural con proveedores y nuevas tecnologías",
       "summary": "Con el objetivo de fortalecer la gestión y operación de los Servicios Sanitarios Rurales (SSR), el Ministerio de Obras Públicas, a través de la Dirección de Obras Hidráulicas (DOH), realizó en Calama una Feria de Proveedores que reunió a representantes de la mayoría de los 19 comités de agua potable rural existentes en la Región […]...",
@@ -1875,24 +1939,6 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "diariouach-77",
-      "title": "Empresas de alumni UACh destacan en Master Pitch Los Ríos 2026",
-      "summary": "Dos empresas de alumni UACh destacaron en la gran final de Master Pitch Los…",
-      "url": "https://diario.uach.cl/empresa-de-alumni-uach-destaca-en-master-pitch-los-rios-2026/",
-      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/alumni-pitch-octubre-2026.jpg-scaled.jpeg",
-      "publishedAt": "2026-10-21T15:44:51+00:00",
-      "sourceId": "diariouach",
-      "sourceName": "Diario UACh (Valdivia)",
-      "sourceType": "Regional / Ciencia (Sur)",
-      "sourceSite": "https://diario.uach.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 65,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "esciclismo-145",
       "title": "\"Se rueda\", las películas que convirtieron la bicicleta en protagonista, reunidas en un libro",
       "summary": "Libros de Ruta publicará el 23 de octubre \"Se rueda. El ciclismo y las bicicletas en el cine\", un libro de Jordi Rodríguez Ruiz que repasa más de un siglo de películas en las que...",
@@ -1945,24 +1991,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 91,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "radiouchile-39",
-      "title": "Senapred reporta 31 damnificados y 179 albergados por sistema frontal",
-      "summary": "La directora nacional del organismo, Alicia Cebrián, informó que el evento meteorológico mantiene a 40 personas aisladas en Los Vilos y ha dejado tres viviendas destruidas. La entrada Senapred reporta 31 damnificados y 179 albergados por sistema frontal se publicó primero en Diario y Radio Universidad Chile .",
-      "url": "https://radio.uchile.cl/2026/10/21/senapred-reporta-31-damnificados-y-179-albergados-por-sistema-frontal/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/21113054/lluvia-1.jpg",
-      "publishedAt": "2026-10-21T15:34:15+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "elmostrador-87",
@@ -2199,7 +2227,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-22",
+      "id": "fastcheck-23",
       "title": "Para soñar con hijos, primero hay que tener futuro",
       "summary": "Imaginar un futuro para los hijos se vuelve más difícil en un mundo amenazado por la crisis climática. Paula Castillo analiza cómo la sequía, los incendios y las inundaciones influyen en la decisión de las nuevas generaciones de tener hijos, en un contexto marcado también por el alto costo de la crianza y la falta de apoyo a las...",
       "url": "https://www.fastcheck.cl/2026/10/21/para-sonar-con-hijos-primero-hay-que-tener-futuro/",
@@ -2325,24 +2353,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "resumen-42",
-      "title": "A 100 años de su publicación, Tomé reedita un libro fundamental para su historia",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTGRSZjVmUEV0MWhQOTBVMFQ4ZkVGUXVfcHlEa1c2RGFlcU5FUm5wMFZOajF3QnVTUGxjYkRYTDRSM1hrM1RuZmNsQTVfYUpqUVZJbDVxQ0kxRjBycjM3UkNrSkZOWGM0ZXo5VEExQlRIQlN5N2JWaFVvMV9NRW9SVG83QzJBZ0JRelpxTHBkT0w5bkw3b3FxRkZoLXhNeC1aTmo1Rl80OUhOT1FJ?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-21T13:17:37+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 55,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "eldiarioes-179",
       "title": "“Cortos”, “miserables”, “una peste”: los insultos de Milei a los periodistas por preguntarle lo que no le gusta",
       "summary": "El presidente argentino ha dirigido insultos a quienes se refiere como \"microclima de periodistas fabuladores endogámicos\" y \"mentirosos seriales\" por preguntarle por su opinión sobre si PP y Vox le estarían evitando durante su visita a España Milei llama “impresentable dictador” a Pedro Sánchez y se declara “amigo” de Ayuso y Abascal...",
@@ -2415,7 +2425,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-23",
+      "id": "fastcheck-24",
       "title": "Asesor de vocerías en Segegob: hijo del presidente de la Asociación de AFP trabaja en el corazón del Gobierno",
       "summary": "Hijo del hoy presidente de la asociación de las AFP, León Fernández de Castro Fresno tiene un lugar en la administración del presidente José Antonio Kast. Como asesor de la Secretaría General de Gobierno, la voz de Palacio en la crisis suscitada por el desplome del Fondo E, está encargado de dar insumos para la «toma de decisiones» y...",
       "url": "https://www.fastcheck.cl/2026/10/21/asesor-de-vocerias-en-segegob-hijo-del-presidente-de-la-asociacion-de-afp-trabaja-en-el-corazon-del-gobierno/",
@@ -2883,24 +2893,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ciclismo-chile-118",
-      "title": "Yareli Acevedo lidera al equipo mexicano en el Mundial de Ciclismo de Pista 2026 en China - Gob MX",
-      "summary": "Yareli Acevedo lidera al equipo mexicano en el Mundial de Ciclismo de Pista 2026 en China Gob MX",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa0ZQaFhYRXVqOXM4ZG1yT3FDR3dPYWM1SWhicktIVV9LWi10YjJKUm5JWGlMbGlJUk1VV1ZTZi1TWUZtdzlSX29LcEFIdkNYUU81WUpzbTVNWlBoQi1PdTMzd0JvM1lodzBEYTlRbXJKWklCMW1NQnRQWFZzdlR4aEVlV0RTYmZtVlRZNWtPVExsZFRRaVB1T0E0Si02UnpEdmxWanI1TVBCZTVwc3piVTh1Nmo0WG5COGNpTmd5MHlqUmRRYWpOYkE5NHc?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-21T03:09:00+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
       "id": "propublica-233",
       "title": "The Secret Terms of Trump’s Venezuelan Oil Deal",
       "summary": "The post The Secret Terms of Trump’s Venezuelan Oil Deal appeared first on ProPublica .",
@@ -2934,6 +2926,24 @@
       "category": "Investigación y Poder",
       "relevanceTier": "alta",
       "relevanceScore": 97,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "ciclismo-chile-117",
+      "title": "La Pampa, lista para viajar a Chile - El Diario de la Pampa",
+      "summary": "La Pampa, lista para viajar a Chile El Diario de la Pampa",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaEk4a1BSZWh2cG12cjBWWGRRTVFPaHk1NkY1ZGtKb3JqWGk2eFlNTTYzNmNlUjV1Q3MxSVA1MEo0aHhXMzlqU1JPU1Vta0ZHSV80NGt3WGIwUmdIcEhmLVdndmJuQ1RZQTlWUTJocmtWT3AwN0FDT0hhWS1tanlUN1hQX2R1Uy1FREZINkJpTQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-21T01:25:00+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3045,7 +3055,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "fastcheck-24",
+      "id": "fastcheck-25",
       "title": "La mujer que acompaña a Flávio Bolsonaro en múltiples actividades de campaña fue generada con Inteligencia Artificial",
       "summary": "Circula en redes sociales videos de una mujer de pelo rubio junto a Flávio Bolsonaro bailando en actividades de campaña. Fast Check califica este contenido como #Falso, pues luego de realizar una búsqueda inversa se constató que se trata de un perfil generado con inteligencia artificial que toma como referencia videos reales para su...",
       "url": "https://www.fastcheck.cl/2026/10/20/la-mujer-que-acompana-a-flavio-bolsonaro-en-multiples-actividades-de-campana-fue-generada-con-inteligencia-artificial/",
@@ -3063,7 +3073,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-110",
+      "id": "ciclismo-chile-111",
       "title": "Julián Troncoso obtuvo oro en competencia Nacional de Ciclismo y participará en el Mundial por el TEAM OEChile - Diario El Huemul",
       "summary": "Julián Troncoso obtuvo oro en competencia Nacional de Ciclismo y participará en el Mundial por el TEAM OEChile Diario El Huemul",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbFo2UElEVWx3ZEJnT25QaVN3VHhMUnR2MEFrVWRMcGVSdlFZWVQ3aE1oUXZacnBTMXA3SGxPY3dQUjNtM0RBNTZ6VGp3ZHJqd092X2MwWWtwM1JUNkZrOUdCaFF1ZlN2QmM4bG1qRDdqU0NoRHdtdE9oel9jYkxhM3JkUmpDeElrMENhYVpScDQ3Wmo2cUFYblY0bXB2SGZYdEpvT191RGd3emdaR2VOckNlQmEzck5KdnNIeU4xamhDaUN5Ql93Y0JuRkU1VTdoZThFMVFPSQ?oc=5",
@@ -3081,7 +3091,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "fastcheck-25",
+      "id": "fastcheck-26",
       "title": "Bally Bagayoko no ha prohibido la venta de alcohol en Saint-Denis: medida operará solo en una zona específica de la comuna de 19:00 a 6:00 horas.",
       "summary": "Circula en X la afirmación de que el alcalde de Saint-Denis, Bally Bagayoko, prohibió la venta de alcohol en la ciudad, para imponer la sharia. Fast Check califica este contenido como #Engañoso, ya que la prohibición se debió a motivos de seguridad y no religiosos, como informaron las autoridades locales. La medida es solo para el...",
       "url": "https://www.fastcheck.cl/2026/10/20/bally-bagayoko-no-ha-prohibido-la-venta-de-alcohol-en-saint-denis-medida-operara-solo-en-una-zona-especifica-de-la-comuna-de-19-00-a-6-00-horas/",
@@ -3207,7 +3217,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "fastcheck-26",
+      "id": "fastcheck-27",
       "title": "Violencia emblemática",
       "summary": "La defensa de la violencia por parte de las familias puede dificultar la labor educativa de los establecimientos escolares. En su columna, Rosario Corvalán analiza las amenazas contra la directora del Liceo Manuel Barros Borgoño y la posterior reacción de un grupo de apoderados que la responsabilizó por la detención de los estudiantes...",
       "url": "https://www.fastcheck.cl/2026/10/20/violencia-emblematica/",
@@ -3225,7 +3235,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-27",
+      "id": "fastcheck-28",
       "title": "La tímida rectificación patrimonial del subsecretario de Economía: sus vínculos laborales permanecen en “reserva”",
       "summary": "A fines de septiembre pasado, Fast Check reveló que el subsecretario de Economía, Karlfranz Koehler, se reunió a hablar de «permisos sectoriales» con un gremio inmobiliario al que asesoró por 13 años. Él nunca transparentó ese vínculo laboral, y por esos días la Contraloría también se sumó a los cuestionamientos a su declaración...",
       "url": "https://www.fastcheck.cl/2026/10/20/la-timida-rectificacion-patrimonial-del-subsecretario-de-economia-sus-vinculos-laborales-permanecen-en-reserva/",
@@ -3261,7 +3271,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "fastcheck-28",
+      "id": "fastcheck-29",
       "title": "Esta manifestación llena de banderas palestinas sí sucedió en Francia pero hace más de un año en una marcha solidaria",
       "summary": "Circula un video de una manifestación en Francia en el que se observa a la mayoría de los asistentes portando banderas de Palestina y de «entidades islámicas». Fast Check calificó el contenido como #Engañoso, ya que, si bien es cierto que el registro corresponde a una manifestación realizada en la capital francesa, esta tuvo lugar en...",
       "url": "https://www.fastcheck.cl/2026/10/20/esta-manifestacion-llena-de-banderas-palestinas-si-sucedio-en-francia-pero-hace-mas-de-un-ano-en-una-marcha-solidaria/",
@@ -3567,24 +3577,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "fastcheck-29",
-      "title": "Este video de manifestantes colgando la bandera de Palestina en la Torre Eiffel fue generado con Inteligencia Artificial",
-      "summary": "Circula en redes sociales un video de manifestantes colgando banderas de Palestina en la Torre Eiffel en Francia. Fast Check califica este contenido como #Falso, ya que irregularidades en el diseño de una de las banderas —que lucía similar a la de Jordania— y otras irregularidades del registro delatan que el video fue generado...",
-      "url": "https://www.fastcheck.cl/2026/10/19/este-video-de-manifestantes-colgando-la-bandera-de-palestina-en-la-torre-eiffel-fue-generado-con-inteligencia-artificial/",
-      "image": "https://www.fastcheck.cl/media/images/2026/10/nueva-nota-3.webp",
-      "publishedAt": "2026-10-19T20:58:00+00:00",
-      "sourceId": "fastcheck",
-      "sourceName": "Fast Check CL",
-      "sourceType": "Fact-Checking Independiente",
-      "sourceSite": "https://www.fastcheck.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "propublica-235",
       "title": "Citing ProPublica, Lawmakers Introduce Bill to Help U.S. Citizens Sue ICE for Wrongful Detentions",
       "summary": "The post Citing ProPublica, Lawmakers Introduce Bill to Help U.S. Citizens Sue ICE for Wrongful Detentions appeared first on ProPublica .",
@@ -3657,24 +3649,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ciclismo-chile-113",
-      "title": "Ranking de las mejores bicicletas de montaña en Chile: modelos y precios - El Naveghable",
-      "summary": "Ranking de las mejores bicicletas de montaña en Chile: modelos y precios El Naveghable",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNS1BfR1NaMFJsbzVYcFJYZWZyY0gtTTlxQXlBNGR0YU5seVJtXzBrUzZhN3o1ME5iZzFfSGhBX2NONWMzMWVLMkVIRU9FcjB1QVNVTEVySVBoelNBYXQ4ZEszNUxscW1HWG5IS2psdDBXUEJ0Y25Eekk4QmU5eE42VnBQeWVlbXplMU95azN5SHhFNGUtSWl5MWh4M0dtM1M0WEhidVFaZC0tQmRJY2ZkMVZiR3JFUQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-19T12:42:47+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
       "id": "eldesconcierto-95",
       "title": "Gobierno debe salir a defender a ministro Jorge Quiroz ante lluvias de críticas por crisis económica en Chile",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -3691,6 +3665,24 @@
       "relevanceTier": "alta",
       "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "ciclismo-chile-110",
+      "title": "Ranking de las mejores bicicletas de montaña en Chile: modelos y precios - El Repuertero",
+      "summary": "Ranking de las mejores bicicletas de montaña en Chile: modelos y precios El Repuertero",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSDV0ZWJxUlN1MVBrU3dzZkRBNVpFaW5BTnR4aDE2SGlSM0xacnhXQy1fMmp5cUhQeXVCYWtKV3Z2dy0ya3hnRm5ic2V5MHB4c0lhSy1Ya0N1V1U1dlNpbUgtdXdHX1Zod1lpeVNacTN3ZmxUcDdtTGh1b2dYME1uakw2aGpJZTl5VEZFVjJ2MXNoTThlbkRxZDN0UC1fOWdNd0pxS1FaSFFEQ0VRcXNZWEowQlZBdw?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-19T10:43:36+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "eldesconcierto-89",
@@ -3801,7 +3793,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "resumen-49",
+      "id": "resumen-44",
       "title": "El Estallido se expande: 19 de octubre en Concepción",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORDdoUW0ybld4dVRUckEzeTlqbTFmcnpVLVJxZkZ6Qkc4SUlVNEd0UEpXdWdwbFlIWm1wWFo2YmZsUW04SnFqTG04aWw4SUxXWXFjWmZPaVpjTERXYkM1WENJQkdVMEhSX1E5X2xTYlVpZmMyYkdoWExKUlYwVkd2S1V4eDZiMFFhN0E?oc=5",
@@ -3981,24 +3973,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "resumen-44",
-      "title": "A 7 años del Estallido Social: ¿Nunca más qué?",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE54aE8zRUdZRWYtMkVzX0c2Rl8tRmo2bkdZZVE5R3FjQTJFd3J1VjJYaVVpa05rSkU4REtyX2NhcjdXbmRJb2tNX1c3czNfN01xbnlBZHRSbFU0TF9ZdGNDVFZ2c2tqaVNveE5IUDBQQ2UzZTY3cHlKUTEzSnQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-18T02:42:27+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 62,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "interferencia-17",
       "title": "Pérdidas del Fondo E: las AFP cobraron $616 mil millones en comisiones y repartieron $328 mil millones a sus dueños",
       "summary": "Las siete AFP que operan en Chile recibieron $616.468 millones en comisiones durante el primer semestre de 2026, según sus estados financieros intermedios revisados por Interferencia . Es más de lo que cobraron en el mismo periodo de 2025, cuando sumaron $592.471 millones, y seis de las siete administradoras aumentaron sus ingresos...",
@@ -4051,6 +4025,24 @@
       "relevanceTier": "alta",
       "relevanceScore": 95,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "resumen-48",
+      "title": "Barrio Estación Andalién: entre rieles, fábricas y casas",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGtyV213V0dMRWFQNEh0UmdFbEFFengtai1OdG04Z1dab3FfQ1dKaUxBelM4T000bHU3XzNQYzU3NjFTTTRSV3Q5VEtHeFJNTWxYUU9QNEFGVkJUeFFkWGlHVFNmR0p6ZkFLSEtTMEdqMzkyeFRBbXdVWkdWVVMweklLQXA2b2l2WGNr?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-17T09:27:24+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 58,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "interferencia-18",
@@ -4141,42 +4133,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 77,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "ciclismo-chile-111",
-      "title": "Un chileno será protagonista de una carrera extrema en Norteamérica: ¡dará que hablar en el ciclismo mundial! - AS Chile",
-      "summary": "Un chileno será protagonista de una carrera extrema en Norteamérica: ¡dará que hablar en el ciclismo mundial! AS Chile",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX2U3VVhPUnplb2lQZ1RXUXcyZ1dGNzB2VVB0VUJtSEx5MHNTcjdVamV1bm5YRlNJX2JUY05Xd1hWYlFiVzhQdHVFM2RVWmFxa29Sb3NENlVVT1otLXlHQXRjUXl6WUk5bWh3cUhBd3FYZlNVRzNNN2gzRnVmSnU3eHdBYlBuS0M2c0swdW93N0pRVDF4ZExNY3NpZklYOU9hcGJhRUx0SG9DNmhkZkpfaDliQXM5UWNaNGN2VW4yeG8wQmUtV1RXSVhfYWQ2WmZ1RjhYQUtJSXlqY0xlWEJyQzVHUdIB9wFBVV95cUxPRlBvNTA3Uk15c0xKaTNpT2V3YTZ3bFpucVo4ZUVRWkszc1Y3bURtZGZPWE5rTFFmYm8zV29PaU9oWDFEUWFpS2FwNFlydE1pZ2RYME15d2ZEcWhKX0JoSzFOMUM2UEdWa2NleklRNzBWdmkxRWlyRjl3R202c0traUNUdGk1YjhWYjFmMk9QY0VtTkFtLVhHbVVLZUx4VXVHaV9waGJ6SG53OFQ2RFhqWU96dG5RSWhRNHliekx4YkxxQmVpZEZuZ3BBeGY5X2xidVJyRTNVMU9kbURERWpITl9kR1d2WGc4WXUwYXF4LVNsUkF4Mkc0?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-16T19:27:29+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
-      "id": "resumen-47",
-      "title": "Convocan a presentar acción judicial ante la crisis de los fondos de pensiones",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMnJBbE90SDFZYkRJMVVLcm5VZW9xR2tjdEFUckNCcmxLT1hlSWNfbG5NVTJvTEwwTW9ZbnlKRHRiZXlwMmFhUmFidWYyVnkxSGVrQWM3WHltb2JITXZONWdKMUUwQTNTYThuSTV5WTJ3cUYzemhkbFBpd0drQmRkSS1rdURzWkpzZUloWXY0Znp2dDQxckluRmd4andCWi04cW9fUTRuZG9MTms?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-16T17:42:08+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "alta",
-      "relevanceScore": 72,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "brecha-204",
@@ -4432,24 +4388,6 @@
     },
     {
       "id": "brecha-208",
-      "title": "Un Defoe personal",
-      "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1IekJneWZhLWFpMzVXR1hlX0lPQk5Qci1jaW1jbzZhblVjMTFyTk5CSUp3cjZRQ0xTWFZ6d20zMW9tbzFEVjdHaTFmZXdKZHNSanc?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-16T03:14:59+00:00",
-      "sourceId": "brecha",
-      "sourceName": "Semanario Brecha (LatAm)",
-      "sourceType": "Periodismo Indep. LatAm",
-      "sourceSite": "https://brecha.com.uy",
-      "region": "mundo",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 73,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "brecha-209",
       "title": "Una actriz se despide",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xSUJhNFhqeVBUVG1sd2VSUW5YdjBYdzVxVnJaWk9lMnRfb0MzVWZPOVM5N21tUlIzbUkxdFQzR1ptemF4MnVxaGRWOEFpblVYM1R1M0Rpcw?oc=5",
@@ -4482,24 +4420,6 @@
       "category": "Ciencia, Salud y Futuro",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 74,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "resumen-45",
-      "title": "Miseria a trabajadores y jubilados: Fondos previsionales sufren millonarias pérdidas",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2wzMklXS24xQnZNRWFDNmhQU1pPTmJVejIzb2RHY3lZc1hHTzRFUmF5RnVOZVJjaEJQR1ZDMjBoSVFqTGdzMkxrVVlYclFBbHQ4QlJzUy1hbzF1MklfRU9VdWxjbVVsUThESS1PWGF6UGZRUFFGUmF5MGc1MmIyeUhHNGJnbE11RklqS216TFQwTWdsTTZaV21MZ3JtNVJMTmxlRnBoTHJNYVZfWVNGMTFB?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-15T11:46:38+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 62,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
@@ -4539,24 +4459,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "resumen-41",
-      "title": "¿Ahora sí radares meteorológicos?: Codina anuncia que Kast compraría dos para la RM dejando fuera la zona más propensa a tornados y trombas en el centro-sur de Chile",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNcnJPRFA0eWxYdDMyQ3I3clhOUHdGdEdaalZGN2hWU1pNVF9NUlEwd0F2M0FROEl0ODhCUDhtbk9OMnpIYkh5R2taLVZ6d0Q1WmE1MzJIeG9uY3lxVTd1SFg1RkhFSnRtU2dFZG9Va21jLTZ5aGtMYWZFNHNuS3NTMUt0T3pmNVQwNl9jTmdvWnBubkh6T2hxU01DbW5PM0hTaF9faVlKNTFjX1BzQzdZbjVjWUNOSWFMd0piSllxZGJiMGRpX3BCMWJIRkdsYm83RkQwZmNSM1hPMFRKRFN5Z0dLR3JOdGxCWU5RbmtVOXl3NlA4dnYzdGZkMERnaTQybHg1SU5hZ3U4ODFCcHln?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-14T15:41:32+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 62,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "jacobinlat-189",
       "title": "La Rebelión que tenemos y la que necesitamos",
       "summary": "The Uprising lleva la Revuelta Campesina Inglesa de 1381 a la pantalla grande con un estilo que pretende ser realista y crudo. El resultado es un recorrido sombrío por el siglo XIV y un Robin Hood apático y gris, cuando nuestra época exige mucho más. La entrada La Rebelión que tenemos y la que necesitamos se publicó primero en Jacobin...",
@@ -4593,24 +4495,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ciclismo-chile-117",
-      "title": "¡Tres medallas! La chilena Francisca Campos brilló en el Mundial de Ciclismo de Pista Máster 2026 - Ridechile",
-      "summary": "¡Tres medallas! La chilena Francisca Campos brilló en el Mundial de Ciclismo de Pista Máster 2026 Ridechile",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZnFCVkczMVdFMk9FazAwRXhMOEpuaWtSZHhlMWxYRnBuRnlCOTEtd19wV0NHOVBqWE1BN21CaGtlYnhkWVlieFZ4ZmE5X2dWQ1pITDNmQ2FVa1pRZExidnh2U2tRM2RmY2Mxc0xSUk52V2Zac1RrUmlJWE1OeDJIM0NzZzRnQXM2SnBFZU80U2FGN2FocWM3Sk1hejJ6anB6LW5KMkZSTVhHZ01PalNFVjFZUU5qZWFhVGZOUXlqLVhzV3JHQW1v?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-13T07:00:00+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
       "id": "elsalto-167",
       "title": "¿Ha llegado el momento de hacer una huelga de compra en los grandes supermercados?",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4629,7 +4513,43 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "resumen-48",
+      "id": "resumen-45",
+      "title": "Los recortes de Kast no llegan al sueldo de Duco",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPR3pHZkxVS3hDdDR5OGtaQkxoYTVnSUFLeU8zWHN6S3RvRXo4Nk9TTlJpc3hINWhHQ1dQQldpSldfVlhWaFduM0cxUDR1dWlWekhJVVBLWEp3bWhVSVVUekJlbm9DSTFDMUlCdWxaWmhmM19wVkJPM0V4SWZoRjltWEtTWQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-10T07:00:00+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 62,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "brecha-209",
+      "title": "La hegemonía cultural del agronegocio",
+      "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02LW91czhzWkFaaktkdFVwS3ZHRktoMG9YbGtlOFluV3FvdnkxaXptR1FHeEo5VG9yYlZkSWwyTXFrX0l1QUhSalZ0aDV2LVlFV2ZuUzh3NndpaFAxdzlhUW0zMGRYRjgyRVppZA?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-09T07:00:00+00:00",
+      "sourceId": "brecha",
+      "sourceName": "Semanario Brecha (LatAm)",
+      "sourceType": "Periodismo Indep. LatAm",
+      "sourceSite": "https://brecha.com.uy",
+      "region": "mundo",
+      "independent": true,
+      "category": "Cultura y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 73,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "resumen-43",
       "title": "Justicia civil: colapso y reforma en clave de Justicia Abierta",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ2lQWnJyQWZUQVV2VVAyMXRXc3dYYVFoUUUwZ3hkMHN2U0Vmdk9GZ1U4cm05TjZtQ3dDSnc4R21hOXJDckpEVGFLZGdZcmtLbkt4OEVHUE1QYmgzeDdOYzNvVE56UGNSaXFCclh0X3h0QllhTE1ySDh4VmRFdHFuM0Zibk9kUE03djRNSDFRdmMxVDEz?oc=5",
@@ -4647,22 +4567,22 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "ciclismo-chile-115",
-      "title": "Abren inscripción a Final Frontier Patagonia 2027: la travesía en bicicleta que une Chile y Argentina - Diario Binacional",
-      "summary": "Abren inscripción a Final Frontier Patagonia 2027: la travesía en bicicleta que une Chile y Argentina Diario Binacional",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQU2drVzc0VDBGRlBqNzBRZkc5M2lBc0prdW1OS2pweGdQbFlQT0J0TzdTY052SzZQQjZNdENINDVjZEJIakk4dTRuMENrOXJOVU1fYnc2dUlSb2o3Y2RCVDZOSEVhVi1tR3hmbVVvTkhlV21iWmRudFItQTZCNVRUTnJmLWtmS1lFMms3dWNYWHUyR0tJT0g0VDZob3VGN05XNnA5NU8xb0xuN1IxcXlRRl8zZTM0UkFyYlBFOUc2eGhpZ0llWHlraFFiU19KeTJ6SDBXTmNiRzJwdTJaX0R0NVd0V3VjZXEtVVBLaw?oc=5",
+      "id": "resumen-46",
+      "title": "Sálvate solo: El morocho, los chilenos y chilenas",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb3dOdHRiVUtadGdZZVlTUWF5WFNkMEs4VExCSVdHUUM0NlJjaE9GRl83RDFFcE1BcENaN1QtbWxzWUszc3dOVGFWSUdjeWNyMnZaWjN1MXdIZUNfSG8tUVpiLWdueU84cmwyZUFhUHJubkhpUXI2X2h4QS1EWGF6Rm9B?oc=5",
       "image": null,
       "publishedAt": "2026-10-07T07:00:00+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
       "region": "chile",
       "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 62,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "bellingcat-211",
@@ -4683,7 +4603,25 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "resumen-43",
+      "id": "resumen-47",
+      "title": "CARTAS A RESUMEN| Ya no elijo mi PC",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YTXp5cGZVZmhIREZRd0xOUS1Ba1VwU19DR2p6M3phNDcycWpjRDJ2VTljaWVuZE84eXlSQ2ZRM2JwTklreVBLMW5MRlZDY3ZHQWtUZnNMcUtJeWlQVjdfX3pETXJUcV91cFFTWVR4Y2E?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-06T04:36:48+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 62,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "resumen-41",
       "title": "Natalia Duco ganará $17,1 millones en cuatro meses como asesora de Presidencia",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdHZ1eWNveVVDbE5TWHJzZDVkLW1aOUxWMmhDOXZKVklIUEVLcVFyRW91V0xwTWxCSzMzQmhNbC1XekxDbjBOVk5PNTYtU1oweVQ3QXJtYl9WYW8tUzZhS2JOV3F6VkM2a21aZ3NlYWpER0JXSU5DVVhaMkphSjBHUDl3bDRWdEpzeU1XTjRKSGYtS3h0bjVndXhZTU5HYVppTjlsazVQeUk?oc=5",
@@ -4701,7 +4639,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "resumen-46",
+      "id": "resumen-42",
       "title": "Kast y Quiroz se echan la educación al bolsillo",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5MRDF5S29BMUpaT1A2bzFEelpMR3d0WHh2Mm8tNEJIb2loa3RvWGtRei0tb3pxTG8ydDIzNkZkOUQyUXJYcldKT2plcw?oc=5",
@@ -4719,25 +4657,25 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "ciclismo-chile-112",
-      "title": "La joven que conoció todas las comunas de Chile en bicicleta: \"Lo que más se repite es la generosidad\" - BioBioChile",
-      "summary": "La joven que conoció todas las comunas de Chile en bicicleta: \"Lo que más se repite es la generosidad\" BioBioChile",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZlVtUzZrNlR2QnppS2JoNDdqQXNqM0M5bHU0bUVlZVg5WUlDZnNmT25oUXdGbFUtSlh3YkNlVTROdEpoSW4xaXpMaUQ4bnFkTDV3M0ttUzl4aWhCU2t4QThsaEdQQXhnUnluNHpQZTlSc1NCN0hqb01EWlV6WGZReWIyUzFLOGdCRWNtZGw4MzJ1Z3hHYkJPY3ZPbFB5ZVpGSndOZTZoWWNMUzNvbUx4QjctZ3FrVGVEazJVbFRIbDc5WlBlS1lrQ2Jwd1RISGRqazhJWG1iNnJlMFhVS1kzU1l6SWo0M2dzcVYxeXpCOGhfdWpJNnc0cEcwd0IzTHc?oc=5",
+      "id": "resumen-49",
+      "title": "Brasil: La urgencia de remontar esta nueva batalla electoral",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcC02NmxvaXAwdmw5TlJzSTdzSXFCRElvWEZ0dG52SEhZV0JJU3V4Xzhib1d5VzIxM1RrV1I3TFROTDdlQ1NzQVF2NU03LWYxSHd5a0puZDllRlRjeHN4aXNMRUUyNXBaMTRRTl9CX1JVQWlObXJCRVdXLWdpYXR1NFJGRzc4RUxHV1NPMzNDT2diUQ?oc=5",
       "image": null,
       "publishedAt": "2026-10-04T07:00:00+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
       "region": "chile",
       "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 62,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "ciclismo-chile-119",
+      "id": "ciclismo-chile-113",
       "title": "Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina - 24horas",
       "summary": "Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina 24horas",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOTFuNThHQTJtTXV1SEJTTHcwc2dvWkV6YWtzUHNKZDlLQXhUZTZRWDdVaDJuS2Y5dnFzcHdUNGhDWlJUeXh1X2NmZlZZTG9MQ083eXFfR0tnY1RvNk0ybFFwc0VUNHFrZGdTVl9mTC16cHg5eW5uTDBVZW1Nb0ZDX1JoTzhCLVBUekk4TlF2VWl0Nk0xYnIyU0pvU2Y4dHfSAaQBQVVfeXFMTzhLYThHbUhtZ1lGby16QXFueTI5b0c0aDd5dy05R21VT2VEc0I4ME9kanFfeTBkdzJGYnF4S1Jwc01PbkFXNmpDbXB1YWtYTDhLazdXbEdMdGt5cXIzWVZQN3p4aFJKbDkxb1dsbTlFMzItdkFOUWQwSW1hOFBVZ0tMRmdNYWJ4S0pfYmtLdDVYNUFOMWpjbktoU0xkakhIdnVZYkw?oc=5",
@@ -4773,7 +4711,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-114",
+      "id": "ciclismo-chile-112",
       "title": "La Vuelta llega por primera vez a Chile: histórica competencia de ciclismo recorrerá el Valle de Colchagua - ADN Radio",
       "summary": "La Vuelta llega por primera vez a Chile: histórica competencia de ciclismo recorrerá el Valle de Colchagua ADN Radio",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOempFZUgzelg5eEJVOThlVDBTNVY4elgyNDBlTTdMYjZpX1lIZllja3ZyZTM0OUtEcEdrX0EzNlhMd1VGNS16UFlJYnlyMkhmUUxVTEpyT2hzX3N4YjZwdVZ6LXpUMXVOcjhucVJ1WlJUZFVTQ3JBWFFsZV92RXA0YkI0UE15VlVvY0Z5N052VzFRVHg0OTA2elB3Rl9pczMtVG9GeUlUUklkWXR4RHZPdjZ0SGh2b3lOMHREdjJzU1NRUE9qYm9QbVoxNHVVOXVYQkU3NHNZUTHSAewBQVVfeXFMUEtqbEFuRkExVkMyQXEyTmdZRVg5N0hCdzQwNk9QRjJWbFk2VXo4T0x4RERFZWU3R1dheWF5QWNTWWZoMTA2bmZjaXdta3hXVDN3RXRYVkhzczhnZXR5ajZhbXB5Tzg0LVI1WTh6VTZLUmJpVFoyejRrek5BT1EteFE1N3ZCSF9HR0tybjQtSW9kMGR4UmQtRHl3TkpPeWFvUm1rRFF3SUw4cWs3THI4RC1pN3BOVE9wM09tSWFLT1pXdVlyc0NCcjgxQzJSYzI1Q2l4THZzVWVsQzVqTXNKb29KR3JhUjFhQzVtNGQ?oc=5",
@@ -4791,12 +4729,30 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "ciclismo-chile-116",
-      "title": "Jesús Martínez le entrega el primer oro del día al Team Chile en los Juegos Suramericanos y el ciclismo suma plata - La Tercera",
-      "summary": "Jesús Martínez le entrega el primer oro del día al Team Chile en los Juegos Suramericanos y el ciclismo suma plata La Tercera",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOY3NJTzY1SzBNNGJ6MmoxRktoZXBDVEdPWW02LThmRHdpLTI3WnBPcmREZlNnbklhUkdRRlBha0J5ekRMZlBtS3lYaC0wbkxmZ1BBbWhyS3NSMU9xSE03RGxQSjRic2I5dFk0c0g5TjNtbFBiam8yaWpSN0JPeHNNMUJDdUZYZ0dSWkdEeU81UGR6TEJRdjNlYXdqLTY2MUdDQUZCSEVnbUR1UVJURk1VWEhuelVlMXQyYmc2YlZWeFZqNnhaMTJUcUlRWVpka1hOWXZFSV82VUdmWGprNjFTSkxGQm1JdnNWQ2lmd3YtOURaSkRN0gGWAkFVX3lxTFBIbHRJOXZfaVlLU3VxZjZVLUpLZjVXc3FGekxtMUdJSmc2YkMyaHFiOVZOa1p5ajJTclNoa3FMa1Vid1g4Mm9YUWZKVFhSRmoxY2ZKUWZLd3JIeFRlN3hGTFRuVndnYTltOUphOFpxOW5EY3M2OWR6VXJ4d19OTHBtdlNTbmR4WWJIa2wzaEVOYmlCNlh6OThKMWpQUy1TeDQwb0lUQU92Z0dtSW5FUVBXN3hrUGxpYTVVVy1mSTFnWkhlM0VnalBjb3RPa2RHWS1McHY1SzVBMzZ1X3RHblVoa09IYnlqeTdJTnNjZzRaNzFSLTRWZUwycmhPSWhIb2htUmt1aVlSbjJrLWkycmNlRWo1MnVB?oc=5",
+      "id": "ciclismo-chile-114",
+      "title": "Final de infarto: chilena vence a Argentina con “fotofinish” en ciclismo pista - TVN",
+      "summary": "Final de infarto: chilena vence a Argentina con “fotofinish” en ciclismo pista TVN",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdHJQWWxXeDVYdGl0MW9IM1VUZjl4TUZFSFliR0FWYjFnOVhwXzVDdkJNZ3EtenZDSkZEZDZGck9ldHpvQTh5aU04Q1ZuYU5PbjFSblVhUGdqM1hrUGlYRjdKYmg2c1Jsb3hpS0xUSUtLN00ydGsyR1ZBRl9fM2JXN0RyYmY2eWxZWVJ5T2M5eVk4M1VsMEc4bDdia2ZLQklPeHMzeno3Z2VWSVB5cmR6UlVUakJFMUY0WjY4b3BVN2tFVjJkdXk4?oc=5",
       "image": null,
-      "publishedAt": "2026-09-23T07:00:00+00:00",
+      "publishedAt": "2026-09-22T07:00:00+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "ciclismo-chile-115",
+      "title": "Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur - Teletrece",
+      "summary": "Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur Teletrece",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMlB3VTJvcEp1aS11U0JNcVBsWFpyZ3ZQanRXTWYzcFNFay1mdmdCdjYyYXJrWWRuRmZhUXBFV2RMX0xTSDhMa05VTzNYb3duMG42cldxMDhXU1NwZ2xJNGdPV21yOUtkOXZsd25Yb19uQVowQjlvUFlodW02WTVUM2pxOTBiNTNVTUgxUV90NW4wdkhURlJkY3VaZ0Z0NXFmUDJmZXlyVnZWbHQxeThpRm9rT0ZmdmNRdUZES1Zhc1FPUQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-09-21T07:00:00+00:00",
       "sourceId": "ciclismo-chile",
       "sourceName": "Ciclismo Chile",
       "sourceType": "Ciclismo y Deporte Nacional",
@@ -4897,6 +4853,24 @@
       "relevanceTier": "alta",
       "relevanceScore": 95,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "ciclismo-chile-116",
+      "title": "Ciclista chileno de 11 años hace historia en el Crankworx Whistler 2026, el festival de mountain bike más impo - AS Chile",
+      "summary": "Ciclista chileno de 11 años hace historia en el Crankworx Whistler 2026, el festival de mountain bike más impo AS Chile",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUGhBVzQ0TnFGV3RNakZ3c2xveWtPXzJFTG9kZUI4azRuY3I5akhETlJHTWhsTTQ0U2JGVDI3LVlkeGdDZFFTR2p5bUZibnQ5T1JJNVJJWTgtTzdIQ1ZxMllzV3lyQ1NCRVpWTktxcXppQ1FJS3JSbGNMalcyZ0lCc2ZaZ29PMUtObThNTTRTSlNhRzc1SHVTbzNrYWZ5ZlRtYXNsbnFlcmExZTVkTHh2RHpraXpoRzVoX1JwODdfZl9ocTR4SFZKZ2plUmIzbzJ4MW9PaW5uc0dkdzVIODBhSnZBY25TNHptU2Mwc2JmbWdSZlBqc2xxc09zQ2TSAZACQVVfeXFMTWdEcTdfUTZHdVNqdWVYRjFMaUlBcTdPSDJYazhSVjBLaGdDdXJuUHN0TEFBUXF2MjdGREpsSjVtN3NNbUE5ZGNCTUxqa1FrVHhoQWxyZlloeEJTLV8xQm9PcGVEaS1fdHNOYlBlQWxJX2poMW5XbmZIMmN4R3BSX21tdms5UGFVSjI5dWdiS1ZWRFhsMFpEaklZdGp0RFdObE5DcGlGRFVnc1NrWnRYMWpVRzJuNFlCYmQtZm9CbThfWmVYcXNKYUZtVlpTaElQWUVmNjBhM0ZZdG1sY3RPVFMxYXJ5TW1XZVJleUpJaVFrTlVyTzhYb1U1b00xbkdXWmdpOU9mdmZ0SFZSZTZYVTA?oc=5",
+      "image": null,
+      "publishedAt": "2026-08-25T07:00:00+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "bellingcat-218",
@@ -5077,6 +5051,42 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 76,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "ciclismo-chile-119",
+      "title": "¡Ciclismo ancestral! Las comunidades indígenas de Chile están allanando el camino a seguir - Chile Travel",
+      "summary": "¡Ciclismo ancestral! Las comunidades indígenas de Chile están allanando el camino a seguir Chile Travel",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbDJxVUxTT1RYLTlYT053b2FjaURuZklBd05ZNi1MQ0tGbGZ4YTA4Z3lhb29iNU9laGIyWWRSNW5GYkpmOVZMRGFnT2Jhdjk4S21BVGExelZ5VU13WUlha25YSU9JbHdUeTFVaXdVZExJb0d1Vy1VTkdSdzNfZDZCUlRuUHRra1dQUTBTN1lQU2JrZFB4MVJNVW1QbVBid1BNRl9OQndLUi1KbXU0NUFqRFpZY1F5dw?oc=5",
+      "image": null,
+      "publishedAt": "2026-01-16T08:00:00+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "ciclismo-chile-118",
+      "title": "El plan de Tom Pidcock: doble medallista de oro olímpico en ciclismo se preparará en Chile para la próxima temporada - La Tercera",
+      "summary": "El plan de Tom Pidcock: doble medallista de oro olímpico en ciclismo se preparará en Chile para la próxima temporada La Tercera",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSzdfZUtGVmtpbENkSUhBLUQyYVhfRDBrVC1qU2hfa0Q0emV1NmFFa2ZEWkpNc0FjdHVXTFhnZHY2WGI2Q3lrUkZuZ09tMkpsaVBtM250eC1kT09QVnBWNXZtSV81RmNwcnpkZjJlMVltVXZQNjJ2Y29lSzdQMU9SYl9pT2JFU0pZX3ZRNnhyTE9fTWhiWmtERkpzZVFLd3IyTkVHVC1wZDFjUlRHZ0Iyd0s0b0VwYWREYlBiTXZRQWN0WGlhZWo5R3B1N3JTUDY0UjdGZWItRGhlek1sMHd0V2Vub2lpT0k0TUhRVU02U1ZfVl9QUXfSAZcCQVVfeXFMT1QtRzVUbFowYUJNZmlOSjNOTW1nTkJLZjFWekdoNFFWUUE3dVg2M29KZHFXNnBDZ1ZnQmx5UGdtbGJqVUdBZF8wR2Z5Vkp1UE9yRjF0OUktWmFBM25QLWFkcXlVaEw0QjJ0M2tsXzFYcFl2MmJhM0pLVzJUUkUtVjhoeENxQjhVWWZiZURXRHprMUdkazNiYmpqejhrRXJqWmRaMWlBRmlyS2cyY1BNbmhZSXhXMnplSXZPVUtMYkZyNFhWT1dWNjdPSHRQb2xpaTJVR0ZTbW94XzRobkZwVTdFZ2IxVm11bVFabVRyd1RGaDlQQ2pQTGw3bGR4SnJGcjFJT3VwNzJTUFI2Rk9NbXNaRTFLWENV?oc=5",
+      "image": null,
+      "publishedAt": "2026-01-10T08:00:00+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "sinpermiso-196",
