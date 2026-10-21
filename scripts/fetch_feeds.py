@@ -137,6 +137,48 @@ SOURCES = [
         "baseWeight": 78
     },
 
+    # CICLISMO - Especializado Chile y Mundo (Todas las disciplinas)
+    {
+        "id": "ciclismo-chile",
+        "name": "Ciclismo Chile",
+        "url": "https://news.google.com/rss/search?q=ciclismo+OR+ciclista+OR+bicicleta+Chile&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://news.google.com",
+        "region": "chile",
+        "type": "Ciclismo y Deporte Nacional",
+        "independent": True,
+        "baseWeight": 88
+    },
+    {
+        "id": "ciclo21",
+        "name": "Ciclo 21",
+        "url": "https://www.ciclo21.com/feed/",
+        "site": "https://www.ciclo21.com",
+        "region": "mundo",
+        "type": "Periodismo Ciclista Especializado",
+        "independent": True,
+        "baseWeight": 86
+    },
+    {
+        "id": "brujulabike",
+        "name": "Brújula Bike",
+        "url": "https://brujulabike.com/feed/",
+        "site": "https://brujulabike.com",
+        "region": "mundo",
+        "type": "MTB, Gravel y Competición",
+        "independent": True,
+        "baseWeight": 85
+    },
+    {
+        "id": "esciclismo",
+        "name": "EsCiclismo",
+        "url": "https://www.esciclismo.com/rss/",
+        "site": "https://www.esciclismo.com",
+        "region": "mundo",
+        "type": "Ciclismo Global y Pruebas UCI",
+        "independent": True,
+        "baseWeight": 85
+    },
+
     # MUNDO - Independientes / Investigación / Cooperativas
     {
         "id": "globalvoices",
@@ -251,6 +293,76 @@ SOURCES = [
 ]
 
 BLACKLIST_PATTERNS = [
+    # Filtro estricto anti-fútbol (manteniendo otros deportes intactos)
+    r"\bf[uú]tbol\b",
+    r"\bfutbolero\b",
+    r"\bbalompi[eé]\b",
+    r"\bpeloteros?\b",
+    r"\bcolo[- ]colo\b",
+    r"\bcacique\b",
+    r"\buniversidad de chile\b",
+    r"\brom[aá]ntico viajero\b",
+    r"\buniversidad cat[oó]lica\b",
+    r"\bcruzados?\b",
+    r"\bcobreloa\b",
+    r"\bhuachipato\b",
+    r"\bcoquimbo unido\b",
+    r"\bpalestino\b",
+    r"\baudax italiano\b",
+    r"\buni[oó]n espa[ñn]ola\b",
+    r"\bdeportes iquique\b",
+    r"\bcampeonato nacional\b",
+    r"\bprimera divisi[oó]n\b",
+    r"\bprimera b\b",
+    r"\banfp\b",
+    r"\bconmebol\b",
+    r"\bfifa\b",
+    r"\buefa\b",
+    r"\bcopa libertadores\b",
+    r"\bcopa sudamericana\b",
+    r"\bchampions league\b",
+    r"\beuropa league\b",
+    r"\bcopa am[eé]rica\b",
+    r"\bcopa chile\b",
+    r"\bla roja\b",
+    r"\bselecci[oó]n chilena\b",
+    r"\bclasificatorias\b",
+    r"\bgareca\b",
+    r"\bberizzo\b",
+    r"\barturo vidal\b",
+    r"\balexis s[aá]nchez\b",
+    r"\bclaudio bravo\b",
+    r"\bgary medel\b",
+    r"\bcharles ar[aá]nguiz\b",
+    r"\brodrigo goldberg\b",
+    r"\bbarticciotto\b",
+    r"\bjordhy thompson\b",
+    r"\bdt de\b",
+    r"\bdirector t[eé]cnico\b",
+    r"\bgol de\b",
+    r"\bgoles de\b",
+    r"\bgoleador\b",
+    r"\bpenales?\b",
+    r"\btiro de esquina\b",
+    r"\bguardameta\b",
+    r"\barquero\b",
+    r"\bdelantero\b",
+    r"\bmediocampista\b",
+    r"\boffside\b",
+    r"\bfuera de juego\b",
+    r"\blamine yamal\b",
+    r"\bmbapp[eé]\b",
+    r"\bmessi\b",
+    r"\bcristiano ronaldo\b",
+    r"\bcr7\b",
+    r"\bhaaland\b",
+    r"\bvinicius\b",
+    r"\breal madrid\b",
+    r"\bbarcelona fc\b",
+    r"\bmanchester city\b",
+    r"\bliverpool\b",
+    r"\bboca juniors\b",
+    r"\briver plate\b",
     r"\bfar[aá]ndula\b",
     r"\breality\b",
     r"\brealities\b",
@@ -273,6 +385,26 @@ BLACKLIST_PATTERNS = [
     r"\bpol[eé]mica entre famosos\b"
 ]
 
+
+CYCLING_PATTERNS = [
+    r"\bciclismo\b", r"\bciclista[s]?\b", r"\bbicicleta[s]?\b", r"\bbici[s]?\b",
+    r"\bmountain bike\b", r"\bmtb\b", r"\bgravel\b", r"\bciclocr[oó]s\b", r"\bbmx\b",
+    r"\bciclismo de ruta\b", r"\bciclismo en pista\b", r"\bvel[oó]dromo\b",
+    r"\btour de fran\b", r"\bgiro d[e']\b", r"\bvuelta a espa[ñn]a\b", r"\bvuelta a chile\b",
+    r"\bcontrarreloj\b", r"\bmaillot\b", r"\bpar[ií]s[- ]roubaix\b", r"\bmonumentos ciclistas\b",
+    r"\bpogacar\b", r"\bvingegaard\b", r"\bevenepoel\b", r"\broglic\b", r"\bnairo\b",
+    r"\bcarapaz\b", r"\bvidaurre\b", r"\bcatalina soto\b", r"\bmacarena p[eé]rez\b",
+    r"\bfecichile\b"
+]
+
+GENERAL_SPORTS_PATTERNS = [
+    r"\batletismo\b", r"\bmarat[oó]n\b", r"\btenis\b",
+    r"\bnataci[oó]n\b", r"\bb[aá]squetbol\b", r"\bbaloncesto\b", r"\brugby\b",
+    r"\bvoleibol\b", r"\bgimnasia\b", r"\bartes marciales\b", r"\bboxeo\b",
+    r"\bjudo\b", r"\btaekwondo\b", r"\besgrima\b", r"\bcanotaje\b", r"\bescalada deportiva\b",
+    r"\bjuegos ol[ií]mpicos\b", r"\bpanamericanos\b", r"\bparal[ií]mpicos\b",
+    r"\btriatl[oó]n\b", r"\bironman\b"
+]
 
 HIGH_IMPACT_KEYWORDS = [
     "investigación", "investigacion", "corrupción", "corrupcion", "fiscalía", "fiscalia",
@@ -409,6 +541,9 @@ def is_farandula(title, summary, categories):
 
 def classify_category(title, summary, categories):
     text = f"{title} {summary} {' '.join(categories)}".lower()
+    # Prioridad destacada a Ciclismo y Deportes generales
+    if any(re.search(p, text) for p in CYCLING_PATTERNS) or any(re.search(p, text) for p in GENERAL_SPORTS_PATTERNS):
+        return "Ciclismo y Deporte" 
     if any(w in text for w in ["investigación", "corrupción", "contraloría", "fiscalía", "exclusivo", "filtración", "osint", "propublica", "ciper", "bellingcat"]):
         return "Investigación y Poder"
     if any(w in text for w in ["medioambiente", "clima", "humedal", "agua", "sequía", "glaciar", "especie", "bosque", "contaminación", "naturaleza", "biodiversidad", "litio", "minería"]):
@@ -427,6 +562,13 @@ def classify_category(title, summary, categories):
 
 def score_and_classify_relevance(source, title, summary, categories):
     text = f"{title} {summary}".lower()
+    # Énfasis especial al Ciclismo en todas sus disciplinas
+    if any(re.search(p, text) for p in CYCLING_PATTERNS):
+        return {
+            "tier": "alta",
+            "score": 94,
+            "reason": "Ciclismo destacado: cobertura especializada de la disciplina"
+        }
     high_hits = [w for w in HIGH_IMPACT_KEYWORDS if w in text]
     low_hits = [w for w in LOW_RADAR_KEYWORDS if w in text]
 

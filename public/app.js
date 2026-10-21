@@ -7,7 +7,24 @@ const DEFAULT_BLOCKED_TERMS = [
   "chisme", "quiebre amoroso", "nueva pareja",
   "infidelidad", "kardashian",
   "showbiz", "gossip", "miss universo", "reina de viña",
-  "red carpet", "polémica entre famosos"
+  "red carpet", "polémica entre famosos",
+
+  // Filtro estricto anti-fútbol (manteniendo intacto el resto de deportes y ciclismo)
+  "fútbol", "futbol", "futbolero", "balompié", "balompie", "pelotero",
+  "colo-colo", "colo colo", "albo", "cacique", "universidad de chile", "la u",
+  "romántico viajero", "universidad católica", "cruzados", "cobreloa",
+  "huachipato", "coquimbo unido", "palestino", "audax italiano", "unión española",
+  "deportes iquique", "campeonato nacional", "primera división", "primera b",
+  "anfp", "conmebol", "fifa", "uefa", "copa libertadores", "copa sudamericana",
+  "champions league", "europa league", "copa américa", "copa chile",
+  "la roja", "selección chilena", "clasificatorias", "gareca", "berizzo",
+  "arturo vidal", "alexis sánchez", "alexis sanchez", "claudio bravo", "gary medel",
+  "charles aránguiz", "rodrigo goldberg", "barticciotto", "jordhy thompson",
+  "director técnico", "delantero", "guardameta", "arquero", "mediocampista",
+  "penales", "tiro de esquina", "offside", "fuera de juego",
+  "lamine yamal", "mbappé", "mbappe", "messi", "cristiano ronaldo", "cr7",
+  "haaland", "vinicius", "real madrid", "barcelona fc", "manchester city",
+  "liverpool", "boca juniors", "river plate"
 ];
 
 
@@ -55,6 +72,7 @@ const MAIN_FILTERS = [
 
 const TOPIC_FILTERS = [
   { id: "all", label: "Todas las temáticas", icon: "🎯", matcher: () => true },
+  { id: "ciclismo", label: "Ciclismo y Deportes", icon: "🚴", matcher: (a) => /ciclismo|ciclis|bici|mtb|gravel|bmx|deporte|atletismo|tenis|marat|pelot[oó]n|tour de francia|giro de italia|vuelta a espa/i.test((a.category || "") + " " + (a.title || "") + " " + (a.summary || "")) },
   { id: "investigacion", label: "Investigación", icon: "🕵️", matcher: (a) => /investigaci/i.test(a.category || "") },
   { id: "politica", label: "Política", icon: "🏛️", matcher: (a) => /pol[ií]tic/i.test(a.category || "") },
   { id: "medioambiente", label: "Medioambiente", icon: "🌿", matcher: (a) => /medioambiente|ambiente|territorio/i.test(a.category || "") },
@@ -89,7 +107,11 @@ function getSourceBadge(sourceId, region) {
     sinpermiso: { icon: "📑", abbr: "SP" },
     brecha: { icon: "🇺🇾", abbr: "BR" },
     dw: { icon: "🇩🇪", abbr: "DW" },
-    france24: { icon: "🇫🇷", abbr: "F24" }
+    france24: { icon: "🇫🇷", abbr: "F24" },
+    "ciclismo-chile": { icon: "🚴", abbr: "CC" },
+    ciclo21: { icon: "🚴", abbr: "C21" },
+    brujulabike: { icon: "🚵", abbr: "BB" },
+    esciclismo: { icon: "🚲", abbr: "EC" }
   };
   return flags[sourceId] || { icon: region === "chile" ? "🇨🇱" : "🌍", abbr: "NEWS" };
 }
