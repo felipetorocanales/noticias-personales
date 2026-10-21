@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:00:56.581843+00:00",
+  "generatedAt": "2026-10-21T20:14:23.649382+00:00",
   "totalArticles": 260,
   "totalBlockedFarandula": 13,
   "blockedExamples": [
@@ -12,6 +12,11 @@
       "title": "FECh conmemora sus 120 años: “La Federación de Estudiantes constituye desde su nacimiento el alma de este país”",
       "source": "Radio U. de Chile",
       "reason": "universidad de chile"
+    },
+    {
+      "title": "Antofagasta reunirá a bandas escolares de todo Chile en campeonato nacional",
+      "source": "Timeline Antofagasta",
+      "reason": "campeonato nacional"
     },
     {
       "title": "UACh reúne a nueve universidades en el Campeonato Nacional Universitario de Gimnasia Rítmica Deportiva 2026",
@@ -57,11 +62,6 @@
       "title": "Corte de Apelaciones de Santiago confirmó el sobreseimiento definitivo de Sergio Jadue en Chile",
       "source": "Radio Cooperativa",
       "reason": "fútbol"
-    },
-    {
-      "title": "¿Cuándo y dónde ver a Alexis en la búsqueda de su primer título con Montreal?",
-      "source": "Radio Cooperativa",
-      "reason": "alexis sánchez"
     },
     {
       "title": "El Team Chile de ciclismo femenino se tituló campeón en la vuelta a Costa Rica - Universidad de Chile",
@@ -409,8 +409,8 @@
       "type": "Regional Independiente (Norte)",
       "independent": true,
       "status": "ok",
-      "count": 10,
-      "blocked": 0
+      "count": 9,
+      "blocked": 1
     },
     {
       "id": "diariouach",
@@ -459,8 +459,8 @@
       "type": "Radio Informativa Nacional",
       "independent": false,
       "status": "ok",
-      "count": 7,
-      "blocked": 8
+      "count": 8,
+      "blocked": 7
     },
     {
       "id": "ciclismo-chile",
@@ -615,11 +615,83 @@
   ],
   "articles": [
     {
-      "id": "diariouach-70",
+      "id": "timeline-60",
+      "title": "Prohíben funcionamiento de clínica odontológica Bio Ceon en Antofagasta por irregularidades sanitarias",
+      "summary": "En un comunicado de prensa, el Seremi de Salud Rodrigo Medina, confirmó el inicio de un sumario y la prohibición de funcionamiento de la clínica odontológica Bio Ceon, ubicada en la esquina de Antonino Toro/O’higgins, sector centro sur de Antofagasta. Esto, luego de corroborar que el recinto estaba prestando sus servicios sin la...",
+      "url": "https://www.timeline.cl/prohiben-funcionamiento-de-clinica-odontologica-bio-ceon-en-antofagasta-por-irregularidades-sanitarias/",
+      "image": "https://www.timeline.cl/wp-content/uploads/2026/10/21-bio-ceon.jpg",
+      "publishedAt": "2026-10-21T20:04:47+00:00",
+      "sourceId": "timeline",
+      "sourceName": "Timeline Antofagasta",
+      "sourceType": "Regional Independiente (Norte)",
+      "sourceSite": "https://timeline.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 64,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "france24-251",
+      "title": "El voto del algoritmo en Brasil: ¿qué rol juega la IA?",
+      "summary": "En la sección de En Contexto vamos a Brasil, donde el uso de la inteligencia artificial y las denuncias de falta de regulaciones de las compañías tecnológicas dominan el debate en la recta final de la campaña. Los candidatos presidenciales para la segunda vuelta, Flávio Bolsonaro y Luiz Inácio Lula da Silva, se miden en redes sociales...",
+      "url": "https://www.france24.com/es/programas/en-contexto/20261021-el-voto-del-algoritmo-en-brasil-qu%C3%A9-rol-juega-la-ia",
+      "image": "https://s.france24.com/media/display/0b993d48-cca7-11f1-8ee6-638c1c1f5fd6/w:1024/p:16x9/71de5ac5f5b428fd73d2889232ea73c14104667f.jpg",
+      "publishedAt": "2026-10-21T20:02:05+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "radiouchile-30",
+      "title": "Sobreestimación de producción en Codelco: CEI apunta a ejecutivos y emite recomendaciones",
+      "summary": "El informe de la instancia fue aprobado por unanimidad y despachado a la Sala. El texto pide a la Cámara de Diputados respaldar que se trata de un hecho “de la mayor gravedad” y que \"el daño a la reputación de la corporación debe ser resarcido\". La entrada Sobreestimación de producción en Codelco: CEI apunta a ejecutivos y emite...",
+      "url": "https://radio.uchile.cl/2026/10/21/sobreestimacion-de-produccion-en-codelco-cei-apunta-a-ejecutivos-y-emite-recomendaciones/",
+      "image": "https://uchile-media-storage.nyc3.cdn.digitaloceanspaces.com/2026/05/codelco-2-620x413.jpg",
+      "publishedAt": "2026-10-21T20:01:11+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-103",
+      "title": "Socavón de 400 metros motivó la evacuación de más de 150 familias en Arauco",
+      "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://www.cooperativa.cl/noticias/pais/region-del-biobio/socavon-de-400-metros-motivo-la-evacuacion-de-mas-de-150-familias-en/2026-10-21/165225.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261021/imag/foto_0000001220261021165225.jpg",
+      "publishedAt": "2026-10-21T19:52:25+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 74,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "diariouach-69",
       "title": "Innovador cómic creado por académicas UACh valora la cultura sorda e ilustra interacción en Lengua de Señas Chilena",
       "summary": "Un aporte inédito a la educación inclusiva y la literatura del país es la…",
       "url": "https://diario.uach.cl/innovador-comic-creado-por-academicas-uach-valora-la-cultura-sorda-e-ilustra-interaccion-en-lengua-de-senas-chilena/",
-      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.01.14-PM.jpg",
+      "image": "https://diario.uach.cl/wp-content/uploads/2026/10/Puerto.jpg",
       "publishedAt": "2026-10-21T19:46:52+00:00",
       "sourceId": "diariouach",
       "sourceName": "Diario UACh (Valdivia)",
@@ -633,7 +705,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elciudadano-99",
+      "id": "elciudadano-98",
       "title": "(VIDEO) Conmoción en Guatemala: Asesinan al exfiscal anticorrupción Juan Francisco Solórzano Foppa tras denuncia de operación de la CIA",
       "summary": "El Ciudadano El asesinato del exfiscal anticorrupción Juan Francisco Solórzano Foppa causa gran conmoción en Guatemala. Su muerte ocurre poco después de denunciar una operación de la CIA en el país, generando interrogantes sobre las motivaciones detrás del crimen y sus implicaciones en la lucha contra la corrupción y la injerencia...",
       "url": "https://www.elciudadano.com/reels/video-conmocion-en-guatemala-asesinan-al-exfiscal-anticorrupcion-juan-francisco-solorzano-foppa-tras-denuncia-de-operacion-de-la-cia/10/21/",
@@ -669,7 +741,43 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
+      "id": "cooperativa-106",
+      "title": "Oposición venezolana aspira a tener elecciones a fines de 2027",
+      "summary": "La jefa de la delegación opositora en el diálogo con el chavismo , Dinorah Figuera, aspira a que los comicios presidenciales en Venezuela se celebren a fines del próximo año, después de \"desmontar el aparato\" alrededor del sistema electoral y de que se consigan condiciones que garanticen la credibilidad de la votación . En una...",
+      "url": "https://www.cooperativa.cl/noticias/mundo/venezuela/elecciones/oposicion-venezolana-aspira-a-tener-elecciones-a-fines-de-2027/2026-10-21/164007.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261021/imag/foto_0000000220261021164007.jpg",
+      "publishedAt": "2026-10-21T19:40:07+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 78,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "cooperativa-104",
+      "title": "Supremo de EE.UU. impidió a Gobierno de Trump limitar tratamientos a reclusos trans",
+      "summary": "La Corte Suprema de Estados Unidos rechazó este miércoles un requerimiento de emergencia del Gobierno del presidente, Donald Trump , e impidió la aplicación de una política que busca negar tratamiento de afirmación de sexo a cientos de reclusos transgénero en las prisiones federales. La decisión mantiene vigente la sentencia de un...",
+      "url": "https://www.cooperativa.cl/noticias/mundo/ee-uu/supremo-de-ee-uu-impidio-a-gobierno-de-trump-limitar-tratamientos-a/2026-10-21/163934.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261021/imag/foto_0000000220261021163934.jpg",
+      "publishedAt": "2026-10-21T19:39:34+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 93,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-105",
       "title": "Smart City Awards 2026 inicia postulaciones con nueva categoría sobre IA aplicada en ciudades",
       "summary": "En una nueva edición de Esa es la Idea en Cooperativa, Solange Arredondo, gerenta de Sé Santiago, abordó la apertura de los Smart City Awards 2026, certamen que premiará iniciativas digitales orientadas a resolver problemas urgentes en las comunas de la Región Metropolitana. La ejecutiva explicó que la iniciativa busca visibilizar...",
       "url": "https://www.cooperativa.cl/noticias/tecnologia/industria/ia/smart-city-awards-2026-inicia-postulaciones-con-nueva-categoria-sobre-ia/2026-10-21/163712.html",
@@ -687,7 +795,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "france24-251",
+      "id": "france24-252",
       "title": "El papa León XIV no necesitará tratamiento adicional tras la cirugía de cáncer de pulmón, informa el Vaticano",
       "summary": "Nota publicada por France 24 Español (Medio Público Internacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://www.france24.com/es/europa/20261021-el-papa-le%C3%B3n-xiv-no-necesitar%C3%A1-tratamiento-adicional-tras-la-cirug%C3%ADa-de-c%C3%A1ncer-de-pulm%C3%B3n",
@@ -705,7 +813,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elciudadano-100",
+      "id": "elciudadano-99",
       "title": "Rebajas de condena a violadores y abusadores: Diputada Schneider presenta proyecto para que beneficio no se aplique a pedófilos",
       "summary": "El Ciudadano «Es muy lamentable, es muy grave, es muy doloroso para las víctimas de este país ver como este gobierno, el gobierno del Presidente Kast, se las da de humanitario, pero solo tiene piedad, solo tiene compasión con los violadores de derechos humanos y con los violadores de niños y niñas», declaró la diputada Emilia...",
       "url": "https://www.elciudadano.com/chile/rebajas-de-condena-a-violadores-y-abusadores-diputada-schneider-presenta-proyecto-para-que-beneficio-no-se-aplique-a-pedofilos/10/21/",
@@ -741,7 +849,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-252",
+      "id": "france24-253",
       "title": "Putin confirma sus intenciones de hacer una reunión trilateral con Ucrania tras reunión con Witkoff",
       "summary": "El enviado de Donald Trump para negociar la paz en Ucrania, Steve Witkoff, planteó al presidente ruso, Vladimir Putin, reanudar las conversaciones trilaterales para el fin de la guerra, con la mediación de Washington. El mandatario ruso dejó abierta la puerta para dialogar y enfatizó en la negociación bilateral con la Casa Blanca, que...",
       "url": "https://www.france24.com/es/video/20261021-putin-confirma-sus-intenciones-de-hacer-una-reuni%C3%B3n-trilateral-con-ucrania-tras-reuni%C3%B3n-con-witkoff",
@@ -795,7 +903,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "diariouach-71",
+      "id": "diariouach-70",
       "title": "Segunda caminata por el Cáncer de Mama en UACh",
       "summary": "En una mañana lluviosa y primaveral de Valdivia junto a funcionarios y funcionarias, estudiantes…",
       "url": "https://diario.uach.cl/segunda-caminata-por-el-cancer-de-mama-en-uach/",
@@ -813,7 +921,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "cooperativa-105",
+      "id": "cooperativa-107",
       "title": "Subsecretario Arenas: El Presidente me pidió un estilo directo, llano, pedagógico",
       "summary": "El nuevo subsecretario General de Gobierno y vocero, Gonzalo Arenas , abordó las críticas a su nombramiento respecto a dichos anteriores en su periodo como diputado de la UDI y aseguró que el Presidente José Antonio Kast le pidió un estilo \"directo, llano y pedagógico\". En su primera conferencia en el Palacio de La Moneda, Arenas...",
       "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/subsecretario-arenas-el-presidente-me-pidio-un-estilo-directo-llano/2026-10-21/160620.html",
@@ -849,7 +957,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-60",
+      "id": "timeline-61",
       "title": "Violencia intrafamiliar se dispara en la Región de Antofagasta pese a baja de otros delitos",
       "summary": "La tercera sesión trimestral del Sistema Táctico de Operación Policial (STOP) de la Prefectura de Carabineros de Antofagasta, permitió analizar el comportamiento de los delitos priorizados durante el tercer trimestre de este año, evidenciando avances en la disminución de delitos de mayor connotación social, especialmente en robos...",
       "url": "https://www.timeline.cl/violencia-intrafamiliar-se-dispara-en-la-region-de-antofagasta-pese-a-baja-de-otros-delitos/",
@@ -885,7 +993,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "elciudadano-101",
+      "id": "elciudadano-100",
       "title": "Dos carabineros infiltrados, una causa cerrada y preguntas sin responder: diputada Pizarro exige esclarecer incendio de la USS durante la revuelta popular",
       "summary": "El Ciudadano La parlamentaria pidió al Ministerio de Seguridad Pública que informe si mantiene la negativa de levantar el secreto respecto a los antecedentes de la Dipolcar relativos a la actuación de los dos carabineros implicados en el incendio y , cuestionó el por qué la declaración del entonces director de seguridad de la USS...",
       "url": "https://www.elciudadano.com/justicia/dos-carabineros-infiltrados-una-causa-cerrada-y-preguntas-sin-responder-diputada-pizarro-exige-esclarecer-incendio-de-la-uss-durante-la-revuelta-popular/10/21/",
@@ -903,7 +1011,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "france24-253",
+      "id": "france24-254",
       "title": "Caos en la red por PHP: gobiernos en todo el mundo cierran sitios web tras alerta de seguridad",
       "summary": "Agencias gubernamentales y empresas de todo el mundo cerraron sitios web este miércoles 21 de octubre después de que salieran a la luz dos fallas críticas relacionadas con PHP, un lenguaje de programación que sirve de base para una gran parte de internet. Francia y Países Bajos ya tomaron medidas.",
       "url": "https://www.france24.com/es/ciencia-y-tecnolog%C3%ADas/20261021-caos-en-la-red-por-php-gobiernos-en-todo-el-mundo-cierran-sitios-web-tras-alerta-de-seguridad",
@@ -921,7 +1029,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-30",
+      "id": "radiouchile-31",
       "title": "Defensoría de la Niñez exige al Ministerio de Justicia explicar 56 rebajas de condena por delitos sexuales contra menores de edad",
       "summary": "El organismo solicitará los antecedentes del cambio de criterio y evaluará acciones dentro de sus atribuciones legales. \"Detrás de estas condenas hay víctimas que tienen derecho a la protección\", dijo el defensor Anuar Quesille. La entrada Defensoría de la Niñez exige al Ministerio de Justicia explicar 56 rebajas de condena por...",
       "url": "https://radio.uchile.cl/2026/10/21/defensoria-de-la-ninez-exige-al-ministerio-de-justicia-explicar-56-rebajas-de-condena-por-delitos-sexuales-contra-menores-de-edad/",
@@ -939,7 +1047,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-107",
+      "id": "cooperativa-109",
       "title": "Alerta mundial de ciberseguridad: Advierten sobre fallas críticas en servidores con PHP",
       "summary": "La Agencia de Seguridad Nacional de Estados Unidos (NSA, por sus siglas en inglés) advirtió este miércoles de dos vulnerabilidades críticas en PHP , un lenguaje de programación utilizado en millones de páginas web en el mundo, y alertó del riesgo que suponen para los servidores afectados. \"Todas las organizaciones que utilicen PHP en...",
       "url": "https://www.cooperativa.cl/noticias/tecnologia/internet/seguridad/alerta-mundial-de-ciberseguridad-advierten-sobre-fallas-criticas-en/2026-10-21/154227.html",
@@ -957,7 +1065,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-254",
+      "id": "france24-255",
       "title": "Yemen: los hutíes niegan ataques contra Medina, en medio de la visita sorpresa de Macron a Riad",
       "summary": "Los rebeldes hutíes reivindican dos bombardeos contra aeropuertos en Yemen, pero descartan cualquier intento de golpear Medina, después de que Arabia Saudita los acusara de atentar contra la ciudad sagrada del islam. El presidente francés, Emmanuel Macron, viaja sorpresivamente a Riad, donde logra un acuerdo para el suministro de...",
       "url": "https://www.france24.com/es/medio-oriente/20261021-yemen-los-hut%C3%ADes-niegan-ataques-contra-medina-en-medio-de-la-visita-sorpresa-de-macron-a-riad",
@@ -975,7 +1083,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-255",
+      "id": "france24-256",
       "title": "Protestas en Italia: críticas a medidas de Meloni contra menores responsables de violencia",
       "summary": "La primera ministra italiana, Giorgia Meloni, abrió el debate tras publicar su nuevo paquete de medidas para garantizar la seguridad durante las protestas, en el que anuncia mano dura para los menores de edad responsables de violencias en manifestaciones públicas. A las protestas generales se le suma el bloqueo de los camioneros y...",
       "url": "https://www.france24.com/es/video/20261021-protestas-en-italia-cr%C3%ADticas-a-medidas-de-meloni-contra-menores-responsables-de-violencia",
@@ -993,7 +1101,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-106",
+      "id": "cooperativa-108",
       "title": "\"El Señor de los Anillos: Los Anillos de Poder\" liberó tráiler de su temporada 3",
       "summary": "Prime Video presentó este miércoles el tráiler oficial de la tercera temporada de \"El Señor de los Anillos: Los Anillos de Poder\" (\" The Lord of the Rings: The Rings of Power \"), que anticipa la creación del Anillo Único , aquel que fue forjado en secreto por \"Sauron\" para gobernarlos a todos. Inspirada en el legendarium , la...",
       "url": "https://www.cooperativa.cl/noticias/magazine/streaming/el-senor-de-los-anillos-los-anillos-de-poder-libero-trailer-de-su/2026-10-21/153151.html",
@@ -1011,7 +1119,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elciudadano-102",
+      "id": "elciudadano-101",
       "title": "(VIDEO) ¿Habrá acuerdo de paz? Witkoff lleva nuevas propuestas a Putin tras reunirse con Zelensky",
       "summary": "El Ciudadano Exploración de las nuevas propuestas de paz presentadas por Witkoff a Putin tras su reunión con Zelensky, centradas en encontrar un marco de diálogo que pueda llevar a un posible acuerdo en el conflicto. Análisis de las dinámicas diplomáticas entre las partes involucradas para avanzar hacia la estabilidad y la paz en la...",
       "url": "https://www.elciudadano.com/reels/video-habra-acuerdo-de-paz-witkoff-lleva-nuevas-propuestas-a-putin-tras-reunirse-con-zelensky/10/21/",
@@ -1029,7 +1137,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "timeline-61",
+      "id": "timeline-62",
       "title": "Buscan llevar los secretos de la Fosa de Atacama a las aulas de la Región de Antofagasta",
       "summary": "Con el objetivo de fortalecer los vínculos entre la investigación científica y la comunidad regional, el seremi de Ciencia, Tecnología, Conocimiento e Innovación de Antofagasta, Héctor Bravo Vásquez, recibió al equipo del Instituto Milenio de Oceanografía (IMO), con quienes abordó futuras colaboraciones para acercar el conocimiento...",
       "url": "https://www.timeline.cl/buscan-llevar-los-secretos-de-la-fosa-de-atacama-a-las-aulas-de-la-region-de-antofagasta/",
@@ -1047,7 +1155,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "france24-256",
+      "id": "france24-257",
       "title": "\"EE. UU. quiere desplegar agentes de IA contra sus enemigos ¿qué puede salir mal?\": 'Intercept'",
       "summary": "El ejército de Estados Unidos tiene en mente un plan para agentes de Inteligencia Artificial. 'The Intercept' accedió a documentos del programa incipiente llamado 'Echotribble' que señalan que el Comando Cibernético del Ejército está desarrollando una plataforma para convertir agentes de IA en armas autónomas capaces de navegar por la...",
       "url": "https://www.france24.com/es/programas/revista-de-prensa/20261021-ee-uu-quiere-desplegar-agentes-de-ia-contra-sus-enemigos-qu%C3%A9-puede-salir-mal-intercept",
@@ -1065,7 +1173,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "france24-257",
+      "id": "france24-258",
       "title": "Informe desde París: sindicatos llaman a huelga general tras improductiva reunión con Lecornu",
       "summary": "Tras una reunión de más de tres horas con el primer ministro Sébastien Lecornu y miembros de su gabinete, los líderes sindicales calificaron la reunión de \"frustrante\" al no escuchar propuestas concretas para el poder adquisitivo. La secretaria general del sindicato CGT, Sophie Binet, convocó nuevas huelgas e hizo un llamado a una...",
       "url": "https://www.france24.com/es/video/20261021-informe-desde-par%C3%ADs-sindicatos-llaman-a-huelga-general-tras-improductiva-reuni%C3%B3n-con-lecornu",
@@ -1083,7 +1191,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "timeline-62",
+      "id": "timeline-63",
       "title": "Últimos días para inscribir a niños en la entrega de 29 mil regalos de Navidad en Antofagasta",
       "summary": "Quedan pocos días para que las familias de Antofagasta puedan inscribir a sus hijos y beneficiarios en el proceso de entrega de regalos de Navidad 2026, iniciativa impulsada por el municipio a través de la Dirección de Desarrollo Comunitario, que contempla la distribución de 29 mil regalos, acompañados de sus respectivos dulces. El...",
       "url": "https://www.timeline.cl/ultimos-dias-para-inscribir-a-ninos-en-la-entrega-de-29-mil-regalos-de-navidad-en-antofagasta/",
@@ -1101,7 +1209,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "radiouchile-31",
+      "id": "radiouchile-32",
       "title": "Calama: la riqueza minera y el abandono de quienes la sostienen",
       "summary": "Calama, conocida como la “capital minera del mundo”, sigue sin un Plan de Descontaminación Atmosférica vigente. Declarada zona saturada por material particulado MP10 en 2009, la ciudad y su área circundante han visto pasar gobiernos, anuncios y nuevas inversiones sin que el Estado asegure una respuesta efectiva a la contaminación. En...",
       "url": "https://radio.uchile.cl/2026/10/21/calama-la-riqueza-minera-y-el-abandono-de-quienes-la-sostienen/",
@@ -1155,7 +1263,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-108",
+      "id": "cooperativa-110",
       "title": "Licencias: TC declaró admisible requerimiento de inaplicabilidad de la Asociación de Magistrados",
       "summary": "El Tribunal Constitucional declaró admisible un requerimiento de inaplicabilidad presentado por la Asociación Nacional de Magistrados y Magistradas , que argumenta que el proceso de remoción de ministros por el uso fraudulento de licencias médicas no cumple con el debido proceso y vulnera garantías constitucionales. La acción se da...",
       "url": "https://www.cooperativa.cl/noticias/pais/judicial/corte-suprema/licencias-tc-declaro-admisible-requerimiento-de-inaplicabilidad-de-la/2026-10-21/150705.html",
@@ -1209,7 +1317,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-258",
+      "id": "france24-259",
       "title": "Israel detiene a un candidato demócrata al Congreso de EE.UU. y a decenas de activistas durante la cosecha de aceitunas en Cisjordania",
       "summary": "El Ejército israelí detuvo este miércoles al candidato demócrata al Congreso estadounidense Brad Lander y a decenas de activistas que acompañaban a agricultores palestinos durante la cosecha de aceitunas en Cisjordania ocupada.",
       "url": "https://www.france24.com/es/medio-oriente/20261021-israel-detiene-a-un-candidato-dem%C3%B3crata-al-congreso-de-ee-uu-y-a-decenas-de-activistas-durante-la-cosecha-de-aceitunas-en-cisjordania",
@@ -1225,42 +1333,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "cooperativa-109",
-      "title": "Biopic de Anthony Bourdain llegará directo al streaming: ¿Dónde se podrá ver?",
-      "summary": "La película biográfica de Anthony Bourdain , el reconocido chef fallecido en 2018, no llegará a los cines en Latinoamérica y aterrizará directo en streaming . Prime Video confirmó que \"Tony\" , la biopic producida por A24 sobre los primeros años del chef, se estrenará en la plataforma el próximo 26 de octubre . En la cinta de Matt...",
-      "url": "https://www.cooperativa.cl/noticias/magazine/streaming/biopic-de-anthony-bourdain-llegara-directo-al-streaming-donde-se-podra/2026-10-21/144510.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261021/imag/foto_0000000220261021144510.jpg",
-      "publishedAt": "2026-10-21T17:45:10+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 78,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "cooperativa-110",
-      "title": "Gendarmería derribó por primera vez un dron que intentaba ingresar drogas y celulares a cárcel de Antofagasta",
-      "summary": "Un dron que intentaba ingresar droga y teléfonos celulares de alta gama al Complejo Penitenciario Concesionado de Antofagasta fue derribado por funcionarios de Gendarmería mediante un rifle antidrones , en un procedimiento inédito para el sistema penitenciario local. El hecho quedó al descubierto durante una ronda de vigilancia...",
-      "url": "https://www.cooperativa.cl/noticias/pais/judicial/carceles/gendarmeria-derribo-por-primera-vez-un-dron-que-intentaba-ingresar/2026-10-21/144227.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261021/imag/foto_0000000220261021144227.jpg",
-      "publishedAt": "2026-10-21T17:42:27+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 70,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "eldiarioes-172",
@@ -1281,7 +1353,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-72",
+      "id": "diariouach-71",
       "title": "Académico UACh explicó el impacto ambiental y beneficios de los polímeros",
       "summary": "El Dr. Mario Flores, académico del Instituto de Ciencias Químicas de la Facultad de…",
       "url": "https://diario.uach.cl/academico-uach-explico-el-impacto-ambiental-y-beneficios-de-los-polimeros/",
@@ -1299,7 +1371,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elciudadano-103",
+      "id": "elciudadano-102",
       "title": "Valparaíso celebra al Gitano Rodríguez: exposición, ruta patrimonial y concierto homenaje",
       "summary": "El Ciudadano El artista porteño será homenajeado con tres actividades que rescatan distintas dimensiones de su legado. El viernes 23 se inaugura una muestra de sus afiches y obra plástica, mientras que el sábado 24 se realizará una ruta patrimonial y musical en Playa Ancha -en homenaje a él y a Payo Grondona- y un poco más […] La...",
       "url": "https://www.elciudadano.com/valparaiso/gitano-rodriguez-homenaje/10/21/",
@@ -1317,7 +1389,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "diariouach-73",
+      "id": "diariouach-72",
       "title": "Alumni invita a votar por docente de Paillaco finalista del Premio Profesor/a Bicentenario 2026",
       "summary": "Tatiana Mellado Vásquez (36) es oriunda de Paillaco, estudió en la Escuela Olegario Morales…",
       "url": "https://diario.uach.cl/alumni-invita-a-votar-por-docente-de-paillaco-finalista-del-premio-profesor-a-bicentenario-2026/",
@@ -1335,7 +1407,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "diariouach-74",
+      "id": "diariouach-73",
       "title": "Denuncias falsas",
       "summary": "En su carta del 13 de octubre pasado, publicada en El Mercurio, la senadora…",
       "url": "https://diario.uach.cl/denuncias-falsas/",
@@ -1353,7 +1425,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "diariouach-75",
+      "id": "diariouach-74",
       "title": "Primera versión de SaludFest + Puertas Abiertas UACh reunió a estudiantes de enseñanza media",
       "summary": "Con una jornada de experiencias prácticas, recorridos por espacios universitarios y actividades interactivas, la…",
       "url": "https://diario.uach.cl/primera-version-de-saludfest-puertas-abiertas-uach-reunio-a-estudiantes-de-ensenanza-media/",
@@ -1407,7 +1479,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-259",
+      "id": "france24-260",
       "title": "¿La respuesta del Gobierno francés ha sido acorde a los disturbios durante las manifestaciones?",
       "summary": "Francia se prepara para una nueva jornada de manifestaciones por el alto costo de vida, la necesidad de mejorar la inversión en educación y el alto precio de los combustibles. Para ello, el Gobierno anunció una serie de medidas para fortalecer las labores de la Fuerza Pública para evitar, o actuar de ser necesario, en caso de nuevos...",
       "url": "https://www.france24.com/es/video/20261021-la-respuesta-del-gobierno-franc%C3%A9s-ha-sido-acorde-a-los-disturbios-durante-las-manifestaciones",
@@ -1425,7 +1497,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-32",
+      "id": "radiouchile-33",
       "title": "Ministro Arrau destaca fiscalización masiva a extranjeros: PDI identificó a 347 en situación irregular",
       "summary": "El procedimiento, desarrollado por la Policía de Investigaciones (PDI) entre este lunes y martes, terminó con más de 2 mil 55 personas controladas. 39 personas que tenían una expulsión notificada fueron detenidas. La entrada Ministro Arrau destaca fiscalización masiva a extranjeros: PDI identificó a 347 en situación irregular se...",
       "url": "https://radio.uchile.cl/2026/10/21/ministro-arrau-destaca-fiscalizacion-masiva-a-extranjeros-pdi-identifico-a-347-en-situacion-irregular/",
@@ -1443,25 +1515,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-260",
-      "title": "La Fiscalía Europea registra oficinas de Patriotas por Europa en una investigación por presunta malversación de fondos",
-      "summary": "La Fiscalía Europea registró este miércoles oficinas administrativas del Parlamento Europeo en Bruselas y Estrasburgo vinculadas al grupo de extrema derecha Patriotas por Europa, al que pertenece Vox, en el marco de una investigación sobre el uso de fondos comunitarios por parte de una antigua formación parlamentaria.",
-      "url": "https://www.france24.com/es/europa/20261021-la-fiscal%C3%ADa-europea-registra-oficinas-de-patriotas-por-europa-en-una-investigaci%C3%B3n-por-presunta-malversaci%C3%B3n-de-fondos",
-      "image": "https://s.france24.com/media/display/8d6a56ec-cd5e-11f1-9158-4da0d2c6855d/w:1024/p:16x9/000-D3VA8TC.jpg",
-      "publishedAt": "2026-10-21T16:34:17+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 90,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "diariouach-76",
+      "id": "diariouach-75",
       "title": "Sede Puerto Montt UACh firmó Convenio de Desempeño para el periodo 2026–2028",
       "summary": "Este martes 20 de octubre, en el Salón Jorge Millas de la Universidad Austral…",
       "url": "https://diario.uach.cl/sede-puerto-montt-uach-firmo-convenio-de-desempeno-para-el-periodo-2026-2028/",
@@ -1479,7 +1533,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "radiouchile-33",
+      "id": "radiouchile-34",
       "title": "Disturbios en Francia: Macron rechaza los comentarios “estúpidos” de mandatarios extranjeros",
       "summary": "Varios dirigentes, como el presidente estadounidense, Donald Trump, el primer ministro israelí, Benjamin Netanyahu, y líderes ultraderechistas en Europa abordaron los recientes episodios de violencia que vivió la segunda mayor economía de la UE. La entrada Disturbios en Francia: Macron rechaza los comentarios “estúpidos” de...",
       "url": "https://radio.uchile.cl/2026/10/21/disturbios-en-francia-macron-rechaza-los-comentarios-estupidos-de-mandatarios-extranjeros/",
@@ -1587,7 +1641,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "eldesconcierto-91",
+      "id": "eldesconcierto-90",
       "title": "Alcalde de San Bernardo critica trato desigual del gobierno ante emergencias: Si esto fuera Las Condes...",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZTFTNmZGY0x1OE9TSGp1T0VQRW13ZEk3VmhjVnhIemNiQ2ZGV2IzWXRhYUhrMm9saGxfRS05OG45N1N1VGZncmRlaEZuellyVmJXOG1MWDRuSy1QaVkzNjBKT3Z4ak5PY1QtaXA2dFQ1QnRyaWozUF92czAzX2ZfRmpKS0tqQS1CbDlqUUlEdThQWHVhRkIzYkx3cFAzLVpPa0VzbVp0aHZwSDN2UDg0d1V5bVpMaS15RGRZenItbDZuejlUcmVqV0JFYW5LZlVybDV5VnpR?oc=5",
@@ -1623,7 +1677,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-34",
+      "id": "radiouchile-35",
       "title": "Ante suspensión de clases: ¿qué opciones tienes en el trabajo si no cuentas con quién cuidar a tu hijo?",
       "summary": "La normativa no concede un permiso pagado automático; teletrabajo, ajustes de horario o acuerdos con el empleador son alternativas que dependen de cada caso y deben respaldarse por escrito. La entrada Ante suspensión de clases: ¿qué opciones tienes en el trabajo si no cuentas con quién cuidar a tu hijo? se publicó primero en Diario y...",
       "url": "https://radio.uchile.cl/2026/10/21/ante-suspension-de-clases-que-opciones-tienes-en-el-trabajo-si-no-tienes-con-quien-dejar-a-tu-hijo/",
@@ -1641,7 +1695,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-63",
+      "id": "timeline-64",
       "title": "Feria en Calama conecta a comités de agua rural con proveedores y nuevas tecnologías",
       "summary": "Con el objetivo de fortalecer la gestión y operación de los Servicios Sanitarios Rurales (SSR), el Ministerio de Obras Públicas, a través de la Dirección de Obras Hidráulicas (DOH), realizó en Calama una Feria de Proveedores que reunió a representantes de la mayoría de los 19 comités de agua potable rural existentes en la Región […]...",
       "url": "https://www.timeline.cl/feria-en-calama-conecta-a-comites-de-agua-rural-con-proveedores-y-nuevas-tecnologias/",
@@ -1749,7 +1803,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-35",
+      "id": "radiouchile-36",
       "title": "Senapred reporta 31 damnificados y 179 albergados por sistema frontal",
       "summary": "La directora nacional del organismo, Alicia Cebrián, informó que el evento meteorológico mantiene a 40 personas aisladas en Los Vilos y ha dejado tres viviendas destruidas. La entrada Senapred reporta 31 damnificados y 179 albergados por sistema frontal se publicó primero en Diario y Radio Universidad Chile .",
       "url": "https://radio.uchile.cl/2026/10/21/senapred-reporta-31-damnificados-y-179-albergados-por-sistema-frontal/",
@@ -1839,7 +1893,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-36",
+      "id": "radiouchile-37",
       "title": "Expertos de la ONU denuncian festejos en ex Colonia Dignidad: “No puede tratarse simplemente como un lugar turístico”",
       "summary": "El pronunciamiento ocurre mientras el proceso de expropiación del sitio —decretado en 2025— fue revertido por el actual gobierno, lo que organizaciones de DD.HH. ya habían advertido ante la ONU. La entrada Expertos de la ONU denuncian festejos en ex Colonia Dignidad: “No puede tratarse simplemente como un lugar turístico” se publicó...",
       "url": "https://radio.uchile.cl/2026/10/21/expertos-de-la-onu-denuncian-festejos-en-ex-colonia-dignidad-no-puede-tratarse-simplemente-como-un-lugar-turistico/",
@@ -1947,7 +2001,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-37",
+      "id": "radiouchile-38",
       "title": "Alcalde de La Reina: “Las piscinas decantadoras disminuirían las probabilidades de un aluvión”",
       "summary": "José Manuel Palacios destacó las medidas preventivas realizadas ante las lluvias y advirtió que la comuna no tiene capacidad para contener un desplazamiento masivo de sedimentos desde la cordillera, por lo que planteó avanzar en obras de mitigación. La entrada Alcalde de La Reina: “Las piscinas decantadoras disminuirían las...",
       "url": "https://radio.uchile.cl/2026/10/21/alcalde-de-la-reina-las-piscinas-decantadoras-disminuirian-las-probabilidades-de-un-aluvion/",
@@ -1983,7 +2037,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-81",
+      "id": "elmostrador-80",
       "title": "Hijo del presidente de las AFP asesora vocerías del Gobierno en medio de crisis por pérdidas",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYW1XWHotaWtONUM5bGVmZURPR3ZRaGpoNE44RWFhamRscE1jcXVRSXdhMXVEYVBsWTQ3SHBsZUlOZVFGMjlyREVROHB5N2JEc0s5ZnZwREl6UDNubTZJOWR3N2JJRS04U1pTWkVUQ1h6YUR4Wkl2NGd1NGt0WWFwMFhqSjFxTjZ6bm5lN1pRNFl6UmhLblV2Unc2OGlhVklVeUJybElMWEtEWXNEZFotNTZpQWRNRHltRkk2WkR6UnBJQ0pGYlRjajEydVZRSDlXcGx0ekh5U3pHYjNNcFE?oc=5",
@@ -2091,7 +2145,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-64",
+      "id": "timeline-65",
       "title": "Derriban dron que intentaba ingresar droga y celulares a la cárcel de Antofagasta",
       "summary": "Gracias al efectivo trabajo del personal penitenciario, en horas de la noche se logró detectar el sobrevuelo de un dron que buscaba ingresar droga y 2 teléfonos celulares al Complejo Penitenciario de Antofagasta. Una vez identificado el aparato, se utilizó el equipo antidrones, logrando derribarlo y realizar el decomiso...",
       "url": "https://www.timeline.cl/derriban-dron-que-intentaba-ingresar-droga-y-celulares-a-la-carcel-de-antofagasta/",
@@ -2109,7 +2163,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "radiouchile-38",
+      "id": "radiouchile-39",
       "title": "Colegio de Profesores emplaza a Quiroz por recortes en Educación: “Lo invitamos a estar tres día en un colegio público”",
       "summary": "Durante la exposición del gremio en la Subcomisión Especial Mixta de Presupuesto, cuestionaron que la mayoría de programas \"se recortan o desaparecen\". Mario Aguilar evidenció la caída en el financiamiento para infraestructura y formación docente. La entrada Colegio de Profesores emplaza a Quiroz por recortes en Educación: “Lo...",
       "url": "https://radio.uchile.cl/2026/10/21/colegio-de-profesores-emplaza-a-quiroz-por-recortes-en-educacion-lo-invitamos-a-estar-tres-dia-en-un-colegio-publico/",
@@ -2122,24 +2176,6 @@
       "region": "chile",
       "independent": true,
       "category": "Economía y Sociedad",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "radiouchile-39",
-      "title": "Senado despacha a ley proyecto para agilizar las expulsiones administrativas",
-      "summary": "La comisión mixta, encargada de resolver las diferencias con la Cámara de Diputados, acordó aumentar de tres a cinco años el plazo mínimo de prohibición de reingreso y otorgar mayores facultades a los organismos públicos que participan del proceso. La entrada Senado despacha a ley proyecto para agilizar las expulsiones administrativas...",
-      "url": "https://radio.uchile.cl/2026/10/21/senado-despacha-a-ley-proyecto-para-agilizar-las-expulsiones-administrativas/",
-      "image": "https://uchile-media-storage.nyc3.cdn.digitaloceanspaces.com/2024/08/expulsiones.jpg",
-      "publishedAt": "2026-10-21T14:07:19+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 94,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
@@ -2163,7 +2199,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-77",
+      "id": "diariouach-76",
       "title": "UACh inició Estudio de Cargos y Compensaciones",
       "summary": "La Dirección de Personal de la Universidad Austral de Chile inició el proyecto “Evaluación…",
       "url": "https://diario.uach.cl/uach-inicio-estudio-de-cargos-y-compensaciones/",
@@ -2181,7 +2217,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "timeline-65",
+      "id": "timeline-66",
       "title": "Fiscalización en Antofagasta termina con 12 motocicletas retiradas de circulación",
       "summary": "Un total de 35 motocicletas fueron fiscalizadas durante un operativo municipal realizado la mañana de este martes frente al Mall Paseo La Portada, en el sector norte de Antofagasta. El procedimiento dejó 12 vehículos retirados de circulación y 12 citaciones al Juzgado de Policía Local por incumplimientos a la normativa vigente. El...",
       "url": "https://www.timeline.cl/fiscalizacion-en-antofagasta-termina-con-12-motocicletas-retiradas-de-circulacion/",
@@ -2235,7 +2271,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-66",
+      "id": "timeline-67",
       "title": "Con baile de la “Mamacarena” promueven la prevención del cáncer de mama en Antofagasta",
       "summary": "Con una intervención urbana que tuvo lugar en la Avenida Brasil de Antofagasta la agrupación Matrofit expuso ante la comunidad la importancia de la actividad física como un método efectivo para prevenir el cáncer de mamas, patología que provoca en la región 14 fallecimientos por cada 100 mil mujeres. A través de una coreografía basada...",
       "url": "https://www.timeline.cl/con-baile-de-la-mamacarena-promueven-la-prevencion-del-cancer-de-mama-en-antofagasta/",
@@ -2343,7 +2379,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-67",
+      "id": "timeline-68",
       "title": "Kast anuncia nuevo cronograma para la ruta Antofagasta-Caldera: licitación del primer tramo comenzaría en 2027",
       "summary": "Un nuevo cronograma para concretar la esperada ruta entre Antofagasta y Caldera anunció el Presidente de la República, José Antonio Kast, durante su participación en la inauguración de Expo FOREDE 2026, realizada este martes en Copiapó. El mandatario confirmó que el proyecto será reactivado mediante un proceso de licitación dividido...",
       "url": "https://www.timeline.cl/kast-anuncia-nuevo-cronograma-para-la-ruta-antofagasta-caldera-licitacion-del-primer-tramo-comenzaria-en-2027/",
@@ -2685,7 +2721,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "elsalto-165",
+      "id": "elsalto-164",
       "title": "La COP17 pone a prueba el compromiso global para frenar la pérdida de biodiversidad",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObnM5M0ZRNVNldFEzVFB1cU1CUnltYmM0em4wb1VLOHZacDVDamJoTEZQd3pkY25PQTZpNEw4T18tZTRRbU9IZnpFWlBHa2IzajV1YkhaQ2JHRTFqT0xTN2dwdERpdjRpbHVUOEZHNm9NN3dQMUhfUE85ZnZzV3l4OGJpYy1FRTBHdUE?oc=5",
@@ -2721,7 +2757,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elmostrador-88",
+      "id": "elmostrador-84",
       "title": "Militares para las piscinas, nadie para el Cesfam",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOclFpb3ZvZzVURDNVM25GQ1lNTmFBb3F1UUZweGJWVjJrQnBzMnlSRTlLaVdQWktpZ3V6OTh6eWNHWnA1cVQzMTluM1Y3dGVkczhaT25GZ0JoMkpEMndjdk9VQ3gzUGJqQS1ZRkJyUUp4bXBIb3hRblNoOTk5M2RURXAyak45ZGdnQ1EtRlRXTVZ4RzlIdEo1UFAxLVd1ZURJbnBFSFBXMUFSWHYzYVMyZTVyWQ?oc=5",
@@ -2793,42 +2829,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-68",
-      "title": "Autopistas Antofagasta propone extender ruta concesionada hasta acceso norte de Mejillones pero falta visto bueno del gobierno",
-      "summary": "El gerente general de Sociedad Concesionaria Autopistas de Antofagasta, Emilio Ortiz, informó en una entrevista en el programa “Un día Menos” de La Caja que el proyecto de ampliación de las rutas 1 y 5 generaría unos 1.500 puestos de trabajo durante su construcción. Las obras, que podrían ejecutarse en tres años, buscan reducir los...",
-      "url": "https://www.timeline.cl/autopistas-antofagasta-propone-extender-ruta-concesionada-hasta-acceso-norte-de-mejillones-pero-falta-visto-bueno-del-gobierno/",
-      "image": "https://www.timeline.cl/wp-content/uploads/2026/10/cee8193d-0a69-4293-a4e9-2d59a35e575b.jpeg",
-      "publishedAt": "2026-10-21T01:34:19+00:00",
-      "sourceId": "timeline",
-      "sourceName": "Timeline Antofagasta",
-      "sourceType": "Regional Independiente (Norte)",
-      "sourceSite": "https://timeline.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 69,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "timeline-69",
-      "title": "Diputado Ossandón plantea que eventual reintegro de dineros en Codelco apunte a los altos ejecutivos y no a trabajadores",
-      "summary": "El diputado Fabián Ossandón, integrante de la comisión que investiga el pago de bonos asociados a metas de producción en Codelco, declaró que el “hilo no debe cortarse por lo más delgado” y que un eventual reintegro de los recursos debe apuntar a los ejecutivos responsables de los hechos, y no a los trabajadores que […] La entrada...",
-      "url": "https://www.timeline.cl/diputado-ossandon-plantea-que-eventual-reintegro-de-dineros-en-codelco-apunte-a-los-altos-ejecutivos-y-no-a-trabajadores/",
-      "image": "https://www.timeline.cl/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-21.59.07.jpeg",
-      "publishedAt": "2026-10-21T00:59:45+00:00",
-      "sourceId": "timeline",
-      "sourceName": "Timeline Antofagasta",
-      "sourceType": "Regional Independiente (Norte)",
-      "sourceSite": "https://timeline.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 73,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "ciper-5",
       "title": "Inician proceso sancionatorio a las AFP por caída en los fondos D y E; Cámara aprueba proyecto que moderniza e incentiva a Carabineros, y SII rebajará contribuciones a afectados por catástrofes naturales de 2026",
       "summary": "La entrada Inician proceso sancionatorio a las AFP por caída en los fondos D y E; Cámara aprueba proyecto que moderniza e incentiva a Carabineros, y SII rebajará contribuciones a afectados por catástrofes naturales de 2026 se publicó primero en CIPER Chile .",
@@ -2847,7 +2847,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-80",
+      "id": "elmostrador-79",
       "title": "Temporal suma emergencias: inundaciones en Peñalolén y evacuaciones en Santiago y Biobío",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORjJCS29heDJDaW0zaUt5ZXNKMlh1eWZmdXZVNFJRODZhVTBFRG1tOG5Ucm40UUpqRmprQ0thVW9fQWFZUnVVS25qQXpFU2dfTHdOcG9UaFlaTUxYaXdsZDRRR2RFQkxqV05OZzlvRGE5eUU0UE01NmkzTHVTZnpCdFBtdjlGeUhwRWhXeWNNOTE0d2k4OTdYeFZoWUFqUm9sNzVMSXpuMFVZQ1JySGxETWllSmVIOFRWbURxYWlHYS0xVkw5OHhDSzc4em9iaks2SU5SOFJKTQ?oc=5",
@@ -2865,7 +2865,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "eldesconcierto-95",
+      "id": "eldesconcierto-94",
       "title": "Sexta salida en menos de un mes: renuncian seremis de Hacienda y Economía y totalizan 45 bajas en el gobierno",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQT0hkMEU3cFprSVRLSnBIUnNmZF92cjRmTGFQXzJPWUhlZHF1VmxZSFo1X1VMc2VmUHp6M01kUEhuaV9kX0tHMXdDYm1mZXJ0cXBBUTFBamxKOFBOejRRVUQydFc4MVEwajNCMjRQY01TcnR0bTBDM1B0RU5rWkl2WmZsXzJuLVg4SXFzSklROUt3RUd0UW5rQzN6b1RscEZTSXJxbmtOVFI1TnlHaXhCYTlXVVRyUUtTQ2xTWWdPaXhYUTYtZUItYU9XeFdrOTRnZG9Hem5HWWpIUQ?oc=5",
@@ -2901,7 +2901,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-82",
+      "id": "elmostrador-81",
       "title": "18-O incendió WhatsApp de La Moneda: choque entre Arrau y Barros por llamado a la prudencia",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNDdVQm4yTFFBenRhNVlQOFRuakdWclhEdTFpRnJ2WENURHFjY1g5TEM0OUFkcFR5SjU3dVM2Vm1GcllxY2tqSzZVbXExSWU4TElVR2MxanpiV3lEUGRVMTlhc0t1WE9tTGItdFZXOUdxT1N1MF9GcHlnQzFMQTRBeWpRbjltenREMFFHUThtUVc4dVpCV3hnUFBwOHhZTlpnQkNIN3dXZ19zU0VFMEk0aEdTTjlSMFZOZmU3N2RaNElBalNhQ2NOTWZzczE3eEtYT2tWTnFxSFB6eGc?oc=5",
@@ -2955,7 +2955,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-78",
+      "id": "diariouach-77",
       "title": "UACh y Asociación Freude consolidan alianza cultural con exitoso concierto",
       "summary": "Con una amplia asistencia de público, la Sala Teatro Diego Rivera fue escenario del…",
       "url": "https://diario.uach.cl/uach-y-asociacion-freude-consolidan-su-alianza-cultural-con-exitoso-concierto-en-el-teatro-diego-rivera/",
@@ -3009,7 +3009,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elmostrador-83",
+      "id": "elmostrador-82",
       "title": "Como el clima en primavera: de culpar al gobierno anterior La Moneda pasa a golpear a las AFP",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdEliNzFMYzRmcXZLQVN0a1hVYTNHdEhLZlRLcHFQMkw5cFBzQzRoelFpa1hJTGRoekY0cmgybW5kVGVrN3JzLVRXTUliN25nWXhmN3ppdHhzVDZ0bi1nWVRDc0RsdUZ5S2xMRnBjY3lZbFBhbFlFYi1tWXE1S0lTV2ZQeTIxUTgtRnUtZlFyUkVNa3NtRnA0SkF2SEg3TnpLdXFHcV9mQzBCM2J1cFl6bDdnZnB1aF9LdmhJWEI2UVhEZ3p6UzlYRWZCOHdNXy1YeFc0blhfcw?oc=5",
@@ -3099,7 +3099,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-92",
+      "id": "eldesconcierto-91",
       "title": "Luis Japaz, exmano derecha de Cathy Barriga, acusado de mantener impaga factura por $16 millones",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZU9Sc3ZlNGpvNl9vNC11cXpfWkt4dmRqdWw1V3djb0lINXFvZ0dMNDd6UmRjVGIzcldrdEFUSjhUd3FnR0g3aVJ5YjJ4WWF6QnJIVXdzc0hpVnkwYUdwMHBUOE1mc25aZk5IQi05Vzl0UXp1NkRCekNmazh6bmlCTHRqUXNmTTMzeHUxbWl3S1hYamVKRFZVZTNXYXBSeUlFaVRRd0czSm5kNlB1a05ScVNuemFkMFYyZU1KVDBWeG1GUFphYkN1NQ?oc=5",
@@ -3189,7 +3189,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-93",
+      "id": "eldesconcierto-92",
       "title": "Tala de árboles y daño a humedal: Empresario pagará 30 mil UTM en primera condena por delitos ambientales",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNlVublpmYkN4YzRNaUJSeXhCQ0lKLVFrWWVabS1lV1VkcElzZHktX1RiaVJJQ1FSbjV6TW1lOFJQR1NyQzZyYmo2SmpRZDU3RDBaT0xpZG1YMG94bDY2dmszTE9lVWl6cm0zZU5TLXhWYkt0azdvVDFtZmdtSHhMQ0FkYmNkT09RZFJQcVd5WW9MMFhOMzYwSzlJakltRFVKTUxJdUNzbHdLMW5HUE04RHJUZm05Qkt0Y1ZTdXZyVGNTNGVTZ0lmRFNzaTIyRnR1em4tbEo4aFVZZw?oc=5",
@@ -3243,7 +3243,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elmostrador-84",
+      "id": "elmostrador-83",
       "title": "Influyente periodista argentino advierte tensión con Chile por Malvinas y “espíritu antichileno”",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQa0RMNWZCdTV0T1dmamZHUUo2c2UzQnFCdDZhNVhCWWZ3Yk92S3ZIcWVLUlVGQXBhMFIxaWpJOEJkalhJbEV5SXljOFRKRzhCRi1wX3FVODhaamdFSVlVc1pWUXJSMVpkZ0hSUnhpa0RjYnBVV2Y5enFFVG5oQ1Q1bWNfTERYeDktY01FbHM0UXpSeEFxWE1QVlBSQnVWVnJ2blMxT3R3YThRQk1LT2kwOXZLbWJxcUg4TDJ3TjVhX2JhajYyVWliZm5aZjYyRXdSbjc2bGxiSXRKN09fVWhmbg?oc=5",
@@ -3279,7 +3279,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "eldesconcierto-89",
+      "id": "eldesconcierto-88",
       "title": "Pérdidas de las AFP: quiénes son los gerentes detrás de las millonarias apuestas en swaps",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa1plM1ZXTmJqWjhCQ0pFamk5aE12bGJxVVlFc0UybExFMjAzNVNWeGJ2NHcyS0UtaGE1bzh0SjYydUlkbjJQWGR4dlRmWmlNQk1yU2FyOTRqR1BnNVNEcTllRnFiOUhqOXZTTExhUkEzZzVqZEdvd00wTHloaDVBNnRWZk9LNHZJM2xEb01KS0lDWm1XRWpnY0s5VDZjS0dTUmV1ZTBSTGMwUFlSMEVJdllfYklfNi1mcENnT2R4SFZWbjA?oc=5",
@@ -3351,7 +3351,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-79",
+      "id": "elmostrador-78",
       "title": "Jefaturas junior con sueldos millonarios: los ahijados políticos de Squella en Economía",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPN283Q1VUZTBjTThCdUFuSWJxY1Btc1ljZTYwRE9zNG44SjhhbkRnbXVqSXE4d1R6ei16enF0cEh0emktTjRKNElwcEVGWWRtbU1fS2ppRHh4cVQtLVRXdXNDS3ozQUw3UkdwRVFIN2c2QlBTczlFVWd3Yl9yaFA5VzJHZHlhNDRPY3VQVW04MzZ6S3UwZWxkRE56TUJOUnFQUVcwNnNEUWJxcEQxdXZKeDB4S3FKbkxqbU5JTkp3eG5CRUlJdFBDZXAxRHRQdTRaY2NxY0xzVnRQbTB6Z3lZX01Gand6b0RIQktrZFdRZlNGZw?oc=5",
@@ -3477,7 +3477,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-96",
+      "id": "eldesconcierto-95",
       "title": "Justicia territorial en Santiago: cerros isla podrían aumentar áreas verdes de 3,7 a 11,7 m2 por habitante",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZ0FaZnI0dm0xQXFNRTFLS2pyZndEcEoySzNlZlNWYloyMnAzRmlYTTVCQWVxYW9LZnJHTHdzb2o5dkhFR19kYUxqcm9pQl9EQ25TWEdZdHhoRWZwT3huUmNzYlBBOVp0SW1nUnE4MlNKOEpTWkw5Skp5UlBNTmFsN2ctUGMyaW85cnZYYWkyM3pWWHM0TndhaTBRTDJQUkFCTFVYRjV5WWNXOW9JUDhfUC1GNUZSdFFTMk83c2pHRkVmbVo3TlJwX01mVzVzejFoVFE?oc=5",
@@ -3531,7 +3531,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-97",
+      "id": "eldesconcierto-96",
       "title": "Inversión verde en Santiago: Cerros de Renca entregarán beneficios de US$8,9 millones al año para 2035",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORUwtQTYtMVU3aGVqODRsV2tIb0o3b0hjS3MwUk1pdlF4Rng1NU5Kb0NnZ1Vkc2diTzJkbC1URHk2UFZhZDRkMnNYakRVTTFnTkZYY25GRjlSSzlfLWF3Ql9uSU1uT1kxNkh6alNDTmZYaV8yUE12dm1USEoteG9PV3ZZcC01ODVPWklWNnhXQmpMclNOYU1ybDd6WmpoZGNPOTFpcDJ3bGZvSjU1VkwxWXBMMi1mYUI2RkFjeTVDaHVrbmFmN3Z1dy1R?oc=5",
@@ -3585,7 +3585,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-98",
+      "id": "eldesconcierto-97",
       "title": "Denunció cotizaciones impagas ante la Inspección y fue despedido: Empresa deberá indemnizarlo y pagarle sueldos",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORXZTQnZyTHBlVHdIdXZOMldpUlRSMk1NbEtJWERLdGxKWURiWFJJalpaZkJmdzN4M3kyYnVweGRISWdZQXlMaktWWTc1bFRILWpUelhONk10TW44VmpKR3p2LXctWVlQUndqR08wcUNLRDFLamZweFZqMThPWTZZeWNPOVpWa09xTnhhS29qVDdDSDZ6enJKbEtEcmdFM3kyTUl3TlpPSUI1R254cHV2dXZMN1dvQVdDbzRsbXNTR3V3VmNuYVk4LVhsdlprNktrbTZGN1pvNUxjRVY1TjJLcmNHS3BxZw?oc=5",
@@ -3639,7 +3639,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-161",
+      "id": "elsalto-167",
       "title": "Cargas contra una concentración pacífica de profesorado frente a un acto en el que participaba Ayuso",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQnctUjFaMmprZkhwcmRGOTUzLTJ6ZGVTcmwtQVh2cHhlVUZEZl9Zay1MSUl4a2JIQkZkV3FWbDJzR2VnUnBsUmladVBnTm5WVDRkREZYWENodWdPb0MtUmpsUlQtdmFhaVhYUGRSV3hqVW1Jdl9jVFZMNGRqektEN0VYRHF6UnVJTGFfSFA4VDZER1Z4RENZT1R3cUZxVlM2MVd1WFBheE0zYXZpNjBvOTNicDNCajExRHNGVG1KZ1A?oc=5",
@@ -3657,7 +3657,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "eldesconcierto-94",
+      "id": "eldesconcierto-93",
       "title": "Gobierno debe salir a defender a ministro Jorge Quiroz ante lluvias de críticas por crisis económica en Chile",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcmd4aENTZk96Mmg3SExuQ1I4MHdHWDBlMWdHTS1PdWFuc2lXUWJGTVp5aE9nQllfeDJrZ2JraTRhRG9TdGl1anBYNU1VRFJOM0hYN0FOdUZjQTVBSG5fWG1DRzhzMnBTVXZRMG1WZUtNS3gzT0lqUFh4ak5Gb1NoV2J4cG1pTDJZRWU0ZGE3VmVJZUt4R2RPM0NpWGZJeHMzS0xaWUs5U3M1cnpiVDVmZ2ZMTGdYZ3QxeFZMR3gtOWtGRGZCd2NkanY5aWt2VDN1U1E?oc=5",
@@ -3693,7 +3693,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "eldesconcierto-90",
+      "id": "eldesconcierto-89",
       "title": "Aprueban que data center de Google en Cerrillos se construya saltándose la evaluación ambiental",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQT25IUk80b0FQUEVSV3l0eFRLN0tEaEQzaHZqQzVXRlpvVW9lYWhlMkRYTU9yVE5XSTdVclZUWFEwYUt0anpXemNQTjlJcURUV05xNHZ1VTZaaTVpWW0yTll4cEJFbTM4d0FyM192UkJLem5IUGpXbEE3Z2VtTDFQZXVNQk4xUkZLMk9TelpFeE1FT3NhTkpGTjRnQkpmYWtFaG5CNExqUjBERzh6cGM5X1NoUlU5bGh4N1dBMl9VX0lsOU9UVlZXNVpHa3hyZnVGSGxHdUR3?oc=5",
@@ -3855,7 +3855,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-167",
+      "id": "elsalto-166",
       "title": "El bloqueo del padrón a inmigrantes en València anticipa la prioridad nacional de PP y Vox",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVElRc2V3RzZ2bVJEdm1IZVNvQjMtOWpsVkU2UUtOVGNuNVBWYWhSTnMxdF9COFFVNmZfNU9TejhYbV9iaHR6THhCa0NpUlBYUTNQMzl4VDVnQlpiNG9HSUNTVkxLdkFLbkliMjBWU3R1UlRfZGpmSmEzYTFaZlQwdXlCVkF5d1c3Wk4yV1dKMGdIWUhZbWVwT3Nfd3VSZ0w1N3d5QUNORmZXS1FEOWZHY3Y1RQ?oc=5",
@@ -4125,7 +4125,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-163",
+      "id": "elsalto-162",
       "title": "Milei arrastra a Argentina a las puertas de una recesión",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWJmYXVzM0prdEZKYm1TcThjMkUwSGtfZ2JCc3RPUk5CdmFGazY0N0JkbXU4eWRYRDVUQWExT1plN3lPeWMzQVdhMTE5cXdPR0cteFhYN19sZ29xME9MdWswWkQ4TUJSc3JqSWhhTzJ3d3lZdU4tcmlrWUgwbHFlalhMSUF3M25zSTFCbmF3?oc=5",
@@ -4233,7 +4233,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-164",
+      "id": "elsalto-163",
       "title": "El Patronato no murió con Franco, en el número de otoño de la revista El Salto - El Salto - Edición General",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVTVkcm1rMldINFA4QUR1a1ZKSXF4S3B4Q01ZM1pROHhoV0JzLU1IZGVsMTdpM1ZpY1QzVVRWanBaN2Rydm00QXF5b00wdlhBQ0FsT196OHI5S2tZbTQtTWJ1UzFxanFjY3BsaFZINURzeHRxYzlQRVRURzJkVlFWZVZSTExFSjQ2a0lDeldWVVlmSXFXbWZNV3dvQWw?oc=5",
@@ -4377,7 +4377,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-162",
+      "id": "elsalto-161",
       "title": "COPRA, el comando de mercenarios al margen de la ley con el que Michel Fiffe actualizó el cómic de superhéroes",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa0ROR0JNMkNHc1F3bkpOR296eU9ZVjNZd0hSWGlhUC1pWkFGUGJ6OXEtaEppYWFGZl9acmMzTDdWX3ItV3RheU1TOGRaR3A1SzVucHNBLTZ5d0k1VWM2ZHFXZWpOMWtvdl81TFlNUnJtUUE3eEhzdjV1T290RGluNEFoN1J1N1lHcl9GWm9jeVpoUkhoYVBiX0FHSVZzX0dsSjNEY1A4TWVxUHRzU3hvOVM3TXdUeEU?oc=5",
@@ -4593,7 +4593,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-166",
+      "id": "elsalto-165",
       "title": "Más Madrid ofrece a Podemos lugares en la lista y la duda es si Colau será candidata sin unidad",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGFkM1lmVlZDR09fUkw5bjczNjUwU0YtUks4RUJ6MGFNMjE0b1BIWUFFby1Tbk92a3RodVg0MnFpbWFjWUpfQzJJTHRPZ0Q3SVJSNGZrUEJvRERZaXB3akd3cmJJNU1XUjBfZndpQTVidmNxODlHbmNwaXBSUzRpRGwtMHl0VDhKTDJJdzRmcjFFUTVlRDJIRXE1VFBBRllRaTQzOFhxTWZyUXgybHI0?oc=5",
