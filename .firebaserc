@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "noticias-personales-cl"
+  },
+  "targets": {
+    "noticias-personales-cl": {
+      "hosting": {
+        "pulso-independiente": [
+          "pulso-independiente"
+        ],
+        "noticias-personales-cl": [
+          "noticias-personales-cl"
+        ]
+      }
+    }
   }
 }
