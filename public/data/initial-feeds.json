@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T19:00:59.884500+00:00",
-  "totalArticles": 261,
+  "generatedAt": "2026-10-21T19:14:20.571546+00:00",
+  "totalArticles": 251,
   "totalBlockedFarandula": 11,
   "blockedExamples": [
     {
@@ -14,12 +14,12 @@
       "reason": "universidad de chile"
     },
     {
-      "title": "Como de Fábregas humilló a Manchester United con goleada en la Champions League",
+      "title": "Champions League: Betis de Pellegrini recibe a Feyenoord",
       "source": "Radio Cooperativa",
       "reason": "champions league"
     },
     {
-      "title": "Champions League: Como goleó a Manchester United",
+      "title": "Como de Fábregas humilló a Manchester United con goleada en la Champions League",
       "source": "Radio Cooperativa",
       "reason": "champions league"
     },
@@ -598,12 +598,67 @@
       "region": "mundo",
       "type": "Medio Público Internacional",
       "independent": false,
-      "status": "ok",
-      "count": 10,
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "count": 0,
       "blocked": 0
     }
   ],
   "articles": [
+    {
+      "id": "timeline-60",
+      "title": "Violencia intrafamiliar se dispara en la Región de Antofagasta pese a baja de otros delitos",
+      "summary": "La tercera sesión trimestral del Sistema Táctico de Operación Policial (STOP) de la Prefectura de Carabineros de Antofagasta, permitió analizar el comportamiento de los delitos priorizados durante el tercer trimestre de este año, evidenciando avances en la disminución de delitos de mayor connotación social, especialmente en robos...",
+      "url": "https://www.timeline.cl/violencia-intrafamiliar-se-dispara-en-la-region-de-antofagasta-pese-a-baja-de-otros-delitos/",
+      "image": "https://www.timeline.cl/wp-content/uploads/2024/11/Imagen-referencial-de-VIF.jpg",
+      "publishedAt": "2026-10-21T19:04:22+00:00",
+      "sourceId": "timeline",
+      "sourceName": "Timeline Antofagasta",
+      "sourceType": "Regional Independiente (Norte)",
+      "sourceSite": "https://timeline.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 64,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "esciclismo-142",
+      "title": "Tadej Pogacar y Demi Vollering cierran 2026 al frente del ranking UCI",
+      "summary": "úmeros uno del ranking individual de la UCI. El esloveno, pese a perderse la parte final de la temporada tras",
+      "url": "https://www.esciclismo.com/actualidad/carretera/93645.html",
+      "image": "https://www.esciclismo.com/actualidad/imagenes/b/tadej-pogacar-tour-francia-et3-2026-sirotti.jpg",
+      "publishedAt": "2026-10-21T19:04:00+00:00",
+      "sourceId": "esciclismo",
+      "sourceName": "EsCiclismo",
+      "sourceType": "Ciclismo Global y Pruebas UCI",
+      "sourceSite": "https://www.esciclismo.com",
+      "region": "mundo",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "elciudadano-100",
+      "title": "Dos carabineros infiltrados, una causa cerrada y preguntas sin responder: diputada Pizarro exige esclarecer incendio de la USS durante la revuelta popular",
+      "summary": "El Ciudadano La parlamentaria pidió al Ministerio de Seguridad Pública que informe si mantiene la negativa de levantar el secreto respecto a los antecedentes de la Dipolcar relativos a la actuación de los dos carabineros implicados en el incendio y , cuestionó el por qué la declaración del entonces director de seguridad de la USS...",
+      "url": "https://www.elciudadano.com/justicia/dos-carabineros-infiltrados-una-causa-cerrada-y-preguntas-sin-responder-diputada-pizarro-exige-esclarecer-incendio-de-la-uss-durante-la-revuelta-popular/10/21/",
+      "image": "https://www.elciudadano.com/wp-content/uploads/2025/10/Pizarro-e1792608782668.jpg",
+      "publishedAt": "2026-10-21T19:01:55+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 79,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
     {
       "id": "radiouchile-30",
       "title": "Defensoría de la Niñez exige al Ministerio de Justicia explicar 56 rebajas de condena por delitos sexuales contra menores de edad",
@@ -623,7 +678,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-105",
+      "id": "cooperativa-106",
       "title": "Alerta mundial de ciberseguridad: Advierten sobre fallas críticas en servidores con PHP",
       "summary": "La Agencia de Seguridad Nacional de Estados Unidos (NSA, por sus siglas en inglés) advirtió este miércoles de dos vulnerabilidades críticas en PHP , un lenguaje de programación utilizado en millones de páginas web en el mundo, y alertó del riesgo que suponen para los servidores afectados. \"Todas las organizaciones que utilicen PHP en...",
       "url": "https://www.cooperativa.cl/noticias/tecnologia/internet/seguridad/alerta-mundial-de-ciberseguridad-advierten-sobre-fallas-criticas-en/2026-10-21/154227.html",
@@ -641,43 +696,25 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-252",
-      "title": "Yemen: los hutíes niegan ataques contra Medina, en medio de la visita sorpresa de Macron a Riad",
-      "summary": "Los rebeldes hutíes reivindican dos bombardeos contra aeropuertos en Yemen, pero descartan cualquier intento de golpear Medina, después de que Arabia Saudita los acusara de atentar contra la ciudad sagrada del islam. El presidente francés, Emmanuel Macron, viaja sorpresivamente a Riad, donde logra un acuerdo para el suministro de...",
-      "url": "https://www.france24.com/es/medio-oriente/20261021-yemen-los-hut%C3%ADes-niegan-ataques-contra-medina-en-medio-de-la-visita-sorpresa-de-macron-a-riad",
-      "image": "https://s.france24.com/media/display/4ee1b270-cd78-11f1-9c9d-19980254bb31/w:1024/p:16x9/2026-10-21T131635Z-2136118508-RC2J7OAVY0LK-RTRMADP-3-IRAN-CRISIS-YEMEN-TAIZ.jpg",
-      "publishedAt": "2026-10-21T18:41:38+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
+      "id": "cooperativa-105",
+      "title": "\"El Señor de los Anillos: Los Anillos de Poder\" liberó tráiler de su temporada 3",
+      "summary": "Prime Video presentó este miércoles el tráiler oficial de la tercera temporada de \"El Señor de los Anillos: Los Anillos de Poder\" (\" The Lord of the Rings: The Rings of Power \"), que anticipa la creación del Anillo Único , aquel que fue forjado en secreto por \"Sauron\" para gobernarlos a todos. Inspirada en el legendarium , la...",
+      "url": "https://www.cooperativa.cl/noticias/magazine/streaming/el-senor-de-los-anillos-los-anillos-de-poder-libero-trailer-de-su/2026-10-21/153151.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261021/imag/foto_0000000220261021153151.jpg",
+      "publishedAt": "2026-10-21T18:31:51+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
       "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 78,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "france24-253",
-      "title": "Protestas en Italia: críticas a medidas de Meloni contra menores responsables de violencia",
-      "summary": "La primera ministra italiana, Giorgia Meloni, abrió el debate tras publicar su nuevo paquete de medidas para garantizar la seguridad durante las protestas, en el que anuncia mano dura para los menores de edad responsables de violencias en manifestaciones públicas. A las protestas generales se le suma el bloqueo de los camioneros y...",
-      "url": "https://www.france24.com/es/video/20261021-protestas-en-italia-cr%C3%ADticas-a-medidas-de-meloni-contra-menores-responsables-de-violencia",
-      "image": "https://s.france24.com/media/display/5ac4560c-cd7c-11f1-b79e-ab78a7fed2ce/w:1024/p:16x9/ES-20261021-070643-070814-CS.jpg",
-      "publishedAt": "2026-10-21T18:33:36+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "elciudadano-100",
+      "id": "elciudadano-101",
       "title": "(VIDEO) ¿Habrá acuerdo de paz? Witkoff lleva nuevas propuestas a Putin tras reunirse con Zelensky",
       "summary": "El Ciudadano Exploración de las nuevas propuestas de paz presentadas por Witkoff a Putin tras su reunión con Zelensky, centradas en encontrar un marco de diálogo que pueda llevar a un posible acuerdo en el conflicto. Análisis de las dinámicas diplomáticas entre las partes involucradas para avanzar hacia la estabilidad y la paz en la...",
       "url": "https://www.elciudadano.com/reels/video-habra-acuerdo-de-paz-witkoff-lleva-nuevas-propuestas-a-putin-tras-reunirse-con-zelensky/10/21/",
@@ -695,7 +732,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "timeline-60",
+      "id": "timeline-61",
       "title": "Buscan llevar los secretos de la Fosa de Atacama a las aulas de la Región de Antofagasta",
       "summary": "Con el objetivo de fortalecer los vínculos entre la investigación científica y la comunidad regional, el seremi de Ciencia, Tecnología, Conocimiento e Innovación de Antofagasta, Héctor Bravo Vásquez, recibió al equipo del Instituto Milenio de Oceanografía (IMO), con quienes abordó futuras colaboraciones para acercar el conocimiento...",
       "url": "https://www.timeline.cl/buscan-llevar-los-secretos-de-la-fosa-de-atacama-a-las-aulas-de-la-region-de-antofagasta/",
@@ -713,16 +750,16 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "france24-254",
-      "title": "\"EE. UU. quiere desplegar agentes de IA contra sus enemigos ¿qué puede salir mal?\": 'Intercept'",
-      "summary": "El ejército de Estados Unidos tiene en mente un plan para agentes de Inteligencia Artificial. 'The Intercept' accedió a documentos del programa incipiente llamado 'Echotribble' que señalan que el Comando Cibernético del Ejército está desarrollando una plataforma para convertir agentes de IA en armas autónomas capaces de navegar por la...",
-      "url": "https://www.france24.com/es/programas/revista-de-prensa/20261021-ee-uu-quiere-desplegar-agentes-de-ia-contra-sus-enemigos-qu%C3%A9-puede-salir-mal-intercept",
-      "image": "https://s.france24.com/media/display/6144efce-cd58-11f1-a108-8bea73bbe173/w:1024/p:16x9/ES-20261021-081327-082021-CS.jpg",
-      "publishedAt": "2026-10-21T18:21:12+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
+      "id": "dw-242",
+      "title": "Las mujeres desafían al poder en las protestas de las \"Cucarachas\" en India",
+      "summary": "Ante el acoso en internet y las detenciones policiales, mujeres de toda India se suman a las protestas juveniles de las \"Cucarachas\". Pese a la represión, rechazan el papel de víctimas y salen a las calles.",
+      "url": "https://www.dw.com/es/las-mujeres-desafían-al-poder-en-las-protestas-de-las-cucarachas-en-india/a-79726045?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-10-21T18:29:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
       "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
+      "sourceSite": "https://www.dw.com/es",
       "region": "mundo",
       "independent": false,
       "category": "Ciencia, Salud y Futuro",
@@ -731,25 +768,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "france24-255",
-      "title": "Informe desde París: sindicatos llaman a huelga general tras improductiva reunión con Lecornu",
-      "summary": "Tras una reunión de más de tres horas con el primer ministro Sébastien Lecornu y miembros de su gabinete, los líderes sindicales calificaron la reunión de \"frustrante\" al no escuchar propuestas concretas para el poder adquisitivo. La secretaria general del sindicato CGT, Sophie Binet, convocó nuevas huelgas e hizo un llamado a una...",
-      "url": "https://www.france24.com/es/video/20261021-informe-desde-par%C3%ADs-sindicatos-llaman-a-huelga-general-tras-improductiva-reuni%C3%B3n-con-lecornu",
-      "image": "https://s.france24.com/media/display/ef2466ec-cd73-11f1-87b0-eb48fa034ddc/w:1024/p:16x9/ES-20261021-070218-070516-CS.jpg",
-      "publishedAt": "2026-10-21T18:18:33+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "timeline-61",
+      "id": "timeline-62",
       "title": "Últimos días para inscribir a niños en la entrega de 29 mil regalos de Navidad en Antofagasta",
       "summary": "Quedan pocos días para que las familias de Antofagasta puedan inscribir a sus hijos y beneficiarios en el proceso de entrega de regalos de Navidad 2026, iniciativa impulsada por el municipio a través de la Dirección de Desarrollo Comunitario, que contempla la distribución de 29 mil regalos, acompañados de sus respectivos dulces. El...",
       "url": "https://www.timeline.cl/ultimos-dias-para-inscribir-a-ninos-en-la-entrega-de-29-mil-regalos-de-navidad-en-antofagasta/",
@@ -803,7 +822,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "eldiarioes-177",
+      "id": "eldiarioes-180",
       "title": "Ayuso insiste en el fantasma del fraude electoral con la ley de nietos en su reunión a puerta cerrada con Milei",
       "summary": "El presidente de Argentina ha invitado a la presidenta al país y ambos han mostrado cercanía en una reunión sin posibilidad de preguntas ni de presencia de la prensa: \"Han abordado las posibles irregularidades de la aplicación\" de la norma, dicen desde la Comunidad de Madrid Ayuso recibe a Milei en su despacho “complementario” del...",
       "url": "https://www.eldiario.es/madrid/ayuso-insiste-fantasma-fraude-electoral-ley-nietos-reunion-puerta-cerrada-milei_1_13604729.html",
@@ -821,7 +840,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-106",
+      "id": "cooperativa-107",
       "title": "Licencias: TC declaró admisible requerimiento de inaplicabilidad de la Asociación de Magistrados",
       "summary": "El Tribunal Constitucional declaró admisible un requerimiento de inaplicabilidad presentado por la Asociación Nacional de Magistrados y Magistradas , que argumenta que el proceso de remoción de ministros por el uso fraudulento de licencias médicas no cumple con el debido proceso y vulnera garantías constitucionales. La acción se da...",
       "url": "https://www.cooperativa.cl/noticias/pais/judicial/corte-suprema/licencias-tc-declaro-admisible-requerimiento-de-inaplicabilidad-de-la/2026-10-21/150705.html",
@@ -839,25 +858,43 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-256",
-      "title": "Israel detiene a un candidato demócrata al Congreso de EE.UU. y a decenas de activistas durante la cosecha de aceitunas en Cisjordania",
-      "summary": "El Ejército israelí detuvo este miércoles al candidato demócrata al Congreso estadounidense Brad Lander y a decenas de activistas que acompañaban a agricultores palestinos durante la cosecha de aceitunas en Cisjordania ocupada.",
-      "url": "https://www.france24.com/es/medio-oriente/20261021-israel-detiene-a-un-candidato-dem%C3%B3crata-al-congreso-de-ee-uu-y-a-decenas-de-activistas-durante-la-cosecha-de-aceitunas-en-cisjordania",
-      "image": "https://s.france24.com/media/display/adf3f506-c9c3-11f1-bfb9-4dd8ac2cf3bf/w:1024/p:16x9/2026-10-16T075619Z-1112181861-RC264OAUE7C4-RTRMADP-3-ISRAEL-PALESTINIANS-SETTLERS-ATTACK.jpg",
-      "publishedAt": "2026-10-21T17:46:49+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
+      "id": "dw-243",
+      "title": "Rumania: un gobierno provisional para una crisis permanente",
+      "summary": "Tras seis meses de crisis, los partidos tradicionales de Rumania acordaron nombrar primer ministro al independiente Luca Niculescu. Pero su Gobierno minoritario podría durar poco. El país ya está en precampaña electoral.",
+      "url": "https://www.dw.com/es/rumania-un-gobierno-provisional-para-una-crisis-permanente/a-79726050?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": "https://static.dw.com/image/79713592_6.jpg",
+      "publishedAt": "2026-10-21T18:04:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
       "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
+      "sourceSite": "https://www.dw.com/es",
       "region": "mundo",
       "independent": false,
       "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "dw-244",
+      "title": "Registros en las oficinas de la ultraderecha en el Parlamento Europeo",
+      "summary": "La Fiscalía antifraude de la UE registró oficinas de Patriotas por Europa que habían sido utilizadas por excolaboradores de Identidad y Democracia, grupo parlamentario disuelto ya.",
+      "url": "https://www.dw.com/es/registros-en-las-oficinas-de-la-ultraderecha-en-el-parlamento-europeo/a-79726191?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": "https://static.dw.com/image/79726223_6.jpg",
+      "publishedAt": "2026-10-21T17:59:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Investigación y Poder",
       "relevanceTier": "alta",
       "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-107",
+      "id": "cooperativa-108",
       "title": "Biopic de Anthony Bourdain llegará directo al streaming: ¿Dónde se podrá ver?",
       "summary": "La película biográfica de Anthony Bourdain , el reconocido chef fallecido en 2018, no llegará a los cines en Latinoamérica y aterrizará directo en streaming . Prime Video confirmó que \"Tony\" , la biopic producida por A24 sobre los primeros años del chef, se estrenará en la plataforma el próximo 26 de octubre . En la cinta de Matt...",
       "url": "https://www.cooperativa.cl/noticias/magazine/streaming/biopic-de-anthony-bourdain-llegara-directo-al-streaming-donde-se-podra/2026-10-21/144510.html",
@@ -875,7 +912,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-108",
+      "id": "cooperativa-109",
       "title": "Gendarmería derribó por primera vez un dron que intentaba ingresar drogas y celulares a cárcel de Antofagasta",
       "summary": "Un dron que intentaba ingresar droga y teléfonos celulares de alta gama al Complejo Penitenciario Concesionado de Antofagasta fue derribado por funcionarios de Gendarmería mediante un rifle antidrones , en un procedimiento inédito para el sistema penitenciario local. El hecho quedó al descubierto durante una ronda de vigilancia...",
       "url": "https://www.cooperativa.cl/noticias/pais/judicial/carceles/gendarmeria-derribo-por-primera-vez-un-dron-que-intentaba-ingresar/2026-10-21/144227.html",
@@ -929,7 +966,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elciudadano-101",
+      "id": "elciudadano-102",
       "title": "Valparaíso celebra al Gitano Rodríguez: exposición, ruta patrimonial y concierto homenaje",
       "summary": "El Ciudadano El artista porteño será homenajeado con tres actividades que rescatan distintas dimensiones de su legado. El viernes 23 se inaugura una muestra de sus afiches y obra plástica, mientras que el sábado 24 se realizará una ruta patrimonial y musical en Playa Ancha -en homenaje a él y a Payo Grondona- y un poco más […] La...",
       "url": "https://www.elciudadano.com/valparaiso/gitano-rodriguez-homenaje/10/21/",
@@ -947,7 +984,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-109",
+      "id": "cooperativa-110",
       "title": "Continúa alerta roja en Arauco por socavón que motivó evacuación preventiva de más de 150 familias",
       "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://www.cooperativa.cl/noticias/pais/region-del-biobio/continua-alerta-roja-en-arauco-por-socavon-que-motivo-evacuacion/2026-10-21/142948.html",
@@ -965,7 +1002,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-110",
+      "id": "cooperativa-111",
       "title": "Comenzó segundo juicio por el caso Ojeda: dos sobreseimientos bajaron a 16 los acusados",
       "summary": "Este miércoles comenzó el segundo juicio oral por el secuestro con homicidio del exteniente venezolano Ronald Ojeda , ocurrido en febrero de 2024 . El inicio del proceso, programado originalmente para la jornada de ayer, debió postergarse debido a dificultades técnicas en la plataforma Zoom y problemas de conexión con los imputados ,...",
       "url": "https://www.cooperativa.cl/noticias/pais/judicial/casos-emblematicos/comenzo-segundo-juicio-por-el-caso-ojeda-dos-sobreseimientos-bajaron-a/2026-10-21/142148.html",
@@ -1037,6 +1074,24 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
+      "id": "dw-245",
+      "title": "Una vulnerabilidad en un lenguaje de programación obliga a desconectar webs de todo el mundo",
+      "summary": "Gobiernos como los de Alemania, Japón o Estados Unidos han alertado de un fallo de seguridad detectado a través de inteligencia artificial en el lenguaje de programación PHP utilizado en el diseño de multitud de páginas.",
+      "url": "https://www.dw.com/es/una-vulnerabilidad-en-un-lenguaje-de-programación-obliga-a-desconectar-webs-de-todo-el-mundo/a-79725975?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-10-21T16:55:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "eldiarioes-174",
       "title": "CHA y el Frente Amplio renuncian a presentarse al Congreso por Teruel para “evitar la dispersión del voto”",
       "summary": "En la comunidad aragonesa, la coalición centrará sus esfuerzos en Zaragoza y Huesca. En Teruel solo concurrirá al Senado dentro de la lista conjunta con el PSOE e IU, con lo que deja vía libre a la Coalición Existe El Frente Amplio cierra la puerta a un pacto con el PSOE para retirar listas al Congreso en provincias pequeñas La...",
@@ -1055,24 +1110,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-257",
-      "title": "¿La respuesta del Gobierno francés ha sido acorde a los disturbios durante las manifestaciones?",
-      "summary": "Francia se prepara para una nueva jornada de manifestaciones por el alto costo de vida, la necesidad de mejorar la inversión en educación y el alto precio de los combustibles. Para ello, el Gobierno anunció una serie de medidas para fortalecer las labores de la Fuerza Pública para evitar, o actuar de ser necesario, en caso de nuevos...",
-      "url": "https://www.france24.com/es/video/20261021-la-respuesta-del-gobierno-franc%C3%A9s-ha-sido-acorde-a-los-disturbios-durante-las-manifestaciones",
-      "image": "https://s.france24.com/media/display/938c5b7e-cd68-11f1-b8cd-19980254bb31/w:1024/p:16x9/ES-20261021-071325-072126-CS.jpg",
-      "publishedAt": "2026-10-21T16:41:45+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 90,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "radiouchile-32",
       "title": "Ministro Arrau destaca fiscalización masiva a extranjeros: PDI identificó a 347 en situación irregular",
       "summary": "El procedimiento, desarrollado por la Policía de Investigaciones (PDI) entre este lunes y martes, terminó con más de 2 mil 55 personas controladas. 39 personas que tenían una expulsión notificada fueron detenidas. La entrada Ministro Arrau destaca fiscalización masiva a extranjeros: PDI identificó a 347 en situación irregular se...",
@@ -1088,24 +1125,6 @@
       "category": "Derechos Humanos y Ciudadanía",
       "relevanceTier": "alta",
       "relevanceScore": 89,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "france24-258",
-      "title": "La Fiscalía Europea registra oficinas de Patriotas por Europa en una investigación por presunta malversación de fondos",
-      "summary": "La Fiscalía Europea registró este miércoles oficinas administrativas del Parlamento Europeo en Bruselas y Estrasburgo vinculadas al grupo de extrema derecha Patriotas por Europa, al que pertenece Vox, en el marco de una investigación sobre el uso de fondos comunitarios por parte de una antigua formación parlamentaria.",
-      "url": "https://www.france24.com/es/europa/20261021-la-fiscal%C3%ADa-europea-registra-oficinas-de-patriotas-por-europa-en-una-investigaci%C3%B3n-por-presunta-malversaci%C3%B3n-de-fondos",
-      "image": "https://s.france24.com/media/display/8d6a56ec-cd5e-11f1-9158-4da0d2c6855d/w:1024/p:16x9/000-D3VA8TC.jpg",
-      "publishedAt": "2026-10-21T16:34:17+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1181,7 +1200,25 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-142",
+      "id": "dw-246",
+      "title": "Reino Unido aprueba extracción de gas en Jackdaw, controvertida explotación ya instalada en el Mar del Norte",
+      "summary": "El gobierno británico autorizó la explotación del controvertido yacimiento tras meses de incertidumbre y en plena subida de los precios de la energía, en una decisión muy aplaudida por Donald Trump en su plataforma.",
+      "url": "https://www.dw.com/es/reino-unido-aprueba-extracción-de-gas-en-jackdaw-controvertida-explotación-ya-instalada-en-el-mar-del-norte/a-79725756?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-10-21T16:14:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "esciclismo-143",
       "title": "El Massi Baix Ter desaparece tras 8 temporadas en la élite del ciclismo femenino",
       "summary": "El Massi Baix Ter pondrá fin a su trayectoria al término de la temporada 2026 por falta de recursos económicos, materiales e institucionales para continuar compitiendo al máximo...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93644.html",
@@ -1199,7 +1236,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "esciclismo-143",
+      "id": "esciclismo-144",
       "title": "Puebla será la sede del Desafío México by La Vuelta en 2027",
       "summary": "Puebla acogerá el 7 de marzo de 2027 el Desafío México by La Vuelta, convirtiéndose en la tercera ciudad mexicana en albergar esta experiencia ciclista vinculada a La Vuelta...",
       "url": "https://www.esciclismo.com/actualidad/cicloturismo/93643.html",
@@ -1217,7 +1254,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "elciudadano-102",
+      "id": "elciudadano-103",
       "title": "(VIDEO) Investigación por incendio en la Universidad San Sebastián se cerró sin culpables tras hallazgo de policías infiltrados",
       "summary": "El Ciudadano El cierre de la investigación sobre el incendio en la Universidad San Sebastián genera controversia al revelarse la presencia de policías infiltrados en el caso. El Ministerio del Interior usó la Ley de Inteligencia para ocultar el papel de dos funcionarios de Carabineros, obstruyendo el avance legal. Descubre cómo estas...",
       "url": "https://www.elciudadano.com/reels/video-investigacion-por-incendio-en-la-universidad-san-sebastian-se-cerro-sin-culpables-tras-hallazgo-de-policias-infiltrados/10/21/",
@@ -1235,7 +1272,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "esciclismo-144",
+      "id": "esciclismo-145",
       "title": "Paula Blasi correrá en el Movistar Team durante las tres próximas temporadas",
       "summary": "a catalana, de 23 años, llega al equipo después de una irrupción meteórica en la élite y tras",
       "url": "https://www.esciclismo.com/actualidad/carretera/93642.html",
@@ -1271,7 +1308,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-62",
+      "id": "timeline-63",
       "title": "Feria en Calama conecta a comités de agua rural con proveedores y nuevas tecnologías",
       "summary": "Con el objetivo de fortalecer la gestión y operación de los Servicios Sanitarios Rurales (SSR), el Ministerio de Obras Públicas, a través de la Dirección de Obras Hidráulicas (DOH), realizó en Calama una Feria de Proveedores que reunió a representantes de la mayoría de los 19 comités de agua potable rural existentes en la Región […]...",
       "url": "https://www.timeline.cl/feria-en-calama-conecta-a-comites-de-agua-rural-con-proveedores-y-nuevas-tecnologias/",
@@ -1287,6 +1324,24 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 56,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "dw-247",
+      "title": "EE. UU. sanciona al sector ferroviario de Irán y Teherán apuesta por el transporte terrestre",
+      "summary": "A medida que Estados Unidos amplía las sanciones al sector ferroviario iraní, Teherán depende cada vez más de las conexiones terrestres con China y Asia Central.",
+      "url": "https://www.dw.com/es/ee-uu-sanciona-al-sector-ferroviario-de-irán-y-teherán-apuesta-por-el-transporte-terrestre/a-79724508?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-10-21T15:52:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "ciclo21-122",
@@ -1307,7 +1362,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "esciclismo-145",
+      "id": "esciclismo-146",
       "title": "\"Se rueda\", las películas que convirtieron la bicicleta en protagonista, reunidas en un libro",
       "summary": "Libros de Ruta publicará el 23 de octubre \"Se rueda. El ciclismo y las bicicletas en el cine\", un libro de Jordi Rodríguez Ruiz que repasa más de un siglo de películas en las que...",
       "url": "https://www.esciclismo.com/actualidad/material/93641.html",
@@ -1325,25 +1380,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "france24-259",
-      "title": "Directo París y la oficialización de la solicitud de protesta de los chalecos amarillos",
-      "summary": "El movimiento de los chalecos amarillos oficializó su solicitud para protestar el próximo sábado 24 de octubre. La aprobación de la movilización ahora depende de las autoridades, que deben evaluar la ruta propuesta por la agrupación teniendo en cuenta los actos violentos que se presentaron durante las movilizaciones el fin de semana...",
-      "url": "https://www.france24.com/es/video/20261021-directo-par%C3%ADs-y-la-oficializaci%C3%B3n-de-la-solicitud-de-protesta-de-los-chalecos-amarillos",
-      "image": "https://s.france24.com/media/display/c9c5ac7a-cd56-11f1-8776-ab78a7fed2ce/w:1024/p:16x9/ES-20261021-073311-073932-CS.jpg",
-      "publishedAt": "2026-10-21T15:38:38+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "esciclismo-146",
+      "id": "esciclismo-147",
       "title": "Mallorca Paracycling Tour celebra su décimo aniversario con 32 participantes y el respaldo de ISB Sport Bearings",
       "summary": "Mallorca Paracycling Tour, la principal competición nacional de ciclismo paralímpico por etapas, celebrará su décimo aniversario del viernes 23 al domingo 25 de octubre con 32...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93640.html",
@@ -1397,7 +1434,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "esciclismo-147",
+      "id": "esciclismo-148",
       "title": "La RFEC aprueba el calendario de las Copas de España de carretera 2027",
       "summary": "La Comisión Delegada de la Real Federación Española de Ciclismo ha aprobado las fechas y sedes de las Copas de España de carretera 2027 en las categorías Élite y Sub23, Féminas,...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93639.html",
@@ -1415,7 +1452,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "esciclismo-148",
+      "id": "esciclismo-149",
       "title": "Yevgeniy Fedorov renueva con el XDS-Astana hasta 2028",
       "summary": "Yevgeniy Fedorov seguirá vinculado al XDS-Astana durante las temporadas 2027 y 2028 después de ampliar su contrato con el equipo WorldTour. El ciclista kazajo, actual campeón...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93638.html",
@@ -1433,7 +1470,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "dw-242",
+      "id": "dw-248",
       "title": "El Constitucional español no admite el recurso del Defensor del Pueblo por ley de nietos",
       "summary": "El tribunal rechazó tramitar el recurso para que los nacionalizados por la ley puedan votar en las elecciones porque hay un plazo abierto para presentar alegaciones en el Tribunal Supremo, máximo órgano de apelación.",
       "url": "https://www.dw.com/es/el-constitucional-español-no-admite-el-recurso-del-defensor-del-pueblo-por-ley-de-nietos/a-79725364?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1451,7 +1488,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-149",
+      "id": "esciclismo-150",
       "title": "Iván Ramiro Sosa se incorporará al EF Education-EasyPost en 2027",
       "summary": "El escalador colombiano Iván Ramiro Sosa correrá en las filas del EF Education-EasyPost a partir de la temporada 2027, después de recuperar su mejor nivel tras una operación en la...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93637.html",
@@ -1559,7 +1596,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-243",
+      "id": "dw-249",
       "title": "Líbano: ¿quién garantizará la seguridad tras la salida de la Fuerza Provisional de las Naciones Unidas?",
       "summary": "Las fuerzas de paz de la ONU se preparan para abandonar Líbano, mientras Israel mantiene su presencia y Hezbolá sigue armado. La misión de la UE busca reforzar al Ejército libanés, pero no sustituirá a los cascos azules.",
       "url": "https://www.dw.com/es/líbano-¿quién-garantizará-la-seguridad-tras-la-salida-de-la-fuerza-provisional-de-las-naciones-unidas/a-79724562?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1613,43 +1650,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-260",
-      "title": "Trump vuelve a apostar por Netanyahu: ¿qué busca?",
-      "summary": "Después de un distanciamiento entre ambos líderes, Donald Trump apoyó oficialmente la candidatura de Benjamin Netanyahu de cara a las legislativas israelíes del 27 de octubre. El primer ministro, en dificultad según los sondeos, espera poder aprovechar el respaldo de Washington. ¿Por qué Trump tomó esta decisión a solo unos días de...",
-      "url": "https://www.france24.com/es/programas/expreso-de-oriente/20261021-trump-vuelve-a-apostar-por-netanyahu-qu%C3%A9-busca",
-      "image": "https://s.france24.com/media/display/833ba96a-cbfa-11f1-87dc-4dd8ac2cf3bf/w:1024/p:16x9/AP26291551882349.jpg",
-      "publishedAt": "2026-10-21T14:50:48+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "france24-261",
-      "title": "Cuba pierde población y envejece: casi uno de cada tres habitantes supera los 60 años",
-      "summary": "Cuba cerró 2025 con 9,4 millones de habitantes y casi el 27% de su población es mayor de 60 años, según un informe oficial. La isla perdió alrededor de 1,4 millones de habitantes desde 2016, en medio de una migración masiva y una baja natalidad. En La Habana, el envejecimiento demográfico coincide con los apagones y la falta de...",
-      "url": "https://www.france24.com/es/programas/econom%C3%ADa/20261021-cuba-pierde-poblaci%C3%B3n-y-envejece-casi-uno-de-cada-tres-habitantes-supera-los-60-a%C3%B1os",
-      "image": "https://s.france24.com/media/display/ce1e872e-cd56-11f1-b28b-19980254bb31/w:1024/p:16x9/AP26251036020611.jpg",
-      "publishedAt": "2026-10-21T14:47:23+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "elciudadano-103",
+      "id": "elciudadano-104",
       "title": "Perro de Caza convierte el silencio digital en una descarga de pop electrónico con “Pega fuerte”",
       "summary": "El Ciudadano Hay ausencias que no terminan con una despedida, sino con una conversación que se interrumpe sin previo aviso. Mensajes sin respuesta, preguntas que se acumulan y la necesidad de encontrar una explicación donde solo hay silencio: ese territorio emocional inspira “Pega fuerte”, el nuevo sencillo de Perro de Caza, proyecto...",
       "url": "https://www.elciudadano.com/arte-cultura/perro-de-caza-convierte-el-silencio-digital-en-una-descarga-de-pop-electronico-con-pega-fuerte/10/21/",
@@ -1703,7 +1704,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-244",
+      "id": "dw-250",
       "title": "Vladimir Putin dice estar dispuesto a reanudar las conversaciones tripartitas con Ucrania tras reunirse con Witkoff",
       "summary": "Tras la reunión con el enviado estadounidense, Steve Witkoff, el Kremlin informó de que \"estamos, en principio, listos para reanudar dichas conversaciones\" a tres bandas entre Rusia, Ucrania y Estados Unidos.",
       "url": "https://www.dw.com/es/vladimir-putin-dice-estar-dispuesto-a-reanudar-las-conversaciones-tripartitas-con-ucrania-tras-reunirse-con-witkoff/a-79725006?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1757,7 +1758,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-150",
+      "id": "esciclismo-151",
       "title": "Un Tour de Francia montañoso y con dos cronos para la edición de 2027",
       "summary": "El Tour de Francia desvelará este jueves los detalles del recorrido de la edición de 2027, de la que se sabe que comenzará en Edimburgo el 2 de julio y acabará en París el 25 del...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93636.html",
@@ -1793,7 +1794,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-63",
+      "id": "timeline-64",
       "title": "Derriban dron que intentaba ingresar droga y celulares a la cárcel de Antofagasta",
       "summary": "Gracias al efectivo trabajo del personal penitenciario, en horas de la noche se logró detectar el sobrevuelo de un dron que buscaba ingresar droga y 2 teléfonos celulares al Complejo Penitenciario de Antofagasta. Una vez identificado el aparato, se utilizó el equipo antidrones, logrando derribarlo y realizar el decomiso...",
       "url": "https://www.timeline.cl/derriban-dron-que-intentaba-ingresar-droga-y-celulares-a-la-carcel-de-antofagasta/",
@@ -1809,24 +1810,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 64,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "elciudadano-104",
-      "title": "Ponerse «en cuatro patas» ante EE.UU. o «besar la bandera brasileña»: Lula confronta al bolsonarismo por la soberanía de Brasil",
-      "summary": "El Ciudadano Durante un acto de campaña Lula dejó en claro que “lo que está en juego el próximo día 25 no es una simple elección\", sino una definición clave: Si Brasil defiende su soberanía o se somete a Estados Unidos, asimismo, condicionó su participación en el último debate presidencial a que Flávio Bolsonar siga su ejemplo y haga...",
-      "url": "https://www.elciudadano.com/latinoamerica/ponerse-en-cuatro-patas-ante-ee-uu-o-besar-la-bandera-brasilena-lula-confronta-al-bolsonarismo-por-la-soberania-de-brasil/10/21/",
-      "image": "https://www.elciudadano.com/wp-content/uploads/2026/10/Lula_soberania-e1792592224558.jpg",
-      "publishedAt": "2026-10-21T14:18:47+00:00",
-      "sourceId": "elciudadano",
-      "sourceName": "El Ciudadano",
-      "sourceType": "Prensa Alternativa",
-      "sourceSite": "https://www.elciudadano.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 74,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "radiouchile-38",
@@ -1847,7 +1830,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-245",
+      "id": "dw-251",
       "title": "PHP reconoce falla de seguridad y publica parche para evitar ciberdelitos",
       "summary": "El popular lenguaje de programación presenta una falla grave de seguridad y apagar servidores podría ser la única alternativa.",
       "url": "https://www.dw.com/es/php-reconoce-falla-de-seguridad-y-publica-parche-para-evitar-ciberdelitos/a-79724651?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1887,7 +1870,7 @@
       "title": "Gobierno propone que las AFP puedan administrar nuevo ahorro para la vivienda y Comisión de Hacienda de diputados lo aprobó",
       "summary": "La entrada Gobierno propone que las AFP puedan administrar nuevo ahorro para la vivienda y Comisión de Hacienda de diputados lo aprobó se publicó primero en CIPER Chile .",
       "url": "https://www.ciperchile.cl/2026/10/21/gobierno-propone-que-las-afp-puedan-administrar-nuevo-ahorro-para-la-vivienda-y-comision-de-hacienda-de-diputados-lo-aprobo/?utm_source=rss&utm_medium=rss&utm_campaign=gobierno-propone-que-las-afp-puedan-administrar-nuevo-ahorro-para-la-vivienda-y-comision-de-hacienda-de-diputados-lo-aprobo",
-      "image": null,
+      "image": "https://www.ciperchile.cl/wp-content/uploads/Vivienda_AFP_Web.png",
       "publishedAt": "2026-10-21T14:06:58+00:00",
       "sourceId": "ciper",
       "sourceName": "CIPER Chile",
@@ -1919,25 +1902,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "dw-246",
-      "title": "Putin recibe a Witkoff: Rusia envía diésel a EE. UU., libera a un preso y propone cumbre con Trump y Xi",
-      "summary": "El presidente ruso, Vladimir Putin, y el emisario de Estados Unidos, Steve Witkoff, negociaron en San Petersburgo sobre Ucrania, Irán, diésel, China y la liberación de un preso estadounidense.",
-      "url": "https://www.dw.com/es/putin-recibe-a-witkoff-rusia-envía-diésel-a-ee-uu-libera-a-un-preso-y-propone-cumbre-con-trump-y-xi/a-79722873?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-10-21T13:30:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "timeline-64",
+      "id": "timeline-65",
       "title": "Fiscalización en Antofagasta termina con 12 motocicletas retiradas de circulación",
       "summary": "Un total de 35 motocicletas fueron fiscalizadas durante un operativo municipal realizado la mañana de este martes frente al Mall Paseo La Portada, en el sector norte de Antofagasta. El procedimiento dejó 12 vehículos retirados de circulación y 12 citaciones al Juzgado de Policía Local por incumplimientos a la normativa vigente. El...",
       "url": "https://www.timeline.cl/fiscalizacion-en-antofagasta-termina-con-12-motocicletas-retiradas-de-circulacion/",
@@ -1991,7 +1956,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-65",
+      "id": "timeline-66",
       "title": "Con baile de la “Mamacarena” promueven la prevención del cáncer de mama en Antofagasta",
       "summary": "Con una intervención urbana que tuvo lugar en la Avenida Brasil de Antofagasta la agrupación Matrofit expuso ante la comunidad la importancia de la actividad física como un método efectivo para prevenir el cáncer de mamas, patología que provoca en la región 14 fallecimientos por cada 100 mil mujeres. A través de una coreografía basada...",
       "url": "https://www.timeline.cl/con-baile-de-la-mamacarena-promueven-la-prevencion-del-cancer-de-mama-en-antofagasta/",
@@ -2063,7 +2028,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "eldiarioes-180",
+      "id": "eldiarioes-178",
       "title": "Sánchez comparte el \"temazo\" con el que Lali Espósito respondió a su choque con Milei: \"Su mayor fantasía es un día ser yo\"",
       "summary": "La cantante argentina publicó 'Fanático' en respuesta a su enfrentamiento con el presidente de Argentina. Ha sido la canción que Sánchez ha escuchado el día que Milei se reúne con Ayuso y con Vox Milei llama “impresentable dictador” a Pedro Sánchez y se declara “amigo” de Ayuso y Abascal Escucha aquí la canción completa “Se compró mi...",
       "url": "https://www.eldiario.es/rastreador/sanchez-comparte-temazo-lali-esposito-respondio-choque-milei-mayor-fantasia-dia_132_13603035.html",
@@ -2099,7 +2064,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-66",
+      "id": "timeline-67",
       "title": "Kast anuncia nuevo cronograma para la ruta Antofagasta-Caldera: licitación del primer tramo comenzaría en 2027",
       "summary": "Un nuevo cronograma para concretar la esperada ruta entre Antofagasta y Caldera anunció el Presidente de la República, José Antonio Kast, durante su participación en la inauguración de Expo FOREDE 2026, realizada este martes en Copiapó. El mandatario confirmó que el proyecto será reactivado mediante un proceso de licitación dividido...",
       "url": "https://www.timeline.cl/kast-anuncia-nuevo-cronograma-para-la-ruta-antofagasta-caldera-licitacion-del-primer-tramo-comenzaria-en-2027/",
@@ -2117,24 +2082,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-247",
-      "title": "Italia: Meloni aprueba nuevas medidas contra protestas violentas tras disturbios en Milán",
-      "summary": "El decreto aprobado anoche por el Consejo de Ministros italiano en respuesta a los disturbios del fin de semana introduce delitos nuevos, amplía el alcance de otros y afecta particularmente a los menores. 10 claves.",
-      "url": "https://www.dw.com/es/italia-meloni-aprueba-nuevas-medidas-contra-protestas-violentas-tras-disturbios-en-milán/a-79719754?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-10-21T11:36:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "eldiarioes-175",
       "title": "El Constitucional rechaza la petición del Defensor del Pueblo de reactivar el voto de 160.000 nacionalizados",
       "summary": "La mayoría del pleno entiende que el recurso del organismo que preside Ángel Gabilondo se ha presentado de forma prematura y deja en manos del Tribunal Supremo la resolución del pleito que mantiene suspendido el derecho a voto de más de 160.000 personas amparadas por la ley de nietos El fallo del Supremo sobre la ley de nietos amenaza...",
@@ -2150,42 +2097,6 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 88,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "dw-248",
-      "title": "Consorcio chino toma el control del fabricante deportivo Puma",
-      "summary": "Con participación mayoritaria, Anta Sports busca dar nuevo impulso a la marca que nació en Alemania y que hoy atraviesa dificultades financieras.",
-      "url": "https://www.dw.com/es/consorcio-chino-toma-el-control-del-fabricante-deportivo-puma/a-79722071?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": "https://static.dw.com/image/69478182_6.jpg",
-      "publishedAt": "2026-10-21T11:11:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "dw-249",
-      "title": "Javier Milei llama \"impresentable dictador\" a Pedro Sánchez",
-      "summary": "El presidente ultraliberal de Argentina, Javier Milei, criticó al jefe del Gobierno español, el socialista Pedro Sánchez, en una visita a Madrid, a casi un mes de las elecciones generales españolas del 29 de noviembre.",
-      "url": "https://www.dw.com/es/javier-milei-llama-impresentable-dictador-a-pedro-sánchez/a-79720677?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-10-21T10:36:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2261,42 +2172,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-151",
-      "title": "Ostende inicia la cuenta atrás para el Mundial de ciclocross 2027",
-      "summary": "Ostende ha activado este miércoles la cuenta atrás de 100 días para los Campeonatos del Mundo de ciclocross de 2027, que se celebrarán del 29 al 31 de enero. La organización...",
-      "url": "https://www.esciclismo.com/actualidad/ciclocross/93635.html",
-      "image": "https://www.esciclismo.com/actualidad/imagenes/b/mundial-ciclocorss-cuenta-atras-2026-flandersclassics.jpg",
-      "publishedAt": "2026-10-21T09:51:00+00:00",
-      "sourceId": "esciclismo",
-      "sourceName": "EsCiclismo",
-      "sourceType": "Ciclismo Global y Pruebas UCI",
-      "sourceSite": "https://www.esciclismo.com",
-      "region": "mundo",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "dw-250",
-      "title": "Papa León XIV retoma audiencias, sube al papamóvil, saluda a los fieles bajo la lluvia y mantiene el viaje a Sudamérica tras su operación",
-      "summary": "El papa León XIV subió al papamóvil para recorrer la plaza de San Pedro durante la audiencia general, tras haber sido operado el pasado 13 de octubre de un cáncer por el que se le tuvo que extirpar una parte del pulmón.",
-      "url": "https://www.dw.com/es/papa-león-xiv-retoma-audiencias-sube-al-papamóvil-saluda-a-los-fieles-bajo-la-lluvia-y-mantiene-el-viaje-a-sudamérica-tras-su-operación/a-79720519?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-10-21T09:30:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "brujulabike-137",
       "title": "El lactato que utilizó Pogačar en el Tour ya está a la venta: qué promete y qué dice la ciencia",
       "summary": "El lactato utilizado por Pogačar y el UAE en el Tour ya está a la venta por 8,50 € la dosis. Analizamos qué promete Enervit y las dudas científicas sobre su",
@@ -2369,25 +2244,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-251",
-      "title": "Diputada australiana pierde las dos piernas tras un atropello deliberado",
-      "summary": "Los médicos tuvieron que amputar las dos piernas a la diputada independiente australiana Helen Haines, en estado crítico pero estable tras ser atropellada el lunes frente a su oficina electoral en Wangaratta.",
-      "url": "https://www.dw.com/es/diputada-australiana-pierde-las-dos-piernas-tras-un-atropello-deliberado/a-79719678?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": "https://static.dw.com/image/79698145_6.jpg",
-      "publishedAt": "2026-10-21T08:29:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "eldiarioes-179",
+      "id": "eldiarioes-177",
       "title": "Milei llama \"impresentable dictador\" a Pedro Sánchez y se declara \"amigo\" de Ayuso y Abascal",
       "summary": "El presidente argentino ha asegurado en su primer acto en Madrid que los españoles tienen \"una deuda de honor con su propia sangre\" para \"sacar a los socialistas a patadas\" Milei pasa de la motosierra contra los “políticos ladrones” a coleccionar escándalos de corrupción El presidente de Argentina, Javier Milei, ha llamado...",
       "url": "https://www.eldiario.es/politica/milei-llama-impresentable-dictador-pedro-sanchez-primer-acto-espana_1_13602219.html",
@@ -2603,7 +2460,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ciclismo-chile-116",
+      "id": "ciclismo-chile-117",
       "title": "Yareli Acevedo lidera al equipo mexicano en el Mundial de Ciclismo de Pista 2026 en China - Gob MX",
       "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa0ZQaFhYRXVqOXM4ZG1yT3FDR3dPYWM1SWhicktIVV9LWi10YjJKUm5JWGlMbGlJUk1VV1ZTZi1TWUZtdzlSX29LcEFIdkNYUU81WUpzbTVNWlBoQi1PdTMzd0JvM1lodzBEYTlRbXJKWklCMW1NQnRQWFZzdlR4aEVlV0RTYmZtVlRZNWtPVExsZFRRaVB1T0E0Si02UnpEdmxWanI1TVBCZTVwc3piVTh1Nmo0WG5COGNpTmd5MHlqUmRRYWpOYkE5NHc?oc=5",
@@ -2643,7 +2500,7 @@
       "title": "Testimonio de Gonzalo Migueles confirma reunión de senadora Carvajal y Najle cuando este postulaba a conservador",
       "summary": "La entrada Testimonio de Gonzalo Migueles confirma reunión de senadora Carvajal y Najle cuando este postulaba a conservador se publicó primero en CIPER Chile .",
       "url": "https://www.ciperchile.cl/2026/10/20/testimonio-de-gonzalo-migueles-confirma-reunion-de-senadora-carvajal-y-najle-cuando-este-postulaba-a-conservador/?utm_source=rss&utm_medium=rss&utm_campaign=testimonio-de-gonzalo-migueles-confirma-reunion-de-senadora-carvajal-y-najle-cuando-este-postulaba-a-conservador",
-      "image": null,
+      "image": "https://www.ciperchile.cl/wp-content/uploads/najle-web.png",
       "publishedAt": "2026-10-21T01:38:29+00:00",
       "sourceId": "ciper",
       "sourceName": "CIPER Chile",
@@ -2657,7 +2514,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-67",
+      "id": "timeline-68",
       "title": "Autopistas Antofagasta propone extender ruta concesionada hasta acceso norte de Mejillones pero falta visto bueno del gobierno",
       "summary": "El gerente general de Sociedad Concesionaria Autopistas de Antofagasta, Emilio Ortiz, informó en una entrevista en el programa “Un día Menos” de La Caja que el proyecto de ampliación de las rutas 1 y 5 generaría unos 1.500 puestos de trabajo durante su construcción. Las obras, que podrían ejecutarse en tres años, buscan reducir los...",
       "url": "https://www.timeline.cl/autopistas-antofagasta-propone-extender-ruta-concesionada-hasta-acceso-norte-de-mejillones-pero-falta-visto-bueno-del-gobierno/",
@@ -2675,7 +2532,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "timeline-68",
+      "id": "timeline-69",
       "title": "Diputado Ossandón plantea que eventual reintegro de dineros en Codelco apunte a los altos ejecutivos y no a trabajadores",
       "summary": "El diputado Fabián Ossandón, integrante de la comisión que investiga el pago de bonos asociados a metas de producción en Codelco, declaró que el “hilo no debe cortarse por lo más delgado” y que un eventual reintegro de los recursos debe apuntar a los ejecutivos responsables de los hechos, y no a los trabajadores que […] La entrada...",
       "url": "https://www.timeline.cl/diputado-ossandon-plantea-que-eventual-reintegro-de-dineros-en-codelco-apunte-a-los-altos-ejecutivos-y-no-a-trabajadores/",
@@ -2690,24 +2547,6 @@
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 73,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "timeline-69",
-      "title": "Consejero republicano reconoce crisis interna en el partido y cuestiona falta de autonomía de las regiones: “Hay mucho poder centralista”",
-      "summary": "El consejero regional de Antofagasta y militante del Partido Republicano, Alejandro Cifuentes, reconoció la existencia de una crisis interna en su colectividad, marcada por el centralismo en la toma de decisiones, la falta de autonomía de las regiones y la salida de militantes y autoridades electas. En conversación con el programa Un...",
-      "url": "https://www.timeline.cl/consejero-republicano-reconoce-crisis-interna-en-el-partido-y-cuestiona-falta-de-autonomia-de-las-regiones-hay-mucho-poder-centralista/",
-      "image": "https://www.timeline.cl/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-21.54.33.jpeg",
-      "publishedAt": "2026-10-21T00:55:20+00:00",
-      "sourceId": "timeline",
-      "sourceName": "Timeline Antofagasta",
-      "sourceType": "Regional Independiente (Norte)",
-      "sourceSite": "https://timeline.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 65,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
@@ -2963,7 +2802,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldiarioes-178",
+      "id": "eldiarioes-179",
       "title": "Milei pasa de la motosierra contra los \"políticos ladrones\" a coleccionar escándalos de corrupción",
       "summary": "La investigación por enriquecimiento ilícito del hoy exjefe de Gabinete, el presunto esquema de sobornos en el área de discapacidad y la criptoestafa que vincula al propio presidente están entre las principales acusaciones que salpican a su Gobierno Los vínculos de Milei con las estafas cripto: $LIBRA, CoinX y las sospechas de lavado...",
       "url": "https://www.eldiario.es/internacional/javier-milei-corrupcion-argentina_1_13428406.html",
@@ -3345,7 +3184,7 @@
       "title": "Cuando la cárcel cruza fronteras: el PCC y su expansión criminal",
       "summary": "La entrada Cuando la cárcel cruza fronteras: el PCC y su expansión criminal se publicó primero en CIPER Chile .",
       "url": "https://www.ciperchile.cl/2026/10/19/cuando-la-carcel-cruza-fronteras-el-pcc-y-su-expansion-criminal/?utm_source=rss&utm_medium=rss&utm_campaign=cuando-la-carcel-cruza-fronteras-el-pcc-y-su-expansion-criminal",
-      "image": null,
+      "image": "https://www.ciperchile.cl/wp-content/uploads/A_UNO_1016614-scaled.jpg",
       "publishedAt": "2026-10-20T01:09:16+00:00",
       "sourceId": "ciper",
       "sourceName": "CIPER Chile",
@@ -3381,7 +3220,7 @@
       "title": "Caso Fundamenta: tras confesión de Migueles, fiscalía solicita audiencia para formalizarlo junto a Vivanco y Lagos por cohecho",
       "summary": "La entrada Caso Fundamenta: tras confesión de Migueles, fiscalía solicita audiencia para formalizarlo junto a Vivanco y Lagos por cohecho se publicó primero en CIPER Chile .",
       "url": "https://www.ciperchile.cl/2026/10/19/caso-fundamenta-tras-confesion-de-migueles-fiscalia-solicita-audiencia-para-formalizarlo-junto-a-vivanco-y-lagos-por-cohecho/?utm_source=rss&utm_medium=rss&utm_campaign=caso-fundamenta-tras-confesion-de-migueles-fiscalia-solicita-audiencia-para-formalizarlo-junto-a-vivanco-y-lagos-por-cohecho",
-      "image": null,
+      "image": "https://www.ciperchile.cl/wp-content/uploads/vivianco-web.png",
       "publishedAt": "2026-10-19T22:57:35+00:00",
       "sourceId": "ciper",
       "sourceName": "CIPER Chile",
@@ -3591,24 +3430,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 79,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "cooperativa-111",
-      "title": "5 aspectos que Turavion recomienda planificar con anticipación para viajes de negocios",
-      "summary": "Un viaje internacional de trabajo suele confirmarse con pocas semanas de margen, pero cada componente tiene su propio plazo: la documentación puede tardar meses y los hoteles cercanos a una feria comercial se agotan antes de cerrar la agenda. Planificar los viajes de negocios con un calendario regresivo, que parte desde la primera...",
-      "url": "https://www.cooperativa.cl/noticias/corporativo/noticias/marcas-negocios/5-aspectos-que-turavion-recomienda-planificar-con-anticipacion-para/2026-10-19/105110.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261019/imag/foto_0000000220261019105110.png",
-      "publishedAt": "2026-10-19T13:51:10+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 78,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "ciper-9",
@@ -3867,7 +3688,7 @@
       "title": "«La tumba de los libres: Las muertes del estallido social»: extracto del libro de Edgar de la Vega y Paula Rivera",
       "summary": "La entrada «La tumba de los libres: Las muertes del estallido social»: extracto del libro de Edgar de la Vega y Paula Rivera se publicó primero en CIPER Chile .",
       "url": "https://www.ciperchile.cl/2026/10/18/la-tumba-de-los-libres-las-muertes-del-estallido-social-extracto-del-libro-de-edgar-de-la-vega-y-paula-rivera/?utm_source=rss&utm_medium=rss&utm_campaign=la-tumba-de-los-libres-las-muertes-del-estallido-social-extracto-del-libro-de-edgar-de-la-vega-y-paula-rivera",
-      "image": null,
+      "image": "https://www.ciperchile.cl/wp-content/uploads/estallido-2.jpeg",
       "publishedAt": "2026-10-18T20:14:09+00:00",
       "sourceId": "ciper",
       "sourceName": "CIPER Chile",
@@ -4799,7 +4620,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-117",
+      "id": "ciclismo-chile-116",
       "title": "La Vuelta llega por primera vez a Chile: histórica competencia de ciclismo recorrerá el Valle de Colchagua - ADN Radio",
       "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOempFZUgzelg5eEJVOThlVDBTNVY4elgyNDBlTTdMYjZpX1lIZllja3ZyZTM0OUtEcEdrX0EzNlhMd1VGNS16UFlJYnlyMkhmUUxVTEpyT2hzX3N4YjZwdVZ6LXpUMXVOcjhucVJ1WlJUZFVTQ3JBWFFsZV92RXA0YkI0UE15VlVvY0Z5N052VzFRVHg0OTA2elB3Rl9pczMtVG9GeUlUUklkWXR4RHZPdjZ0SGh2b3lOMHREdjJzU1NRUE9qYm9QbVoxNHVVOXVYQkU3NHNZUTHSAewBQVVfeXFMUEtqbEFuRkExVkMyQXEyTmdZRVg5N0hCdzQwNk9QRjJWbFk2VXo4T0x4RERFZWU3R1dheWF5QWNTWWZoMTA2bmZjaXdta3hXVDN3RXRYVkhzczhnZXR5ajZhbXB5Tzg0LVI1WTh6VTZLUmJpVFoyejRrek5BT1EteFE1N3ZCSF9HR0tybjQtSW9kMGR4UmQtRHl3TkpPeWFvUm1rRFF3SUw4cWs3THI4RC1pN3BOVE9wM09tSWFLT1pXdVlyc0NCcjgxQzJSYzI1Q2l4THZzVWVsQzVqTXNKb29KR3JhUjFhQzVtNGQ?oc=5",
