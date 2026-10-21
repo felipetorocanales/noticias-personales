@@ -1822,3 +1822,49 @@ body {
     padding: 8px 14px 12px;
   }
 }
+
+
+/* Floating Banner for Real-time New Articles */
+.new-articles-banner {
+  position: fixed;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-15px);
+  z-index: 95;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.new-articles-banner.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.btn-new-articles {
+  background: var(--text-primary);
+  color: var(--bg-body);
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 650;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  user-select: none;
+}
+
+.btn-new-articles:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32);
+}
+
+.btn-new-articles:active {
+  transform: scale(0.97);
+}

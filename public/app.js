@@ -379,9 +379,121 @@ async function loadInitialSnapshot() {
     if (syncText) {
       syncText.textContent = `Red activa · ${state.sources.length} medios conectados`;
     }
+
+    // Chequeo y sincronización en segundo plano al ingresar (Stale-While-Revalidate)
+    triggerBackgroundCheck(data.generatedAt);
   } catch (err) {
     console.error("Error cargando snapshot inicial:", err);
   }
+}
+
+// Chequeo y sincronización inteligente en segundo plano (Stale-While-Revalidate)
+async function triggerBackgroundCheck(snapshotGeneratedAt) {
+  try {
+    let isStale = false;
+    if (snapshotGeneratedAt) {
+      const genTime = new Date(snapshotGeneratedAt).getTime();
+      const elapsedMin = (Date.now() - genTime) / (1000 * 60);
+      if (elapsedMin >= 8) {
+        isStale = true;
+      }
+    } else {
+      isStale = true;
+    }
+
+    if (!isStale) return;
+
+    // Evitar peticiones redundantes si el usuario recarga rápidamente la pestaña
+    const lastTrigger = parseInt(localStorage.getItem("pulso_last_bg_trigger") || "0", 10);
+    if (Date.now() - lastTrigger < 8 * 60 * 1000) {
+      return;
+    }
+
+    localStorage.setItem("pulso_last_bg_trigger", Date.now().toString());
+
+    // Llamada silenciosa a la Google Cloud Function
+    const res = await fetch("/api/refresh", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" }
+    });
+
+    if (!res.ok) return;
+    const data = await res.json();
+    console.log("[Pulso Cloud Sync]", data);
+
+    if (data.status === "triggered" || data.status === "in_progress") {
+      pollForFreshSnapshot(snapshotGeneratedAt);
+    }
+  } catch (err) {
+    console.debug("[Pulso Cloud Sync] Error en background check:", err.message);
+  }
+}
+
+function pollForFreshSnapshot(oldGeneratedAt) {
+  let attempts = 0;
+  const maxAttempts = 8;
+  const pollTimer = setInterval(async () => {
+    attempts++;
+    if (attempts > maxAttempts) {
+      clearInterval(pollTimer);
+      return;
+    }
+
+    try {
+      const res = await fetch(`/data/initial-feeds.json?_poll=${Date.now()}`, {
+        cache: "no-store",
+        headers: { "Cache-Control": "no-cache" }
+      });
+      if (!res.ok) return;
+      const freshData = await res.json();
+
+      if (freshData.generatedAt && freshData.generatedAt !== oldGeneratedAt) {
+        clearInterval(pollTimer);
+        showNewArticlesBanner(freshData);
+      }
+    } catch (_) {}
+  }, 15000);
+}
+
+function showNewArticlesBanner(freshData) {
+  let banner = document.getElementById("newArticlesBanner");
+  if (!banner) {
+    banner = document.createElement("div");
+    banner.id = "newArticlesBanner";
+    banner.className = "new-articles-banner";
+    document.body.appendChild(banner);
+  }
+
+  banner.innerHTML = `
+    <button type="button" class="btn-new-articles" id="btnApplyNewArticles">
+      ✨ Hay noticias recién salidas · Ver novedades
+    </button>
+  `;
+  banner.classList.add("show");
+
+  document.getElementById("btnApplyNewArticles")?.addEventListener("click", () => {
+    banner.classList.remove("show");
+    applyFreshSnapshot(freshData);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    showToast("¡Feed actualizado con las últimas noticias! ⚡");
+  });
+}
+
+function applyFreshSnapshot(data) {
+  state.sources = [...(data.sources || []), ...state.customSources];
+  state.blockedExamples = data.blockedExamples || [];
+  state.totalBlockedCount = data.totalBlockedFarandula || 0;
+
+  const validArticles = [];
+  for (const art of data.articles || []) {
+    const check = checkFarandula(art.title, art.summary);
+    if (!check.blocked) {
+      validArticles.push(art);
+    }
+  }
+
+  state.articles = validArticles;
+  renderAll();
 }
 
 function populateSourceDropdown() {
