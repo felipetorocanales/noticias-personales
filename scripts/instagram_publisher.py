@@ -4,7 +4,7 @@ import json
 import subprocess
 import urllib.request
 import urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from generate_instagram_post import create_instagram_card
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -20,14 +20,18 @@ if os.path.exists(env_path):
                 k, v = line.split("=", 1)
                 os.environ.setdefault(k.strip(), v.strip())
 
-HISTORY_FILE = "public/data/instagram_history.json"
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+HISTORY_FILE = os.path.join(ROOT_DIR, "public", "data", "instagram_history.json")
+PENDING_POST_FILE = os.path.join(ROOT_DIR, "public", "data", "pending_instagram_post.json")
+FEEDS_FILE = os.path.join(ROOT_DIR, "public", "data", "initial-feeds.json")
 
 def load_history():
     if os.path.exists(HISTORY_FILE):
         try:
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except Exception:
+        except Exception as e:
+            print(f"[HISTORIAL] Error leyendo historial: {e}")
             return []
     return []
 
@@ -178,7 +182,6 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
         print(f"[ERROR] Error al publicar en Instagram: {e}")
         return False
 
-PENDING_POST_FILE = "public/data/pending_instagram_post.json"
 
 def get_candidate(data, history):
     published_ids = set(h["articleId"] for h in history)
@@ -190,28 +193,47 @@ def get_candidate(data, history):
     return None
 
 def check_cooldown(history):
-    cooldown_hours = float(os.environ.get("INSTAGRAM_POST_COOLDOWN_HOURS", "3.0"))
     force_post = os.environ.get("INSTAGRAM_FORCE_POST", "0") == "1"
+
+    # 1. Comprobar ventana horaria activa (08:00 a 23:00 hora de Chile)
+    try:
+        from zoneinfo import ZoneInfo
+        chile_tz = ZoneInfo("America/Santiago")
+    except Exception:
+        chile_tz = timezone(timedelta(hours=-3))
+
+    now_chile = datetime.now(chile_tz)
+    current_hour = now_chile.hour
+
+    if not (8 <= current_hour < 23) and not force_post:
+        print(f"[HORARIO] Fuera de ventana activa ({current_hour:02d}:{now_chile.minute:02d} hrs en Chile). El bot publica entre 08:00 y 23:00 hrs.")
+        return False
+
+    # 2. Comprobar cooldown entre publicaciones (mínimo 3 horas)
+    cooldown_hours = float(os.environ.get("INSTAGRAM_POST_COOLDOWN_HOURS", "3.0"))
 
     if history and not force_post:
         last_item = history[-1]
         last_time_str = last_item.get("timestamp")
         if last_time_str:
+            elapsed_hours = 999.0
             try:
                 last_time = datetime.fromisoformat(last_time_str)
                 now = datetime.now(timezone.utc)
                 elapsed_hours = (now - last_time).total_seconds() / 3600.0
-                if elapsed_hours < cooldown_hours:
-                    print(f"[COOLDOWN] La última publicación en Instagram fue hace {elapsed_hours:.1f}h. Frecuencia configurada: al menos {cooldown_hours}h entre posts.")
-                    return False
-            except Exception:
-                pass
+            except Exception as e:
+                print(f"[ERROR] Error calculando tiempo: {e}")
+
+            if elapsed_hours < cooldown_hours:
+                print(f"[COOLDOWN] La última publicación en Instagram fue hace {elapsed_hours:.1f}h. Frecuencia configurada: al menos {cooldown_hours}h entre posts.")
+                return False
+
     return True
 
 def prepare_post():
-    if not os.path.exists("public/data/initial-feeds.json"):
+    if not os.path.exists(FEEDS_FILE):
         return None
-    with open("public/data/initial-feeds.json", encoding="utf-8") as f:
+    with open(FEEDS_FILE, encoding="utf-8") as f:
         data = json.load(f)
     history = load_history()
     if not check_cooldown(history):
@@ -256,7 +278,7 @@ if __name__ == "__main__":
         history = load_history()
         if not check_cooldown(history):
             sys.exit(0)
-        with open("public/data/initial-feeds.json", encoding="utf-8") as f:
+        with open(FEEDS_FILE, encoding="utf-8") as f:
             data = json.load(f)
         cand = get_candidate(data, history)
         if cand:
