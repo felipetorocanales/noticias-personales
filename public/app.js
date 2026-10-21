@@ -67,6 +67,7 @@ const MAIN_FILTERS = [
   { id: "mundo", label: "Mundo", icon: "🌍", matcher: (a) => a.region === "mundo" },
   { id: "high", label: "Alto Impacto", icon: "🔥", matcher: (a) => a.relevanceTier === "alta" },
   { id: "low", label: "Bajo el Radar", icon: "📡", matcher: (a) => a.relevanceTier === "bajo_radar" },
+  { id: "instagram", label: "En Instagram", icon: "📸", matcher: (a) => state.instagramPostIds && state.instagramPostIds.has(a.id) },
   { id: "saved", label: "Guardadas", icon: "🔖", matcher: (a) => state.savedIds.has(a.id) }
 ];
 
@@ -143,7 +144,10 @@ const state = {
   savedIds: new Set(JSON.parse(localStorage.getItem("pulso_saved_ids") || "[]")),
   customBlockedWords: JSON.parse(localStorage.getItem("pulso_custom_blocked") || "[]"),
   customSources: JSON.parse(localStorage.getItem("pulso_custom_sources") || "[]"),
-  activeReaderArticle: null
+  activeReaderArticle: null,
+  instagramPostIds: new Set(),
+  instagramHistory: [],
+  targetArticleId: null
 };
 
 function sortArticles(list, criterion) {
@@ -321,6 +325,16 @@ async function initApp() {
   setupTheme();
   bindEvents();
 
+  // Detectar deep link desde Instagram o enlace directo (?id=...)
+  const urlParams = new URLSearchParams(window.location.search);
+  const targetId = urlParams.get("id") || (window.location.hash ? window.location.hash.replace("#", "") : null);
+  if (targetId) {
+    state.targetArticleId = targetId;
+  }
+  if (urlParams.get("filter") === "instagram" || urlParams.get("from") === "instagram_bio") {
+    state.mainFilter = "instagram";
+  }
+
   // Set initial sort selects
   const sortSelect = document.getElementById("sortSelect");
   if (sortSelect) sortSelect.value = state.sortBy;
@@ -407,6 +421,16 @@ async function loadInitialSnapshot() {
     }
 
     state.articles = validArticles;
+
+    // Cargar historial de publicaciones en Instagram para badges y filtro
+    try {
+      const igRes = await fetch(`/data/instagram_history.json?_cb=${Date.now()}`, { cache: "no-store" });
+      if (igRes.ok) {
+        state.instagramHistory = await igRes.json();
+        state.instagramPostIds = new Set(state.instagramHistory.map(h => h.articleId));
+      }
+    } catch (_) {}
+
     populateSourceDropdown();
 
     const syncText = document.getElementById("syncStatusText");
@@ -803,6 +827,48 @@ function renderAll() {
   if (gridContainer) {
     renderCardsInto(gridContainer, sorted);
   }
+
+  // Si hay una noticia objetivo desde Instagram / Deep Link
+  if (state.targetArticleId) {
+    handleTargetArticleDeepLink(state.targetArticleId);
+  }
+}
+
+function handleTargetArticleDeepLink(targetId) {
+  setTimeout(() => {
+    const el = document.getElementById(`article-${targetId}`);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      el.classList.add("highlight-target-card");
+
+      const container = document.getElementById("gridViewContainer");
+      if (container && !document.getElementById("instagramDeepLinkBanner")) {
+        const art = state.articles.find((a) => a.id === targetId);
+        const banner = document.createElement("div");
+        banner.id = "instagramDeepLinkBanner";
+        banner.className = "instagram-deep-link-banner";
+        banner.innerHTML = `
+          <div>
+            <p><strong>📸 Noticia destacada desde Instagram:</strong> ${art ? escapeHtml(art.title) : "Reportaje seleccionado"}</p>
+          </div>
+          <button id="dismissIgBannerBtn" title="Cerrar">Ver todas las noticias ✕</button>
+        `;
+        container.insertBefore(banner, container.firstChild);
+        document.getElementById("dismissIgBannerBtn")?.addEventListener("click", () => {
+          banner.remove();
+          el.classList.remove("highlight-target-card");
+          state.targetArticleId = null;
+        });
+      }
+    } else {
+      // Si la noticia no está en la vista actual (por filtros), resetear a 'all'
+      if (state.mainFilter !== "all" || state.topicFilter !== "all") {
+        state.mainFilter = "all";
+        state.topicFilter = "all";
+        renderAll();
+      }
+    }
+  }, 150);
 }
 
 function renderCardsInto(container, list) {
@@ -824,7 +890,7 @@ function renderCardsInto(container, list) {
       const hasRealImage = !!(art.image && !isGenericImageUrl(art.image));
 
       return `
-        <article class="feed-card ${hasRealImage ? "" : "feed-card-editorial"}" data-article-id="${escapeHtml(art.id)}">
+        <article id="article-${escapeHtml(art.id)}" class="feed-card ${hasRealImage ? "" : "feed-card-editorial"} ${state.targetArticleId === art.id ? "highlight-target-card" : ""}" data-article-id="${escapeHtml(art.id)}">
           <!-- Card Header: Source, Time, Category Pill, Save Button -->
           <div class="card-header">
             <div class="card-author">
@@ -839,6 +905,11 @@ function renderCardsInto(container, list) {
               <span class="card-category-pill" data-filter-topic-name="${escapeHtml(art.category)}" title="Filtrar por temática: ${escapeHtml(art.category)}">
                 ${escapeHtml(art.category)}
               </span>
+              ${
+                state.instagramPostIds && state.instagramPostIds.has(art.id)
+                  ? `<span class="card-instagram-badge" title="Publicado en Instagram @pulso.independiente.26">📸 En Instagram</span>`
+                  : ""
+              }
               <button class="card-btn-icon ${isSaved ? "saved" : ""}" data-toggle-save="${escapeHtml(art.id)}" title="${isSaved ? "Guardada" : "Guardar"}">
                 ${isSaved ? "🔖" : "🤍"}
               </button>

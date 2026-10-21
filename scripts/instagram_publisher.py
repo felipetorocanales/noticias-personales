@@ -41,6 +41,9 @@ def generate_caption(article):
     summary = article.get("summary", "")
     source = article.get("sourceName", "Prensa")
     category = article.get("category", "")
+    original_link = article.get("link", "").strip()
+    article_id = article.get("id", "")
+    pulso_link = f"https://noticias-personales-cl.web.app/?id={article_id}"
     
     hashtags = "#Pulso #Noticias #PeriodismoIndependiente #Chile #Actualidad"
     if "ciclismo" in category.lower():
@@ -55,7 +58,12 @@ def generate_caption(article):
 {summary}
 
 📰 Cobertura por: {source}
-🔗 Lee el reportaje completo en el enlace de nuestra biografía o en noticias-personales-cl.web.app
+
+🔗 Lee el reportaje completo:
+• Enlace directo: {pulso_link}
+• Fuente original: {original_link}
+
+👉 O entra al enlace de nuestra bio (@pulso.independiente.26) para abrirla al instante en nuestra web.
 
 {hashtags}"""
     return caption.strip()

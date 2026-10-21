@@ -1868,3 +1868,71 @@ body {
 .btn-new-articles:active {
   transform: scale(0.97);
 }
+
+/* ========================================================
+   INSTAGRAM DEEP LINK, HIGHLIGHTS & BADGES
+   ======================================================== */
+.feed-card.highlight-target-card {
+  outline: 2px solid var(--accent-high) !important;
+  box-shadow: 0 0 30px rgba(245, 158, 11, 0.45) !important;
+  animation: pulseTargetCard 1.8s ease-in-out infinite alternate;
+}
+
+@keyframes pulseTargetCard {
+  0% {
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 35px rgba(245, 158, 11, 0.7);
+  }
+}
+
+.card-instagram-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: linear-gradient(45deg, rgba(245, 158, 11, 0.18), rgba(225, 48, 108, 0.18));
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: var(--text-primary);
+  margin-left: 6px;
+  text-decoration: none;
+}
+
+.instagram-deep-link-banner {
+  background: linear-gradient(90deg, #161b22, #1f293d);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  border-left: 4px solid var(--accent-high);
+  padding: 12px 18px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.instagram-deep-link-banner p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+}
+
+.instagram-deep-link-banner button {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.instagram-deep-link-banner button:hover {
+  color: var(--text-primary);
+  border-color: var(--accent-high);
+}
