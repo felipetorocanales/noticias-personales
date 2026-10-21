@@ -710,8 +710,14 @@ def fetch_all():
 
                 raw_desc = entry["description"] or ""
                 summary = clean_html(raw_desc)
-                if summary.lower().startswith(title.lower()[:30]):
+                # Solo eliminar el titulo si el resumen comienza exactamente con el titulo completo
+                if summary.lower().startswith(title.lower()):
                     summary = summary[len(title):].strip(" .-–—")
+
+                # Asegurar mayuscula inicial limpia
+                if summary:
+                    summary = summary[0].upper() + summary[1:]
+
                 if len(summary) > 340:
                     summary = summary[:337].rsplit(" ", 1)[0] + "..."
                 if len(summary) < 25:
