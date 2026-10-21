@@ -47,7 +47,7 @@ def generate_caption(article):
     category = article.get("category", "")
     original_link = article.get("link", "").strip()
     article_id = article.get("id", "")
-    pulso_link = f"https://noticias-personales-cl.web.app/?id={article_id}"
+    pulso_link = f"https://pulso-independiente.web.app/?id={article_id}"
     
     hashtags = "#Pulso #Noticias #PeriodismoIndependiente #Chile #Actualidad"
     if "ciclismo" in category.lower():
@@ -108,7 +108,7 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
         print(f"[STORAGE] Imagen pública disponible en: {public_img_url}")
     except Exception as e:
         print(f"[STORAGE] Advertencia: Fallo gcloud cp, intentando fallback de hosting: {e}")
-        public_img_url = f"https://noticias-personales-cl.web.app/instagram_posts/{article['id']}.jpg"
+        public_img_url = f"https://pulso-independiente.web.app/instagram_posts/{article['id']}.jpg"
 
     caption = generate_caption(article)
 

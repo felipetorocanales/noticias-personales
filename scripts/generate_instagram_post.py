@@ -139,7 +139,7 @@ def create_instagram_card(article, output_path="public/instagram_posts/preview.j
     draw.line([(60, footer_box_y - 20), (WIDTH - 60, footer_box_y - 20)], fill=BORDER_COLOR, width=1)
     
     cta_text = "🔗 Lee el reportaje completo en el enlace de la bio"
-    url_text = "noticias-personales-cl.web.app"
+    url_text = "pulso-independiente.web.app"
     draw.text((60, footer_box_y), cta_text, fill=TEXT_PRIMARY, font=font_footer)
     draw.text((WIDTH - 60 - draw.textlength(url_text, font=font_footer), footer_box_y), url_text, fill=ACCENT_GOLD, font=font_footer)
     
