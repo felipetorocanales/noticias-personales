@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-22T12:32:31.026445+00:00",
+  "generatedAt": "2026-10-22T12:41:07.187865+00:00",
   "totalArticles": 261,
-  "totalBlockedFarandula": 16,
+  "totalBlockedFarandula": 17,
   "blockedExamples": [
     {
       "title": "El fútbol chileno juega cuando lo dejan",
@@ -44,6 +44,11 @@
       "reason": "campeonato nacional"
     },
     {
+      "title": "\"¿Para qué? Mira el reloj\": Filtran tenso cruce de Alexis con su DT tras no ingresar en derrota de CF Montreal",
+      "source": "Radio Cooperativa",
+      "reason": "alexis sánchez"
+    },
+    {
       "title": "Rectora de la U evitó referirse a conflicto con Azul Azul: Me inhabilité por ser una de las víctimas de Sartor",
       "source": "Radio Cooperativa",
       "reason": "universidad de chile"
@@ -72,11 +77,6 @@
       "title": "¿Cuándo y dónde ver la revancha entre Flamengo de Pulgar y Estudiantes por la Libertadores?",
       "source": "Radio Cooperativa",
       "reason": "copa libertadores"
-    },
-    {
-      "title": "La programación de la fecha 25 de la Liga de Primera",
-      "source": "Radio Cooperativa",
-      "reason": "universidad católica"
     }
   ],
   "sources": [
@@ -610,7 +610,7 @@
       "independent": false,
       "status": "ok",
       "count": 10,
-      "blocked": 0
+      "blocked": 1
     },
     {
       "id": "france24",
@@ -697,6 +697,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "cooperativa-104",
+      "title": "Francia prohíbe protestas espontáneas \"para garantizar la calma\"",
+      "summary": "El presidente Emmanuel Macron anunció este jueves una restricción a las manifestaciones durante los próximos días, con el fin de restablecer el orden tras los disturbios del fin de semana, y convocó un Consejo de Defensa para el viernes, para adoptar medidas adicionales de seguridad. En una declaración pública tras una reunión con...",
+      "url": "https://www.cooperativa.cl/noticias/mundo/francia/francia-prohibe-protestas-espontaneas-para-garantizar-la-calma/2026-10-22/090505.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261022/imag/foto_0000000220261022090505.jpg",
+      "publishedAt": "2026-10-22T12:05:05+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 88,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "france24-253",
       "title": "Miles de sitios web desconectados por una falla de seguridad detectada con inteligencia artificial",
       "summary": "Miles de sitios web fueron desconectados de forma preventiva el miércoles debido a una falla de seguridad identificada mediante inteligencia artificial (IA) en un software de programación ampliamente utilizado en internet. El episodio ilustra el alcance de la IA en materia de ciberseguridad.",
@@ -751,7 +769,25 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-105",
+      "id": "dw-242",
+      "title": "Macron anuncia restricciones a manifestaciones en Francia",
+      "summary": "El presidente francés, Emmanuel Macron, anunció que las protestas \"ilegítimas\" serán prohibidas y atribuyó a grupos de extrema izquierda \"sediciosos\" y a vándalos los disturbios y saqueos del pasado fin de semana.",
+      "url": "https://www.dw.com/es/macron-anuncia-restricciones-a-manifestaciones-en-francia/a-79728794?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": "https://static.dw.com/image/79728696_6.jpg",
+      "publishedAt": "2026-10-22T11:49:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-106",
       "title": "Aluvión provocó daños en viviendas del sector Juan Riquelme en Concepción",
       "summary": "Un aluvión afectó durante la mañana de este jueves al sector Juan Riquelme , ubicado a un costado de la autopista que conecta las comunas de Concepción y Coronel . El hecho se desencadenó producto de las intensas precipitaciones y la tormenta eléctrica registradas en la zona , lo que provocó el colapso y desprendimiento completo de...",
       "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/inundaciones/aluvion-provoco-danos-en-viviendas-del-sector-juan-riquelme-en/2026-10-22/084252.html",
@@ -769,7 +805,25 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-106",
+      "id": "dw-243",
+      "title": "PHP reconoce falla de seguridad y publica parche para evitar ciberdelitos",
+      "summary": "El popular lenguaje de programación presenta una falla grave de seguridad y apagar servidores podría ser la única alternativa.",
+      "url": "https://www.dw.com/es/php-reconoce-falla-de-seguridad-y-publica-parche-para-evitar-ciberdelitos/a-79724651?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": "https://static.dw.com/image/79248870_6.jpg",
+      "publishedAt": "2026-10-22T11:35:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-107",
       "title": "Los Timberwolves amargaron el debut de Antetokounmpo en Miami",
       "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://www.cooperativa.cl/noticias/deportes/baloncesto/nba/los-timberwolves-amargaron-el-debut-de-antetokounmpo-en-miami/2026-10-22/083349.html",
@@ -787,7 +841,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-104",
+      "id": "cooperativa-105",
       "title": "Mariana Di Girolamo comandó la alfombra roja de \"Caballo Salvaje Nueve\" en Chile",
       "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://www.cooperativa.cl/noticias/magazine/cine/mariana-di-girolamo-comando-la-alfombra-roja-de-caballo-salvaje-nueve/2026-10-22/083330.html",
@@ -877,7 +931,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "cooperativa-107",
+      "id": "cooperativa-108",
       "title": "Actriz Judi Dench no puede hacer teatro, ir al cine y leer debido a afección ocular",
       "summary": "La actriz británica Judi Dench , que ha recibido numerosos galardones a lo largo de su carrera, entre ellos un Oscar en 1999, admitió que su afección ocular , diagnosticada hace más de diez años, le impide hacer teatro, cine o leer . Los médicos le diagnosticaron en 2012 degeneración macular asociada a la edad , una afección que...",
       "url": "https://www.cooperativa.cl/noticias/magazine/cine/actriz-judi-dench-no-puede-hacer-teatro-ir-al-cine-y-leer-debido-a/2026-10-22/082521.html",
@@ -949,7 +1003,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-109",
+      "id": "cooperativa-110",
       "title": "Presidente de Polonia se abre a histórica negociación sobre derecho al aborto",
       "summary": "El presidente polaco, Karol Nawrocki, está dispuesto a establecer un diálogo con el gobierno y los grupos parlamentarios para negociar una posible reforma de la ley del aborto , en un país donde rige una prohibición casi total del derecho a interrumpir voluntariamente el embarazo. Nawroki está dispuesto \"a mantener una conversación\",...",
       "url": "https://www.cooperativa.cl/noticias/mundo/europa/polonia/presidente-de-polonia-se-abre-a-historica-negociacion-sobre-derecho-al/2026-10-22/080640.html",
@@ -967,7 +1021,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-108",
+      "id": "cooperativa-109",
       "title": "Tornado en Retiro dejó 10 casas dañadas",
       "summary": "Un tornado registrado el miércoles en la comuna de Retiro , en la Región del Maule, dejó un saldo de 10 viviendas afectadas , además de la caída de una gran cantidad de árboles, la voladura de techumbres y el arrastre de rejas y sedimentos a través de los terrenos agrícolas de la zona. Respecto a la magnitud del fenómeno, la directora...",
       "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/tornado-en-retiro-dejo-10-casas-danadas/2026-10-22/075945.html",
@@ -1003,7 +1057,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-110",
+      "id": "cooperativa-111",
       "title": "Carabineros recuperó camión paraguayo robado con 200 millones en carne",
       "summary": "Un operativo policial en Colina permitió la detención de dos sujetos e incautar un cargamento de carne , avaluado en 200 millones de pesos , que había sido sustraído a un transportista de nacionalidad paraguaya . El robo ocurrió cuando el chofer fue interceptado por tres delincuentes que lo secuestraron temporalmente a bordo de un...",
       "url": "https://www.cooperativa.cl/noticias/pais/policial/robos/carabineros-recupero-camion-paraguayo-robado-con-200-millones-en-carne/2026-10-22/074026.html",
@@ -1039,22 +1093,22 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-111",
-      "title": "Soldados israelíes mataron a persona con discapacidad en una incursión en Siria",
-      "summary": "Fuerzas militares israelíes mataron este jueves a una persona con discapacidad durante una incursión en Deraa, en el sur de Siria , días después de que el gobierno del país árabe denunciara una intensificación de este tipo de actividades hebreas en su territorio. El civil con discapacidad fue abatido en la aldea de Jamla, después de...",
-      "url": "https://www.cooperativa.cl/noticias/mundo/medio-oriente/siria/soldados-israelies-mataron-a-persona-con-discapacidad-en-una-incursion/2026-10-22/073657.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261022/imag/foto_0000000220261022073657.jpg",
-      "publishedAt": "2026-10-22T10:36:57+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
+      "id": "dw-244",
+      "title": "Bayern Múnich tiene nuevo socio, inyecta capital líquido y aumenta su consejo directivo",
+      "summary": "Viessmann se agrega al grupo de socios estratégicos del club bávaro en el que ya están adidas, Audi y Allianz.",
+      "url": "https://www.dw.com/es/bayern-múnich-tiene-nuevo-socio-inyecta-capital-líquido-y-aumenta-su-consejo-directivo/a-79731558?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-10-22T10:38:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
       "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 83,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "eldiarioes-175",
@@ -1165,6 +1219,24 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
+      "id": "dw-245",
+      "title": "Corte Penal Internacional, premio Sájarov a la libertad de conciencia 2026",
+      "summary": "El Parlamento Europeo otorgó el premio Sájarov a la libertad de conciencia a la Corte Penal Internacional (CPI) y sus funcionarios, presionados por amenazas y sanciones del presidente de EE. UU., Donald Trump.",
+      "url": "https://www.dw.com/es/corte-penal-internacional-premio-sájarov-a-la-libertad-de-conciencia-2026/a-79730549?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-10-22T10:05:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 81,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "elciudadano-103",
       "title": "Soprano Esperanza Restucci presenta «Latino Klassik: Melodías de nuestro continente» en el Teatro CA660",
       "summary": "El Ciudadano La renombrada cantante lírica nacional Esperanza Restucci presentará el próximo martes 10 de noviembre su concierto «Latino Klassik: Melodías de nuestro continente» en el Teatro CA660 de Fundación CorpArtes. El espectáculo ofrece un viaje íntimo por el repertorio lírico latinoamericano, uniendo el canto, el piano y la...",
@@ -1273,24 +1345,6 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "elmostrador-82",
-      "title": "56 rebajas a condenados por delitos sexuales ponen a ministro Rabat en la mira de una interpelación",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQamhRbWFHcWEwSGtYdHB4Z2dEMWxPZ2kwMWM4ZEc2MGFZamJpbEpEbTMwZFljeG1IU0UwMXFUSWhCemxEbk5aTUlHWWtSaEU0VTlVZDUyazdnODcyckxpNUJtQWRwczFYeThJdGw5UFFUeDZveUVJUHp5WjFzSjdidFpFNHZVUnNUOF90OWZlRFVjLWN6ckU1OWFVUk1qYUtabTJiQXBMSm5KWEZjSVV3dWVUS1lyMDdTVGg5aEowOGlkX1dGTkdUeEhUNVFUOXp3WFk1SC01WHJRYjRlQ20tTEJ5Q3NYcFE?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-22T09:42:03+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "eldiarioes-179",
       "title": "Ayuso defiende el abrazo con Milei y la oposición responde: \"Se ha reunido más veces con él que con los profesores\"",
       "summary": "La presidenta de la Comunidad de Madrid justifica la reunión con el dirigente argentino y equipara a Pedro Sánchez con Nicolás Maduro después de que Milei llamara \"dictador\" al presidente del Gobierno español La irrupción en campaña de Milei pone en apuros a PP y Vox y regala otra baza electoral a Sánchez Las protestas de cientos de...",
@@ -1343,6 +1397,24 @@
       "relevanceTier": "alta",
       "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "dw-246",
+      "title": "Israel amenaza con otro ataque preventivo a Irán — la oposición denuncia \"fines políticos\" a cinco días de las elecciones",
+      "summary": "La oposición israelí advierte contra posibles campañas militares \"con fines políticos\", a menos de una semana de las elecciones del 27 de octubre en Israel.",
+      "url": "https://www.dw.com/es/israel-amenaza-con-otro-ataque-preventivo-a-irán-la-oposición-denuncia-fines-políticos-a-cinco-días-de-las-elecciones/a-79728748?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-10-22T09:08:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "france24-255",
@@ -1435,24 +1507,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-80",
-      "title": "El secreto mejor guardado de la cita de Bachelet con partidos del bloque opositor",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdFFwYXU3NXhwNUtmZ0NvT25WRkpOa29oSUp4WE8zV1R3SG1Cem54U1pHTWYzN2tob1ZVNi1lZnc1dzg4UWdyUE95eU9zcjZRY3owYW9hbFM2Q2FfanN4MG9pTWVNSHV6dEpCbUtOVEZQTllQUUFFZnJvZk9sS09rMVVscVlRVG1BenlCTk9pQTRGOE16OVRKZWVCaXd3d214VjVCbjdYUGh2RE9oejhUXzU3eUx2Q0JvNmt2Ql96bHFqYzE4aEN2OE15WXllZTA?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-22T08:10:35+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "ciclo21-125",
       "title": "El pelotón español 27-30: Romeo al Movistar Academy",
       "summary": "Todos los profesionales con contrato desde 2027 hasta 2030 La entrada El pelotón español 27-30: Romeo al Movistar Academy aparece primero en Ciclo21 .",
@@ -1489,7 +1543,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-242",
+      "id": "dw-247",
       "title": "Ucrania lamenta \"adulación\" y \"servilismo\" de Witkoff al llamar \"humanitario\" a Putin",
       "summary": "\"El apaciguamiento, el servilismo y la adulación no pararán esta guerra\", reprochó el ministro de Exteriores de Ucrania, Andri Sibiga, al condenar un nuevo y \"brutal\" bombardeo ruso contra su país.",
       "url": "https://www.dw.com/es/ucrania-lamenta-adulación-y-servilismo-de-witkoff-al-llamar-humanitario-a-putin/a-79728650?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1741,7 +1795,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "dw-243",
+      "id": "dw-248",
       "title": "Meta enfrenta demanda colectiva en Australia por presuntos daños a niños",
       "summary": "Las ocho familias demandantes buscan una indemnización por estar expuestos a contenido dañino en las redes sociales como Facebook e Instagram.",
       "url": "https://www.dw.com/es/meta-enfrenta-demanda-colectiva-en-australia-por-presuntos-daños-a-niños/a-79727601?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1777,7 +1831,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-244",
+      "id": "dw-249",
       "title": "Rusia y Ucrania intercambian ataques con misiles y drones",
       "summary": "Los misiles no cesaron durante la noche sobre Kiev, que reportó al menos 15 heridos, mientras Moscú informó que interceptó cientos de drones.",
       "url": "https://www.dw.com/es/rusia-y-ucrania-intercambian-ataques-con-misiles-y-drones/a-79727455?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1885,7 +1939,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-245",
+      "id": "dw-250",
       "title": "Editorial canadiense rompe con novelista acusado de usar IA",
       "summary": "Un análisis profundo reveló \"rastros de etiquetas de inteligencia artificial en los metadatos de algunos documentos\" presentados por Thélyson Orélien en su última novela, concluyó Les Éditions du Boréal.",
       "url": "https://www.dw.com/es/editorial-canadiense-rompe-con-novelista-acusado-de-usar-ia/a-79727189?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1901,24 +1955,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 80,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "elmostrador-85",
-      "title": "La resaca del fondo E: advierten pensiones más bajas y crece ofensiva contra las AFP",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbjNFMWJQckcwMHVkODhsR2tSZzdGNE0wRWlmbTRESWREdUU0ZURpWVFTMzcwXzc4RjZVbkw5ZF9uUmwwWE9veU53QU5WN1FqRm5wWHZhR1ktcWRqTlptUnBMM2EyeTM2OWFWOE1mdXphODNjR2t4bUlBUjY5RXgtczctcTUyQ0lMZ3hoMkZSVEQ0QUhsc3loSmctSk9CWGNNaTU3aEZmNTREWUo0VV83RVlDYUJtSVFMcVZjVTVXS3NmVmV3d1Z0Wl8xOA?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-22T00:30:48+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "alta",
-      "relevanceScore": 92,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "ciper-2",
@@ -1939,7 +1975,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-246",
+      "id": "dw-251",
       "title": "Trump optimista y Rusia se muestra escéptica sobre fin de la guerra",
       "summary": "El gobernante estadounidense considera que nunca se estuvo “tan cerca” de poner fin al conflicto armado, aunque desde Rusia aseguran que las posiciones de las partes siguen alejadas.",
       "url": "https://www.dw.com/es/trump-optimista-y-rusia-se-muestra-escéptica-sobre-fin-de-la-guerra/a-79727174?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1973,24 +2009,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "dw-247",
-      "title": "Mueren los dos ocupantes de un caza accidentado en Francia",
-      "summary": "El avión de combate se estrelló cerca de Rogéville, en los alrededores de Nancy, durante un vuelo de entrenamiento.",
-      "url": "https://www.dw.com/es/mueren-los-dos-ocupantes-de-un-caza-accidentado-en-francia/a-79727165?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": "https://static.dw.com/image/71530514_6.jpg",
-      "publishedAt": "2026-10-21T22:49:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "diariouach-69",
@@ -2155,42 +2173,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-248",
-      "title": "Estados Unidos retira su personal diplomático no esencial y a sus familiares de Arabia Saudí",
-      "summary": "La escalada de ataques hutíes hace que Washington retire a su personal que no tenga labores de emergencia de Riad y a sus familiares.",
-      "url": "https://www.dw.com/es/estados-unidos-retira-su-personal-diplomático-no-esencial-y-a-sus-familiares-de-arabia-saudí/a-79727136?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-10-21T21:45:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "elmostrador-87",
-      "title": "“Brutal retroceso”: Presidente de ANFUCULTURA expuso en Congreso y pidió rechazar recortes al sector",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWk8xSFJ1NGdRSUx2aElxQUlXLU1GU1RUT09sTHNDc09fcklGdWFVeTF4LUJjOExHQWtDSXItS0hKcndGcnhIMThJb2lkbEtTYnlrUGVYTloyVzdvaDh2UW9wT2RIOGZGNXJjQ2haT0paUE5kQzNwbU1OQnJJVUtNcXRsRkI3QnlFZWtwQ1pISjExUnh5b3VsYUJXcFdRZXdrdkpIX1dLSGFtV01OdldxM21PX05FY0dTMUtsZjF1dmdTM0RIQVF1UG1tVEZmaUd2MDl3aHBaYjZkYWo3?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-21T21:44:56+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Cultura y Sociedad",
-      "relevanceTier": "alta",
-      "relevanceScore": 92,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "radiouchile-35",
       "title": "¿Fin de los problemas comunicacionales? Las dudas ante la llegada de un nuevo vocero a La Moneda",
       "summary": "El subsecretario de Gobierno, Gonzalo Arenas, promete un estilo directo y pedagógico. La oposición cuestiona que su llegada resuelva las dificultades del Ejecutivo y analistas apuntan a la necesidad de respaldo político y las atribuciones del cargo. La entrada ¿Fin de los problemas comunicacionales? Las dudas ante la llegada de un...",
@@ -2243,24 +2225,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 94,
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
-      "id": "dw-249",
-      "title": "El Papa no necesita ningún tratamiento adicional tras operación por un cáncer de pulmón",
-      "summary": "Los médicos del pontífice confirman que el cáncer estaba \"localizado\" y que no se requiere tratamiento adicional, despejando los temores de que tuviera que recibir quimioterapia.",
-      "url": "https://www.dw.com/es/el-papa-no-necesita-ningún-tratamiento-adicional-tras-operación-por-un-cáncer-de-pulmón/a-79726741?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-10-21T20:35:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "fastcheck-22",
@@ -2407,24 +2371,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-83",
-      "title": "Arenas debuta como vocero en plena crisis del fondo E y refuerza libreto de La Moneda",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcnFrbERBZnp1OXRVTko0cU1fcFNaeXpiamVzbERvVUdzcHp0OWdUWDh5WTFycGpXa3g0SkhaNXR5X1RESG5KbGJkVUthWDhTb1FCMW55eS1nakhLdFNDSWhkM3BRSmNvWm5KSjM4OGtyaUQ0U1dwcWl4RDU1TC1WckV0WDRwS1lyYnkzRzVsSE10clRIdi16X3RfTmZzUDZ2Qi1tdVRMWWMtc19VRFdYT0t4NWR3NHY1c05EVTNKX0t0WlBuN0pSUDZxTmxucWo2VVpTQQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-21T19:47:36+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 87,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "diariouach-76",
       "title": "Innovador cómic creado por académicas UACh valora la cultura sorda e ilustra interacción en Lengua de Señas Chilena",
       "summary": "Un aporte inédito a la educación inclusiva y la literatura del país es la…",
@@ -2443,24 +2389,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "dw-250",
-      "title": "Las mujeres desafían al poder en las protestas de las \"Cucarachas\" en India",
-      "summary": "Ante el acoso en internet y las detenciones policiales, mujeres de toda India se suman a las protestas juveniles de las \"Cucarachas\". Pese a la represión, rechazan el papel de víctimas y salen a las calles.",
-      "url": "https://www.dw.com/es/las-mujeres-desafían-al-poder-en-las-protestas-de-las-cucarachas-en-india/a-79726045?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-10-21T19:41:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "ciper-3",
       "title": "Las AFP no responden si mantendrán en sus cargos a gerentes responsables de la multimillonaria pérdida del fondo E",
       "summary": "La entrada Las AFP no responden si mantendrán en sus cargos a gerentes responsables de la multimillonaria pérdida del fondo E se publicó primero en CIPER Chile .",
@@ -2477,24 +2405,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 97,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "dw-251",
-      "title": "Meta condenada a pagar 25.000 millones de dólares por engañar en las condiciones de uso en un caso relacionado con el de Cambridge Analytica",
-      "summary": "Un juez de Nuevo México dictaminó que la compañía pague esa cantidad al Estado después de que un jurado determinara que el gigante de las redes sociales engañó a los usuarios en un caso relacionado con ese escándalo.",
-      "url": "https://www.dw.com/es/meta-condenada-a-pagar-25-000-millones-de-dólares-por-engañar-en-las-condiciones-de-uso-en-un-caso-relacionado-con-el-de-cambridge-analytica/a-79726547?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-10-21T19:23:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "diariouach-77",
@@ -2587,7 +2497,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-79",
+      "id": "elmostrador-80",
       "title": "Película sobre militares que se opusieron al golpe de 1973 llegará en noviembre a Netflix",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMU11dUEySHRNQUZxVjZVOHZ6UmFFY2dSLTZDRlE0YzZ1SXc2dWFUV3VnWGVGUkx5LUtVYm5hWVduTmRkeno2OVBkcUJyVkt3cFFkZ293dnJVcXNCWVBIYkhoczBvNjI5X1lyclNlci1WZUNGRnhDMXIxVkN0MUlDdXV6OW1uOHd5S2NoaUJ1NkR2VzlkWUVTWUVfeDdsT0Q5S25nWE1YVXd1blhkWVB6WWtvUGNBRkhJZTQxSVlwQV9SOXcyam9pa0lVU3piNnBobEE?oc=5",
@@ -2803,24 +2713,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elmostrador-84",
-      "title": "Yerko Ljubetic advierte que un INDH controlado por el Presidente “no va a hacer la pega”",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZmJlY01sU2YyM1dyZnFISmZJZEdZRGU4SHFhVW1JRkRKV3F5ZFNNM0o1X25vb0J0OFY2UzdHRF9OZDctX1oybTJfM25LWG9DUDF3M1BfaGZoNVF0cTZQZmdtMEJSNlVZRWREMWtXajI2UUdwQUEzWGFqTG9GT2FQTDVUY01jWkdDNGJGZVJRa0NMblRMNlhGd2ZDd1EwYk9sZ3ZRQnlKUllQaXd4akVSRkxYMGNPWlJwUFdTUDNudmJldmNsWTltS3BmM3lZd04tOWxVR3V3?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-21T15:50:55+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 87,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "esciclismo-151",
       "title": "\"Se rueda\", las películas que convirtieron la bicicleta en protagonista, reunidas en un libro",
       "summary": "Libros de Ruta publicará el 23 de octubre \"Se rueda. El ciclismo y las bicicletas en el cine\", un libro de Jordi Rodríguez Ruiz que repasa más de un siglo de películas en las que...",
@@ -2947,24 +2839,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-78",
-      "title": "Hijo del presidente de las AFP asesora vocerías del Gobierno en medio de crisis por pérdidas",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYW1XWHotaWtONUM5bGVmZURPR3ZRaGpoNE44RWFhamRscE1jcXVRSXdhMXVEYVBsWTQ3SHBsZUlOZVFGMjlyREVROHB5N2JEc0s5ZnZwREl6UDNubTZJOWR3N2JJRS04U1pTWkVUQ1h6YUR4Wkl2NGd1NGt0WWFwMFhqSjFxTjZ6bm5lN1pRNFl6UmhLblV2Unc2OGlhVklVeUJybElMWEtEWXNEZFotNTZpQWRNRHltRkk2WkR6UnBJQ0pGYlRjajEydVZRSDlXcGx0ekh5U3pHYjNNcFE?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-21T14:41:14+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 99,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "fastcheck-24",
       "title": "Para soñar con hijos, primero hay que tener futuro",
       "summary": "Imaginar un futuro para los hijos se vuelve más difícil en un mundo amenazado por la crisis climática. Paula Castillo analiza cómo la sequía, los incendios y las inundaciones influyen en la decisión de las nuevas generaciones de tener hijos, en un contexto marcado también por el alto costo de la crianza y la falta de apoyo a las...",
@@ -3017,6 +2891,24 @@
       "relevanceTier": "alta",
       "relevanceScore": 99,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elmostrador-87",
+      "title": "El peso de la Antártica en la creciente cercanía entre Chile y Reino Unido",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObW5CamEtVXdUeW41WEFaYUhyWTYtYWl0czhONDJVUmMwbmMxaVIyZmpUTjlxRC10TkVyY0lfeW9IR3Vfazl2NTFxNmp4ZVdRSW9RRnBuOWlHTkJqQjVSZjRYcHdJWDRGV25Ncm5LVmdfV3JTU1ZYYkhEZVdYMVRDTzFOZ1doNDFtal9GTDlWMVBuYnFzdjNIb3pFY2RhOFFPOExubjFqOEczdUExVjBjUjJXR1pTVU9taFFRdWdXcmJsT2Y3enZEdA?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-21T13:30:11+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "timeline-67",
@@ -3235,7 +3127,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-165",
+      "id": "elsalto-164",
       "title": "La COP17 pone a prueba el compromiso global para frenar la pérdida de biodiversidad",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObnM5M0ZRNVNldFEzVFB1cU1CUnltYmM0em4wb1VLOHZacDVDamJoTEZQd3pkY25PQTZpNEw4T18tZTRRbU9IZnpFWlBHa2IzajV1YkhaQ2JHRTFqT0xTN2dwdERpdjRpbHVUOEZHNm9NN3dQMUhfUE85ZnZzV3l4OGJpYy1FRTBHdUE?oc=5",
@@ -3250,24 +3142,6 @@
       "category": "Medioambiente y Territorio",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 72,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "elmostrador-81",
-      "title": "Militares para las piscinas, nadie para el Cesfam",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOclFpb3ZvZzVURDNVM25GQ1lNTmFBb3F1UUZweGJWVjJrQnBzMnlSRTlLaVdQWktpZ3V6OTh6eWNHWnA1cVQzMTluM1Y3dGVkczhaT25GZ0JoMkpEMndjdk9VQ3gzUGJqQS1ZRkJyUUp4bXBIb3hRblNoOTk5M2RURXAyak45ZGdnQ1EtRlRXTVZ4RzlIdEo1UFAxLVd1ZURJbnBFSFBXMUFSWHYzYVMyZTVyWQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-21T03:50:17+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -3325,6 +3199,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "elmostrador-78",
+      "title": "Desborde del Mapocho obliga a evacuar en Talagante: temporal deja 111 albergados en el país",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWEJpOXpJQkREaXk5VXNkS25HdFNXN1Uxdl9keWdrMkdHaXZtNzVmUnZ3Y1Myc1VqV0pVVWZLTFlGLXpVbmhYMVk4dHJCOFl3WUx6RzU0U3hoeUNuU2RqUXFrblMyLTRmQTR6bWhPREctOE9VbGFYcW13NDBBanAzZmpMUGlYSS01RFQ5VmpCdjZfY3FCbkVuZVBhQlBhZndDaVpsZUR3X0tNZFFsSm53QkpqdnJuN0hTMGRTU2xKbUZqdVdxaThDR2RQZHBZM2UyajZz?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-20T22:38:22+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "theintercept-224",
       "title": "Kohen Wiley’s Family Says Investigators Didn’t Contact Them Before Concluding Cops Did No Wrong",
       "summary": "Mississippi has yet to release any support for its claim that a “thorough and impartial” review showed the shooting was “justified.” The post Kohen Wiley’s Family Says Investigators Didn’t Contact Them Before Concluding Cops Did No Wrong appeared first on The Intercept .",
@@ -3341,24 +3233,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "elmostrador-86",
-      "title": "18-O incendió WhatsApp de La Moneda: choque entre Arrau y Barros por llamado a la prudencia",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNDdVQm4yTFFBenRhNVlQOFRuakdWclhEdTFpRnJ2WENURHFjY1g5TEM0OUFkcFR5SjU3dVM2Vm1GcllxY2tqSzZVbXExSWU4TElVR2MxanpiV3lEUGRVMTlhc0t1WE9tTGItdFZXOUdxT1N1MF9GcHlnQzFMQTRBeWpRbjltenREMFFHUThtUVc4dVpCV3hnUFBwOHhZTlpnQkNIN3dXZ19zU0VFMEk0aEdTTjlSMFZOZmU3N2RaNElBalNhQ2NOTWZzczE3eEtYT2tWTnFxSFB6eGc?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-20T22:06:32+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "fastcheck-26",
@@ -3559,7 +3433,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elsalto-171",
+      "id": "elsalto-170",
       "title": "El legado de Feijóo en la sanidad gallega: 91 días de espera para una cirugía y 120 ayuntamientos sin pediatra",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdE1RYkxsRW5MbkdxRVpBbDk0Uk51OEp1eldMTURWLWlXX2Z2TERVN1U5d3dLd3NvSXF0SlNyeE52TExnLVdqMlZUc1NkNzdEWkhzNU1JUmxka2RQMXFZelI2MlNJVXpqVnhMdUszY2VZME84aWtTN2JqMy14dDVpVHZQWGl3RFIxQ1JXY1VSSzhRSWdjNllCc0J6aDNHRXk1UGlWZDdjSkdUZFNFTjk5X3IwSlE0NzJs?oc=5",
@@ -3610,6 +3484,24 @@
       "category": "Economía y Sociedad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 78,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "elmostrador-85",
+      "title": "Formalizan a alcalde de Río Bueno por cohecho y lavado de dinero",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNa3dISEFFWGd0SGtuLWozbFoxTWZKdEFvRHR5UXZ0ZE1md3RWMDVlYmQ2Sk54cFVBa29yOExBZzRIemJoTi1fX2gwU2pXckNiakZEdVYyTi1pZ1Z1QmRNNnJ2XzNvSXVuRTNtb2VmMlNZRmdhNll6dmRMa2ZPODY5QXROUm94T0MyMkFTOFpUQ0w3M1FhRHVmbFU1YjRMTHEyTmtTV05kUG5NcmE0NVBBSzhxbDlxRUtr?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-20T13:30:39+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -3682,6 +3574,24 @@
       "category": "Investigación y Poder",
       "relevanceTier": "alta",
       "relevanceScore": 96,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elmostrador-83",
+      "title": "Jefaturas junior con sueldos millonarios: los ahijados políticos de Squella en Economía",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPN283Q1VUZTBjTThCdUFuSWJxY1Btc1ljZTYwRE9zNG44SjhhbkRnbXVqSXE4d1R6ei16enF0cEh0emktTjRKNElwcEVGWWRtbU1fS2ppRHh4cVQtLVRXdXNDS3ozQUw3UkdwRVFIN2c2QlBTczlFVWd3Yl9yaFA5VzJHZHlhNDRPY3VQVW04MzZ6S3UwZWxkRE56TUJOUnFQUVcwNnNEUWJxcEQxdXZKeDB4S3FKbkxqbU5JTkp3eG5CRUlJdFBDZXAxRHRQdTRaY2NxY0xzVnRQbTB6Z3lZX01Gand6b0RIQktrZFdRZlNGZw?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-20T08:08:03+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 87,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3829,6 +3739,24 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
+      "id": "elmostrador-79",
+      "title": "Exministro Mario Marcel ingresa a la Universidad Diego Portales como académico en Economía",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaE5BWWd1Zy1TQl9CVGk5bEgyM0NaQkdDMWV3Z1BibVd0TDVCdVVYSGJkMkRVeW50Y1BwbG54cDdwSzBLUzJ4cGtZNEtHQmRKb0ttd2tnaTUtM2lTRW13aWR0bzJsNUx1dks2ZUtIc1N4aDdaeHJhR1NhSFJJam80VmNMY2U0V2FJSGw1NUJKV1pMRDgtdXlrVDczT1R4dzlGcF9VZ2pKWUJMNmFZNnV0SHJTZlhPTEhUUlBhUXNnY2Y0ZHNVMUFwV2dFbnA0U2ZPenkxZ1E2dlRlcFU?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-19T16:11:19+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 83,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "jacobinlat-185",
       "title": "Anwar Shaikh me cambió la vida",
       "summary": "El economista Anwar Shaikh, quien murió hace unos días, dedicó medio siglo a convertir las categorías de Marx en cifras concretas. Su primer asistente de docencia y colaborador de toda la vida recuerda al hombre y a su obra. La entrada Anwar Shaikh me cambió la vida se publicó primero en Jacobin Revista .",
@@ -3847,7 +3775,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-168",
+      "id": "elsalto-167",
       "title": "Cargas contra una concentración pacífica de profesorado frente a un acto en el que participaba Ayuso",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQnctUjFaMmprZkhwcmRGOTUzLTJ6ZGVTcmwtQVh2cHhlVUZEZl9Zay1MSUl4a2JIQkZkV3FWbDJzR2VnUnBsUmladVBnTm5WVDRkREZYWENodWdPb0MtUmpsUlQtdmFhaVhYUGRSV3hqVW1Jdl9jVFZMNGRqektEN0VYRHF6UnVJTGFfSFA4VDZER1Z4RENZT1R3cUZxVlM2MVd1WFBheE0zYXZpNjBvOTNicDNCajExRHNGVG1KZ1A?oc=5",
@@ -3955,22 +3883,22 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elsalto-164",
-      "title": "Cortan la A-3 para denunciar la falta de diálogo de la consejera de Educación, Mercedes Zarzalejo",
-      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRzg1N1h5ZHk2OGN6NGo1ZWJzeEZsY2FpUTVzTkVOOVp2NWRZX3pud1J1b3VlcDItVmtMYk1wdE1UZUFySGQ0ZEJweldUeG94czRuV3p3d0tfb1RfYVhWNTI1SkJLbVg0TnlYTnEyTlpXcmNOSklKNnVTRDBtRC1JRmM4VVRBQQ?oc=5",
+      "id": "elmostrador-86",
+      "title": "Caso Hermosilla: los chats que evidencian cómo Manuel Guerra filtraba causas criminales",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNY1lBSDhoUUhuZlAzRzV5anlTRXNHeEhNOXFGektHdUlDZlJueENDakQtOUs3eFhvcG50ZC1WNS02QUI3S0l4Y1RDY2FVbEItS1lLbDJJUkVWOGVzaTk3RlNLQURSV1lURkNVUUExei1wSVhjRlpkLXd1QTdlNk1UU0NibW5FU2tOS3A1MUt1TEgwZ09DM3VtaVoyZDlSdERoVHlmb0MtZVdGckNTNmVzeE80RnozVDJMZGhGSmY4OF9RMlZSX25jeHpFeU1kZ1hFT0ZMdW5Kalh0WDZqLXNKdVhxVQ?oc=5",
       "image": null,
-      "publishedAt": "2026-10-19T07:40:00+00:00",
-      "sourceId": "elsalto",
-      "sourceName": "El Salto Diario",
-      "sourceType": "Cooperativa Independiente",
-      "sourceSite": "https://www.elsaltodiario.com",
-      "region": "mundo",
+      "publishedAt": "2026-10-19T08:08:56+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 81,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "alta",
+      "relevanceScore": 87,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "globalvoices-158",
@@ -4009,7 +3937,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-167",
+      "id": "elsalto-166",
       "title": "El bloqueo del padrón a inmigrantes en València anticipa la prioridad nacional de PP y Vox",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVElRc2V3RzZ2bVJEdm1IZVNvQjMtOWpsVkU2UUtOVGNuNVBWYWhSTnMxdF9COFFVNmZfNU9TejhYbV9iaHR6THhCa0NpUlBYUTNQMzl4VDVnQlpiNG9HSUNTVkxLdkFLbkliMjBWU3R1UlRfZGpmSmEzYTFaZlQwdXlCVkF5d1c3Wk4yV1dKMGdIWUhZbWVwT3Nfd3VSZ0w1N3d5QUNORmZXS1FEOWZHY3Y1RQ?oc=5",
@@ -4207,6 +4135,24 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
+      "id": "elmostrador-84",
+      "title": "Ley Miscelánea de Kast ya es oficial: paquete económico comenzará a regir el 1 de noviembre",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbkwtdjJ1UXdDWWZmaTN0TEdKWTRRYnZhdmZLbk1IM3dsbXRUejJqeFNwRVB2WG1lU2x6aEdUV19CY1AyazlfSU1HRVMwQUFCY0syQXJiLXR1QzhIR1pxUVdBZDFxaC0xUEQyLTFtX0FhZWJmcTBvZkJ1akg5cnZZVXFUMmk4Q0NQNG9tNFdzb2FIV2kzOVFBaUtGUTBWTXdMQVREeDVrOHRxMTIyak05UHI1LVFjR21JREl0bTlRMnhBZ1RyTXI5M0wyMTZoOGM3OUM5RklyYUdpblk?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-17T14:50:43+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "theintercept-229",
       "title": "Dems Have an Opportunity to Force an End to the Iran War. Will They Take It?",
       "summary": "With Democrats campaigning on ending the war, advocates want them to put their money where their mouth is and risk a lame-duck shutdown. The post Dems Have an Opportunity to Force an End to the Iran War. Will They Take It? appeared first on The Intercept .",
@@ -4294,6 +4240,24 @@
       "category": "Economía y Sociedad",
       "relevanceTier": "alta",
       "relevanceScore": 72,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elmostrador-82",
+      "title": "Valencia tira el mantel: acusa riesgos “a la institucionalidad” en proyecto de Ley de presupuesto",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNTJ3RnVSdXFzUmg2bXgyWXBqTzdrMXotdzJWdkVsQlpoM1pCYzJYNldCQm1DMmV6MWl1SDJkT1F6SlljT25RRFBKT0I4cXRkcWNPY0ZGdkFBOUFpWlROM3R0WGdwYmZMaDUwVktmUEkxRmhPbHpZbGRabzl0elA2Y3NUdGtLVndScktMNTdlQnRONjFVQjVCUFp0cWVIWllsSVdhb0JYNVZHclQzVDF5dlJXdmZlTWlZd1RtRGEtSFFQRWV4SG11cHkydEJ5OWdzSmNJRkdZRHRkQ1FSSHh2VA?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-16T16:23:58+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 87,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -4385,6 +4349,24 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 73,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "elsalto-171",
+      "title": "Ayuso ha inyectado 2,8 millones de euros de dinero público al diario ‘ABC’ en tan solo seis años",
+      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbmhpMzd6eEhrQ3BXeks4Unh4NnBxMmYtNEY2QXhERXRGQTNzaGppZVlocXdEd01kb0FPY19HNlVIdTdIQWotS2pGSDEyUjVBaV9sSWNNSWpfVDg2ak1EYnBPVlNrR01VWC00OHBpaWpKTWtDdzI5Yld4dlR3Tm5xekc3d0dQcjV5ZVFodk53eU4wdWt2Y1FEOHgzTl8wNFlRUDVmQTBOaFR6QXA5MXdWSkdVNXRzQ3dNOGRF?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-16T05:00:00+00:00",
+      "sourceId": "elsalto",
+      "sourceName": "El Salto Diario",
+      "sourceType": "Cooperativa Independiente",
+      "sourceSite": "https://www.elsaltodiario.com",
+      "region": "mundo",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "brecha-202",
@@ -4567,7 +4549,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-166",
+      "id": "elsalto-165",
       "title": "Más Madrid ofrece a Podemos lugares en la lista y la duda es si Colau será candidata sin unidad",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGFkM1lmVlZDR09fUkw5bjczNjUwU0YtUks4RUJ6MGFNMjE0b1BIWUFFby1Tbk92a3RodVg0MnFpbWFjWUpfQzJJTHRPZ0Q3SVJSNGZrUEJvRERZaXB3akd3cmJJNU1XUjBfZndpQTVidmNxODlHbmNwaXBSUzRpRGwtMHl0VDhKTDJJdzRmcjFFUTVlRDJIRXE1VFBBRllRaTQzOFhxTWZyUXgybHI0?oc=5",
@@ -4603,7 +4585,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "elsalto-169",
+      "id": "elsalto-168",
       "title": "GKS fija la meta de “construir un Partido Comunista europeo” frente a más de 4.000 jóvenes en Elizondo",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeW9CLXpWMUZFT014eWY2UUVTWUFjMFlWd1cwb2lhTkhpcjRNUUFmMnd6WEo3di1TWmxqV2ZWQktfUVh3NlVPeWdfbEpndWdqZGFNY1FMMFVhcVVKdVVYQ2hVV0I5a0tPdkFubTg3NVpsdDBDRnJldnF2OWdreTd3VFhQbERzejhIS08zYVVjU091dU92djRpQVAxVE01T0Z6QUlxZW9Ka2M?oc=5",
@@ -4621,7 +4603,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elsalto-170",
+      "id": "elsalto-169",
       "title": "¿Ha llegado el momento de hacer una huelga de compra en los grandes supermercados?",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRUEwZnhyQ2xCSHFpcW9SQTJmdWhsempRLU1SUHV3TkE0M0w4Z0RoMGlOMVRNTEtDclY4Zy1yVzY1WFJ6OTc0TEEwYy1WejZ1d2YtSlF5eHdZRU5laUpscGJfX1prcnBacUpNOWI2Y1JyX3cwc1JtOV9abzJLSXlNdFdqQm5Ta25oYVl5VFpRVWI2QUVkMElfeEpBc3FGaS1fdjJFdjFlTUdVWFU?oc=5",
@@ -5303,6 +5285,24 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 68,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "elmostrador-81",
+      "title": "El Mostrador",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBMdF9UeTJQOXY1RnU3Y1Z5T25uaUo1UjlEdm9IcWpGM0Y1MmtBSGREbXJ5Y2VFa25BSlZ5VDluZGs?oc=5",
+      "image": null,
+      "publishedAt": "2014-04-26T06:37:49+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "resumen-40",
