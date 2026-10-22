@@ -294,22 +294,29 @@ function classifyLiveArticle(src, title, summary) {
     reason = "Alto impacto público, investigativo o estructural";
   }
 
-  let category = "Política y Actualidad";
-  if (["investigación", "corrupción", "contraloría", "fiscalía", "exclusivo", "filtración", "osint", "ciper", "bellingcat"].some(w => text.includes(w))) {
-    category = "Investigación y Poder";
-  } else if (["medioambiente", "clima", "humedal", "agua", "sequía", "glaciar", "especie", "bosque", "contaminación", "biodiversidad", "litio"].some(w => text.includes(w))) {
-    category = "Medioambiente y Territorio";
-  } else if (["ciencia", "universidad", "estudio", "tecnología", "inteligencia artificial", "salud", "medicina", "astronomía"].some(w => text.includes(w))) {
-    category = "Ciencia, Salud y Futuro";
-  } else if (["economía", "inflación", "trabajo", "sindicato", "laboral", "pensiones", "impuestos", "presupuesto", "vivienda"].some(w => text.includes(w))) {
-    category = "Economía y Sociedad";
-  } else if (["derechos humanos", "ddhh", "memoria", "justicia", "comunidad", "indígena", "mapuche", "migración"].some(w => text.includes(w))) {
-    category = "Derechos Humanos y Ciudadanía";
-  } else if (["guerra", "geopolítica", "onu", "tratado", "elecciones", "internacional", "latinoamérica", "europa", "medio oriente"].some(w => text.includes(w))) {
-    category = "Geopolítica y Mundo";
-  } else if (["cultura", "cine", "película", "festival", "concierto", "música", "teatro", "literatura", "libro", "arte", "homenaje", "museo"].some(w => text.includes(w))) {
-    category = "Cultura y Sociedad";
+  const categoryRules = [
+    { cat: "Investigación y Poder", patterns: [/\binvestigaci[oó]n\b/i, /\bcorrupci[oó]n\b/i, /\bcontralor[ií]a\b/i, /\bfiscal[ií]a\b/i, /\bexclusivo\b/i, /\bfiltraci[oó]n\b/i, /\bciper\b/i, /\bcohecho\b/i, /\bmalversaci[oó]n\b/i, /\blavado de activos\b/i, /\btr[aá]fico de influencias\b/i, /\bcaso convenios\b/i, /\bcaso audios\b/i, /\bhermosilla\b/i] },
+    { cat: "Economía y Sociedad", patterns: [/\beconom[ií]a\b/i, /\becon[oó]mic/i, /\binflaci[oó]n\b/i, /\bipc\b/i, /\bpensiones\b/i, /\bjubilac/i, /\bafp\b/i, /\bfondo [a-e]\b/i, /\bhacienda\b/i, /\bbanco central\b/i, /\bsueldo/i, /\bsalario/i, /\blaboral/i, /\bdesempleo\b/i, /\bempleo\b/i, /\btributari/i, /\bimpuesto/i, /\bpresupuesto\b/i, /\bsindicat/i, /\bmercado/i, /\bvivienda\b/i, /\bsuperintendencia de pensiones\b/i] },
+    { cat: "Medioambiente y Territorio", patterns: [/\bmedioambiente\b/i, /\bmedio ambiente\b/i, /\bclim[aá]tic/i, /\bhumedal/i, /\bglaciar/i, /\bsequ[ií]a\b/i, /\bagua\b/i, /\bbosque/i, /\bcontaminaci[oó]n\b/i, /\bbiodiversidad\b/i, /\blitio\b/i, /\bminer[ií]a\b/i, /\bfauna\b/i, /\bflora\b/i, /\bincendio.*forestal/i, /\bsalar/i] },
+    { cat: "Ciencia, Salud y Futuro", patterns: [/\bcient[ií]fic/i, /\bciencia\b/i, /\btecnolog[ií]a/i, /\binteligencia artificial\b/i, /\b(?:ia|i\.a\.)\b/i, /\bastronom[ií]a\b/i, /\btelescopio/i, /\bnasa\b/i, /\bconicyt\b/i, /\banid\b/i, /\bmedicina\b/i, /\bm[eé]dic/i, /\bvacuna/i, /\benfermedad/i, /\bgenoma\b/i, /\bc[eé]lula/i, /\bepidemiolog[ií]a\b/i, /\bhospital/i, /\bf[aá]rmaco/i, /\bc[aá]ncer\b/i] },
+    { cat: "Derechos Humanos y Ciudadanía", patterns: [/\bderechos humanos\b/i, /\bddhh\b/i, /dictadura\b/i, /\bmemoria\b/i, /\bdesaparecid/i, /\bjusticia\b/i, /\bmapuche\b/i, /\bind[ií]gena/i, /\bconadi\b/i, /\bwallmapu\b/i, /\bmigraci[oó]n\b/i, /\bmigrante/i, /\bdefensor de la ni[nñ]ez\b/i, /\bdelitos sexuales\b/i] },
+    { cat: "Geopolítica y Mundo", patterns: [/\bguerra\b/i, /\bgeopol[ií]tica\b/i, /\bonu\b/i, /\botan\b/i, /\belecciones\b/i, /\binternacional\b/i, /\blatinoam[eé]rica\b/i, /\beuropa\b/i, /\bmedio oriente\b/i, /\bee\.uu\.\b/i, /\bestados unidos\b/i, /\bchina\b/i, /\brusia\b/i, /\bucrania\b/i, /\bisrael\b/i, /\bpalestina\b/i, /\bgaza\b/i, /\bnetanyahu\b/i, /\bmilei\b/i] },
+    { cat: "Cultura y Sociedad", patterns: [/\bcine\b/i, /\bpel[ií]cula/i, /\bdocumental/i, /\bliteratura\b/i, /\bnovela/i, /\bpoes[ií]a\b/i, /\bescritor/i, /\bteatro\b/i, /\bconcierto/i, /\bm[uú]sica\b/i, /\bfestival\b/i, /\bmuseo/i, /\barte\b/i, /\bpatrimonio\b/i] }
+  ];
+
+  let bestCat = "Política y Actualidad";
+  let maxMatches = 0;
+  for (const { cat, patterns } of categoryRules) {
+    let count = 0;
+    for (const p of patterns) {
+      if (p.test(text)) count++;
+    }
+    if (count > maxMatches) {
+      maxMatches = count;
+      bestCat = cat;
+    }
   }
+  let category = bestCat;
 
   return {
     tier,

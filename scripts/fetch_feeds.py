@@ -539,26 +539,99 @@ def is_farandula(title, summary, categories):
             return True, m.group(0)
     return False, None
 
+CATEGORY_RULES = {
+    "Ciclismo y Deporte": [
+        r"\bpogacar\b", r"\bvingegaard\b", r"\bevenepoel\b", r"\broglic\b", r"\bciclis(mo|ta|tas)\b",
+        r"\btour de (francia|france)\b", r"\bgiro d'italia\b", r"\bgiro de italia\b", r"\bvuelta a espa[nñ]a\b",
+        r"\buci\b", r"\bmonumentos ciclistas\b", r"\brouleur\b", r"\bpelot[oó]n\b", r"\bparis-roubaix\b",
+        r"\bmarat[oó]n\b", r"\batletismo\b", r"\bol[ií]mpic[ao]s?\b", r"\bf[uú]tbol\b", r"\bcampeonato\b"
+    ],
+    "Investigación y Poder": [
+        r"\binvestigaci[oó]n\b", r"\bcorrupci[oó]n\b", r"\bcontralor[ií]a\b", r"\bfiscal[ií]a\b",
+        r"\bexclusivo\b", r"\bfiltraci[oó]n\b", r"\bosint\b", r"\bciper\b", r"\bbellingcat\b",
+        r"\bpropublica\b", r"\bcohecho\b", r"\bmalversaci[oó]n\b", r"\blavado de (activos|dinero)\b",
+        r"\btr[aá]fico de influencias\b", r"\bcaso convenios\b", r"\bcaso audios\b", r"\bhermosilla\b",
+        r"\bconflicto de inter[eé]s\b", r"\bfraude\b", r"\bsoborno\b", r"\bpoder judicial\b",
+        r"\bcorte suprema\b"
+    ],
+    "Economía y Sociedad": [
+        r"\beconom[ií]a\b", r"\becon[oó]mic[ao]s?\b", r"\binflaci[oó]n\b", r"\bipc\b", r"\bpensiones\b",
+        r"\bjubilac(i[oó]n|iones|iados?)\b", r"\bafp\b", r"\bfondo [a-e]\b", r"\bhacienda\b",
+        r"\bbanco central\b", r"\bsueldo(s)?\b", r"\bsalario(s)?\b", r"\blaboral(es)?\b", r"\bdesempleo\b",
+        r"\bempleo\b", r"\btributari[ao]s?\b", r"\bimpuesto(s)?\b", r"\bpresupuesto\b", r"\bsindicat[ao]s?\b",
+        r"\bmercado(s)?\b", r"\bvivienda\b", r"\bdeuda(s)?\b", r"\bcr[eé]dito(s)?\b", r"\bconsumo\b",
+        r"\bsuperintendencia de pensiones\b", r"\bcosto de la vida\b", r"\bcomisiones\b",
+        r"\bquiebra\b", r"\bburs[aá]til\b", r"\bcomercio\b", r"\bexportac(i[oó]n|iones)\b"
+    ],
+    "Medioambiente y Territorio": [
+        r"\bmedioambiente\b", r"\bmedio ambiente\b", r"\bclim[aá]tic[ao]s?\b", r"\bhumedal(es)?\b",
+        r"\bglaciar(es)?\b", r"\bsequ[ií]a\b", r"\bagua\b", r"\bbosque(s)?\b", r"\bcontaminaci[oó]n\b",
+        r"\bbiodiversidad\b", r"\blitio\b", r"\bminer[ií]a\b", r"\bfauna\b", r"\bflora\b",
+        r"\bincendio(s)? forestal(es)?\b", r"\bsalar(es)?\b", r"\bnaturaleza\b", r"\becolog[ií]a\b",
+        r"\brenovable(s)?\b", r"\bdescarbonizaci[oó]n\b", r"\bterritorio\b", r"\bcuenca(s)?\b"
+    ],
+    "Ciencia, Salud y Futuro": [
+        r"\bcient[ií]fic[ao]s?\b", r"\bciencia\b", r"\btecnolog[ií]a(s)?\b", r"\binteligencia artificial\b",
+        r"\b(?:ia|i\.a\.)\b", r"\bastronom[ií]a\b", r"\btelescopio(s)?\b", r"\bnasa\b", r"\bconicyt\b",
+        r"\banid\b", r"\bmedicina\b", r"\bm[eé]dic[ao]s?\b", r"\btratamiento(s)? m[eé]dico(s)?\b",
+        r"\bvacuna(s)?\b", r"\benfermedad(es)?\b", r"\bgenoma\b", r"\bc[eé]lula(s)?\b",
+        r"\bepidemiolog[ií]a\b", r"\bbio(qu[ií]mica|tecnolog[ií]a)\b", r"\bcu[aá]ntic[ao]s?\b",
+        r"\brob[oó]tic[ao]s?\b", r"\bhospital(es)?\b", r"\bf[aá]rmaco(s)?\b", r"\bc[aá]ncer\b",
+        r"\bneurociencia\b", r"\bsalud p[uú]blica\b", r"\bfarmac[eé]utic[ao]s?\b"
+    ],
+    "Derechos Humanos y Ciudadanía": [
+        r"\bderechos humanos\b", r"\bddhh\b", r"\bdictadura\b", r"\bmemoria\b", r"\bdesaparecid[ao]s?\b",
+        r"\bdetenid[ao]s?\b", r"\bjusticia\b", r"\bmapuche\b", r"\bind[ií]gena(s)?\b", r"\bconadi\b",
+        r"\bwallmapu\b", r"\bmigraci[oó]n\b", r"\bmigrante(s)?\b", r"\bcomunitar(io|ia)s?\b",
+        r"\bprotesta(s)?\b", r"\bdefensor de la ni[nñ]ez\b", r"\bdelitos sexuales\b", r"\bv[ií]ctimas?\b",
+        r"\bmanifestaci[oó]n\b", r"\brepresi[oó]n\b"
+    ],
+    "Geopolítica y Mundo": [
+        r"\bguerra\b", r"\bgeopol[ií]tica\b", r"\bonu\b", r"\botan\b", r"\btratado internacional\b",
+        r"\belecciones\b", r"\binternacional\b", r"\blatinoam[eé]rica\b", r"\beuropa\b",
+        r"\bmedio oriente\b", r"\bee\.uu\.\b", r"\bestados unidos\b", r"\bchina\b", r"\brusia\b",
+        r"\bucrania\b", r"\bisrael\b", r"\bpalestina\b", r"\bgaza\b", r"\bnetanyahu\b",
+        r"\bmilei\b", r"\bargentina\b", r"\bbiden\b", r"\btrump\b", r"\bcanciller[ií]a\b",
+        r"\bdiplom[aá]tic[ao]s?\b", r"\bconflicto armado\b"
+    ],
+    "Cultura y Sociedad": [
+        r"\bcine\b", r"\bpel[ií]cula(s)?\b", r"\bdocumental(es)?\b", r"\bliteratura\b",
+        r"\bnovela(s)?\b", r"\bpoes[ií]a\b", r"\bescritor(a|es)?\b", r"\bteatro\b",
+        r"\bconcierto(s)?\b", r"\bm[uú]sica\b", r"\bfestival\b", r"\bmuseo(s)?\b",
+        r"\barte(s)?\b", r"\bpatrimonio\b", r"\bhomenaje\b"
+    ],
+    "Política y Actualidad": [
+        r"\bgobierno\b", r"\bministr[ao]s?\b", r"\bpresidente\b", r"\bpresidenta\b",
+        r"\bcongreso\b", r"\bsenad[ao]s?\b", r"\bdiputad[ao]s?\b", r"\bpalacio de la moneda\b",
+        r"\bla moneda\b", r"\boficialismo\b", r"\boposici[oó]n\b", r"\breforma\b",
+        r"\bpartido pol[ií]tico\b", r"\bparlamentari[ao]s?\b", r"\blegislativ[ao]s?\b",
+        r"\bgabinete\b", r"\bejecutivo\b", r"\balcalde(sa)?\b", r"\bmunicipalidad\b",
+        r"\bpol[ií]tic[ao]s?\b", r"\bdemocracia\b"
+    ]
+}
+
 def classify_category(title, summary, categories):
     text = f"{title} {summary} {' '.join(categories)}".lower()
-    # Prioridad destacada a Ciclismo y Deportes generales
+    
+    # 1. Ciclismo y Deporte tiene prioridad destacada para cobertura de nicho
     if any(re.search(p, text) for p in CYCLING_PATTERNS) or any(re.search(p, text) for p in GENERAL_SPORTS_PATTERNS):
-        return "Ciclismo y Deporte" 
-    if any(w in text for w in ["investigación", "corrupción", "contraloría", "fiscalía", "exclusivo", "filtración", "osint", "propublica", "ciper", "bellingcat"]):
-        return "Investigación y Poder"
-    if any(w in text for w in ["medioambiente", "clima", "humedal", "agua", "sequía", "glaciar", "especie", "bosque", "contaminación", "naturaleza", "biodiversidad", "litio", "minería"]):
-        return "Medioambiente y Territorio"
-    if any(w in text for w in ["ciencia", "universidad", "estudio", "tecnología", "ia ", "inteligencia artificial", "salud", "medicina", "astronomía"]):
-        return "Ciencia, Salud y Futuro"
-    if any(w in text for w in ["economía", "inflación", "trabajo", "sindicato", "laboral", "pensiones", "impuestos", "presupuesto", "mercado", "vivienda"]):
-        return "Economía y Sociedad"
-    if any(w in text for w in ["derechos humanos", "ddhh", "memoria", "justicia", "comunidad", "indígena", "mapuche", "migración", "protesta"]):
-        return "Derechos Humanos y Ciudadanía"
-    if any(w in text for w in ["guerra", "geopolítica", "onu", "tratado", "elecciones", "internacional", "latinoamérica", "europa", "medio oriente", "ee.uu.", "china"]):
-        return "Geopolítica y Mundo"
-    if any(w in text for w in ["cultura", "cine", "película", "pelicula", "festival", "concierto", "música", "musica", "teatro", "literatura", "libro", "arte", "homenaje", "museo"]):
-        return "Cultura y Sociedad"
-    return "Política y Actualidad"
+        return "Ciclismo y Deporte"
+
+    # 2. Conteo de coincidencias por categoría
+    scores = {}
+    for cat, patterns in CATEGORY_RULES.items():
+        if cat == "Ciclismo y Deporte":
+            continue
+        score = sum(1 for p in patterns if re.search(p, text))
+        if score > 0:
+            scores[cat] = score
+
+    if not scores:
+        return "Política y Actualidad"
+
+    # La categoría con mayor peso/coincidencias contextuales gana
+    sorted_scores = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+    return sorted_scores[0][0]
 
 def score_and_classify_relevance(source, title, summary, categories):
     text = f"{title} {summary}".lower()
