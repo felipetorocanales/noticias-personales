@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-22T14:55:35.883383+00:00",
-  "totalArticles": 251,
-  "totalBlockedFarandula": 12,
+  "generatedAt": "2026-10-22T15:01:08.055979+00:00",
+  "totalArticles": 261,
+  "totalBlockedFarandula": 13,
   "blockedExamples": [
     {
       "title": "El fútbol chileno juega cuando lo dejan",
@@ -37,6 +37,11 @@
       "title": "UACh reúne a nueve universidades en el Campeonato Nacional Universitario de Gimnasia Rítmica Deportiva 2026",
       "source": "Diario UACh (Valdivia)",
       "reason": "campeonato nacional"
+    },
+    {
+      "title": "¿Cuándo y dónde ver a La Roja Femenina frente a México en el Mundial sub 17?",
+      "source": "Radio Cooperativa",
+      "reason": "la roja"
     },
     {
       "title": "Lionel Messi tuvo un multitudinario recibimiento en Oviedo antes de recibir el Premio Princesa de Asturias",
@@ -455,7 +460,7 @@
       "independent": false,
       "status": "ok",
       "count": 10,
-      "blocked": 4
+      "blocked": 5
     },
     {
       "id": "ciclismo-chile",
@@ -603,9 +608,8 @@
       "region": "mundo",
       "type": "Medio Público Internacional",
       "independent": false,
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "count": 0,
+      "status": "ok",
+      "count": 10,
       "blocked": 0
     }
   ],
@@ -719,6 +723,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "france24-252",
+      "title": "Con Trump y Putin más cerca, ¿qué busca Washington en Ucrania?",
+      "summary": "Estados Unidos y Rusia dan señales de acercamiento diplomático mientras la guerra en Ucrania continúa sin una salida clara. La reanudación de las conversaciones tripartitas entre Moscú, Washington y Kiev abre una nueva posibilidad de negociación, pero también plantea interrogantes sobre el papel de Donald Trump, sus gestos hacia...",
+      "url": "https://www.france24.com/es/programas/el-debate/20261022-con-trump-y-putin-m%C3%A1s-cerca-qu%C3%A9-busca-washington-en-ucrania",
+      "image": "https://s.france24.com/media/display/1649ee9a-0476-11f0-95a8-005056a97e36/w:1024/p:16x9/000_372X6VF.jpg",
+      "publishedAt": "2026-10-22T14:14:52+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "elciudadano-99",
       "title": "Lula acepta las exigencias de Flávio Bolsonaro y lo emplaza a levantar el secreto bancario y telefónico antes del balotaje",
       "summary": "El Ciudadano Lula desafió al candidato de ultraderecha a transparentar sus cuentas y las de sus allegados para demostrar \"quién es honesto y quién es un ladrón\" antes de la segunda vuelta electoral de este 25 de octubre. La entrada Lula acepta las exigencias de Flávio Bolsonaro y lo emplaza a levantar el secreto bancario y telefónico...",
@@ -809,6 +831,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "france24-253",
+      "title": "Detienen en Ecuador a la excandidata presidencial del correísmo Luisa González",
+      "summary": "Nota publicada por France 24 Español (Medio Público Internacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261022-ecuador-detiene-a-la-excandidata-presidencial-del-corre%C3%ADsmo-luisa-gonz%C3%A1lez",
+      "image": null,
+      "publishedAt": "2026-10-22T13:50:44+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "timeline-60",
       "title": "Contraloría detecta múltiples irregularidades en residencia de menores Antay de Antofagasta",
       "summary": "La Contraloría Regional de Antofagasta evidenció diversas irregularidades en la atención y cuidado de niñas, niños y adolescentes (NNA) atendidos en la Residencia de Protección para Lactantes y Preescolares Antay, administrada por la Fundación Creeser. Los hechos quedaron consignados tras una fiscalización realizada el 14 de mayo de...",
@@ -825,6 +865,24 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 65,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "france24-254",
+      "title": "Ecuador detiene a la excandidata presidencial del correísmo Luisa González",
+      "summary": "La excandidata presidencial ecuatoriana Luisa González, referente del correísmo, fue detenida este jueves en la provincia de Manabí, a poco más de un mes de las elecciones locales del 29 de noviembre. La Fiscalía investiga presuntas irregularidades en la financiación de campañas electorales y posibles delitos de lavado de dinero,...",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261022-ecuador-detiene-a-la-excandidata-presidencial-del-corre%C3%ADsmo-luisa-gonz%C3%A1lez",
+      "image": "https://s.france24.com/media/display/ac7973f4-192a-11f0-8294-005056bf30b7/w:1024/p:16x9/3cc38c876ef3d6c2730d325fe4b599f04cc34fd2.jpg",
+      "publishedAt": "2026-10-22T13:43:48+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Investigación y Poder",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 81,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "cooperativa-107",
@@ -951,6 +1009,24 @@
       "relevanceTier": "alta",
       "relevanceScore": 83,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-255",
+      "title": "Arabia Saudita evacúa la sede de Aramco tras nuevos ataques de los hutíes y se dispara el precio del petróleo",
+      "summary": "La petrolera estatal saudí Aramco ordenó a sus empleados evacuar su sede en Dhahran, en el este del país, y trabajar a distancia, en medio de una escalada de los enfrentamientos con los hutíes de Yemen.",
+      "url": "https://www.france24.com/es/medio-oriente/20261022-arabia-saudita-evac%C3%BAa-la-sede-de-aramco-tras-nuevos-ataques-de-los-hut%C3%ADes-y-se-dispara-el-precio-del-petr%C3%B3leo",
+      "image": "https://s.france24.com/media/display/c4e10a10-bf64-11f1-a7b5-dd51fcab6130/w:1024/p:16x9/2026-10-03T114745Z-1586814942-RC2LVNAGGALR-RTRMADP-3-IRAN-CRISIS-SAUDI-ARAMCO.jpg",
+      "publishedAt": "2026-10-22T13:16:59+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "timeline-61",
@@ -1259,6 +1335,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "france24-256",
+      "title": "Más de 280 organizaciones convocan movilizaciones en España contra el racismo hacia los migrantes",
+      "summary": "Más de 280 organizaciones y 90 personalidades del ámbito cultural, académico y jurídico anunciaron movilizaciones en distintas ciudades de España para denunciar el aumento de los discursos racistas y reclamar el respeto de los derechos de las personas migrantes y refugiadas.",
+      "url": "https://www.france24.com/es/europa/20261022-m%C3%A1s-de-280-organizaciones-convocan-movilizaciones-en-espa%C3%B1a-contra-el-racismo-hacia-los-migrantes",
+      "image": "https://s.france24.com/media/display/8fc48040-c569-11f1-99b6-77317c09f325/w:1024/p:16x9/59b9f9b064ae244229540ea9ba0c46e97fba40e6.jpg",
+      "publishedAt": "2026-10-22T12:14:25+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "eldiarioes-172",
       "title": "El PP respalda la censura ideológica de Vox al cine en Castilla y León y lo justifica en nombre de la “libertad”",
       "summary": "El portavoz de la Junta defiende que una comisión de expertos evalúe los proyectos y opina sobre si 'La bola negra' o 'Torrente' podrían optar a las subvenciones: \"Seguro que sí\" El Gobierno de PP y Vox en Castilla y León dice que un comité de “técnicos y expertos” evaluará “la trascendencia ideológica” de las películas y carga contra...",
@@ -1274,6 +1368,24 @@
       "category": "Ciencia, Salud y Futuro",
       "relevanceTier": "alta",
       "relevanceScore": 88,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-257",
+      "title": "Miles de sitios web desconectados por una falla de seguridad detectada con inteligencia artificial",
+      "summary": "Miles de sitios web fueron desconectados de forma preventiva el miércoles debido a una falla de seguridad identificada mediante inteligencia artificial (IA) en un software de programación ampliamente utilizado en internet. El episodio ilustra el alcance de la IA en materia de ciberseguridad.",
+      "url": "https://www.france24.com/es/ciencia-y-tecnolog%C3%ADas/20261022-miles-de-sitios-web-desconectados-por-una-falla-de-seguridad-detectada-con-inteligencia-artificial",
+      "image": "https://s.france24.com/media/display/0fd90dc4-cd7a-11f1-a4e8-8bea73bbe173/w:1024/p:16x9/a124f0bb89ec46c4df7283858cbb107567bc402a.jpg",
+      "publishedAt": "2026-10-22T12:01:16+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1472,6 +1584,24 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 83,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-258",
+      "title": "La Corte Penal Internacional gana el Premio Sájarov de derechos humanos de la Unión Europea",
+      "summary": "Nota publicada por France 24 Español (Medio Público Internacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://www.france24.com/es/europa/20261022-la-corte-penal-internacional-gana-el-premio-s%C3%A1jarov-de-derechos-humanos-de-la-ue",
+      "image": null,
+      "publishedAt": "2026-10-22T10:31:58+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1727,6 +1857,24 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
+      "id": "france24-259",
+      "title": "La Cámara Baja irlandesa avanza en la eliminación del aval de la ONU para sus misiones de paz",
+      "summary": "Por un estrecho margen, la Cámara Baja irlandesa dio un paso hacia la eliminación del requisito de autorización de la ONU para desplegar tropas en misiones internacionales, una modificación sustancial de un sistema cuyas bases legales se remontan a 1960. La oposición advierte que la reforma amenaza la neutralidad militar del país y...",
+      "url": "https://www.france24.com/es/europa/20261022-la-c%C3%A1mara-baja-irlandesa-avanza-en-la-eliminaci%C3%B3n-del-aval-de-la-onu-para-sus-misiones-de-paz",
+      "image": "https://s.france24.com/media/display/bf8c2c76-cdaf-11f1-a5a0-4da0d2c6855d/w:1024/p:16x9/AP26289293740117.jpg",
+      "publishedAt": "2026-10-22T09:04:51+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "ciclo21-125",
       "title": "Tour Francia féminas 2027: Todas las etapas desveladas",
       "summary": "La ronda femenina hace historia con una \"Grand Départ\" en el corazón de Inglaterra La entrada Tour Francia féminas 2027: Todas las etapas desveladas aparece primero en Ciclo21 .",
@@ -1977,6 +2125,42 @@
       "relevanceTier": "alta",
       "relevanceScore": 94,
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "france24-260",
+      "title": "Caso Cambridge Analytica: Meta recibe una sanción de 25.000 millones de dólares en Nuevo México",
+      "summary": "Un juez de Nuevo México ordenó a Meta pagar 25.000 millones de dólares por engañar a los usuarios sobre el uso de sus datos personales, en un caso vinculado al escándalo de Cambridge Analytica, según medios estadounidenses. La compañía calificó la sanción de \"impuesto a la libertad de expresión\" y anunció que apelará.",
+      "url": "https://www.france24.com/es/ciencia-y-tecnolog%C3%ADas/20261022-caso-cambridge-analytica-meta-recibe-una-sanci%C3%B3n-de-25-000-millones-de-d%C3%B3lares-en-nuevo-m%C3%A9xico",
+      "image": "https://s.france24.com/media/display/61bd523a-cdb1-11f1-b8d0-ab78a7fed2ce/w:1024/p:16x9/7556d68f38536bf467bad2236ea4c8d933e4e776.jpg",
+      "publishedAt": "2026-10-22T07:00:01+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "france24-261",
+      "title": "En directo: solo se permitirán las manifestaciones sindicales el sábado, anuncia Macron",
+      "summary": "El presidente francés, Emmanuel Macron, anunció este jueves que se prohibirán en los próximos días las protestas que no estén organizadas por sindicatos. En París, las autoridades autorizaron para el sábado la marcha entre Bastilla y Nación, impulsada, entre otros, por la CGT, pero vetaron el recorrido hacia Ópera. Lyon prohibió todas...",
+      "url": "https://www.france24.com/es/francia/20261022-en-directo-francia-restringe-las-protestas-en-par%C3%ADs-y-lyon-ante-el-riesgo-de-nuevos-disturbios",
+      "image": "https://s.france24.com/media/display/41f020b0-cda5-11f1-a2a4-eb48fa034ddc/w:1024/p:16x9/000-C9P298Q.jpg",
+      "publishedAt": "2026-10-22T06:09:34+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "globalvoices-152",
