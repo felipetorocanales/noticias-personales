@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-23T14:41:17.006576+00:00",
-  "totalArticles": 254,
-  "totalBlockedFarandula": 7,
+  "generatedAt": "2026-10-23T15:01:19.150455+00:00",
+  "totalArticles": 264,
+  "totalBlockedFarandula": 8,
   "blockedExamples": [
     {
       "title": "No solo a pederastas: Gobierno de Kast otorgó dos rebajas de condenas a presos de Punta Peuco por secuestro y tortura",
@@ -14,6 +14,11 @@
       "reason": "fútbol"
     },
     {
+      "title": "Garnero aún mastica eliminación de Copa Chile ante nuevo cruce con La Calera: \"Me deja mucha bronca\"",
+      "source": "Radio Cooperativa",
+      "reason": "universidad católica"
+    },
+    {
       "title": "La calculadora \"alba\": ¿Qué necesita Colo Colo para cerrar el título de la Liga de Primera?",
       "source": "Radio Cooperativa",
       "reason": "colo colo"
@@ -24,19 +29,19 @@
       "reason": "alexis sánchez"
     },
     {
-      "title": "\"Él fue negligente\": Cony Capelli se sinceró sobre su embarazo y distanciamiento con expareja",
-      "source": "Radio Cooperativa",
-      "reason": "gran hermano"
-    },
-    {
-      "title": "Libertadores: ¿Cuándo se juega la final entre Estudiantes y Palmeiras?",
-      "source": "Radio Cooperativa",
-      "reason": "copa libertadores"
-    },
-    {
       "title": "Vuelta del Biobío 2026: cinco etapas y 660 kilómetros marcarán el regreso del ciclismo UCI a Chile - Universidad de Chile",
       "source": "Ciclismo Chile",
       "reason": "universidad de chile"
+    },
+    {
+      "title": "Israel cierra toda Cisjordania ocupada tras un ataque palestino en Hebrón, con dos soldados muertos",
+      "source": "France 24 Español",
+      "reason": "palestino"
+    },
+    {
+      "title": "Estudiantes elimina a Flamengo en el Maracaná y jugará la final de la Libertadores ante Palmeiras",
+      "source": "France 24 Español",
+      "reason": "copa libertadores"
     }
   ],
   "sources": [
@@ -430,7 +435,7 @@
       "independent": false,
       "status": "ok",
       "count": 10,
-      "blocked": 4
+      "blocked": 3
     },
     {
       "id": "ciclismo-chile",
@@ -578,17 +583,106 @@
       "region": "mundo",
       "type": "Medio Público Internacional",
       "independent": false,
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "count": 0,
-      "blocked": 0
+      "status": "ok",
+      "count": 10,
+      "blocked": 2
     }
   ],
   "articles": [
     {
+      "id": "radiouchile-29",
+      "title": "Gobierno frena rebajas de condena tras otorgar beneficios a abusadores sexuales de menores de edad",
+      "summary": "El ministro de Justicia, Fernando Rabat, anunció que impulsará con discusión inmediata un paquete de proyectos \"para impedir que se sigan otorgando estos beneficios a personas condenadas antes del año 2022\". La entrada Gobierno frena rebajas de condena tras otorgar beneficios a abusadores sexuales de menores de edad se publicó primero...",
+      "url": "https://radio.uchile.cl/2026/10/23/gobierno-frena-rebajas-de-condena-tras-otorgar-beneficios-a-abusadores-sexuales-de-menores-de-edad/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/23114720/fernando-rabat-1.jpg",
+      "publishedAt": "2026-10-23T14:50:34+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 89,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "fastcheck-19",
+      "title": "El mejor caso posible: ¿alcanza el altruismo?",
+      "summary": "La gestación subrogada plantea cuestionamientos éticos que, según Emilia García Cox, van más allá del dinero y el consentimiento. En su columna, la directora de Estudios de IdeaPaís analiza el caso del primer ministro neerlandés Rob Jetten, quien espera un hijo mediante este método en un acuerdo sin fines comerciales. A partir de este...",
+      "url": "https://www.fastcheck.cl/2026/10/23/el-mejor-caso-posible-alcanza-el-altruismo/",
+      "image": "https://www.fastcheck.cl/media/images/2026/10/el-mejor-caso-posible-alcanza-el-altruismo.webp",
+      "publishedAt": "2026-10-23T14:48:00+00:00",
+      "sourceId": "fastcheck",
+      "sourceName": "Fast Check CL",
+      "sourceType": "Fact-Checking Independiente",
+      "sourceSite": "https://www.fastcheck.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 81,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "dw-245",
+      "title": "Ébola: dudas sobre el papel de Uganda en los casos de Kenia y Nigeria",
+      "summary": "Los casos de ébola en Kenia y Nigeria ponen a Uganda bajo escrutinio. Las autoridades investigan si los pacientes coincidieron en el aeropuerto de Entebbe y dónde se produjo el contagio.",
+      "url": "https://www.dw.com/es/ébola-dudas-sobre-el-papel-de-uganda-en-los-casos-de-kenia-y-nigeria/a-79745006?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-10-23T14:44:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "france24-255",
+      "title": "Flávio o Lula: ¿quién conquistará a los abstencionistas en Brasil?",
+      "summary": "A pocos días de la segunda vuelta presidencial en Brasil, Luiz Inácio Lula da Silva y Flávio Bolsonaro intensifican sus estrategias para atraer a los millones de electores que no acudieron a las urnas en la primera vuelta. ¿Qué cambiaron ambos candidatos en sus campañas para ampliar su respaldo y conquistar el voto de los...",
+      "url": "https://www.france24.com/es/programas/el-debate/20261023-fl%C3%A1vio-o-lula-qui%C3%A9n-conquistar%C3%A1-a-los-abstencionistas-en-brasil",
+      "image": "https://s.france24.com/media/display/2b9d95f0-c034-11f1-a735-1ff0321dbbd3/w:1024/p:16x9/Disen%CC%83o-sin-ti%CC%81tulo.png",
+      "publishedAt": "2026-10-23T14:41:13+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "cooperativa-105",
+      "title": "Diputado Meza y reducción de condenas: ¿Por qué no levantaron la alerta en los últimos cuatro años?",
+      "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-meza-y-reduccion-de-condenas-por-que-no-levantaron-la-alerta/2026-10-23/114021.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261023/imag/foto_0000000120261023114021.jpg",
+      "publishedAt": "2026-10-23T14:40:21+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 74,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "elciudadano-99",
       "title": "Diputado Cuello acusa a Kast de legitimar el terrorismo de Estado tras rebaja de condena a exagente de la CNI",
-      "summary": "El Ciudadano El parlamentario cuestión que por orden del mandatario, el ministro de Justicia, Fernando Rabat, rebajara la condena de César Acuña, autor de la desaparición del militante y luchador social de Valparaíso, Alejandro Pinochet, en 1987. La entrada Diputado Cuello acusa a Kast de legitimar el terrorismo de Estado tras rebaja...",
+      "summary": "El Ciudadano El parlamentario cuestionó que por orden del mandatario, el ministro de Justicia, Fernando Rabat, rebajara la condena de César Acuña, autor de la desaparición del militante y luchador social de Valparaíso, Alejandro Pinochet, en 1987. La entrada Diputado Cuello acusa a Kast de legitimar el terrorismo de Estado tras rebaja...",
       "url": "https://www.elciudadano.com/politica/diputado-cuello-acusa-a-kast-de-legitimar-el-terrorismo-de-estado-tras-rebaja-de-condena-a-exagente-de-la-cni/10/23/",
       "image": "https://www.elciudadano.com/wp-content/uploads/2026/10/Cuello_diputado-2-1-e1792766212116.jpg",
       "publishedAt": "2026-10-23T14:40:02+00:00",
@@ -622,6 +716,78 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
+      "id": "france24-256",
+      "title": "Balotaje en Brasil: ¿continuidad del lulismo o vuelta al bolsonarismo?",
+      "summary": "El presidente y candidato Luiz Inácio Lula da Silva y el ultraderechista Flávio Bolsonaro se enfrentarán en el balotaje el próximo 25 de octubre. Brasil celebrará unas elecciones marcadas por la polarización política, la crisis económica, la seguridad y la corrupción. Los brasileños decidirán entre un voto de confianza y una nueva...",
+      "url": "https://www.france24.com/es/video/20261023-balotaje-en-brasil-continuidad-del-lulismo-o-vuelta-al-bolsonarismo",
+      "image": "https://s.france24.com/media/display/1fef5a0e-ceee-11f1-bc1e-5b4a75578ebb/w:1024/p:16x9/ES-20261023-071958-072932-CS.jpg",
+      "publishedAt": "2026-10-23T14:34:05+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 98,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-106",
+      "title": "Eyzaguirre critica manejo fiscal de Quiroz: \"Se ha equivocado completa y totalmente\"",
+      "summary": "El exministro de Hacienda, Nicolás Eyzaguirre (PPD), aseguró en Cooperativa que el actual titular de la cartera, Jorge Quiroz, se ha \"equivocado completa y totalmente\" en su manejo de la economía nacional durante este año. En El Primer Café , Eyzaguirre aseveró que \"yo creo que el ministro Quiroz se ha equivocado completa y totalmente...",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/eyzaguirre-critica-manejo-fiscal-de-quiroz-se-ha-equivocado-completa-y/2026-10-23/113127.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261023/imag/foto_0000000220261023113127.jpg",
+      "publishedAt": "2026-10-23T14:31:27+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "independent": false,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 79,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "france24-257",
+      "title": "James Talarico busca devolverle a Texas un senador demócrata por primera vez en 30 años",
+      "summary": "James Talarico, demócrata y cristiano declarado, busca devolverle a su partido un escaño en el Senado por Texas, un estado que no elige a un senador demócrata desde 1988. Con más de dos millones de seguidores en TikTok, también se ha ganado a los jóvenes. Además, ha conquistado algunos votos republicanos de quienes consideran que, a...",
+      "url": "https://www.france24.com/es/video/20261023-james-talarico-busca-devolverle-a-texas-un-senador-dem%C3%B3crata-por-primera-vez-en-30-a%C3%B1os",
+      "image": "https://s.france24.com/media/display/f7ce116c-ceea-11f1-a4b3-bba4eee3dc72/w:1024/p:16x9/ES-20261023-071218-071448-CS.jpg",
+      "publishedAt": "2026-10-23T14:28:28+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-107",
+      "title": "Rabat atribuyó a un \"vacío legal\" las rebajas de condena a pederastas: suspendió su tramitación",
+      "summary": "El ministro de Justicia, Fernando Rabat , atribuyó a un \"vacío legal\" la polémica concesión de rebajas de condena a 56 abusadores sexuales y violadores de niños aplicada en lo que va de Gobierno . Dos días después de estallar la polémica, y a través de un comunicado, su cartera anunció \"la suspensión de la tramitación de los decretos...",
+      "url": "https://www.cooperativa.cl/noticias/pais/judicial/rabat-atribuyo-a-un-vacio-legal-las-rebajas-de-condena-a-pederastas/2026-10-23/112822.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261023/imag/foto_0000000220261023112822.jpg",
+      "publishedAt": "2026-10-23T14:28:22+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 83,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "theintercept-225",
       "title": "Giant Crypto Super PAC Funnels Big Money to Former Trump Official’s Firm to Support… Democrats?",
       "summary": "The Fellowship PAC routed more than half a million dollars in support of Democrats through a firm co-founded by former Trump crypto adviser Bo Hines. The post Giant Crypto Super PAC Funnels Big Money to Former Trump Official’s Firm to Support… Democrats? appeared first on The Intercept .",
@@ -638,6 +804,42 @@
       "relevanceTier": "alta",
       "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-258",
+      "title": "Israel ordena una operación militar a gran escala en Cisjordania tras supuesto ataque \"terrorista\"",
+      "summary": "Nota publicada por France 24 Español (Medio Público Internacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://www.france24.com/es/medio-oriente/20261023-israel-ordena-una-operaci%C3%B3n-militar-a-gran-escala-en-cisjordania-tras-supuesto-ataque-terrorista",
+      "image": null,
+      "publishedAt": "2026-10-23T14:26:56+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "france24-259",
+      "title": "Informe desde París: Francia se prepara para una jornada de protestas en medio de tensiones",
+      "summary": "Francia se alista para una jornada de protestas rodeada de tensión. Se espera que el próximo 24 de octubre se desarrollen manifestaciones en todo el país, a pesar de que en varias ciudades han sido prohibidas debido a las posibles perturbaciones del orden público. Los museos del Louvre, de Orsay y Picasso estarán cerrados todo el día....",
+      "url": "https://www.france24.com/es/video/20261023-informe-desde-par%C3%ADs-francia-se-prepara-para-una-jornada-de-protestas-en-medio-de-tensiones",
+      "image": "https://s.france24.com/media/display/806a4846-cee7-11f1-b1db-bdb9616e85cf/w:1024/p:16x9/ES-20261023-070745-070951-CS.jpg",
+      "publishedAt": "2026-10-23T14:26:28+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "elciudadano-100",
@@ -748,7 +950,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "cooperativa-106",
+      "id": "cooperativa-109",
       "title": "Temuco: PDI incautó siete vehículos en investigación contra automotora por estafa",
       "summary": "La Brigada Investigadora de Delitos Económicos (Bridec) de la PDI de Temuco recuperó siete automóviles -avaluados en más de 130 millones de pesos- en medio de una investigación por presuntas estafas. Las indagatorias apuntan a la automotora M Motors de Temuco y a presuntas irregularidades en la compraventa de vehículos , luego de una...",
       "url": "https://www.cooperativa.cl/noticias/pais/region-de-la-araucania/temuco-pdi-incauto-siete-vehiculos-en-investigacion-contra-automotora/2026-10-23/104859.html",
@@ -784,7 +986,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-105",
+      "id": "cooperativa-108",
       "title": "Gobierno francés evalúa bloquear las redes sociales para contener saqueos y desórdenes",
       "summary": "La posibilidad de suspender TikTok o Snapchat para contener los saqueos en los comercios ha abierto una brecha política en Francia . La iniciativa que baraja el Gobierno despierta dudas sobre su viabilidad jurídica y las críticas de la izquierda , que la considera una afrenta a la libertad de expresión . En una de las democracias más...",
       "url": "https://www.cooperativa.cl/noticias/mundo/francia/disturbios/gobierno-frances-evalua-bloquear-las-redes-sociales-para-contener/2026-10-23/104029.html",
@@ -802,7 +1004,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-245",
+      "id": "dw-246",
       "title": "Netanyahu anuncia una operación militar en Cisjordania ocupada \"a una escala no vista desde la Guerra de los Seis Días\"",
       "summary": "Netanyahu anunció la evacuación forzosa de residentes de barrios palestinos, registros casa por casa y la demolición de infraestructuras, tras el ataque a tiros cerca de Hebrón que dejó cinco heridos israelíes.",
       "url": "https://www.dw.com/es/netanyahu-anuncia-una-operación-militar-en-cisjordania-ocupada-a-una-escala-no-vista-desde-la-guerra-de-los-seis-días/a-79744016?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -820,7 +1022,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-108",
+      "id": "cooperativa-111",
       "title": "\"Ningún afternoon\": Rosalía recibió premio recordando frase de la Doctora Polo",
       "summary": "La cantante Rosalía se volvió viral al recordar una célebre frase de la doctora Ana María Polo durante la premiación de los Billboard de la Música Latina 2026 . En la ceremonia la española fue galardonada con los premios al Billboard Salón de la Fama, Artista Latin Pop del Año y Álbum Top Latin Pop del Año por si disco \"Lux\". Al...",
       "url": "https://www.cooperativa.cl/noticias/magazine/musica/ningun-afternoon-rosalia-recibio-premio-recordando-frase-de-la/2026-10-23/103222.html",
@@ -856,7 +1058,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-109",
+      "id": "cooperativa-112",
       "title": "Línea 1 del Metro opera de forma parcial",
       "summary": "Un procedimiento por \"emergencia médica\" registrado durante la mañana de este viernes obligó a Metro de Santiago a suspender de manera temporal el servicio en 10 estaciones del tramo comprendido entre San Pablo y República en la Línea 1. La interrupción se inició pasadas las 10:20 horas, afectando la habitual conectividad de los...",
       "url": "https://www.cooperativa.cl/noticias/pais/transportes/metro/linea-1-del-metro-opera-de-forma-parcial/2026-10-23/102908.html",
@@ -874,7 +1076,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-110",
+      "id": "cooperativa-113",
       "title": "Borussia Dortmund premiará a hinchas que no utilicen sus celulares durante los partidos",
       "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes Borussia Dortmund, club de la Bundesliga, anunció una particular iniciativa para premiar a los hinchas que eviten utilizar sus teléfonos celulares durante los partidos , con el objetivo de fomentar una mayor conexión con el espectáculo y el ambiente de las tribunas. La...",
       "url": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-alemana/borussia-dortmund-premiara-a-hinchas-que-no-utilicen-sus-celulares/2026-10-23/102805.html",
@@ -892,7 +1094,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-29",
+      "id": "radiouchile-30",
       "title": "Emilia Schneider (FA): “Solicitamos al Presidente Kast que se haga cargo del daño causado y saque al ministro Rabat”",
       "summary": "La diputada del Frente Amplio cuestionó las rebajas de condenas otorgadas a agresores sexuales de menores y a reclusos de Punta Peuco, y emplazó al Ejecutivo a transparentar quién tomó la decisión. La entrada Emilia Schneider (FA): “Solicitamos al Presidente Kast que se haga cargo del daño causado y saque al ministro Rabat” se publicó...",
       "url": "https://radio.uchile.cl/2026/10/23/emilia-schneider-fa-solicitamos-al-presidente-kast-que-se-haga-cargo-del-dano-causado-y-saque-al-ministro-rabat/",
@@ -910,7 +1112,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-107",
+      "id": "cooperativa-110",
       "title": "Emiratos Árabes postuló a diplomática Lana Nusseibeh para liderar la ONU",
       "summary": "Emiratos Árabes Unidos (EAU) nominó a su ministra de Estado de Asuntos Exteriores, Lana Nusseibeh , como candidata a secretaria general de las Naciones Unidas , para suceder a António Guterres. El presidente emiratí, Mohamed bin Zayed, presentó la nominación a través de \"una carta dirigida a los presidentes de la Asamblea General y...",
       "url": "https://www.cooperativa.cl/noticias/mundo/organismos-internacionales/onu/emiratos-arabes-postulo-a-diplomatica-lana-nusseibeh-para-liderar-la-onu/2026-10-23/102221.html",
@@ -928,7 +1130,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-19",
+      "id": "fastcheck-20",
       "title": "Constanza Valdés no es subdirectora del INDH ni percibe un sueldo de 8 millones de pesos",
       "summary": "Se comparte en X que Constanza Valdés, integrante del INDH, ejerce el cargo de subdirectora recibiendo más de 8 millones de pesos mensuales. Fast Check califica este contenido como #Falso. Tras revisar el Portal de Transparencia del INDH y contactar a Valdés, se constató que su sueldo fluctúa en un monto máximo de 20 UTM —$1.443.000...",
       "url": "https://www.fastcheck.cl/2026/10/23/constanza-valdes-no-es-subdirectora-del-indh-ni-percibe-un-sueldo-de-8-millones-de-pesos/",
@@ -943,24 +1145,6 @@
       "category": "Economía y Sociedad",
       "relevanceTier": "alta",
       "relevanceScore": 90,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "cooperativa-112",
-      "title": "Chile presentó en Doha su candidatura para organizar el Mundial de Hockey Césped 2030",
-      "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes Andrés de Witt, presidente de la Federación Chilena de Hockey sobre Césped, encabezó en Doha, Catar, la presentación internacional de la candidatura de Chile para organizar el Mundial de Hockey Césped 2030 , durante las actividades del Congreso de la Federación Internacional de...",
-      "url": "https://www.cooperativa.cl/noticias/deportes/hockey-cesped/mundial/chile-presento-en-doha-su-candidatura-para-organizar-el-mundial-de/2026-10-23/101547.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261023/imag/foto_0000000220261023101547.jpg",
-      "publishedAt": "2026-10-23T13:15:47+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 84,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -982,7 +1166,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "cooperativa-111",
+      "id": "cooperativa-114",
       "title": "Matemático creó fórmula que explica por qué nos cuesta tomar decisiones",
       "summary": "Un investigador de la Universidad de Alicante (UA), España, desarrolló una fórmula matemática que permite explicar por qué unas decisiones resultan más difíciles que otras , incluso cuando se dispone de la misma información. El trabajo, titulado 'Space Complexity in Choice' , fue realizado por el profesor del Departamento de...",
       "url": "https://www.cooperativa.cl/noticias/sociedad/ciencia/matematico-creo-formula-que-explica-por-que-nos-cuesta-tomar-decisiones/2026-10-23/100836.html",
@@ -1054,6 +1238,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "france24-260",
+      "title": "Italia libera ayudas para frenar la huelga de camioneros y refuerza la seguridad ante nuevas protestas",
+      "summary": "El Gobierno de Giorgia Meloni aprobó ayudas por cientos de millones de euros para aliviar el impacto del encarecimiento del combustible y contener una huelga de transportistas que afectó al abastecimiento, especialmente en el sur de Italia. Mientras los bloqueos comenzaban a levantarse tras las negociaciones con el Ejecutivo, las...",
+      "url": "https://www.france24.com/es/europa/20261023-italia-libera-ayudas-para-frenar-la-huelga-de-camioneros-y-refuerza-la-seguridad-ante-nuevas-protestas",
+      "image": "https://s.france24.com/media/display/125c649e-cd2d-11f1-a2d2-2d1c143cdef3/w:1024/p:16x9/2026-10-17T182841Z-1264999653-RC245OAX9RWQ-RTRMADP-3-ITALY-PROTEST.jpg",
+      "publishedAt": "2026-10-23T12:51:29+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "eldiarioes-178",
       "title": "Las falsedades de Feijóo en la entrevista: del salario mínimo y el IRPF al aumento de la edad de jubilación",
       "summary": "El líder del PP acusa al Gobierno en la SER de \"llevarse el dinero de los trabajadores\" con la subida del SMI pero actualmente no aporta al IRPF y asegura falsamente que el ministro Cuerpo ha dicho que hay un \"problema\" con las pensiones Feijóo reabre el debate sobre el aborto, eliminará el Ministerio de Igualdad y estudiará “la...",
@@ -1069,6 +1271,42 @@
       "category": "Economía y Sociedad",
       "relevanceTier": "alta",
       "relevanceScore": 93,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-261",
+      "title": "Ecuador: excandidata Luisa González fue detenida; Revolución Ciudadana denuncia persecusión",
+      "summary": "La excandidata presidencial ecuatoriana Luisa González fue detenida este jueves en la provincia de Manabí, en el marco de una investigación por presuntas irregularidades en la financiación de campañas electorales y posibles delitos de lavado de dinero. La detención, confirmada por la Policía y denunciada por la dirección de su...",
+      "url": "https://www.france24.com/es/video/20261023-ecuador-excandidata-luisa-gonz%C3%A1lez-fue-detenida-revoluci%C3%B3n-ciudadana-denuncia-persecusi%C3%B3n",
+      "image": "https://s.france24.com/media/display/1452e9ae-ce9e-11f1-a587-1968d0af0fa1/w:1024/p:16x9/ES-20261022-190616-190817-CS.jpg",
+      "publishedAt": "2026-10-23T12:28:18+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-262",
+      "title": "Se reestablece Starlink en Ucrania; Putin y Zelenski se muestran abiertos a lograr un acuerdo",
+      "summary": "El servicio de Starshield se reestableció en Ucrania tras varios días de denuncias del presidente Volodímir Zelenski de ralentización del sistema. El mandatario estadounidense, Donald Trump, habría pedido a Elon Musk, dueño de la compañía que opera Starlink, que volviera a conectarlo. Por otro lado, Kiev y Moscú se han mostrado...",
+      "url": "https://www.france24.com/es/video/20261023-se-reestablece-starlink-en-ucrania-putin-y-zelenski-se-muestran-abiertos-a-lograr-un-acuerdo",
+      "image": "https://s.france24.com/media/display/e9cc952c-ce9d-11f1-9fe2-9f7e36a26be0/w:1024/p:16x9/ES-20261022-190309-190516-CS-01.jpg",
+      "publishedAt": "2026-10-23T12:26:46+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1088,6 +1326,24 @@
       "relevanceTier": "alta",
       "relevanceScore": 94,
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "france24-263",
+      "title": "Gabriela Rivadeneira: \"Luisa González era un peligro ante la caída de la aceptación de Noboa\"",
+      "summary": "En France 24 hablamos con Gabriela Rivadeneira, presidenta del partido Revolución Ciudadana, sobre la detención de la excandidata presidencial Luisa González, apadrinada del expresidente Rafael Correa. La excandidata del correísmo fue detenida este 22 de octubre en la provincia rural de Manabí, donde había intentado inscribir su...",
+      "url": "https://www.france24.com/es/video/20261023-gabriela-rivadeneira-luisa-gonz%C3%A1lez-era-un-peligro-ante-la-ca%C3%ADda-de-la-aceptaci%C3%B3n-de-noboa",
+      "image": "https://s.france24.com/media/display/1eb53f7e-ce9d-11f1-8bd4-1fb896579794/w:1024/p:16x9/ES-20261022-203530-204132-CS-01.jpg",
+      "publishedAt": "2026-10-23T12:23:02+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 81,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "jacobinlat-185",
@@ -1126,7 +1382,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-246",
+      "id": "dw-247",
       "title": "Grecia prohíbe por ley el acceso a las redes sociales a los menores de 15 años",
       "summary": "El Parlamento griego aprobó este jueves una ley que prohíbe, a partir del 1 de enero de 2027, el acceso a las redes sociales a todos los menores de 15 años.",
       "url": "https://www.dw.com/es/grecia-prohíbe-por-ley-el-acceso-a-las-redes-sociales-a-los-menores-de-15-años/a-79742969?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1141,24 +1397,6 @@
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "cooperativa-114",
-      "title": "Charli XCX actuará en la nueva película de Martin Scorsese \"What Happens at Night\"",
-      "summary": "La cantante inglesa Charli XCX hará un cameo en el nuevo filme de Martin Scorsese , \"What Happens at Night\" , que protagonizan Leonardo Di Caprio y Jennifer Lawrence, según publicó Variety. No es la primera incursión en el cine para la cantante de \"Brat\", que ha participado en siete películas a lo largo de los dos últimos años. El...",
-      "url": "https://www.cooperativa.cl/noticias/magazine/cine/charli-xcx-actuara-en-la-nueva-pelicula-de-martin-scorsese-what-happens/2026-10-23/090948.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261023/imag/foto_0000000220261023090948.jpg",
-      "publishedAt": "2026-10-23T12:09:48+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "independent": false,
-      "category": "Cultura y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 78,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1180,7 +1418,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-30",
+      "id": "radiouchile-31",
       "title": "TC cierra la puerta a recurso opositor contra ley de Reglas del Uso de la Fuerza",
       "summary": "El tribunal declaró inadmisible el requerimiento por haber sido presentado fuera de plazo. El ministro Martín Arrau valoró la resolución y afirmó que las policías necesitan reglas claras y respaldo. La entrada TC cierra la puerta a recurso opositor contra ley de Reglas del Uso de la Fuerza se publicó primero en Diario y Radio...",
       "url": "https://radio.uchile.cl/2026/10/23/tc-cierra-la-puerta-a-recurso-opositor-contra-ley-de-reglas-del-uso-de-la-fuerza/",
@@ -1198,25 +1436,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-113",
-      "title": "Elecciones en Brasil: Flávio Bolsonaro supera a Lula con 52% en última encuesta",
-      "summary": "A dos días de la segunda vuelta presidencial en Brasil , Flávio Bolsonaro alcanza el 52% de las intenciones de voto, frente al 48% de Luiz Inácio Lula da Silva , según una encuesta de Real Time Big Data. El sondeo se conoce a pocas horas de que ambos candidatos se enfrenten en un n uevo debate televisado , en el que buscarán captar el...",
-      "url": "https://www.cooperativa.cl/noticias/mundo/brasil/elecciones/elecciones-en-brasil-flavio-bolsonaro-supera-a-lula-con-52-en-ultima/2026-10-23/090247.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261023/imag/foto_0000000220261023090247.jpg",
-      "publishedAt": "2026-10-23T12:02:47+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 78,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "radiouchile-31",
+      "id": "radiouchile-32",
       "title": "Detienen en Ecuador a excandidata presidencial y líder opositora Luisa González",
       "summary": "De acuerdo con informaciones del diario Primicias, el caso se originó en una denuncia de Diana Atamaint, expresidenta del Consejo Nacional Electoral (CNE), por una supuesta infracción electoral de González cuando disputó la Presidencia a Noboa. La entrada Detienen en Ecuador a excandidata presidencial y líder opositora Luisa González...",
       "url": "https://radio.uchile.cl/2026/10/23/detienen-en-ecuador-a-excandidata-presidencial-y-lider-opositora-luisa-gonzalez/",
@@ -1231,6 +1451,24 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 84,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-264",
+      "title": "Macron se reúne con grupos de estudiantes que protestan, mientras Francia se prepara para desplegar 70.000 efectivos de seguridad este sábado",
+      "summary": "Unos 70.000 efectivos de las fuerzas de seguridad serán movilizados para mantener el orden en toda Francia este sábado, según informó el viernes el ministro del Interior, Laurent Nuñez. El presidente Emmanuel Macron se reúne con organizaciones estudiantiles en el Palacio del Elíseo, por primera vez desde que comenzaron las protestas...",
+      "url": "https://www.france24.com/es/francia/20261023-francia-desplegar%C3%A1-70-000-efectivos-de-seguridad-para-las-protestas-del-s%C3%A1bado-anuncia-el-ministro-del-interior",
+      "image": "https://s.france24.com/media/display/5ef70560-ced2-11f1-9c1d-5b4a75578ebb/w:1024/p:16x9/2026-10-22T144648Z-214123398-RC2E8OAIMY4S-RTRMADP-3-FRANCE-PROTEST.jpg",
+      "publishedAt": "2026-10-23T11:52:43+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1252,7 +1490,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-247",
+      "id": "dw-248",
       "title": "Se fueron, vieron, y fracasaron: los hijos pródigos de la Bundesliga",
       "summary": "La Bundesliga ha visto regresar a algunas de las que en su momento fueron brillantes promesas. La realidad se les impuso pero, por lo menos, tuvieron el valor de intentarlo.",
       "url": "https://www.dw.com/es/se-fueron-vieron-y-fracasaron-los-hijos-pródigos-de-la-bundesliga/a-79740535?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1288,7 +1526,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-32",
+      "id": "radiouchile-33",
       "title": "Trump sugiere que tiene derecho para presentarse a elección presidencial de 2028",
       "summary": "Estas declaraciones se produjeron apenas unas horas después de que el mandatario evitara confirmar si respaldaría a su actual vicepresidente, JD Vance, como posible sucesor para esa misma cita electoral. La entrada Trump sugiere que tiene derecho para presentarse a elección presidencial de 2028 se publicó primero en Diario y Radio...",
       "url": "https://radio.uchile.cl/2026/10/23/trump-sugiere-que-tiene-derecho-para-presentarse-a-eleccion-presidencial-de-2028/",
@@ -1324,7 +1562,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "dw-248",
+      "id": "dw-249",
       "title": "Tiroteos en la periferia de París se investigan como acto terrorista",
       "summary": "La Fiscalía Antiterrorista investiga tiroteos desde un auto en las afueras de París. Una persona murió y cuatro resultaron heridas. El atacante podría haber seleccionado a sus víctimas por el color de su piel.",
       "url": "https://www.dw.com/es/tiroteos-en-la-periferia-de-parís-se-investigan-como-acto-terrorista/a-79742189?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1342,7 +1580,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-249",
+      "id": "dw-250",
       "title": "China lleva por primera vez a sus cines un largometraje generado íntegramente con IA",
       "summary": "China estrena en cines de todo el país 'Sanxingdui: Future Past', presentado por su productora como el primer largometraje totalmente generado por inteligencia artificial que obtiene el permiso oficial de proyección.",
       "url": "https://www.dw.com/es/china-lleva-por-primera-vez-a-sus-cines-un-largometraje-generado-íntegramente-con-ia/a-79741502?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1414,7 +1652,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "radiouchile-33",
+      "id": "radiouchile-34",
       "title": "Rabat explicó rebajas de condenas a agresores sexuales y presos de Punta Peuco",
       "summary": "El Ministro de Justicia defendió la entrega de los beneficios por razones jurídicas y anunció cambios legales para evitar que se repitan. El ministro también confirmó rebajas a condenados por torturas y secuestros ocurridos durante la dictadura. La entrada Rabat explicó rebajas de condenas a agresores sexuales y presos de Punta Peuco...",
       "url": "https://radio.uchile.cl/2026/10/23/rabat-explico-rebajas-de-condenas-y-anuncio-proyecto-para-evitar-que-se-repitan/",
@@ -1450,7 +1688,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-250",
+      "id": "dw-251",
       "title": "Primer petrolero con diésel ruso zarpa hacia EE. UU. tras el acuerdo entre Trump y Putin",
       "summary": "Un buque cisterna cargado con unas 40.000 toneladas de diésel ruso se dirige a Nueva York. Así se desprende de los datos de navegación del proveedor de servicios financieros LSEG.",
       "url": "https://www.dw.com/es/primer-petrolero-con-diésel-ruso-zarpa-hacia-ee-uu-tras-el-acuerdo-entre-trump-y-putin/a-79740708?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1522,7 +1760,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-251",
+      "id": "dw-252",
       "title": "Vulnerabilidad grave en PHP causa millones de ataques y podría afectar hasta 70% de todos los sitios de internet en el mundo",
       "summary": "A más de un día de haber sido publicado el parche 8.5.12 de PHP, administradores trabajan a marchas forzadas y siguen parando servidores.",
       "url": "https://www.dw.com/es/vulnerabilidad-grave-en-php-causa-millones-de-ataques-y-podría-afectar-hasta-70-de-todos-los-sitios-de-internet-en-el-mundo/a-79734301?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1900,7 +2138,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "dw-252",
+      "id": "dw-253",
       "title": "Taiwán se paraliza ante la llegada del poderoso tifón Champi",
       "summary": "Escuelas, oficinas y mercados financieros cerraron ante la proximidad de ciclón, que amenaza con sus intensos vientos y lluvias torrenciales.",
       "url": "https://www.dw.com/es/taiwán-se-paraliza-ante-la-llegada-del-poderoso-tifón-champi/a-79738541?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1918,7 +2156,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-253",
+      "id": "dw-254",
       "title": "Arabia Saudita afirma que interceptó misil hutí contra Riad",
       "summary": "Los hutíes han intensificado sus operaciones contra Arabia Saudita desde comienzos de octubre, apuntando contra aeropuertos e instalaciones energéticas.",
       "url": "https://www.dw.com/es/arabia-saudita-afirma-que-interceptó-misil-hutí-contra-riad/a-79738533?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -2080,25 +2318,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-254",
-      "title": "París mantiene toques de queda en varias zonas tras disturbios y pillaje",
-      "summary": "La medida restrictiva busca atajar los saqueos y el vandalismo producidos al margen de las protestas.",
-      "url": "https://www.dw.com/es/parís-mantiene-toques-de-queda-en-varias-zonas-tras-disturbios-y-pillaje/a-79738133?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-10-22T23:46:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "radiouchile-34",
+      "id": "radiouchile-35",
       "title": "Organizaciones de derechos humanos alertan sobre retrocesos en memoria, justicia y garantías democráticas ante relatora de la CIDH",
       "summary": "Representantes de sitios de memoria y agrupaciones de derechos humanos expusieron sus preocupaciones a la relatora Andrea Pochak por los recortes presupuestarios y las reformas impulsadas por el Gobierno. La entrada Organizaciones de derechos humanos alertan sobre retrocesos en memoria, justicia y garantías democráticas ante relatora...",
       "url": "https://radio.uchile.cl/2026/10/22/organizaciones-de-derechos-humanos-alertan-sobre-retrocesos-en-memoria-justicia-y-garantias-democraticas-ante-relatora-de-la-cidh/",
@@ -2224,7 +2444,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "radiouchile-35",
+      "id": "radiouchile-36",
       "title": "El legado fotográfico de Rodrigo Rojas de Negri se integra a la colección del MAC de Quinta Normal",
       "summary": "La donación de 40 fotografías se oficializará este viernes 23 de octubre a las 10:00 horas en el MAC de Quinta Normal, en el marco de los 40 años del Caso Quemados. El acervo es parte de la exposición \"Rodrigo Rojas de Negri: Un exilio sin retorno\". La entrada El legado fotográfico de Rodrigo Rojas de Negri se integra a la colección...",
       "url": "https://radio.uchile.cl/2026/10/22/el-legado-fotografico-de-rodrigo-rojas-de-negri-se-integra-a-la-coleccion-del-mac-de-quinta-normal/",
@@ -2242,7 +2462,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-36",
+      "id": "radiouchile-37",
       "title": "Las AFP bajo presión: oposición cuestiona nuevos negocios y pide investigar pérdidas de los fondos",
       "summary": "Mientras parlamentarios cuestionan la norma que permitiría administrar ahorros para vivienda y pidieron explicaciones a la Superintendencia, otros solicitaron un fiscal exclusivo para indagar posibles delitos de ejecutivos de las AFP. La entrada Las AFP bajo presión: oposición cuestiona nuevos negocios y pide investigar pérdidas de...",
       "url": "https://radio.uchile.cl/2026/10/22/las-afp-bajo-presion-oposicion-cuestiona-nuevos-negocios-y-pide-investigar-perdidas-de-los-fondos/",
@@ -2332,30 +2552,12 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "radiouchile-37",
+      "id": "radiouchile-38",
       "title": "Alza de combustibles tensiona el costo de la vida y abre debate por medidas de alivio económico",
       "summary": "El diputado PPD, Carlos Bianchi, pidió al Gobierno volver a los incrementos de no más de 30 pesos que se realizaron en la administración anterior. En tanto, el militante del PDG, Juan Marcelo Valenzuela instó a \"duplicar\" las ayudas sociales. La entrada Alza de combustibles tensiona el costo de la vida y abre debate por medidas de...",
       "url": "https://radio.uchile.cl/2026/10/22/alza-de-combustibles-tensiona-el-costo-de-la-vida-y-abre-debate-por-medidas-de-alivio-economico/",
       "image": "https://uchile-media-storage.nyc3.cdn.digitaloceanspaces.com/2026/03/mepco.jpg",
       "publishedAt": "2026-10-22T21:16:14+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "alta",
-      "relevanceScore": 89,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "radiouchile-38",
-      "title": "Marco Kremerman y pérdidas de US$7 mil 700 millones de las AFP: “Fueron apuestas, tal como se apuesta a los caballos”",
-      "summary": "El economista de Fundación SOL cuestionó las decisiones de inversión de las administradoras y advirtió sobre sus consecuencias para quienes están próximos a jubilar. \"Esto es una responsabilidad sistémica\", apuntó el especialista. La entrada Marco Kremerman y pérdidas de US$7 mil 700 millones de las AFP: “Fueron apuestas, tal como se...",
-      "url": "https://radio.uchile.cl/2026/10/22/marco-kremerman-y-perdidas-de-us7-mil-700-millones-de-las-afp-fueron-apuestas-tal-como-se-apuesta-a-los-caballos/",
-      "image": "https://uchile-media-storage.nyc3.cdn.digitaloceanspaces.com/2024/07/AFP-Plan-Vital.jpg",
-      "publishedAt": "2026-10-22T21:08:58+00:00",
       "sourceId": "radiouchile",
       "sourceName": "Radio U. de Chile",
       "sourceType": "Universitario / Pluralista",
@@ -2512,7 +2714,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-53",
+      "id": "laderasur-54",
       "title": "¡Hermanos de sangre separados por el océano! Investigación internacional revela conexión genética entre Rapa Nui y Hawái",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcWlLTHJlV0w5REh1U1pWNDRsNnFMY2pkaEZKRV9US1VMMEk0Z05fS1lzVktzemxKWU1qeE9QSTlxbUkwMnQzOWpDTEZ1Y0V0Nk1GUGk1bHY5VHI0d05TOG9OQWhLQk9FLUh2dUtLRU5YWFpxYS0tb29fempQWHdBUWxmbl9ZOEFyeEM3TmNLb1RJMmJ3dHV0Z2VIVFhLeTlMMEdhSnJ3dE8teUhCdDRLSFNIdzgwQmtLUE9MaEZsdHBycktmR3U0?oc=5",
@@ -2566,7 +2768,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "fastcheck-20",
+      "id": "fastcheck-21",
       "title": "No es París: El video de vendedores ambulantes afuera de una estación de metro fue grabado en Madrid",
       "summary": "Tras los masivos saqueos en Francia, se viralizó un video que vincula la venta informal de artículos de lujo con los atracos en las afueras de una estación de metro en París. Fast Check calificó como #Falso, ya que el registro en realidad corresponde a Gran Vía en Madrid, España.",
       "url": "https://www.fastcheck.cl/2026/10/22/no-es-paris-el-video-de-vendedores-ambulantes-afuera-de-una-estacion-de-metro-fue-grabado-en-madrid/",
@@ -2818,7 +3020,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "laderasur-52",
+      "id": "laderasur-53",
       "title": "Verónica Silva Pinto, la investigadora que reveló nuevas pistas sobre la muerte del Niño del cerro El Plomo, llega al Festival Ladera Sur 2026: «No es solo una reconstrucción de la muerte, es una reconstrucción de la vida también»",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNUHZWMmtqazVFWFdTTC00X0hOeTB6WUpwdjZHbW5sRkpJQXdIM1NIWDJHaWRhOHFGVm5ZMEJEUktxcHB2SC0ySktneEtiS1VncGl0V3YwY2x5amVIZzRuN3hlYWF0YUtjbVlmcVlaLWdfSjJJcXpWV1pMXzd4aXgxUk12QjRiLXhWS3RqeFluV05GU0JjVmFneVJMVmhuVWRjcV80NGozXzV4dDRPR3FjTkVIZEJtUnhFN1RQTkVrVXdjVFcwMUZVa2VmWXZadWJ2R2toSGVLSmw5YnRiMGk0YjE0ZDVDM09aUnRVUXI5dEE3NE43T0pzSE15NjVQTVRTZUh6bHFxVzFva1FmektpLWxraWkyWHVpZTBPb1RZbzU0R1hWTXF2OVA4cm1mZ0hnaXc4Zmd5dlplNVZDNHVhYzQwVXo?oc=5",
@@ -2962,7 +3164,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-21",
+      "id": "fastcheck-22",
       "title": "Estas imágenes y videos de la Pantera Rosa en las protestas de Francia fueron generadas con Inteligencia Artificial",
       "summary": "En el marco de las protestas en Francia, han circulado diversas imágenes y videos de una persona con un corpóreo de la Pantera Rosa participando de las manifestaciones. Fast Check califica este contenido como #Falso, ya que, al notar irregularidades, se sometieron todos los archivos a detección de IA, obteniendo un resultado positivo...",
       "url": "https://www.fastcheck.cl/2026/10/22/estas-imagenes-y-videos-de-la-pantera-rosa-en-las-protestas-de-francia-fueron-generadas-con-inteligencia-artificial/",
@@ -3250,7 +3452,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "fastcheck-22",
+      "id": "fastcheck-23",
       "title": "Renuncia segunda jefa de gabinete de Iván Poduje",
       "summary": "Por razones personales, y aceptadas por el ministro Iván Poduje, la ex jefa de comunicaciones y segunda jefa de gabinete del ministro renunció al Ministerio de Vivienda y Urbanismo. Dos meses antes, Fast Check informaba la salida de la primera jefa de gabinete y el jefe de la división jurídica.",
       "url": "https://www.fastcheck.cl/2026/10/21/renuncia-segunda-jefa-de-gabinete-de-ivan-poduje/",
@@ -3304,7 +3506,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-23",
+      "id": "fastcheck-24",
       "title": "\"Fucktop\", el libro de Rodrigo Topelberg sobre el caso Factop y su particular mirada sobre el poder en Chile",
       "summary": "\"Si lo que voy a contar fuera un chiste, el cuento podría comenzar con cuatro ucranianas, tres polacas y dos argentinas, todas juntas en un yate. Sobre la cubierta, un abogado vinculado a la política y un par de empresarios judíos.\" Así comienza parte del libro de Rodrigo Topelberg que escribió durante su estadía en Capitán Yáber tras...",
       "url": "https://www.fastcheck.cl/2026/10/21/fucktop-el-libro-de-rodrigo-topelberg-sobre-el-caso-factop/",
@@ -3322,7 +3524,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "fastcheck-24",
+      "id": "fastcheck-25",
       "title": "Diputada Javiera Rodríguez votó en contra de una resolución sobre el Estrecho de Magallanes, no de un proyecto de ley sobre su soberanía",
       "summary": "En el marco de las controversias entre Chile y Argentina por el Estrecho de Magallanes circuló una publicación afirmando que la diputada Javiera Rodriguez votó en contra de la ley que busca proteger su soberanía. Fast Check califica esto como #Engañoso, ya que la parlamentaria en realidad votó en contra de una resolución de la Cámara...",
       "url": "https://www.fastcheck.cl/2026/10/21/diputada-javiera-rodriguez-voto-en-contra-de-una-resolucion-sobre-el-estrecho-de-magallanes-no-de-un-proyecto-de-ley-sobre-su-soberania/",
@@ -3394,7 +3596,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-25",
+      "id": "fastcheck-26",
       "title": "Video de manifestación en Argentina circula como si mostrara protestas por aniversario del estallido social en Chile",
       "summary": "En el marco del aniversario del estallido social, circuló un video que mostraría las manifestaciones y enfrentamientos con carabineros. Fast Check calificó esto como #Falso, ya que el registro en realidad corresponde a protestas realizadas en Argentina contra la aprobación de un proyecto de ley, por lo que no guarda relación con Chile.",
       "url": "https://www.fastcheck.cl/2026/10/21/video-de-manifestacion-en-argentina-circula-como-si-mostrara-protestas-por-aniversario-del-estallido-social-en-chile/",
@@ -3466,7 +3668,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-26",
+      "id": "fastcheck-27",
       "title": "Para soñar con hijos, primero hay que tener futuro",
       "summary": "Imaginar un futuro para los hijos se vuelve más difícil en un mundo amenazado por la crisis climática. Paula Castillo analiza cómo la sequía, los incendios y las inundaciones influyen en la decisión de las nuevas generaciones de tener hijos, en un contexto marcado también por el alto costo de la crianza y la falta de apoyo a las...",
       "url": "https://www.fastcheck.cl/2026/10/21/para-sonar-con-hijos-primero-hay-que-tener-futuro/",
@@ -3502,7 +3704,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-27",
+      "id": "fastcheck-28",
       "title": "Asesor de vocerías en Segegob: hijo del presidente de la Asociación de AFP trabaja en el corazón del Gobierno",
       "summary": "Hijo del hoy presidente de la asociación de las AFP, León Fernández de Castro Fresno tiene un lugar en la administración del presidente José Antonio Kast. Como asesor de la Secretaría General de Gobierno, la voz de Palacio en la crisis suscitada por el desplome del Fondo E, está encargado de dar insumos para la «toma de decisiones» y...",
       "url": "https://www.fastcheck.cl/2026/10/21/asesor-de-vocerias-en-segegob-hijo-del-presidente-de-la-asociacion-de-afp-trabaja-en-el-corazon-del-gobierno/",
@@ -3736,24 +3938,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-28",
-      "title": "La mujer que acompaña a Flávio Bolsonaro en múltiples actividades de campaña fue generada con Inteligencia Artificial",
-      "summary": "Circula en redes sociales videos de una mujer de pelo rubio junto a Flávio Bolsonaro bailando en actividades de campaña. Fast Check califica este contenido como #Falso, pues luego de realizar una búsqueda inversa se constató que se trata de un perfil generado con inteligencia artificial que toma como referencia videos reales para su...",
-      "url": "https://www.fastcheck.cl/2026/10/20/la-mujer-que-acompana-a-flavio-bolsonaro-en-multiples-actividades-de-campana-fue-generada-con-inteligencia-artificial/",
-      "image": "https://www.fastcheck.cl/media/images/2026/10/nueva-nota-5.webp",
-      "publishedAt": "2026-10-20T21:33:00+00:00",
-      "sourceId": "fastcheck",
-      "sourceName": "Fast Check CL",
-      "sourceType": "Fact-Checking Independiente",
-      "sourceSite": "https://www.fastcheck.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "ciclismo-chile-116",
       "title": "Julián Troncoso obtuvo oro en competencia Nacional de Ciclismo y participará en el Mundial por el TEAM OEChile - Diario El Huemul",
       "summary": "Julián Troncoso obtuvo oro en competencia Nacional de Ciclismo y participará en el Mundial por el TEAM OEChile Diario El Huemul",
@@ -3808,7 +3992,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "laderasur-50",
+      "id": "laderasur-51",
       "title": "Comienza la COP17 en Armenia: preocupación por el lento avance de las metas globales de biodiversidad",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQTk2d1o1dUlKcUhXZ1FMOC1vUl81ZWZ2SE9BZHJvWjRhYUFGMlBTRkI4UmM0QTJsUFhVMlVpU25kOXBHZ2hSdHRBQnpycE1HaHhJejNWbzZndzBXdEVUbXVndkZpYl9OYUlFSUlFbFFfNHJVanFkcThUSk15WGxLRWViZzR5TUNvT0VWR1BkWkJacUNJTElOaXY1clVxeTBKOFN6cjhjRkd6ZWxGQzg3bThoX2t5Tk5kdHdkemQwU243Y2RtdmpKcGxNZ3I?oc=5",
@@ -4078,7 +4262,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "laderasur-51",
+      "id": "laderasur-52",
       "title": "Histórico: La deforestación en la Amazonía brasileña alcanza su nivel más bajo desde 1988",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeS1zc001cHoyWGV2bEVlN1pxc01IeVhzUGlKeHRqT3lMelN0NnJnT1RSeGFFbEpzMkp5ZC1TMzlnWlBPYVZUSVpmVEVPX0pfcHdGYjRBT2JnM3QtSTVBeENjdjY4Z2M1cGhiOGpRODlpck9JRU5oNGdEN2thd2FVQ3FoSzVjcnBUbTR4ZmN2MDMzNmlMOXktd3RXd1VpLTdTU0RRR0dWVEphZzc1Um9xV200ekJSaE5ial9McA?oc=5",
@@ -4852,24 +5036,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "laderasur-58",
-      "title": "Bajo el hielo: minería, glaciares y las grietas de la transición verde en la cordillera de Santiago",
-      "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd0xNSW13bFlNdFgyaVhPU0hJT2VzajVabmFYZktDWjlNcVBrMkxiTlJneVVsT1ZZbk9jaFJrd1JmRm9saExTTXNMbUVvVHVzYTYzT3RPbHp6dFJKMG5vbWtzUVlMYXhMU3NwN1NUdWF2ZktyR1pDVVg5dmdzLXhBclpjelg3SnM5c0FWREU5aFJjNHVleEV0U3k4YzNrSXRJX2dwMTBndGdTa25FNm9mQkh4S2hJWkNLSUlvZUFxNU1uMnVTTmhnTQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-07-23T10:14:44+00:00",
-      "sourceId": "laderasur",
-      "sourceName": "Ladera Sur",
-      "sourceType": "Naturaleza y Ciencia Indep.",
-      "sourceSite": "https://laderasur.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Medioambiente y Territorio",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 64,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "sinpermiso-195",
       "title": "5-7-2026",
       "summary": "Cumbre de Ankara de la OTAN: a la sombra del “cambio de régimen global” trumpista Gustavo Buster 1936: el año de la revolución Miguel Salas Bancos + Turismo = Colapso del acceso a la vivienda en España Albino Prada Discurso de Zohran Mamdani en el 250 aniversario de los Estados Unidos Zohran Mamdani Historia e inventario Julio César...",
@@ -4888,7 +5054,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-57",
+      "id": "laderasur-58",
       "title": "Polera SW 2026",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02YzhBWDhsM1B4b2hCZDlMYWw4eGVwX3FMMmM2SDZFVV93RVc0TXlQZlRmelVvZ1lETk05Mi02M1JqUEFoSXFBUFo3ZjRRaFhBUGZibXdYRTJObUFnaEZwWg?oc=5",
@@ -5068,7 +5234,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-55",
+      "id": "laderasur-56",
       "title": "Descárgala en laderasur.com",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLVNuV2FUT3VmVEhENmxEMTFrYUpUTEJRRDhHMWN5cG5YVjU3d1BIZnRUcE9iSEpwU3J6Ymc5bUJoeS1JQ2FWcWJ1SzF4WnVUbU9rNXdveTFucERKVkNsTEpCWmhfLVp3bzdqeERGZlNOTDY1SVBVQUI1SzUwREI3aEkxM2hWNFJZYS1xd0tDOWFVU0ZYSjJjc0t1bFJQanZweUp0c3ZsWC1MNnNiQ191ZGRlYkZ3VjVmQk1OV0MwOElhaGs?oc=5",
@@ -5086,7 +5252,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-49",
+      "id": "laderasur-50",
       "title": "Guía Flora Desierto Florido",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GazBlVENLYzU3WXNxdEdFZDd0dFJ4SVJZMkJwOThBdGZqTEpBbG13ZGFWQ2F5QmRobnpTdzU0b1dyckMyYXNyX1ZhU3NOZlhmN0hvTmpnNnZqNjZBWWZsV0Fwa0h0NlpxOE51MWc0dFRBakIxN1o2ZWNIRQ?oc=5",
@@ -5104,7 +5270,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-54",
+      "id": "laderasur-55",
       "title": "El debate que ha generado el “Gran abuelo”, el alerce que sería el árbol más viejo del planeta",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVjVUNkZ4bmoxcDhLeFpVQmhKcHoxS1U2UVlHUlVSTG53R0Z0dVZZN3ZkWjhOZ3FnY3lvVUd4ME5hN2dGT2tHNEt1SncxaGcxRnQ1QjBKcEMySm43NE1uZ09YM3VaODQ4a1AtckNDd3YxUEVUdW9uTlJhdXM5a0RZYnVRZmY1NW5ZWlgweENfaWVDSHR3NU9GSWl2Mmh1NEhKckNqTXRPSmpGMVNRWDRYVGFYb1B2TTFVa0l0NWpLWkI?oc=5",
@@ -5122,7 +5288,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-56",
+      "id": "laderasur-57",
       "title": "Huemules enfermos por bacteria del ganado en el Parque Nacional Cerro Castillo: claman por más medidas para su protección",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWE9aOFBNZDJFRzhrR3R2YWtkeFF5eFVMVUpBMWN0SE9FekNsZ2ViOTNKNjJrMVdhMEdlRndBYklwc3p5d2phVktQcjF0dTF6M0dCRV9lb1hqZG9jOUctODJJeXg4TnFWZWl1bW45VDFIS0ZUa0prTGw2NUt0NXRxdzI1T2UwTFZyWklnS3c1WDgydzlMaWpJdnljR1ZNX0NlcnlzOUZQSy1mendjZTZ4T01LZm9mSzItN0kySHVrMHZiWDdTUnNjcERwUVZHSkNIU0lfcmhPRFZ4WFVzWWtzekhOd1hJOFE?oc=5",
@@ -5155,6 +5321,24 @@
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 62,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "laderasur-49",
+      "title": "Ladera Sur | Noticias sobre el medio ambiente y naturaleza",
+      "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1wN2lJUi03NE40SW04QkFacDBONjM5N2Q5ZkRIOTRHRTl3VlcyV1hBRXVTZTAyMHdPQUE?oc=5",
+      "image": null,
+      "publishedAt": "2018-04-16T20:36:59+00:00",
+      "sourceId": "laderasur",
+      "sourceName": "Ladera Sur",
+      "sourceType": "Naturaleza y Ciencia Indep.",
+      "sourceSite": "https://laderasur.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Medioambiente y Territorio",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 68,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     }
   ]
