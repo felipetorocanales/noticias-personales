@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T12:41:14.703065+00:00",
-  "totalArticles": 259,
-  "totalBlockedFarandula": 11,
+  "generatedAt": "2026-10-24T13:01:10.092011+00:00",
+  "totalArticles": 258,
+  "totalBlockedFarandula": 13,
   "blockedExamples": [
     {
       "title": "No solo a pederastas: Gobierno de Kast otorgó dos rebajas de condenas a presos de Punta Peuco por secuestro y tortura",
@@ -17,6 +17,11 @@
       "title": "La OCDE lanzará en Antofagasta 12 lineamientos para que la riqueza minera se traduzca en bienestar local",
       "source": "Timeline Antofagasta",
       "reason": "universidad católica"
+    },
+    {
+      "title": "La Roja cayó en su estreno ante España por el Mundial sub 15 de Azerbaiyán",
+      "source": "Radio Cooperativa",
+      "reason": "fifa"
     },
     {
       "title": "Audax Italiano y Huachipato repartieron puntos en entretenido duelo en La Florida",
@@ -55,6 +60,11 @@
     },
     {
       "title": "Vuelta del Biobío 2026: cinco etapas y 660 kilómetros marcarán el regreso del ciclismo UCI a Chile - Universidad de Chile",
+      "source": "Ciclismo Chile",
+      "reason": "universidad de chile"
+    },
+    {
+      "title": "Movilidad urbana y convivencia vial en bicicleta - Universidad de Chile",
       "source": "Ciclismo Chile",
       "reason": "universidad de chile"
     }
@@ -449,8 +459,8 @@
       "type": "Radio Informativa Nacional",
       "independent": false,
       "status": "ok",
-      "count": 8,
-      "blocked": 7
+      "count": 7,
+      "blocked": 8
     },
     {
       "id": "ciclismo-chile",
@@ -460,7 +470,7 @@
       "independent": true,
       "status": "ok",
       "count": 10,
-      "blocked": 1
+      "blocked": 2
     },
     {
       "id": "ciclo21",
@@ -605,6 +615,42 @@
   ],
   "articles": [
     {
+      "id": "radiouchile-29",
+      "title": "Larraín aborda polémica por rebaja de condenas: “Me pareció improcedente conceder este beneficio y lo rechacé”",
+      "summary": "El exministro abordó la rebaja de penas a 56 sentenciados por delitos sexuales contra menores. Aclaró que este beneficio penal respondió a mandatos de los tribunales y no a una decisión discrecional del Estado. La entrada Larraín aborda polémica por rebaja de condenas: “Me pareció improcedente conceder este beneficio y lo rechacé” se...",
+      "url": "https://radio.uchile.cl/2026/10/24/larrain-aborda-polemica-por-rebaja-de-condenas-me-parecio-improcedente-conceder-este-beneficio-y-lo-rechace/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/24095055/hernan-larrain.jpg",
+      "publishedAt": "2026-10-24T12:53:25+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "alta",
+      "relevanceScore": 84,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-249",
+      "title": "En directo I 135 detenidos e incautación de armas en protestas de este sábado: Ministerio del Interior francés",
+      "summary": "Los ‘chalecos amarillos’, los sindicatos y los estudiantes protestan este sábado 24 de octubre en una nueva jornada marcada por las tensiones y bajo un dispositivo de seguridad con 70 000 policías y gendarmes. El ministro del Interior, Laurent Nuñez, indicó que en lo corrido de la jornada 135 personas han sido detenidas e informó...",
+      "url": "https://www.france24.com/es/francia/20261024-en-directo-i-135-detenidos-e-incautaci%C3%B3n-de-armas-en-protestas-de-este-s%C3%A1bado-ministerio-del-interior-franc%C3%A9s",
+      "image": "https://s.france24.com/media/display/7efeecc0-cfa8-11f1-a126-5b4a75578ebb/w:1024/p:16x9/2026-10-24T123002Z-880231973-RC2N9OA23B37-RTRMADP-3-FRANCE-PROTEST.jpg",
+      "publishedAt": "2026-10-24T12:46:10+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "elciudadano-98",
       "title": "Abogados denuncian impunidad por rebaja de penas a criminales de lesa humanidad y exigen a Kast definir si está «al lado de las víctimas o de los perpetradores»",
       "summary": "El Ciudadano \"Vuelven las condenas irrisorias\", advirtió Paulina Zamorano, integrante de la Red de Observadores de Justicia y Memoria y señaló que algunos de los condenados por violaciones a los derechos humanos durante la dictadura de Augusto Pinochet \"han entrado a cumplir (sus penas) desde hace muy poco tiempo\". La entrada Abogados...",
@@ -659,7 +705,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "eldiarioes-175",
+      "id": "eldiarioes-174",
       "title": "Feijóo acusa a Sánchez de adelantar las elecciones por los casos de corrupción: \"Me encargaré de que paguen por todo\"",
       "summary": "El candidato del PP a la presidencia del Gobierno trata de vincular los casos de corrupción que afectan a miembros del Partido Socialista con el incremento de precios y lanza una batería de promesas de reducción de impuestos \"sin afectar a los servicios públicos\" Feijóo apuesta por perfiles duros para competir con Vox El candidato del...",
       "url": "https://www.eldiario.es/politica/feijoo-acusa-sanchez-adelantar-elecciones-casos-corrupcion-encargare-paguen_1_13612078.html",
@@ -677,7 +723,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldiarioes-170",
+      "id": "eldiarioes-169",
       "title": "Sánchez reivindica \"la España de Lorca\" frente a \"las tijeras\" de Feijóo y \"la motosierra\" de Abascal",
       "summary": "El candidato socialista asegura que la derecha busca \"una involución\" y adelanta que blindará el aborto en la Constitución: \"Ningún hombre jamás volverá a opinar y a controlar el cuerpo de una mujer\" Cómo afecta el sistema electoral a la izquierda alternativa: escaños en las grandes provincias y castigo en las pequeñas El presidente...",
       "url": "https://www.eldiario.es/politica/sanchez-reivindica-espana-lorca-frente-tijeras-feijoo-motosierra-abascal_1_13611964.html",
@@ -695,7 +741,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldiarioes-172",
+      "id": "eldiarioes-171",
       "title": "Rufián y Montero abren la campaña conjunta de ERC y Podemos: \"Feijóo quiere un país de mujeres esclavizadas\"",
       "summary": "Los candidatos critican a las derechas, a los socialistas por limitarse a “tuitear muy fuerte contra los de arriba” y al Frente Amplio: “El frente somos nosotros” Gabriel Rufián pedirá el voto para EH Bildu y BNG en sus territorios pese al acuerdo con Podemos Los candidatos de ERC y Podemos a las elecciones generales, Gabriel Rufián e...",
       "url": "https://www.eldiario.es/catalunya/rufian-montero-abren-campana-conjunta-erc-feijoo-quiere-pais-mujeres-esclavizadas_1_13611024.html",
@@ -713,7 +759,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brujulabike-130",
+      "id": "brujulabike-129",
       "title": "El cambio de hora afecta al sueño y al organismo, pero la bicicleta puede ser la solución",
       "summary": "La llegada del horario de invierno, más allá de condicionar nuestros entrenamientos, supone unas alteraciones que la bici puede mitigar.",
       "url": "https://www.brujulabike.com/montar-bicicleta-ayuda-cambio-hora-jet-lag/",
@@ -803,7 +849,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "theintercept-220",
+      "id": "theintercept-219",
       "title": "The Spirit of “Party Unity, My Ass” Is Back and Coming for the DSA (and El-Sayed)",
       "summary": "Centrist Democrats’ calls to fall in line behind the party’s nominee only ever seem to cut one way — and fall apart when their candidate loses. The post The Spirit of “Party Unity, My Ass” Is Back and Coming for the DSA (and El-Sayed) appeared first on The Intercept .",
       "url": "https://theintercept.com/2026/10/24/centrist-democrats-dsa-el-sayed/",
@@ -821,7 +867,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-240",
+      "id": "dw-239",
       "title": "Francia se prepara para vivir una nueva jornada de protestas",
       "summary": "París cierra museos y despliega un gran contingente policial ante la perspectiva de nuevos disturbios por todo el país.",
       "url": "https://www.dw.com/es/francia-se-prepara-para-vivir-una-nueva-jornada-de-protestas/a-79750002?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -857,7 +903,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-120",
+      "id": "ciclo21-119",
       "title": "Europeo pista Berlín 2027: desvelado el programa completo",
       "summary": "La máxima prueba continental tendrá lugar en la capital alemana La entrada Europeo pista Berlín 2027: desvelado el programa completo aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/europeo-pista-2027-berlin-sede-para-la-prueba-elite-programa/",
@@ -875,7 +921,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-140",
+      "id": "esciclismo-139",
       "title": "Particle presenta el juego de ruedas de MTB XC+ Downcountry más ligero del mundo",
       "summary": "Particle ha desarrollado el juego de ruedas de MTB XC+ Downcountry más ligero del mundo. El nuevo conjunto, denominado MSX Ultralight, pesa apenas 1.125 gramos y, según la marca,...",
       "url": "https://www.esciclismo.com/actualidad/material/93664.html",
@@ -893,7 +939,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "brujulabike-131",
+      "id": "brujulabike-130",
       "title": "\"Piensan directamente en Seixas\": la polémica detrás del recorrido del Tour de Francia 2027",
       "summary": "El recorrido del Tour de Francia 2027 parece favorecer a Paul Seixas y alimenta el debate sobre un posible duelo con Pogačar. Sin embargo, Decathlon todavía",
       "url": "https://www.brujulabike.com/tour-francia-2027-recorrido-paul-seixas-participacion/",
@@ -911,7 +957,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-241",
+      "id": "dw-240",
       "title": "Kim Jong-un viaja a China por un puente recién inaugurado, según Seúl",
       "summary": "El líder norcoreano habría viajado, según fuentes surcoreanas, en una visita sorpresa a la ciudad fronteriza de Dandong coincidiendo con el aniversario de la Guerra de Corea.",
       "url": "https://www.dw.com/es/kim-jong-un-viaja-a-china-por-un-puente-recién-inaugurado-según-seúl/a-79749031?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -929,7 +975,25 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-242",
+      "id": "elmostrador-84",
+      "title": "“Esto no es fácil”: gobernadores mantienen ofensiva para destrabar recorte de $250 mil millones",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOblZJdUgwM2dac3NieThncnFHVEk5ekxEcUpfbUtQQTZqYkllT2pKOVJ3X05LVGt1MHlJMXN4Q2NrZkhDVGUzYzBEVGNUel9OZFdXM2lPSlJuZTd1WEx4M2dMVEFUSHZpc2hxWU9ycUdkMjRQVnpSYjhBNk5JTGMxeWU3Q1d2Zm92YWFKZEsxNG1kVkpkSElsVG8yYktsM3dVeWZoc2xsd2xwY2hpQURUdlQxNXhESDFyd1RFeVA3OVVPdUV5T0J6Uk8yelpLOUhRVXZ6bUhVRGNmVEEw?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-24T08:08:54+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "dw-241",
       "title": "Un incendio destruye el 'Nido del Águila', la antigua residencia de montaña de Hitler en los Alpes",
       "summary": "La casa Kehlsteinhaus, construida en los Alpes en 1937 para impresionar a los diplomáticos extranjeros, aunque tuvo poco uso, se mantenía como restaurante de montaña. Hay un sospechoso detenido.",
       "url": "https://www.dw.com/es/un-incendio-destruye-el-nido-del-águila-la-antigua-residencia-de-montaña-de-hitler-en-los-alpes/a-79748592?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -947,7 +1011,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ciclo21-121",
+      "id": "ciclo21-120",
       "title": "El pelotón español 27-30: Isasa, Alustiza y Álvarez renuevan",
       "summary": "Todos los profesionales con contrato desde 2027 hasta 2030 La entrada El pelotón español 27-30: Isasa, Alustiza y Álvarez renuevan aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/peloton-espanol-2026-2030-octubr-23/",
@@ -965,7 +1029,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-122",
+      "id": "ciclo21-121",
       "title": "El ciclismo no para en la Región de Murcia",
       "summary": "Más de trescientos días de sol al año y una temperatura amable en cualquier estación La entrada El ciclismo no para en la Región de Murcia aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/el-ciclismo-no-para-en-la-region-de-murcia/",
@@ -983,7 +1047,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "eldiarioes-174",
+      "id": "eldiarioes-173",
       "title": "Una coalición con la ultraderecha para incumplir la Constitución",
       "summary": "'El boletín del director' es una carta semanal de Ignacio Escolar exclusiva para socios y socias de elDiario.es. Si tú también lo quieres leer y recibir cada sábado en tu buzón, hazte socio o socia Este miércoles, en la SER, Aimar Bretos me pidió el titular del día. Mi respuesta fue esta: “PP y Vox confirman su coalición con el primer...",
       "url": "https://www.eldiario.es/blog/el-boletin-del-director/coalicion-ultraderecha-incumplir-constitucion_132_13611735.html",
@@ -1001,7 +1065,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-123",
+      "id": "ciclo21-122",
       "title": "Ciclocross: Resultados UCI 2026-2027",
       "summary": "Las clasificaciones de todas las pruebas ciclopedestres internacionales La entrada Ciclocross: Resultados UCI 2026-2027 aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/ciclocross-resultados-uci-2026-2027/",
@@ -1019,7 +1083,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-243",
+      "id": "dw-242",
       "title": "Maven: la herramienta de IA que Estados Unidos comparte con Arabia Saudita",
       "summary": "EE. UU. proporciona a Arabia Saudita tecnología de inteligencia artificial para identificar objetivos militares en Yemen. Sin embargo, su eficacia contra los hutíes y el riesgo para la población civil generan dudas.",
       "url": "https://www.dw.com/es/maven-la-herramienta-de-ia-que-estados-unidos-comparte-con-arabia-saudita/a-79747682?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1037,7 +1101,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "brujulabike-132",
+      "id": "brujulabike-131",
       "title": "Del WorldTour a tu garaje: el EF Pro Cycling pone a la venta las Cannondale de sus corredores, aquí te dejamos los modelos y precios actuales",
       "summary": "El EF Pro Cycling vende las Cannondale utilizadas por sus corredores en 2025 y 2026. Consulta los modelos, precios y cómo comprarlas desde España.",
       "url": "https://www.brujulabike.com/ef-pro-cycling-venta-bicicletas-cannondale-2026/",
@@ -1055,7 +1119,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-150",
+      "id": "globalvoices-149",
       "title": "Tras cinco años de guerra, ¿cómo se mantienen los pequeños comercios en Ucrania?",
       "summary": "En esta entrevista, la escritora y periodista Victoria Belim-Frolova se expresa sobre la guerra entre Rusia y Ucrania y cómo obliga al país a \"un constante proceso de adaptación\", especialmente a aquellas mujeres a cargo de comercios.",
       "url": "https://es.globalvoices.org/2026/10/24/tras-cinco-anos-de-guerra-como-se-mantienen-los-pequenos-comercios-en-ucrania/",
@@ -1073,7 +1137,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "ciclo21-124",
+      "id": "ciclo21-123",
       "title": "Campeonato CV enduro: Inscripciones abiertas",
       "summary": "Información del autonómico de la especialidad en Casas Bajas La entrada Campeonato CV enduro: Inscripciones abiertas aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/campeonato-cv-enduro-2026-inscripciones/",
@@ -1109,7 +1173,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-244",
+      "id": "dw-243",
       "title": "El tifón Champi deja a miles sin electricidad en Taiwán mientras se aleja y se enfila hacia Japón",
       "summary": "Tras causar un muerto y más de 500 heridos en la isla, el ciclón se dirige hacia el sureste de Japón.",
       "url": "https://www.dw.com/es/el-tifón-champi-deja-a-miles-sin-electricidad-en-taiwán-mientras-se-aleja-y-se-enfila-hacia-japón/a-79748259?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1145,7 +1209,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-125",
+      "id": "ciclo21-124",
       "title": "Todos los ganadores 2026",
       "summary": "Todas los vencedores UCI del año en los principales calendarios La entrada Todos los ganadores 2026 aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/ciclismo-ganadores-temporada-2026/",
@@ -1199,7 +1263,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brujulabike-133",
+      "id": "brujulabike-132",
       "title": "Cómo entrenar en bici cuando tu vida no te permite seguir un plan fijo",
       "summary": "La individualización es uno de los principios básicos del entrenamiento. El plan se tiene que adaptar al ciclista y no al revés.",
       "url": "https://www.brujulabike.com/claves-para-personalizar-entrenamiento/",
@@ -1235,7 +1299,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-126",
+      "id": "ciclo21-125",
       "title": "Los equipos UCI masculinos y femeninos 2027",
       "summary": "La relación de conjuntos WT y PT masculinos y femeninos de la temporada La entrada Los equipos UCI masculinos y femeninos 2027 aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/los-equipos-uci-masculinos-y-femeninos-2027/",
@@ -1253,7 +1317,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-127",
+      "id": "ciclo21-126",
       "title": "Todas las victorias españolas 2026 (38)",
       "summary": "Todos los triunfos de los corredores españoles a lo largo de la presente campaña La entrada Todas las victorias españolas 2026 (38) aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/todas-las-victorias-espanolas-2026-38/",
@@ -1289,7 +1353,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-245",
+      "id": "dw-244",
       "title": "EE.UU. revela que Irán intensifica plan para atacar a sus funcionarios",
       "summary": "El director de Inteligencia estadounidense, Jay Clayton, envió un documento en el que detalla la información.",
       "url": "https://www.dw.com/es/ee-uu-revela-que-irán-intensifica-plan-para-atacar-a-sus-funcionarios/a-79748105?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1307,7 +1371,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ciclo21-128",
+      "id": "ciclo21-127",
       "title": "Ciclobreves internacionales octubre 2026",
       "summary": "Las otras noticias del ciclismo mundial en formato más reducido La entrada Ciclobreves internacionales octubre 2026 aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/ciclobreves-internacionales-2026-octubr-24/",
@@ -1343,7 +1407,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-246",
+      "id": "dw-245",
       "title": "Dos explosiones sacuden Riad tras una alerta de ataque",
       "summary": "La coalición liderada por Arabia Saudita dijo que interceptó un misil lanzado por los hutíes de Yemen.",
       "url": "https://www.dw.com/es/dos-explosiones-sacuden-riad-tras-una-alerta-de-ataque/a-79747889?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1361,7 +1425,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ciclo21-129",
+      "id": "ciclo21-128",
       "title": "Los calendarios UCI 2027",
       "summary": "Todas las fechas UCI del año de todas las modalidades La entrada Los calendarios UCI 2027 aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/los-calendarios-uci-ciclismo-2027/",
@@ -1433,7 +1497,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elmostrador-84",
+      "id": "elmostrador-85",
       "title": "Pelea en la derecha por rebajas de penas: Squella lanza dardo a Larraín con alusión a Paul Schäfer",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSDVWSXNoWENPbGNtcXVEZDJmbjFSUGc3UVp4eUJHWUlYUnNZNnB1bUgzNWZKdm1BSlExakVvcUxhSHAwaDFyR1M5VXJQU2Frb200R2dTVExEVjktQTVXTEg3bEtFQk5oYVVKNXJUWFR1STM0VWhvZER4TmEzSVloN2FpZzNPaVdGNG1icldVZHhJLW1RMm5QaVYxb2dSWmRsNDhLN0prVG8zT2VWYm9rbWs2WmZndDkxaHJKeUswbTRvM3JpSm1FTXM5SlJzQzJxMzZFdXNOdk5fVGZDRzVyeklYemM?oc=5",
@@ -1469,24 +1533,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-259",
-      "title": "Informe desde Guayaquil: juez ordena prisión preventiva para excandidata Luisa González",
-      "summary": "A petición de la Fiscalía, un juez de Ecuador dictó este viernes prisión preventiva para Luisa González, la excandidata presidencial del movimiento correísta Revolución Ciudadana, quien fue detenida un día antes por un supuesto manejo irregular de los fondos de la campaña electoral de 2023. Nuestra corresponsal Carolina Mella nos...",
-      "url": "https://www.france24.com/es/video/20261024-informe-desde-guayaquil-juez-ordena-prisi%C3%B3n-preventiva-para-excandidata-luisa-gonz%C3%A1lez",
-      "image": "https://s.france24.com/media/display/0b56c022-cf44-11f1-b691-5b4a75578ebb/w:1024/p:16x9/ES-20261023-133756-134118-CS.jpg",
-      "publishedAt": "2026-10-24T01:37:49+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "ciper-2",
       "title": "Rebaja de condenas: ¿Chile cuida a los niños?",
       "summary": "La entrada Rebaja de condenas: ¿Chile cuida a los niños? se publicó primero en CIPER Chile .",
@@ -1505,7 +1551,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-247",
+      "id": "dw-246",
       "title": "Inicia ensayo de vacuna contra brote de ébola en RD Congo",
       "summary": "El ensayo comenzó con la administración de la primera dosis de Ervebo en Bunia, la capital de la provincia de Ituri y epicentro de la emergencia.",
       "url": "https://www.dw.com/es/inicia-ensayo-de-vacuna-contra-brote-de-ébola-en-rd-congo/a-79747806?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1577,24 +1623,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-109",
-      "title": "Gobierno firmó decretos de expulsión de extranjeros detenidos en desmanes del 18-O",
-      "summary": "El Gobierno concretó la firma de las órdenes de expulsión de los seis ciudadanos extranjeros detenidos en Santiago por su presunta participación en desmanes durante la marcha de conmemoración de los siete años del estallido social . La resolución administrativa se ejecutó luego de anular la residencia definitiva a cinco de los...",
-      "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/gobierno-firmo-decretos-de-expulsion-de-extranjeros-detenidos-en/2026-10-23/213533.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261023/imag/foto_0000000420261023213533.png",
-      "publishedAt": "2026-10-24T00:35:33+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "independent": false,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "alta",
-      "relevanceScore": 83,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "elmostrador-81",
       "title": "El día en que el exministro José Antonio Gómez rechazó 500 rebajas de penas y terminó investigado",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -1631,7 +1659,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-86",
+      "id": "elmostrador-87",
       "title": "Al Pan Pan: a siete años del 18-O, ¿cómo se puede leer el estallido social?",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWGpNdnBIUGhUell1aHhZWmZLSTZXbU8zM2oybVpDWDNXRHVybG9pd2Q0aGRjdVZGSmltWWNiNDJsWlNfMXo5Z0s1eW5XS0ZrdWdUd3M0N3E2b0k1R2lxRmVFa01ObHBQUFUyQmFQVGNrbzd1YU9ZVEFZYUhtMDRmNHhiZWVOekhramx3VURrQlAzTVFuRFoxbFVqVm12Qk9EeEF5a3h5V2s4TGNPRnhjNnRoUlpVeUV2Q0RXTWFRUldlSEJWdFg2XzZ5MmhwZmhReUEwdmVabGs?oc=5",
@@ -1647,24 +1675,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 82,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "ciclismo-chile-110",
-      "title": "Más de 2 mil ciclistas y con Martín Vidaurre como gran atracción: Así será el Tour Desafío Antofagasta 2026 - TVN",
-      "summary": "Más de 2 mil ciclistas y con Martín Vidaurre como gran atracción: Así será el Tour Desafío Antofagasta 2026 TVN",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSWh1QTBwZU5NdTVHYVJmbTdRdlZhdEl5ZDBtVlVaOEI4MTV4Um83ZUpZMk1rcjB6UkZ3SEk1a3p1NERKOF8yVVowS1g5ZmFYZFZhYWdjX0M1a2tZQzhzLUwzYTZ2eXNRNGN1N2hFekZFbVZ0TVM0VWxNTDNwNzk4TUEtZVk2UG9QLW9PRnhNUDZfS29ycTQ1cGJwNU51MGpxRnFMUXE5cTNrTEhMdzQ0Tm5nTlA2NEJZZVFNbEZJMzNfa1h2Uy1VanNIN3VvWnpmeVNPQWFDSWxCQ2kyQWNmNkRR0gHnAUFVX3lxTE04bWlYUEVIRURyTGZvMHd2VzdheGdrSkhzdXdkUm5QZ2EyNW02MFZodWtOQnJjTGFzR2VGamYtcDhaRHJiTE5pczhZQi1yLU5ncUwtbXZieFlzVnJIdjBzOUVLOEFPQmRBVUltV0h0amt6OC14MUFKS2x4RllOT2FsZWxqZGVOQjFfS256TFF5aGFKbnIwQ2dvS1Z5UGpwN2pxZV9kSHo0MWhzNTA2cjU0MGM3MjdPS1ZMZmw2OGxHbXNQTlp2dE5vQ0EzOTdMZWxZdFdfYUliQVR5Z1JDcllIRFdRSm1ZVQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-23T22:59:00+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "interferencia-11",
@@ -1685,7 +1695,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-141",
+      "id": "esciclismo-140",
       "title": "Clasificaciones completas de la 1ª etapa de la Vuelta a Guatemala 2026",
       "summary": "Éstas son las clasificaciones completas de la 1ª etapa de la 65ª Vuelta Ciclista Internacional a Guatemala 2026, disputada este viernes 23 de octubre sobre 215,4 kilómetros entre...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93663.html",
@@ -1703,7 +1713,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "radiouchile-29",
+      "id": "radiouchile-30",
       "title": "Fernando Paulsen: “La importancia de un medio se mide por el temor que un gobierno tiene en su contra”",
       "summary": "El periodista recuerda cómo el Boletín de la Vicaría de la Solidaridad hizo frente a la censura y las amenazas de la dictadura, y cómo el caso Degollados marcó a los profesionales que trabajaban bajo el alero de la Iglesia Católica. La entrada Fernando Paulsen: “La importancia de un medio se mide por el temor que un gobierno tiene en...",
       "url": "https://radio.uchile.cl/2026/10/23/fernando-paulsen-la-importancia-de-un-medio-se-mide-por-el-temor-que-un-gobierno-tiene-en-su-contra/",
@@ -1721,7 +1731,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-30",
+      "id": "radiouchile-31",
       "title": "Ruralidades: lo que el presupuesto revela y las tensiones que no resuelve",
       "summary": "En el contexto de la discusión sobre los presupuestos públicos, es necesario considerar que las propuestas de recortes en las partidas presupuestarias de los ministerios de agricultura y de energía no son neutras. Más allá de las cifras, se expresan prioridades, modelos de desarrollo y decisiones sobre qué actividades, poblaciones y...",
       "url": "https://radio.uchile.cl/2026/10/23/ruralidades-lo-que-el-presupuesto-revela-y-las-tensiones-que-no-resuelve/",
@@ -1739,7 +1749,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-248",
+      "id": "dw-247",
       "title": "Kenia registra una segunda muerte por ébola",
       "summary": "De acuerdo a las autoridades de salud, una mujer de 65 años, pariente cercana del primer paciente, falleció tras presentar síntomas mientras estaba en cuarentena.",
       "url": "https://www.dw.com/es/kenia-registra-una-segunda-muerte-por-ébola/a-79747668?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1757,7 +1767,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-31",
+      "id": "radiouchile-32",
       "title": "Pequeñ@ Astrónom@: llega la segunda temporada de la serie que une animación y ciencia",
       "summary": "La serie de cortos animada vuelve con nuevos capítulos para despertar la curiosidad científica en escolares, esta vez dedicada a descubrimientos modernos, desde los púlsares y la materia oscura hasta la formación de estrellas. La entrada Pequeñ@ Astrónom@: llega la segunda temporada de la serie que une animación y ciencia se publicó...",
       "url": "https://radio.uchile.cl/2026/10/23/pequen-astronom-llega-la-segunda-temporada-de-la-serie-que-une-animacion-y-ciencia/",
@@ -1775,7 +1785,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-32",
+      "id": "radiouchile-33",
       "title": "Raúl Sohr ante la segunda vuelta en Brasil: “Esto es un empate técnico y es una caja de sorpresas”",
       "summary": "Con Lula y Bolsonaro en una disputa estrecha, el analista aborda los factores que pueden definir la elección y sus repercusiones más allá de Brasil. El resultado podría alterar el equilibrio político regional y la relación con Estados Unidos. La entrada Raúl Sohr ante la segunda vuelta en Brasil: “Esto es un empate técnico y es una...",
       "url": "https://radio.uchile.cl/2026/10/23/raul-sohr-ante-la-segunda-vuelta-en-brasil-esto-es-un-empate-tecnico-y-es-una-caja-de-sorpresas/",
@@ -1793,7 +1803,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "esciclismo-142",
+      "id": "esciclismo-141",
       "title": "Johan Steven Rubio se impone al sprint en la primera etapa de la Vuelta a Guatemala",
       "summary": "Johan Steven Rubio (Nu Colombia) se adjudicó este viernes la primera etapa de la 65ª Vuelta Ciclista Internacional a Guatemala, disputada sobre 215,4 kilómetros entre Guastatoya y...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93662.html",
@@ -1811,7 +1821,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "radiouchile-33",
+      "id": "radiouchile-34",
       "title": "Entre Rusia e Irán: el giro de Trump por el petróleo y el nuevo golpe a los mercados",
       "summary": "El acercamiento a Moscú contrasta con la escalada en Medio Oriente. El crudo se dispara y las bolsas sufren fuertes caídas, mientras los temores de una nueva guerra y las dudas sobre la inteligencia artificial sacuden a los inversionistas. La entrada Entre Rusia e Irán: el giro de Trump por el petróleo y el nuevo golpe a los mercados...",
       "url": "https://radio.uchile.cl/2026/10/23/entre-rusia-e-iran-el-giro-de-trump-por-el-petroleo-y-el-nuevo-golpe-a-los-mercados/",
@@ -1829,7 +1839,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "ciclismo-chile-112",
+      "id": "ciclismo-chile-110",
       "title": "Ciclista de Futaleufú clasificó y representará a Los Lagos en las Olimpiadas Especiales Santiago 2027 - SoyChile.cl",
       "summary": "Ciclista de Futaleufú clasificó y representará a Los Lagos en las Olimpiadas Especiales Santiago 2027 SoyChile.cl",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdXdZd0cxaDBQV3NfSlpwQm9ROGV6VjZ0ZWJMTTBNSmV6UlA0elI4b2FRaEJRZ3dyc1RTUWdFRUZybWhiNlBTVTRDLUt3ajhVNGIyODN3cnllR05wWnBPZWFIZElodUpsZThPM0UxXzEycjQ2R0xjVHNzV3dpNWtWX0dTeHBWTmVFdURSVlJkMlNER0NjV3NjTDdReHpsWWd3bVE1UTh0MFZxbUJwTUE?oc=5",
@@ -1847,7 +1857,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "radiouchile-34",
+      "id": "radiouchile-35",
       "title": "“Catrala” de Francisco Ortega: los monstruos propios y ajenos",
       "summary": "Se acerca el cierre de octubre y las vitrinas se llenan de telarañas, calabazas y criaturas que reconocemos incluso sin haber leído las historias que los originan. Halloween nos ofrece una ocasión para disfrutar del miedo y también para preguntarnos por los relatos de terror que circulan más cerca de nosotros. En Chile tenemos una […]...",
       "url": "https://radio.uchile.cl/2026/10/23/catrala-de-francisco-ortega-los-monstruos-propios-y-ajenos/",
@@ -1865,7 +1875,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "eldiarioes-179",
+      "id": "eldiarioes-178",
       "title": "Los autores de la obra sobre Lorca cancelada por Vox en Valladolid: \"Hablar de lo que pasó choca con lo que llaman neutralidad ideológica\"",
       "summary": "María San Miguel, Alba Muñoz y Pablo Rodríguez, integrantes de Proyecto 43-2, han denunciado ante la Fiscalía la censura velada de 'Federico' por parte de la Junta de Castilla y León, que pretende revisar la \"ideología\" en las propuestas artísticas antes de subvencionarlas La compañía de 'Federico' denuncia a la Consejería de Cultura...",
       "url": "https://www.eldiario.es/castilla-y-leon/cultura/autores-obra-lorca-cancelada-vox-valladolid-hablar-paso-choca-llaman-neutralidad-ideologica_128_13608845.html",
@@ -1883,7 +1893,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldiarioes-177",
+      "id": "eldiarioes-176",
       "title": "Cómo afecta el sistema electoral a la izquierda alternativa: escaños en las grandes provincias y castigo en las pequeñas",
       "summary": "El espacio confederal no ha logrado representación en el Congreso por 13 provincias en la última década, mientras se ve beneficiado en las 18 circunscripciones más grandes y en los entornos urbanos, donde siempre se ha hecho con escaños El Frente Amplio cierra la puerta a un pacto global con el PSOE para retirar listas al Congreso en...",
       "url": "https://www.eldiario.es/politica/afecta-sistema-electoral-izquierda-alternativa-escanos-grandes-provincias-castigo-pequenas_1_13608875.html",
@@ -1901,7 +1911,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldiarioes-176",
+      "id": "eldiarioes-175",
       "title": "Feijóo apuesta por perfiles duros para competir con Vox",
       "summary": "El líder del PP elige a Cayetana Álvarez de Toledo como su número dos en las listas, apuesta por Albiol para convertir el problema del acceso a la vivienda en una cuestión de orden público y mantiene a la diputada del spray de pimienta Feijóo reabre el debate sobre el aborto, eliminará el Ministerio de Igualdad y estudiará “la...",
       "url": "https://www.eldiario.es/politica/feijoo-apuesta-perfiles-duros-competir-vox_1_13610039.html",
@@ -1919,7 +1929,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-35",
+      "id": "radiouchile-36",
       "title": "Blindaje total: oficialismo respalda a ministro Rabat en medio de controversia por rebaja de penas a abusadores sexuales",
       "summary": "Tras el encuentro con el Presidente Kast, los timoneles de la UDI y del Partido Republicano entregaron su apoyo al titular de Justicia. \"Actuó en función de lo que mandatan la Constitución y la ley\", aseguró el senador Arturo Squella. La entrada Blindaje total: oficialismo respalda a ministro Rabat en medio de controversia por rebaja...",
       "url": "https://radio.uchile.cl/2026/10/23/blindaje-total-oficialismo-respalda-a-ministro-rabat-en-medio-de-controversia-por-rebaja-de-penas-a-abusadores-sexuales/",
@@ -1937,7 +1947,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "theintercept-221",
+      "id": "theintercept-220",
       "title": "Bodycam: Cop Was Not in Danger When He Fired Shots That Killed 1-Year-Old Kohen Wiley",
       "summary": "Mississippi investigators said the shooting was “justified,” but new body camera footage shows the cop firing into the passenger’s side as the car passed by him. The post Bodycam: Cop Was Not in Danger When He Fired Shots That Killed 1-Year-Old Kohen Wiley appeared first on The Intercept .",
       "url": "https://theintercept.com/2026/10/23/kohen-wiley-body-camera-police-shooting-justification/",
@@ -1973,7 +1983,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "radiouchile-36",
+      "id": "radiouchile-37",
       "title": "“Medida de impunidad”: abogados y organizaciones condenan rebaja de penas a criminales de lesa humanidad",
       "summary": "El Ministerio de Justicia redujo la condena de César Acuña Luengo, exagente de la CNI condenado por cinco secuestros calificados. Organismos advierten vulneración de estándares internacionales. La entrada “Medida de impunidad”: abogados y organizaciones condenan rebaja de penas a criminales de lesa humanidad se publicó primero en...",
       "url": "https://radio.uchile.cl/2026/10/23/medida-de-impunidad-abogados-y-organizaciones-condenan-rebaja-de-penas-a-criminales-de-lesa-humanidad/",
@@ -1991,7 +2001,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-111",
+      "id": "ciclismo-chile-109",
       "title": "Ciclista de Los Lagos clasifica a los Juegos Mundiales de Olimpiadas Especiales Santiago 2027 - Diario El Huemul",
       "summary": "Ciclista de Los Lagos clasifica a los Juegos Mundiales de Olimpiadas Especiales Santiago 2027 Diario El Huemul",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQemoxMEZsZXFheUlFUkFXTzd3VHBOa0VuRHFFTnBWY0FZN2NQTE5Jd0JwWVdkVXRqQm9XYzN1V1V1Mm9nNExXZlpuU2hEN1pUbFdsVkFIejBnNmJjY3R6RHJWWURWRVhLejZmUEwzS3k1ZS1tOTVkV200MEpZVU1ub2RleFZWaHc4U3Jod0VzMTB1SGJLcjM2ZDBaSkxxV1h4WmcxbXFFSzREMGNaSDdJODhjS1EwQVZwZ0lwN294UFB3dXc?oc=5",
@@ -2009,7 +2019,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "globalvoices-151",
+      "id": "globalvoices-150",
       "title": "Entre dos orillas: «Monhés», nacionalidad y lugar de pertenencia en Mozambique",
       "summary": "\"Monhé\" no es una nacionalidad: alguien de origen indio puede ser plenamente mozambiqueño, extranjero o, en casos específicos, apátrida",
       "url": "https://es.globalvoices.org/2026/10/23/entre-dos-orillas-monhes-nacionalidad-y-lugar-de-pertenencia-en-mozambique/",
@@ -2045,7 +2055,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "radiouchile-37",
+      "id": "radiouchile-38",
       "title": "Fiscalía Nacional remite denuncia contra las AFP por eventual administración desleal",
       "summary": "Ángel Valencia envió a la Fiscalía Regional Metropolitana Centro Norte la presentación de la senadora Daniella Cicardini y el diputado Daniel Manouchehri, quienes buscan esclarecer las pérdidas de US$7.700 millones en derivados de tasas de interés. La entrada Fiscalía Nacional remite denuncia contra las AFP por eventual administración...",
       "url": "https://radio.uchile.cl/2026/10/23/fiscalia-nacional-remite-denuncia-contra-las-afp-por-eventual-administracion-desleal/",
@@ -2099,7 +2109,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "dw-249",
+      "id": "dw-248",
       "title": "Francia desplegará más de 70.000 policías para evitar nuevos disturbios",
       "summary": "París advirtió que \"la extrema izquierda radical\" ha instado \"a cometer abusos\" y \"saqueos\" durante las próximas protestas. \"Seremos intransigentes\", amenazó.",
       "url": "https://www.dw.com/es/francia-desplegará-más-de-70-000-policías-para-evitar-nuevos-disturbios/a-79747260?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -2171,7 +2181,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "eldiarioes-171",
+      "id": "eldiarioes-170",
       "title": "Pedro Sánchez acepta la entrevista con Jordi Wild",
       "summary": "Los cuatro candidatos se sentarán con el creador de contenido para ser entrevistados en 'The Wild Project' y se emitirá el 13 de noviembre Ada Colau vuelve a X tras cinco años para aceptar una entrevista con el youtuber Jordi Wild El presidente del Gobierno, Pedro Sánchez, ha aceptado la invitación del youtuber Jordi Wild para ser...",
       "url": "https://www.eldiario.es/politica/pedro-sanchez-acepta-entrevista-jordi-wild_1_13611264.html",
@@ -2189,7 +2199,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "theintercept-222",
+      "id": "theintercept-221",
       "title": "The Intercept Live in Conversation With Robert Reich",
       "summary": "Inequality Media co-founder Robert Reich and The Intercept’s Akela Lacy break down the most pressing issues of the midterm elections. The post The Intercept Live in Conversation With Robert Reich appeared first on The Intercept .",
       "url": "https://theintercept.com/2026/10/23/robert-reich-live-midterm-elections-democracy/",
@@ -2207,25 +2217,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-87",
-      "title": "Documental “Hombres que sueñan” en OndaMedia",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMXBJWlk1X0oxY3JkOGtnbXpMSzhIc1pVX3Y1eFRzenFDaHNLTEFMUHh1QUs0UDFSXzVyRUMySGdUTjNCQXBrLTVQSzRETUVDd0dPS2c2REpDVEJtWllwQVJmT053N3RYaHdwcnhQejZoVUFHcEI5a1AxenFUTVVYNWdFYkhLWkg5aXAzTnJoSUtrTlZRSVg3MURFNm4?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-23T18:30:36+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Cultura y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 78,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "eldiarioes-173",
+      "id": "eldiarioes-172",
       "title": "El Frente Amplio tendrá el 30% de los puestos en las listas conjuntas con el PSOE para el Senado",
       "summary": "La izquierda alternativa y los socialistas presentarán candidaturas unitarias en 44 circunscripciones, aunque las listas para todas ellas estarán encabezadas por el PSOE. En el senado, las listas son abiertas, aunque lo común es que el elector escoja a los tres candidatos del mismo partido o coalición 40 escaños más y mayoría...",
       "url": "https://www.eldiario.es/politica/frente-amplio-tendra-30-puestos-listas-conjuntas-psoe-senado_1_13611215.html",
@@ -2279,7 +2271,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-230",
+      "id": "propublica-229",
       "title": "After Millions in Stolen SNAP Benefits, Trump Administration Moves to Fight Theft",
       "summary": "The post After Millions in Stolen SNAP Benefits, Trump Administration Moves to Fight Theft appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/snap-theft-chip-cards-trump-rule",
@@ -2369,25 +2361,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "radiouchile-38",
-      "title": "Fotografía, memoria y resistencia: legado de Rodrigo Rojas de Negri encuentra un lugar permanente en el MAC",
-      "summary": "A cuatro décadas del caso Quemados, la incorporación de las imágenes al patrimonio universitario busca preservar la memoria de la dictadura y abrir nuevas perspectivas de investigación sobre la obra del fotógrafo y la experiencia del exilio chileno. La entrada Fotografía, memoria y resistencia: legado de Rodrigo Rojas de Negri...",
-      "url": "https://radio.uchile.cl/2026/10/23/fotografia-memoria-y-resistencia-legado-de-rodrigo-rojas-de-negri-encuentra-un-lugar-permanente-en-el-mac/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/23125353/rodrigo-rojas-de-negri.png",
-      "publishedAt": "2026-10-23T17:33:57+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 81,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "propublica-231",
+      "id": "propublica-230",
       "title": "Ken Paxton Says He’s Tough on Crime. His Trust Invested $600,000 in a Convicted Fraudster’s Company.",
       "summary": "The post Ken Paxton Says He’s Tough on Crime. His Trust Invested $600,000 in a Convicted Fraudster’s Company. appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/ken-paxton-investment-scott-sherman-wildcatter",
@@ -2459,7 +2433,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-143",
+      "id": "esciclismo-142",
       "title": "Caja Rural-Seguros RGA cierra el año con seis victorias y récord de puntos UCI",
       "summary": "Caja Rural-Seguros RGA ha cerrado su decimoséptima temporada consecutiva en el pelotón profesional con seis victorias, 33 puestos entre los tres primeros y 144 apariciones en el...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93661.html",
@@ -2477,7 +2451,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "esciclismo-144",
+      "id": "esciclismo-143",
       "title": "Rodrigo Álvarez seguirá un año más en el Burgos-Burpellet-BH",
       "summary": "Rodrigo Álvarez continuará una temporada más en el Burgos-Burpellet-BH y cumplirá en 2027 su quinta campaña en el equipo de su tierra. El ciclista burgalés, de 27 años, ha...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93660.html",
@@ -2549,7 +2523,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-145",
+      "id": "esciclismo-144",
       "title": "Giulio Ciccone y Elisa Balsamo se suman a la Gran Canaria 365",
       "summary": "Elisa Balsamo y Giulio Ciccone, dos de las grandes figuras del ciclismo italiano, han confirmado su presencia en la segunda edición de la Semana Grande de Gran Canaria 365, que se...",
       "url": "https://www.esciclismo.com/actualidad/cicloturismo/93659.html",
@@ -2567,7 +2541,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "theintercept-223",
+      "id": "theintercept-222",
       "title": "Giant Crypto Super PAC Funnels Big Money to Former Trump Official’s Firm to Support… Democrats?",
       "summary": "The Fellowship PAC routed more than half a million dollars in support of Democrats through a firm co-founded by former Trump crypto adviser Bo Hines. The post Giant Crypto Super PAC Funnels Big Money to Former Trump Official’s Firm to Support… Democrats? appeared first on The Intercept .",
       "url": "https://theintercept.com/2026/10/23/crypto-donations-democrats-elections-bo-hines/",
@@ -2585,7 +2559,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brujulabike-134",
+      "id": "brujulabike-133",
       "title": "El agente de Pogačar explica cómo ha cambiado el mercado de fichajes y por qué los ciclistas rompen cada vez más sus contratos",
       "summary": "El agente de Tadej Pogačar, Alex Carera, explica por qué se han disparado las rescisiones de contratos en el ciclismo y cómo los grandes patrocinadores está",
       "url": "https://www.brujulabike.com/agente-pogacar-explica-ruptura-contratos-fichajes-ciclismo/",
@@ -2603,7 +2577,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "esciclismo-146",
+      "id": "esciclismo-145",
       "title": "Nico Alustiza y Xabier Isasa renuevan con Euskaltel-Euskadi",
       "summary": "El Euskaltel-Euskadi anunció la renovación por una temporada de los guipuzcoanos Nico Alustiza y Xabier Isasa, con lo que son ya 21 los corredores confirmados para 2027 en el...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93658.html",
@@ -2658,6 +2632,24 @@
     },
     {
       "id": "fastcheck-21",
+      "title": "Marcela Sabat y Pedro Huichalaf: cómo se fraguó el nombramiento de los nuevos directores de TVN",
+      "summary": "Sabat, exdiputada y exsenadora, llegó recomendada por el Renovación Nacional; mientras Huichalaf, perfil técnico, ex Subtel de Bachelet II, llamó —dice una fuente entendida de sus gestiones— uno por uno a cada senador de la bancada PPD para obtener los votos, aunque no fue la primera carta de la oposición que estuvo sobre la mesa....",
+      "url": "https://www.fastcheck.cl/2026/10/23/marcela-sabat-y-pedro-huichalaf-como-se-fraguo-el-nombramiento-de-los-nuevos-directores-de-tvn/",
+      "image": "https://www.fastcheck.cl/media/images/2026/10/marcela-sabat-y-pedro-huichalaf-como-se-fraguo-el-nombramiento-de-los-nuevos-directores-de-tvn.webp",
+      "publishedAt": "2026-10-23T13:30:00+00:00",
+      "sourceId": "fastcheck",
+      "sourceName": "Fast Check CL",
+      "sourceType": "Fact-Checking Independiente",
+      "sourceSite": "https://www.fastcheck.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "fastcheck-22",
       "title": "Constanza Valdés no es subdirectora del INDH ni percibe un sueldo de 8 millones de pesos",
       "summary": "Se comparte en X que Constanza Valdés, integrante del INDH, ejerce el cargo de subdirectora recibiendo más de 8 millones de pesos mensuales. Fast Check califica este contenido como #Falso. Tras revisar el Portal de Transparencia del INDH y contactar a Valdés, se constató que su sueldo fluctúa en un monto máximo de 20 UTM —$1.443.000...",
       "url": "https://www.fastcheck.cl/2026/10/23/constanza-valdes-no-es-subdirectora-del-indh-ni-percibe-un-sueldo-de-8-millones-de-pesos/",
@@ -2675,7 +2667,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brujulabike-135",
+      "id": "brujulabike-134",
       "title": "De 120 a 140 gramos por hora ¿Hasta dónde puede llegar la alimentación en ciclismo?",
       "summary": "Lotto-Intermarché y la Universidad de Gante investigan si los ciclistas profesionales pueden superar los 120 gramos de carbohidratos por hora.",
       "url": "https://www.brujulabike.com/lotto-intermarche-investiga-140-gramos-carbohidratos-hora-ciclismo/",
@@ -2693,7 +2685,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "eldiarioes-178",
+      "id": "eldiarioes-177",
       "title": "Las falsedades de Feijóo en la entrevista: del salario mínimo y el IRPF al aumento de la edad de jubilación",
       "summary": "El líder del PP acusa al Gobierno en la SER de \"llevarse el dinero de los trabajadores\" con la subida del SMI pero actualmente no aporta al IRPF y asegura falsamente que el ministro Cuerpo ha dicho que hay un \"problema\" con las pensiones Feijóo reabre el debate sobre el aborto, eliminará el Ministerio de Igualdad y estudiará “la...",
       "url": "https://www.eldiario.es/politica/falsedades-feijoo-entrevista-salario-minimo-irpf-aumento-edad-jubilacion_1_13609274.html",
@@ -2711,7 +2703,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-147",
+      "id": "esciclismo-146",
       "title": "La Vuelta a Murcia 2027 mantiene sus dos etapas y partirá desde San Javier",
       "summary": "La Vuelta Ciclista a la Región de Murcia Costa Cálida tendrá su salida en 2027 desde San Javier y la carrera volverá a disputarse con dos etapas los días 12 y 13 de febrero...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93657.html",
@@ -2729,7 +2721,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "jacobinlat-180",
+      "id": "jacobinlat-179",
       "title": "Nicos Poulantzas y el estatismo autoritario",
       "summary": "Poulantzas desarrolló una interpretación original del fascismo, al que veía como una potencialidad latente en los estados capitalistas en condiciones de crisis. Su obra puede ayudarnos a comprender el peligro que representa hoy el autoritarismo de derecha. La entrada Nicos Poulantzas y el estatismo autoritario se publicó primero en...",
       "url": "https://jacobinlat.com/2026/10/nicos-poulantzas-y-el-estatismo-autoritario/",
@@ -2747,7 +2739,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brujulabike-136",
+      "id": "brujulabike-135",
       "title": "CamelBak lleva la personalización de sus bidones profesionales a todos los ciclistas",
       "summary": "CamelBak presenta Custom by CamelBak, un programa para personalizar bidones Podium y botellas Thrive con diseños propios, sin pedido mínimo.",
       "url": "https://www.brujulabike.com/camelbak-bidones-podium-personalizados/",
@@ -2765,7 +2757,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "theintercept-224",
+      "id": "theintercept-223",
       "title": "The Stakes of Brazil’s Presidential Election",
       "summary": "“Almost all of the worst ideas in the United States have been intentionally exported to Brazil as a way to make Brazil a worse country that’s more in line with U.S. interests.” The post The Stakes of Brazil’s Presidential Election appeared first on The Intercept .",
       "url": "https://theintercept.com/2026/10/23/brazil-president-election-lula-bolsonaro-meta/",
@@ -2783,7 +2775,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brujulabike-137",
+      "id": "brujulabike-136",
       "title": "Garmin presenta el Tacx Nēra, un nuevo rodillo inteligente con libertad de movimiento y 2.200 vatios de potencia",
       "summary": "Garmin presenta el nuevo Tacx Nēra, un rodillo inteligente con movimiento multidireccional, 2.200 W, precisión del 1% y compatibilidad con Zwift por 999 €.",
       "url": "https://www.brujulabike.com/garmin-tacx-nera-rodillo-inteligente-precio-caracteristicas/",
@@ -2855,7 +2847,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-232",
+      "id": "propublica-231",
       "title": "Bird Flu Is Raging on a Mink Farm. It Could Spark a Human Pandemic, Experts Say, but Officials Won’t Act.",
       "summary": "The post Bird Flu Is Raging on a Mink Farm. It Could Spark a Human Pandemic, Experts Say, but Officials Won’t Act. appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/bird-flu-mink-farm-utah-human-risk",
@@ -2873,7 +2865,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-206",
+      "id": "brecha-205",
       "title": "«Hay un componente de neocolonialismo absolutamente innegable»",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc1FMMzIwOTJxSVJLSnJyb2NDYW5BY2FoLVdoQV9LaFgwVVRHMGFhSUVYVEltS3YwaVlES0FWTXZhcEM0N29jMEtoTk8yQ2sweF9LOWZLNmU0QXgyMmNtblk0NE1aQXh4SF9PSlRRa1haRDFtS0J6NEZ6LUk0S3E2SFl0d1dReW5xd2hr?oc=5",
@@ -2891,7 +2883,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-207",
+      "id": "brecha-206",
       "title": "Entre la catástrofe y la capacidad de acción",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEN3VETzRZbDZqam90eUNGS2NsRHlaMFBld3lxQ0hnSUV0RndSV24yWXpuN2YweWM2TUtNWDRLeGVZWjA3elNzV2g0V196QTNKSmZWdW5LWEJ1Wk1MVDh6STlkNWVOQXAwbTVTdlA2bExZc0FhWHc?oc=5",
@@ -2909,7 +2901,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "globalvoices-152",
+      "id": "globalvoices-151",
       "title": "De norte a sur, protestas arrasan en Túnez: ¿Se viene el cambio?",
       "summary": "Las protestas por empleo, desarrollo y dignidad se propagan por todo Túnez, plantea preguntas sobre los crecientes vínculos entre movilizaciones sociales y políticas.",
       "url": "https://es.globalvoices.org/2026/10/23/de-norte-a-sur-protestas-arrasan-en-tunez-se-viene-el-cambio/",
@@ -2927,7 +2919,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brujulabike-138",
+      "id": "brujulabike-137",
       "title": "Arranca el invierno ciclista, estas son todas las novedades y carreras que marcarán la temporada de ciclocross 2026-2027",
       "summary": "Consulta el calendario completo de ciclocross 2026-2027 con todas las fechas de la Copa del Mundo, Superprestige, X2O, HG Cross, Europeo y Mundial.",
       "url": "https://www.brujulabike.com/calendario-completo-ciclocross-2026-2027/",
@@ -2945,7 +2937,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "globalvoices-153",
+      "id": "globalvoices-152",
       "title": "Tras las inundaciones, Nepal necesita cifras claras sobre la ayuda recibida y un plan de reconstrucción",
       "summary": "Las comunidades nepalíes afectadas por inundaciones afrontan un largo camino a la recuperación, con infraestructura dañada, medios de vida perdidos y dudas sobre la ayuda que complican reconstruir viviendas, restablecer servicios y medios de vida.",
       "url": "https://es.globalvoices.org/2026/10/23/tras-las-inundaciones-nepal-necesita-cifras-claras-sobre-la-ayuda-recibida-y-un-plan-de-reconstruccion/",
@@ -2963,7 +2955,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brujulabike-139",
+      "id": "brujulabike-138",
       "title": "Qué entrenamientos te gustan más y qué revelan sobre ti como ciclista",
       "summary": "Todos tenemos nuestras preferencias a la hora de entrenar que, en muchos casos, están basadas en nuestras cualidades como ciclistas.",
       "url": "https://www.brujulabike.com/que-tipo-de-entrenamientos-te-gustan-mas-y-que-significa-eso/",
@@ -2981,7 +2973,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "brecha-200",
+      "id": "brecha-199",
       "title": "Algoritmos para la guerra",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95cm5lbF9BS1RsYkoxdUhuOV9KTHNEdlFYY2dYT2tCVFpOMFlUREYtdW45NW5Ia3dvX3BSR1ZxamIxem9QQ2VMRGZDbEw0bVNxTlpJa1VySmNfbUph?oc=5",
@@ -2999,7 +2991,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-204",
+      "id": "brecha-203",
       "title": "¿Fantasía o realidad?",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0XzBaSmtzcnRxZ3dMbW5Gd1lGbW05ZHdRZ2NSWE0tSWlURldQcTUzb1M0SEQ1Z2tkYXM1NWhsRmxDV3BmZkItOFhlaTdQMGNad0tnZw?oc=5",
@@ -3017,7 +3009,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-208",
+      "id": "brecha-207",
       "title": "«Un proyecto militante debe formular alternativas más allá del boicot»",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVnBiM2tpSHpPNVh5dGZQd3E2enRtZnU4dDF3WVZjelNZWXJvN1NGRU55QnVPLVl0T2p6d1p4T2Zma2t4Q1E4RjhVM0NaNC11UTk0cXpTMjJIcnNUMjBFLUpEUGtxMUhzZmhOcDd4Y2ZRSTlmeHRtandEU3JnRnRuT2ZkOGk2OXpiNVNYaXM2cS0wWExnb2c?oc=5",
@@ -3035,7 +3027,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-205",
+      "id": "brecha-204",
       "title": "El Turco y la nube",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnWmFwS2pNQ3FyVUhLUE50V0VYbVcwa2JiMDhHRlBLZVRaOC1jR1ZidFZxRHRnb2RtWGdjcXZRZnFRRUxVMDJGQm14MGpxbDdobktV?oc=5",
@@ -3053,7 +3045,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-209",
+      "id": "brecha-208",
       "title": "Convulsiones de un sexagenario",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1weWZpblMwRE5hZmtlZktYaGJVTnJCN2ppOUI1d1IxU0JPTGF4ODE1Q2FUck15SHVCYkF4RGFIcy1PdENEVXl5bTFZeXNrMFlQd2xkOG5ZSGt1ODZ4ckhZMk91MA?oc=5",
@@ -3071,7 +3063,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-202",
+      "id": "brecha-201",
       "title": "Daniel Mordecki",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tQ3czV0Y0SVEybEpKR0w5N2ZoMC1RZXJiSVdOa2p3ZmhLQ2luMTUzbnd4VUlDLXZ4ZnhJUm80WVBtLTZTTC0yV2gySm1uODAyLUJnSlBvNEw?oc=5",
@@ -3089,7 +3081,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-201",
+      "id": "brecha-200",
       "title": "Joaquín Maquieira",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92U0x6STJvUnBtLWpGRnRrdG1WdW5VRTJfWXdYajQ4dDVvRjd1Uk44X2xQSklHbWxkMjVndHRkYThZOGlXb000c0c4N05ncTA2Q2tsSjJLUm95d2c?oc=5",
@@ -3107,7 +3099,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elmostrador-85",
+      "id": "elmostrador-86",
       "title": "Al Pan Pan: quiebre de pacto en el Senado abre nuevo frente entre oficialismo y oposición",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQk0yckpRT2V2R0lFczFERWVqdjZIX0hMZlo4SEJMNko4TlFsQWs3ZmVOcjd4LXoxTVFoLVY4ampTc2JJemJodTZyTXZvSXNTcDQ4M3Q2VUJKM1RwdXVoNkM1dkVoQUl4a1J2TUo3Z05EVFppcDY3TTA4Rnl6QnllTlQtSzFpblNZSTNoTzdRcTFVRnA4ajdwM0NTU1Yzak8xclJlRm1Ialo1SG4xZHNGcG0td3MzeWNVenhkSUtZWG5mTkwwem5xbi1JYUV5S2pzdXY0VU1kNEJZMUEyVzZSUFdtdnJ3aXhsWERvNDJLRQ?oc=5",
@@ -3143,7 +3135,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-148",
+      "id": "esciclismo-147",
       "title": "Osés, Ramírez, Espinosa y Vásquez encabezan la Vuelta a Guatemala 2026 [Previa]",
       "summary": "La 65ª Vuelta Ciclista Internacional a Guatemala comienza este viernes 23 de octubre y se disputará hasta el domingo 1 de noviembre con diez etapas y categoría UCI 2.2. La ronda...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93656.html",
@@ -3161,7 +3153,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "esciclismo-149",
+      "id": "esciclismo-148",
       "title": "Listado oficial de ciclistas inscritos en la Vuelta a Guatemala 2026 [Dorsales]",
       "summary": "Éste es el listado oficial y definitivo de equipos y ciclistas -con sus dorsales- inscritos en la 65ª Vuelta Ciclista Internacional a Guatemala, que se disputará del viernes 23 de...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93655.html",
@@ -3305,7 +3297,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "fastcheck-22",
+      "id": "fastcheck-23",
       "title": "No es París: El video de vendedores ambulantes afuera de una estación de metro fue grabado en Madrid",
       "summary": "Tras los masivos saqueos en Francia, se viralizó un video que vincula la venta informal de artículos de lujo con los atracos en las afueras de una estación de metro en París. Fast Check calificó como #Falso, ya que el registro en realidad corresponde a Gran Vía en Madrid, España.",
       "url": "https://www.fastcheck.cl/2026/10/22/no-es-paris-el-video-de-vendedores-ambulantes-afuera-de-una-estacion-de-metro-fue-grabado-en-madrid/",
@@ -3359,7 +3351,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "theintercept-225",
+      "id": "theintercept-224",
       "title": "Mamdani’s High-Wire Balancing Act Between ICE and NYPD Can’t Last",
       "summary": "The New York City mayor has said he doesn’t want to “normalize” ICE. But the NYPD, led by Jessica Tisch, has other plans. The post Mamdani’s High-Wire Balancing Act Between ICE and NYPD Can’t Last appeared first on The Intercept .",
       "url": "https://theintercept.com/2026/10/22/mamdani-tisch-ice-shooting-nypd/",
@@ -3467,7 +3459,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-23",
+      "id": "fastcheck-24",
       "title": "Estas imágenes y videos de la Pantera Rosa en las protestas de Francia fueron generadas con Inteligencia Artificial",
       "summary": "En el marco de las protestas en Francia, han circulado diversas imágenes y videos de una persona con un corpóreo de la Pantera Rosa participando de las manifestaciones. Fast Check califica este contenido como #Falso, ya que, al notar irregularidades, se sometieron todos los archivos a detección de IA, obteniendo un resultado positivo...",
       "url": "https://www.fastcheck.cl/2026/10/22/estas-imagenes-y-videos-de-la-pantera-rosa-en-las-protestas-de-francia-fueron-generadas-con-inteligencia-artificial/",
@@ -3485,7 +3477,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "propublica-233",
+      "id": "propublica-232",
       "title": "Nuclear Weapons Waste Made Workers Sick. Despite a Law Meant to Help, the DOE Keeps Fighting Their Claims.",
       "summary": "The post Nuclear Weapons Waste Made Workers Sick. Despite a Law Meant to Help, the DOE Keeps Fighting Their Claims. appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/hanford-nuclear-workers-compensation-washington-doe",
@@ -3539,7 +3531,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "bellingcat-210",
+      "id": "bellingcat-209",
       "title": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. In September, the AI company Anthropic published a blog post that claimed its models were approaching “superhuman capabilities for geolocating outdoor photos”. Anthropic made this claim by comparing its models’ performance to that of...",
       "url": "https://www.bellingcat.com/resources/2026/10/22/can-llms-supercharge-geolocations-our-tests-show-big-improvements-but-humans-remain-key/",
@@ -3557,7 +3549,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-234",
+      "id": "propublica-233",
       "title": "Ballot Rejections Soared in Rural Counties After USPS Reduced Mail Service",
       "summary": "The post Ballot Rejections Soared in Rural Counties After USPS Reduced Mail Service appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/mail-ballot-delays-postal-service-midterms",
@@ -3575,7 +3567,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elsalto-166",
+      "id": "elsalto-165",
       "title": "Esta huelga ya la estamos ganando",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JSFdFa0tpSzMxdGtsRGtVZUhRcUxSb0N5WTFOZ2FaZFdMbGxXQ0ZmT19rdFFnb0Z5Nzd5U3RkdUlxUWhvYXBNdE1lNWtKTnFETHBpMl9PWlloUkFPRk02NGt3R3lmVU0tcno4bWtTREZ1Y08xcE8wTQ?oc=5",
@@ -3629,7 +3621,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-235",
+      "id": "propublica-234",
       "title": "Sexual Assaults on Campus No Longer Scrutinized as Closely Under Trump’s Education Department",
       "summary": "The post Sexual Assaults on Campus No Longer Scrutinized as Closely Under Trump’s Education Department appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/civil-rights-office-education-department-investigations",
@@ -3647,7 +3639,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-154",
+      "id": "globalvoices-153",
       "title": "Demasiado jóvenes para postular, suficientemente adultos para protestar: Inconcluso pacto democrático de África occidental",
       "summary": "Los jóvenes tienen la edad suficiente para votar y para protestar, pero a menudo se les dice que necesitan experiencia antes de poder ejercer un cargo político.",
       "url": "https://es.globalvoices.org/2026/10/22/demasiado-jovenes-para-postular-suficientemente-adultos-para-protestar-inconcluso-pacto-democratico-de-africa-occidental/",
@@ -3665,7 +3657,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-161",
+      "id": "elsalto-160",
       "title": "Antes una pescadería, ahora tu futura casa de una sola habitación: así es la nueva política habitacional vasca",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVERJR2JWVE9mUWNkTFZFN1cwbW1QSnZvSUlCQkpzMzNxUzhXTU5pV2VyS1hJSzBMYnZpMVNXWGtYdldxU0pycTV4VkNLTExNeDRveHdmT1FiQU1IX0U1QmRNYTItVUp0QVJpX0pFeUlRcDMxd2xPeGxXeUJkMFZSWnNEZ2lobjZzRHRmdFF0SFZ3a3pjR0J4aC1RbzBoWW5EZFdnZWFBemJsRTMw?oc=5",
@@ -3683,7 +3675,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elsalto-168",
+      "id": "elsalto-167",
       "title": "Yuan iuan investiga el privilegio de la amistad, la especulación urbana y el capitalismo racial en Usera",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeWs3bnhNOTJpUjVYUnNPcWpSOWVNYTBkc2FyYlpvUHN6YThlSE5JcVRkbVl5aVVPU1FjWUlfTjNHUTdLZUhnRTFHaTh5bE9nQzlzV0hnSU9WYmIybkFQMGxSdDB4VWlqc2M3aGo3Z1JzNmF1UlE1MDd4Tm1sZUYtbkJEcEpoOTRlekl5TzM4S1Z0cTV2WE9lRF93NkFqQ01OenJ4SA?oc=5",
@@ -3701,7 +3693,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "jacobinlat-181",
+      "id": "jacobinlat-180",
       "title": "Brasil: la última palabra no está dicha",
       "summary": "Tras una primera vuelta favorable a Flávio Bolsonaro, una oleada de movilizaciones juveniles reanimó el escenario político brasileño. La remontada de Lula dependerá de que esa energía amplíe su base electoral y vincule la resistencia a la extrema derecha con nuevas demandas sociales. La entrada Brasil: la última palabra no está dicha...",
       "url": "https://jacobinlat.com/2026/10/brasil-la-ultima-palabra-no-esta-dicha/",
@@ -3719,7 +3711,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "fastcheck-24",
+      "id": "fastcheck-25",
       "title": "Renuncia segunda jefa de gabinete de Iván Poduje",
       "summary": "Por razones personales, y aceptadas por el ministro Iván Poduje, la ex jefa de comunicaciones y segunda jefa de gabinete del ministro renunció al Ministerio de Vivienda y Urbanismo. Dos meses antes, Fast Check informaba la salida de la primera jefa de gabinete y el jefe de la división jurídica.",
       "url": "https://www.fastcheck.cl/2026/10/21/renuncia-segunda-jefa-de-gabinete-de-ivan-poduje/",
@@ -3773,7 +3765,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-25",
+      "id": "fastcheck-26",
       "title": "\"Fucktop\", el libro de Rodrigo Topelberg sobre el caso Factop y su particular mirada sobre el poder en Chile",
       "summary": "\"Si lo que voy a contar fuera un chiste, el cuento podría comenzar con cuatro ucranianas, tres polacas y dos argentinas, todas juntas en un yate. Sobre la cubierta, un abogado vinculado a la política y un par de empresarios judíos.\" Así comienza parte del libro de Rodrigo Topelberg que escribió durante su estadía en Capitán Yáber tras...",
       "url": "https://www.fastcheck.cl/2026/10/21/fucktop-el-libro-de-rodrigo-topelberg-sobre-el-caso-factop/",
@@ -3791,7 +3783,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "fastcheck-26",
+      "id": "fastcheck-27",
       "title": "Diputada Javiera Rodríguez votó en contra de una resolución sobre el Estrecho de Magallanes, no de un proyecto de ley sobre su soberanía",
       "summary": "En el marco de las controversias entre Chile y Argentina por el Estrecho de Magallanes circuló una publicación afirmando que la diputada Javiera Rodriguez votó en contra de la ley que busca proteger su soberanía. Fast Check califica esto como #Engañoso, ya que la parlamentaria en realidad votó en contra de una resolución de la Cámara...",
       "url": "https://www.fastcheck.cl/2026/10/21/diputada-javiera-rodriguez-voto-en-contra-de-una-resolucion-sobre-el-estrecho-de-magallanes-no-de-un-proyecto-de-ley-sobre-su-soberania/",
@@ -3845,7 +3837,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "theintercept-226",
+      "id": "theintercept-225",
       "title": "Google DeepMind Engineer Resigns in Protest of Pentagon Contract",
       "summary": "Sofia Liguori stepped down from DeepMind due to current military contracts — not speculative fears of an AI apocalypse. The post Google DeepMind Engineer Resigns in Protest of Pentagon Contract appeared first on The Intercept .",
       "url": "https://theintercept.com/2026/10/21/google-deepmind-resign-ai-military-gaza/",
@@ -3863,7 +3855,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-27",
+      "id": "fastcheck-28",
       "title": "Video de manifestación en Argentina circula como si mostrara protestas por aniversario del estallido social en Chile",
       "summary": "En el marco del aniversario del estallido social, circuló un video que mostraría las manifestaciones y enfrentamientos con carabineros. Fast Check calificó esto como #Falso, ya que el registro en realidad corresponde a protestas realizadas en Argentina contra la aprobación de un proyecto de ley, por lo que no guarda relación con Chile.",
       "url": "https://www.fastcheck.cl/2026/10/21/video-de-manifestacion-en-argentina-circula-como-si-mostrara-protestas-por-aniversario-del-estallido-social-en-chile/",
@@ -3881,7 +3873,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-236",
+      "id": "propublica-235",
       "title": "Colorado Marijuana Regulators Failed to Protect Consumers From Potential Contamination, Audit Finds",
       "summary": "The post Colorado Marijuana Regulators Failed to Protect Consumers From Potential Contamination, Audit Finds appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/colorado-marijuana-enforcement-division-audit-findings",
@@ -3917,24 +3909,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "fastcheck-28",
-      "title": "Para soñar con hijos, primero hay que tener futuro",
-      "summary": "Imaginar un futuro para los hijos se vuelve más difícil en un mundo amenazado por la crisis climática. Paula Castillo analiza cómo la sequía, los incendios y las inundaciones influyen en la decisión de las nuevas generaciones de tener hijos, en un contexto marcado también por el alto costo de la crianza y la falta de apoyo a las...",
-      "url": "https://www.fastcheck.cl/2026/10/21/para-sonar-con-hijos-primero-hay-que-tener-futuro/",
-      "image": "https://www.fastcheck.cl/media/images/2026/10/para-sonar-con-hijos-primero-hay-que-tener-futuro.webp",
-      "publishedAt": "2026-10-21T14:37:00+00:00",
-      "sourceId": "fastcheck",
-      "sourceName": "Fast Check CL",
-      "sourceType": "Fact-Checking Independiente",
-      "sourceSite": "https://www.fastcheck.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Medioambiente y Territorio",
-      "relevanceTier": "alta",
-      "relevanceScore": 95,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "resumen-41",
       "title": "A 100 años de su publicación, Tomé reedita un libro fundamental para su historia",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -3953,7 +3927,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "jacobinlat-182",
+      "id": "jacobinlat-181",
       "title": "Eric Hobsbawm, historiador de las derrotas",
       "summary": "Eric Hobsbawm estaba en Berlín cuando Hitler llegó al poder, en París durante el apogeo del Frente Popular y siguió siendo comunista hasta el final de su vida. Émile Chabal reconstruye la trayectoria de un historiador que nunca dejó de preguntarse qué seguía siendo posible después de la derrota. La entrada Eric Hobsbawm, historiador...",
       "url": "https://jacobinlat.com/2026/10/eric-hobsbawm-historiador-de-las-derrotas/",
@@ -3971,7 +3945,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "theintercept-227",
+      "id": "theintercept-226",
       "title": "Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal.",
       "summary": "Beyond targeting Rep. Ilhan Omar, the Trump administration has killed, arrested, deported, and demonized Somalis at home and abroad. The post Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal. appeared first on The Intercept .",
       "url": "https://theintercept.com/2026/10/21/trump-ilhan-omar-somalia-war/",
@@ -3989,7 +3963,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-237",
+      "id": "propublica-236",
       "title": "“The River Can’t Be Trusted”",
       "summary": "The post “The River Can’t Be Trusted” appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/wildfire-flood-risk-ruidoso-new-mexico",
@@ -4007,7 +3981,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-238",
+      "id": "propublica-237",
       "title": "Town Leaders Said They Were Prepared for Floods. First Responders Disagree.",
       "summary": "The post Town Leaders Said They Were Prepared for Floods. First Responders Disagree. appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/ruidoso-flood-emergency-response-water-rescue",
@@ -4043,7 +4017,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-155",
+      "id": "globalvoices-154",
       "title": "Jóvenes crean puente sobre la brecha climática entre Oceania y el Caribe",
       "summary": "\"La falta de políticas climáticas firmes y consistentes habla de cómo cada año, las familias pierden un ser querido, sus hogares y todo su sustento por desastres relacionados con el clima\".",
       "url": "https://es.globalvoices.org/2026/10/21/jovenes-crean-puente-sobre-la-brecha-climatica-entre-oceania-y-el-caribe/",
@@ -4061,7 +4035,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "globalvoices-156",
+      "id": "globalvoices-155",
       "title": "El sonido de la resistencia",
       "summary": "Como parte de la serie Spotlight de septiembre de 2026 de Global Voices, “Protesta en democracia”, los miembros de nuestra comunidad compartirán en este artículo colaborativo ejemplos de música de protesta del pasado y del presente de sus comunidades .",
       "url": "https://es.globalvoices.org/2026/10/21/el-sonido-de-la-resistencia/",
@@ -4079,7 +4053,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-162",
+      "id": "elsalto-161",
       "title": "La COP17 pone a prueba el compromiso global para frenar la pérdida de biodiversidad",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObnM5M0ZRNVNldFEzVFB1cU1CUnltYmM0em4wb1VLOHZacDVDamJoTEZQd3pkY25PQTZpNEw4T18tZTRRbU9IZnpFWlBHa2IzajV1YkhaQ2JHRTFqT0xTN2dwdERpdjRpbHVUOEZHNm9NN3dQMUhfUE85ZnZzV3l4OGJpYy1FRTBHdUE?oc=5",
@@ -4097,7 +4071,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "propublica-239",
+      "id": "propublica-238",
       "title": "The Secret Terms of Trump’s Venezuelan Oil Deal",
       "summary": "The post The Secret Terms of Trump’s Venezuelan Oil Deal appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/trump-venezuela-oil-agreement-terms",
@@ -4115,7 +4089,25 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "theintercept-228",
+      "id": "ciclismo-chile-117",
+      "title": "La Pampa, lista para viajar a Chile - El Diario de la Pampa",
+      "summary": "La Pampa, lista para viajar a Chile El Diario de la Pampa",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaEk4a1BSZWh2cG12cjBWWGRRTVFPaHk1NkY1ZGtKb3JqWGk2eFlNTTYzNmNlUjV1Q3MxSVA1MEo0aHhXMzlqU1JPU1Vta0ZHSV80NGt3WGIwUmdIcEhmLVdndmJuQ1RZQTlWUTJocmtWT3AwN0FDT0hhWS1tanlUN1hQX2R1Uy1FREZINkJpTQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-21T01:25:00+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 88,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "theintercept-227",
       "title": "Kohen Wiley’s Family Says Investigators Didn’t Contact Them Before Concluding Cops Did No Wrong",
       "summary": "Mississippi has yet to release any support for its claim that a “thorough and impartial” review showed the shooting was “justified.” The post Kohen Wiley’s Family Says Investigators Didn’t Contact Them Before Concluding Cops Did No Wrong appeared first on The Intercept .",
       "url": "https://theintercept.com/2026/10/20/kohen-wiley-police-shooting-mississippi/",
@@ -4133,7 +4125,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "theintercept-229",
+      "id": "theintercept-228",
       "title": "Yemenis Unable to Reach Hospital Are Part of the Iran War Death Toll",
       "summary": "At least 10 patients with kidney failure near Taiz, a city under a Houthi siege, died because they were unable to get to their dialysis treatments. The post Yemenis Unable to Reach Hospital Are Part of the Iran War Death Toll appeared first on The Intercept .",
       "url": "https://theintercept.com/2026/10/20/yemenis-dialysis-houthi-blockade-iran-war/",
@@ -4169,7 +4161,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "jacobinlat-183",
+      "id": "jacobinlat-182",
       "title": "El destino de los rohingas es crucial para el futuro de Myanmar",
       "summary": "La dictadura militar de Myanmar ha perdido el control de gran parte del país a manos de las fuerzas rebeldes. La situación del pueblo rohinga, víctima de genocidio, será una prueba crucial para el nuevo orden político. La entrada El destino de los rohingas es crucial para el futuro de Myanmar se publicó primero en Jacobin Revista .",
       "url": "https://jacobinlat.com/2026/10/el-destino-de-los-rohingas-es-crucial-para-el-futuro-de-myanmar/",
@@ -4205,7 +4197,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "globalvoices-157",
+      "id": "globalvoices-156",
       "title": "Lo que #EndSARS dejó en Nigeria: Una generación atrapada entre la protesta, la política y la emigración",
       "summary": "Las protestas fortalecieron la conciencia política de algunos jóvenes nigerianos y alentaron más participación en las elecciones, los asuntos públicos y el activismo. Para otros, la experiencia generó miedo, desconfianza y desilusión.",
       "url": "https://es.globalvoices.org/2026/10/20/lo-que-endsars-dejo-en-nigeria-una-generacion-atrapada-entre-la-protesta-la-politica-y-la-emigracion/",
@@ -4241,7 +4233,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "globalvoices-158",
+      "id": "globalvoices-157",
       "title": "Sociedad civil surcoreana se niega a despliegue militar en el estrecho de Ormuz",
       "summary": "Dado que el presidente Lee buscará consenso público, la red antibélica seguirá alzando la voz para evitar que el país entre en la guerra con Irán.",
       "url": "https://es.globalvoices.org/2026/10/20/sociedad-civil-surcoreana-se-niega-a-despliegue-militar-en-el-estrecho-de-ormuz/",
@@ -4259,7 +4251,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-159",
+      "id": "globalvoices-158",
       "title": "Anthropic reveló operación de IA que los periodistas de República Democrática del Congo no conocían",
       "summary": "Setenta sitios web de noticias falsos accionados por inteligencia artificial, han publicado al menos 318 artículos dedicados al conflicto en el este del país, a las relaciones con Ruanda y a los recursos mineros en disputa.",
       "url": "https://es.globalvoices.org/2026/10/19/anthropic-revelo-operacion-de-ia-que-los-periodistas-de-republica-democratica-del-congo-no-conocian/",
@@ -4295,7 +4287,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "jacobinlat-184",
+      "id": "jacobinlat-183",
       "title": "Anwar Shaikh me cambió la vida",
       "summary": "El economista Anwar Shaikh, quien murió hace unos días, dedicó medio siglo a convertir las categorías de Marx en cifras concretas. Su primer asistente de docencia y colaborador de toda la vida recuerda al hombre y a su obra. La entrada Anwar Shaikh me cambió la vida se publicó primero en Jacobin Revista .",
       "url": "https://jacobinlat.com/2026/10/anwar-shaikh-me-cambio-la-vida/",
@@ -4311,24 +4303,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 79,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "ciclismo-chile-113",
-      "title": "Ranking de las mejores bicicletas de montaña en Chile: modelos y precios - El Vacanudo",
-      "summary": "Ranking de las mejores bicicletas de montaña en Chile: modelos y precios El Vacanudo",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMDRKUGUzOGJveklBbUJ3Nkt3RU5kMW1qSDVvYjFXQzdTR0d3NVZNZTEyQjRsV1M1dGhpb2tCb18wQm5TUjc5YzlyM040a1BBZXItWURnUDdpMnJHc2JWZ1ZseFpEZjdqQjdmZ2hHZ19ZMldzZ2szSU1tcWxTZ1AzVzA4aElxRDhidmJ0cldKNFhUQTh2Z3hqWldOOGU0QXFmSzFRWkdINTdnQ2FjUzhWVzk5cw?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-19T11:44:29+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "resumen-47",
@@ -4349,7 +4323,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-164",
+      "id": "elsalto-163",
       "title": "El bloqueo del padrón a inmigrantes en València anticipa la prioridad nacional de PP y Vox",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVElRc2V3RzZ2bVJEdm1IZVNvQjMtOWpsVkU2UUtOVGNuNVBWYWhSTnMxdF9COFFVNmZfNU9TejhYbV9iaHR6THhCa0NpUlBYUTNQMzl4VDVnQlpiNG9HSUNTVkxLdkFLbkliMjBWU3R1UlRfZGpmSmEzYTFaZlQwdXlCVkF5d1c3Wk4yV1dKMGdIWUhZbWVwT3Nfd3VSZ0w1N3d5QUNORmZXS1FEOWZHY3Y1RQ?oc=5",
@@ -4367,7 +4341,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elsalto-169",
+      "id": "elsalto-168",
       "title": "Florentino Pérez gestiona cinco residencias públicas de Gipuzkoa entre recortes, huelgas y despidos",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQy10WmZWVndjcDBQZS1MUWh1OEZOSkVvbWVycy1aU09oSTl6MlpOVHpYSDhuTm1MTFlsY19Wa29aQ1J4bVp6RlBoRVhXU0pjNy1icUxSZTlacnJnUjU1NEFrWUFLaUtBUFlQZXFZdkRXSVRkazNSNlNCcjYyQ2ozUXJ4NUtxMXRvcER2MjJtakgtXzFJajFNdEFQclFGaV9WRGU3dl91Z0NEcU5PamVlUWZiSTdLUk9jSENvd0RCOE9pYnJLT1FYalZ2Q29NMmZKemxr?oc=5",
@@ -4385,7 +4359,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "jacobinlat-185",
+      "id": "jacobinlat-184",
       "title": "Teoría crítica, Holocausto, antisemitismo y colonialismo",
       "summary": "Para Enzo Traverso, la memoria de las víctimas puede volverse contra aquello que debía proteger. Una conversación sobre teoría crítica, anticolonialismo, iconoclasia y los nuevos autoritarismos. La entrada Teoría crítica, Holocausto, antisemitismo y colonialismo se publicó primero en Jacobin Revista .",
       "url": "https://jacobinlat.com/2026/10/teoria-critica-holocausto-antisemitismo-y-colonialismo/",
@@ -4403,7 +4377,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "jacobinlat-186",
+      "id": "jacobinlat-185",
       "title": "Trump y la democracia en jaque",
       "summary": "Las elecciones de medio término del 3 de noviembre serán las menos democráticas en décadas. Plutocracia, mapas a medida, cheques condicionados al resultado y un ICE convertido en fuerza de ocupación interna: así se vacía una elección sin necesidad de suspenderla. La entrada Trump y la democracia en jaque se publicó primero en Jacobin...",
       "url": "https://jacobinlat.com/2026/10/trump-y-la-democracia-en-jaque/",
@@ -4457,7 +4431,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "jacobinlat-187",
+      "id": "jacobinlat-186",
       "title": "Imperio, de Hardt y Negri, no vio venir el siglo XXI",
       "summary": "Michael Hardt y Antonio Negri ofrecieron una teoría maestra de la globalización cuando las viejas categorías marxistas parecían agotadas. Pero el internacionalismo capitalista que daban por permanente se estrelló contra la realidad. La entrada Imperio , de Hardt y Negri, no vio venir el siglo XXI se publicó primero en Jacobin Revista .",
       "url": "https://jacobinlat.com/2026/10/imperio-de-hardt-y-negri-no-vio-venir-el-siglo-xxi/",
@@ -4493,7 +4467,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-160",
+      "id": "elsalto-159",
       "title": "Milei arrastra a Argentina a las puertas de una recesión",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWJmYXVzM0prdEZKYm1TcThjMkUwSGtfZ2JCc3RPUk5CdmFGazY0N0JkbXU4eWRYRDVUQWExT1plN3lPeWMzQVdhMTE5cXdPR0cteFhYN19sZ29xME9MdWswWkQ4TUJSc3JqSWhhTzJ3d3lZdU4tcmlrWUgwbHFlalhMSUF3M25zSTFCbmF3?oc=5",
@@ -4509,24 +4483,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 76,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "ciclismo-chile-119",
-      "title": "Un chileno será protagonista de una carrera extrema en Norteamérica: ¡dará que hablar en el ciclismo mundial! - AS Chile",
-      "summary": "Un chileno será protagonista de una carrera extrema en Norteamérica: ¡dará que hablar en el ciclismo mundial! AS Chile",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX2U3VVhPUnplb2lQZ1RXUXcyZ1dGNzB2VVB0VUJtSEx5MHNTcjdVamV1bm5YRlNJX2JUY05Xd1hWYlFiVzhQdHVFM2RVWmFxa29Sb3NENlVVT1otLXlHQXRjUXl6WUk5bWh3cUhBd3FYZlNVRzNNN2gzRnVmSnU3eHdBYlBuS0M2c0swdW93N0pRVDF4ZExNY3NpZklYOU9hcGJhRUx0SG9DNmhkZkpfaDliQXM5UWNaNGN2VW4yeG8wQmUtV1RXSVhfYWQ2WmZ1RjhYQUtJSXlqY0xlWEJyQzVHUdIB9wFBVV95cUxPRlBvNTA3Uk15c0xKaTNpT2V3YTZ3bFpucVo4ZUVRWkszc1Y3bURtZGZPWE5rTFFmYm8zV29PaU9oWDFEUWFpS2FwNFlydE1pZ2RYME15d2ZEcWhKX0JoSzFOMUM2UEdWa2NleklRNzBWdmkxRWlyRjl3R202c0traUNUdGk1YjhWYjFmMk9QY0VtTkFtLVhHbVVLZUx4VXVHaV9waGJ6SG53OFQ2RFhqWU96dG5RSWhRNHliekx4YkxxQmVpZEZuZ3BBeGY5X2xidVJyRTNVMU9kbURERWpITl9kR1d2WGc4WXUwYXF4LVNsUkF4Mkc0?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-16T19:27:29+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "resumen-45",
@@ -4547,7 +4503,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "jacobinlat-188",
+      "id": "jacobinlat-187",
       "title": "Diez días decisivos",
       "summary": "La izquierda brasileña volvió a las calles como no lo hacía en décadas. De esa energía, y de lo que pueda hacerse con ella en los próximos días, depende que el bolsonarismo pueda ser derrotado el 25 de octubre. La entrada Diez días decisivos se publicó primero en Jacobin Revista .",
       "url": "https://jacobinlat.com/2026/10/diez-dias-decisivos/",
@@ -4565,7 +4521,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-203",
+      "id": "brecha-202",
       "title": "En busca del bajo perdido",
       "summary": "Nota publicada por Semanario Brecha (LatAm) (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ocV9uQkJpb04tZ2VjQ0lfN0VfaVlDbFVMbWN0NDRCMjFfMG52WEQybS1Ha3JxdDFsUWw3NDJVUmRHQU02VjRSNlltc0hTMExHQUFNYnNidDI2cWgt?oc=5",
@@ -4583,7 +4539,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "jacobinlat-189",
+      "id": "jacobinlat-188",
       "title": "Recordar a Peter D. Thomas (1973-2026)",
       "summary": "Recordaremos a Peter D. Thomas no solo por su aporte invaluable a la teoría marxista y el pensamiento gramsciano, sino sobre todo por su irónico sentido del humor y su capacidad para convertir cada conversación en una experiencia verdaderamente formativa. La entrada Recordar a Peter D. Thomas (1973-2026) se publicó primero en Jacobin...",
       "url": "https://jacobinlat.com/2026/10/recordar-a-peter-d-thomas-1973-20262/",
@@ -4619,7 +4575,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "bellingcat-211",
+      "id": "bellingcat-210",
       "title": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Satellite imagery obtained by Bellingcat lays bare the extent of tree-felling at a Washington DC golf course that President Trump is reportedly seeking to transform into a championship-level course, despite moves to protect the site by...",
       "url": "https://www.bellingcat.com/news/us-canada/2026/10/15/satellite-images-show-extent-of-trump-admins-tree-felling-at-dc-golf-course/",
@@ -4637,7 +4593,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elsalto-163",
+      "id": "elsalto-162",
       "title": "Más Madrid ofrece a Podemos lugares en la lista y la duda es si Colau será candidata sin unidad",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGFkM1lmVlZDR09fUkw5bjczNjUwU0YtUks4RUJ6MGFNMjE0b1BIWUFFby1Tbk92a3RodVg0MnFpbWFjWUpfQzJJTHRPZ0Q3SVJSNGZrUEJvRERZaXB3akd3cmJJNU1XUjBfZndpQTVidmNxODlHbmNwaXBSUzRpRGwtMHl0VDhKTDJJdzRmcjFFUTVlRDJIRXE1VFBBRllRaTQzOFhxTWZyUXgybHI0?oc=5",
@@ -4655,25 +4611,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ciclismo-chile-117",
-      "title": "¡Tres medallas! La chilena Francisca Campos brilló en el Mundial de Ciclismo de Pista Máster 2026 - Ridechile",
-      "summary": "¡Tres medallas! La chilena Francisca Campos brilló en el Mundial de Ciclismo de Pista Máster 2026 Ridechile",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZnFCVkczMVdFMk9FazAwRXhMOEpuaWtSZHhlMWxYRnBuRnlCOTEtd19wV0NHOVBqWE1BN21CaGtlYnhkWVlieFZ4ZmE5X2dWQ1pITDNmQ2FVa1pRZExidnh2U2tRM2RmY2Mxc0xSUk52V2Zac1RrUmlJWE1OeDJIM0NzZzRnQXM2SnBFZU80U2FGN2FocWM3Sk1hejJ6anB6LW5KMkZSTVhHZ01PalNFVjFZUU5qZWFhVGZOUXlqLVhzV3JHQW1v?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-13T07:00:00+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
-      "id": "elsalto-165",
+      "id": "elsalto-164",
       "title": "GKS fija la meta de “construir un Partido Comunista europeo” frente a más de 4.000 jóvenes en Elizondo",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeW9CLXpWMUZFT014eWY2UUVTWUFjMFlWd1cwb2lhTkhpcjRNUUFmMnd6WEo3di1TWmxqV2ZWQktfUVh3NlVPeWdfbEpndWdqZGFNY1FMMFVhcVVKdVVYQ2hVV0I5a0tPdkFubTg3NVpsdDBDRnJldnF2OWdreTd3VFhQbERzejhIS08zYVVjU091dU92djRpQVAxVE01T0Z6QUlxZW9Ka2M?oc=5",
@@ -4691,7 +4629,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elsalto-167",
+      "id": "elsalto-166",
       "title": "¿Ha llegado el momento de hacer una huelga de compra en los grandes supermercados?",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRUEwZnhyQ2xCSHFpcW9SQTJmdWhsempRLU1SUHV3TkE0M0w4Z0RoMGlOMVRNTEtDclY4Zy1yVzY1WFJ6OTc0TEEwYy1WejZ1d2YtSlF5eHdZRU5laUpscGJfX1prcnBacUpNOWI2Y1JyX3cwc1JtOV9abzJLSXlNdFdqQm5Ta25oYVl5VFpRVWI2QUVkMElfeEpBc3FGaS1fdjJFdjFlTUdVWFU?oc=5",
@@ -4727,25 +4665,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "ciclismo-chile-116",
-      "title": "Abren inscripción a Final Frontier Patagonia 2027: la travesía en bicicleta que une Chile y Argentina - Diario Binacional",
-      "summary": "Abren inscripción a Final Frontier Patagonia 2027: la travesía en bicicleta que une Chile y Argentina Diario Binacional",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQU2drVzc0VDBGRlBqNzBRZkc5M2lBc0prdW1OS2pweGdQbFlQT0J0TzdTY052SzZQQjZNdENINDVjZEJIakk4dTRuMENrOXJOVU1fYnc2dUlSb2o3Y2RCVDZOSEVhVi1tR3hmbVVvTkhlV21iWmRudFItQTZCNVRUTnJmLWtmS1lFMms3dWNYWHUyR0tJT0g0VDZob3VGN05XNnA5NU8xb0xuN1IxcXlRRl8zZTM0UkFyYlBFOUc2eGhpZ0llWHlraFFiU19KeTJ6SDBXTmNiRzJwdTJaX0R0NVd0V3VjZXEtVVBLaw?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-07T07:00:00+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
-      "id": "bellingcat-212",
+      "id": "bellingcat-211",
       "title": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. US non-profits whose founding leaders or organisations have been associated with India’s controversial Rashtriya Swayamsevak Sangh (RSS) – or initiatives the Hindu nationalist group has endorsed – received millions of dollars over...",
       "url": "https://www.bellingcat.com/news/2026/10/06/dafs-india-rss-donations/",
@@ -4763,7 +4683,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-114",
+      "id": "ciclismo-chile-111",
       "title": "La joven que conoció todas las comunas de Chile en bicicleta: \"Lo que más se repite es la generosidad\" - BioBioChile",
       "summary": "La joven que conoció todas las comunas de Chile en bicicleta: \"Lo que más se repite es la generosidad\" BioBioChile",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZlVtUzZrNlR2QnppS2JoNDdqQXNqM0M5bHU0bUVlZVg5WUlDZnNmT25oUXdGbFUtSlh3YkNlVTROdEpoSW4xaXpMaUQ4bnFkTDV3M0ttUzl4aWhCU2t4QThsaEdQQXhnUnluNHpQZTlSc1NCN0hqb01EWlV6WGZReWIyUzFLOGdCRWNtZGw4MzJ1Z3hHYkJPY3ZPbFB5ZVpGSndOZTZoWWNMUzNvbUx4QjctZ3FrVGVEazJVbFRIbDc5WlBlS1lrQ2Jwd1RISGRqazhJWG1iNnJlMFhVS1kzU1l6SWo0M2dzcVYxeXpCOGhfdWpJNnc0cEcwd0IzTHc?oc=5",
@@ -4781,7 +4701,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "ciclismo-chile-118",
+      "id": "ciclismo-chile-112",
       "title": "Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina - 24horas",
       "summary": "Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina 24horas",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOTFuNThHQTJtTXV1SEJTTHcwc2dvWkV6YWtzUHNKZDlLQXhUZTZRWDdVaDJuS2Y5dnFzcHdUNGhDWlJUeXh1X2NmZlZZTG9MQ083eXFfR0tnY1RvNk0ybFFwc0VUNHFrZGdTVl9mTC16cHg5eW5uTDBVZW1Nb0ZDX1JoTzhCLVBUekk4TlF2VWl0Nk0xYnIyU0pvU2Y4dHfSAaQBQVVfeXFMTzhLYThHbUhtZ1lGby16QXFueTI5b0c0aDd5dy05R21VT2VEc0I4ME9kanFfeTBkdzJGYnF4S1Jwc01PbkFXNmpDbXB1YWtYTDhLazdXbEdMdGt5cXIzWVZQN3p4aFJKbDkxb1dsbTlFMzItdkFOUWQwSW1hOFBVZ0tMRmdNYWJ4S0pfYmtLdDVYNUFOMWpjbktoU0xkakhIdnVZYkw?oc=5",
@@ -4799,7 +4719,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "bellingcat-213",
+      "id": "bellingcat-212",
       "title": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
       "summary": "Earlier this week, several viral social media posts and news articles stated that Google had updated satellite imagery over Gaza. The imagery shared in these posts and articles shows several areas, including the southern city of Rafah. Huge destruction is detailed in the images, including what appears to be entire neighbourhoods...",
       "url": "https://www.bellingcat.com/news/middle-east/2026/10/01/viral-google-maps-images-shared-widely-this-week-show-gaza-ruins-we-obtained-more-recent-satellite-imagery/",
@@ -4817,12 +4737,12 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-115",
-      "title": "La Vuelta llega por primera vez a Chile: histórica competencia de ciclismo recorrerá el Valle de Colchagua - ADN Radio",
-      "summary": "La Vuelta llega por primera vez a Chile: histórica competencia de ciclismo recorrerá el Valle de Colchagua ADN Radio",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOempFZUgzelg5eEJVOThlVDBTNVY4elgyNDBlTTdMYjZpX1lIZllja3ZyZTM0OUtEcEdrX0EzNlhMd1VGNS16UFlJYnlyMkhmUUxVTEpyT2hzX3N4YjZwdVZ6LXpUMXVOcjhucVJ1WlJUZFVTQ3JBWFFsZV92RXA0YkI0UE15VlVvY0Z5N052VzFRVHg0OTA2elB3Rl9pczMtVG9GeUlUUklkWXR4RHZPdjZ0SGh2b3lOMHREdjJzU1NRUE9qYm9QbVoxNHVVOXVYQkU3NHNZUTHSAewBQVVfeXFMUEtqbEFuRkExVkMyQXEyTmdZRVg5N0hCdzQwNk9QRjJWbFk2VXo4T0x4RERFZWU3R1dheWF5QWNTWWZoMTA2bmZjaXdta3hXVDN3RXRYVkhzczhnZXR5ajZhbXB5Tzg0LVI1WTh6VTZLUmJpVFoyejRrek5BT1EteFE1N3ZCSF9HR0tybjQtSW9kMGR4UmQtRHl3TkpPeWFvUm1rRFF3SUw4cWs3THI4RC1pN3BOVE9wM09tSWFLT1pXdVlyc0NCcjgxQzJSYzI1Q2l4THZzVWVsQzVqTXNKb29KR3JhUjFhQzVtNGQ?oc=5",
+      "id": "ciclismo-chile-114",
+      "title": "Final de infarto: chilena vence a Argentina con “fotofinish” en ciclismo pista - TVN",
+      "summary": "Final de infarto: chilena vence a Argentina con “fotofinish” en ciclismo pista TVN",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdHJQWWxXeDVYdGl0MW9IM1VUZjl4TUZFSFliR0FWYjFnOVhwXzVDdkJNZ3EtenZDSkZEZDZGck9ldHpvQTh5aU04Q1ZuYU5PbjFSblVhUGdqM1hrUGlYRjdKYmg2c1Jsb3hpS0xUSUtLN00ydGsyR1ZBRl9fM2JXN0RyYmY2eWxZWVJ5T2M5eVk4M1VsMEc4bDdia2ZLQklPeHMzeno3Z2VWSVB5cmR6UlVUakJFMUY0WjY4b3BVN2tFVjJkdXk4?oc=5",
       "image": null,
-      "publishedAt": "2026-09-26T07:00:00+00:00",
+      "publishedAt": "2026-09-22T07:00:00+00:00",
       "sourceId": "ciclismo-chile",
       "sourceName": "Ciclismo Chile",
       "sourceType": "Ciclismo y Deporte Nacional",
@@ -4835,7 +4755,25 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "bellingcat-214",
+      "id": "ciclismo-chile-113",
+      "title": "Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur - Teletrece",
+      "summary": "Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur Teletrece",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMlB3VTJvcEp1aS11U0JNcVBsWFpyZ3ZQanRXTWYzcFNFay1mdmdCdjYyYXJrWWRuRmZhUXBFV2RMX0xTSDhMa05VTzNYb3duMG42cldxMDhXU1NwZ2xJNGdPV21yOUtkOXZsd25Yb19uQVowQjlvUFlodW02WTVUM2pxOTBiNTNVTUgxUV90NW4wdkhURlJkY3VaZ0Z0NXFmUDJmZXlyVnZWbHQxeThpRm9rT0ZmdmNRdUZES1Zhc1FPUQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-09-21T07:00:00+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "bellingcat-213",
       "title": "Christy Kinahan’s UAE Residence Visa Cancelled",
       "summary": "This article is the result of a collaboration with The Sunday Times. You can find their corresponding piece here. Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Christy Kinahan, the Irish founder of the Kinahan Organised Crime Group who is being pursued by authorities around the...",
       "url": "https://www.bellingcat.com/news/2026/09/19/christy-kinahans-uae-residence-visa-cancelled/",
@@ -4853,7 +4791,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "bellingcat-215",
+      "id": "bellingcat-214",
       "title": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. WARNING: This report contains links to graphic images and footage. A joint Bellingcat and Jeune Afrique investigation into drone strikes carried out by the Malian military adds new details about the attacks which frequently are carried...",
       "url": "https://www.bellingcat.com/news/2026/09/16/drone-strike-civilians-killed-aes-sahel-mali-russia-africa-corps-guilt-by-location-jeune-afrique/",
@@ -4871,7 +4809,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "bellingcat-216",
+      "id": "bellingcat-215",
       "title": "Bellingcat Official Merch Design Contest",
       "summary": "Guess what? Bellingcat is finally launching an official merch line! That’s right: after years of fantasizing and wishing, we’re finally ready to get our name and logo on cool merch that you’ll be able to show off. We’re working with a high quality, sustainable merchandising company to make all kinds of cool swag: coffee cups, […] The...",
       "url": "https://www.bellingcat.com/uncategorized/2026/09/14/bellingcat-official-merch-design-contest/",
@@ -4889,7 +4827,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "bellingcat-217",
+      "id": "bellingcat-216",
       "title": "Investigating a Murder: Public Records Uncover New Clues in Chinatown Cold Case",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. On a June night in 1996, in a basement apartment in Boston’s Chinatown, a killer put a pistol to the back of a young man’s head and pulled the trigger. The victim’s body was wrapped in quilts, lowered into the trunk of […] The post...",
       "url": "https://www.bellingcat.com/news/us-canada/2026/08/31/investigating-a-murder-public-records-uncover-new-clues-in-chinatown-cold-case/",
@@ -4907,7 +4845,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "bellingcat-218",
+      "id": "bellingcat-217",
       "title": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. A sanctioned vessel that was previously reported to have transported weapons destined for Russian mercenaries has been traversing ports on the west coast of Africa since March, exhibiting what experts told Bellingcat was an unusual set...",
       "url": "https://www.bellingcat.com/news/africa/2026/08/25/patria-sanctioned-russian-vessel-russia-us-africa-cameroon-gabon-lagos-nigeria/",
@@ -4925,7 +4863,25 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "bellingcat-219",
+      "id": "ciclismo-chile-115",
+      "title": "Ciclista chileno de 11 años hace historia en el Crankworx Whistler 2026, el festival de mountain bike más impo - AS Chile",
+      "summary": "Ciclista chileno de 11 años hace historia en el Crankworx Whistler 2026, el festival de mountain bike más impo AS Chile",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUGhBVzQ0TnFGV3RNakZ3c2xveWtPXzJFTG9kZUI4azRuY3I5akhETlJHTWhsTTQ0U2JGVDI3LVlkeGdDZFFTR2p5bUZibnQ5T1JJNVJJWTgtTzdIQ1ZxMllzV3lyQ1NCRVpWTktxcXppQ1FJS3JSbGNMalcyZ0lCc2ZaZ29PMUtObThNTTRTSlNhRzc1SHVTbzNrYWZ5ZlRtYXNsbnFlcmExZTVkTHh2RHpraXpoRzVoX1JwODdfZl9ocTR4SFZKZ2plUmIzbzJ4MW9PaW5uc0dkdzVIODBhSnZBY25TNHptU2Mwc2JmbWdSZlBqc2xxc09zQ2TSAZACQVVfeXFMTWdEcTdfUTZHdVNqdWVYRjFMaUlBcTdPSDJYazhSVjBLaGdDdXJuUHN0TEFBUXF2MjdGREpsSjVtN3NNbUE5ZGNCTUxqa1FrVHhoQWxyZlloeEJTLV8xQm9PcGVEaS1fdHNOYlBlQWxJX2poMW5XbmZIMmN4R3BSX21tdms5UGFVSjI5dWdiS1ZWRFhsMFpEaklZdGp0RFdObE5DcGlGRFVnc1NrWnRYMWpVRzJuNFlCYmQtZm9CbThfWmVYcXNKYUZtVlpTaElQWUVmNjBhM0ZZdG1sY3RPVFMxYXJ5TW1XZVJleUpJaVFrTlVyTzhYb1U1b00xbkdXWmdpOU9mdmZ0SFZSZTZYVTA?oc=5",
+      "image": null,
+      "publishedAt": "2026-08-25T07:00:00+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "bellingcat-218",
       "title": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Satellite images obtained and analysed by Bellingcat show over five miles of new road constructed in Big Bend National Park in southwestern Texas, part of a US Customs and Border Protection (CBP) “Smart Wall” installation, which...",
       "url": "https://www.bellingcat.com/news/us-canada/2026/08/20/satellite-imagery-documents-new-border-patrol-road-construction-in-big-bend-national-park/",
@@ -4961,7 +4917,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "sinpermiso-190",
+      "id": "sinpermiso-189",
       "title": "5-7-2026",
       "summary": "Cumbre de Ankara de la OTAN: a la sombra del “cambio de régimen global” trumpista Gustavo Buster 1936: el año de la revolución Miguel Salas Bancos + Turismo = Colapso del acceso a la vivienda en España Albino Prada Discurso de Zohran Mamdani en el 250 aniversario de los Estados Unidos Zohran Mamdani Historia e inventario Julio César...",
       "url": "https://www.sinpermiso.info/content/65516",
@@ -4997,7 +4953,25 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "sinpermiso-191",
+      "id": "ciclismo-chile-116",
+      "title": "Gran Fondo Curacaví: ciclista olímpica y excampeón de Chile en ruta liderarán el pelotón de la competencia - ADN Radio",
+      "summary": "Gran Fondo Curacaví: ciclista olímpica y excampeón de Chile en ruta liderarán el pelotón de la competencia ADN Radio",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZTdBZE9naUVJRlJUaTlsajlIRDRYTFFqWnUyYkJDNl9OWTBZTlY2RFluU0R0WmRueWg0U1RmclR0eU1HY0tLU3pnMDNKY3NwYzB2ZkRNU1VBM1JTdC0wU2xQTExldDNEcGJhY0pOQUtwUjFiSmZRUmtLeG5GbGhtcFhRUlNNaWFhTzdzcVNLV2NQVzBaNjdkdXVoNHkyV3hQNEItNzloNWNEbjZwRi1SZUZJRE5mYlg1TGNrU1NkdGt1aU1BejM1UzR3TWlXZG1rdzZMX0lURGrSAewBQVVfeXFMUFYzTW1xaEZiUjRnVWJETHpQR1N2Zm9IMHktaWJMRlRma3pZNGN6bUY3RE04YlhSS3NOaXp2YlNlZThoZlJfS1JNem4xXzlocXJSNDhlYXg1ZktjS1BTUXBBVXdSaUtpeFdNRU4yX3dWUlVQamFEV1VoMHVwUnU2cFZVNW1tRmlIS1hYNDc4Uk5PUnZTQ3R2UmxJdmV2RmhIQl83cGt5Tm9nNS1JamVSRkthTkJMclVwX1dUUkl3a2djNzU2ZHItYnFiYWVjRnp1dVZxdXlqUVpZRFh6SW96SlBTdERqdWRhUlgxYy0?oc=5",
+      "image": null,
+      "publishedAt": "2026-04-17T07:00:00+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "sinpermiso-190",
       "title": "12-4-2026",
       "summary": "Porto Alegre 2026: una convergencia antifascista y antiimperialista entre un éxito sin precedentes y grandes obstáculos Eric Toussaint ¿Cómo reaccionar ante el actual shock del capitalismo fósil? Albino Prada Viaje del Papa León XIV: Transformar la tribuna parlamentaria en un púlpito Antonio Gómez Movellán Cómo medir la tasa de...",
       "url": "https://www.sinpermiso.info/content/65268",
@@ -5015,7 +4989,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "sinpermiso-192",
+      "id": "sinpermiso-191",
       "title": "5-4-26",
       "summary": "Bernstein: el desconocido padre del “revisionismo” Michael R. Krätke «¡Aprended, pues, a querer!» 200 aniversario del nacimiento de Wilhelm Liebknecht, revolucionario y fundador del Partido Socialdemócrata de Alemania Ingar Solty Ramón Zallo (1948 -2026): Un referente de la izquierda vasca Jesús Uzkudun Illarramendi EEUU: ¿Cómo evitar...",
       "url": "https://www.sinpermiso.info/content/65248",
@@ -5033,7 +5007,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "sinpermiso-193",
+      "id": "sinpermiso-192",
       "title": "1-3-2026",
       "summary": "Monarquía y nacionalismo español: “Al final reconocerán lo que hice. Voy a acabar ganando” Daniel Raventós Irán: Entre las balas de los Ayatollahs y los misiles de Trump y Netanyahu. Dossier Bamo Nouri Salar Abdoh Trita Parsi Eldar Mamedov Vitoria-Gasteiz: a 50 años de la revuelta obrera y la represión franquista del 3 de marzo de...",
       "url": "https://www.sinpermiso.info/content/65144",
@@ -5051,7 +5025,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "sinpermiso-194",
+      "id": "sinpermiso-193",
       "title": "En el ecuador del segundo gobierno de coalición progresista (enero 2026)",
       "summary": "Presentación Este es un nuevo libro electrónico de Sin Permiso . El último que publicamos fue en abril de 2025 y estuvo dedicado al rearme europeo y a la economía de guerra . Vistos cómo han ido sucediendo los acontecimientos hasta hoy, desgraciadamente fue un libro actual, demasiado si se nos permite. Ahora hemos confeccionado uno de...",
       "url": "https://www.sinpermiso.info/content/65047",
@@ -5069,7 +5043,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "sinpermiso-195",
+      "id": "sinpermiso-194",
       "title": "25-1-2026",
       "summary": "Presentación del monográfico: En el ecuador del segundo gobierno de coalición progresista Comité de redacción de Sin Permiso La opción europea Roger Martelli El consenso económico: de Washington a Londres Michael Roberts Sobre un acelerador (invisible) de la actual bomba inmobiliaria Albino Prada Neoliberalismo todavía, o ya no Antoni...",
       "url": "https://www.sinpermiso.info/content/65033",
@@ -5087,7 +5061,25 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "sinpermiso-196",
+      "id": "ciclismo-chile-118",
+      "title": "¡Ciclismo ancestral! Las comunidades indígenas de Chile están allanando el camino a seguir - Chile Travel",
+      "summary": "¡Ciclismo ancestral! Las comunidades indígenas de Chile están allanando el camino a seguir Chile Travel",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbDJxVUxTT1RYLTlYT053b2FjaURuZklBd05ZNi1MQ0tGbGZ4YTA4Z3lhb29iNU9laGIyWWRSNW5GYkpmOVZMRGFnT2Jhdjk4S21BVGExelZ5VU13WUlha25YSU9JbHdUeTFVaXdVZExJb0d1Vy1VTkdSdzNfZDZCUlRuUHRra1dQUTBTN1lQU2JrZFB4MVJNVW1QbVBid1BNRl9OQndLUi1KbXU0NUFqRFpZY1F5dw?oc=5",
+      "image": null,
+      "publishedAt": "2026-01-16T08:00:00+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "sinpermiso-195",
       "title": "7-12-2025",
       "summary": "Economía política republicana y deuda soberana María Julia Bertomeu Pujol, un activo tóxico en un espacio político descentrado Daniel Escribano Àngel Ferrero Bélgica: “Después de tres días de huelga, un gran movimiento social sin alternativa política” Mateo Alaluf Venezuela: la amenaza imperialista y los posibles escenarios Luis...",
       "url": "https://www.sinpermiso.info/content/64888",
@@ -5105,7 +5097,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "sinpermiso-197",
+      "id": "sinpermiso-196",
       "title": "5-10-2025",
       "summary": "Reino de España: Otra mirada sobre la situación política Miguel Salas Marruecos: las razones de la indignación de la GenZ 212. Dossier Omar Brouksy Ihssane El Omri Si Europa no abandona su religión de libre comercio, corre el riesgo de un desastre social e industrial Thomas Piketty TikTok, Oracle e Israel, o la nueva geopolítica de...",
       "url": "https://www.sinpermiso.info/content/64711",
@@ -5123,7 +5115,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "sinpermiso-198",
+      "id": "sinpermiso-197",
       "title": "28-9-2025",
       "summary": "\"La justicia política en España va mucho más allá de la dictadura franquista\". Entrevista con Daniel Escribano Daniel Escribano UNGA80: contra el genocidio, defender un futuro mejor para la Humanidad Yolanda Díaz Agustín Santos Maraver Más allá del «Plan Marshall»: el auge solar de China como política industrial que cambia el mundo...",
       "url": "https://www.sinpermiso.info/content/64685",
@@ -5141,7 +5133,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "sinpermiso-199",
+      "id": "sinpermiso-198",
       "title": "8-6-2025",
       "summary": "Una renta básica universal para una mejor vida, salud y libertad Sergi Raventós Polonia: La victoria de Nawrocki es la de la extrema derecha trumpista. Dossier Jakub Majmurek Amélie Poinssot Lenin sin condescendencia Àngel Ferrero China: El auge de la superstición en un estado ateo Ansel Li El debate sobre Gaza ha concluido Peter...",
       "url": "https://www.sinpermiso.info/content/64427",
