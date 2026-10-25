@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-25T04:01:09.048269+00:00",
+  "generatedAt": "2026-10-25T04:21:12.630547+00:00",
   "totalArticles": 251,
-  "totalBlockedFarandula": 12,
+  "totalBlockedFarandula": 11,
   "blockedExamples": [
     {
       "title": "No solo a pederastas: Gobierno de Kast otorgó dos rebajas de condenas a presos de Punta Peuco por secuestro y tortura",
@@ -57,11 +57,6 @@
       "title": "Vuelta del Biobío 2026: cinco etapas y 660 kilómetros marcarán el regreso del ciclismo UCI a Chile - Universidad de Chile",
       "source": "Ciclismo Chile",
       "reason": "universidad de chile"
-    },
-    {
-      "title": "Israel cierra accesos a Hebrón y desplaza familias en represalia por el ataque palestino de ayer",
-      "source": "DW Español",
-      "reason": "palestino"
     }
   ],
   "sources": [
@@ -596,7 +591,7 @@
       "independent": false,
       "status": "ok",
       "count": 10,
-      "blocked": 1
+      "blocked": 0
     },
     {
       "id": "france24",
@@ -610,6 +605,42 @@
     }
   ],
   "articles": [
+    {
+      "id": "dw-232",
+      "title": "Israel bloquea a Cisjordania el día de las elecciones legislativas",
+      "summary": "La fuerza armada anunció \"la prohibición de entradas y salidas para trabajadores palestinos en Cisjordania, así como los cruces terrestres durante el día de las elecciones”.",
+      "url": "https://www.dw.com/es/israel-bloquea-a-cisjordania-el-día-de-las-elecciones-legislativas/a-79753468?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-10-25T04:08:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "propublica-222",
+      "title": "A Texas Cop Signed on to Help ICE Deport His Neighbors. It Tore the Town Apart.",
+      "summary": "The post A Texas Cop Signed on to Help ICE Deport His Neighbors. It Tore the Town Apart. appeared first on ProPublica .",
+      "url": "https://www.propublica.org/article/deportations-ingram-texas-287g-jaron-alexander",
+      "image": "https://www.propublica.org/wp-content/uploads/2026/10/001_maxWidth_3000_maxHeight_3000_ppi_72_quality_95_embedColorProfile_true.jpg?resize=2000,1333",
+      "publishedAt": "2026-10-25T04:00:00+00:00",
+      "sourceId": "propublica",
+      "sourceName": "ProPublica",
+      "sourceType": "Investigación Sin Fines de Lucro",
+      "sourceSite": "https://www.propublica.org",
+      "region": "mundo",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 91,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
     {
       "id": "cooperativa-92",
       "title": "Los Lagos: PDI denunció a 16 extranjeros por infracciones a la Ley de Migración y cursó dos expulsiones",
@@ -647,7 +678,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-232",
+      "id": "dw-233",
       "title": "Fiscal general de EEUU defiende demanda para frenar certificación electoral en Alaska",
       "summary": "La demanda ha sido impugnada por organizaciones de derechos civiles, que consideran es un ataque \"sin precedentes\" a la democracia.",
       "url": "https://www.dw.com/es/fiscal-general-de-eeuu-defiende-demanda-para-frenar-certificación-electoral-en-alaska/a-79753433?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -989,7 +1020,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-233",
+      "id": "dw-234",
       "title": "Un centenar de detenidos por disturbios durante una protesta juvenil en Barcelona",
       "summary": "La manifestación reunió a unos 600 jóvenes que según la policía atacaron y saquearon 14 establecimientos comerciales de la capital catalana.",
       "url": "https://www.dw.com/es/un-centenar-de-detenidos-por-disturbios-durante-una-protesta-juvenil-en-barcelona/a-79753077?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1007,7 +1038,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-234",
+      "id": "dw-235",
       "title": "Miles protestan en Italia bajo fuerte dispositivo de seguridad",
       "summary": "Unas 3.000 personas marcharon por Milán, paralizando el tránsito en el centro de la ciudad.",
       "url": "https://www.dw.com/es/miles-protestan-en-italia-bajo-fuerte-dispositivo-de-seguridad/a-79753084?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1079,7 +1110,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "dw-235",
+      "id": "dw-236",
       "title": "Israel desplaza a miles de palestinos de Hebrón tras mortal ataque",
       "summary": "Tras el ataque ocurrido este viernes cerca de Hebrón, en el que murieron dos militares israelíes, el primer ministro israelí Benjamín Netanyahu anunció una operación militar de gran escala en Cisjordania.",
       "url": "https://www.dw.com/es/israel-desplaza-a-miles-de-palestinos-de-hebrón-tras-mortal-ataque/a-79752970?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1133,7 +1164,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-236",
+      "id": "dw-237",
       "title": "Hutíes de Yemen atacan Arabia Saudita y la ciudad yemení de Adén",
       "summary": "Los combatientes hutíes aseguraron haber atacado tres aeropuertos sauditas, estaciones de petróleo y una base aérea en las últimas 24 horas.",
       "url": "https://www.dw.com/es/hutíes-de-yemen-atacan-arabia-saudita-y-la-ciudad-yemení-de-adén/a-79752963?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1187,7 +1218,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "dw-237",
+      "id": "dw-238",
       "title": "Casi 1.000 personas son detenidas en nuevas protestas en Francia",
       "summary": "Unas 110.000 personas participaron en París en las manifestaciones convocadas en todo el país por el aumento del costo de la vida, según la policía.",
       "url": "https://www.dw.com/es/casi-1-000-personas-son-detenidas-en-nuevas-protestas-en-francia/a-79752787?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1295,7 +1326,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-238",
+      "id": "dw-239",
       "title": "Aumenta a nueve el número de muertos por ataque contra iglesia en Jordania",
       "summary": "Estos ataques son sumamente inusuales en Jordania, un Estado relativamente estable en Medio Oriente. \"El atentado terrorista contra Karak recibirá la respuesta más dura\", aseguró el rey jordano Abdalá II.",
       "url": "https://www.dw.com/es/aumenta-a-nueve-el-número-de-muertos-por-ataque-contra-iglesia-en-jordania/a-79752201?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1331,7 +1362,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-239",
+      "id": "dw-240",
       "title": "¿Puede Alemania reformar su economía antes de que la AfD siga creciendo?",
       "summary": "Los conflictos, el aumento de costos y la competencia china están poniendo a prueba el modelo económico alemán como nunca antes. ¿Qué nuevos sectores podrían reactivar el crecimiento y contener el ascenso del populismo?",
       "url": "https://www.dw.com/es/¿puede-alemania-reformar-su-economía-antes-de-que-la-afd-siga-creciendo/a-79749406?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1457,7 +1488,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "dw-240",
+      "id": "dw-241",
       "title": "BUNDESLIGA: escuche el partido Borussia Dortmund vs. Eintracht Frankfurt",
       "summary": "Siga en directo el partido estelar de la jornada 7 de Bundesliga entre Borussia Dortmund vs. Eintracht Frankfurt. Con la narración de Enrique López y el análisis de Erick Elola.",
       "url": "https://www.dw.com/es/bundesliga-escuche-el-partido-borussia-dortmund-vs-eintracht-frankfurt/a-79751727?maca=spa-rss-sp-all-1122-xml-mrss",
@@ -1707,24 +1738,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 84,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "dw-241",
-      "title": "Friedrich Merz advierte de que Alemania se enfrenta a una amenaza enorme por parte de Rusia",
-      "summary": "El canciller alemán intervino en la convención de la Unión Social Cristiana, la hermana bávara de su partido CDU, con un discurso centrado en temas de política interna.",
-      "url": "https://www.dw.com/es/friedrich-merz-advierte-de-que-alemania-se-enfrenta-a-una-amenaza-enorme-por-parte-de-rusia/a-79750506?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": "https://static.dw.com/image/79750089_6.jpg",
-      "publishedAt": "2026-10-24T12:14:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "eldiarioes-166",
@@ -2537,7 +2550,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-222",
+      "id": "propublica-223",
       "title": "After Millions in Stolen SNAP Benefits, Trump Administration Moves to Fight Theft",
       "summary": "The post After Millions in Stolen SNAP Benefits, Trump Administration Moves to Fight Theft appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/snap-theft-chip-cards-trump-rule",
@@ -2627,7 +2640,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "propublica-223",
+      "id": "propublica-224",
       "title": "Ken Paxton Says He’s Tough on Crime. His Trust Invested $600,000 in a Convicted Fraudster’s Company.",
       "summary": "The post Ken Paxton Says He’s Tough on Crime. His Trust Invested $600,000 in a Convicted Fraudster’s Company. appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/ken-paxton-investment-scott-sherman-wildcatter",
@@ -2969,7 +2982,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-224",
+      "id": "propublica-225",
       "title": "Bird Flu Is Raging on a Mink Farm. It Could Spark a Human Pandemic, Experts Say, but Officials Won’t Act.",
       "summary": "The post Bird Flu Is Raging on a Mink Farm. It Could Spark a Human Pandemic, Experts Say, but Officials Won’t Act. appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/bird-flu-mink-farm-utah-human-risk",
@@ -3473,7 +3486,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "propublica-225",
+      "id": "propublica-226",
       "title": "Nuclear Weapons Waste Made Workers Sick. Despite a Law Meant to Help, the DOE Keeps Fighting Their Claims.",
       "summary": "The post Nuclear Weapons Waste Made Workers Sick. Despite a Law Meant to Help, the DOE Keeps Fighting Their Claims. appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/hanford-nuclear-workers-compensation-washington-doe",
@@ -3527,7 +3540,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-226",
+      "id": "propublica-227",
       "title": "Ballot Rejections Soared in Rural Counties After USPS Reduced Mail Service",
       "summary": "The post Ballot Rejections Soared in Rural Counties After USPS Reduced Mail Service appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/mail-ballot-delays-postal-service-midterms",
@@ -3545,7 +3558,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elsalto-159",
+      "id": "elsalto-158",
       "title": "Esta huelga ya la estamos ganando",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JSFdFa0tpSzMxdGtsRGtVZUhRcUxSb0N5WTFOZ2FaZFdMbGxXQ0ZmT19rdFFnb0Z5Nzd5U3RkdUlxUWhvYXBNdE1lNWtKTnFETHBpMl9PWlloUkFPRk02NGt3R3lmVU0tcno4bWtTREZ1Y08xcE8wTQ?oc=5",
@@ -3599,7 +3612,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-227",
+      "id": "propublica-228",
       "title": "Sexual Assaults on Campus No Longer Scrutinized as Closely Under Trump’s Education Department",
       "summary": "The post Sexual Assaults on Campus No Longer Scrutinized as Closely Under Trump’s Education Department appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/civil-rights-office-education-department-investigations",
@@ -3635,7 +3648,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-154",
+      "id": "elsalto-153",
       "title": "Antes una pescadería, ahora tu futura casa de una sola habitación: así es la nueva política habitacional vasca",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVERJR2JWVE9mUWNkTFZFN1cwbW1QSnZvSUlCQkpzMzNxUzhXTU5pV2VyS1hJSzBMYnZpMVNXWGtYdldxU0pycTV4VkNLTExNeDRveHdmT1FiQU1IX0U1QmRNYTItVUp0QVJpX0pFeUlRcDMxd2xPeGxXeUJkMFZSWnNEZ2lobjZzRHRmdFF0SFZ3a3pjR0J4aC1RbzBoWW5EZFdnZWFBemJsRTMw?oc=5",
@@ -3653,25 +3666,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elsalto-152",
-      "title": "“Puedes pedir la prórroga del alquiler aunque se derogue”: consultorio sobre la Ley Maricarmen",
-      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNekVWZC1OTFVmYWd4ME1VN3Nrd09yUWlOdm9TZ2dMWFNyV3RqU0Y2SV9xanFMbWxSQU1mMnR3YjRaRnhTT1Z0YjdScnVYTlFPNGxDWVpZeV9vbm5tSFdEMUtKMDdtWG1CdXpUSGJCSEJBb1hmMThMMDVCUUxJQVRYM2VBVlhfOVdTaFVFQTdFWmpNU0pyaTZlQ1RwdkU5RU0zS3hMQmZwd0w?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-22T04:00:00+00:00",
-      "sourceId": "elsalto",
-      "sourceName": "El Salto Diario",
-      "sourceType": "Cooperativa Independiente",
-      "sourceSite": "https://www.elsaltodiario.com",
-      "region": "mundo",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "elsalto-161",
+      "id": "elsalto-160",
       "title": "Yuan iuan investiga el privilegio de la amistad, la especulación urbana y el capitalismo racial en Usera",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeWs3bnhNOTJpUjVYUnNPcWpSOWVNYTBkc2FyYlpvUHN6YThlSE5JcVRkbVl5aVVPU1FjWUlfTjNHUTdLZUhnRTFHaTh5bE9nQzlzV0hnSU9WYmIybkFQMGxSdDB4VWlqc2M3aGo3Z1JzNmF1UlE1MDd4Tm1sZUYtbkJEcEpoOTRlekl5TzM4S1Z0cTV2WE9lRF93NkFqQ01OenJ4SA?oc=5",
@@ -3833,7 +3828,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-228",
+      "id": "propublica-229",
       "title": "Colorado Marijuana Regulators Failed to Protect Consumers From Potential Contamination, Audit Finds",
       "summary": "The post Colorado Marijuana Regulators Failed to Protect Consumers From Potential Contamination, Audit Finds appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/colorado-marijuana-enforcement-division-audit-findings",
@@ -3887,7 +3882,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-229",
+      "id": "propublica-230",
       "title": "“The River Can’t Be Trusted”",
       "summary": "The post “The River Can’t Be Trusted” appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/wildfire-flood-risk-ruidoso-new-mexico",
@@ -3905,7 +3900,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-230",
+      "id": "propublica-231",
       "title": "Town Leaders Said They Were Prepared for Floods. First Responders Disagree.",
       "summary": "The post Town Leaders Said They Were Prepared for Floods. First Responders Disagree. appeared first on ProPublica .",
       "url": "https://www.propublica.org/article/ruidoso-flood-emergency-response-water-rescue",
@@ -3977,7 +3972,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-155",
+      "id": "elsalto-154",
       "title": "La COP17 pone a prueba el compromiso global para frenar la pérdida de biodiversidad",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObnM5M0ZRNVNldFEzVFB1cU1CUnltYmM0em4wb1VLOHZacDVDamJoTEZQd3pkY25PQTZpNEw4T18tZTRRbU9IZnpFWlBHa2IzajV1YkhaQ2JHRTFqT0xTN2dwdERpdjRpbHVUOEZHNm9NN3dQMUhfUE85ZnZzV3l4OGJpYy1FRTBHdUE?oc=5",
@@ -3993,42 +3988,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 72,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "resumen-37",
-      "title": "Revisa tu cartola: Robo a las pensiones por apuestas de las AFP superan los $2 millones en cuentas personales",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY1Mxb3NRdGpNdzFUOXFyb2xQUWpQRG9wbjFuaHFTa2cxdTU1R3k3Y3Jma2VwX2J4dzNMNnRjTkR4dWxpdS1UZjBiNEllS2lhajJTUHl2RENjRUt4Tm8zTXM5WUc2YTItNmZLNmN1cXJnNllzMERsbzZlODY3c2Y3amdodk5UZThSSlF2QjRJX01zamNGeEpMSWt2WVdnRjFST2tKUU1xLVZOWDNxWkJUa0Fhb1ZFRC1yTF9ycXRtU0l0UQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-21T02:39:52+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "alta",
-      "relevanceScore": 72,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "propublica-231",
-      "title": "The Secret Terms of Trump’s Venezuelan Oil Deal",
-      "summary": "The post The Secret Terms of Trump’s Venezuelan Oil Deal appeared first on ProPublica .",
-      "url": "https://www.propublica.org/article/trump-venezuela-oil-agreement-terms",
-      "image": "https://www.propublica.org/wp-content/uploads/2026/10/GettyImages-2254495662-SOCIAL_maxHeight_3000_maxWidth_3000.jpg?w=1200",
-      "publishedAt": "2026-10-21T01:53:00+00:00",
-      "sourceId": "propublica",
-      "sourceName": "ProPublica",
-      "sourceType": "Investigación Sin Fines de Lucro",
-      "sourceSite": "https://www.propublica.org",
-      "region": "mundo",
-      "independent": true,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 91,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "theintercept-220",
@@ -4139,7 +4098,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "resumen-33",
+      "id": "resumen-34",
       "title": "No duermo porque estoy preocupado: Miedo a perder el trabajo, desempleo e insomnio en Chile",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNc25rZHB4SUt1Y3hwVmRHQjkzTnQ5SEhVQ2ZUVjhFQjFjM29wV2xyN01Yam9jOGs5NHZTclp6dWxIRFR4NnpKQ2VKeXlQZXFiMURXUWpXZGZXRzRqWnI3NWI2Qmo2dlllWllJa3pBcDV4MFVXeE1hd20xODlabThrUDM4eXRDcl9Gck9rOGQyUmRVeEl3S0dfaHRBR1lLOGFXMFg3SE9pRndsNlAxcERYYThfYXZ4NDJVMmc?oc=5",
@@ -4229,12 +4188,48 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "elsalto-157",
+      "id": "resumen-37",
+      "title": "El Estallido se expande: 19 de octubre en Concepción",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORDdoUW0ybld4dVRUckEzeTlqbTFmcnpVLVJxZkZ6Qkc4SUlVNEd0UEpXdWdwbFlIWm1wWFo2YmZsUW04SnFqTG04aWw4SUxXWXFjWmZPaVpjTERXYkM1WENJQkdVMEhSX1E5X2xTYlVpZmMyYkdoWExKUlYwVkd2S1V4eDZiMFFhN0E?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-19T08:08:02+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 58,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "elsalto-156",
       "title": "El bloqueo del padrón a inmigrantes en València anticipa la prioridad nacional de PP y Vox",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVElRc2V3RzZ2bVJEdm1IZVNvQjMtOWpsVkU2UUtOVGNuNVBWYWhSTnMxdF9COFFVNmZfNU9TejhYbV9iaHR6THhCa0NpUlBYUTNQMzl4VDVnQlpiNG9HSUNTVkxLdkFLbkliMjBWU3R1UlRfZGpmSmEzYTFaZlQwdXlCVkF5d1c3Wk4yV1dKMGdIWUhZbWVwT3Nfd3VSZ0w1N3d5QUNORmZXS1FEOWZHY3Y1RQ?oc=5",
       "image": null,
       "publishedAt": "2026-10-19T04:39:00+00:00",
+      "sourceId": "elsalto",
+      "sourceName": "El Salto Diario",
+      "sourceType": "Cooperativa Independiente",
+      "sourceSite": "https://www.elsaltodiario.com",
+      "region": "mundo",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "elsalto-161",
+      "title": "Florentino Pérez gestiona cinco residencias públicas de Gipuzkoa entre recortes, huelgas y despidos",
+      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQy10WmZWVndjcDBQZS1MUWh1OEZOSkVvbWVycy1aU09oSTl6MlpOVHpYSDhuTm1MTFlsY19Wa29aQ1J4bVp6RlBoRVhXU0pjNy1icUxSZTlacnJnUjU1NEFrWUFLaUtBUFlQZXFZdkRXSVRkazNSNlNCcjYyQ2ozUXJ4NUtxMXRvcER2MjJtakgtXzFJajFNdEFQclFGaV9WRGU3dl91Z0NEcU5PamVlUWZiSTdLUk9jSENvd0RCOE9pYnJLT1FYalZ2Q29NMmZKemxr?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-19T03:00:00+00:00",
       "sourceId": "elsalto",
       "sourceName": "El Salto Diario",
       "sourceType": "Cooperativa Independiente",
@@ -4337,25 +4332,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "resumen-36",
-      "title": "Recaredo Gálvez, investigador de Fundación SOL: \"El sistema político tiene vínculos tan estrechos con los grandes grupos económicos que impulsan falacias sobre los sistemas de reparto\"",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPTXR5RTVncHdheGFZTW5FUHZCSEQ3bUM4eGRQNzJyTjNUQXgzMXV3QjVUSjF3RVVmMWlMY1ZZX1JQUl9QT2xYT2NLOWdDWnJOTnpxeDRFVVcyM2hCajhHRks3aVl0NXRSRk8yUV9rSkdXd3NmODdWeFo0VXdrcFV6a3FPTlk4a2JpM0VTUWtNWWJXZG1ZTHZObmZsNjBIa2lKR3NTOVhMWFNtdFdKc3EzeU8yNGdjSHhLel9IcXhRTHNvMXduVW0xZnR0el9fZk13MnFsUzZIMmRXcGwwREpOb0otVkxDR2JqY0RWaFBDR1NiWEZULUhzbkZEeDJBTzE3Z3FrRURnN0RjcGtUTjh2dmNsNjRScGdZemRwajloNWV1NVdudFQ1RXJNYVBQUTNONDRv?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-17T09:27:24+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 62,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "elsalto-153",
+      "id": "elsalto-152",
       "title": "Milei arrastra a Argentina a las puertas de una recesión",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWJmYXVzM0prdEZKYm1TcThjMkUwSGtfZ2JCc3RPUk5CdmFGazY0N0JkbXU4eWRYRDVUQWExT1plN3lPeWMzQVdhMTE5cXdPR0cteFhYN19sZ29xME9MdWswWkQ4TUJSc3JqSWhhTzJ3d3lZdU4tcmlrWUgwbHFlalhMSUF3M25zSTFCbmF3?oc=5",
@@ -4391,7 +4368,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "resumen-34",
+      "id": "resumen-35",
       "title": "Convocan a presentar acción judicial ante la crisis de los fondos de pensiones",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMnJBbE90SDFZYkRJMVVLcm5VZW9xR2tjdEFUckNCcmxLT1hlSWNfbG5NVTJvTEwwTW9ZbnlKRHRiZXlwMmFhUmFidWYyVnkxSGVrQWM3WHltb2JITXZONWdKMUUwQTNTYThuSTV5WTJ3cUYzemhkbFBpd0drQmRkSS1rdURzWkpzZUloWXY0Znp2dDQxckluRmd4andCWi04cW9fUTRuZG9MTms?oc=5",
@@ -4427,7 +4404,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "resumen-35",
+      "id": "resumen-38",
       "title": "Ola de despidos de trabajadores públicos por “salud incompatible” aunque COMPIN declare su recuperabilidad",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOWh4N3A2bnVOaFZsblkydkc5dTdBc3pGaWhkZTlTWU1jeWJVS2tLQmw4MlZpM2daQ2pUMjBLU2ZrSU1ub0RkelVZazZycC1oYXl1ckt0LUpWQU90U1JSUU1wSGJpazg1VFNMa2plMnN5Y09hZy1FVGo3dGdESW9Fa0xidnk3RUlNV2xmeExMVnhWYXBZWlI5Sk51REo2cUZ6cWYtMV9Bem1aZHJjSUhtVWIwMVc4MjcxOWV4TUpLWnBnUGpKR2tjZUN1TFdhZw?oc=5",
@@ -4499,24 +4476,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "resumen-38",
-      "title": "Asociación de AFP defendió estrategia de inversión vinculada a millonarias pérdidas previsionales",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUjBBXzkyclRIVTgtZ0dfcGVaY3FOX3ZqNWxkd3c3dXJ0VXNHQmhsWm5Zank3UTI2aU52NHpTMW91TV9ocEwtaUJBU2FjRDdBbWVxV3JuRDY3QTR6TzJMYlpKcF9iSng2NjJvYnF1M1A5OHNRakJZUEdlcXFBaC1aUXEwbWVaZ1EtR3JHaUFDVmYwT3JFYWQxODFsZXBYeUlicmx5YlMweHNIRTRwaXZaRnlDYzF4QzRqak5VUjBnc2tjNm9Y?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-15T14:31:38+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 67,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "bellingcat-203",
       "title": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Satellite imagery obtained by Bellingcat lays bare the extent of tree-felling at a Washington DC golf course that President Trump is reportedly seeking to transform into a championship-level course, despite moves to protect the site by...",
@@ -4535,7 +4494,25 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elsalto-156",
+      "id": "resumen-33",
+      "title": "Miseria a trabajadores y jubilados: Fondos previsionales sufren millonarias pérdidas",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2wzMklXS24xQnZNRWFDNmhQU1pPTmJVejIzb2RHY3lZc1hHTzRFUmF5RnVOZVJjaEJQR1ZDMjBoSVFqTGdzMkxrVVlYclFBbHQ4QlJzUy1hbzF1MklfRU9VdWxjbVVsUThESS1PWGF6UGZRUFFGUmF5MGc1MmIyeUhHNGJnbE11RklqS216TFQwTWdsTTZaV21MZ3JtNVJMTmxlRnBoTHJNYVZfWVNGMTFB?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-15T07:00:00+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 62,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "elsalto-155",
       "title": "Más Madrid ofrece a Podemos lugares en la lista y la duda es si Colau será candidata sin unidad",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGFkM1lmVlZDR09fUkw5bjczNjUwU0YtUks4RUJ6MGFNMjE0b1BIWUFFby1Tbk92a3RodVg0MnFpbWFjWUpfQzJJTHRPZ0Q3SVJSNGZrUEJvRERZaXB3akd3cmJJNU1XUjBfZndpQTVidmNxODlHbmNwaXBSUzRpRGwtMHl0VDhKTDJJdzRmcjFFUTVlRDJIRXE1VFBBRllRaTQzOFhxTWZyUXgybHI0?oc=5",
@@ -4553,7 +4530,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elsalto-158",
+      "id": "elsalto-157",
       "title": "GKS fija la meta de “construir un Partido Comunista europeo” frente a más de 4.000 jóvenes en Elizondo",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeW9CLXpWMUZFT014eWY2UUVTWUFjMFlWd1cwb2lhTkhpcjRNUUFmMnd6WEo3di1TWmxqV2ZWQktfUVh3NlVPeWdfbEpndWdqZGFNY1FMMFVhcVVKdVVYQ2hVV0I5a0tPdkFubTg3NVpsdDBDRnJldnF2OWdreTd3VFhQbERzejhIS08zYVVjU091dU92djRpQVAxVE01T0Z6QUlxZW9Ka2M?oc=5",
@@ -4571,7 +4548,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elsalto-160",
+      "id": "elsalto-159",
       "title": "¿Ha llegado el momento de hacer una huelga de compra en los grandes supermercados?",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRUEwZnhyQ2xCSHFpcW9SQTJmdWhsempRLU1SUHV3TkE0M0w4Z0RoMGlOMVRNTEtDclY4Zy1yVzY1WFJ6OTc0TEEwYy1WejZ1d2YtSlF5eHdZRU5laUpscGJfX1prcnBacUpNOWI2Y1JyX3cwc1JtOV9abzJLSXlNdFdqQm5Ta25oYVl5VFpRVWI2QUVkMElfeEpBc3FGaS1fdjJFdjFlTUdVWFU?oc=5",
@@ -4587,6 +4564,24 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 76,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "resumen-36",
+      "title": "Justicia civil: colapso y reforma en clave de Justicia Abierta",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ2lQWnJyQWZUQVV2VVAyMXRXc3dYYVFoUUUwZ3hkMHN2U0Vmdk9GZ1U4cm05TjZtQ3dDSnc4R21hOXJDckpEVGFLZGdZcmtLbkt4OEVHUE1QYmgzeDdOYzNvVE56UGNSaXFCclh0X3h0QllhTE1ySDh4VmRFdHFuM0Zibk9kUE03djRNSDFRdmMxVDEz?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-08T07:00:00+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 67,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "bellingcat-204",
