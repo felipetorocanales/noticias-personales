@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-25T12:41:14.045223+00:00",
+  "generatedAt": "2026-10-25T13:00:58.852438+00:00",
   "totalArticles": 252,
-  "totalBlockedFarandula": 8,
+  "totalBlockedFarandula": 10,
   "blockedExamples": [
     {
       "title": "No solo a pederastas: Gobierno de Kast otorgó dos rebajas de condenas a presos de Punta Peuco por secuestro y tortura",
@@ -22,6 +22,16 @@
       "title": "La OCDE lanzará en Antofagasta 12 lineamientos para que la riqueza minera se traduzca en bienestar local",
       "source": "Timeline Antofagasta",
       "reason": "universidad católica"
+    },
+    {
+      "title": "Mourinho y la visita de Real Madrid ante FC Barcelona: \"Es igual que ir a otro estadio\"",
+      "source": "Radio Cooperativa",
+      "reason": "real madrid"
+    },
+    {
+      "title": "Hansi Flick en la antesala del clásico con Real Madrid: \"Confío plenamente en el arbitraje\"",
+      "source": "Radio Cooperativa",
+      "reason": "real madrid"
     },
     {
       "title": "Colo Colo enfrenta a Palestino para seguir a la caza del título",
@@ -324,7 +334,7 @@
       "type": "Investigación Independiente",
       "independent": true,
       "status": "error",
-      "error": "The read operation timed out",
+      "error": "HTTP Error 503: Service Unavailable",
       "count": 0,
       "blocked": 0
     },
@@ -436,7 +446,7 @@
       "independent": false,
       "status": "ok",
       "count": 10,
-      "blocked": 3
+      "blocked": 5
     },
     {
       "id": "ciclismo-chile",
@@ -590,6 +600,60 @@
     }
   ],
   "articles": [
+    {
+      "id": "radiouchile-20",
+      "title": "Brasil decide entre el incombustible Lula y la herencia de Bolsonaro",
+      "summary": "Más de 158 millones de brasileños votan hoy en una elección con empate técnico, donde Lula buscó remontar con un giro de campaña y una victoria de Flávio Bolsonaro consolidaría la ola derechista regional. La entrada Brasil decide entre el incombustible Lula y la herencia de Bolsonaro se publicó primero en Diario y Radio Universidad...",
+      "url": "https://radio.uchile.cl/2026/10/25/brasil-decide-hoy-entre-el-continuismo-de-lula-y-la-vuelta-del-bolsonarismo/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/25095342/eleccion-brasil.jpg",
+      "publishedAt": "2026-10-25T12:54:25+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "ciclo21-113",
+      "title": "Peter Grandiek, un récord de la hora a los 95 años",
+      "summary": "El neerlandés afrontó su tentativa en el velódromo de Invercargill La entrada Peter Grandiek, un récord de la hora a los 95 años aparece primero en Ciclo21 .",
+      "url": "https://www.ciclo21.com/peter-grandiek-un-record-de-la-hora-a-los-95-anos/",
+      "image": "https://www.ciclo21.com/wp-content/uploads/2026/10/Screenshot-2026-10-25-134306.png",
+      "publishedAt": "2026-10-25T12:46:22+00:00",
+      "sourceId": "ciclo21",
+      "sourceName": "Ciclo 21",
+      "sourceType": "Periodismo Ciclista Especializado",
+      "sourceSite": "https://www.ciclo21.com",
+      "region": "mundo",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "eldiarioes-163",
+      "title": "Feijóo culpa a Sánchez sin pruebas de los disturbios en Barcelona: \"Se están resistiendo a abandonar el poder con violencia\"",
+      "summary": "\"Los discípulos del muro no quieren paz en las calles. Están sembrando el odio porque saben que van a perder\", ha asegurado el líder del PP, que ha dicho que el presidente del Gobierno está \"jugando con fuego\" Los Mossos apuntan a que grupos organizados en TikTok “reclutaron” a los jóvenes de los disturbios de Barcelona El candidato...",
+      "url": "https://www.eldiario.es/politica/feijoo-culpa-sanchez-pruebas-disturbios-barcelona-resistiendo-abandonar-violencia_1_13613552.html",
+      "image": "https://static.eldiario.es/clip/879176eb-c204-477e-bc7a-79c6ba2ea86b_16-9-discover-aspect-ratio_default_0_x601y592.jpg",
+      "publishedAt": "2026-10-25T12:39:05+00:00",
+      "sourceId": "eldiarioes",
+      "sourceName": "elDiario.es",
+      "sourceType": "Independiente de Socios",
+      "sourceSite": "https://www.eldiario.es",
+      "region": "mundo",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 93,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
     {
       "id": "cooperativa-93",
       "title": "\"Haga lluvia o haga sol\": Flávio Bolsonaro llama a votar para cambiar el rumbo de Brasil",
@@ -879,7 +943,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldiarioes-168",
+      "id": "eldiarioes-164",
       "title": "Los Mossos apuntan a que grupos organizados en TikTok \"reclutaron\" a los jóvenes de los disturbios de Barcelona",
       "summary": "Blocus, la plataforma anónima que alentó la protesta violenta y que la policía catalana investiga, borra la cuenta que tenía en la red social Altercados, saqueos y cargas en el centro de Barcelona en una protesta juvenil “contra el sistema” Los jóvenes que en la noche de este sábado vandalizaron Barcelona y saquearon 23 comercios se...",
       "url": "https://www.eldiario.es/catalunya/mossos-apuntan-grupos-organizados-tiktok-reclutaron-jovenes-disturbios-barcelona_1_13613056.html",
@@ -897,7 +961,25 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-113",
+      "id": "ciclo21-114",
+      "title": "Ciclocross Catalunya: Calendario y clasificaciones 2026",
+      "summary": "Información de la temporada ciclopedestre en Barcelona, Tarragona, Girona y Lleida La entrada Ciclocross Catalunya: Calendario y clasificaciones 2026 aparece primero en Ciclo21 .",
+      "url": "https://www.ciclo21.com/ciclocross-catalunya-calendario-y-clasificaciones-2026/",
+      "image": "https://www.ciclo21.com/wp-content/uploads/2025/10/Captura-de-Pantalla-2025-10-18-a-las-10.57.26.png",
+      "publishedAt": "2026-10-25T08:00:32+00:00",
+      "sourceId": "ciclo21",
+      "sourceName": "Ciclo 21",
+      "sourceType": "Periodismo Ciclista Especializado",
+      "sourceSite": "https://www.ciclo21.com",
+      "region": "mundo",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "ciclo21-115",
       "title": "Ciclocross Euskadi: Calendario y clasificaciones 2026",
       "summary": "Toda la información ciclopedestre de Bizkaia, Gipuzkoa y Araba La entrada Ciclocross Euskadi: Calendario y clasificaciones 2026 aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/ciclocross-euskadi-2026-calendario-y-clasificaciones/",
@@ -915,7 +997,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-114",
+      "id": "ciclo21-116",
       "title": "Ciclocross C. Valenciana: Calendario y clasificaciones 2026",
       "summary": "Información de la campaña ciclopedestre en Alicante, Castellón y Valencia La entrada Ciclocross C. Valenciana: Calendario y clasificaciones 2026 aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/ciclocross-comunitat-valenciana-clasificaciones-2026/",
@@ -933,25 +1015,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-115",
-      "title": "Ciclocross Catalunya: Calendario y clasificaciones 2026",
-      "summary": "Información de la temporada ciclopedestre en Barcelona, Tarragona, Girona y Lleida La entrada Ciclocross Catalunya: Calendario y clasificaciones 2026 aparece primero en Ciclo21 .",
-      "url": "https://www.ciclo21.com/ciclocross-catalunya-calendario-y-clasificaciones-2026/",
-      "image": "https://www.ciclo21.com/wp-content/uploads/2025/10/Captura-de-Pantalla-2025-10-18-a-las-10.57.26.png",
-      "publishedAt": "2026-10-25T07:41:32+00:00",
-      "sourceId": "ciclo21",
-      "sourceName": "Ciclo 21",
-      "sourceType": "Periodismo Ciclista Especializado",
-      "sourceSite": "https://www.ciclo21.com",
-      "region": "mundo",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "ciclo21-116",
+      "id": "ciclo21-117",
       "title": "Ciclocross Asturias: Calendario y clasificaciones 2026",
       "summary": "Información de la temporada ciclopedestre en el principado La entrada Ciclocross Asturias: Calendario y clasificaciones 2026 aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/ciclocross-asturias-calendario-y-clasificaciones-2026/",
@@ -969,7 +1033,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-117",
+      "id": "ciclo21-118",
       "title": "Ciclocross Galicia: Calendario y clasificaciones 2026",
       "summary": "Información de la temporada ciclopedestre en A Coruña, Lugo, Ourense y Pontevedra La entrada Ciclocross Galicia: Calendario y clasificaciones 2026 aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/ciclocross-galicia-calendario-y-clasificaciones-2026/",
@@ -987,7 +1051,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-118",
+      "id": "ciclo21-119",
       "title": "Ciclocross: Resultados UCI 2026-2027",
       "summary": "Las clasificaciones de todas las pruebas ciclopedestres internacionales La entrada Ciclocross: Resultados UCI 2026-2027 aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/ciclocross-resultados-uci-2026-2027/",
@@ -1005,7 +1069,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclo21-119",
+      "id": "ciclo21-120",
       "title": "El pelotón español 27-30 y lista de parados",
       "summary": "Todos los profesionales con contrato desde 2027 hasta 2030 La entrada El pelotón español 27-30 y lista de parados aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/peloton-espanol-2026-2030-octubr-24/",
@@ -1041,7 +1105,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ciclo21-120",
+      "id": "ciclo21-121",
       "title": "Las 1000 caras del Pico de las Nieves en Gran Canaria",
       "summary": "Todo ciclista que llega a la isla quiere conquistar cualquiera de las vertientes de este coloso La entrada Las 1000 caras del Pico de las Nieves en Gran Canaria aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/las-1000-caras-del-pico-de-las-nieves-en-gran-canaria/",
@@ -1059,7 +1123,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "ciclo21-121",
+      "id": "ciclo21-122",
       "title": "La predicción del tiempo en España",
       "summary": "Pronóstico actualizado de la AEMET sobre la meteorología que viene La entrada La predicción del tiempo en España aparece primero en Ciclo21 .",
       "url": "https://www.ciclo21.com/la-prediccion-del-tiempo-en-espana-2026/",
@@ -1075,24 +1139,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 86,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "ciclo21-122",
-      "title": "Mercado fichajes 2027: De Cassan al Bardiani",
-      "summary": "Los nuevos acuerdos de cara a la próxima temporada ciclista 2027 La entrada Mercado fichajes 2027: De Cassan al Bardiani aparece primero en Ciclo21 .",
-      "url": "https://www.ciclo21.com/mercado-fichajes-2027-octubre-25/",
-      "image": "https://www.ciclo21.com/wp-content/uploads/2026/10/Screenshot-2026-10-25-120930.png",
-      "publishedAt": "2026-10-25T07:00:25+00:00",
-      "sourceId": "ciclo21",
-      "sourceName": "Ciclo 21",
-      "sourceType": "Periodismo Ciclista Especializado",
-      "sourceSite": "https://www.ciclo21.com",
-      "region": "mundo",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "dw-234",
@@ -1599,7 +1645,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "esciclismo-133",
+      "id": "esciclismo-134",
       "title": "Joran Wyseure remonta desde la última fila y conquista el HG Cross de Heerderstrand",
       "summary": "Joran Wyseure logró en Heerderstrand su primera victoria de la temporada tras protagonizar una espectacular remontada desde la última fila. El belga, que se vio obligado a...",
       "url": "https://www.esciclismo.com/actualidad/ciclocross/93668.html",
@@ -1617,7 +1663,25 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-134",
+      "id": "esciclismo-133",
+      "title": "Ceylin del Carmen Alvarado se corona reina de la arena en el HG Cross de Heerderstrand",
+      "summary": "Ceylin del Carmen Alvarado, del Fenix-Premier Tech, conquistó el HG Cross de Heerderstrand tras imponerse en una brillante última vuelta. La campeona neerlandesa dejó atrás a...",
+      "url": "https://www.esciclismo.com/actualidad/ciclocross/93669.html",
+      "image": "https://www.esciclismo.com/actualidad/imagenes/b/hg-cross-heerderstrand-podio-fem-2026-tia-ciclismo.jpg",
+      "publishedAt": "2026-10-24T21:58:00+00:00",
+      "sourceId": "esciclismo",
+      "sourceName": "EsCiclismo",
+      "sourceType": "Ciclismo Global y Pruebas UCI",
+      "sourceSite": "https://www.esciclismo.com",
+      "region": "mundo",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "esciclismo-135",
       "title": "Clasificaciones completas de la 2ª etapa de la Vuelta a Guatemala 2026",
       "summary": "Éstas son las clasificaciones completas de la segunda etapa de la 65ª Vuelta Ciclista Internacional a Guatemala 2026, disputada este sábado 24 de octubre sobre 212 kilómetros...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93667.html",
@@ -1653,7 +1717,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "esciclismo-135",
+      "id": "esciclismo-136",
       "title": "Cristian David Rico gana la 2ª etapa y José David Canastuj se viste de líder en la Vuelta a Guatemala",
       "summary": "Cristian David Rico (Nu Colombia) se impuso este sábado en la segunda etapa de la 65ª Vuelta Ciclista Internacional a Guatemala, disputada sobre 212 kilómetros entre Morales y San...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93666.html",
@@ -1689,7 +1753,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-20",
+      "id": "radiouchile-21",
       "title": "Boccardo por caída de fondos E y D: “Las AFP todavía no le han pedido disculpas a los cotizantes que perdieron millones”",
       "summary": "El exministro del Trabajo cuestionó a las AFP por las pérdidas en los fondos E y D, recordó que la Superintendencia y el Banco Central les advirtieron en 2024 y planteó volver a debatir la separación de la industria y la comisión por saldo. La entrada Boccardo por caída de fondos E y D: “Las AFP todavía no le han pedido disculpas a...",
       "url": "https://radio.uchile.cl/2026/10/24/boccardo-por-caida-de-fondos-e-y-d-las-afp-todavia-no-le-han-pedido-disculpas-a-los-cotizantes-que-perdieron-millones/",
@@ -1704,24 +1768,6 @@
       "category": "Economía y Sociedad",
       "relevanceTier": "alta",
       "relevanceScore": 94,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "eldiarioes-170",
-      "title": "Feijóo viene avisando",
-      "summary": "Mira todas las tiras de Manel Fontdevila y Bernardo Vergara",
-      "url": "https://www.eldiario.es/opinion/feijoo-viene-avisando_131_13612893.html",
-      "image": "https://static.eldiario.es/clip/ddab71bd-e3ef-4f0d-a75a-01858896ba23_16-9-discover-aspect-ratio_default_1154135.jpg",
-      "publishedAt": "2026-10-24T20:25:26+00:00",
-      "sourceId": "eldiarioes",
-      "sourceName": "elDiario.es",
-      "sourceType": "Independiente de Socios",
-      "sourceSite": "https://www.eldiario.es",
-      "region": "mundo",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 83,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1761,7 +1807,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "eldiarioes-167",
+      "id": "eldiarioes-165",
       "title": "Altercados, saqueos y cargas en el centro de Barcelona en una protesta juvenil \"contra el sistema\"",
       "summary": "Los Mossos d'Esquadra detienen a 128 personas, 72 de ellas menores de edad, en unos disturbios inspirados en las protestas en Francia La calle mantiene la presión sobre Macron con marchas masivas pese a las trabas del Gobierno El centro de Barcelona ha vivido altercados, saqueos de 23 tiendas y cargas policiales en la noche de este...",
       "url": "https://www.eldiario.es/catalunya/altercados-saqueos-cargas-centro-barcelona-protesta-juvenil-sistema_1_13612854.html",
@@ -1833,7 +1879,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-21",
+      "id": "radiouchile-22",
       "title": "“Declaraciones injuriosas e inaceptables”: Presidente de la UDI cuestiona a Squella por ataque a Hernán Larraín",
       "summary": "Guillermo Ramírez rechazó las declaraciones del timonel republicano contra el exministro de Justicia. La controversia sumó reparos desde Evópoli, advirtiendo que las fricciones terminan debilitando al Gobierno. La entrada “Declaraciones injuriosas e inaceptables”: Presidente de la UDI cuestiona a Squella por ataque a Hernán Larraín se...",
       "url": "https://radio.uchile.cl/2026/10/24/declaraciones-injuriosas-e-inaceptables-presidente-de-la-udi-cuestiona-a-squella-por-ataque-a-hernan-larrain/",
@@ -1869,7 +1915,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "esciclismo-136",
+      "id": "esciclismo-137",
       "title": "Celia Torres y Manuel Quinziato brillan en el 35º Memorial María Isabel Clavero",
       "summary": "Las Rozas (Madrid) ha celebrado este sábado 24 de octubre una gran jornada de ciclismo en familia con la Fiesta de la Bicicleta y el 35º Memorial María Isabel Clavero. Cerca de...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93665.html",
@@ -1941,7 +1987,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "radiouchile-22",
+      "id": "radiouchile-23",
       "title": "Advierten posibles riesgos sanitarios: Escuelas de Calama presentan altas concentraciones de metales potencialmente tóxicos",
       "summary": "Un estudio reveló altas concentraciones de metales tóxicos de origen minero dentro de 38 escuelas de Calama. Expertos advierten sobre graves riesgos sanitarios y exigen monitorear el interior de las aulas. La entrada Advierten posibles riesgos sanitarios: Escuelas de Calama presentan altas concentraciones de metales potencialmente...",
       "url": "https://radio.uchile.cl/2026/10/24/advierten-posibles-riesgos-sanitarios-escuelas-de-calama-presentan-altas-concentraciones-de-metales-potencialmente-toxicos/",
@@ -1977,7 +2023,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-23",
+      "id": "radiouchile-24",
       "title": "23 Premios Nacionales rechazan reforma al INDH y acusan intento gubernamental de “neutralizar” al organismo",
       "summary": "En un comunicado público, los premios nacionales alertaron que la iniciativa gubernamental vulnera garantías democráticas al ignorar las recomendaciones de la comisión para concentrar todas las facultades en Santiago. La entrada 23 Premios Nacionales rechazan reforma al INDH y acusan intento gubernamental de “neutralizar” al organismo...",
       "url": "https://radio.uchile.cl/2026/10/24/23-premios-nacionales-rechazan-reforma-al-indh-y-acusan-intento-gubernamental-de-neutralizar-al-organismo/",
@@ -2031,7 +2077,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-24",
+      "id": "radiouchile-25",
       "title": "De los templos al poder: cómo el movimiento evangélico transformó la política brasileña",
       "summary": "La influencia evangélica y el voto religioso se han convertido en factores centrales de la disputa política brasileña, transformando las alianzas y el escenario electoral a días de la segunda vuelta presidencial. La entrada De los templos al poder: cómo el movimiento evangélico transformó la política brasileña se publicó primero en...",
       "url": "https://radio.uchile.cl/2026/10/24/de-los-templos-al-poder-como-el-movimiento-evangelico-transformo-la-politica-brasilena/",
@@ -2049,7 +2095,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-25",
+      "id": "radiouchile-26",
       "title": "Kast y primer ministro británico abordan modernización en defensa y autodeterminación en las Malvinas",
       "summary": "El contacto telefónico entre ambos jefes de Estado abordó el fortalecimiento de las relaciones bilaterales, marcando una agenda estratégica en medio de las recientes tensiones diplomáticas en la región austral. La entrada Kast y primer ministro británico abordan modernización en defensa y autodeterminación en las Malvinas se publicó...",
       "url": "https://radio.uchile.cl/2026/10/24/kast-y-primer-ministro-britanico-abordan-modernizacion-en-defensa-y-autodeterminacion-en-las-malvinas/",
@@ -2067,7 +2113,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-26",
+      "id": "radiouchile-27",
       "title": "AFEP rechaza reforma al INDH y advierte “desmantelamiento” de iniciativas de verdad y justicia",
       "summary": "La agrupación rechazó el proyecto de ley del Ejecutivo que busca recortar el consejo directivo y eliminar la facultad de presentar querellas. Alicia Lira acusó una estrategia en favor de los agentes del Estado. La entrada AFEP rechaza reforma al INDH y advierte “desmantelamiento” de iniciativas de verdad y justicia se publicó primero...",
       "url": "https://radio.uchile.cl/2026/10/24/afep-rechaza-reforma-al-indh-y-advierte-desmantelamiento-de-iniciativas-de-verdad-y-justicia/",
@@ -2085,7 +2131,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-27",
+      "id": "radiouchile-28",
       "title": "Francia: la protesta social vuelve a las calles en medio de un reforzado dispositivo policial",
       "summary": "Chalecos amarillos, estudiantes y sindicatos marchan este sábado con 70.000 policías desplegados y toques de queda vigentes, una semana después de los saqueos que afectaron a casi 3.000 tiendas en todo el país. La entrada Francia: la protesta social vuelve a las calles en medio de un reforzado dispositivo policial se publicó primero...",
       "url": "https://radio.uchile.cl/2026/10/24/francia-la-protesta-social-vuelve-a-las-calles-en-medio-de-un-reforzado-dispositivo-policial/",
@@ -2103,7 +2149,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-28",
+      "id": "radiouchile-29",
       "title": "Larraín aborda polémica por rebaja de condenas: “Me pareció improcedente conceder este beneficio y lo rechacé”",
       "summary": "El exministro abordó la rebaja de penas a 56 sentenciados por delitos sexuales contra menores. Aclaró que este beneficio penal respondió a mandatos de los tribunales y no a una decisión discrecional del Estado. La entrada Larraín aborda polémica por rebaja de condenas: “Me pareció improcedente conceder este beneficio y lo rechacé” se...",
       "url": "https://radio.uchile.cl/2026/10/24/larrain-aborda-polemica-por-rebaja-de-condenas-me-parecio-improcedente-conceder-este-beneficio-y-lo-rechace/",
@@ -2193,7 +2239,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "esciclismo-137",
+      "id": "esciclismo-138",
       "title": "Particle presenta el juego de ruedas de MTB XC+ Downcountry más ligero del mundo",
       "summary": "Particle ha desarrollado el juego de ruedas de MTB XC+ Downcountry más ligero del mundo. El nuevo conjunto, denominado MSX Ultralight, pesa apenas 1.125 gramos y, según la marca,...",
       "url": "https://www.esciclismo.com/actualidad/material/93664.html",
@@ -2247,7 +2293,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "eldiarioes-169",
+      "id": "eldiarioes-168",
       "title": "Una coalición con la ultraderecha para incumplir la Constitución",
       "summary": "'El boletín del director' es una carta semanal de Ignacio Escolar exclusiva para socios y socias de elDiario.es. Si tú también lo quieres leer y recibir cada sábado en tu buzón, hazte socio o socia Este miércoles, en la SER, Aimar Bretos me pidió el titular del día. Mi respuesta fue esta: “PP y Vox confirman su coalición con el primer...",
       "url": "https://www.eldiario.es/blog/el-boletin-del-director/coalicion-ultraderecha-incumplir-constitucion_132_13611735.html",
@@ -2409,7 +2455,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-138",
+      "id": "esciclismo-139",
       "title": "Clasificaciones completas de la 1ª etapa de la Vuelta a Guatemala 2026",
       "summary": "Éstas son las clasificaciones completas de la 1ª etapa de la 65ª Vuelta Ciclista Internacional a Guatemala 2026, disputada este viernes 23 de octubre sobre 215,4 kilómetros entre...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93663.html",
@@ -2427,25 +2473,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "radiouchile-29",
-      "title": "Fernando Paulsen: “La importancia de un medio se mide por el temor que un gobierno tiene en su contra”",
-      "summary": "El periodista recuerda cómo el Boletín de la Vicaría de la Solidaridad hizo frente a la censura y las amenazas de la dictadura, y cómo el caso Degollados marcó a los profesionales que trabajaban bajo el alero de la Iglesia Católica. La entrada Fernando Paulsen: “La importancia de un medio se mide por el temor que un gobierno tiene en...",
-      "url": "https://radio.uchile.cl/2026/10/23/fernando-paulsen-la-importancia-de-un-medio-se-mide-por-el-temor-que-un-gobierno-tiene-en-su-contra/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/23185304/fernando-paulsen-silva.png",
-      "publishedAt": "2026-10-23T21:57:20+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "alta",
-      "relevanceScore": 89,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "esciclismo-139",
+      "id": "esciclismo-140",
       "title": "Johan Steven Rubio se impone al sprint en la primera etapa de la Vuelta a Guatemala",
       "summary": "Johan Steven Rubio (Nu Colombia) se adjudicó este viernes la primera etapa de la 65ª Vuelta Ciclista Internacional a Guatemala, disputada sobre 215,4 kilómetros entre Guastatoya y...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93662.html",
@@ -2481,7 +2509,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "eldiarioes-165",
+      "id": "eldiarioes-170",
       "title": "Feijóo apuesta por perfiles duros para competir con Vox",
       "summary": "El líder del PP elige a Cayetana Álvarez de Toledo como su número dos en las listas, apuesta por Albiol para convertir el problema del acceso a la vivienda en una cuestión de orden público y mantiene a la diputada del spray de pimienta Feijóo reabre el debate sobre el aborto, eliminará el Ministerio de Igualdad y estudiará “la...",
       "url": "https://www.eldiario.es/politica/feijoo-apuesta-perfiles-duros-competir-vox_1_13610039.html",
@@ -2751,7 +2779,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "eldiarioes-163",
+      "id": "eldiarioes-167",
       "title": "Ada Colau: \"No habrá un Gobierno progresista solo con un buen resultado del PSOE\"",
       "summary": "La candidata del Frente Amplio advierte a Sánchez de que no basta con gestionar la desigualdad y acusa a PP y Vox de ser \"la extrema derecha\" que se presenta con siglas distintas pero un único programa Vídeo - Entrevista completa Mapa - Cómo afecta el sistema electoral a la izquierda alternativa: escaños en las grandes provincias y...",
       "url": "https://www.eldiario.es/catalunya/ada-colau-no-habra-gobierno-progresista-buen-resultado-psoe_1_13610906.html",
@@ -2823,7 +2851,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-140",
+      "id": "esciclismo-141",
       "title": "Caja Rural-Seguros RGA cierra el año con seis victorias y récord de puntos UCI",
       "summary": "Caja Rural-Seguros RGA ha cerrado su decimoséptima temporada consecutiva en el pelotón profesional con seis victorias, 33 puestos entre los tres primeros y 144 apariciones en el...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93661.html",
@@ -2841,7 +2869,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "esciclismo-141",
+      "id": "esciclismo-142",
       "title": "Rodrigo Álvarez seguirá un año más en el Burgos-Burpellet-BH",
       "summary": "Rodrigo Álvarez continuará una temporada más en el Burgos-Burpellet-BH y cumplirá en 2027 su quinta campaña en el equipo de su tierra. El ciclista burgalés, de 27 años, ha...",
       "url": "https://www.esciclismo.com/actualidad/carretera/93660.html",
@@ -2875,24 +2903,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 81,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "esciclismo-142",
-      "title": "Giulio Ciccone y Elisa Balsamo se suman a la Gran Canaria 365",
-      "summary": "Elisa Balsamo y Giulio Ciccone, dos de las grandes figuras del ciclismo italiano, han confirmado su presencia en la segunda edición de la Semana Grande de Gran Canaria 365, que se...",
-      "url": "https://www.esciclismo.com/actualidad/cicloturismo/93659.html",
-      "image": "https://www.esciclismo.com/actualidad/imagenes/b/elisa-balsamo-giro-italia-et3-2026-tes-ciclismo.jpg",
-      "publishedAt": "2026-10-23T14:36:00+00:00",
-      "sourceId": "esciclismo",
-      "sourceName": "EsCiclismo",
-      "sourceType": "Ciclismo Global y Pruebas UCI",
-      "sourceSite": "https://www.esciclismo.com",
-      "region": "mundo",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "theintercept-217",
@@ -3327,7 +3337,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "eldiarioes-164",
+      "id": "eldiarioes-169",
       "title": "Sánchez saca al PSOE del pesimismo con los errores de Feijóo y el miedo a Vox",
       "summary": "El equipo de campaña del presidente prepara nuevas incursiones en formatos televisivos como 'Cara al show' o 'El Hormiguero' y en varios podcast. Algunos trackings internos ya señalan a los socialistas como primera fuerza y a la suma de las derechas un puñado de escaños por encima de la mayoría absoluta, aunque en una de cada cinco...",
       "url": "https://www.eldiario.es/politica/sanchez-saca-psoe-pesimismo-errores-feijoo-miedo-vox_1_13607713.html",
