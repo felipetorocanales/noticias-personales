@@ -1,12 +1,17 @@
 {
-  "generatedAt": "2026-10-25T17:21:03.787621+00:00",
+  "generatedAt": "2026-10-25T17:40:58.915561+00:00",
   "totalArticles": 265,
-  "totalBlockedFarandula": 11,
+  "totalBlockedFarandula": 12,
   "blockedExamples": [
     {
       "title": "No solo a pederastas: Gobierno de Kast otorgó dos rebajas de condenas a presos de Punta Peuco por secuestro y tortura",
       "source": "Interferencia",
       "reason": "penales"
+    },
+    {
+      "title": "Facultad de Derecho de la Universidad de Chile dedica su octavo ciclo de Cultura en Derecho a la escritora y dramaturga Isidora Aguirre",
+      "source": "Radio U. de Chile",
+      "reason": "universidad de chile"
     },
     {
       "title": "Rectora Mizala por Presupuesto 2027: “No estamos pidiendo un aumento de recursos. Estamos pidiendo que se mantengan”",
@@ -22,6 +27,11 @@
       "title": "Ñublense vence a Coquimbo Unido por la fecha 25 en la Liga de Primera",
       "source": "Radio Cooperativa",
       "reason": "coquimbo unido"
+    },
+    {
+      "title": "¿Cuándo y dónde ver el Clásico entre Barcelona y Real Madrid en La Liga de España?",
+      "source": "Radio Cooperativa",
+      "reason": "real madrid"
     },
     {
       "title": "Liverpool estiró su racha triunfal con triunfo ante Brighton por la Premier League",
@@ -47,11 +57,6 @@
       "title": "Marcador Virtual: Palestino vs. Colo Colo",
       "source": "Radio Cooperativa",
       "reason": "colo colo"
-    },
-    {
-      "title": "Así queda la tabla del Ascenso si se confirman desafiliaciones",
-      "source": "Radio Cooperativa",
-      "reason": "anfp"
     },
     {
       "title": "Vuelta del Biobío 2026: cinco etapas y 660 kilómetros marcarán el regreso del ciclismo UCI a Chile - Universidad de Chile",
@@ -370,7 +375,7 @@
       "independent": true,
       "status": "ok",
       "count": 10,
-      "blocked": 1
+      "blocked": 2
     },
     {
       "id": "resumen",
@@ -605,6 +610,24 @@
   ],
   "articles": [
     {
+      "id": "cooperativa-108",
+      "title": "Temor al bolsonarismo y desgaste de Lula marcan reñida segunda vuelta en Brasil",
+      "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://www.cooperativa.cl/noticias/mundo/brasil/elecciones/temor-al-bolsonarismo-y-desgaste-de-lula-marcan-renida-segunda-vuelta-en/2026-10-25/142402.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261025/imag/foto_0000000120261025142402.png",
+      "publishedAt": "2026-10-25T17:24:02+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 74,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "ciper-1",
       "title": "José Alfredo Fuentes: “Hubiese sido un honor grabar con Víctor Jara”",
       "summary": "La entrada José Alfredo Fuentes: “Hubiese sido un honor grabar con Víctor Jara” se publicó primero en CIPER Chile .",
@@ -659,7 +682,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-109",
+      "id": "cooperativa-110",
       "title": "Crystal Palace cayó con Osorio en cancha y se acercó al descenso en la Premier League",
       "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes Crystal Palace , club que contó con el ingreso del volante chileno Darío Osorio en el segundo tiempo, cayó por 0-2 ante Newcastle United en Selhurst Park por la octava fecha de la Premier League, quedando al borde de los puestos de descenso. Con la urgencia de levantar cabeza...",
       "url": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-inglesa/crystal-palace-cayo-con-osorio-en-cancha-y-se-acerco-al-descenso-en-la/2026-10-25/135354.html",
@@ -679,7 +702,7 @@
     {
       "id": "eldiarioes-180",
       "title": "Dimite el delegado del Gobierno en Madrid tras quedarse fuera de las listas del PSOE para las elecciones",
-      "summary": "Francisco Martín Aguirre, que llevaba en el cargo desde 2023, ha justificado su renuncia con el argumento de que no se dan las condiciones para continuar con esta responsabilidad El delegado del Gobierno de Madrid, Francisco Martín Aguirre, ha presentado su dimisión, según ha adelantado El País y ha podido confirmar elDiario.es. El...",
+      "summary": "Francisco Martín Aguirre, que llevaba en el cargo desde 2023, ha justificado su renuncia con el argumento de que no se dan las condiciones para continuar con esta responsabilidad Delegación del Gobierno en Madrid investigará la actuación policial en la protesta de profesores contra Ayuso El delegado del Gobierno de Madrid, Francisco...",
       "url": "https://www.eldiario.es/madrid/dimite-delegado-gobierno-madrid-quedarse-fuera-listas-psoe-elecciones_1_13613892.html",
       "image": "https://static.eldiario.es/clip/a1b9575d-6975-4923-a1bc-9fb2d75b70fa_16-9-discover-aspect-ratio_default_0_x823y343.jpg",
       "publishedAt": "2026-10-25T16:48:49+00:00",
@@ -689,7 +712,7 @@
       "sourceSite": "https://www.eldiario.es",
       "region": "mundo",
       "independent": true,
-      "category": "Geopolítica y Mundo",
+      "category": "Derechos Humanos y Ciudadanía",
       "relevanceTier": "alta",
       "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
@@ -713,7 +736,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-110",
+      "id": "cooperativa-111",
       "title": "Manchester United cayó ante Bournemouth y extendió su racha sin festejos",
       "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-inglesa/manchester-united-cayo-ante-bournemouth-y-extendio-su-racha-sin-festejos/2026-10-25/133047.html",
@@ -731,7 +754,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-108",
+      "id": "cooperativa-109",
       "title": "Ministro de Justicia: \"No he pensado en renunciar\"",
       "summary": "El ministro de Justicia y Derechos Humanos , Fernando Rabat , descartó renunciar a raíz de la polémica desatada por su decisión de otorgar rebajas de condena a 56 personas sentenciadas por delitos sexuales contra menores de edad . En conversación con el programa \"Estado Nacional\" de TVN , el secretario de Estado hizo frente a las...",
       "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/ministro-de-justicia-no-he-pensado-en-renunciar/2026-10-25/131727.html",
@@ -803,7 +826,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-111",
+      "id": "cooperativa-112",
       "title": "María José Quintanilla dejó la conducción de \"Dale Play\" de Mega",
       "summary": "El programa \"Dale Play\" de Mega tendrá la salida de su conductora María José Quintanilla y fue ella misma la que dio a conocer la noticia en el reciente capítulo. Antes de presentar a los equipos, Quintanilla hizo una pausa para compartir una importante noticia con los participantes y el público . \"Debo ser honesta, hay cosas que...",
       "url": "https://www.cooperativa.cl/noticias/magazine/television/mega/maria-jose-quintanilla-dejo-la-conduccion-de-dale-play-de-mega/2026-10-25/125143.html",
@@ -875,7 +898,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "cooperativa-112",
+      "id": "cooperativa-113",
       "title": "Odisea en canoa: Nativos de Rapa Nui fueron los primeros habitantes de Hawái",
       "summary": "Investigadores establecieron que un grupo de nativos procedentes de la Isla de Pascua fueron los primeros habitantes de Hawái , la única isla polinesia del hemisferio norte, luego de protagonizar una odisea de más de 7.100 kilómetros -a bordo de canoas de doble casco- por el Océano Pacífico, en el siglo XIII. El estudio genético,...",
       "url": "https://www.cooperativa.cl/noticias/pais/region-de-valparaiso/rapa-nui/odisea-en-canoa-nativos-de-rapa-nui-fueron-los-primeros-habitantes-de/2026-10-25/120947.html",
@@ -947,7 +970,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-113",
+      "id": "cooperativa-114",
       "title": "Quedaron presos los líderes de la banda de ladrones de cobre que le robaba a Codelco",
       "summary": "El Juzgado de Garantía de Rancagua determinó medidas cautelares para los integrantes de una banda criminal dedicada al robo de cobre en las dependencias de la División El Teniente de Codelco, en la Región de O'Higgins, ilícitos perpetrados entre 2024 y 2026. Los principaleimputados - Luis Freddy Parra San Martín, Cristopher Alfredo...",
       "url": "https://www.cooperativa.cl/noticias/pais/region-de-ohiggins/quedaron-presos-los-lideres-de-la-banda-de-ladrones-de-cobre-que-le/2026-10-25/114435.html",
@@ -1055,7 +1078,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "cooperativa-114",
+      "id": "cooperativa-115",
       "title": "Al ir a votar, Lula dijo que Bolsonaro \"quiere gobernar con la bandera estadounidense\"",
       "summary": "El presidente brasileño , Luiz Inácio Lula da Silva , votó este domingo en una escuela de São Bernardo do Campo, municipio vecino a São Paulo, en la segunda vuelta de las elecciones , resaltando que el pueblo salió a la calle a \"defender sus conquistas \". Lula votó hacia las 10:02 hora local (13:02 GMT) en la escuela estatal João...",
       "url": "https://www.cooperativa.cl/noticias/mundo/brasil/elecciones/al-ir-a-votar-lula-dijo-que-bolsonaro-quiere-gobernar-con-la-bandera/2026-10-25/111044.html",
@@ -1176,24 +1199,6 @@
       "region": "chile",
       "independent": true,
       "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 74,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "cooperativa-115",
-      "title": "Hombre fue hallado muerto tras incendio que destruyó dos casas en Pudahuel",
-      "summary": "Los r estos de un hombre fueron hallados después de un incendio que destruyó dos casas y dejó a otras cuatro afectadas en la comuna de Pudahuel. De acuerdo a información preliminar, el hecho ocurrió durante la madrugada en la intersección de Laguna del Inca con Laguna Maule, hasta donde llegaron siete unidades del Cuerpo de Bomberos...",
-      "url": "https://www.cooperativa.cl/noticias/pais/policial/incendios/hombre-fue-hallado-muerto-tras-incendio-que-destruyo-dos-casas-en-pudahuel/2026-10-25/103100.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261025/imag/foto_0000000220261025103100.jpg",
-      "publishedAt": "2026-10-25T13:31:00+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "independent": false,
-      "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 74,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
@@ -2135,7 +2140,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elmostrador-87",
+      "id": "elmostrador-86",
       "title": "Moreno y Van Klaveren advierten: “Chile y Argentina no pueden darse el lujo de retroceder”",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNjk4Z3JlU0pndTBIQUpnUWhreTBFZ0E1a1ZEYzBBWGdwNzlMbTVKQ0cwaWp4U1o3QlhQNG5kWktWOGo4OGpPUmdHaDA3ZFNnQnlYZENOYVE1V1FtX01sMnhIOWl6ZzVHUHJBRlctbjViYW1OcHJmYUUzZXA2WE1LNTdYVXRMSXBwNjFUZ0V2NTVkYzVzQjV6U3M2V2xleFF3NjYyckdBejRFRjlZMkRqSC05ZEFvbXNjeW5LQ05TZlRMdFBOSGRIWlRIMDJPTmw3XzdfVnFxWQ?oc=5",
@@ -2333,7 +2338,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-88",
+      "id": "elmostrador-87",
       "title": "Proponer es construir confianza y mayorías",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQWxJdnQ4UF9xanZKNlMzYVJBbU90YlNTWG1oNFRmbGYtdm9BMEM3bTNkTnVWNmlncFN6bFJnYkw0X0luYzdSVTRNdXZDWkxmajJSMEJuTTN3OTlpV2JKY1ktMGctRDdOa0YwbHpIeC1ibXJXYjNEVVd4ajBLcUFwY09JeDhTa192SGpYZlFMOGVpYUItLUFudHdLd21OYWY3Ym00?oc=5",
@@ -2621,7 +2626,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-86",
+      "id": "elmostrador-88",
       "title": "Al Pan Pan: a siete años del 18-O, ¿cómo se puede leer el estallido social?",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWGpNdnBIUGhUell1aHhZWmZLSTZXbU8zM2oybVpDWDNXRHVybG9pd2Q0aGRjdVZGSmltWWNiNDJsWlNfMXo5Z0s1eW5XS0ZrdWdUd3M0N3E2b0k1R2lxRmVFa01ObHBQUFUyQmFQVGNrbzd1YU9ZVEFZYUhtMDRmNHhiZWVOekhramx3VURrQlAzTVFuRFoxbFVqVm12Qk9EeEF5a3h5V2s4TGNPRnhjNnRoUlpVeUV2Q0RXTWFRUldlSEJWdFg2XzZ5MmhwZmhReUEwdmVabGs?oc=5",
