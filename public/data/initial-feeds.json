@@ -1,37 +1,27 @@
 {
-  "generatedAt": "2026-10-26T16:23:20.343386+00:00",
+  "generatedAt": "2026-10-26T16:41:12.056152+00:00",
   "totalArticles": 254,
-  "totalBlockedFarandula": 8,
+  "totalBlockedFarandula": 6,
   "blockedExamples": [
+    {
+      "title": "Alto Hospicio y Valparaíso se quedaron con los primeros lugares del Nacional de Bandas Escolares en Antofagasta",
+      "source": "Timeline Antofagasta",
+      "reason": "campeonato nacional"
+    },
     {
       "title": "Genealogía de un mito colonial: La raíz cristiana del sionismo",
       "source": "El Ciudadano",
       "reason": "palestino"
     },
     {
-      "title": "Juan Falú en Chile: «Cada vez es más urgente defender el silencio en la música»",
-      "source": "El Ciudadano",
-      "reason": "universidad de chile"
+      "title": "[VIDEO] Llamaron a la policía en un partido infantil porque un niño de 3 años \"jugaba demasiado bien\"",
+      "source": "Radio Cooperativa",
+      "reason": "fútbol"
     },
     {
       "title": "Pablo Milad comprometió cambios para evitar los \"escritoriazos\" en el Ascenso",
       "source": "Radio Cooperativa",
       "reason": "fútbol"
-    },
-    {
-      "title": "ANFP y polémica del Ascenso: \"Premiar a alguien no significa declararlo campeón\"",
-      "source": "Radio Cooperativa",
-      "reason": "anfp"
-    },
-    {
-      "title": "Piero Maza detalló violenta infracción a Leandro Hernández ante Palestino",
-      "source": "Radio Cooperativa",
-      "reason": "colo colo"
-    },
-    {
-      "title": "FC Barcelona perdió por casi dos meses a Xavi Espart tras el clásico",
-      "source": "Radio Cooperativa",
-      "reason": "real madrid"
     },
     {
       "title": "Vuelta del Biobío 2026: cinco etapas y 660 kilómetros marcarán el regreso del ciclismo UCI a Chile - Universidad de Chile",
@@ -385,8 +375,8 @@
       "type": "Regional Independiente (Norte)",
       "independent": true,
       "status": "ok",
-      "count": 10,
-      "blocked": 0
+      "count": 9,
+      "blocked": 1
     },
     {
       "id": "diariouach",
@@ -425,8 +415,8 @@
       "type": "Prensa Alternativa",
       "independent": true,
       "status": "ok",
-      "count": 4,
-      "blocked": 2
+      "count": 5,
+      "blocked": 1
     },
     {
       "id": "cooperativa",
@@ -436,7 +426,7 @@
       "independent": false,
       "status": "ok",
       "count": 10,
-      "blocked": 4
+      "blocked": 2
     },
     {
       "id": "ciclismo-chile",
@@ -591,6 +581,96 @@
   ],
   "articles": [
     {
+      "id": "eldiarioes-170",
+      "title": "La Fiscalía archiva la denuncia contra Ayuso por el viaje a México al no encontrar indicios de cohecho",
+      "summary": "La fiscal sostiene que las diferencias entre los gastos publicados en Transparencia y la falta de explicaciones sobre su financiación no prueban que un tercero realizara un pago con relevancia penal y señala que la denuncia se apoya fundamentalmente en informaciones periodísticas ¿Cuánto cuestan de verdad los viajes de Ayuso? Gastos...",
+      "url": "https://www.eldiario.es/politica/fiscalia-archiva-denuncia-ayuso-viaje-mexico-no-encontrar-indicios-cohecho_1_13616363.html",
+      "image": "https://static.eldiario.es/clip/f559ab1b-56e4-4db6-891b-26a2e3d9a3ad_16-9-discover-aspect-ratio_default_0_x626y326.jpg",
+      "publishedAt": "2026-10-26T16:35:28+00:00",
+      "sourceId": "eldiarioes",
+      "sourceName": "elDiario.es",
+      "sourceType": "Independiente de Socios",
+      "sourceSite": "https://www.eldiario.es",
+      "region": "mundo",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 93,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elciudadano-90",
+      "title": "(VIDEO) Crisis de Fondos Previsionales: Vínculo entre Asesor de Gobierno y Presidente de AFP en la Mira",
+      "summary": "El Ciudadano El nexo entre un asesor del gobierno y el presidente de la Asociación de AFP suscita dudas sobre la transparencia y posibles conflictos de interés en plena crisis de los fondos previsionales. Analiza los detalles y respuestas de los implicados en este caso que podría afectar la confianza pública y la gestión de futuros...",
+      "url": "https://www.elciudadano.com/reels/video-crisis-de-fondos-previsionales-vinculo-entre-asesor-de-gobierno-y-presidente-de-afp-en-la-mira/10/26/",
+      "image": null,
+      "publishedAt": "2026-10-26T16:30:10+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 92,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-245",
+      "title": "El papa León XIV viajará a Argentina, Uruguay y Perú en noviembre tras recuperarse de una operación por cáncer de pulmón",
+      "summary": "El Vaticano confirmó que León XIV realizará su viaje apostólico a Uruguay, Argentina y Perú entre el 6 y el 17 de noviembre, tal como estaba previsto, tras una operación en la que le extirparon el lóbulo inferior del pulmón derecho. Los últimos exámenes médicos indican que no existen contraindicaciones para que el pontífice, de 71...",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261026-el-papa-le%C3%B3n-xiv-viajar%C3%A1-a-argentina-uruguay-y-per%C3%BA-en-noviembre-tras-recuperarse-de-una-operaci%C3%B3n-por-c%C3%A1ncer-de-pulm%C3%B3n",
+      "image": "https://s.france24.com/media/display/4047b1d4-cae3-11f1-ab8e-638c1c1f5fd6/w:1024/p:16x9/62cc6d55a9c15abbfe6676bf14344eec9236a48c.jpg",
+      "publishedAt": "2026-10-26T16:28:16+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "france24-246",
+      "title": "\"Lula ganó terreno en 97 % de municipios y remontó en 211 ciudades\": 'Folha de S.Paulo\"",
+      "summary": "Luiz Inacio Lula da Silva obtuvo la mayoría de votos en 2.875 ciudades de Brasil. Lo que representa un cambio a favor de él en 211 ciudades, que votaron por Bolsonaro en primera vuelta y el domingo cambiaron de parecer. 'Folha de S.Paulo' cuenta que Lula logró reducir la diferencia o aumentar su ventaja sobre su rival en más de 5.000...",
+      "url": "https://www.france24.com/es/programas/revista-de-prensa/20261026-lula-gan%C3%B3-terreno-en-97-de-municipios-y-remont%C3%B3-en-211-ciudades-folha-de-s-paulo",
+      "image": "https://s.france24.com/media/display/a4d5a10a-d147-11f1-a40f-bdb9616e85cf/w:1024/p:16x9/ES-20261026-081520-082249-CS.jpg",
+      "publishedAt": "2026-10-26T16:18:56+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "cooperativa-102",
+      "title": "Fiscalía investiga difusión de imágenes íntimas de mujeres en grupos de Telegram",
+      "summary": "La Fiscalía Regional de La Araucanía comenzó a investigar la existencia de grupos en Telegram donde se compartían fotografías y videos íntimos de mujeres sin su consentimiento , entre ellas víctimas de Temuco y Padre Las Casas. Según los primeros antecedentes, el material difundido habría sido sacado de perfiles de Instagram y Tinder,...",
+      "url": "https://www.cooperativa.cl/noticias/pais/fiscalia-investiga-difusion-de-imagenes-intimas-de-mujeres-en-grupos-de/2026-10-26/131656.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261026/imag/foto_0000000220261026131656.png",
+      "publishedAt": "2026-10-26T16:16:56+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "independent": false,
+      "category": "Investigación y Poder",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 79,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "elciudadano-91",
       "title": "«Gracias viejo lindo»: Boric celebra triunfo de Lula y Bachelet reivindica que «la política debe estar al servicio de las personas»",
       "summary": "El Ciudadano El expresidente Boric reconoció el compromiso del líder progresista con la humanidad, mientras que la expresidenta Bachelet destacó que durante muchos años han compartido la convicción de que la política debe estar al servicio de las personas y sus derechos. La entrada «Gracias viejo lindo»: Boric celebra triunfo de Lula...",
@@ -609,7 +689,43 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
+      "id": "france24-247",
+      "title": "El cambio climático abre paso a los cultivos tropicales en el sur de Francia",
+      "summary": "En el sur de Francia, algunos agricultores están apostando por cultivos tropicales como el banano, la papaya y la pitahaya para adaptarse a los efectos del cambio climático. En el departamento del Var, estas experiencias aún son minoritarias, pero apuntan a una transformación de la agricultura mediterránea: adaptar los cultivos a las...",
+      "url": "https://www.france24.com/es/programas/en-foco/20261026-el-cambio-clim%C3%A1tico-abre-paso-a-los-cultivos-tropicales-en-el-sur-de-francia",
+      "image": "https://s.france24.com/media/display/02f4262e-d136-11f1-8dee-5b4a75578ebb/w:1024/p:16x9/Bananos-y-papayas-En-Foc.jpeg",
+      "publishedAt": "2026-10-26T16:15:39+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "independent": false,
+      "category": "Medioambiente y Territorio",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "cooperativa-95",
+      "title": "¿Podría haber un nuevo asalto en Brasilia? \"Muy improbable\", dice académico",
+      "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://www.cooperativa.cl/noticias/mundo/brasil/elecciones/podria-haber-un-nuevo-asalto-en-brasilia-muy-improbable-dice/2026-10-26/125947.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261026/imag/foto_0000000120261026125947.jpg",
+      "publishedAt": "2026-10-26T15:59:47+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 74,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "cooperativa-96",
       "title": "Trabajadores bloquearon accesos a la División Ministro Hales de Codelco en Calama",
       "summary": "Una compleja situación se registró durante la mañana de este lunes en la Región de Antofagasta, donde dirigentes y trabajadores protagonizaron un bloqueo con barricadas y la toma de los accesos principales a la División Ministro Hales (DMH) de Codelco en Calama. El trasfondo de la movilización —que mantuvo por aproximadamente seis...",
       "url": "https://www.cooperativa.cl/noticias/pais/region-de-antofagasta/trabajadores-bloquearon-accesos-a-la-division-ministro-hales-de-codelco/2026-10-26/125138.html",
@@ -645,7 +761,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "cooperativa-97",
+      "id": "cooperativa-98",
       "title": "Alcaldesa de Caldera: Los vecinos tienen miedo de que Bahía Inglesa se empiece a chabacanear",
       "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://www.cooperativa.cl/noticias/pais/region-de-atacama/alcaldesa-de-caldera-los-vecinos-tienen-miedo-de-que-bahia-inglesa-se/2026-10-26/124512.html",
@@ -663,7 +779,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-99",
+      "id": "cooperativa-100",
       "title": "Pablo Ilabaca y su canción para el Hogar de Cristo: \"Falta un poquito más de empatía\"",
       "summary": "El multiintrumentista Pablo Ilabaca , parte de Chancho en Piedra, Jaco Sánchez y 31 minutos, entre otros proyectos, sumó una especial canción a su repertorio: \"Te quiero ver\" , que le da identidad musical a la campaña homónima del Hogar de Cristo , que rescata relatos de superación frente a la vulnerabilidad extrema. El tema de...",
       "url": "https://www.cooperativa.cl/noticias/pais/iglesia-catolica/hogar-de-cristo/pablo-ilabaca-y-su-cancion-para-el-hogar-de-cristo-falta-un-poquito/2026-10-26/124336.html",
@@ -681,7 +797,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-102",
+      "id": "cooperativa-104",
       "title": "Pablo Milad: Sería ideal que hubiera una lista de consenso",
       "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://www.cooperativa.cl/noticias/deportes/futbol/anfp/pablo-milad-seria-ideal-que-hubiera-una-lista-de-consenso/2026-10-26/123709.html",
@@ -699,7 +815,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-96",
+      "id": "cooperativa-97",
       "title": "MEO desmintió rumores de quiebre con Karen Doggenweiler: \"No nos entra ni una fisura\"",
       "summary": "Marco Enríquez-Ominami desmintió los rumores de una supuesta ruptura con Karen Doggenweiler , asegurando que su matrimonio, de más de 20 años, está tan firme que \"no entra ni una fisura\" . El excandidato presidencial sostuvo que, desde que se casaron en 2003, escucha todos los años habladurías sobre un posible quiebre, sosteniendo en...",
       "url": "https://www.cooperativa.cl/noticias/magazine/personajes/meo-desmintio-rumores-de-quiebre-con-karen-doggenweiler-no-nos-entra/2026-10-26/123359.html",
@@ -735,7 +851,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-100",
+      "id": "cooperativa-101",
       "title": "Las AFP estiman que jubilaciones bajarán entre 0,8% y 1,8% por pérdidas del fondo E",
       "summary": "El presidente ejecutivo de la Asociación de Administradoras de Fondos de Pensiones (AFP) , León Fernández de Castro , compareció este lunes ante la Comisión de Trabajo y Seguridad Social de la Cámara de Diputadas y Diputados para abordar la caída de 10,4% que registró el Fondo E entre enero y septiembre . Durante su exposición, el...",
       "url": "https://www.cooperativa.cl/noticias/economia/sistema-previsional/afp/las-afp-estiman-que-jubilaciones-bajaran-entre-0-8-y-1-8-por-perdidas/2026-10-26/122203.html",
@@ -771,7 +887,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "france24-245",
+      "id": "france24-248",
       "title": "Francia: el Gobierno se reúne con los líderes de las protestas tras prometer \"respuestas concretas\"",
       "summary": "El primer ministro francés, Sébastien Lecornu, se reúne este lunes con representantes de organizaciones estudiantiles de secundaria y universitarias con el objetivo de poner fin a más de un mes de protestas y disturbios. El país afronta otra semana de caceroladas y manifestaciones, que tendrán como colofón una movilización nacional el...",
       "url": "https://www.france24.com/es/francia/20261026-francia-el-gobierno-se-re%C3%BAne-con-los-l%C3%ADderes-de-las-protestas-tras-prometer-respuestas-concretas",
@@ -825,7 +941,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "cooperativa-101",
+      "id": "cooperativa-103",
       "title": "Icónico personaje regresa a \"La Ley y el Orden: Unidad de Víctimas Especiales\"",
       "summary": "La histórica temporada 28 de \"La Ley y el Orden: Unidad de Víctimas Especiales\" (\"Law & Order: SVU\") sigue sumando nombres emblemáticos de la longeva la serie policial creada por Dick Wolf. Stephanie March volverá a dar vida a la fiscal adjunta \"Alexandra Cabot\" en la nueva temporada , personaje que interpretó por más de 100 episodios...",
       "url": "https://www.cooperativa.cl/noticias/magazine/streaming/iconico-personaje-regresa-a-la-ley-y-el-orden-unidad-de-victimas/2026-10-26/120716.html",
@@ -897,7 +1013,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-246",
+      "id": "france24-249",
       "title": "Entre protestas y disturbios en Francia: ¿cómo se llegó hasta aquí?",
       "summary": "Las protestas y los disturbios violentos en Francia han dejado daños enormes. El 17 de octubre, lo que se había anunciado como una marcha pacífica de trabajadores, estudiantes y agricultores, terminó en una de las jornadas más violentas de los últimos diez años: 3000 comercios vandalizados, destrozos en instituciones públicas, la...",
       "url": "https://www.france24.com/es/programas/en-primera-plana/20261026-entre-protestas-y-disturbios-en-francia-c%C3%B3mo-se-lleg%C3%B3-hasta-aqu%C3%AD",
@@ -933,42 +1049,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-104",
-      "title": "¿Abrirá el comercio?: Esto debes saber sobre los feriados del 31 de octubre y 1 de noviembre",
-      "summary": "Chile tendrá dos feriados durante el próximo fin de semana, correspondientes al Día Nacional de las Iglesias Evangélicas y Protestantes y al Día de Todos los Santos, fechas que marcarán el inicio de noviembre y que coincidirán con las celebraciones de Halloween. El primero será el sábado 31 de octubre , jornada en que se recuerda la...",
-      "url": "https://www.cooperativa.cl/noticias/pais/festivos/abrira-el-comercio-esto-debes-saber-sobre-los-feriados-del-31-de/2026-10-26/114844.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261026/imag/foto_0000000220261026114844.png",
-      "publishedAt": "2026-10-26T14:48:44+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "independent": false,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 78,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "cooperativa-103",
-      "title": "Codelco y BHP sellaron acuerdo de exploración para el proyecto Anillo en Antofagasta",
-      "summary": "La estatal Codelco y la compañía minera BHP oficializaron este lunes la firma de un acuerdo de exploración para el proyecto Anillo , ubicado en la Región de Antofagasta, tras completar de forma satisfactoria todas las autorizaciones legales exigidas por la normativa vigente. La operación representa un hito de cooperación en la minería...",
-      "url": "https://www.cooperativa.cl/noticias/pais/empresas-del-estado/codelco/codelco-y-bhp-sellaron-acuerdo-de-exploracion-para-el-proyecto-anillo-en/2026-10-26/113941.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261026/imag/foto_0000000320261026113941.png",
-      "publishedAt": "2026-10-26T14:39:41+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "independent": false,
-      "category": "Medioambiente y Territorio",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 79,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "eldiarioes-169",
       "title": "Ayuso remodela su Gobierno antes de las elecciones por dos fichajes de Feijóo en la lista por Madrid",
       "summary": "La presidenta de la Comunidad de Madrid hace cambios en varias consejerías a solo unos meses de las elecciones autonómicas después del fichaje de Carlos Novillo, consejero de Medio Ambiente, y José Antonio Sánchez, viceconsejero de Presiencia Feijóo elige a Cayetana Álvarez de Toledo como 'número dos' por Madrid y a Borja Sémper como...",
@@ -987,7 +1067,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-247",
+      "id": "france24-250",
       "title": "Macron advierte por nuevos disturbios el 31 de octubre",
       "summary": "El presidente francés, Emmanuel Macron, anunció que su Gobierno presentará nuevas medidas para responder al malestar social que se extiende por el país y advirtió que el \"riesgo\" de nuevos disturbios seguirá siendo elevado durante las manifestaciones previstas para el 31 de octubre.",
       "url": "https://www.france24.com/es/francia/20261026-macron-promete-medidas-ante-las-protestas-en-francia-y-advierte-de-nuevos-disturbios-el-31-de-octubre",
@@ -1005,7 +1085,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-248",
+      "id": "france24-251",
       "title": "¿Alimentos que producen cáncer? Así opera la desinformación alimenticia en internet",
       "summary": "Se ha vuelto recurrente en redes sociales ver posteos que dan recomendaciones sobre alimentación o advierten sobre el riesgo de consumir ciertas comidas, ya que podría provocar graves enfermedades. Sin embargo, estas publicaciones carecen de datos verificados por autoridades sanitarias, por lo que seguir alguna de estas...",
       "url": "https://www.france24.com/es/programas/des-informando/20261026-alimentos-que-producen-c%C3%A1ncer-as%C3%AD-opera-la-desinformaci%C3%B3n-alimenticia-en-internet",
@@ -1023,7 +1103,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "diariouach-61",
+      "id": "diariouach-60",
       "title": "Masiva asistencia de estudiantes marca la Jornada de Inducción a la Postulación del Programa PACE UACh",
       "summary": "A través de la Jornada de Inducción a la Postulación realizada este martes 20…",
       "url": "https://diario.uach.cl/masiva-asistencia-de-estudiantes-marca-la-jornada-de-induccion-a-la-postulacion-del-programa-pace-uach/",
@@ -1059,6 +1139,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "elmostrador-70",
+      "title": "Kast admite error por rebajas a abusadores de menores, pero mantiene a Rabat a cargo de la solución",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRlRxQko1aVFENUFHaU5DV2ZGNmFSaUw1TEFVa0RIRW1ieFZVamczcUZzWU1JMDlkbjBYTzNJODZSTDk4cUZSMlYtNi1MT09CWmRSalRMRFpGYTgzakFHeWtCVjFBX0JoSGVuZDBwSmZubW1MajhkdXN1Q0lWVkJMUDBOczljRHZTWUNfekZKMjFQLVZCM1RtT3ZwOEpsXzBJcDI0U2tRT0tRN2x2WG5nVmZrYnh3ZG53VVFKcEZIVlJFdldVSHdjc3oxY3JkNEtSRmFSWjZDa0E4c3VlUVpWdkc5eHFIZw?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-26T14:14:54+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "brujulabike-126",
       "title": "¿Un maillot para todo el invierno? Nuestra experiencia con el Gobik Weezer",
       "summary": "Probamos el Gobik Weezer, el maillot más cálido de la marca. Analizamos su aislamiento, ajuste y comodidad tras utilizarlo en salidas de invierno entre...",
@@ -1077,7 +1175,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "france24-249",
+      "id": "france24-252",
       "title": "Putin afirma que Europa sigue dependiendo del gas ruso pese a los intentos de la UE por cortarlo",
       "summary": "El presidente ruso afirmó que \"Europa continúa recibiendo gas natural licuado (GNL) procedente de Rusia\", pese a las sanciones impuestas por la Unión Europea en respuesta a la invasión de Ucrania. Según Putin, los suministros representan el 20% del mercado europeo de este hidrocarburo, aunque no precisó las rutas por las que llega el...",
       "url": "https://www.france24.com/es/programas/econom%C3%ADa/20261026-putin-afirma-que-europa-sigue-dependiendo-del-gas-ruso-pese-a-los-intentos-de-la-ue-por-cortarlo",
@@ -1131,7 +1229,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "diariouach-62",
+      "id": "diariouach-61",
       "title": "Seminario fortaleció el cluster empresarial de la región de Los Ríos",
       "summary": "Desde temprano, Casa Hantke fue punto de encuentro para empresarios y empresarias de la…",
       "url": "https://diario.uach.cl/seminario-fortalecio-el-cluster-empresarial-de-la-region-de-los-rios/",
@@ -1185,7 +1283,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "eldesconcierto-81",
+      "id": "eldesconcierto-80",
       "title": "\"Me toca asumir la responsabilidad\": Kast descarta salida de Rabat y anuncia proyecto contra rebaja de penas",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbnBuWFBSZGwzanJ2Rl9scTl6d0ItR2czeldCZ1BYN3FCOXVnWGJwNzl5Vk9LMUlpcFcwMzNjZTFMczB0Z0Z3ZEZvaVRxckd2UzkwLXpOT3dkME1LZGlOdEx5VTBIc0JzYmlLMllXMjkxNkRNcm8yN2RsUTVqR1Z4OXJvTzVBVjdyZ1ljeGljUTc2OVYxcUhkQ0RwVEdxLTVNR1FTUEltdW1QU3lwRWtCQ1dwbUlPM1hERmJ6NURKbUo2bVZWSTZuQXgwdGFiekpDVXNPVl85dlZ1a2lEMXc?oc=5",
@@ -1239,7 +1337,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "france24-250",
+      "id": "france24-253",
       "title": "El real brasileño se desploma y la Bolsa cae tras la reelección de Lula",
       "summary": "Los mercados brasileños reaccionaron con fuertes pérdidas a la reelección de Luiz Inácio Lula da Silva. El real cayó cerca de un 12% frente al dólar y los futuros del índice Bovespa se hundieron casi un 15%, en medio de las dudas de los inversores sobre la política fiscal del próximo Gobierno y la incertidumbre generada por la...",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261026-el-real-brasile%C3%B1o-se-desploma-y-la-bolsa-cae-tras-la-reelecci%C3%B3n-de-lula",
@@ -1275,7 +1373,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "diariouach-63",
+      "id": "diariouach-62",
       "title": "Exposición «Voces de la Patagonia»: conversatorio de cierre «Las fotografías permanecen, las miradas cambian»",
       "summary": "«Las fotografías permanecen, las miradas cambian» es el nombre del conversatorio de cierre de…",
       "url": "https://diario.uach.cl/exposicion-voces-de-la-patagonia-conversatorio-de-cierre-las-fotografias-permanecen-las-miradas-cambian/",
@@ -1311,24 +1409,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldiarioes-174",
-      "title": "Dos magistrados, contra el portazo del Constitucional al voto de la ley de nietos: \"Un caso clave para nuestra historia\"",
-      "summary": "El voto particular de Ramón Sáez y Juan Carlos Campo contra la decisión mayoritaria de inadmitir por prematuro el recurso del Defensor del Pueblo denuncia la \"conclusión intolerable\" del pleno para no estudiar el caso El Supremo pide al Gobierno la lista de 160.000 nacionalizados con la ley de nietos y advierte de su “responsabilidad...",
-      "url": "https://www.eldiario.es/politica/caso-clave-historia-magistrados-portazo-constitucional-voto-ley-nietos_1_13615332.html",
-      "image": "https://static.eldiario.es/clip/c7b1c321-e185-452f-9d2c-3437195a57d7_16-9-discover-aspect-ratio_default_0.jpg",
-      "publishedAt": "2026-10-26T12:41:17+00:00",
-      "sourceId": "eldiarioes",
-      "sourceName": "elDiario.es",
-      "sourceType": "Independiente de Socios",
-      "sourceSite": "https://www.eldiario.es",
-      "region": "mundo",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 89,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "dw-236",
       "title": "Macron acusa a las redes sociales de \"dañar la democracia\" y fomentar la violencia en Francia",
       "summary": "El presidente francés vinculó las plataformas digitales con la organización de actos vandálicos y saqueos durante las protestas del 17 de octubre.",
@@ -1347,7 +1427,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldiarioes-170",
+      "id": "eldiarioes-171",
       "title": "El PP de Feijóo sale en defensa de Julio Iglesias para negar una entrevista a elDiario.es",
       "summary": "El cantante, acusado ante la Audiencia Nacional de agresión sexual por extrabajadoras suyas, ha dado muestras públicas de su proximidad con el candidato a la presidencia del Gobierno. Ambos se niegan a responder a las preguntas de este medio Las extrabajadoras que denunciaron a Julio Iglesias presentan una querella contra él en la...",
       "url": "https://www.eldiario.es/rastreador/pp-feijoo-sale-defensa-amigo-julio-iglesias-negar-entrevista-eldiario_132_13614930.html",
@@ -1365,7 +1445,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldiarioes-173",
+      "id": "eldiarioes-174",
       "title": "La ultraderecha reacciona a la derrota de Bolsonaro entre la agitación del fraude y elocuentes silencios de sus líderes",
       "summary": "Mientras la mayoría de presidentes latinoamericanos, occidentales y de las grandes potencias han felicitado a Lula por su victoria, los líderes ultraderechistas se mantienen en silencio mientras sus bases llaman a desconocer el resultado electoral o a eliminar al reelegido jefe de Estado de Brasil Lula logra una remontada histórica y...",
       "url": "https://www.eldiario.es/internacional/ultraderecha-reacciona-derrota-bolsonaro-agitacion-fraude-elocuentes-silencios-lideres_1_13615207.html",
@@ -1383,7 +1463,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-64",
+      "id": "diariouach-63",
       "title": "Ordenamiento territorial y gestión de desastres",
       "summary": "El aluvión en Santiago y las intensas lluvias de los últimos días nos llevan…",
       "url": "https://diario.uach.cl/ordenamiento-territorial-y-gestion-de-desastres/",
@@ -1401,7 +1481,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "france24-251",
+      "id": "france24-254",
       "title": "Lula recibe el respaldo de líderes internacionales tras su reelección",
       "summary": "La reelección de Luiz Inácio Lula da Silva para un cuarto mandato al frente de Brasil provocó una oleada de felicitaciones de dirigentes de América, Europa y Asia. El mandatario obtuvo el 51,79% de los votos frente al 48,21% del ultraderechista Flávio Bolsonaro, que anunció que impugnará el resultado.",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261026-lula-recibe-el-respaldo-de-l%C3%ADderes-internacionales-tras-su-reelecci%C3%B3n",
@@ -1473,7 +1553,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldiarioes-172",
+      "id": "eldiarioes-173",
       "title": "Brasil resiste a la ola ultra: qué significa la victoria de Lula para su país y más allá",
       "summary": "Después de que el presidente brasileño se asegurara la victoria en las elecciones, ¿cuáles son las implicaciones para la democracia, el medio ambiente y las relaciones internacionales? Lula da Silva logra la remontada: vence a Flávio Bolsonaro y será presidente de Brasil por cuarta vez El presidente de Brasil ha protagonizado una...",
       "url": "https://www.eldiario.es/internacional/theguardian/brasil-resiste-ola-ultra-significa-victoria-lula-pais_1_13614599.html",
@@ -1509,7 +1589,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-82",
+      "id": "eldesconcierto-81",
       "title": "\"Gracias viejo lindo\": izquierda latinoamericana festeja triunfo de Lula da Silva en Brasil",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUkZoRnB2MS1INkdmWWpKY3c1RS1nWmFkOExmekFqUGVIcTN4WlFVUkdSeFJIN3M5WGNiMFRudHVvOVMwdTluYXV0Wlp0V0g3amstSXNFT0VIYW92N2t6ejcyZS13Y3Q0T2NGcUtXUkJnNlZlX0hzcTFaRXdJcEJKNVhJV2hNc0dsWmN3V0JuQkhtWXRkcDdnSjNJcEctTjROS09vZmxGLVdFVldnMjZyWW56NU5TeWprT3RTckRzbGM?oc=5",
@@ -2067,60 +2147,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "france24-252",
-      "title": "Brasil: Lula lo logra una vez más y alcanza un histórico cuarto mandato",
-      "summary": "🇧🇷🗳️ Brasil fue a las urnas este 25 de octubre para mantener al presidente izquierdista, Luiz Inácio Lula da Silva, en el poder. El mandatario logró imponerse sobre el ultraderechista Flávio Bolsonaro tras un reñido balotaje.",
-      "url": "https://www.france24.com/es/video/20261026-brasil-lula-lo-logra-una-vez-m%C3%A1s-y-alcanza-un-hist%C3%B3rico-cuarto-mandato",
-      "image": "https://s.france24.com/media/display/8ca16d0e-d0f6-11f1-a656-4b25c96ec90e/w:1024/p:16x9/Lula-lo-logra-una-vez-ma%CC%81s-y-alcanza-un-histo%CC%81rico-cuarto-mandato.png",
-      "publishedAt": "2026-10-26T04:55:16+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "france24-253",
-      "title": "Voto joven y soberanía: Lula marca en Brasil el contrapeso a la ola de ultraderecha en América Latina",
-      "summary": "Con el 51,79% de los votos, el presidente Luiz Inácio Lula da Silva ganó la segunda vuelta de las elecciones presidenciales en Brasil. El icónico líder de izquierda cumplirá un cuarto mandato no consecutivo a la cabeza del gigante latinoamericano. Logró remontar los dos puntos de desventaja que tenía en la primera ronda, mientras su...",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261026-voto-joven-y-soberan%C3%ADa-lula-marca-en-brasil-el-contrapeso-a-la-ola-de-ultraderecha-en-am%C3%A9rica-latina",
-      "image": "https://s.france24.com/media/display/d08bd462-d0d0-11f1-ab21-bdb9616e85cf/w:1024/p:16x9/2026-10-25T220534Z-34599975-RC2KAOAZJ6YN-RTRMADP-3-BRAZIL-ELECTION.jpg",
-      "publishedAt": "2026-10-26T04:23:27+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "france24-254",
-      "title": "Lista Estudiantil logra la mayoría de los escaños en las parlamentarias de Serbia",
-      "summary": "Luego de unas elecciones parlamentarias con la mayor participación ciudadana en 30 años, la Lista Estudiantil logró obtener la mayoría de los 250 escaños en disputa, encaminándose a ser el partido de Gobierno. El líder populista de derecha Aleksandar Vucic reconoció su derrota en las elecciones legislativas. En las calles, miles de...",
-      "url": "https://www.france24.com/es/video/20261026-lista-estudiantil-logra-la-mayor%C3%ADa-de-los-esca%C3%B1os-en-las-parlamentarias-de-serbia",
-      "image": "https://s.france24.com/media/display/718a61f6-d0f1-11f1-b38f-4d317af013fd/w:1024/p:16x9/ES-20261025-210901-211051-CS.jpg",
-      "publishedAt": "2026-10-26T04:01:17+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "ciclismo-chile-108",
       "title": "En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania - ANBariloche",
       "summary": "En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania ANBariloche",
@@ -2139,7 +2165,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-98",
+      "id": "cooperativa-99",
       "title": "¿Cuándo y dónde ver a Alejandro Tabilo contra Rafael Jódar en Basilea?",
       "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes El chileno Alejandro Tabilo (30° del ranking mundial), debutará en al ATP 500 de Basilea, Suiza, ante el español Rafael Jódar (11°) en un duelo agendado para este martes 27 de octubre . El partido se disputará en el primer turno del Court Central, desde las 10:00 horas. El duelo...",
       "url": "https://www.cooperativa.cl/noticias/deportes/tenis/alejandro-tabilo/cuando-y-donde-ver-a-alejandro-tabilo-contra-rafael-jodar-en-basilea/2026-10-25/233619.html",
@@ -2337,7 +2363,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "eldiarioes-171",
+      "id": "eldiarioes-172",
       "title": "Lula da Silva logra la remontada: vence a Flávio Bolsonaro y será presidente de Brasil por cuarta vez",
       "summary": "El candidato de la extrema derecha, hijo del expresidente condenado, ha asegurado que no reconoce el resultado de las elecciones y pedirá su anulación Perfil - Flávio Bolsonaro, el candidato con vínculos paramilitares que acariciaba la presidencia de Brasil Remontada histórica de Lula da Silva, candidato presidencial del Partido de...",
       "url": "https://www.eldiario.es/internacional/brasil-vilo-elecciones-ajustadas-historia_1_13614113.html",
@@ -2913,25 +2939,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-60",
-      "title": "Municipio y Gendarmería inician trabajos comunitarios con personas que cumplen penas sustitutivas en Antofagasta",
-      "summary": "Con trabajos de pintura y limpieza en el sector La Puntilla del Balneario Municipal, la Municipalidad de Antofagasta y Gendarmería de Chile iniciaron este sábado la ejecución de un convenio que permitirá a personas condenadas a penas sustitutivas cumplir sus sanciones mediante servicios en beneficio de la comunidad. La iniciativa...",
-      "url": "https://www.timeline.cl/municipio-y-gendarmeria-inician-trabajos-comunitarios-con-personas-que-cumplen-penas-sustitutivas-en-antofagasta/",
-      "image": "https://www.timeline.cl/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-24-at-13.03.14.jpeg",
-      "publishedAt": "2026-10-24T16:03:41+00:00",
-      "sourceId": "timeline",
-      "sourceName": "Timeline Antofagasta",
-      "sourceType": "Regional Independiente (Norte)",
-      "sourceSite": "https://timeline.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 60,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "eldesconcierto-83",
+      "id": "eldesconcierto-82",
       "title": "23 Premios Nacionales acusan que reforma de Kast al INDH busca neutralizar al organismo y suprimir querellas",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSlRZYTFscXl4bzlMc0FEc0dZQUU2elpDSVZhNXRCVWtpazU4dnNyaVJ1eWpVYUdPWTZ1VjlQNGFYcmxxbTlDNGJrUE1jU2oyazU0c2trUlk2NXRfYWxmQ0FPbUkyXzhrTW43NkdpWklZWGFvdlpUWEc0c1ZzdW1sRzdTLTVESkNLckI0WFA1S0FLZU52bjFuejRBVF91ajZPRTZaSExneVJ3N3gxSW5nT3o0LUdZSzVxdGJzbFRLVjRrTDFCSFh1Z2xyNDZXbjhxbFItQ0cyc2Uxa2RqMFFiTmRvUXdJQQ?oc=5",
@@ -3021,7 +3029,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-84",
+      "id": "eldesconcierto-83",
       "title": "Combustibles no frenan: prevén sexta alza consecutiva para noviembre y 3 posibles escenarios a fin de año",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQUxYZ2ZnYW8tQlNuNzBScU0yOWo2R1RNVmpiWi1QOHM4SFFiUWo2dkExUU1UWWxGbjF0NmI2aFlVWnc1b1hpd1JYWXNDTUhoc1hsU1VFQ1dTT0NVS08zck9mZV9RS1Bfd2ZZekVmMmQzeXJRemg1ekViXzJmVGQzU1FUdmRKdm9rOXdjSVMwblBHYVZ3X2tjOVRORUxzRWVMbUF2dnBMU0Z3aHBwbW1aNGhwbm1QOUo1LW5CNUV3end0UElyYnVRVWlIbl9Zb21WdUVQQjNRMA?oc=5",
@@ -3073,24 +3081,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "elmostrador-80",
-      "title": "“Esto no es fácil”: gobernadores mantienen ofensiva para evitar recorte de $250 mil millones",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNU4wUDJTeHB0QV8xQjhuMnlGN1E3dEd1Q2dDSHA4Y0RkTG5QbHNFeEkyMWxMdmNjbDVuVUhYOEQwbXpVTVJiQUstRzVNOUg5aktTMHozcS1ZclV6TXhWdUZXTEp3QTRVN1BJTlBjY0pqekFwNEIxRlZPYXBoNWx6V3BGc0RsaENjLXBCaGN5bW5mMkQ0eDF6Mm9rWG9jSmlMOC1RM0NROUJiSWpial9JQzhPWEFpVGVBTmZtMlYzbXB4UU95SmNDOWo0WC1ScExyWXQ2ZC1pbmw?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-24T08:08:54+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "globalvoices-150",
@@ -3147,7 +3137,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-85",
+      "id": "eldesconcierto-84",
       "title": "\"Información incompleta\": Gajardo desmiente al gobierno y explica diferencias entre rebaja de condenas con Boric",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON1hYNG56cm51dHNuT0xFQk1GcUpYeE1zTmhZMFFpTVVQdURrQUtFS3ZoZ3JHcTEwejEwd1JsX01sZzZHdXBNNEFxd3ZRN3VJNE9OUk9pODhWM1lTQWdlemptRS16RXVLX2tOd0N0ekpKZldGbHU1NGtndHpSc0lzZEZ0OXJOa0VFTXJpeHk2ZUptZkNvRGw0cFJ5cjhaUk5nX2pnZWxyVWstaDB0bFhMMHRGdnZVb2dxaFFVUVpRS3hWTzI3Rk9SeGRRMlVaWERNVFJPclQ2QmdaUQ?oc=5",
@@ -3255,7 +3245,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "diariouach-65",
+      "id": "diariouach-64",
       "title": "Facultad de Filosofía y Humanidades UACh conmemoró sus 70 años de historia",
       "summary": "La Facultad de Filosofía y Humanidades de la Universidad Austral de Chile (UACh) tiene…",
       "url": "https://diario.uach.cl/facultad-de-filosofia-y-humanidades-uach-conmemoro-sus-70-anos-de-historia/",
@@ -3273,7 +3263,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "eldesconcierto-86",
+      "id": "eldesconcierto-85",
       "title": "Abogada cuestionada por falta de experiencia sería responsable de revisar rebajas de penas en Ministerio de Justicia",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWGwtRUhCU2xkOHJMYnJ2R0wwbWMzVTUyM2Y5bS13MVdEUUtpWEUtNU1TT2pDdktQal9SaVlpWmVnVDEwZ0VWSmsxcjBJVnRzSnp4TERlamhVUTBvLXFDUnJRLS0xS09PVmNVc3NLbkJkT2dQeFNQWjZ5cGxldzJ4cnR1OElhSXgtOVhLUXc0WHRuY0lkYmFTQjBQcUFFZUhUOThCTFBKM1pHVjdsTTdhZGZ1RWFHMGNuQ2Nxcmh0ZER0b1JyRkpFUFBxcFlhTk5OX256em1qUWJkNVU?oc=5",
@@ -3345,7 +3335,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-66",
+      "id": "diariouach-65",
       "title": "Biotecnóloga Bioquímica UACh lidera estudio del maqui en el combate del cáncer cerebral",
       "summary": "Una investigación publicada en la revista científica “Antioxidants” demuestra que un compuesto natural presente en berries chilenos puede enfrentar uno de los principales obstáculos en el tratamiento del glioblastoma, considerado el cáncer cerebral más agresivo y difícil de tratar. El estudio conecta la biodiversidad chilena con...",
       "url": "https://diario.uach.cl/biotecnologa-bioquimica-uach-lidera-estudio-del-maqui-en-el-combate-del-cancer-cerebral/",
@@ -3363,7 +3353,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "diariouach-67",
+      "id": "diariouach-66",
       "title": "Sesiona por primera vez el comité técnico que acompañará la construcción del Modelo de Gestión de VcM",
       "summary": "En esta sesión del jueves 22 de octubre, se presentó el estado de avance…",
       "url": "https://diario.uach.cl/sesiona-por-primera-vez-el-comite-tecnico-que-acompanara-la-construccion-del-modelo-de-gestion-de-vcm/",
@@ -3381,7 +3371,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "diariouach-68",
+      "id": "diariouach-67",
       "title": "Estudiantes del Liceo Josefina Aguirre Montenegro instalan cámaras estenopeicas en el Campus Patagonia",
       "summary": "El Campus Patagonia de la Universidad Austral de Chile (UACh) se transformó en un…",
       "url": "https://diario.uach.cl/estudiantes-del-liceo-josefina-aguirre-montenegro-instalan-camaras-estenopeicas-en-el-campus-patagonia/",
@@ -3579,7 +3569,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elsalto-163",
+      "id": "elsalto-162",
       "title": "El Supremo condena a la TVG por vulnerar la libertad sindical y elegir a dedo los tribunales de contratación",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ2xRbThrNUFrMGJzb2hKSjZVWTRTTDQ5UzFEV1JRWXI4Z3h5ZFlCZkRnWnJmdndxTWxldnlabENPMlp0SW92U0NXam1Na3dvam1JaDBKVFNKdUUwUXIzNUF4SFBnXzQ3dExFYjl2dERMNktBVDJoMGxSckZRSEJTQ3dlQkF3UkZxQm94cm04NjhkNzBJNVhwR3lyc0tfUWY1UEEwSVFLZHVJQnY1SWlF?oc=5",
@@ -3849,7 +3839,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-69",
+      "id": "diariouach-68",
       "title": "Académico Alejandro Albornoz presentó su trabajo de creación e investigación sonora en la University of the Arts London",
       "summary": "El Dr. Alejandro Albornoz, del Instituto de Creación e Interpretación Musical de la Facultad…",
       "url": "https://diario.uach.cl/academico-alejandro-albornoz-presento-su-trabajo-de-creacion-e-investigacion-sonora-en-la-university-of-the-arts-london/",
@@ -3867,7 +3857,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "diariouach-70",
+      "id": "diariouach-69",
       "title": "UACh presentó Campaña de Admisión 2027 en Sede Puerto Montt",
       "summary": "Con una invitación a las nuevas generaciones a proyectar su futuro desde el sur…",
       "url": "https://diario.uach.cl/uach-presento-campana-de-admision-2027-en-sede-puerto-montt/",
@@ -3885,7 +3875,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "eldesconcierto-87",
+      "id": "eldesconcierto-86",
       "title": "Rabat insiste en jurisprudencia y presidenta de la Corte Suprema se desmarca: Fue el ministro quien dictó decretos",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNR3FGZ0ZOVmdycVo3TFRWMmVJc1dEWV9KR0xrSFREcXhLd1NlUlU4eUR1NGhYMW1wN1BoOFhRREtlWnpqSlNkbWdRM09fdXdfVksycHZuX205dVV6TmRHeGI0U1ZFTUxnTS1BN1JBa3ZIdVVpRWdCb0prTHJlMUUwVXRkcUxNZHMzY3RsYjdjeHdUdnlacDh5UTMtNmU0S0FsU3I0VFJDVEh1S1dyUGNpcUJmMGZvaXdtWVVkazV3TnZnalpfa0lXMlJIb3p1LUUxQmlzQ3RSVXdTTFFSLWhOcWpsWUN2amdk?oc=5",
@@ -3939,7 +3929,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-89",
+      "id": "eldesconcierto-88",
       "title": "Gobierno también rebajó condenas a presos de Punta Peuco: se suman a 56 casos por delitos sexuales",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNlk4cnQ4b1M3NDZ2NjFYOHVPMlFSeFJSOGV5d2tSSlp3dWhhWTRGUjJzSFJHT0RfbVhfeWJXdWFzcjFmSmhqZi1oTmxEMURaWDRKeUhra2U0d3FBRzEtMHBBNjhBR2Rzdm1BeElXdloySXlMQ1dJX21uaG9jMnlHRGhuLTlDZzZvd21CNnRTWXFBMTg3MXZmQTR5RnEwZnpfa2xvVEZSaUpSUUx1a2pKSXllZDdKbW1qYkN6dThab0xjVnU1cmI3cWs1U1I?oc=5",
@@ -3957,7 +3947,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-88",
+      "id": "eldesconcierto-87",
       "title": "Camioneros amenazan con paro tras nueva alza del precio de los combustibles: Lo sabe el gobierno",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVzJvOGFLT2dwTjVVVWc0QW9tR2E4bHdhTVB5SlEzSS0xM1ZCaVFsNFlrdFdJVldVaVhsd2lzcnhJWHMza0U4VDJlX2RmT1pNRWJUUjUxXzJHZllvVW5zdXVrNGluV0wxdG9EanVXakZfWmZsMTd5QTJybjNlaHF0TDVwWThUNHJsOTlTenRyV3c0OGdqMHg0d3RrcjhGdTV5cU5lazZiemIwUTFXNGZock8xMzgzbmhHX0JDQURnYkNWbWFYMlJaUA?oc=5",
@@ -4011,7 +4001,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-90",
+      "id": "eldesconcierto-89",
       "title": "Camila Vallejo contra gobierno de Kast tras rebaja de condenas a violadores de niños: ¡Lo peor es que mienten!",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON2VhVU5nREUzZFNiQ3VNRXRtaVNlWkk5YWl6eFVlZ2FhVjkyRk5OaXZSNnZmX1MwM3BvQ3Y0MHVtbmZNTHhGY2hUSHZ6LTR4amVDNllKYWt2OVZmUHhlbmFmX2tGcnY5eGh2WmdiR3VYbFowNmtZb1NMTWlNQTM2YVdyYmNVUDV1cDJUVjByYmhIdXBRaDc1Mm9jeUhnY2tPWTFIaG1wcUczb2h0R2NjcXg0Y1FJQVNOeWlLNzBqN2lNTmhGODJuVFRXdFVMQXIxdzZF?oc=5",
@@ -4119,7 +4109,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elsalto-162",
+      "id": "elsalto-161",
       "title": "“Puedes pedir la prórroga del alquiler aunque se derogue”: consultorio sobre la Ley Maricarmen",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNekVWZC1OTFVmYWd4ME1VN3Nrd09yUWlOdm9TZ2dMWFNyV3RqU0Y2SV9xanFMbWxSQU1mMnR3YjRaRnhTT1Z0YjdScnVYTlFPNGxDWVpZeV9vbm5tSFdEMUtKMDdtWG1CdXpUSGJCSEJBb1hmMThMMDVCUUxJQVRYM2VBVlhfOVdTaFVFQTdFWmpNU0pyaTZlQ1RwdkU5RU0zS3hMQmZwd0w?oc=5",
@@ -4389,24 +4379,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elsalto-161",
-      "title": "Ismael Morales: “Si liberalizamos todo, el fascismo fósil seguirá imperando”",
-      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX1U2UHY4RVFXckhjOWNNbDBWRkNINDhTT0VXcEtKSHNMSlFMbi1VMjhUU2ZFSHBfczJrcmFlc3Rrc1JueFQ0MWMtUFhXMjRDWVlyNm5DMUZaaWxvM1dadDViVDU4M292ZjByTHN0M2lSMXh1ZVI1VXJJV0lFbUFndzdMZ2ZHZTNpalB5b1NONmRYQ2NpRG1oRzJsX0U1SWJHYWZ6clU1bkstTW9TUzVvbw?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-20T04:00:00+00:00",
-      "sourceId": "elsalto",
-      "sourceName": "El Salto Diario",
-      "sourceType": "Cooperativa Independiente",
-      "sourceSite": "https://www.elsaltodiario.com",
-      "region": "mundo",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "laderasur-43",
       "title": "Histórico: La deforestación en la Amazonía brasileña alcanza su nivel más bajo desde 1988",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4459,6 +4431,24 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 58,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "elsalto-164",
+      "title": "El Salto gana el juicio contra un fundador de Sumar que se llevó 5,9 millones para gestionar un centro de día",
+      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZW45NUVxbHJobC04RGJKaDgxcVU2ZU8xcEkxbGtaNnpXcUd1Q0ZXaTNBRFNJQWRsY0dDVzhrYVFDSHFVTnZpZjN4dzFaLUoyUGVsWkJlX0xCR2YzUnJPakpNd0IwTzJGcWgyT0JLVF9QZ1dTbDdYSngxOWxVYzVFT3JjVUY0REcxWGpZZVRZRk9yNGg3c25EOXppUVJ4Mi1GeFNibW50UUdFdjllU0hCTy1TVi0wZkxVXzR3?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-19T06:00:00+00:00",
+      "sourceId": "elsalto",
+      "sourceName": "El Salto Diario",
+      "sourceType": "Cooperativa Independiente",
+      "sourceSite": "https://www.elsaltodiario.com",
+      "region": "mundo",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "elsalto-159",
@@ -4515,7 +4505,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-164",
+      "id": "elsalto-163",
       "title": "Frente Amplio y Podemos consuman su desacuerdo y concurrirán en dos listas en la mayoría del territorio",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ2d0Z0FaZEg2MnFuY2JYQmE4aXhuTmRXTVNkYXZ4dHhvN0NQUjlqdnpSaF9rSlI2M1ROSWtYelFzZ0ZnQV9pZURmY1JMcWY3X053Ynk4VWhDZEpqNHNrVzNldDlGOHJyOFdhZXdQbDE3b3RiQVJ5UjdfaTktcXlFd3VJR1U5MmZPcmtENUk1Z0RDSmJ2Q1E?oc=5",
