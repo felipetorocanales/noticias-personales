@@ -359,6 +359,16 @@ if __name__ == "__main__":
         prepare_post()
     elif mode == "--publish":
         publish_pending_post()
+    elif mode in ("--id", "--article") and len(sys.argv) > 2:
+        target_id = sys.argv[2]
+        with open(FEEDS_FILE, encoding="utf-8") as f:
+            data = json.load(f)
+        cand = next((a for a in data.get("articles", []) if a.get("id") == target_id), None)
+        if cand:
+            print(f"[SELECTOR] Publicando artículo específico en Instagram: [{cand.get('category')}] {cand.get('title')}")
+            publish_to_instagram(cand)
+        else:
+            print(f"[ERROR] No se encontró ninguna noticia con ID: {target_id}")
     else:
         # Modo completo
         history = load_history()

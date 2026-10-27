@@ -102,10 +102,104 @@
         <div class="reader-relevance-box" id="readerRelevanceBox"></div>
       </div>
       <div class="modal-footer">
-        <button class="btn-secondary" id="readerBookmarkBtn">🔖 Guardar para leer después</button>
+        <div class="modal-reader-footer-actions">
+          <button class="btn-secondary" id="readerBookmarkBtn">🔖 Guardar para leer después</button>
+          <button class="btn-instagram" id="readerInstagramBtn" title="Compartir en Instagram">
+            <svg class="ig-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            <span>Compartir en Instagram</span>
+          </button>
+        </div>
         <a class="btn-primary" id="readerExternalLink" href="#" target="_blank" rel="noopener noreferrer">
           Abrir en fuente original ↗
         </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Compartir en Instagram (Stories / Feed / App) -->
+  <div class="modal-backdrop hidden" id="instagramShareModal" role="dialog" aria-modal="true" aria-labelledby="igModalTitle">
+    <div class="modal-card modal-instagram">
+      <div class="modal-header modal-instagram-header">
+        <div class="ig-header-badge-title">
+          <span class="ig-gradient-pill">
+            <svg class="ig-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            Instagram Stories & Feed
+          </span>
+          <h2 id="igModalTitle">Compartir noticia en Instagram</h2>
+        </div>
+        <button class="modal-close-btn" data-close-modal="instagramShareModal" aria-label="Cerrar modal" title="Cerrar (Esc)">✕</button>
+      </div>
+
+      <div class="modal-body ig-modal-scroll">
+        <p class="ig-modal-intro">
+          Comparte este reportaje en tus <strong>Historias o Feed de Instagram</strong> con texto formateado, créditos editoriales, enlace y hashtags.
+        </p>
+
+        <!-- Preview Card -->
+        <div class="ig-preview-card" id="igPreviewCard">
+          <div class="ig-preview-img-wrap" id="igPreviewImgWrap">
+            <img id="igPreviewImg" src="/pulso_avatar_editorial.png" alt="Vista previa de noticia" />
+          </div>
+          <div class="ig-preview-content">
+            <span class="ig-preview-badge" id="igPreviewBadge">● ACTUALIDAD</span>
+            <h3 class="ig-preview-title" id="igPreviewTitle">Cargando titular...</h3>
+            <p class="ig-preview-source" id="igPreviewSource">Pulso Independiente</p>
+          </div>
+        </div>
+
+        <!-- Caption Box -->
+        <div class="ig-caption-box">
+          <div class="ig-caption-top">
+            <label for="igCaptionTextarea">Texto y hashtags listos para pegar en Instagram:</label>
+            <button type="button" class="btn-copy-caption" id="igCopyCaptionBtn">
+              📋 Copiar texto
+            </button>
+          </div>
+          <textarea id="igCaptionTextarea" rows="6" readonly spellcheck="false"></textarea>
+        </div>
+
+        <!-- Action Buttons Grid -->
+        <div class="ig-actions-grid">
+          <!-- Web Share API (Móvil directo a Instagram Stories / Feed / Chat) -->
+          <button type="button" class="btn-ig-action btn-ig-share-native" id="igNativeShareBtn">
+            <span class="btn-ig-icon">📱</span>
+            <div class="btn-ig-text">
+              <strong>Compartir en Instagram</strong>
+              <small>Abrir en tu app móvil (Historias, Post o Chat)</small>
+            </div>
+          </button>
+
+          <!-- Descargar Imagen -->
+          <a class="btn-ig-action btn-ig-download" id="igDownloadImgBtn" href="#" download="pulso-noticia.jpg" target="_blank">
+            <span class="btn-ig-icon">🖼️</span>
+            <div class="btn-ig-text">
+              <strong>Descargar imagen para post</strong>
+              <small>Guardar imagen en tu galería o PC</small>
+            </div>
+          </a>
+
+          <!-- Abrir Instagram App / Web -->
+          <a class="btn-ig-action btn-ig-open-app" id="igOpenAppBtn" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <span class="btn-ig-icon">📸</span>
+            <div class="btn-ig-text">
+              <strong>Abrir Instagram</strong>
+              <small>Ir a Instagram para publicar o crear historia</small>
+            </div>
+          </a>
+
+          <!-- Copiar enlace directo a Pulso -->
+          <button type="button" class="btn-ig-action btn-ig-copy-link" id="igCopyLinkBtn">
+            <span class="btn-ig-icon">🔗</span>
+            <div class="btn-ig-text">
+              <strong>Copiar enlace directo</strong>
+              <small>Para pegarlo en el sticker de enlace de historias</small>
+            </div>
+          </button>
+        </div>
       </div>
     </div>
   </div>
