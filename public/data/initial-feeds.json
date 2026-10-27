@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-27T21:41:21.666438+00:00",
+  "generatedAt": "2026-10-27T22:01:24.348600+00:00",
   "totalArticles": 247,
-  "totalBlockedFarandula": 11,
+  "totalBlockedFarandula": 14,
   "blockedExamples": [
     {
       "title": "¿Nos rendimos o seguimos jugando?",
@@ -11,6 +11,11 @@
     {
       "title": "Este video no muestra a presos en Brasil celebrando el triunfo de Lula: el registro es de 2022 y gritaban un gol de Santa Cruz de Recife",
       "source": "Fast Check CL",
+      "reason": "fútbol"
+    },
+    {
+      "title": "Fútbol chileno en 1988: el descenso de la U y una crisis que no daba tregua",
+      "source": "Radio U. de Chile",
       "reason": "fútbol"
     },
     {
@@ -32,6 +37,16 @@
       "title": "Caso Javiera Jiménez impulsa proyecto de ley para agilizar la búsqueda de desaparecidos y sancionar obstrucciones",
       "source": "Timeline Antofagasta",
       "reason": "penales"
+    },
+    {
+      "title": "La formación de Universidad Católica para el duelo pendiente contra Audax Italiano",
+      "source": "Radio Cooperativa",
+      "reason": "universidad católica"
+    },
+    {
+      "title": "Presidente de La Liga española se reunió con el embajador de China por el caso Mbappé",
+      "source": "Radio Cooperativa",
+      "reason": "mbappé"
     },
     {
       "title": "Kaoto viajará a Perú para sumarse a reality pese a querella de Faloon: abogado descarta arraigo",
@@ -560,7 +575,7 @@
       "independent": true,
       "status": "ok",
       "count": 10,
-      "blocked": 1
+      "blocked": 2
     },
     {
       "id": "elmostrador",
@@ -681,7 +696,7 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 2
+      "blocked": 4
     },
     {
       "id": "elfaro",
@@ -939,6 +954,106 @@
   ],
   "articles": [
     {
+      "id": "france24-238",
+      "title": "Flávio Bolsonaro recibirá el visado de EE. UU. tras huir de Brasil",
+      "summary": "El Gobierno de Donald Trump anunció este martes 27 de octubre que acogerá al senador brasileño Flávio Bolsonaro y a su familia. Bolsonaro, que perdió la segunda vuelta presidencial del domingo ante el mandatario Luiz Inácio Lula da Silva, abandonó Brasil tras negarse a acatar la orden judicial de entregar su pasaporte. Lula confirmó...",
+      "content": "<p>El Gobierno de Donald Trump anunció este martes 27 de octubre que acogerá al senador brasileño Flávio Bolsonaro y a su familia. Bolsonaro, que perdió la segunda vuelta presidencial del domingo ante el mandatario Luiz Inácio Lula da Silva, abandonó Brasil tras negarse a acatar la orden judicial de entregar su pasaporte. Lula confirmó luego que su rival huyó del país. El político ultraderechista se negó a entregar el pasaporte a las autoridades en medio de una investigación por lavado de dinero.</p>",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261027-ee-uu-otorgar%C3%A1-visado-a-fl%C3%A1vio-bolsonaro-lula-confirma-que-su-rival-derechista-huy%C3%B3-de-brasil",
+      "image": "https://s.france24.com/media/display/50b82fc0-d174-11f1-bd92-bdb9616e85cf/w:1024/p:16x9/f8b71311cddbfa737bb9a5bdc6261fea0b6d21a3.jpg",
+      "publishedAt": "2026-10-27T21:49:32+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "alta",
+      "relevanceScore": 81,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-239",
+      "title": "Carlos Martínez Assad: \"los partidos árabes nunca habían votado tando en Israel\"",
+      "summary": "La jornada electoral en Israel muestra un escenario que ya estaban contemplados, es decir, que la elección no se decidirá el día de hoy sino luego del juego de alianza de los partidos. Por otro lado, los partidos árabes han mostrado una participación mayor, pues incluso en ocasiones anteriores dichos partidos habían optado por la...",
+      "content": "<p>La jornada electoral en Israel muestra un escenario que ya estaban contemplados, es decir, que la elección no se decidirá el día de hoy sino luego del juego de alianza de los partidos. Por otro lado, los partidos árabes han mostrado una participación mayor, pues incluso en ocasiones anteriores dichos partidos habían optado por la abstención. Carlos Martínez Assad, doctor en sociología, aborda el tema en France 24.</p>",
+      "url": "https://www.france24.com/es/video/20261027-carlos-mart%C3%ADnez-assad-los-partidos-%C3%A1rabes-nunca-hab%C3%ADan-votado-tando-en-israel",
+      "image": "https://s.france24.com/media/display/2ce32318-d24e-11f1-822e-a7bbbeea0b20/w:1024/p:16x9/ES-20261027-151645-152024-CS.jpg",
+      "publishedAt": "2026-10-27T21:47:42+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "lasillavacia-148",
+      "title": "En Meta cuestionan versión del Ejército sobre mujer que cayó en operativo",
+      "summary": "El Ejército dice que era la pareja del cabecilla alias Junior Rojas. Su familia y la comunidad afirman que no tenía relación con grupos armados. The post En Meta cuestionan versión del Ejército sobre mujer que cayó en operativo appeared first on La Silla Vacía .",
+      "content": "<p>¿De qué estamos hablando? Una operación del Ejército el 17 de octubre en zona rural entre Puerto Rico y Vista Hermosa, en Meta, dejó tres capturados, entre ellos alias Junior Rojas, señalado como segundo cabecilla y jefe financiero de la estructura Marco Aurelio Buendía, de las disidencias de alias Calarcá.</p><p>Según reportes de Infobae y Canal TV5 también murió una mujer. El Ejército dijo que, según información preliminar, sería la compañera sentimental del cabecilla y habría muerto en combate. El presidente Abelardo de la Espriella reportó en X “un bandido muerto” y tres capturados.</p><p>La versión oficial fue cuestionada. Vorágine identificó a la mujer como Yasmín Rodríguez, de 22 años y madre de una bebé de 16 meses. Su madre y su hermano dijeron que trabajaba en oficios varios, que era madre soltera y que no tenía relación con el cabecilla ni con el grupo armado.</p><p>La Junta de Acción Comunal de la vereda La Cooperativa afirmó que los militares dispararon contra la vivienda sin tomar precauciones, según reportó Cambio, y calificó la muerte de ejecución extrajudicial.</p><p>Una fuente del Ejército que pidió reserva le dijo a Vorágine que la mujer acompañaba a los capturados y que la Fiscalía abrió una investigación, algo que el medio no pudo confirmar con esa entidad. Cambio reportó que la Fiscalía tomó el testimonio del propietario del predio, quien habría dicho que el lugar estaba deshabitado y había sido ocupado por integrantes del grupo armado.</p><p>La Junta pidió una investigación independiente, que se identifique a los militares que participaron y que el Ejército se pronuncie sobre las denuncias.</p><p>The post En Meta cuestionan versión del Ejército sobre mujer que cayó en operativo appeared first on La Silla Vacía.</p>",
+      "url": "https://www.lasillavacia.com/en-vivo/en-meta-cuestionan-version-del-ejercito-sobre-mujer-que-cayo-en-operativo/",
+      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2024/05/Ejercito-armas.png?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
+      "publishedAt": "2026-10-27T21:47:04+00:00",
+      "sourceId": "lasillavacia",
+      "sourceName": "La Silla Vacía",
+      "sourceType": "Poder y Política",
+      "sourceSite": "https://www.lasillavacia.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 83,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-240",
+      "title": "¿Por qué el resultado final de las elecciones legislativas en Israel tarda en definirse?",
+      "summary": "Las elecciones legislativas en Israel registraron una participación histórica, en una jornada marcada por ser la primera celebrada desde los ataques del 7 de octubre de 2023. Los sondeos a boca de urna anticipan una contienda muy ajustada entre Benjamin Netanyahu y Gadi Eizenkot, pero el resultado definitivo podría tardar incluso...",
+      "content": "<p>Las elecciones legislativas en Israel registraron una participación histórica, en una jornada marcada por ser la primera celebrada desde los ataques del 7 de octubre de 2023. Los sondeos a boca de urna anticipan una contienda muy ajustada entre Benjamin Netanyahu y Gadi Eizenkot, pero el resultado definitivo podría tardar incluso semanas en conocerse. En el sistema electoral israelí, el papel de las coaliciones es clave para formar gobierno e incluso después del recuento de votos, el país podría enfrentar una nueva convocatoria a las urnas. Damian Szvalb, politólogo y analista internacional, analiza el tema en France 24.</p>",
+      "url": "https://www.france24.com/es/video/20261027-por-qu%C3%A9-el-resultado-final-de-las-elecciones-legislativas-en-israel-tarda-en-definirse",
+      "image": "https://s.france24.com/media/display/25a6d080-d24a-11f1-a7e7-efcc5769f1db/w:1024/p:16x9/ES-20261027-150339-150532-CS.jpg",
+      "publishedAt": "2026-10-27T21:35:16+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "cooperativa-127",
+      "title": "Nicolás Jarry se estrenó con dura derrota en el Challenger de Guayaquil",
+      "summary": "Nicolás Jarry , 784° en el ranking mundial, tuvo una mala jornada este martes en Ecuador y se estrenó con una dura derrota en la primera ronda del Challenger de Guayaquil, ante el boliviano Hugo Dellien (119°). Jarry, quien fue invitado con wild card por la organización, sucumbió por 6-1 y 6-3 ante Dellien, en un partido que duró...",
+      "content": "<p>Nicolás Jarry, 784° en el ranking mundial, tuvo una mala jornada este martes en Ecuador y se estrenó con una dura derrota en la primera ronda del Challenger de Guayaquil, ante el boliviano Hugo Dellien (119°).</p><p>Jarry, quien fue invitado con wild card por la organización, sucumbió por 6-1 y 6-3 ante Dellien, en un partido que duró apenas 68 minutos en la arcilla ecuatoriana.</p><p>Durante el compromiso, el nivel de Jarry, quien viene saliendo de una lesión en el codo, fue muy bajo en la primera manga, aunque trató de recuperarse en el segundo parcial.</p><p>Tuvo una chance de quebrar el juego de Dellien, y al final terminó cediendo ante la consistencia del boliviano.</p><p>En la siguiente ronda, Dellien enfrentará al mexicano Rodrigo Pacheco (267°), quien eliminó al peruano Juan Pablo Varillas (201°) por 6-2 y 6-3.</p><p>Jarry, por su parte, no está anotado en torneos para las próximas semanas, a menos que reciba otra wild card en Lima o Montevideo.</p>",
+      "url": "https://www.cooperativa.cl/noticias/deportes/tenis/challengers/nicolas-jarry-se-estreno-con-dura-derrota-en-el-challenger-de-guayaquil/2026-10-27/183307.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261027/imag/foto_0000000220261027183307.jpg",
+      "publishedAt": "2026-10-27T21:33:07+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "elciudadano-80",
       "title": "Federaciones de sindicatos exigen disolución de las AFP y reintegro de los fondos perdidos: Presentaron requerimiento ante la Superintendencia",
       "summary": "El Ciudadano La disolución de las AFP es la exigencia que plantearon de entrada un grupo de federaciones sindicales y organizaciones de trabajadores, quienes ingresaron un requerimiento por esta materia en la Superintendencia de Pensiones, a raíz de las millonarias pérdidas reportadas recientemente por las administradoras de los...",
@@ -1019,7 +1134,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "lasillavacia-148",
+      "id": "lasillavacia-149",
       "title": "Conservador apoya denuncia contra Petro por perturbación de elecciones",
       "summary": "La impulsa el abogado Jaime Lombana ante la Comisión de Acusaciones. El partido la respalda, principalmente, por la decisión de la oposición de no reconocer los resultados. The post Conservador apoya denuncia contra Petro por perturbación de elecciones appeared first on La Silla Vacía .",
       "content": "<p>El Partido Conservador respaldó la denuncia del abogado Jaime Lombana contra el expresidente Gustavo Petro ante la Comisión de Acusaciones de la Cámara por los delitos de presunta perturbación al certámen democrático y concierto para delinquir. La apoyan, principalmente, por la decisión de la oposición de no reconocer a Abelardo de la Espriella como el ganador de las elecciones.</p><p>“Se ha hecho pensar en el imaginario popular que hubo fraude que de ninguna manera existe”, dijo el exsenador Efraín Cepeda, presidente de la colectividad. “A mí que me expliquen cómo aceptan las curules de Senado y Cámara, pero no aceptan que Abelardo de la Espriella es el presidente”, continuó.</p><p>“La democracia no se negocia, la Registraduría se respeta y la voluntad popular se defiende”, dijo luego el partido en X.</p><p>La denuncia. Según la Unidad Investigativa de El Tiempo, que tuvo acceso a los argumentos de los accionantes, la denuncia señala que el entonces presidente Petro, junto con otros servidores públicos, habría planeado y ejecutado toda una estrategia de obstrucción al proceso electoral.</p><p>Además, que se habrían desplegado acciones “jurídicamente desvaloradas”, según El Tiempo, que van desde cuestionamientos e irregularidades inventadas contra el proceso con el presunto propósito de que se perdiera confianza en la Registraduría y su director, el registrador Hernán Penagos, también con partidos políticos y políticos de derecha.</p><p>Petro convirtió al fraude electoral en el mito fundacional de su oposición. Petro aprovechó su despedida ante el Congreso como presidente argumentando que la izquierda no perdió, sino que le robaron la elección a su candidato Iván Cepeda.</p><p>La narrativa del fraude le sirve para movilizar la resistencia en las calles, los paros y las huelgas que Petro ya anunció si De la Espriella desmonta sus reformas. Ya hubo la primera, el 14 de octubre, y habrá una segunda el 24 de noviembre.</p><p>Ya como expresidente y líder natural del Pacto Histórico, Petro anunció la creación de un equipo especial para investigar el supuesto fraude electoral y un espacio comunicacional para “enfrentar el efecto de las granjas de bots que apoyan a Abelardo creando una matrix de falsedad y manipulación sobre la conciencia ciudadana”.</p><p>Es una referencia a la teoría que él comenzó a mover tras la detención en Bolivia de Fernando Cerimedo, un exasesor de los presidentes de derecha Javier Milei y Jair Bolsonaro, y que la ha unido con su narrativa de fraude en las pasadas elecciones presidenciales en Colombia (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12).</p><p>Sepa más. Sobre los primeros pasos de la oposición bajo la dirección de Petro, les recomiendo esta historia y este episodio de Huevos Revueltos con Política:</p><p>The post Conservador apoya denuncia contra Petro por perturbación de elecciones appeared first on La Silla Vacía.</p>",
@@ -1079,7 +1194,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "lasillavacia-149",
+      "id": "lasillavacia-150",
       "title": "Sin presupuesto, las artistas de Cundinamarca financian el arte",
       "summary": "Las mujeres y gestoras culturales en Cundinamarca asumen con recursos propios la falta de financiación pública y las fallas en los programas de estímulos. The post Sin presupuesto, las artistas de Cundinamarca financian el arte appeared first on La Silla Vacía .",
       "content": "<p>Columna escrita por Liliana Paola Garzón Ramírez, columnista invitada.</p><p>Las artistas en Cundinamarca no viven del arte. Decirlo así, sin eufemismos, implica reconocer una deuda histórica que aún no se resuelve, a pesar de que todos los intentos de ampliación de la política pública cultural y programas que han venido incentivando la cultura en el último decenio quedan cortos e insuficientes para democratizar, verdaderamente, el arte y la cultura a comunidades en municipios y veredas del departamento, donde es difícil el acceso.</p><p>Muchas de las artistas en Cundinamarca sobreviven con trabajos paralelos: dando clases particulares, cajeras en supermercados, recepcionistas en hoteles, y otro sinfín de actividades para poder mantenerse a sí mismas y sus procesos culturales. Por otro lado, otras se endeudan con tarjetas para cumplir con las obligaciones tributarias que deben las corporaciones culturales con persona jurídica, piden préstamos a su nombre o sacrifican ingresos familiares para que un proceso artístico no fenezca. Y cuando finalmente logra sostenerlo, se les llama “autosostenibles culturalmente”. Algo debe ser claro aquí: una política cultural no puede construirse sobre la capacidad de la autosuficiencia de las artistas y sus procesos culturales, las cuales no tienen otra opción que resistir. Adicionalmente, la situación adquiere una gravedad particular cuando hablamos de mujeres artistas en los territorios. No porque las mujeres necesiten que se les regale un lugar en la cultura, sino porque todavía existen brechas políticas, imaginarios sociales errados, insuficiencias materiales, económicas, territoriales y demérito que hacen que sostener un proceso artístico sea mucho más difícil. Las mujeres no solamente producen cultura: muchas veces también sostienen hogares, cuidan las infancias, unen comunidades, diseñan procesos pedagógicos y redes de protección y prevención; mientras intentan mantener vivo un proyecto artístico.</p><p>Es preocupante el reciente panorama nacional que acaban de ofrecer al sector cultural y artístico del país con la Resolución 1887 del 14 de septiembre de 2026 del Ministerio de las Culturas, las Artes y los Saberes, la cual determinó que no continuaría con la evaluación ni la designación de ganadores ni desembolsos de premios nacionales y reconocimientos del Programa Nacional de Estímulos 2026. Lo anterior siendo un fuerte recorte presupuestal para la cultura en Colombia. La decisión dejó sin evaluación a aproximadamente 1.308 propuestas que habían superado la verificación de requisitos, muchas de estas propuestas lideradas por mujeres artistas del sector cultural con sus casas de formación artística. El propio Ministerio argumentó dificultades de capacidad institucional, personal especializado y disponibilidad de caja, lo cual evidencia que la cultura no es una prioridad del gobierno nacional para sostener la vida artística en el país. Según muchos reportes, por primera vez en 27 años no se entregarán los premios y reconocimientos del Programa Nacional de Estímulo. Mientras muchas artistas en los territorios se preguntan: ¿quién sostiene a quienes sostienen la cultura cuando los recursos no alcanzan?</p><p>Debe quedar claro que cuando una mujer artista tiene que endeudarse para que su proceso artístico pueda montar una obra, comprar materiales, transporte a otro municipio, alimentación para su equipo, pagar una sala, no estamos ante una historia romántica de “amor por el arte”. Se enfrentan a una falla de la política pública cultural. La precariedad no debe ser romantizada como el único modelo de financiación válido para que la cultura siga existiendo. Por otra parte, las alcaldías de Cundinamarca también tienen una responsabilidad que no puede reducirse a prestar un escenario para las festividades municipales. Difundir, circular, comprar servicios artísticos, fortalecer procesos locales, garantizar espacios de creación y reconocer económicamente el trabajo cultural de sus territorios son formas de política pública. Las artistas no solo necesitan que les permitan presentarse: necesitan con urgencia condiciones para crear.</p><p>No se puede seguir hablando de desarrollo territorial mientras la cultura y el arte aparecen como el último renglón de los presupuestos y agendas culturales del departamento. No podemos hablar de equidad de género mientras las mujeres artistas mantienen con las uñas los procesos artísticos; ellas tienen que escoger entre pagar sus cuentas o comprar los materiales para el montaje. No podemos hablar de la democratización de las artes y las culturas si quienes producen tejido social, memoria narrativa, creación colectiva y cultura viva comunitaria deben competir permanentemente por recursos insuficientes. En resumidas cuentas, el problema no solo es cuánto dinero hay, sino qué lugar ocupa la cultura en la voluntad política. Entre pequeños avances y largos retrocesos se ha instalado una peligrosa costumbre: esperar que las artistas puedan con todo que trabajen gratis “por amor a la comunidad y labor social”. Se requiere escuchar a las artistas de Cundinamarca, sus necesidades, sus preocupaciones y sus logros y por supuesto un presupuesto suficiente y decente para el sector de mujeres artistas cundinamarquesas.</p><p>Licenciada en Humanidades y Lengua Castellana de la Universidad Distrital y estudiante de la Maestría en Infancia y Cultura. Artista formadora y gestora cultural en procesos teatrales, literarios, educativos y comunitarios en Corporación Cultural Casa de la Cigarra. Integro la pedagogía, la escritura creativa y las artes como herramientas para el pensamiento crítico, la transformación social y la construcción colectiva. Creo en la educación popular, la participación comunitaria y el liderazgo de las mujeres como fuerzas germinantes para transformar los territorios y abrir caminos hacia una sociedad más lectora, sensible y humanista.</p><p>The post Sin presupuesto, las artistas de Cundinamarca financian el arte appeared first on La Silla Vacía.</p>",
@@ -1119,7 +1234,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "lasillavacia-150",
+      "id": "lasillavacia-151",
       "title": "Comisión Quinta cita a debate de control político a Joaquín Gutiérrez",
       "summary": "El presidente de Ecopetrol estará el 4 de noviembre en el Congreso. Será su primera exposición sobre sus conocimientos en el sector. The post Comisión Quinta cita a debate de control político a Joaquín Gutiérrez appeared first on La Silla Vacía .",
       "content": "<p>Para el 4 de noviembre está citado el presidente de Ecopetrol, Joaquín Gutiérrez, una de las personas más cercanas al presidente Abelardo de la Espriella y con más influencia en el gobierno.</p><p>La citación la hicieron los presidentes de las comisiones quintas: el representante conservador Julio Roberto Salazar y el senador del Centro Democrático Juan Espinal.</p><p>¿Por qué importa? Es la primera exposición grande de Gutiérrez, en la que tendrá que responder las preguntas de los congresistas.</p><p>Si bien es un debate de trámite para conocer cómo recibió Ecopetrol, la empresa más grande del país tras la cuestionada gestión de Ricardo Roa en el gobierno Petro, se verá el conocimiento de Gutiérrez en el sector de hidrocarburos, en el que no tiene experiencia previa.</p><p>Gutiérrez es un administrador de empresas de la Universidad del Norte y tiene una especialización en gerencia de salud, pero no tiene experiencia profesional o académica en el sector de energía y gas. Las empresas que ha manejado pertenecen, especialmente, a los sectores de salud e inmobiliario, pero están lejos de ser de la dimensión de Ecopetrol.</p><p>El poder de Gutiérrez en el gobierno. Gutiérrez fue el gerente de la campaña de De la Espriella y es uno de los hombres más poderosos del gobierno. El solo nombramiento en Ecopetrol lo muestra, pero además Gutiérrez ha participado en reuniones de alto nivel, como una con los cacaos para conseguir recursos para el terremoto u otras con el equipo de Marco Rubio, secretario de Estado de Estados Unidos.</p><p>También tiene familiares en el Viceministerio de Justicia y en la presidencia de Coljuegos, como reveló La Silla.</p><p>The post Comisión Quinta cita a debate de control político a Joaquín Gutiérrez appeared first on La Silla Vacía.</p>",
@@ -1159,7 +1274,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-127",
+      "id": "cooperativa-129",
       "title": "Pronostican chubascos y tormenta eléctrica en la alta cordillera de la RM este miércoles",
       "summary": "Arnaldo Zúñiga, de la Dirección Meteorológica de Chile , adelantó en Cooperativa que para este miércoles en la Región Metropolitana, se pronostica que nuevamente habrá \"algunos chubasquitos y algunas tormentas eléctricas \" , aunque esta vez solo en la alta cordillera . En Lo que Queda del Día , el experto indicó que las lluvias...",
       "content": "<p>Arnaldo Zúñiga, de la Dirección Meteorológica de Chile, adelantó en Cooperativa que para este miércoles en la Región Metropolitana, se pronostica que nuevamente habrá &quot;algunos chubasquitos y algunas tormentas eléctricas&quot;, aunque esta vez solo en la alta cordillera.</p><p>En Lo que Queda del Día, el experto indicó que las lluvias comenzarán después de las 17:00 horas, y explicó que se deben a &quot;una perturbación que se desplaza por el oeste rápidamente, entre hoy y mañana, sobre todo desde Coquimbo hasta el borde entre la Metropolitana y O&#x27;Higgins. Es una especie de baja presión que circulará de forma débil, pero igual va a generar esas condiciones en la cordillera&quot;.</p><p>Dicho esto, el meteorólogo aclaró que &quot;al momento, en la precordillera prevemos solamente nubosidad parcial para mañana&quot;.</p>",
@@ -1179,7 +1294,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-126",
+      "id": "cooperativa-128",
       "title": "Metro de Santiago: \"Somos un medio de transporte sustentable, 100% eléctrico y carbono neutral\"",
       "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Stephanie Wilhelm, subgerente de Medio Ambiente y Energía de Metro, abordó en Cooperativa las medidas que ha tomado la empresa de transportes para adaptarse al cambio climático y colaborar con el cuidado del entorno.</p><p>&quot;El 100% de nuestra energía proviene de fuentes renovables. Somos un medio de transporte 100% eléctrico, pero además proviene de fuentes renovables; por lo tanto, somos un medio de transporte sustentable. Además, somos carbono neutrales&quot;, aseveró.</p><p>A la vez, &quot;tenemos algunas iniciativas de reducción del consumo energético donde no afectamos a nuestros usuarios, sino que reducimos, por ejemplo, las velocidades en los horarios que no son punta, sin afectar la frecuencia de nuestros trenes. Asimismo, tenemos medidas internas dentro de la empresa: por ejemplo, nosotros en 2025 valorizamos el 79% de nuestros residuos y tenemos metas de aquí al 2030 de poder valorizar sobre el 85%, así como también medidas de compostaje y de reciclaje de colillas&quot;, agregó.</p><p>Wilhelm precisó que la construcción de la Línea 7, 9 y la extensión de la 6, son proyectos sustentables -al igual que los proyectados como la Línea 8 y Aeropuerto-: &quot;La red de Metro viene a disminuir las emisiones presentes en la ciudad. Particularmente, la Línea 7 proyecta una reducción de más de 32.000 toneladas de dióxido de carbono, lo que equivale como a 55.000 árboles más o menos plantados; la Línea 8, una reducción de 25.000 toneladas; la Línea 9, una reducción de 144.000 toneladas. Esto es, en total, como el efecto de plantar más de 338.000 árboles de una sola vez&quot;.</p>",
@@ -1239,7 +1354,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "lasillavacia-151",
+      "id": "lasillavacia-152",
       "title": "Colombia y Venezuela reactivan su comercio y abren oportunidades de inversión",
       "summary": "La reactivación del comercio y la conectividad con Venezuela abre espacio para la inversión, pero exige integración productiva y condiciones previsibles. The post Colombia y Venezuela reactivan su comercio y abren oportunidades de inversión appeared first on La Silla Vacía .",
       "content": "<p>El regreso de empresas colombianas, la recuperación de las conexiones aéreas y el interés empresarial muestran una nueva dinámica bilateral. El reto es convertir esas señales en inversión, empleo y una integración productiva sostenible.</p><p>La relación económica entre Colombia y Venezuela está mostrando señales que merecen atención. Una marca colombiana volvió al mercado venezolano, una empresa energética prepara su entrada, Avianca reforzó la conectividad aérea entre los dos países y empresarios de ambos lados de la frontera se reunieron en Cúcuta para explorar nuevas oportunidades. Ninguno de estos hechos, por separado, significa que la integración esté consolidada. En conjunto, sí muestran una dinámica que vale la pena entender y, sobre todo, aprovechar.</p><p>En el espacio del DNP participé en la mesa 2, denominada “Milagro del Patriotismo Constitucional”, donde abordé la seguridad fronteriza y la importancia estratégica de la frontera colombo-venezolana. También intervine en las discusiones sobre migración y sobre el papel de los colombianos en el exterior como actores del desarrollo nacional. Son asuntos que suelen tratarse por separado, aunque están estrechamente relacionados: la seguridad, la movilidad humana, la actividad económica fronteriza y el aporte de la diáspora inciden directamente en las oportunidades de desarrollo. Incorporar estas realidades a la planificación nacional es indispensable para que las decisiones públicas respondan a las necesidades de los territorios.</p><p>El Gran Encuentro de la Frontera me dejó una impresión especialmente positiva: el interés de empresarios por conocer mejor el mercado venezolano, establecer contactos y evaluar oportunidades de inversión. Allí coincidieron representantes de Fedecámaras, de la Cámara de Integración Económica Venezolano Colombiana (Cavecol), de la Cámara de Comercio de Cúcuta y de otros sectores empresariales y gremiales. También participó un representante designado por el embajador de Colombia en Venezuela, Jorge Jaller. El embajador venezolano en Colombia, Ramón Orlando Maniglia, estuvo presente. Esa combinación de actores empresariales, gremiales y diplomáticos le dio al encuentro una dimensión que va más allá de una conversación protocolaria.</p><p>Me gustó ver esa disposición. Quienes tenemos empresas sabemos que una decisión de inversión no se toma solo por entusiasmo ni por afinidad política. Se estudian los riesgos, se calculan los costos, se evalúa la demanda y se buscan condiciones que permitan operar. Que empresarios estén dispuestos a hacer ese ejercicio con Venezuela es una señal importante, aunque todavía haya obstáculos que resolver. El interés no equivale a una inversión garantizada, pero sí puede ser el comienzo de decisiones concretas si encuentra interlocutores, información y condiciones adecuadas.</p><p>Las cifras ayudan a entender por qué este momento merece atención. Según Cavecol, el intercambio comercial formal entre Colombia y Venezuela alcanzó los 749 millones de dólares durante enero-julio de 2026, un crecimiento del 12% frente al mismo periodo de 2025. De ese total, 684 millones correspondieron a exportaciones colombianas hacia Venezuela y 65 millones a exportaciones venezolanas hacia Colombia. El dato confirma el crecimiento del intercambio formal, pero también deja ver una diferencia importante entre los flujos comerciales.</p><p>Las ventas colombianas hacia Venezuela superan ampliamente las exportaciones venezolanas hacia Colombia. Esto demuestra que existe una demanda relevante para los productos colombianos, pero también señala una</p><p>oportunidad que no deberíamos desaprovechar: ampliar la participación de las empresas venezolanas y fortalecer su capacidad para vender en el mercado colombiano. No se trata de forzar una balanza comercial idéntica. Se trata de procurar que la recuperación del intercambio genere beneficios en ambos sentidos y no se limite a que un país venda y el otro compre.</p><p>Para lograrlo, la relación económica debe avanzar más allá de la compraventa de productos terminados. Las empresas pueden identificar proveedores, compartir procesos productivos, transformar materias primas y construir cadenas de valor que generen actividad económica a los dos lados de la frontera. Una integración más sólida permitiría que participen no solo grandes compañías, sino también transportadores, proveedores, pequeñas y medianas empresas y trabajadores. Esa es una manera concreta de convertir la cercanía geográfica en oportunidades de empleo y productividad.</p><p>También está el caso de Sajú, que mantiene presencia en Venezuela, y el de GeoPark, que anunció su entrada estratégica al sector energético venezolano a través del bloque Bare, en la Faja Petrolífera del Orinoco. La empresa adelanta los procesos contractuales, regulatorios, técnicos y operativos necesarios para avanzar hacia el inicio de sus operaciones, sujeto a las aprobaciones y condiciones aplicables. Son iniciativas de sectores distintos, desde la moda y el comercio hasta la energía. Esa diversidad sugiere que el interés empresarial no se concentra en una sola actividad, aunque cada compañía deba evaluar cuidadosamente sus riesgos.</p><p>La conectividad aérea también forma parte de esta recuperación. Avianca reactivó los vuelos diarios entre Bogotá y Caracas el 1 de septiembre de 2026 e inició la ruta directa Bogotá-Maracaibo el 28 de agosto, mientras mantiene la conexión diaria con Valencia. La aerolínea anunció una oferta superior a 7.500 sillas semanales entre Colombia y Venezuela. Para las empresas, esta conectividad facilita reuniones, seguimiento de operaciones y relaciones comerciales; también beneficia a quienes viajan por razones familiares, laborales o turísticas. Una ruta aérea no garantiza por sí sola un aumento del comercio, pero hace más sencillo mantener relaciones que requieren contacto frecuente y continuidad.</p><p>En este proceso, la gestión del embajador Jorge Jaller merece un reconocimiento particular. Su experiencia empresarial y su disposición a acercar al sector privado a las oportunidades del mercado venezolano pueden darle un contenido práctico a la diplomacia colombiana. Su apuesta por identificar posibilidades para las empresas y facilitar contactos es precisamente el tipo de trabajo que puede ayudar a que una representación diplomática tenga impacto más allá de la agenda protocolaria. El caso de Studio F ilustra ese enfoque: las conversaciones para facilitar el regreso de la marca comenzaron después de su designación y antes de su instalación en Caracas.</p><p>Una embajada no sustituye las decisiones de las compañías ni puede eliminar los riesgos de invertir en Venezuela. Pero sí puede abrir puertas, acercar interlocutores, ayudar a entender el entorno de negocios y acompañar gestiones que, de otro modo, podrían tardar más o no llegar a concretarse. La diplomacia comercial puede aportar valor cuando facilita contactos, identifica oportunidades y acompaña a las empresas en sus procesos de internacionalización. El desafío es que ese trabajo se traduzca en resultados verificables y cuente con respaldo institucional.</p><p>En esa misma lógica se inscribe la propuesta del embajador venezolano Ramón Orlando Maniglia de mantener abiertos los pasos fronterizos durante las 24 horas. Para las empresas de transporte, los trabajadores y las operaciones logísticas, ampliar los horarios puede reducir dificultades y facilitar la circulación. Su viabilidad, sin embargo, requiere coordinación entre las autoridades, capacidad operativa y controles migratorios, aduaneros y de seguridad eficaces. La ampliación de los horarios debe responder a necesidades reales y contar con los recursos necesarios para funcionar adecuadamente.</p><p>Nada de esto significa que hayan desaparecido las dificultades económicas, regulatorias o de seguridad. Las empresas necesitan previsibilidad, mecanismos de pago confiables, logística eficiente y claridad sobre las reglas aplicables. La confianza comercial se construye con condiciones que permitan planificar y operar, y con instituciones capaces de responder cuando surgen problemas. Sin esos elementos, las iniciativas empresariales pueden quedarse en anuncios o depender de circunstancias que cambian rápidamente.</p><p>La recuperación de los vínculos económicos entre Colombia y Venezuela todavía enfrenta riesgos, pero ya existen señales concretas de movimiento. El reto consiste en convertirlas en decisiones empresariales sostenibles, nuevas inversiones, empleo y cadenas productivas que beneficien a ambos países. La integración no se consolidará con anuncios ni con encuentros aislados, sino cuando las oportunidades que hoy empiezan a abrirse se traduzcan en resultados duraderos.</p><p>The post Colombia y Venezuela reactivan su comercio y abren oportunidades de inversión appeared first on La Silla Vacía.</p>",
@@ -1259,27 +1374,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-238",
-      "title": "Israel en directo: sondeos a pie de urna muestran un codo a codo entre Netanyahu y Eisenkot",
-      "summary": "Nota publicada por France 24 Español (Medio Público Internacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://www.france24.com/es/medio-oriente/20261027-%F0%9F%94%B4-en-directo-i-abren-las-urnas-en-israel-el-pa%C3%ADs-vota-en-sus-primeras-elecciones-desde-los-ataques-del-7-de-octubre",
-      "image": null,
-      "publishedAt": "2026-10-27T20:24:01+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "cooperativa-128",
+      "id": "cooperativa-130",
       "title": "Israel: Netanyahu gana elecciones, pero sin mayoría para gobernar",
       "summary": "El primer ministro israelí, Benjamín Netanyahu, ganaría las elecciones generales en Israel con entre 24 y 25 escaños -frente a los 32 de las elecciones de 2022-, pero su bloque no alcanza la mayoría para gobernar y el opositor supera al suyo por entre dos y tres escaños, según los sondeos a pie de urna publicados por los principales...",
       "content": "<p>El primer ministro israelí, Benjamín Netanyahu, ganaría las elecciones generales en Israel con entre 24 y 25 escaños -frente a los 32 de las elecciones de 2022-, pero su bloque no alcanza la mayoría para gobernar y el opositor supera al suyo por entre dos y tres escaños, según los sondeos a pie de urna publicados por los principales canales televisivos del país.</p><p>Los sondeos a pie de urna dan al bloque opositor entre 52 y 53 escaños: de 21 a 23 para Yashar! (¡Recto!), de Gadi Eisenkot; entre 12 y 14 para Juntos, liderado por Naftali Bénet; entre 9 y 10 para Los Demócratas de Yair Golán; y de 7 a 9 para Israel Beitenu (Israel Nuestro Hogar), de Avigdor Líberman.</p><p>El bloque de Netanyahu, en tanto, ronda los 50 escaños: entre 24 y 25 para el Likud del mandatario; de 6 a 8 para el ultraordoxo Shas liderado por Aryeh Deri; entre 6 y 7 para Poder Judío, de Itamar Ben Gvir; en torno a 6 para Sionismo Religioso, de Bezalel Smotrich; y entre 6 y 7 para Judaísmo Unido de la Torá, Yaakov Asher.</p><p>Los partidos árabes se harían con un total de entre 17 y 18 escaños, tras una tarde en la que se han registrado picos de participación entre la población palestina que cuenta con pasaporte israelí.</p><p>La Lista Conjunta, que engloba a los partidos de izquierda Jadash, Taal y Balad, obtendría entre 10 y 11 asientos; mientras que el islamista Raam llegaría a los 7.</p><p>El Parlamento de Israel cuenta con 120 asientos, estando la mayoría en 61. Dado que ni el bloque de Eisenkot ni el de Netanyahu alcanzan esta cifra, el apoyo de los partidos árabes (que ambos, de momento, rechazan) es clave para formar un gobierno.</p>",
@@ -1302,7 +1397,7 @@
       "id": "eldiarioes-229",
       "title": "Netanyahu gana, pero la oposición suma más escaños en las primeras elecciones en Israel tras el genocidio, según los sondeos",
       "summary": "El partido de Benjamín Netanyahu, Likud, ha sido el más votado, pero no conseguiría formar una coalición junto a los partidos ultras con los que ha gobernado desde 2022. Los partidos de la oposición sumarían más escaños en el Parlamento, pero tampoco alcanzarían la mayoría para gobernar Israel acude a las urnas con un Netanyahu...",
-      "content": "<p>El partido de Benjamín Netanyahu, Likud, ha sido el más votado, pero no conseguiría formar una coalición junto a los partidos ultras con los que ha gobernado desde 2022. Los partidos de la oposición sumarían más escaños en el Parlamento, pero tampoco alcanzarían la mayoría para gobernar</p><p>Israel acude a las urnas con un Netanyahu amenazado tras casi dos décadas de dominio político</p><p>Benjamín Netanyahu ha ganado las elecciones generales en Israel, con un ligero margen sobre su principal rival, el líder de la oposición Gadi Eisenkot, según los primeros sondeos a pie de urna emitidos por los canales de televisión locales. Sin embargo, el mandatario, que ha sido primer ministro durante casi 19 años en total, no podría repetir la coalición de gobierno que ha liderado desde finales de 2022 y que ha sido la más ultraderechista de la historia del Estado hebreo.</p><p>Tras el cierre de las urnas a las 22.00 horas locales (21.00 en España), varios sondeos señalan que el partido del primer ministro, Likud, obtendría 25 escaños, mientras que la formación de Eisenkot, Yashar!, conseguiría 23. La mayoría de los sondeos indican que, aunque Yashar! no es el partido más votado, las formaciones que se sitúan en el llamado bloque anti-Netanyahu tendrían más escaños y podrían formar una coalición liderada por Eisenkot, pero necesitarían el apoyo externo de otros grupos porque no alcanzarían la mayoría (61 escaños). El bloqueo pro-Netanyahu sumaría 50 escaños, frente a los 53 del bloqueo opositor.</p><p>El ministro de Asuntos Exteriores israelí, Gideon Saar, ha sido el primero del Gobierno en reaccionar y ha escrito en X que “las celebraciones de la izquierda son prematuras” y que “una cosa parece bastante clara: el Likud es el partido más grande en Israel”.</p><p>Por su parte, Eisenkot no se ha declarado ganador, pero ha afirmado que los resultados preliminares “indican una desconfianza total en Netanyahu” por parte de la mayoría de los ciudadanos de Israel. Ha agregado que, si se confirman los resultados, buscará “implementar el veredicto del pueblo, reemplazar el Gobierno de Netanyahu y establecer un gobierno de movilización sionista, en el plazo más breve posible”. El exgeneral se define sionista y defiende la supremacía de los judíos entre el río Jordán y el mar Mediterráneo, y es conocido por sus políticas de mano dura respecto a los palestinos y a los vecinos árabes de Israel, pese a ser descendiente de una familia judía marroquí.</p><p>La sorpresa de la noche la han dado los partidos palestinos-israelíes, que obtendrían hasta 18 escaños y que, por tanto, serían fundamentales para respaldar cualquier gobierno. Sin embargo, todos los partidos judíos han dicho que no negociarían con los de mayoría palestina y que no aceptarían su participación en una coalición ni su apoyo externo para la investidura. Otro dato llamativo es la pérdida de algunos escaños de los partidos Poder Judío —del ministro de Seguridad Nacional Itamar Ben Gvir— y Sionismo Religioso —del ministro de Finanzas, Bezalel Smotrich—, ambos radicales, supremacistas judíos y residentes en los asentamientos ilegales de la Cisjordania ocupada.</p><p>Ha sido una larga jornada electoral, desde la apertura de los colegios electorales a las 07.00 horas de Israel (06.00 en España), en la cual la participación ha sido muy elevada desde la mañana y finalmente se ha situado en el 77,7%, la más alta registrada desde 1999, según el Comité Electoral Central. El organismo anunciará los primeros resultados oficiales a medida que avance el recuento manual de las papeletas, aunque no se esperan datos definitivos hasta el miércoles.</p><p>La desesperación del Likud llegó a tal punto que el partido pidió al Comité Electoral Central retrasar el cierre de las urnas una hora, hasta las 22.00 horas locales, una petición que fue rechazada.</p><p>Netanyahu y otros miembros de su Ejecutivo han cargado durante todo el día contra los votantes y los partidos palestinos-israelíes, empleando expresiones e imágenes racistas e, incluso, acusando al partido islamista moderado Ra&#x27;am de compra de votos. El mandatario llevaba toda la campaña empleando el lema “Derecha o Palestina”, que se refiere a que un gobierno de la oposición negociaría con los palestinos y haría concesiones, o sería investido con el apoyo de los partidos liderados por palestinos-israelíes, como Ra&#x27;am y la Lista Conjunta.</p><p>Los ciudadanos palestinos de Israel son unos 2 millones y representan alrededor del 20% de la población y el 16% de los más de 7 millones de votantes. Se han movilizado especialmente en estas elecciones porque en los pasados tres años, desde el ataque de Hamás del 7 de octubre de 2023, han sido perseguidos y marginados aún más en la sociedad judía. También se han movilizado los sectores más izquierdistas y liberales, cada vez más minoritarios en medio de la deriva derechista y ultranacionalista de Israel a partir del ataque de Hamás y el genocidio en Gaza.</p><p>El futuro de la Franja ha estado en segundo plano en la campaña electoral, en la que los partidos judíos han competido para hacer propuestas radicales, como la expulsión de todos los gazatíes, y no han ofrecido soluciones diplomáticas ni políticas, sino más guerra. Eisenkot, exjefe del Ejército israelí, ha atraído el voto de buena parte del electorado con un programa militarista e, incluso, ha prometido acabar definitivamente con Hamás en Gaza, si llega al poder.</p><p>Tres años después del comienzo de la brutal ofensiva de Israel en Gaza, donde ha asesinado a más de 74.000 palestinos, las urnas no han castigado a Netanyahu por los crímenes de guerra y lesa humanidad de los que le acusa la Corte Penal Internacional. Sin embargo, el genocidio en la Franja y la limpieza étnica en Cisjordania, así como la mayor represión y marginación de los palestinos en Israel, parece que han empujado a la minoría palestina-israelí a votar más que en comicios anteriores.</p><p>Las autoridades israelíes han vetado la entrada a la periodista de elDiario.es que iba a cubrir las elecciones generales del 27 de octubre.</p>",
+      "content": "<p>El partido de Benjamín Netanyahu, Likud, ha sido el más votado, pero no conseguiría formar una coalición junto a los partidos ultras con los que ha gobernado desde 2022. Los partidos de la oposición sumarían más escaños en el Parlamento, pero tampoco alcanzarían la mayoría para gobernar</p><p>Israel acude a las urnas con un Netanyahu amenazado tras casi dos décadas de dominio político</p><p>Benjamín Netanyahu ha ganado las elecciones generales en Israel, con un ligero margen sobre su principal rival, el líder de la oposición Gadi Eisenkot, según los primeros sondeos a pie de urna emitidos por los canales de televisión locales. Sin embargo, el mandatario, que ha sido primer ministro durante casi 19 años en total, no podría repetir la coalición de gobierno que ha liderado desde finales de 2022 y que ha sido la más ultraderechista de la historia del Estado hebreo.</p><p>Tras el cierre de las urnas a las 22.00 horas locales (21.00 en España), varios sondeos señalan que el partido del primer ministro, Likud, obtendría 25 escaños, mientras que la formación de Eisenkot, Yashar!, conseguiría 23. La mayoría de los sondeos indican que, aunque Yashar! no es el partido más votado, las formaciones que se sitúan en el llamado bloque anti-Netanyahu tendrían más escaños y podrían formar una coalición liderada por Eisenkot, pero necesitarían el apoyo externo de otros grupos porque no alcanzarían la mayoría (61 escaños). El bloqueo pro-Netanyahu sumaría 50 escaños, frente a los 53 del bloqueo opositor.</p><p>El ministro de Asuntos Exteriores israelí, Gideon Saar, ha sido el primero del Gobierno en reaccionar y ha escrito en X que “las celebraciones de la izquierda son prematuras” y que “una cosa parece bastante clara: el Likud es el partido más grande en Israel”.</p><p>Por su parte, Eisenkot no se ha declarado ganador, pero ha afirmado que los resultados preliminares “indican una desconfianza total en Netanyahu” por parte de la mayoría de los ciudadanos de Israel. Ha agregado que, si se confirman los resultados, buscará “implementar el veredicto del pueblo, reemplazar el Gobierno de Netanyahu y establecer un gobierno de movilización sionista, en el plazo más breve posible”. El exgeneral se define sionista y defiende la supremacía de los judíos entre el río Jordán y el mar Mediterráneo; es conocido por sus políticas de mano dura respecto a los palestinos y a los vecinos árabes de Israel, pese a ser descendiente de una familia judía marroquí.</p><p>La sorpresa de la noche la han dado los partidos palestinos-israelíes, que obtendrían hasta 18 escaños y que, por tanto, serían fundamentales para la formación de cualquier gobierno. Sin embargo, todos los partidos judíos han dicho que no negociarían con los de mayoría palestina y que no aceptarían su participación en una coalición ni su apoyo externo para la investidura. La mayoría de sondeos prevén que la Lista Conjunta obtenga 11 escaños, lo cual la sitúa como el cuarto partido más votado, detrás del Likud, Yashar! y Juntos (formado por los ex primeros ministros Naftali Bennet y Yair Lapid).</p><p>El líder de la Lista Conjunta (integrada por tres partidos palestinos-israelíes) ha dicho en un comunicado que este es “un día histórico”. “El pueblo se ha pronunciado y ha acudido masivamente a las urnas, brindándonos su confianza de forma inequívoca. Hemos demostrado ser una fuerza política que no puede ser ignorada y que es imposible construir un futuro aquí sin nuestra voz”, ha afirmado Yusef Yabarín.</p><p>Ha sido una larga jornada electoral, desde la apertura de los colegios electorales a las 07.00 horas de Israel (06.00 en España), en la cual la participación ha sido muy elevada desde la mañana y finalmente se ha situado en el 77,7%, la más alta registrada desde 1999, según el Comité Electoral Central. El organismo anunciará los primeros resultados oficiales a medida que avance el recuento manual de las papeletas, aunque no se esperan datos definitivos hasta el miércoles.</p><p>La desesperación del Likud llegó a tal punto que el partido pidió al Comité Electoral Central retrasar el cierre de las urnas una hora, hasta las 22.00 horas locales, una petición que fue rechazada.</p><p>Netanyahu y otros miembros de su Ejecutivo han cargado durante todo el día contra los votantes y los partidos palestinos-israelíes, empleando expresiones e imágenes racistas e, incluso, acusando al partido islamista moderado Ra&#x27;am de compra de votos. El mandatario llevaba toda la campaña empleando el lema “Derecha o Palestina”, que se refiere a que un gobierno de la oposición negociaría con los palestinos y haría concesiones, o sería investido con el apoyo de los partidos liderados por palestinos-israelíes.</p><p>Los ciudadanos palestinos de Israel son unos 2 millones y representan alrededor del 20% de la población y el 16% de los más de 7 millones de votantes. Se han movilizado especialmente en estas elecciones porque en los pasados tres años, desde el ataque de Hamás del 7 de octubre de 2023, han sido perseguidos y marginados aún más en la sociedad judía. También se han movilizado los sectores más izquierdistas y liberales, cada vez más minoritarios en medio de la deriva derechista y ultranacionalista a partir del ataque de Hamás contra el sur de Israel y el genocidio en Gaza.</p><p>El futuro de la Franja ha estado en segundo plano en la campaña electoral, en la que los partidos judíos han competido para hacer propuestas radicales, como la expulsión de todos los gazatíes, y no han ofrecido soluciones diplomáticas ni políticas, sino más guerra. Eisenkot, exjefe del Ejército israelí, ha atraído el voto de buena parte del electorado con un programa militarista e, incluso, ha prometido acabar definitivamente con Hamás en Gaza, si llega al poder.</p><p>Tres años después del comienzo de la brutal ofensiva de Israel en Gaza, donde ha asesinado a más de 74.000 palestinos, las urnas no han castigado a Netanyahu por los crímenes de guerra y lesa humanidad de los que le acusa la Corte Penal Internacional. Sin embargo, el genocidio en la Franja y la limpieza étnica en Cisjordania, así como las crecientes amenazas contra los palestinos en Israel, parece que han empujado a la minoría palestina-israelí a votar más que en comicios anteriores.</p><p>Puede que las políticas racistas contra los palestinos y la colonización salvaje de Cisjordania le hayan costado algunos escaños a los partidos Poder Judío —del ministro de Seguridad Nacional Itamar Ben Gvir— y Sionismo Religioso —del ministro de Finanzas, Bezalel Smotrich—, ambos residentes en los asentamientos ilegales. Algunos analistas apuntan a que la elevada participación ha beneficiado a los partidos más grandes, como Likud y Yashar!, mientras que dos pequeñas formaciones de extrema derecha recientemente formadas no han conseguido los votos necesarios para entrar en el Parlamento.</p><p>Las autoridades israelíes han vetado la entrada a la periodista de elDiario.es que iba a cubrir las elecciones generales del 27 de octubre.</p>",
       "url": "https://www.eldiario.es/internacional/netanyahu-gana-primeras-elecciones-israel-genocidio-no-podra-formar-gobierno-sondeos_1_13619855.html",
       "image": "https://static.eldiario.es/clip/80cf7ced-0425-44b9-bb08-c1c0189ae2cd_16-9-discover-aspect-ratio_default_0_x1246y232.jpg",
       "publishedAt": "2026-10-27T20:17:34+00:00",
@@ -1316,26 +1411,6 @@
       "category": "Geopolítica y Mundo",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 73,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "cooperativa-130",
-      "title": "Zverev batalló ante Landaluce y avanzó a octavos en Viena",
-      "summary": "El alemán Alexander Zverev , segundo en el ranking mundial, batalló más de la cuenta este martes ante el español Martín Landaluce (67°) y logró avanzar a octavos de final en el ATP 500 de Viena. Zverev, primer favorito en la pista dura en Austria, necesitó más de tres horas para vencer por 7-5, 3-6 y 7-6(11) a Landaluce, de 20 años....",
-      "content": "<p>El alemán Alexander Zverev, segundo en el ranking mundial, batalló más de la cuenta este martes ante el español Martín Landaluce (67°) y logró avanzar a octavos de final en el ATP 500 de Viena.</p><p>Zverev, primer favorito en la pista dura en Austria, necesitó más de tres horas para vencer por 7-5, 3-6 y 7-6(11) a Landaluce, de 20 años.</p><p>En octavos de final, Zverev enfrentará al ganador del cruce que jugarán este miércoles el neerlandés Tallon Griekspoor (50°) y el estadounidense Brandon Nakashima (17°).</p><p>Una publicación compartida por ATP Tour (@atptour)</p>",
-      "url": "https://www.cooperativa.cl/noticias/deportes/tenis/torneos-atp/zverev-batallo-ante-landaluce-y-avanzo-a-octavos-en-viena/2026-10-27/171528.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261027/imag/foto_0000000220261027171528.jpg",
-      "publishedAt": "2026-10-27T20:15:28+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1359,7 +1434,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-129",
+      "id": "cooperativa-131",
       "title": "A los 87 años murió Tetsuya Chiba, artista del legendario manga de boxeo \"Ashita no Joe\"",
       "summary": "El dibujante japonés Tetsuya Chiba, artista del conocido manga sobre boxeo \"Ashita no Joe\", falleció a los 87 años , según informaron este martes medios locales. Chiba murió el pasado jueves, 22 de octubre, en un hospital en Tokio . Al funeral asistieron únicamente sus familiares más cercanos, según informó la agencia de noticias...",
       "content": "<p>El dibujante japonés Tetsuya Chiba, artista del conocido manga sobre boxeo &quot;Ashita no Joe&quot;, falleció a los 87 años, según informaron este martes medios locales.</p><p>Chiba murió el pasado jueves, 22 de octubre, en un hospital en Tokio. Al funeral asistieron únicamente sus familiares más cercanos, según informó la agencia de noticias japonesa Jiji, que no mencionó la causa del fallecimiento.</p><p>Nacido en Tokio en 1939, aunque vivió gran parte de su niñez en la región china de Manchuria en la época del colonialismo japonés, hizo su debut profesional en 1958, con 19 años, después de haber creado un club de manga con sus amigos en la escuela.</p><p>Chiba, que recibió varios premios, fue el primer artista de este ámbito en recibir la Orden de la Cultura de Japón (2024), máxima condecoración civil del país.</p><p>El mangaka (autor de manga) ganó popularidad con la obra &quot;Ashita no Joe&quot;, escrito por Ikki Kajiwara (1936-1987). Este cómic comenzó a serializarse en 1968, del que posteriormente se produjeron dos animes (1970 y 1980).</p><p>ちばてつやさんのご逝去を悼み、謹んでお悔やみ申し上げます。 https://t.co/S76J2huHBs</p><p>Esta obra recorre la historia de un niño huérfano y rebelde, &quot;Joe Yabuki&quot; que deambula por los suburbios de Tokio tras la Segunda Guerra Mundial, pero cuya vida cambia al descubrir su talento por el boxeo, en un drama sobre la soledad, la clase obrera y la discriminación.</p><p>Antes de alzarse a la fama, escribió e ilustró en 1963 el manga &quot;El sol de Yuki&quot; (&quot;Yuki no Taiyou&quot;) sobre una niña huérfana que sirvió de inspiración para el cortometraje de 1972 que marcó el debut de Hayao Miyazaki, cofundador del Studio Ghibli, como director en solitario.</p><p>A partir de la década de 1970, Chiba continuó creando obras sobre sumo y golf, convirtiéndose en una figura destacada del manga deportivo. También destacó por transmitir los horrores de la guerra y la importancia de la paz.</p>",
@@ -1459,27 +1534,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-131",
-      "title": "Reserva biológica Huilo Huilo: Turismo sustentable con protección de fauna nativa",
-      "summary": "Alexandra Petermann , directora de la Reserva biológica Huilo Huilo y presidenta de Fedetur, conversó con Cooperativa sobre cómo la iniciativa demostró recuperar ecosistemas degradados e impulsar, a la vez , economías locale s. Petermann recordó que sus padres, y fundadores de la reserva, descubrieron que \"el desarrollo no era...",
-      "content": "<p>Alexandra Petermann, directora de la Reserva biológica Huilo Huilo y presidenta de Fedetur, conversó con Cooperativa sobre cómo la iniciativa demostró recuperar ecosistemas degradados e impulsar, a la vez, economías locales.</p><p>Petermann recordó que sus padres, y fundadores de la reserva, descubrieron que &quot;el desarrollo no era incompatible con la conservación&quot;, transformando antiguas faenas madereras en un polo en el que convergen vecinos y ecología.</p><p>Esa visión propició el retorno de especies que habían desaparecido del sur valdiviano: &quot;Hoy tenemos más de 50 huemules&quot;, subrayó la arquitecta, destacando que el monitoreo científico de anfibios, helechos y bosques genera valor educativo para los 250 mil turistas que reciben al año.</p><p>Para Petermann, las actividades recreativas bien planificadas protegen el hábitat sin segregar a los pobladores. &quot;El turismo es una herramienta clave también de conservación&quot;, remarcó, argumentando que guiar al visitante por la selva húmeda genera conciencia y financia la preservación de áreas silvestres vulnerables.</p><p>Paralelamente, la actividad detonó un encadenamiento comercial en Neltume y Puerto Fuy. De 1.500 camas disponibles, 1.100 pertenecen a emprendimientos locales, confirmando que &quot;el turismo es una cadena de valor&quot; donde cabañas, gastronomía y transportes comunitarios se benefician del flujo de viajeros.</p><p>El círculo virtuoso consolidó arraigo juvenil. En vez de emigrar, los jóvenes ahora estudian carreras técnicas para liderar servicios ecoturísticos o científicos. Con escuelas de montaña y centros formativos, el patrimonio natural asegura empleo digno y sustentable para las nuevas generaciones de la zona.</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/region-de-los-rios/reserva-biologica-huilo-huilo-turismo-sustentable-con-proteccion-de/2026-10-27/165707.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261027/imag/foto_0000000220261027165707.jpg",
-      "publishedAt": "2026-10-27T19:57:07+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Medioambiente y Territorio",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 69,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "lasillavacia-152",
+      "id": "lasillavacia-153",
       "title": "EE.UU. negoció regreso de Maria Corina a Venezuela, dijo Marco Rubio",
       "summary": "Desmintió los rumores sobre que su país hubiera obstaculizado su llegada. Contó que la única vez que le desaconsejó volver fue después del terremoto. The post EE.UU. negoció regreso de Maria Corina a Venezuela, dijo Marco Rubio appeared first on La Silla Vacía .",
       "content": "<p>El secretario de Estado de Estados Unidos, Marco Rubio, confirmó que su país negoció “hace muchas semanas” con el régimen venezolano el regreso de la líder opositora María Corina Machado a Venezuela, que ocurrió este domingo.</p><p>Según reportó el diario español ABC, su llegada ocurrió tras una operación diplomática en la que participaron varios países, entre ellos Estados Unidos. Y esta semana, Rubio detalló a varios periodistas sus conversaciones con el gobierno interino de Delcy Rodríguez:</p><p>“Les dijimos: ‘Miren, nuestra expectativa es que ella es venezolana. Pertenece a su país. Es el país del que procede. Se le debería permitir regresar’. Nos dijeron que podía entrar por el aeropuerto si así lo deseaba, y se lo comunicamos a su equipo. “Así que decidió hacerlo ahora”, contó Rubio.</p><p>Rubio se desmarcó del rumor de que EE.UU. habría frenado su regreso. A Machado se le había impedido regresar a Venezuela por lo menos tres veces durante septiembre, y un total de siete desde que salió rumbo a Noruega para recibir su Nobel de Paz. Las quejas iban en el sentido de que Estados Unidos había obstaculizado su viaje a Venezuela.</p><p>“La única vez que yo personalmente le desaconsejé que viajara fue justo después del terremoto. Y la razón fue muy sencilla: en ese momento, desde el punto de vista logístico, nuestro único objetivo era conseguir que entraran en el país tantos aviones con ayuda humanitaria como fuera posible”, dijo Rubio.</p><p>Según Rubio, había países “que no querían que se les viera involucrados” en el regreso de Machado. “Tienen sus propios intereses en lo que respecta a Venezuela y había países que no querían, por una razón u otra, enemistarse con nadie”, afirmó.</p><p>“Estoy aquí. Con ustedes”: el regreso de Machado. Su primera reaparición se dio al mediodía del domingo en la iglesia de Santa Rosa de Barquisimeto, desde donde arrancó una caravana de unas ocho horas junto con simpatizantes y motorizados hasta Caracas.</p><p>La Plataforma Unitaria Democrática (PUD), que es la principal alianza de la oposición en Venezuela, había exigido que se le respetara su derecho a regresar a Venezuela, permanecer en su país y ejercer sus derechos políticos y ciudadanos con libertad y seguridad.</p><p>El antecedente Trump. A finales de septiembre, Delcy Rodríguez se reunió con Trump. Los dos tuvieron un encuentro a puerta cerrada en el marco de la Asamblea General de la ONU. Según Rodríguez, hablaron de una agenda de cooperación en energía, minería, seguridad y otros asuntos de interés común.</p><p>En su discurso ante la Asamblea, Rodríguez también aseguró que habrá elecciones en Venezuela, aunque no dio una fecha. “Quiero decirlo muy claro en esta Asamblea General: en Venezuela habrá elecciones”, dijo desde Nueva York.</p><p>The post EE.UU. negoció regreso de Maria Corina a Venezuela, dijo Marco Rubio appeared first on La Silla Vacía.</p>",
@@ -1519,7 +1574,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "lasillavacia-153",
+      "id": "lasillavacia-154",
       "title": "El presupuesto de 2027 recorta en 53% la inversión ambiental",
       "summary": "El presupuesto de 2027 recorta la inversión ambiental y amenaza con dificultar la lucha contra la deforestación y la implementación de la trazabilidad ganadera. The post El presupuesto de 2027 recorta en 53% la inversión ambiental appeared first on La Silla Vacía .",
       "content": "<p>Columna escrita por Andrés Santana Bonilla, columnista invitado.</p><p>Las opiniones y puntos de vista expresados por mí son exclusivamente mías y no reflejan necesariamente la política, la postura u opiniones oficiales de Amazon Conservation Association</p><p>Después de la fallida conciliación de los textos de Senado y Cámara en el Congreso de la República, el gobierno nacional expidió por decreto el Presupuesto General de la Nación para 2027. El recorte al sector ambiental que reportó La Silla Vacía en agosto quedó confirmado: el Ministerio de Ambiente pasa de 1,240 billones de pesos en 2026 a 790.261 millones en 2027 (-36,3%), y el conjunto del sector (Ministerio, Ideam, Fondo Nacional Ambiental y las 30 corporaciones autónomas regionales) baja de 1,796 billones a 1,383 billones (-23%).</p><p>Las siguientes cifras reflejan el total de cada sección presupuestal (aporte de la Nación más recursos propios), en miles de millones de pesos, con datos del Decreto 1477 de 2025 para 2026 y del Decreto 1599 de 2026 para 2027. Como se puede apreciar, mientras que el recorte del Ministerio de Ambiente es elevado y alcanza los 450.142 millones de pesos, el presupuesto total de entidades del sector ambiente solo se reduce en 413.862 millones, puesto que el resto de las entidades suma un aumento neto.</p><p>Tabla 1. Comparativo de presupuestos de entidades del sector ambiental años 2026 y 2027</p><p>Para 2027 el presupuesto del Ideam sumará 968 millones (un aumento de apenas el 0,8%) y el presupuesto del Fondo Nacional Ambiental crecerá 15,2%, llegando a 334.708 millones. No obstante, al separar cada tipo de gasto y contrastarlo por año, las cifras reflejan que la inversión del Ministerio cae 53,1% y la del Ideam 6,6%, mientras que la del Fondo Nacional Ambiental sube 20,1%.</p><p>En el Ministerio, el recorte es casi todo en inversión. El presupuesto baja 460.352 millones, mientras el funcionamiento sube 10.211 millones. En el Ideam ocurre algo parecido, el funcionamiento sube 4.771 millones y la inversión baja 3.803 millones, lo que deja el total casi igual, pero con una combinación distinta: menos plata para proyectos y más para operar.</p><p>Tabla 2. Comparativo de presupuestos de funcionamiento e inversión de entidades del sector ambiental años 2026 y 2027</p><p>El total del presupuesto de las 30 corporaciones baja 6,2% (de 143.329 millones a 134.495 millones) principalmente por la dramática reducción del presupuesto de Codechocó, que pasa de 25.647 millones a 3.467 millones (-86,5%). En 2027 el decreto le asigna solo gastos de funcionamiento, sin inversión. Excluyendo a Codechocó, el presupuesto para las otras 29 CAR aumentaría 11,3%.</p><p>La CDA, cuya jurisdicción abarca Vaupés, Guainía y Guaviare, es una de las más favorecidas, pues su presupuesto aumenta de 3.476 millones a 7.915 millones (+127,7%). Le siguen la CVS (Córdoba) con un aumento de 36,1%, Cormacarena y Corpoamazonía con aumentos de 7,4% y 6,5% respectivamente.</p><p>La información disponible y que acompaña al Decreto 1477 desglosa la información para 2026 de Parques Nacionales Naturales y la Agencia Nacional de Licencias Ambientales (Anla). No obstante, el texto del Decreto 1599 solo llega al nivel de sección, así que su variación para 2027 no se puede calcular todavía. Tampoco hay información sobre los institutos de investigación del Sina como el Sinchi, el Iiap, el Invemar y el Humboldt. La gran reducción del presupuesto de inversión del Ministerio de Ambiente deja ver que, por lo menos, existe un riesgo para que los presupuestos de estas agencias también disminuyan, así como las inversiones orientadas a la conservación y lucha contra la deforestación, el ordenamiento territorial alrededor del agua, la restauración participativa de ecosistemas y la modernización institucional.</p><p>La Ley 2585 de 2026, de ganadería sostenible libre de deforestación y trazabilidad de la cadena ganadera, no crea un sistema nuevo, exige conectar los que ya existen (Sinigan, Sniita, guías de movilización, monitoreo de bosques y carbono del Ideam, catastro multipropósito y registro de la propiedad) como expliqué en una columna anterior. El presupuesto de 2027 recorta justamente la inversión de dos de las entidades que deben garantizar esa interoperabilidad: el Instituto Colombiano Agropecuario (ICA) y el Instituto Geográfico Agustín Codazzi (Igac).</p><p>Tabla 3. Comparativo de presupuestos de funcionamiento e inversión ICA e IGAC años 2026 y 2027</p><p>Conforme a lo establecido por la ley de trazabilidad, el ICA apoyará la declaración de “Zonas de Alta Vigilancia” de la actividad ganadera en núcleos activos y de alta deforestación y en zonas deforestadas del Registro Nacional de Zonas Deforestadas (artículo 10). Asimismo, el ICA deberá proporcionar información a los ministerios de Agricultura y Ambiente sobre el registro de la movilización por animal para la reglamentación de los instrumentos que orienten la política de debida diligencia en ganadería libre de deforestación (artículo 11).</p><p>Por su parte, el Igac se encarga del levantamiento, actualización e intercambio de la información predial, la asistencia técnica en información geográfica y catastral (artículo 3) y garantizará la participación de un experto en tecnología y análisis de datos en la “Comisión Nacional del Sistema Nacional de Identificación, Información y Trazabilidad Animal” (artículo 4). Vale la pena resaltar que el plan de integración gradual de los sistemas tiene un plazo máximo de 18 meses (artículo 3) que, contado desde la sanción en junio de 2026 vence hacia finales de 2027, es decir, durante la vigencia de este presupuesto.</p><p>El artículo 15 dice que los gastos de la ley se asumen con las partidas existentes de cada entidad y no plantea fuentes nuevas. Mientras tanto, en ambas entidades sube el presupuesto de funcionamiento, pero baja la inversión, que es el rubro de donde saldrían recursos para garantizar la interoperabilidad, la actualización de predios y los sistemas de identificación animal. Y, aunque el artículo 12 de la ley menciona al Fondo para la Vida y la Biodiversidad como una posible fuente de financiación, los recientes pronunciamientos sobre el fin de este fondo cerrarían la puerta a que el gobierno pueda usar estos recursos para integrar dichos sistemas.</p><p>Gerente senior para la lucha contra la deforestación ilegal en Amazon Conservation Association. Economista y profesional en Finanzas y Comercio Internacional de la Universidad del Rosario con maestría en Desarrollo Rural de la Universidad Javeriana.</p><p>The post El presupuesto de 2027 recorta en 53% la inversión ambiental appeared first on La Silla Vacía.</p>",
@@ -1557,26 +1612,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 70,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "france24-239",
-      "title": "Elecciones en Israel: participación récord preocupa a Netanyahu",
-      "summary": "En nuestra sección En Contexto analizamos la histórica participación en las elecciones en Israel. Mientras que el Gobierno de Benjamin Netanyahu alentaba a sus seguidores a salir a votar, agitando el temor al sufragio de la población árabe, los sectores opositores hicieron lo propio, pero motivando a la población a elegir un 'cambio'.",
-      "content": "",
-      "url": "https://www.france24.com/es/programas/en-contexto/20261027-elecciones-en-israel-participaci%C3%B3n-r%C3%A9cord-preocupa-a-netanyahu",
-      "image": "https://s.france24.com/media/display/6e5701c2-d23d-11f1-bbe9-75c7729144f1/w:1024/p:16x9/37d10e7d00d8f4c1975ad0f4e4ff944fffb213abw.jpg",
-      "publishedAt": "2026-10-27T19:36:58+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "esciclismo-214",
@@ -1636,26 +1671,6 @@
       "category": "Cultura y Sociedad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "france24-240",
-      "title": "Directo a Río y la cancelación del pasaporte de Bolsonaro y las interrogantes sobre su paradero",
-      "summary": "Dos días después de perder las elecciones presidenciales, los pasaportes del senador y ex candidato brasileño de extrema derecha, Flávio Bolsonaro, fueron cancelados luego de que se negara a entregarlos a las autoridades, que le habían ordenado no salir del país al estar siendo investigado por presunta financiación irregular e...",
-      "content": "<p>Dos días después de perder las elecciones presidenciales, los pasaportes del senador y ex candidato brasileño de extrema derecha, Flávio Bolsonaro, fueron cancelados luego de que se negara a entregarlos a las autoridades, que le habían ordenado no salir del país al estar siendo investigado por presunta financiación irregular e injerencia extranjera en su campaña presidencial. Su paradero es desconocido. Amplía la información nuestra corresponsal Valeria Saccone.</p>",
-      "url": "https://www.france24.com/es/video/20261027-directo-a-r%C3%ADo-y-la-cancelaci%C3%B3n-del-pasaporte-de-bolsonaro-y-las-interrogantes-sobre-su-paradero",
-      "image": "https://s.france24.com/media/display/597125bc-d238-11f1-93d2-47de50b3c1e4/w:1024/p:16x9/ES-20261027-124517-125011-CS.jpg",
-      "publishedAt": "2026-10-27T19:23:05+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1739,7 +1754,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "lasillavacia-154",
+      "id": "lasillavacia-155",
       "title": "El desmonte de obras del Museo Nacional prende chispas entre los jóvenes",
       "summary": "Incluso entre personas que apoyaron a De la Espriella la medida genera molestia. En otros una indignación profunda que refleja una opinión similar a la de 2021. The post El desmonte de obras del Museo Nacional prende chispas entre los jóvenes appeared first on La Silla Vacía .",
       "content": "<p>“Me toca”, “me indigna”, “violenta”, “me preocupa”, “atropella”, “censura”. Esas son algunas de las emociones que afloran entre personas jóvenes tras el desmonte de 47 obras del Museo Nacional, el principal repositorio de arte del país, alusivas a la historia de movimientos sociales colombianos. Los argumentos que ha dado la ministra de Cultura, Paola Holguín, son que las obras retiradas promueven el “adoctrinamiento político”. Su retiro fue enmarcado en la lucha contra el “wokismo” y la batalla cultural que promete librar el gobierno De la Espriella.</p><p>Desde entonces, y en oposición a la medida, se han promovido dos plantones a las afueras del Museo —los dos con respuesta de las fuerzas antidisturbios de la Policía—. Las obras retiradas se han reproducido en las calles, y académicos han reactivado espacios educativos para reivindicar las historias que alberga el Museo, que antes era una cárcel. Uno de ellos, llamado Clase a la Calle, nacido en 2016 durante el plebiscito por la paz, se imparte desde las escaleras que dan a la entrada del viejo panóptico.</p><p>La Silla conversó con varios jóvenes, y les preguntó por las emociones que les despertó el desmonte de las obras. Incluso en personas que apoyaron al presidente hay molestia. De la Espriella es muy impopular en esta demografía: el 54% tiene una imagen negativa sobre él y un 56% desaprueba su gestión, según la encuesta Latam Pulse, que publica la firma AtlasIntel en Bloomberg, que se publicó antes del retiro de las obras. Sus números son parecidos a los de Iván Duque previo al estallido social de 2021 y alertan sobre una chispa en la opinión que en el pasado llevó a grandes protestas.</p><p>Según una revisión de La Silla sobre las obras retiradas del Museo Nacional, el gobierno quitó el 52% de las piezas sobre personas Lgbti+, el 28% de las que muestran mujeres y el 14% de las de guerrilleros. Para Alejandro Velásquez, un historiador del Externado de la comunidad Lgbti, esa colección de piezas le parecía una exposición “muy floja”. “Y sin embargo, era la primera vez que estábamos nosotras, las disidencias sexuales y de género, dentro del Museo Nacional”, continuó.</p><p>A Alejandro, el retiro de las obras del museo le deja la sensación de que se “atropellan” elementos donde “mucha gente de la clase popular se siente identificada dentro del relato de nación”.</p><p>Karen Morales, una estudiante de Gobierno de Los Andes que hace parte de las Juventudes del Centro Democrático, cree que “la memoria no debería estar sujeta a la posición política del gobierno de turno” y que “un ciudadano debe encontrar en el museo una historia objetiva y un panorama completo”. A Karen, quien apoyó en primera vuelta la campaña de Paloma Valencia y en segunda la de De la Espriella, le sorprendió la noticia del desmonte de las obras, y está a la expectativa por las próximas decisiones que pueda tomar el gobierno en este tema.</p><p>Sofía Villamizar, de 21 años, está en séptimo semestre de Derecho. Votó por De la Espriella, dijo, porque no se sentía identificada con las propuestas económicas y de seguridad del petrismo. Sin embargo, como educadora sexual que también es, sostiene que tiene la responsabilidad de luchar contra la homofobia, y por eso rechaza el desmonte de obras alusivas al movimiento Lgbti.</p><p>“Como mujer, me toca mucho porque el arte siempre ha sido un espacio de lucha. Entonces es doloroso ver que en un espacio de lucha, donde no le estoy haciendo daño a nadie, no se pueda estar. No puedes borrar la historia de un país solo porque consideras que eres omnipotente y omnipresente”, afirmó Sofía. La ministra de Cultura, en su única justificación pública sobre el retiro de las obras, dice que difundían “versiones sesgadas de nuestra historia”.</p><p>“Me preocupa el estado de conservación de las obras que bajaron: no sabemos dónde están ni qué van a hacer con ellas. Atacar directamente el patrimonio para instalar una agenda violenta es muy problemático”, dice Daniela Jaimes, una estudiante de la maestría en Patrimonio Cultural de Los Andes, y quien asistió a una de las clases a la calle. La página del Museo dice que ahora están en la reserva de obras del Museo Nacional.</p><p>Para Emilio Vélez, un consejero de juventud que hasta el viernes militó en la Alianza Verde, la argumentación de Holguín refleja “un reduccionismo muy triste”. “Censuraron al maestro Carlos Correa, a Alfonso Quijano, que hablan de la violencia del siglo pasado. Quitaron la papeleta de la Constituyente que nos dio nuestra Constitución, quitaron el bolígrafo de la paz, el primer manifiesto de los ideales feministas de Lucila Rubio. (…) A cualquier persona que tenga un mínimo de criterio le genera indignación”, dijo.</p><p>“Me sorprende que hayan quitado obras que hablan sobre la violencia bipartidista, que es una que se llama ‘La cosecha de los violentos’. Simplemente son un grupo de cuerpos muertos debajo de un árbol. Y eso lo quitaron”, reflexiona Isabella Londoño, una artista visual que estuvo en el Museo Nacional durante las clases a la calle, sobre la obra de Quijano.</p><p>Entre las obras retiradas están los dos afiches de los excandidatos Carlos Pizarro y Bernardo Jaramillo, ambos asesinados en 1990. El primero fue el excomandante del M-19 que firmó la paz con el gobierno y el segundo, el candidato presidencial de la Unión Patriótica, un partido víctima de un genocidio por parte del Estado, según la Cidh.</p><p>Sus afiches, que ahora aparecen multiplicados en las afueras del museo, protagonizan los plantones contra el gobierno y también se reparten en las clases a la calle.</p><p>Esa indignación ante estas decisiones del gobierno puede conectarse con un ciclo de movilización que, según algunos de los jóvenes con los que habló La Silla, se podría equiparar a emociones que precedieron las protestas del 2019 y 2021. Los datos, que aún son pocos, podrían sostener esa sensación.</p><p>El gobierno De la Espriella se enfrenta a una brecha frente a cómo los jóvenes y los mayores ven la gestión del presidente, según este análisis del consultor Juan Fernando Giraldo, que se basa en el Latam Pulse de Atlas que no alcanza a medir el desmonte de las obras. Mientras el 65% de los mayores de 60 años encuestados aprueba a De la Espriella, solo el 26% de los colombianos de 18 a 24 años lo respalda.</p><p>Si eso se mide en aprobación neta —o sea, la diferencia entre los que lo aprueban y lo desaprueban—, la distancia entre los dos extremos es de casi el 60%.</p><p>El tamaño de esa brecha es parecido a la que había previo al estallido de 2021 durante el gobierno Duque. La diferencia está en que, en la aprobación neta, Duque tenía un balance negativo en todas las edades, según la encuesta Colombia Opina de abril de 2021. De la Espriella sostiene una base sólida a partir de los 35 años.</p><p>“Los datos no alcanzan para decir que el estallido se vaya a repetir, pero sí alcanzan para decir que algunas de sus condiciones se están reuniendo”, dice Giraldo en su análisis.</p><p>Al tiempo, muestran que las decisiones del presidente apuntan a la profundización de su electorado, como la designación de Alejandro Ordóñez en el Ministerio del Interior —uno de los perfiles más radicales y conservadores del gobierno— o el propio desmonte de las obras del Museo Nacional. “Solo puedo suponer que estamos ante una estrategia abierta de provocación a sus detractores y de afianzamiento de sus seguidores”, añadió el consultor.</p><p>De ahí que estas decisiones alimenten la chispa para lo que podría ser una movilización masiva. Emilio Vélez, el consejero de juventud del Verde, cree que el gobierno, “o está muy mal asesorado, porque están yendo hacia el mismo lugar y no aprendieron nada de lo que pasó con Iván Duque, o lo están haciendo a propósito”.</p><p>“Están buscando crear todo para un estallido social a largo plazo. Abelardo no ha entendido que también tiene que gobernar con la mitad del país que tampoco votó por él”, añadió Vélez.</p><p>“Atacar la cultura no le sale tan costoso como atacar otras cosas, como Defensa o Hacienda. Entonces puede ser que esto sea una provocación también”, reflexiona Isabella, la artista visual. Esa misma hipótesis la tiene Sofía, la estudiante de Derecho que votó por De la Espriella. Para ella, la medida “no tiene ningún objetivo más allá de causar indignación en los grupos sociales, simplemente es como para pullarlos”.</p><p>Alejandro, el historiador del Externado, cree que existe la “necesidad de la movilización”. “Se están conectando una gran cantidad de perspectivas y de coyunturas y de luchas en una movilización social que apunta un poco a un escenario similar al del 2019 a 2021”.</p><p>Pero si bien muchos jóvenes encuentran un enemigo común en la batalla cultural de De la Espriella, no es claro que estén en la misma tónica que las manifestaciones propuestas por la oposición en la política. Las primeras marchas convocadas por sindicalistas fueron tibias. Además, el Pacto Histórico vive momentos de crisis por las denuncias contra Gustavo Petro por dar contratos públicos a una trabajadora sexual que le prestaba servicios, según ella.</p><p>El Pacto ya llamó a otras marchas para el 24 de noviembre, por el Presupuesto General de 2027. Esa convocatoria servirá para medir de nuevo las aguas de la protesta, con la batalla cultural ya declarada como agenda de gobierno.</p><p>The post El desmonte de obras del Museo Nacional prende chispas entre los jóvenes appeared first on La Silla Vacía.</p>",
@@ -1756,26 +1771,6 @@
       "category": "Cultura y Sociedad",
       "relevanceTier": "alta",
       "relevanceScore": 87,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "lasillavacia-155",
-      "title": "Brasil: Flávio Bolsonaro huyó a EE.UU. y pedirá asilo político a Trump",
-      "summary": "La Policía Federal le había cancelado sus pasaportes por una causa de presunto lavado de dinero. El senador perdió las elecciones contra Lula. The post Brasil: Flávio Bolsonaro huyó a EE.UU. y pedirá asilo político a Trump appeared first on La Silla Vacía .",
-      "content": "<p>El senador brasileño Flávio Bolsonaro huyó a Estados Unidos de la mano de su esposa y sus dos hijas. El hasta el domingo candidato presidencial de la derecha, derrotado por el reelecto Luiz Inácio Lula da Silva, va en un vuelo rumbo a Florida, según confirmó el diario Metropoles con personas cercanas a la familia de Bolsonaro.</p><p>Aliados de Flávio también le dijeron a Metropoles que el senador presentará una solicitud de asilo político al gobierno de Donald Trump –que lo apoyó en su campaña– tan pronto llegue a Estados Unidos.</p><p>Su huida fue organizada por Flávio a último minuto con la ayuda de un pequeño grupo de aliados en Brasil y Estados Unidos con el fin de evitar filtraciones, añadió el diario.</p><p>Bolsonaro se va de Brasil pese a que la justicia se lo había prohibido. Hoy, la Policía Federal de Brasil le canceló tanto el pasaporte común como el diplomático. Tenía hasta la primera hora de hoy martes para entregarlos por orden del Tribunal Supremo Federal (TSF), quien también le prohibió salir del país por un proceso que Bolsonaro enfrenta por presunto lavado de dinero.</p><p>Ayer, Bolsonaro fue a visitar a su papá, el expresidente Jair Bolsonaro, condenado a 27 años de prisión domiciliaria por una fallida trama golpista. Al salir de la casa de Bolsonaro papá, Flávio denunció que le habían notificado la orden de entregar su pasaporte.</p><p>“Nunca pensé en abandonar el país. Entregaré mis pasaportes y me defenderé de esta aberración”, había dicho el senador.</p><p>Estuvo desaparecido toda la mañana. El último mensaje que envió Bolsonaro fue de hoy a las 8 de la mañana al senador Rogério Marinho, quien fue el coordinador de su campaña presidencial. En la conversación, dice Metropoles, Flavio le escribió que estaba “tranquilizando sus pensamientos”, pero no contó si había salido del país.</p><p>Infobae informó que Bolsonaro había tomado un jet privado anoche y había hecho escala en Argentina antes de partir a Estados Unidos. Según ese portal, llegó a Puerto Iguazú (Argentina) en un avión Gulfstream G400 de placa LV-JQW, de la empresa Baires Fly SA.</p><p>Bolsonaro se montó en la narrativa del fraude, de la que se montaron abelardistas. Tras perder las elecciones en Brasil, en las que el presidente Abelardo de la Espriella apoyó a Bolsonaro y el expresidente Gustavo Petro a Lula, el candidato derechista no reconoció el resultado y pidió su anulación, acusando al TSF de favorecer al candidato oficialista.</p><p>Al conocerse el resultado, la derecha colombiana alegó fraude:</p><p>Sepa más. Los datos y documentos desmienten la narrativa de fraude de Bolsonaro. Se lo contamos en este Detector de Mentiras. En esta otra historia contamos cómo la victoria de Lula da Silva le da un respiro a la Amazonía.</p><p>The post Brasil: Flávio Bolsonaro huyó a EE.UU. y pedirá asilo político a Trump appeared first on La Silla Vacía.</p>",
-      "url": "https://www.lasillavacia.com/en-vivo/brasil-flavio-bolsonaro-huyo-a-ee-uu-y-pedira-asilo-politico-a-trump/",
-      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/FotoJet-12.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
-      "publishedAt": "2026-10-27T18:52:59+00:00",
-      "sourceId": "lasillavacia",
-      "sourceName": "La Silla Vacía",
-      "sourceType": "Poder y Política",
-      "sourceSite": "https://www.lasillavacia.com",
-      "region": "latam",
-      "country": "Colombia",
-      "independent": true,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 92,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1799,7 +1794,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-201",
+      "id": "ciclismo-chile-202",
       "title": "Los Ríos ganó primeras medallas en ciclismo, atletismo, Judo y natación - SoyChile.cl",
       "summary": "Los Ríos ganó primeras medallas en ciclismo, atletismo, Judo y natación SoyChile.cl",
       "content": "<p>Los Ríos ganó primeras medallas en ciclismo, atletismo, Judo y natación SoyChile.cl</p>",
@@ -1979,6 +1974,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "ciclismo-chile-201",
+      "title": "El Mountain Bike sin senderos: nueve estrellas del Freeride se lanzan por las montañas de Chile - TodoMountainBike",
+      "summary": "El Mountain Bike sin senderos: nueve estrellas del Freeride se lanzan por las montañas de Chile TodoMountainBike",
+      "content": "<p>El Mountain Bike sin senderos: nueve estrellas del Freeride se lanzan por las montañas de Chile TodoMountainBike</p>",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZm1pUkczMUcwemVYaFdubl9nbkNMcFBpYS1WMnI2QVVnQ2pnUjAwYUZ4eWZrTWNyMnNkbzl5VzExOEpYNTJYRmxzRG51c0JrZ1gzeGQ2c1U1eW5LUEJoVHl2OUtTdE04NDh2dE1FWnFCZlVJM0JOcnlvRVhWWWRaWHE2NV8wM0YtNm84a1JjRFJFbzJiZFAtdFZHLWRibXl3aGRRWFl3NWNHd0kzZ1dTOVFOLWVUNHFIamNNYXhOTnFPZ0FFaGxUOFdibFNfbkE?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-27T17:30:46+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
       "id": "diariouach-119",
       "title": "Universidad Austral de Chile y Telsur firmaron convenio para fortalecer la colaboración y el desarrollo regional",
       "summary": "La Universidad Austral de Chile (UACh) y Telsur, Gtd en el sur, suscribieron un…",
@@ -2059,7 +2074,27 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elmostrador-49",
+      "id": "cooperativa-126",
+      "title": "SAP AI Fest: El ritmo de los negocios ha cambiado para siempre",
+      "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://www.cooperativa.cl/noticias/corporativo/noticias/marcas-negocios/sap-ai-fest-el-ritmo-de-los-negocios-ha-cambiado-para-siempre/2026-10-27/135649.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261027/imag/foto_0000001220261027135649.jpg",
+      "publishedAt": "2026-10-27T16:56:49+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 72,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "elmostrador-46",
       "title": "Rabat contra las cuerdas: se desliga de las 56 rebajas de penas y se aferra al respaldo de Kast",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Rabat contra las cuerdas: se desliga de las 56 rebajas de penas y se aferra al respaldo de Kast El Mostrador</p>",
@@ -2317,6 +2352,26 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 80,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "elmostrador-47",
+      "title": "Hospital de Ovalle y Registro Civil adjudicaron casi $700 millones a empresa de alcaldesa",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Hospital de Ovalle y Registro Civil adjudicaron casi $700 millones a empresa de alcaldesa El Mostrador</p>",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ0RrQTZNYkN5SDMxUmJsR1JiLVVUa3htZmgwS1laM0ZlUGxUaE1KaG1lR3RfaVFPOVFIQm5Ld0hMcVlTN3prTjNUVXVlM0wtczZmY0ZIWENwNFJwN25SYi1KNGQwUURBbWEyZExaeEkyTG9JaXlSdllaY2gtVnY1YkVBZjh1dlAyQ1ZnbjNwek9TRkZYVElzMmxuYVBSVXdHU1JBanYtOHNjX1UtdDhFYmdESl9velFqRHpoMlZSM3BQWkt0N18xZUJBMU1lVC1jOW4taU1IWFA?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-27T14:40:19+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "radiouchile-38",
@@ -3299,7 +3354,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-47",
+      "id": "elmostrador-48",
       "title": "Chile posterga adhesión a coalición anticárteles de Trump: hay reparos de Defensa a enfoque militar",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Chile posterga adhesión a coalición anticárteles de Trump: hay reparos de Defensa a enfoque militar El Mostrador</p>",
@@ -3359,7 +3414,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-48",
+      "id": "elmostrador-49",
       "title": "Kast admite error por rebajas a abusadores de menores, pero mantiene a Rabat a cargo de la solución",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Kast admite error por rebajas a abusadores de menores, pero mantiene a Rabat a cargo de la solución El Mostrador</p>",
@@ -3719,7 +3774,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-204",
+      "id": "ciclismo-chile-205",
       "title": "En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania - ANBariloche",
       "summary": "En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania ANBariloche",
       "content": "<p>En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania ANBariloche</p>",
@@ -4159,26 +4214,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-46",
-      "title": "Otro exconcertacionista aterriza en el gobierno de José Antonio Kast: Ricardo Navarrete",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Otro exconcertacionista aterriza en el gobierno de José Antonio Kast: Ricardo Navarrete El Mostrador</p>",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSGctVG1ieU5ENThGVkdzT0NlcmlobzJSSVd0ZzRsWGI3a0MydnhpRGZPTHBxbEZodUtTMm90UlgtTjlYUDZTY0FhNnRLSGNqRWdWeDk3UHVSbDU1U3NfaVl1Q25UbEF5elJaZDRzTGEyNDdKTTdFT09Zd1hybkN5aTRXVF92VXFOb0RrMTB3Vzg3RXZ6aW9OV2VCRm9rNEZJSWI0ZVdOOVJGREFCNFZYb3Y3bHplZ0ZDVlN5aGVLRncwOVRPb3BXQ0o2cE1ieUlFUmVVRzh3?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-24T21:00:59+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 91,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "eldesconcierto-54",
       "title": "23 Premios Nacionales acusan que reforma de Kast al INDH busca neutralizar al organismo y suprimir querellas",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4519,7 +4554,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-192",
+      "id": "brecha-191",
       "title": "Entre la catástrofe y la capacidad de acción",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
@@ -4540,12 +4575,12 @@
     },
     {
       "id": "brecha-193",
-      "title": "El futuro del pasado",
+      "title": "La IA está colonizando la vida y el cerebro",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qdlJFV19HZUc2eC1VcVZOVTB2RTZZWllYdDNRVHZIc0lmZVE1RDlQNjgzQXF0MXpzNWF5TlNYa0h6TFVRN1RGbEs3MUkyTDl2QVM0VHlR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oNW1GZDB2TDJaU24yUmlkaVR0SWNTU3NYR0xaUDJISElHckhNRlNVNTVhbXhIN0ppdlFtS1VvVEp2MGlYZEJ4dHBYcVFnS0lyUTQxZlZMUi1nVDJtSVgzcEthRUlUQy0yTW5XT3BTSFEtUUZx?oc=5",
       "image": null,
-      "publishedAt": "2026-10-23T04:02:02+00:00",
+      "publishedAt": "2026-10-23T05:08:02+00:00",
       "sourceId": "brecha",
       "sourceName": "Semanario Brecha",
       "sourceType": "Periodismo Indep. LatAm",
@@ -4553,7 +4588,7 @@
       "region": "latam",
       "country": "Uruguay",
       "independent": true,
-      "category": "Política y Actualidad",
+      "category": "Ciencia, Salud y Futuro",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 82,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
@@ -4579,13 +4614,33 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-191",
+      "id": "brecha-190",
       "title": "¿Fantasía o realidad?",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0XzBaSmtzcnRxZ3dMbW5Gd1lGbW05ZHdRZ2NSWE0tSWlURldQcTUzb1M0SEQ1Z2tkYXM1NWhsRmxDV3BmZkItOFhlaTdQMGNad0tnZw?oc=5",
       "image": null,
       "publishedAt": "2026-10-23T03:42:02+00:00",
+      "sourceId": "brecha",
+      "sourceName": "Semanario Brecha",
+      "sourceType": "Periodismo Indep. LatAm",
+      "sourceSite": "https://brecha.com.uy",
+      "region": "latam",
+      "country": "Uruguay",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "brecha-192",
+      "title": "Desinteligencia artificial",
+      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByY3ZtOExnVVJPVk50YzBKN1RrMW05YkJNODBYRUN6UDMyaDM4N3JicHZGWmpuQzNMRF9QWFZjcWc3NE9GVGVBMEZrUkFINEtQbmlTSFBEbjNGaXlEVmc?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-23T03:12:02+00:00",
       "sourceId": "brecha",
       "sourceName": "Semanario Brecha",
       "sourceType": "Periodismo Indep. LatAm",
@@ -4939,26 +4994,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-190",
-      "title": "En busca del bajo perdido",
-      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ocV9uQkJpb04tZ2VjQ0lfN0VfaVlDbFVMbWN0NDRCMjFfMG52WEQybS1Ha3JxdDFsUWw3NDJVUmRHQU02VjRSNlltc0hTMExHQUFNYnNidDI2cWgt?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-16T07:00:00+00:00",
-      "sourceId": "brecha",
-      "sourceName": "Semanario Brecha",
-      "sourceType": "Periodismo Indep. LatAm",
-      "sourceSite": "https://brecha.com.uy",
-      "region": "latam",
-      "country": "Uruguay",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "vergara240-96",
       "title": "Subdere afirmó que el Programa de Tenencia Responsable de Mascotas nunca había sido evaluado, pero registra dos evaluaciones",
       "summary": "La entrada Subdere afirmó que el Programa de Tenencia Responsable de Mascotas nunca había sido evaluado, pero registra dos evaluaciones se publicó primero en Vergara 240 .",
@@ -5079,7 +5114,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-202",
+      "id": "ciclismo-chile-203",
       "title": "La joven que conoció todas las comunas de Chile en bicicleta: \"Lo que más se repite es la generosidad\" - BioBioChile",
       "summary": "La joven que conoció todas las comunas de Chile en bicicleta: \"Lo que más se repite es la generosidad\" BioBioChile",
       "content": "<p>La joven que conoció todas las comunas de Chile en bicicleta: &quot;Lo que más se repite es la generosidad&quot; BioBioChile</p>",
@@ -5099,7 +5134,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "ciclismo-chile-203",
+      "id": "ciclismo-chile-204",
       "title": "Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina - 24horas",
       "summary": "Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina 24horas",
       "content": "<p>Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina 24horas</p>",
@@ -5159,7 +5194,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-206",
+      "id": "ciclismo-chile-207",
       "title": "Final de infarto: chilena vence a Argentina con “fotofinish” en ciclismo pista - TVN",
       "summary": "Final de infarto: chilena vence a Argentina con “fotofinish” en ciclismo pista TVN",
       "content": "<p>Final de infarto: chilena vence a Argentina con “fotofinish” en ciclismo pista TVN</p>",
@@ -5179,7 +5214,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "ciclismo-chile-205",
+      "id": "ciclismo-chile-206",
       "title": "Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur - Teletrece",
       "summary": "Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur Teletrece",
       "content": "<p>Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur Teletrece</p>",
@@ -5257,26 +5292,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "ciclismo-chile-207",
-      "title": "Ciclista chileno de 11 años hace historia en el Crankworx Whistler 2026, el festival de mountain bike más impo - AS Chile",
-      "summary": "Ciclista chileno de 11 años hace historia en el Crankworx Whistler 2026, el festival de mountain bike más impo AS Chile",
-      "content": "<p>Ciclista chileno de 11 años hace historia en el Crankworx Whistler 2026, el festival de mountain bike más impo AS Chile</p>",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUGhBVzQ0TnFGV3RNakZ3c2xveWtPXzJFTG9kZUI4azRuY3I5akhETlJHTWhsTTQ0U2JGVDI3LVlkeGdDZFFTR2p5bUZibnQ5T1JJNVJJWTgtTzdIQ1ZxMllzV3lyQ1NCRVpWTktxcXppQ1FJS3JSbGNMalcyZ0lCc2ZaZ29PMUtObThNTTRTSlNhRzc1SHVTbzNrYWZ5ZlRtYXNsbnFlcmExZTVkTHh2RHpraXpoRzVoX1JwODdfZl9ocTR4SFZKZ2plUmIzbzJ4MW9PaW5uc0dkdzVIODBhSnZBY25TNHptU2Mwc2JmbWdSZlBqc2xxc09zQ2TSAZACQVVfeXFMTWdEcTdfUTZHdVNqdWVYRjFMaUlBcTdPSDJYazhSVjBLaGdDdXJuUHN0TEFBUXF2MjdGREpsSjVtN3NNbUE5ZGNCTUxqa1FrVHhoQWxyZlloeEJTLV8xQm9PcGVEaS1fdHNOYlBlQWxJX2poMW5XbmZIMmN4R3BSX21tdms5UGFVSjI5dWdiS1ZWRFhsMFpEaklZdGp0RFdObE5DcGlGRFVnc1NrWnRYMWpVRzJuNFlCYmQtZm9CbThfWmVYcXNKYUZtVlpTaElQWUVmNjBhM0ZZdG1sY3RPVFMxYXJ5TW1XZVJleUpJaVFrTlVyTzhYb1U1b00xbkdXWmdpOU9mdmZ0SFZSZTZYVTA?oc=5",
-      "image": null,
-      "publishedAt": "2026-08-25T07:00:00+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "chequeado-171",
@@ -5479,7 +5494,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "ojopublico-160",
+      "id": "ojopublico-161",
       "title": "Cosco Shipping es multada con más de S/733.000 por infracciones ambientales en playas de Chancay - Ojo-Público",
       "summary": "Cosco Shipping es multada con más de S/733.000 por infracciones ambientales en playas de Chancay Ojo-Público",
       "content": "<p>Cosco Shipping es multada con más de S/733.000 por infracciones ambientales en playas de Chancay Ojo-Público</p>",
@@ -5519,7 +5534,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ojopublico-161",
+      "id": "ojopublico-162",
       "title": "Minería ilegal de oro en la frontera con Ecuador destruye un río y transforma Cajamarca - Ojo-Público",
       "summary": "Minería ilegal de oro en la frontera con Ecuador destruye un río y transforma Cajamarca Ojo-Público",
       "content": "<p>Minería ilegal de oro en la frontera con Ecuador destruye un río y transforma Cajamarca Ojo-Público</p>",
@@ -5699,6 +5714,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "ojopublico-160",
+      "title": "Oro sin ley: minería ilegal toma el río Santiago en la Amazonía peruana - Ojo-Público",
+      "summary": "Oro sin ley: minería ilegal toma el río Santiago en la Amazonía peruana Ojo-Público",
+      "content": "<p>Oro sin ley: minería ilegal toma el río Santiago en la Amazonía peruana Ojo-Público</p>",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJVbEtaNUpiQkxLQlIta21XMTR5QzBhUUFWQXFyaDk1cF9BQnV0Mlh5dmtXUlZ3OHBlZ0tkaEE2ZHJCOGdfRVQ1MjRHbUxmd1c5NU85RF9fd3dvSmlaOUdENjZYMmpxekkzdkhlck5OUmVrV0pHaXktdnlCMmZBU3FKV0pQSTFKSEJVa1FPSXpIREpqemN3Nw?oc=5",
+      "image": null,
+      "publishedAt": "2025-03-30T07:00:00+00:00",
+      "sourceId": "ojopublico",
+      "sourceName": "Ojo Público",
+      "sourceType": "Investigación y Amazonía",
+      "sourceSite": "https://ojo-publico.com",
+      "region": "latam",
+      "country": "Perú",
+      "independent": true,
+      "category": "Medioambiente y Territorio",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "laderasur-64",
       "title": "Descárgala en laderasur.com",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -5737,26 +5772,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 76,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "ojopublico-163",
-      "title": "Últimas Noticias - Ojo-Público",
-      "summary": "Últimas Noticias Ojo-Público",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56QjVOZ1hkYmhiMkNvTklLSjZ3dFlSMkNoQW4zX19OUkhUZ1ZfTmk0bFVfVzExeEN6eGVSZEJjejdyck1TdUxQQ1pfQWJkR2xLS3c?oc=5",
-      "image": null,
-      "publishedAt": "2022-10-05T18:46:07+00:00",
-      "sourceId": "ojopublico",
-      "sourceName": "Ojo Público",
-      "sourceType": "Investigación y Amazonía",
-      "sourceSite": "https://ojo-publico.com",
-      "region": "latam",
-      "country": "Perú",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "laderasur-69",
@@ -5819,7 +5834,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "ojopublico-162",
+      "id": "ojopublico-163",
       "title": "FUNES · Un algoritmo contra la corrupción - Ojo-Público",
       "summary": "FUNES · Un algoritmo contra la corrupción Ojo-Público",
       "content": "",
