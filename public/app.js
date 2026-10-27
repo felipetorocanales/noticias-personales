@@ -1082,19 +1082,42 @@ function openReaderModal(articleId) {
   if (!art) return;
   state.activeReaderArticle = art;
 
-  const regionBadge = art.region === "chile" ? "🇨🇱 Chile" : (art.region === "latam" ? `🌎 ${art.country || "Latinoamérica"}` : `🌍 ${art.country || "Mundo"}`);
+  const badgeInfo = getSourceBadge(art.sourceId, art.region);
+  const regionFlag = art.region === "chile" ? "🇨🇱" : (art.region === "latam" ? "🌎" : "🌍");
+  const countryName = art.country || (art.region === "chile" ? "Chile" : "Mundo");
+
   document.getElementById("readerMetaTop").innerHTML = `
-    <span class="region-flag">${regionBadge}</span>
-    <span class="source-badge">${escapeHtml(art.sourceName)}</span>
-    <span class="mono-label">${escapeHtml(art.sourceType)} · ${formatRelativeTime(art.publishedAt)}</span>
+    <div class="reader-header-top">
+      <div class="reader-source-brand">
+        <span class="reader-source-icon">${badgeInfo.icon}</span>
+        <span class="reader-source-name">${escapeHtml(art.sourceName)}</span>
+        <span class="reader-country-pill">${regionFlag} ${escapeHtml(countryName)}</span>
+      </div>
+    </div>
+    <div class="reader-header-sub">
+      <span class="reader-time">${formatRelativeTime(art.publishedAt)}</span>
+      <span class="reader-dot">·</span>
+      <span class="reader-source-type">${escapeHtml(art.sourceType || "Prensa Independiente")}</span>
+    </div>
   `;
 
-  document.getElementById("readerModalTitle").textContent = art.title;
+  // Limpiar prefijos de fuente entre corchetes si vienen en el titular (ej: "[Diario Financiero] ...")
+  let displayTitle = art.title || "";
+  if (/^\[[^\]]+\]\s*/.test(displayTitle)) {
+    displayTitle = displayTitle.replace(/^\[[^\]]+\]\s*/, "");
+  }
+  document.getElementById("readerModalTitle").textContent = displayTitle;
+
   document.getElementById("readerBadges").innerHTML = `
-    <span class="tier-pill tier-${art.relevanceTier}">
-      ${art.relevanceTier === "alta" ? `🔥 Más Relevante (Índice ${art.relevanceScore}/100)` : `📡 No tan relevante / Bajo el Radar (Índice ${art.relevanceScore}/100)`}
+    <span class="reader-pill ${art.relevanceTier === "alta" ? "pill-high" : "pill-low"}">
+      ${art.relevanceTier === "alta" ? `🔥 Relevante (${art.relevanceScore}/100)` : `📡 Bajo el Radar (${art.relevanceScore}/100)`}
     </span>
-    <span class="indep-tag">${escapeHtml(art.category)}</span>
+    <span class="reader-category-pill">${escapeHtml(art.category)}</span>
+    ${
+      state.instagramPostIds && state.instagramPostIds.has(art.id)
+        ? `<span class="reader-instagram-pill">📸 En Instagram</span>`
+        : ""
+    }
   `;
 
   const imgWrap = document.getElementById("readerImageWrap");
