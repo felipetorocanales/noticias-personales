@@ -64,6 +64,7 @@ function isGenericImageUrl(url) {
 const MAIN_FILTERS = [
   { id: "all", label: "Todo", icon: "⚡", matcher: () => true },
   { id: "chile", label: "Chile", icon: "🇨🇱", matcher: (a) => a.region === "chile" },
+  { id: "latam", label: "Latinoamérica", icon: "🌎", matcher: (a) => a.region === "latam" },
   { id: "mundo", label: "Mundo", icon: "🌍", matcher: (a) => a.region === "mundo" },
   { id: "high", label: "Alto Impacto", icon: "🔥", matcher: (a) => a.relevanceTier === "alta" },
   { id: "low", label: "Bajo el Radar", icon: "📡", matcher: (a) => a.relevanceTier === "bajo_radar" },
@@ -98,15 +99,26 @@ function getSourceBadge(sourceId, region) {
     eldesconcierto: { icon: "✍️", abbr: "ED" },
     elciudadano: { icon: "📢", abbr: "EC" },
     cooperativa: { icon: "🎙️", abbr: "CP" },
+    malaespina: { icon: "🔍", abbr: "ME" },
+    vergara240: { icon: "🎓", abbr: "V240" },
+    terram: { icon: "🌱", abbr: "TM" },
+    anfibia: { icon: "🇦🇷", abbr: "ANF" },
+    elfaro: { icon: "🇸🇻", abbr: "ELF" },
+    lasillavacia: { icon: "🇨🇴", abbr: "LSV" },
+    ojopublico: { icon: "🇵🇪", abbr: "OP" },
+    cuestionpublica: { icon: "🇨🇴", abbr: "CQP" },
+    chequeado: { icon: "🇦🇷", abbr: "CHQ" },
+    piedepagina: { icon: "🇲🇽", abbr: "PDP" },
+    cenital: { icon: "🇦🇷", abbr: "CEN" },
+    brecha: { icon: "🇺🇾", abbr: "BR" },
+    jacobinlat: { icon: "🚩", abbr: "JB" },
     bellingcat: { icon: "🌐", abbr: "BC" },
     propublica: { icon: "📜", abbr: "PP" },
     theintercept: { icon: "👁️", abbr: "TI" },
     globalvoices: { icon: "🌍", abbr: "GV" },
     elsalto: { icon: "✊", abbr: "ES" },
     eldiarioes: { icon: "🗞️", abbr: "ED" },
-    jacobinlat: { icon: "🚩", abbr: "JB" },
     sinpermiso: { icon: "📑", abbr: "SP" },
-    brecha: { icon: "🇺🇾", abbr: "BR" },
     dw: { icon: "🇩🇪", abbr: "DW" },
     france24: { icon: "🇫🇷", abbr: "F24" },
     "ciclismo-chile": { icon: "🚴", abbr: "CC" },
@@ -114,7 +126,7 @@ function getSourceBadge(sourceId, region) {
     brujulabike: { icon: "🚵", abbr: "BB" },
     esciclismo: { icon: "🚲", abbr: "EC" }
   };
-  return flags[sourceId] || { icon: region === "chile" ? "🇨🇱" : "🌍", abbr: "NEWS" };
+  return flags[sourceId] || { icon: region === "chile" ? "🇨🇱" : (region === "latam" ? "🌎" : "🌍"), abbr: "NEWS" };
 }
 
 function showToast(msg) {
@@ -570,8 +582,10 @@ function populateSourceDropdown() {
 
   const chileGroup = document.createElement("optgroup");
   chileGroup.label = "🇨🇱 Chile (Independientes y Regionales)";
+  const latamGroup = document.createElement("optgroup");
+  latamGroup.label = "🌎 Latinoamérica (Independientes e Investigación)";
   const mundoGroup = document.createElement("optgroup");
-  mundoGroup.label = "🌍 Mundo (Independientes e Investigación)";
+  mundoGroup.label = "🌍 Mundo (Global e Investigación)";
 
   state.sources.forEach((src) => {
     const opt = document.createElement("option");
@@ -579,12 +593,15 @@ function populateSourceDropdown() {
     opt.textContent = `${src.name} — ${src.type}`;
     if (src.region === "chile") {
       chileGroup.appendChild(opt);
+    } else if (src.region === "latam") {
+      latamGroup.appendChild(opt);
     } else {
       mundoGroup.appendChild(opt);
     }
   });
 
   select.appendChild(chileGroup);
+  select.appendChild(latamGroup);
   select.appendChild(mundoGroup);
   select.value = currentVal || "all";
 
@@ -903,7 +920,7 @@ function renderCardsInto(container, list) {
             <div class="card-author">
               <span class="card-avatar">${badgeInfo.icon}</span>
               <div class="card-meta">
-                <span class="card-source-name">${escapeHtml(art.sourceName)}</span>
+                <span class="card-source-name">${escapeHtml(art.sourceName)}${art.country && art.country !== "Chile" ? ` (${escapeHtml(art.country)})` : ""}</span>
                 <span class="card-dot">·</span>
                 <span class="card-time">${formatRelativeTime(art.publishedAt)}</span>
               </div>
@@ -1058,7 +1075,7 @@ function openReaderModal(articleId) {
   if (!art) return;
   state.activeReaderArticle = art;
 
-  const regionBadge = art.region === "chile" ? "🇨🇱 Chile" : "🌍 Mundo";
+  const regionBadge = art.region === "chile" ? "🇨🇱 Chile" : (art.region === "latam" ? `🌎 ${art.country || "Latinoamérica"}` : `🌍 ${art.country || "Mundo"}`);
   document.getElementById("readerMetaTop").innerHTML = `
     <span class="region-flag">${regionBadge}</span>
     <span class="source-badge">${escapeHtml(art.sourceName)}</span>

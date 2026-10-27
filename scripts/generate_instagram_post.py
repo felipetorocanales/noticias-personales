@@ -114,7 +114,13 @@ def create_instagram_card(article, output_path="public/instagram_posts/preview.j
 
     # 3. Metadatos de la Fuente
     meta_y = img_y_start + img_h + 30
-    src_text = f"Fuente: {article.get('sourceName', 'Prensa Independiente')} · {article.get('publishedAt', '')[:10]}"
+    country = article.get("country")
+    source_name = article.get('sourceName', 'Prensa Independiente')
+    if country and country != "Chile":
+        src_label = f"{source_name} ({country})"
+    else:
+        src_label = source_name
+    src_text = f"Fuente: {src_label} · {article.get('publishedAt', '')[:10]}"
     draw.text((55, meta_y), src_text, fill=ACCENT_CYAN, font=font_source)
     
     # 4. Titular Principal

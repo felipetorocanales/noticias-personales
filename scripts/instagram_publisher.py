@@ -49,7 +49,14 @@ def generate_caption(article):
     article_id = article.get("id", "")
     pulso_link = f"https://pulso-independiente.web.app/?id={article_id}"
     
-    hashtags = "#Pulso #Noticias #PeriodismoIndependiente #Chile #Actualidad"
+    region = article.get("region", "chile")
+    country = article.get("country", "")
+    if region == "chile":
+        hashtags = "#Pulso #NoticiasChile #Chile #PeriodismoIndependiente #Actualidad"
+    elif region == "latam":
+        hashtags = f"#Pulso #Latinoamérica #NoticiasLatAm #{country.replace(' ', '')} #PeriodismoIndependiente"
+    else:
+        hashtags = "#Pulso #Internacional #Geopolítica #Mundo #PeriodismoIndependiente"
     if "ciclismo" in category.lower():
         hashtags += " #Ciclismo #CiclismoRuta #MTB #Gravel #Bicicleta #Cicloturismo #TeamChile"
     elif "investigación" in category.lower():
@@ -185,12 +192,91 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
 
 def get_candidate(data, history):
     published_ids = set(h["articleId"] for h in history)
-    # Candidato prioritario: Ciclismo o Alto Impacto con foto real
+    candidates = [a for a in data.get("articles", []) if a["id"] not in published_ids and a.get("image")]
+    if not candidates:
+        return None
+
+    # Mapeo de sourceId a información de origen
+    source_info = {}
     for a in data.get("articles", []):
-        if a["id"] not in published_ids and a.get("image"):
-            if a.get("category") == "Ciclismo y Deporte" or a.get("relevanceTier") == "alta":
-                return a
-    return None
+        sid = a.get("sourceId")
+        if sid and sid not in source_info:
+            source_info[sid] = {
+                "region": a.get("region", "chile"),
+                "country": a.get("country", "Chile" if a.get("region") == "chile" else "Mundo"),
+                "name": a.get("sourceName", sid)
+            }
+
+    # Analizar últimas 6 publicaciones en Instagram
+    recent_history = history[-6:] if history else []
+    recent_sources = [h.get("articleId", "").split("-")[0] for h in recent_history]
+    recent_regions = [source_info.get(s, {}).get("region", "chile") for s in recent_sources]
+    recent_countries = [source_info.get(s, {}).get("country", "Chile") for s in recent_sources]
+
+    # Regla 1: CUOTA CHILENA PRIORITARIA
+    # La gran mayoría de las publicaciones deben ser de medios chilenos.
+    # Si la última publicación fue internacional o ciclismo extranjero, O si en las últimas 3 hay menos de 2 chilenas:
+    force_chile = False
+    if recent_regions and recent_regions[-1] != "chile":
+        force_chile = True
+    elif len(recent_regions) >= 3 and recent_regions[-3:].count("chile") < 2:
+        force_chile = True
+
+    # Ponderar y ordenar candidatos
+    scored = []
+    for a in candidates:
+        sid = a.get("sourceId", "")
+        region = a.get("region", "chile")
+        country = a.get("country", "Chile" if region == "chile" else "Mundo")
+        is_cycling = "ciclismo" in (a.get("category", "")).lower()
+        score = float(a.get("relevanceScore", 75))
+
+        # 1. Prioridad Chile
+        if region == "chile":
+            score += 55.0
+            if force_chile:
+                score += 45.0
+        elif region == "latam":
+            score += 30.0  # Gran preferencia a Latinoamérica sobre Europa
+            if force_chile:
+                score -= 30.0
+        elif region == "mundo":
+            if force_chile:
+                score -= 60.0
+            # Penalizar fuertemente si ya hubo una nota de España o Francia en los últimos 4 posts
+            if country in ["España", "Francia / Global", "Alemania / Global"]:
+                if any(c in ["España", "Francia / Global", "Alemania / Global"] for c in recent_countries[-4:]):
+                    score -= 75.0
+                else:
+                    score -= 25.0
+
+        # 2. Anti-Repetición estricta de medio (evitar monopolios)
+        if sid in recent_sources[-4:]:
+            score -= 80.0
+        elif sid in recent_sources[-8:]:
+            score -= 35.0
+
+        # 3. Anti-Repetición de país internacional consecutivo
+        if country != "Chile" and recent_countries and country == recent_countries[-1]:
+            score -= 50.0
+
+        # 4. Modulación de Ciclismo (no más de 1 post de ciclismo cada 3-4 posts)
+        if is_cycling:
+            recent_cycling = sum(1 for h in recent_history[-3:] if "ciclismo" in h.get("title", "").lower() or any(cs in h.get("articleId", "") for cs in ["ciclismo", "ciclo21", "brujulabike", "esciclismo"]))
+            if recent_cycling >= 1:
+                score -= 45.0
+
+        # 5. Bono a periodismo de investigación de alto valor
+        if a.get("independent") and a.get("category") == "Investigación y Poder":
+            score += 15.0
+
+        scored.append((score, a))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+    best = scored[0][1]
+    best_score = scored[0][0]
+    print(f"[SELECTOR] Candidato seleccionado: [{best.get('region').upper()} / {best.get('country')}] {best.get('sourceName')} (score: {best_score:.1f}): {best.get('title')[:65]}...")
+    return best
 
 def check_cooldown(history):
     force_post = os.environ.get("INSTAGRAM_FORCE_POST", "0") == "1"
