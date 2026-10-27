@@ -1684,41 +1684,41 @@ function initFeedbackModal() {
         date: timestamp
       });
       localStorage.setItem("pulso_user_feedback", JSON.stringify(feedbackList));
+      // 2. Transición inmediata de éxito para el usuario (Optimistic UI)
+      form.reset();
+      form.classList.add("hidden");
+      if (successState) successState.classList.remove("hidden");
+      showToast("🎉 ¡Gracias por tu sugerencia para mejorar Pulso!");
 
-      // 2. Enviar a Formsubmit vía AJAX en segundo plano
-      const submitBtn = document.getElementById("feedbackSubmitBtn");
-      if (submitBtn) {
-        submitBtn.disabled = true;
-        submitBtn.textContent = "Enviando...";
-      }
+      // 3. Envío en segundo plano a FormSubmit con _captcha desactivado
+      const payload = {
+        _subject: `💡 Sugerencia Pulso: ${category.toUpperCase()} (${contact || "Anónimo"})`,
+        _captcha: "false",
+        _template: "table",
+        tipo: category,
+        comentario: comment,
+        contacto: contact || "No indicado",
+        fecha: new Date().toLocaleString("es-CL"),
+        origen: window.location.href
+      };
 
       try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 15000);
+
         await fetch("https://formsubmit.co/ajax/felipetoro.c@gmail.com", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
             "Accept": "application/json"
           },
-          body: JSON.stringify({
-            _subject: `💡 Sugerencia Pulso: ${category.toUpperCase()} (${contact || "Anónimo"})`,
-            tipo: category,
-            comentario: comment,
-            contacto: contact || "No indicado",
-            fecha: new Date().toLocaleString("es-CL"),
-            origen: window.location.href
-          })
+          body: JSON.stringify(payload),
+          signal: controller.signal
         });
-      } catch (_) {}
-
-      if (submitBtn) {
-        submitBtn.disabled = false;
-        submitBtn.innerHTML = `<span>Enviar sugerencia</span> <span>🚀</span>`;
+        clearTimeout(timeoutId);
+      } catch (err) {
+        console.warn("Envío de sugerencia en segundo plano:", err);
       }
-
-      form.reset();
-      form.classList.add("hidden");
-      if (successState) successState.classList.remove("hidden");
-      showToast("🎉 ¡Gracias por tu sugerencia para mejorar Pulso!");
     });
   }
 }
