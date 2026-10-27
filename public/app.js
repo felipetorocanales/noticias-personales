@@ -1455,6 +1455,14 @@ function bindEvents() {
   });
 
 
+  // Reload App Button (For iOS standalone home screen and hard reload)
+  document.getElementById("reloadAppBtn")?.addEventListener("click", () => {
+    showToast("Actualizando aplicación... 🔄");
+    setTimeout(() => {
+      window.location.href = window.location.origin + window.location.pathname + "?_cb=" + Date.now();
+    }, 250);
+  });
+
   // Theme Toggle Button
   document.getElementById("themeToggleBtn")?.addEventListener("click", () => {
     const current = document.documentElement.getAttribute("data-theme") || "dark";
