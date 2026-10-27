@@ -1594,6 +1594,102 @@ function bindEvents() {
     openSourcesModal();
     await refreshLiveFeeds(false);
   });
+
+  initFeedbackModal();
+}
+
+function initFeedbackModal() {
+  const btn = document.getElementById("floatingFeedbackBtn");
+  const modal = document.getElementById("feedbackModal");
+  const form = document.getElementById("feedbackForm");
+  const successState = document.getElementById("feedbackSuccessState");
+  const categoryInput = document.getElementById("feedbackCategoryInput");
+  const textarea = document.getElementById("feedbackTextInput");
+  const contactInput = document.getElementById("feedbackContactInput");
+  const chips = document.querySelectorAll("#feedbackTypeChips .feedback-chip");
+
+  if (!btn || !modal) return;
+
+  const placeholders = {
+    idea: "¿Qué función o mejora te gustaría que agreguemos a Pulso?",
+    medio: "¿Qué medio independiente de Chile o Latinoamérica deberíamos sumar a Pulso?",
+    bug: "¿Qué problema o error detectaste en la página? (Indica dispositivo o navegador si es posible)",
+    opinion: "¿Qué te parece Pulso Independiente? Tu opinión nos ayuda muchísimo a seguir mejorando."
+  };
+
+  btn.addEventListener("click", () => {
+    if (form) form.classList.remove("hidden");
+    if (successState) successState.classList.add("hidden");
+    modal.classList.remove("hidden");
+    if (textarea) setTimeout(() => textarea.focus(), 100);
+  });
+
+  chips.forEach((chip) => {
+    chip.addEventListener("click", () => {
+      chips.forEach((c) => c.classList.remove("active"));
+      chip.classList.add("active");
+      const type = chip.getAttribute("data-type") || "idea";
+      if (categoryInput) categoryInput.value = type;
+      if (textarea) textarea.placeholder = placeholders[type] || placeholders.idea;
+    });
+  });
+
+  if (form) {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const comment = (textarea?.value || "").trim();
+      if (!comment) return;
+
+      const contact = (contactInput?.value || "").trim();
+      const category = categoryInput?.value || "idea";
+      const timestamp = new Date().toISOString();
+
+      // 1. Guardar localmente en el navegador
+      const feedbackList = JSON.parse(localStorage.getItem("pulso_user_feedback") || "[]");
+      feedbackList.push({
+        category,
+        comment,
+        contact: contact || "Anónimo",
+        date: timestamp
+      });
+      localStorage.setItem("pulso_user_feedback", JSON.stringify(feedbackList));
+
+      // 2. Enviar a Formsubmit vía AJAX en segundo plano
+      const submitBtn = document.getElementById("feedbackSubmitBtn");
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Enviando...";
+      }
+
+      try {
+        await fetch("https://formsubmit.co/ajax/felipetoro.c@gmail.com", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: JSON.stringify({
+            _subject: `💡 Sugerencia Pulso: ${category.toUpperCase()} (${contact || "Anónimo"})`,
+            tipo: category,
+            comentario: comment,
+            contacto: contact || "No indicado",
+            fecha: new Date().toLocaleString("es-CL"),
+            origen: window.location.href
+          })
+        });
+      } catch (_) {}
+
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = `<span>Enviar sugerencia</span> <span>🚀</span>`;
+      }
+
+      form.reset();
+      form.classList.add("hidden");
+      if (successState) successState.classList.remove("hidden");
+      showToast("🎉 ¡Gracias por tu sugerencia para mejorar Pulso!");
+    });
+  }
 }
 
 document.addEventListener("DOMContentLoaded", initApp);

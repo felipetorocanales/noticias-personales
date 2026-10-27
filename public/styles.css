@@ -2331,3 +2331,222 @@ body {
   color: var(--text-primary);
   border-color: var(--accent-high);
 }
+
+/* ==========================================================================
+   FLOATING FEEDBACK BUTTON & MODAL (Espacio para Mejorar la Página)
+   ========================================================================== */
+
+.floating-feedback-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 80;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 9999px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  user-select: none;
+}
+
+.floating-feedback-btn:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-high);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5), 0 0 16px rgba(200, 90, 50, 0.25);
+  color: var(--accent-high);
+}
+
+.floating-feedback-btn:active {
+  transform: translateY(0);
+}
+
+.feedback-btn-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.feedback-btn-text {
+  letter-spacing: -0.01em;
+}
+
+/* Modal de Feedback */
+.modal-feedback {
+  max-width: 580px;
+}
+
+.feedback-header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.feedback-header-badge {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent-high);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.feedback-intro {
+  font-size: 0.94rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  background: var(--bg-surface);
+  padding: 14px 16px;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-high);
+  margin-bottom: 6px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feedback-category-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-label {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.feedback-label .required {
+  color: var(--accent-high);
+}
+
+.feedback-label .optional {
+  font-weight: 400;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.feedback-type-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.feedback-chip {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-family: var(--font-sans);
+}
+
+.feedback-chip:hover {
+  border-color: var(--border-strong);
+  color: var(--text-primary);
+}
+
+.feedback-chip.active {
+  background: var(--accent-high);
+  border-color: var(--accent-high);
+  color: #fff;
+  font-weight: 600;
+}
+
+.feedback-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.feedback-field-group textarea,
+.feedback-field-group input {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  transition: border-color 0.15s ease;
+  outline: none;
+}
+
+.feedback-field-group textarea:focus,
+.feedback-field-group input:focus {
+  border-color: var(--accent-high);
+}
+
+.feedback-field-group textarea {
+  resize: vertical;
+  min-height: 90px;
+  line-height: 1.5;
+}
+
+.feedback-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.btn-submit-feedback {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 22px;
+  font-size: 0.92rem;
+}
+
+/* Estado de éxito */
+.feedback-success-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px 16px;
+  gap: 12px;
+}
+
+.feedback-success-icon {
+  font-size: 2.8rem;
+  animation: pulse 1s infinite alternate;
+}
+
+.feedback-success-state h3 {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  color: var(--text-primary);
+}
+
+.feedback-success-state p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 440px;
+}
+
+@media (max-width: 640px) {
+  .floating-feedback-btn {
+    bottom: 18px;
+    right: 16px;
+    padding: 8px 14px;
+    font-size: 0.8rem;
+  }
+}

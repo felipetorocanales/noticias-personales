@@ -185,6 +185,83 @@
     </div>
   </div>
 
+  <!-- Floating Feedback / Improvement Button (Botón Flotante para Mejorar la Página) -->
+  <button id="floatingFeedbackBtn" class="floating-feedback-btn" title="Ayúdanos a mejorar Pulso" aria-label="Ayúdanos a mejorar Pulso">
+    <span class="feedback-btn-icon">💡</span>
+    <span class="feedback-btn-text">Ayúdanos a mejorar</span>
+  </button>
+
+  <!-- MODAL 4: User Feedback & Improvement (Sugerencias para Mejorar la Página) -->
+  <div class="modal-backdrop hidden" id="feedbackModal" role="dialog" aria-modal="true" aria-labelledby="feedbackModalTitle">
+    <div class="modal-card modal-feedback">
+      <div class="modal-header">
+        <div class="feedback-header-info">
+          <span class="feedback-header-badge">💬 Espacio Comunitario</span>
+          <h2 id="feedbackModalTitle">¿Cómo podemos mejorar Pulso?</h2>
+        </div>
+        <button class="modal-close-btn" data-close-modal="feedbackModal" aria-label="Cerrar ventana">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="feedback-intro">
+          <strong>Pulso Independiente</strong> es un proyecto ciudadano, libre de publicidad corporativa y sin algoritmos de farándula. Tus comentarios, críticas constructivas y sugerencias son fundamentales para que este espacio continúe mejorando.
+        </p>
+
+        <!-- Formulario de sugerencias -->
+        <form id="feedbackForm" class="feedback-form">
+          <!-- Selector de tipo de aporte -->
+          <div class="feedback-category-group">
+            <label class="feedback-label">¿De qué trata tu comentario?</label>
+            <div class="feedback-type-chips" id="feedbackTypeChips">
+              <button type="button" class="feedback-chip active" data-type="idea">💡 Idea de mejora</button>
+              <button type="button" class="feedback-chip" data-type="medio">📰 Sugerir un medio</button>
+              <button type="button" class="feedback-chip" data-type="bug">🐛 Reportar un error</button>
+              <button type="button" class="feedback-chip" data-type="opinion">🎯 Opinión general</button>
+            </div>
+            <input type="hidden" id="feedbackCategoryInput" value="idea" />
+          </div>
+
+          <!-- Área de texto del comentario -->
+          <div class="feedback-field-group">
+            <label for="feedbackTextInput" class="feedback-label">Tu comentario o sugerencia <span class="required">*</span></label>
+            <textarea
+              id="feedbackTextInput"
+              rows="4"
+              placeholder="¿Qué función te gustaría ver? ¿Qué podemos mejorar o qué medio independiente falta sumar?"
+              required
+            ></textarea>
+          </div>
+
+          <!-- Contacto opcional -->
+          <div class="feedback-field-group">
+            <label for="feedbackContactInput" class="feedback-label">Tu nombre o correo <span class="optional">(opcional, si deseas que te contactemos)</span></label>
+            <input
+              type="text"
+              id="feedbackContactInput"
+              placeholder="Ej: Sofía / sofia@ejemplo.com"
+            />
+          </div>
+
+          <div class="feedback-actions">
+            <button type="submit" class="btn-primary btn-submit-feedback" id="feedbackSubmitBtn">
+              <span>Enviar sugerencia</span>
+              <span>🚀</span>
+            </button>
+          </div>
+        </form>
+
+        <!-- Estado de éxito al enviar -->
+        <div class="feedback-success-state hidden" id="feedbackSuccessState">
+          <div class="feedback-success-icon">🎉</div>
+          <h3>¡Muchas gracias por tu aporte!</h3>
+          <p>
+            Tu sugerencia ha sido registrada con éxito. Leemos cada comentario atentamente para seguir perfeccionando este espacio independiente.
+          </p>
+          <button type="button" class="btn-primary" data-close-modal="feedbackModal">Volver a las noticias</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Toast notification -->
   <div id="toastMessage" class="toast-popup hidden" role="status" aria-live="polite"></div>
 
