@@ -76,19 +76,35 @@
         <div class="reader-meta-top" id="readerMetaTop"></div>
         <button class="modal-close-btn" data-close-modal="readerModal" aria-label="Cerrar">✕</button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body reader-modal-scroll">
         <h2 class="reader-title" id="readerModalTitle"></h2>
         <div class="reader-badges" id="readerBadges"></div>
         <div class="reader-image-wrap hidden" id="readerImageWrap">
           <img id="readerImage" alt="" loading="lazy" />
         </div>
-        <div class="reader-summary" id="readerSummary"></div>
+        
+        <!-- Bajada / Introducción de la noticia -->
+        <div class="reader-lead" id="readerLead"></div>
+
+        <!-- Barra de métricas de lectura -->
+        <div class="reader-stats-bar" id="readerStatsBar"></div>
+
+        <!-- Contenido íntegro de la noticia / reportaje -->
+        <div class="reader-full-content" id="readerFullContent"></div>
+
+        <!-- Indicador de carga si se solicita texto completo remoto -->
+        <div class="reader-loading-wrap hidden" id="readerLoadingWrap">
+          <div class="reader-spinner"></div>
+          <span>Obteniendo reportaje completo desde el medio original...</span>
+        </div>
+
+        <!-- Clasificación y por qué está aquí -->
         <div class="reader-relevance-box" id="readerRelevanceBox"></div>
       </div>
       <div class="modal-footer">
         <button class="btn-secondary" id="readerBookmarkBtn">🔖 Guardar para leer después</button>
         <a class="btn-primary" id="readerExternalLink" href="#" target="_blank" rel="noopener noreferrer">
-          Leer artículo completo en la fuente original ↗
+          Abrir en fuente original ↗
         </a>
       </div>
     </div>

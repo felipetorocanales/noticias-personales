@@ -683,49 +683,99 @@ def extract_image(item, raw_desc="", extra_html=""):
             return url
     return None
 
-def scrape_real_article_image(url):
+def clean_full_content(raw_html, title=""):
+    if not raw_html:
+        return ""
+    text = re.sub(r'<(script|style|form|aside|nav|header|footer|figure|noscript|iframe)[^>]*>.*?</\1>', '', raw_html, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r'<br\s*/?>', '\n', text, flags=re.I)
+    has_p = bool(re.search(r'<p[^>]*>', text, re.I))
+    paragraphs = []
+    boilerplate = ['suscríbete', 'newsletter', 'política de privacidad', 'copyright', 'todos los derechos reservados', 'leído en', 'síguenos en']
+    if has_p:
+        raw_ps = re.findall(r'<p[^>]*>(.*?)</p>', text, flags=re.DOTALL | re.IGNORECASE)
+        for p in raw_ps:
+            clean_p = re.sub(r'<[^>]+>', '', p)
+            clean_p = html.unescape(clean_p).strip()
+            clean_p = re.sub(r'\s+', ' ', clean_p)
+            if len(clean_p) >= 35 and not any(skip in clean_p.lower() for skip in boilerplate):
+                if not ('function(' in clean_p or 'var ' in clean_p or '{' in clean_p):
+                    paragraphs.append(clean_p)
+    else:
+        lines = re.split(r'\n{2,}', text)
+        for l in lines:
+            clean_l = re.sub(r'<[^>]+>', '', l)
+            clean_l = html.unescape(clean_l).strip()
+            clean_l = re.sub(r'\s+', ' ', clean_l)
+            if len(clean_l) >= 40 and not any(skip in clean_l.lower() for skip in boilerplate):
+                paragraphs.append(clean_l)
+                
+    if paragraphs and title and paragraphs[0].strip().lower() == title.strip().lower():
+        paragraphs.pop(0)
+        
+    return "".join(f"<p>{html.escape(p)}</p>" for p in paragraphs)
+
+def scrape_real_article_image_and_text(url, title=""):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
     }
+    img = None
+    extracted_text = ""
     try:
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=5) as res:
-            html_text = res.read(120000).decode('utf-8', 'ignore')
+            html_text = res.read(220000).decode('utf-8', 'ignore')
 
-            # 1. Featured WordPress/CMS image (wp-post-image, featured-image, post-image)
+            # 1. Featured WordPress/CMS image
             m = re.search(r'<img[^>]+(?:class=["\'][^"\']*(?:wp-post-image|featured-image|entry-thumb|post-image|attachment-post-thumbnail)[^"\']*["\'][^>]+src=["\']([^"\']+)["\']|src=["\']([^"\']+)["\'][^>]+class=["\'][^"\']*(?:wp-post-image|featured-image|entry-thumb|post-image|attachment-post-thumbnail)[^"\']*["\'])', html_text, re.I)
             if m:
-                img = m.group(1) or m.group(2)
-                if img and not is_generic_image(img):
-                    return img.strip()
+                cand = (m.group(1) or m.group(2)).strip()
+                if cand and not is_generic_image(cand) and cand.startswith('http'):
+                    img = cand
 
             # 2. og:image
-            og_matches = re.findall(r'<meta[^>]+(?:property|name)=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']|<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']og:image["\']', html_text, re.I)
-            for m1, m2 in og_matches:
-                img = (m1 or m2).strip()
-                if img and not is_generic_image(img) and img.startswith('http'):
-                    return img
+            if not img:
+                og_matches = re.findall(r'<meta[^>]+(?:property|name)=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']|<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']og:image["\']', html_text, re.I)
+                for m1, m2 in og_matches:
+                    cand = (m1 or m2).strip()
+                    if cand and not is_generic_image(cand) and cand.startswith('http'):
+                        img = cand
+                        break
 
             # 3. twitter:image
-            tw_matches = re.findall(r'<meta[^>]+(?:property|name)=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']|<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']twitter:image["\']', html_text, re.I)
-            for m1, m2 in tw_matches:
-                img = (m1 or m2).strip()
-                if img and not is_generic_image(img) and img.startswith('http'):
-                    return img
+            if not img:
+                tw_matches = re.findall(r'<meta[^>]+(?:property|name)=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']|<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']twitter:image["\']', html_text, re.I)
+                for m1, m2 in tw_matches:
+                    cand = (m1 or m2).strip()
+                    if cand and not is_generic_image(cand) and cand.startswith('http'):
+                        img = cand
+                        break
 
-            # 4. First valid image inside article body
-            art_m = re.search(r'<(?:article|div\s+class=["\'][^"\']*(?:entry-content|post-content|article-body|c-detail__body)[^"\']*["\'])[^>]*>(.*?)</(?:article|div)>', html_text, re.I | re.DOTALL)
-            if art_m:
-                body_html = art_m.group(1)
-                body_imgs = re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', body_html, re.I)
-                for img in body_imgs:
-                    if img.startswith('http') and not is_generic_image(img):
-                        return img.strip()
+            # 4. Text paragraphs extraction
+            clean = re.sub(r'<(script|style|form|aside|nav|header|footer|figure|noscript|iframe)[^>]*>.*?</\1>', '', html_text, flags=re.DOTALL | re.IGNORECASE)
+            art_m = re.search(r'<(?:article|div)[^>]*(?:class|id)=[\'"][^\'"]*(?:entry-content|post-content|article-body|story-body|c-detail__body|cuerpo|nota-content|article__body|elementor-widget-theme-post-content|single-post-content)[^\'"]*[\'"][^>]*>(.*?)</(?:article|div)>', clean, flags=re.DOTALL | re.IGNORECASE)
+            scope = art_m.group(1) if art_m else clean
+            
+            raw_ps = re.findall(r'<p[^>]*>(.*?)</p>', scope, flags=re.DOTALL | re.IGNORECASE)
+            valid_ps = []
+            boilerplate = ['newsletter', 'suscríbete', 'suscribete', 'todos los derechos', 'copyright', 'política de privacidad', 'términos y condiciones', 'whatsapp', 'telegram', 'síguenos en']
+            for p in raw_ps:
+                t = re.sub(r'<[^>]+>', '', p)
+                t = html.unescape(t).strip()
+                t = re.sub(r'\s+', ' ', t)
+                if len(t) >= 45 and not any(b in t.lower() for b in boilerplate):
+                    if not ('function(' in t or 'var ' in t or '{' in t):
+                        valid_ps.append(t)
+                        
+            if valid_ps and title and valid_ps[0].strip().lower() == title.strip().lower():
+                valid_ps.pop(0)
+
+            if len(valid_ps) >= 2:
+                extracted_text = "".join(f"<p>{html.escape(p)}</p>" for p in valid_ps)
+
     except Exception:
-        return None
-    return None
-
+        pass
+    return img, extracted_text
 
 def is_farandula(title, summary, categories):
     combined = f"{title} {summary} {' '.join(categories)}".lower()
@@ -938,9 +988,11 @@ def fetch_all():
                     desc_el = item.find("description")
                     if desc_el is None:
                         desc_el = item.find("{http://www.w3.org/2005/Atom}summary")
-                    if desc_el is None:
-                        desc_el = item.find("{http://purl.org/rss/1.0/modules/content/}encoded")
+                    content_el = item.find("{http://purl.org/rss/1.0/modules/content/}encoded")
+                    if content_el is None:
+                        content_el = item.find("{http://www.w3.org/2005/Atom}content")
                     raw_desc = desc_el.text if (desc_el is not None and desc_el.text) else ""
+                    raw_content = content_el.text if (content_el is not None and content_el.text) else ""
                     pub_el = item.find("pubDate")
                     if pub_el is None:
                         pub_el = item.find("{http://www.w3.org/2005/Atom}published")
@@ -953,6 +1005,7 @@ def fetch_all():
                         "title": title_el.text if title_el is not None else "",
                         "link": link,
                         "description": raw_desc,
+                        "content": raw_content,
                         "pubDate": pub_el.text if pub_el is not None else "",
                         "categories": cats,
                         "img": extract_image(item, raw_desc)
@@ -1016,10 +1069,19 @@ def fetch_all():
                 rel = score_and_classify_relevance(src, title, summary, cats)
                 category = classify_category(title, summary, cats)
 
+                raw_content = entry.get("content") or ""
+                full_content = clean_full_content(raw_content, title) if raw_content else ""
+                if not full_content or len(full_content) < 300:
+                    if len(raw_desc) > 350:
+                        desc_full = clean_full_content(raw_desc, title)
+                        if len(desc_full) > len(full_content):
+                            full_content = desc_full
+
                 articles.append({
                     "id": f"{src['id']}-{len(articles)+1}",
                     "title": title,
                     "summary": summary,
+                    "content": full_content or "",
                     "url": clean_html(entry["link"]),
                     "image": entry.get("img") if (entry.get("img") and not is_generic_image(entry.get("img"))) else None,
                     "publishedAt": parse_date(entry["pubDate"]),
@@ -1066,26 +1128,29 @@ def fetch_all():
             })
             print(f"[WARN] {src['name']}: {e}")
 
-    # Enriquecimiento multihilo de imágenes reales para notas sin imagen directa en el RSS
-    articles_needing_image = [a for a in articles if not a.get("image")]
-    print(f"\n[FOTOS REALES] Enriqueciendo {len(articles_needing_image)} artículos sin foto directa del RSS...")
+        # Enriquecimiento multihilo de imágenes y texto completo para notas
+    articles_needing_enrich = [a for a in articles if (not a.get("image") or not a.get("content") or len(a.get("content", "")) < 300)]
+    print(f"\n[ENRIQUECIMIENTO] Enriqueciendo fotos y texto completo de {len(articles_needing_enrich)} artículos...")
 
     def enrich_one(art):
         try:
-            real_img = scrape_real_article_image(art["url"])
-            if real_img:
+            real_img, extracted_text = scrape_real_article_image_and_text(art["url"], art["title"])
+            if real_img and not art.get("image"):
                 art["image"] = real_img
-                return True
+            if extracted_text and (not art.get("content") or len(art.get("content", "")) < 300):
+                art["content"] = extracted_text
+            return True
         except Exception:
             pass
         return False
 
     with ThreadPoolExecutor(max_workers=12) as pool:
-        enriched_results = list(pool.map(enrich_one, articles_needing_image))
+        enriched_results = list(pool.map(enrich_one, articles_needing_enrich))
 
     real_img_count = sum(1 for a in articles if a.get("image"))
-    editorial_count = len(articles) - real_img_count
-    print(f"[FOTOS REALES] Resultado: {real_img_count} noticias con foto real verificada, {editorial_count} notas editoriales/texto legítimas (cero stock falso).")
+    full_text_count = sum(1 for a in articles if a.get("content") and len(a.get("content", "")) >= 300)
+    print(f"[RESULTADO] {real_img_count} noticias con foto real, {full_text_count} noticias con reportaje completo pre-cargado.")
+
 
     articles.sort(key=lambda x: x["publishedAt"], reverse=True)
 

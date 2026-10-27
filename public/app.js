@@ -1092,14 +1092,44 @@ function openReaderModal(articleId) {
 
   const imgWrap = document.getElementById("readerImageWrap");
   const imgEl = document.getElementById("readerImage");
-  if (art.image) {
+  if (art.image && !isGenericImageUrl(art.image)) {
     imgEl.src = art.image;
     imgWrap.classList.remove("hidden");
   } else {
     imgWrap.classList.add("hidden");
   }
 
-  document.getElementById("readerSummary").textContent = art.summary;
+  // 1. Bajada / Lead de la noticia
+  const leadEl = document.getElementById("readerLead");
+  if (leadEl) {
+    leadEl.textContent = art.summary || "";
+    leadEl.style.display = art.summary ? "block" : "none";
+  }
+
+  // 2. Contenido completo
+  const contentEl = document.getElementById("readerFullContent");
+  const statsEl = document.getElementById("readerStatsBar");
+  const loadingEl = document.getElementById("readerLoadingWrap");
+
+  if (contentEl) contentEl.innerHTML = "";
+  if (statsEl) statsEl.innerHTML = "";
+
+  const hasFullContent = art.content && art.content.length > 280 && art.content.includes("<p");
+
+  if (hasFullContent) {
+    if (loadingEl) loadingEl.classList.add("hidden");
+    if (contentEl) contentEl.innerHTML = art.content;
+    const plainText = art.content.replace(/<[^>]+>/g, " ").trim();
+    const words = plainText.split(/\s+/).filter(Boolean).length;
+    const readTime = Math.max(1, Math.round(words / 200));
+    if (statsEl) {
+      statsEl.innerHTML = `<span>📖 Cobertura Completa</span><span>·</span><span>${words.toLocaleString()} palabras</span><span>·</span><span>~${readTime} min de lectura</span>`;
+    }
+  } else {
+    if (loadingEl) loadingEl.classList.remove("hidden");
+    fetchAndRenderFullArticle(art);
+  }
+
   document.getElementById("readerRelevanceBox").innerHTML = `
     <strong>¿Por qué está clasificada aquí?</strong><br/>
     ${escapeHtml(art.relevanceReason)}. Fuente catalogada como <em>${escapeHtml(art.sourceType)}</em>.
@@ -1113,6 +1143,121 @@ function openReaderModal(articleId) {
   extLink.href = art.url;
 
   document.getElementById("readerModal").classList.remove("hidden");
+}
+
+async function fetchArticleHtmlViaProxy(articleUrl) {
+  const timestamp = Date.now();
+  const sep = articleUrl.includes("?") ? "&" : "?";
+  const targetWithBust = `${articleUrl}${sep}_nocache=${timestamp}`;
+
+  const proxies = [
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(targetWithBust)}`,
+    `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(targetWithBust)}`,
+    `https://corsproxy.io/?url=${encodeURIComponent(targetWithBust)}`
+  ];
+
+  for (const proxyUrl of proxies) {
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 4800);
+      const res = await fetch(proxyUrl, {
+        signal: controller.signal,
+        cache: "no-store"
+      });
+      clearTimeout(timer);
+      if (res.ok) {
+        const text = await res.text();
+        if (text && text.length > 500 && (text.includes("<p") || text.includes("<article"))) {
+          return text;
+        }
+      }
+    } catch (_) {}
+  }
+  return null;
+}
+
+async function fetchAndRenderFullArticle(art) {
+  const loadingEl = document.getElementById("readerLoadingWrap");
+  const contentEl = document.getElementById("readerFullContent");
+  const statsEl = document.getElementById("readerStatsBar");
+
+  try {
+    const rawHtml = await fetchArticleHtmlViaProxy(art.url);
+    if (!rawHtml) throw new Error("No se pudo obtener el texto remoto");
+
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(rawHtml, "text/html");
+
+    // Eliminar elementos no periodísticos
+    const toRemove = doc.querySelectorAll(
+      "script, style, noscript, header, footer, nav, aside, form, iframe, figure, " +
+      ".advertisement, .ads, .publicidad, .share, .social-share, .compartir, .newsletter, " +
+      ".subscription, .comments, .related-posts, .relacionadas, .tags, .autor-bio, svg"
+    );
+    toRemove.forEach((el) => el.remove());
+
+    const mainContainer =
+      doc.querySelector("article") ||
+      doc.querySelector(".entry-content") ||
+      doc.querySelector(".post-content") ||
+      doc.querySelector(".article-body") ||
+      doc.querySelector(".c-detail__body") ||
+      doc.querySelector(".cuerpo") ||
+      doc.querySelector(".nota-content") ||
+      doc.querySelector(".single-post-content") ||
+      doc.querySelector(".main-content") ||
+      doc.querySelector("#main-content") ||
+      doc.body;
+
+    const rawPs = Array.from(mainContainer.querySelectorAll("p"));
+    const validParagraphs = [];
+    const boilerplate = [
+      "newsletter", "suscríbete", "suscribete", "todos los derechos reservados",
+      "copyright", "política de privacidad", "términos y condiciones", "whatsapp",
+      "telegram", "síguenos en", "leído en", "foto de portada", "crédito:"
+    ];
+
+    for (const p of rawPs) {
+      const text = p.textContent.trim();
+      if (text.length >= 40 && !boilerplate.some((b) => text.toLowerCase().includes(b))) {
+        if (!text.includes("function(") && !text.includes("var ") && !text.includes("{") && !text.includes("};")) {
+          validParagraphs.push(text);
+        }
+      }
+    }
+
+    if (validParagraphs.length >= 2) {
+      if (validParagraphs[0].toLowerCase() === art.title.toLowerCase()) {
+        validParagraphs.shift();
+      }
+      const formattedHtml = validParagraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join("");
+      art.content = formattedHtml;
+
+      if (state.activeReaderArticle && state.activeReaderArticle.id === art.id) {
+        if (loadingEl) loadingEl.classList.add("hidden");
+        if (contentEl) contentEl.innerHTML = formattedHtml;
+        const words = validParagraphs.reduce((sum, p) => sum + p.split(/\s+/).length, 0);
+        const readTime = Math.max(1, Math.round(words / 200));
+        if (statsEl) {
+          statsEl.innerHTML = `<span>📖 Cobertura Completa</span><span>·</span><span>${words.toLocaleString()} palabras</span><span>·</span><span>~${readTime} min de lectura</span>`;
+        }
+      }
+      return;
+    }
+    throw new Error("Párrafos insuficientes");
+  } catch (_) {
+    if (state.activeReaderArticle && state.activeReaderArticle.id === art.id) {
+      if (loadingEl) loadingEl.classList.add("hidden");
+      if (contentEl && !contentEl.innerHTML.trim()) {
+        contentEl.innerHTML = `
+          <div class="reader-fallback-note">
+            <p><strong>Lectura directa en fuente:</strong> El medio original protege o requiere visualización en su portal para este reportaje.</p>
+            <p>Puedes leer la crónica completa con todas sus fotografías y fuentes haciendo clic en <strong>"Abrir en fuente original ↗"</strong>.</p>
+          </div>
+        `;
+      }
+    }
+  }
 }
 
 function openShieldModal() {
