@@ -1690,34 +1690,27 @@ function initFeedbackModal() {
       if (successState) successState.classList.remove("hidden");
       showToast("🎉 ¡Gracias por tu sugerencia para mejorar Pulso!");
 
-      // 3. Envío en segundo plano a FormSubmit con _captcha desactivado
+      // 3. Envío directo a Google Apps Script Web App (almacenamiento y notificación instantánea)
       const payload = {
-        _subject: `💡 Sugerencia Pulso: ${category.toUpperCase()} (${contact || "Anónimo"})`,
-        _captcha: "false",
-        _template: "table",
         tipo: category,
         comentario: comment,
         contacto: contact || "No indicado",
-        fecha: new Date().toLocaleString("es-CL"),
         origen: window.location.href
       };
 
-      try {
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 15000);
+      const GAS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbzu63-E2qnjAEPEhN3LtQApm8xvYuFkbIGoVTafbd8N79NobTzkbDfi8FJGtt4uYIQ/exec";
 
-        await fetch("https://formsubmit.co/ajax/felipetoro.c@gmail.com", {
+      try {
+        await fetch(GAS_WEBAPP_URL, {
           method: "POST",
+          mode: "no-cors",
           headers: {
-            "Content-Type": "application/json",
-            "Accept": "application/json"
+            "Content-Type": "text/plain;charset=utf-8"
           },
-          body: JSON.stringify(payload),
-          signal: controller.signal
+          body: JSON.stringify(payload)
         });
-        clearTimeout(timeoutId);
       } catch (err) {
-        console.warn("Envío de sugerencia en segundo plano:", err);
+        console.warn("Envío a Google Apps Script:", err);
       }
     });
   }
