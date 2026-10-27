@@ -1,12 +1,17 @@
 {
-  "generatedAt": "2026-10-27T12:41:27.722473+00:00",
-  "totalArticles": 244,
-  "totalBlockedFarandula": 11,
+  "generatedAt": "2026-10-27T13:01:16.876244+00:00",
+  "totalArticles": 247,
+  "totalBlockedFarandula": 12,
   "blockedExamples": [
     {
       "title": "¿Nos rendimos o seguimos jugando?",
       "source": "Interferencia",
       "reason": "copa libertadores"
+    },
+    {
+      "title": "U. de Chile continúa la defensa de su financiamiento con exposición en la Cámara de Diputados",
+      "source": "Radio U. de Chile",
+      "reason": "universidad de chile"
     },
     {
       "title": "Este video no muestra a reos celebrando triunfo de Lula, clip es de 2022 por un partido de fútbol",
@@ -29,6 +34,11 @@
       "reason": "campeonato nacional"
     },
     {
+      "title": "[VIDEO] Pasajero de lujo: Harry Kane cuidó con cinturón de seguridad su Balón de Oro",
+      "source": "Radio Cooperativa",
+      "reason": "delantero"
+    },
+    {
       "title": "Marcelo Morales: \"Vamos a luchar hasta el final y ganar todo lo que nos queda\"",
       "source": "Radio Cooperativa",
       "reason": "colo colo"
@@ -42,11 +52,6 @@
       "title": "Filtran inédito color que lucirá la tercera camiseta de Colo Colo para 2027",
       "source": "Radio Cooperativa",
       "reason": "colo colo"
-    },
-    {
-      "title": "Exjugador de Borussia Dortmund desclasificó pelea entre Lucas Barrios y Robert Lewandowski",
-      "source": "Radio Cooperativa",
-      "reason": "fútbol"
     },
     {
       "title": "Movilidad urbana y convivencia vial en bicicleta - Universidad de Chile",
@@ -560,7 +565,7 @@
       "independent": true,
       "status": "ok",
       "count": 10,
-      "blocked": 0
+      "blocked": 1
     },
     {
       "id": "elmostrador",
@@ -907,11 +912,11 @@
       "id": "france24",
       "name": "France 24 Español",
       "region": "mundo",
+      "country": "Francia / Global",
       "type": "Medio Público Internacional",
       "independent": false,
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "count": 0,
+      "status": "ok",
+      "count": 3,
       "blocked": 0
     },
     {
@@ -939,6 +944,26 @@
   ],
   "articles": [
     {
+      "id": "timeline-110",
+      "title": "Aduanas incauta más de 1.350 cartones de cigarrillos de contrabando en la Región de Antofagasta",
+      "summary": "Diez procedimientos de fiscalización realizados por Aduanas en la Región de Antofagasta permitieron incautar más de 1.350 cartones de cigarrillos, decenas de pares de zapatos de seguridad y un electrodoméstico. Los hallazgos se registraron en el perímetro de vigilancia especial (PVE) La Negra y en el paso fronterizo Ollagüe, durante...",
+      "content": "<p>Diez procedimientos de fiscalización realizados por Aduanas en la Región de Antofagasta permitieron incautar más de 1.350 cartones de cigarrillos, decenas de pares de zapatos de seguridad y un electrodoméstico.</p><p>Los hallazgos se registraron en el perímetro de vigilancia especial (PVE) La Negra y en el paso fronterizo Ollagüe, durante controles a buses interregionales y transporte de carga.</p><p>En La Negra, el trabajo conjunto con Carabineros permitió detectar ocho casos de cigarrillos de contrabando. En todos ellos, las mercancías se encontraban distribuidas en maletas ubicadas en el compartimiento de equipajes de buses interregionales.</p><p>Las incautaciones fluctuaron entre 132 y 202 cartones por procedimiento. De acuerdo con el detalle de los hallazgos, en total se retiraron de circulación 1.354 cartones y 15 cajetillas adicionales de cigarrillos, totalizando 13.550 cajetillas.</p><p>Por otra parte, en el paso fronterizo Ollagüe funcionarios de la Aduana Regional de Antofagasta, en base a perfiles de riesgo, detectaron 81 pares de zapatos de seguridad ocultos en la cabina de un camión.</p><p>Además, gracias al uso del camión escáner y el análisis de las imágenes de rayos x, encontraron una lavadora escondida dentro de una carga regular. Los hallazgos dieron lugar a procedimientos por contrabando.</p><p>Estos resultados dan cuenta del trabajo de fiscalización desarrollado tanto en el control fronterizo como en el perímetro de vigilancia especial La Negra, mediante la revisión de vehículos, cargas y equipajes para detectar el traslado irregular de mercancías. Asimismo, los procedimientos realizados junto a Carabineros reflejan la coordinación entre ambas instituciones para enfrentar el contrabando en la región.</p><p>El director regional de la Aduana de Antofagasta, Francisco Romero Papasideris, destacó que “estos procedimientos reflejan el trabajo sostenido de nuestros equipos para detectar el contrabando, tanto en los pasos fronterizos como en las rutas de la región. La fiscalización en Ollagüe y el trabajo conjunto con Carabineros en La Negra nos permiten actuar en distintos puntos de tránsito de mercancías, resguardando el cumplimiento de la normativa y contribuyendo a la seguridad y a la protección del comercio formal”.</p><p>La entrada Aduanas incauta más de 1.350 cartones de cigarrillos de contrabando en la Región de Antofagasta se publicó primero en Timeline.cl.</p>",
+      "url": "https://www.timeline.cl/aduanas-incauta-mas-de-1-350-cartones-de-cigarrillos-de-contrabando-en-la-region-de-antofagasta/",
+      "image": "https://www.timeline.cl/wp-content/uploads/2026/10/27-dauanas.jpg",
+      "publishedAt": "2026-10-27T12:44:55+00:00",
+      "sourceId": "timeline",
+      "sourceName": "Timeline Antofagasta",
+      "sourceType": "Regional Independiente (Norte)",
+      "sourceSite": "https://timeline.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 75,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
       "id": "radiouchile-30",
       "title": "Brasil: el Partido de Flávio Bolsonaro reconoce reelección de Lula",
       "summary": "En un comunicado el Partido Liberal del opositor Flávio Bolsonaro reconoció la reelección del presidente izquierdista Luiz Inácio Lula da Silva en Brasil. La entrada Brasil: el Partido de Flávio Bolsonaro reconoce reelección de Lula se publicó primero en Diario y Radio Universidad Chile .",
@@ -956,6 +981,46 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 89,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-126",
+      "title": "Gobierno y manejo de desastres: Tenemos que mejorar mucho, pero hemos afinado la respuesta",
+      "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Tras el paso del nuevo sistema frontal por la zona central, que dejó precipitaciones, tormentas eléctricas y un inédito tornado EF-2 en Requínoa, el subsecretario de la Secretaría General de Gobierno, Gonzalo Arenas, analizó la respuesta estatal en El Diario de Cooperativa.</p><p>El vocero de La Moneda afirmó que &quot;el Gobierno se va a hacer cargo y vamos a hacer las inversiones que sean necesarias&quot; para enfrentar este tipo de eventos y mitigar sus efectos.</p><p>Por otro lado, reconoció que &quot;tenemos que mejorar mucho lo que es la coordinación&quot; de la respuesta ante emergencias, aunque destacó que han ido &quot;afinando la respuesta, mejor de lo que lo habíamos hecho al principio&quot;.</p>",
+      "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/inundaciones/gobierno-y-manejo-de-desastres-tenemos-que-mejorar-mucho-pero-hemos/2026-10-27/093656.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261027/imag/foto_0000000120261027093656.jpg",
+      "publishedAt": "2026-10-27T12:36:56+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 77,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "france24-238",
+      "title": "Los sindicatos franceses consideran insuficientes las medidas del Gobierno mientras el Senado debate sanciones más duras por la violencia en las protestas",
+      "summary": "El Gobierno francés anunció un paquete de medidas para responder a las protestas estudiantiles que llevan semanas sacudiendo el país, pero los sindicatos docentes y las organizaciones estudiantiles consideran insuficientes las concesiones.",
+      "content": "",
+      "url": "https://www.france24.com/es/francia/20261027-francia-anuncia-reformas-educativas-por-5-000-millones-de-euros-mientras-crece-la-presi%C3%B3n-por-los-disturbios",
+      "image": "https://s.france24.com/media/display/9027baa4-c71a-11f1-b8f6-3774aeac812a/w:1024/p:16x9/2026-10-13T134943Z-1844841693-RC2D2OA7UBJM-RTRMADP-3-FRANCE-PROTEST.jpg",
+      "publishedAt": "2026-10-27T12:31:16+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 81,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -999,7 +1064,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-126",
+      "id": "cooperativa-127",
       "title": "RD del Congo supera la barrera de los 10.000 casos de ébola y bordea los 5.000 muertos",
       "summary": "La epidemia de ébola declarada el pasado 15 de mayo en la República Democrática del Congo (RDC) ha superado los 10.000 casos confirmados, incluyendo 4.887 muertos , informaron este martes las autoridades congoleñas. Según el último informe publicado por el Instituto Nacional de Salud Pública (INSP) de la RDC, con datos recabados hasta...",
       "content": "<p>La epidemia de ébola declarada el pasado 15 de mayo en la República Democrática del Congo (RDC) ha superado los 10.000 casos confirmados, incluyendo 4.887 muertos, informaron este martes las autoridades congoleñas.</p><p>Según el último informe publicado por el Instituto Nacional de Salud Pública (INSP) de la RDC, con datos recabados hasta el 25 de octubre, se han registrado un total de 10.060 infecciones confirmadas, con una tasa de letalidad del 48,6 %.</p><p>Además, 2.684 pacientes se han recuperado de la enfermedad hasta el momento, y la tasa de seguimiento de contactos se sitúa en un 81,6 %.</p><p>&quot;La situación subraya la necesidad de reforzar la detección temprana, el seguimiento de contactos, los entierros dignos y seguros, y la seguridad de los equipos de respuesta, especialmente en Bafwasende -un pueblo en la provincia de Tshopo-&quot;, afirmó el INSP.</p><p>Según el documento, las provincias orientales de Ituri y Kivu del Norte son los territorios más golpeados del país, con 32 y 58 nuevos casos registrados en las últimas 24 horas, respectivamente.</p><p>En total, la epidemia afecta a 66 zonas de salud de ocho de las 26 provincias de la RDC: además de Ituri y Kivu del Norte, el brote golpea a Tshopo, Bas-Uélé, Haut-Uélé, Kivu del Sur, Ubangui del Sur y Ubangui del Norte.</p><p>&quot;La transmisión se mantiene particularmente marcada en las zonas de salud de Beni (35 casos), Mandima (11 casos) y Bunia (8 casos)&quot;, añadió el INSP.</p><p>Este brote -el segundo más mortífero y contagioso de la historia a nivel global— ya superó al ocurrido en la misma región congoleña entre 2018 y 2020, aunque todavía está lejos del más grave hasta la fecha, que provocó unos 11.000 muertos y 28.000 contagios en África occidental entre 2014 y 2016.</p><p>Paralelamente, la RDC inició a finales de agosto una campaña de inmunización contra el ébola con la vacuna Ervebo, única disponible a gran escala y diseñada en principio para la variante Zaire del virus -más común-, pero que ha dado indicios positivos contra Bundibugyo en animales.</p><p>La OMS también informó el viernes pasado sobre el comienzo de un estudio clínico en la RDC para evaluar varias posibles vacunas esta cepa.</p><p>La actual epidemia también se propagó a la vecina Uganda, donde la OMS declaró el 26 de agosto el fin del brote, después de contabilizarse 20 contagios confirmados, incluidos 15 importados de la RDC, entre los que hubo dos muertos.</p><p>Junto con la RDC y Uganda, se han detectado casos vinculados al brote congoleño en otros dos países africanos: Kenia (nueve, incluyendo dos muertos) y Nigeria (uno).</p><p>El virus del ébola se transmite por contacto directo con fluidos corporales de personas o animales infectados y causa fiebre hemorrágica grave, vómitos, diarrea y hemorragias internas.</p>",
@@ -1019,7 +1084,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-127",
+      "id": "cooperativa-128",
       "title": "Codina: Es muy probable que la infraestructura se vea colapsada si siguen las lluvias intensas",
       "summary": "El delegado presidencial de la Región Metropolitana, Germán Codina , advirtió este martes que \"es muy probable\" que la infraestructura de evacuación de agua colapse si se reiteran episodios de precipitaciones intensas en corto período de tiempo , como los registrados ayer en el sector oriente de Santiago . En conversación con El...",
       "content": "<p>El delegado presidencial de la Región Metropolitana, Germán Codina, advirtió este martes que &quot;es muy probable&quot; que la infraestructura de evacuación de agua colapse si se reiteran episodios de precipitaciones intensas en corto período de tiempo, como los registrados ayer en el sector oriente de Santiago.</p><p>En conversación con El Diario de Cooperativa, la autoridad metropolitana fue consultada sobre la efectividad de las labores preventivas y de despeje en la precordillera, y explicó que la inestabilidad climática asociada a &quot;bajas presiones en la zona marítima&quot; está originando &quot;pulsos de gran intensidad&quot; que superan los estándares de construcción actuales.</p><p>&quot;Si vamos a seguir presenciando lo que se está viendo de precipitaciones de esa intensidad en tan corto tiempo, es muy probable que infraestructura que se diseñó para otra envergadura de precipitaciones, por supuesto que se vea colapsada&quot;, alertó Codina, luego de que en sectores precordilleranos, como en Las Condes y Lo Barnechea, cayeran cerca de 20 milímetros de lluvia en una hora.</p><p>Frente este escenario, el delegado metropolitano subrayó que &quot;uno de los elementos que hemos tratado de que se incorpore al sistema de monitoreo tiene que ver con los radares meteorológicos, que ha sido una de las discusiones importantes durante el último tiempo, siendo que Meteorología viene indicando desde el año 2018, casi diez años, la necesidad de poder contar con esos radares&quot;.</p><p>&quot;Eso también permite tener con mayor precisión, por ejemplo ayer, haber sabido antes que se desplazaba la tormenta con tantas precipitaciones hacia la zona de Quebrada Honda y no recién alertarlo cuando ya estás viendo los efectos, las consecuencias de esa precipitación&quot;, enfatizó.</p><p>Respecto a los daños generados por el sistema frontal, Durán detalló que la emergencia se concentró en la activación de quebradas en Lo Barnechea (El Arrayán, Huallalolen y Quebrada Seca) y en Las Condes, donde se produjo el desborde de la Quebrada Honda a la altura de Bulnes Correa, pese a los monitoreos previos.</p><p>El delegado informó que el evento provocó la suspensión de clases en colegios ubicados en el polígono de seguridad de Las Condes y en dos recintos en Lo Barnechea: el Colegio Farellones y el San Juan de Kronstadt.</p><p>Agregó que la acumulación de agua terminó &quot;con cinco casas aisladas, pero con la gente en en buenas condiciones y algunos casos puntuales, por ejemplo, con una residencia de adultos mayores en Barnechea, que fueron trasladados internamente en el recinto, y uno de los adultos mayores fue retirado por sus familiares&quot;.</p><p>Finalmente, la autoridad metropolitana detalló que las rutas cordilleranas G-21 (camino a Farellones) y G-27 (San José de Maipo y Pirque) se mantienen transitables, aunque advirtió que los conductores deben subir &quot;con precaución&quot; debido a que la maquinaria pesada de Vialidad y MOP continúa retirando sedimentos acumulados en las bermas.</p><p>[Radio en vivo📻] En El Diario de Cooperativa conversamos con el delegado presidencial de la Región Metropolitana, Germán Codina. Escucha en https://t.co/T95z68V3dL https://t.co/xkNnaDw3kw</p>",
@@ -1159,7 +1224,27 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-128",
+      "id": "france24-239",
+      "title": "EE. UU. intenta volver a procesar al exdirector del FBI James Comey por presunta filtración de información clasificada",
+      "summary": "El Departamento de Justicia de la Administración Trump busca imputar al exjefe del FBI, James Comey, por la supuesta divulgación de información sensible a 'The New York Times' en 2016, una década después de los hechos. La defensa sostiene que la acusación es jurídicamente inválida porque el Gobierno no presentó dentro del plazo legal...",
+      "content": "<p>El Departamento de Justicia de la Administración Trump busca imputar al exjefe del FBI, James Comey, por la supuesta divulgación de información sensible a &#x27;The New York Times&#x27; en 2016, una década después de los hechos. La defensa sostiene que la acusación es jurídicamente inválida porque el Gobierno no presentó dentro del plazo legal el tipo de imputación que exige la legislación federal, y ha solicitado que un juez desestime el caso.</p>",
+      "url": "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261027-ee-uu-intenta-volver-a-procesar-al-exdirector-del-fbi-james-comey-por-presunta-filtraci%C3%B3n-de-informaci%C3%B3n-clasificada",
+      "image": "https://s.france24.com/media/display/11871ec2-d1fd-11f1-847d-5b4a75578ebb/w:1024/p:16x9/COMEY-OK.jpg",
+      "publishedAt": "2026-10-27T11:53:59+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 81,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-129",
       "title": "Super Bowl 2027: Confirman a Jay-Z como artista del medio tiempo",
       "summary": "El rapero estadounidense Jay-Z protagonizará el espectáculo de medio tiempo del Super Bowl LXI , que se disputará el 14 de febrero de 2027 en el SoFi Stadium de Los Ángeles, anunció la NFL. El artista sucederá al puertorriqueño Bad Bunny, cuyo espectáculo en la edición anterior obtuvo siete premios Emmy y se convirtió en el más...",
       "content": "<p>El rapero estadounidense Jay-Z protagonizará el espectáculo de medio tiempo del Super Bowl LXI, que se disputará el 14 de febrero de 2027 en el SoFi Stadium de Los Ángeles, anunció la NFL.</p><p>El artista sucederá al puertorriqueño Bad Bunny, cuyo espectáculo en la edición anterior obtuvo siete premios Emmy y se convirtió en el más galardonado de la historia del descanso del Super Bowl.</p><p>&quot;Desde &#x27;Reasonable Doubt&#x27; hasta el escenario del descanso del Super Bowl, ha sido un viaje. Treinta años de música, trabajo y cultura en el escenario más grande del mundo&quot;, afirmó Jay-Z en declaraciones recogidas en el comunicado.</p><p>El anuncio llega en el año del trigésimo aniversario de su álbum de debut, celebrado con tres conciertos con entradas agotadas en el Yankee Stadium y actuaciones en Londres, París y Los Ángeles.</p><p>Ganador de 25 premios Grammy y cuatro Emmy, Jay-Z fue el primer artista de hip hop incorporado al Salón de la Fama de los Compositores y entró en el del Rock and Roll en 2021.</p><p>El comisionado de la NFL, Roger Goodell, explicó que, cuando la liga acordó con Roc Nation (de propiedad de Jay-Z) la producción del espectáculo, pidió que el rapero subiera algún día al escenario.</p><p>Una publicación compartida por Apple Music (@applemusic)</p>",
@@ -1219,7 +1304,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-129",
+      "id": "cooperativa-130",
       "title": "Noah Wyle de \"The Pitt\" es el hombre más sexy del mundo según People",
       "summary": "El actor estadounidense Noah Wyle ha sido elegido como el hombre más sexy del mundo en 2026 por la revista People por \"su intensidad cautivadora\" y su \"aspecto de galán de cine\". El protagonista de la popular serie \"The Pitt\" , de 55 años, confesó en una entrevista con la publicación al conocer el reconocimiento que \"no podía...",
       "content": "<p>El actor estadounidense Noah Wyle ha sido elegido como el hombre más sexy del mundo en 2026 por la revista People por &quot;su intensidad cautivadora&quot; y su &quot;aspecto de galán de cine&quot;.</p><p>El protagonista de la popular serie &quot;The Pitt&quot;, de 55 años, confesó en una entrevista con la publicación al conocer el reconocimiento que &quot;no podía creerlo&quot;. &quot;Pensé que era una broma; jamás imaginé que recibiría un honor así&quot;, agregó.</p><p>&quot;Afortunadamente, (su esposa) Sara, de 46 años, logró convencerlo de que, efectivamente, reunía todos los requisitos para el título&quot;, explica la revista.</p><p>&quot;Ella cree que soy un buen tipo, y que mi forma de ser, el padre y el esposo que soy, merecen ser destacados&quot;, dijo él. &quot;Así que pensé: &#x27;Bueno, si tú lo dices...&#x27;&quot;, explica People.</p><p>Wyle se dio a conocer ante el público televisivo como el estudiante de medicina y, posteriormente, médico John Carter en &quot;ER&quot;, una serie en la que trabajó junto a estrellas como George Clooney, Anthony Edwards, Sherry Stringfield y Julianna Margulies.</p><p>Por su trabajo obtuvo tres nominaciones a los Globos de Oro y cinco a los premios Emmy durante la emisión de la serie.</p><p>Reciéntemente Wyle regresó de nuevo al mundo hospitalario en el papel del dr. Michael &quot;Robby&quot; Robinavitch en &quot;The Pitt&quot;, el cual le ha valido ser reconocico como el Mejor Actor de una serie dramática en los Globos de Oro y los Emmy durante dos años consecutivos.</p><p>Una publicación compartida por People Magazine (@people)</p>",
@@ -1236,6 +1321,26 @@
       "category": "Cultura y Sociedad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "france24-240",
+      "title": "EE. UU. concede asilo político al periodista nicaragüense Luis Galeano tras ser detenido por ICE: ABC del caso",
+      "summary": "El director del programa independiente Café con Voz, Luis Galeano, obtuvo protección migratoria en Estados Unidos un mes después de permanecer más de una semana detenido por el Servicio de Inmigración y Control de Aduanas (ICE). El comunicador huyó de Nicaragua en 2018 tras una orden de captura y, en 2023, fue despojado de su...",
+      "content": "<p>El director del programa independiente Café con Voz, Luis Galeano, obtuvo protección migratoria en Estados Unidos un mes después de permanecer más de una semana detenido por el Servicio de Inmigración y Control de Aduanas (ICE). El comunicador huyó de Nicaragua en 2018 tras una orden de captura y, en 2023, fue despojado de su nacionalidad y sus bienes por la Justicia nicaragüense. Su caso refleja la situación de los periodistas exiliados ante la represión contra la prensa independiente bajo el Gobierno de Daniel Ortega y Rosario Murillo.</p>",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261027-ee-uu-concede-asilo-pol%C3%ADtico-al-periodista-nicarag%C3%BCense-luis-galeano-tras-ser-detenido-por-ice-abc-del-caso",
+      "image": "https://s.france24.com/media/display/094b5c58-b0a8-11f1-9d87-005056a97e36/w:1024/p:16x9/luis-galeeano-redes-sociales.jpg",
+      "publishedAt": "2026-10-27T11:18:00+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 67,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1279,7 +1384,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "eldiarioes-231",
+      "id": "eldiarioes-229",
       "title": "Los Comuns retiran sus candidaturas al Senado en Girona, Tarragona y Lleida tras pactar con el PSC",
       "summary": "Ambas formaciones han llegado a un acuerdo para evitar la dispersión de voto en la Cámara Alta, donde se eligen cuatro representantes de cada provincia con listas abiertas El Frente Amplio tendrá el 30% de los puestos en las listas conjuntas con el PSOE para el Senado El acuerdo entre el Frente Amplio y el PSOE para acudir juntos al...",
       "content": "<p>Ambas formaciones han llegado a un acuerdo para evitar la dispersión de voto en la Cámara Alta, donde se eligen cuatro representantes de cada provincia con listas abiertas</p><p>El Frente Amplio tendrá el 30% de los puestos en las listas conjuntas con el PSOE para el Senado</p><p>El acuerdo entre el Frente Amplio y el PSOE para acudir juntos al Senado en varias provincias se extiende a Catalunya. Los Comuns y el PSC han firmado un pacto para que los primeros retiren sus listas de las circunscripciones de Girona, Tarragona y Lleida, donde darán apoyo a los candidatos socialistas. A cambio, la formación de Ada Colau se garantiza un senador, que llegará por designación autonómica desde el Parlament.</p><p>El acuerdo trata de evitar la dispersión de voto de las izquierdas en la Cámara Alta, donde se eligen cuatro representantes de cada provincia con listas abiertas. Hasta ahora, el resultado más frecuente de las elecciones al Senado ha sido que por cada provincia entren los tres candidatos del partido ganador en el Congreso y el primero de la formación que queda segunda.</p><p>“Durante la legislatura que ahora ha terminado el Senado se ha convertido en una cámara de bloqueo de las iniciativas del Gobierno. El acuerdo entre el PP y Vox, que se dio a conocer ayer, sobre las candidaturas al Senado y que afecta también a las circunscripciones de Girona y Tarragona, tiene el objetivo de controlar esta cámara para que sea un instrumento de regresión democrática y control de instituciones del Estado”, razonan ambas formaciones en un comunicado conjunto.</p><p>PSC y Comuns consideran “especialmente grave” que el acuerdo suscrito por las derechas “entregue el liderazgo de circunscripciones catalanas en VOX”. Un partido de extrema derecha que, recuerdan, “quiere acabar con las instituciones y derechos y libertades de Catalunya y nuestro autogobierno”.</p><p>PSC e ICV ya habían acudido juntos al Senado en una coalición que también incluyó a ERC y a IU bajo el nombre de Entesa Catalana de Progrés. Este acuerdo se inició en las elecciones del 2000 y se repitió en 2004 y 2008. En los tres comicios la Entesa logró ser la lista ganadora en las cuatro provincias catalanas, obteniendo por tanto tres senadores de cada una de ellas.</p>",
@@ -1339,7 +1444,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-130",
+      "id": "cooperativa-131",
       "title": "Vocero de Gobierno: Una AC contra Rabat no procedería, pero hubo errores humanos y políticos graves",
       "summary": "En entrevista con El Diario de Cooperativa , el nuevo subsecretario de la Secretaría General de Gobierno, Gonzalo Arenas , abordó este martes la eventual presentación de una acusación constitucional (AC) contra el ministro de Justicia y Derechos Humanos, Fernando Rabat , por la rebaja de condenas a personas sentenciadas por delitos...",
       "content": "<p>En entrevista con El Diario de Cooperativa, el nuevo subsecretario de la Secretaría General de Gobierno, Gonzalo Arenas, abordó este martes la eventual presentación de una acusación constitucional (AC) contra el ministro de Justicia y Derechos Humanos, Fernando Rabat, por la rebaja de condenas a personas sentenciadas por delitos sexuales contra menores de edad.</p><p>&quot;Mañana hay una sesión especial en la Cámara, entiendo que la acusación constitucional ya es un acuerdo de la Concertación y se va a presentar&quot;, dijo el vocero de La Moneda, quien afirmó que, a juicio del Ejecutivo, no se configuraría una causal para destituir al secretario de Estado, aunque reconoció que hubo errores humanos y políticos &quot;graves&quot;.</p><p>&quot;Nosotros consideramos que él tiene el conocimiento suficiente y las explicaciones suficientes como para no configurar esta causal de acusación constitucional, lo cual no implica que el Presidente (no) reconozca que hay errores humanos y políticos graves&quot;, señaló Arenas.</p><p>El subsecretario agregó que &quot;el Presidente cree -y yo también- que el ministro cumplió con la ley, cumplió con lo que establecen los reglamentos, cumplió con la Constitución y, por lo tanto, una causal por incumplimiento de la ley o abandono de deberes en este caso no procedería&quot;.</p><p>En ese contexto, el portavoz indicó que la sesión especial de la Cámara de Diputadas y Diputados, prevista para este miércoles, permitiría a Rabat exponer sus argumentos y responder las preguntas de los parlamentarios antes de que estos adopten una posición.</p><p>&quot;Por supuesto que es preocupante que exista una acusación constitucional, pero tampoco el Gobierno puede estar de que, cada vez que acusan a un ministro, uno tenga que cambiarlo, porque tenemos un régimen presidencial; no parlamentario. Entonces, si uno se va a rendir con cada acusación, tendríamos una rotación ministerial gigantesca&quot;, advirtió Arenas.</p><p>En esa línea, reiteró que &quot;su permanencia está condicionada por lo que el Presidente decida: si considera que el ministro ha cumplido con su rol, con la misión que le entregó, sin duda permanecerá, pero es una decisión exclusivamente del Presidente de la República&quot;.</p><p>&quot;El Presidente lo apoyó y lo ha apoyado hasta el día de hoy&quot;, aseguró.</p><p>La autoridad explicó que el Presidente le encomendó a Rabat trabajar en una reforma para cerrar las interpretaciones jurídicas que han permitido estas reducciones de penas y, además, revocar &quot;todas&quot; las libertades concedidas.</p><p>La propuesta, detalló Arenas, contempla tres ejes: &quot;Primero, una ley que blinde completamente cualquier interpretación contraria por parte de los tribunales; segundo, la participación de las víctimas en el proceso y, tercero, la creación de tribunales de ejecución de penas, porque sabemos que las comisiones de rebaja y el ministerio son órganos más bien administrativos que hacen un chequeo objetivo, no de mérito&quot;.</p><p>&quot;La idea es que lo más rápido posible -de aquí a la próxima semana- ya tengamos una ley que corrija de fondo este tema&quot;, abogó.</p><p>Respecto de la idea de revertir las libertades concedidas, Arenas admitió que se trata de una tarea &quot;es muy difícil&quot;, pues &quot;no es cosa de llegar y revocar un derecho que ya se otorgó&quot;. No obstante, garantizó que &quot;el Presidente le dijo (al ministro de Justicia) que buscará todas las fórmulas posibles para ver cómo logramos que esto se pudiese revocar&quot;.</p><p>&quot;Hay una voluntad política de hacerlo y, si nos restáramos cada vez que vemos que es difícil hacer algo, no haríamos casi nada&quot;, añadió.</p><p>Según las cifras entregadas por el subsecretario durante la entrevista, 57 personas obtuvieron rebajas de condenas durante la actual Administración y otras 270 durante el Gobierno anterior.</p><p>&quot;Hasta donde yo tengo entendido, (de los 57) están todos libres&quot;, declaró.</p><p>Arenas también abordó sus declaraciones durante la primera vocería que hizo al asumir como subsecretario, cuando calificó de &quot;impecable&quot; el procedimiento que permitió las rebajas de condenas.</p><p>&quot;Quizás pude haber ocupado otra palabra, no &#x27;impecable&#x27;, pero a lo que yo me refería era que, desde el punto de vista constitucional, legal y administrativo, no había ningún reproche que hacerle al ministro; estaba todo conforme a la ley, conforme a la administración y conforme a la Constitución&quot;, aclaró.</p><p>Sin embargo, asumió que &quot;una cosa es que haya sido bien hecho desde el punto de vista constitucional, administrativo y legal, y otra cosa es el grave error humano en cómo se trató el tema y el grave error también con respecto a las víctimas&quot;.</p><p>En tal sentido, reconoció que &quot;el error fue no haber incorporado a las víctimas y no haber advertido al Gobierno (de parte del Ministerio de Justicia) de las posibles consecuencias políticas de un hecho de este tipo&quot;.</p><p>&quot;(El Gobierno debió) adelantarse políticamente a los efectos que se puedan generar de actos de este tipo, y lo reconoció el propio ministro Rabat, porque había en este tema tan sensible&quot;, remarcó.</p><p>Finalmente, el subsecretario se refirió a las pérdidas registradas por los fondos de pensiones y cuestionó la diligencia de las administradoras ante la caída de su patrimonio.</p><p>&quot;Claramente, si un fondo pierde el 10% de su patrimonio, no hubo diligencia&quot;, opinó el vocero, aunque precisó que corresponde a la Superintendencia investigar si existieron responsabilidades.</p><p>Arenas planteó que se deben examinar las decisiones de inversión y los incentivos de los ejecutivos de las administradoras, y prometió que el Gobierno respaldará las sanciones y medidas que determine la autoridad competente.</p><p>&quot;Estamos abiertos a todas las soluciones o sanciones que la autoridad administrativa nos diga&quot;, aseveró, agregando que &quot;un fondo de pensiones tiene que tener inversiones mucho más estables que permitan una seguridad en la inversión hasta fin de año&quot;.</p><p>Asimismo, alertó que también corresponde revisar las ganancias extraordinarias, &quot;porque significa que están haciendo apuestas riesgosas jugando a que iban a ganar&quot;.</p>",
@@ -1479,7 +1584,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "timeline-110",
+      "id": "timeline-111",
       "title": "Antonio Sánchez advierte por cifras de pobreza en Antofagasta: “Estamos casi en el rango medio del país y eso para mí es preocupante”",
       "summary": "La Región de Antofagasta, reconocida históricamente por sus altos ingresos y el dinamismo de la industria minera, enfrenta un escenario preocupante en materia de pobreza. Así lo advirtió el exseremi de Economía, Antonio Sánchez, durante su participación en el podcast Un Día Menos de Timeline.cl, donde analizó los indicadores...",
       "content": "<p>La Región de Antofagasta, reconocida históricamente por sus altos ingresos y el dinamismo de la industria minera, enfrenta un escenario preocupante en materia de pobreza. Así lo advirtió el exseremi de Economía, Antonio Sánchez, durante su participación en el podcast Un Día Menos de Timeline.cl, donde analizó los indicadores publicados por el Ministerio de Desarrollo Social y Familia.</p><p>Según las cifras expuestas por Sánchez, correspondientes a 2024, la pobreza por ingresos en Antofagasta alcanza el 16,4%, apenas por debajo del promedio nacional de 17,3%. De ese total, un 7,1% corresponde a pobreza extrema y un 9,3% a pobreza no extrema.</p><p>“Hoy día estamos nosotros casi en el rango medio del país y eso para mí es preocupante, por cuanto Antofagasta durante todo el periodo del boom de la minería (…) siempre en ingresos lideró el país. Era la región que tenía la menor pobreza por ingresos de Chile y lejos, muy por debajo del promedio nacional”, sostuvo.</p><p>El exseremi aclaró que las metodologías de medición han experimentado modificaciones, por lo que las comparaciones históricas deben realizarse con precaución. Sin embargo, insistió en que la posición actual de Antofagasta contrasta con los indicadores que históricamente exhibía la región.</p><p>Durante la conversación, Sánchez planteó como una de sus hipótesis para explicar este fenómeno los cambios en la composición demográfica de Antofagasta, particularmente la salida de residentes y la llegada de población migrante en condiciones económicas más vulnerables.</p><p>“Las personas que llegaron a suplirla son personas de muchos menores ingresos que las que se van. Entonces, eso te baja el promedio”, explicó.</p><p>En esa línea, sostuvo que muchas personas extranjeras llegan a la región buscando mejores oportunidades económicas y que sus condiciones iniciales de vulnerabilidad podrían influir en los indicadores regionales.</p><p>Se trata, en todo caso, de una interpretación planteada por el exseremi durante la entrevista y no de una relación causal demostrada por las cifras presentadas.</p><p>Uno de los antecedentes que más llamó la atención del exseremi fue la distribución territorial de los recursos destinados a programas sociales.</p><p>De acuerdo con su análisis de la información ministerial, Antofagasta aparece con el menor gasto social per cápita entre las regiones del país, pese a mantener indicadores de pobreza cercanos al promedio nacional.</p><p>“Si nuestras condiciones de pobreza, de precariedad, no son las mejores del país, estamos en el rango medio (…) ¿por qué, en cuanto a la asignación de los recursos que se destinan a resolver los problemas de precariedad, estamos en el último lugar de Chile?”, cuestionó.</p><p>Sánchez reconoció que existen diferencias en la aplicación de programas y en los criterios de asignación presupuestaria. También advirtió que el indicador podría verse afectado por la utilización de proyecciones poblacionales basadas en el Censo de 2017, en lugar de los resultados del levantamiento de 2024.</p><p>“Puede ser que cuando se hacen los cálculos per cápita hayan errores. No lo puedo confirmar”, precisó, evitando dar por establecida una eventual inconsistencia metodológica.</p><p>Otro de los indicadores abordados fue la proporción de niños, niñas y adolescentes registrados en el Registro Social de Hogares que no se encuentran matriculados en el sistema escolar.</p><p>Según los datos presentados durante el programa, Antofagasta registra un 6,4%, la proporción más alta del país en ese indicador, seguida por Tarapacá.</p><p>Sánchez sostuvo que este antecedente refleja la necesidad de mirar la pobreza más allá de los ingresos, incorporando factores como educación, salud, vivienda, seguridad social y redes de apoyo.</p><p>“Las personas que están en el ámbito de toma de decisiones, que están en actividad política, debieran leerlo y no solamente leerlo, estudiarlo, porque en base a eso es que se deben diseñar políticas públicas”, enfatizó.</p><p>Finalmente, el exseremi llamó a profundizar el análisis de los indicadores sociales y de la distribución de recursos públicos, especialmente en una región que concentra grandes inversiones mineras, pero que, según su evaluación, no ha logrado traducir completamente esa actividad económica en mejores condiciones sociales para toda su población.</p><p>La entrada Antonio Sánchez advierte por cifras de pobreza en Antofagasta: “Estamos casi en el rango medio del país y eso para mí es preocupante” se publicó primero en Timeline.cl.</p>",
@@ -1499,7 +1604,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "eldiarioes-230",
+      "id": "eldiarioes-231",
       "title": "La mitad de votantes de PP y Vox, a favor de aumentar impuestos a quien tenga más de una vivienda en propiedad",
       "summary": "Una encuesta de Idra muestra que topar el coste de los alimentos, así como un modelo de impuestos progresivo son propuestas que unen a los votantes tanto de derecha como de la izquierda MAPA - ¿Cuánto ganan tus vecinos? El nuevo mapa de la renta en España, calle a calle La redistribución de la riqueza es una de las medidas que la...",
       "content": "<p>Una encuesta de Idra muestra que topar el coste de los alimentos, así como un modelo de impuestos progresivo son propuestas que unen a los votantes tanto de derecha como de la izquierda</p><p>MAPA - ¿Cuánto ganan tus vecinos? El nuevo mapa de la renta en España, calle a calle</p><p>Así lo muestra encuesta del Instituto de Investigación Urbana de Barcelona (IDRA) elaborada a 1.850 personas de toda España este verano, meses antes de que la cuestión de la vivienda se convirtiera en el centro del debate. El estudio ha analizado, primero, el estado socioeconómico español y, luego, ha preparado una serie de propuestas para mitigar la pérdida de poder adquisitivo y las ha cruzado con el recuerdo de voto de la población preguntada.</p><p>Los datos de la encuesta demuestran que la precariedad se ha instalado en el conjunto de la población; cerca de la mitad de la población asegura que sólo puede hacer frente a los gastos básicos de su día a día, sin margen de ahorro ni para afrontar imprevistos. En esta máxima, el peso de la vivienda tiene una gran importancia: mientras el precio del alquiler ha subido un 85%, los salarios sólo lo han hecho un 25%. Con todo, la riqueza que genera el mercado habitacional, cada vez se reparte entre menos manos: en este periodo se han construido dos millones de viviendas, pero el número total de propietarios ha caído un 22%.</p><p>Esta concentración de los bienes se encuentra también en la cesta de la compra, cuyo precio ha subido un 45% en la última década, o en la energía. A pesar de eso, la población no reconoce a las grandes empresas como responsables de sus problemas económicos. La población sitúa en las principales posiciones al Gobierno y a los partidos políticos, seguidos por los especuladores y los bancos. Las empresas se encuentran en la cuarta quinta posición de la lista de culpables, seguidas por los inmigrantes y los propios trabajadores.</p><p>Aun así, aseguran que la intervención sobre los precios genera más consenso social: se trata de una medida muy bien valorada por los partidos de la izquierda y divide mucho menos a los votantes conservadores. De esta manera, los investigadores apuntan a que los partidos que pudieran construir una “agenda política creíble podría disputar la hegemonía”.</p><p>En la misma línea, insisten en que el coste de la vida se sitúa en el centro del debate y, por eso, las políticas económicas que no protejan a la población podrían castigar mucho a ciertos partidos, de la misma manera que insinúan que un partido que se mostrara abiertamente a favor de aumentar impuestos a los ricos podría recolectar más apoyos. En este sentido, han evaluado el potencial apoyo a programas electorales “hipotéticos” y han recabado que una formación que prohibiera abiertamente la especulación tendría un 3% más de posibilidades de ser votado.</p>",
@@ -1539,7 +1644,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "timeline-111",
+      "id": "timeline-112",
       "title": "SernamEG valora aumento de denuncias por VIF en Antofagasta en casos que no involucran ningún tipo de femicidio",
       "summary": "El un aumento de las denuncias por violencia intrafamiliar (VIF) en aquellos casos que no involucren algún tipo de femicidio tienen una lectura positiva, explicó Alejandra Gajardo, directora regional subrogante del Servicio Nacional de la Mujer y la Equidad de Género (SernamEG). Y es que las campañas del servicio precisamente buscan...",
       "content": "<p>La semana pasada, el Sistema Táctico de Operación Policial (STOP) de la Prefectura de Carabineros de Antofagasta informó las cifras de su tercera sesión trimestral. Los números indicaron que los delitos priorizados mostraron una disminución en los de mayor connotación social, pero al mismo tiempo reflejaron un incremento de los casos de VIF.</p><p>El balance policial expuso que en el sector de la 2ª Comisaría de Antofagasta la Violencia Intrafamiliar registró 310 casos. En la 5ª Comisaría La Portada, las denucias de VIF llegaron a 252. Mejillones mantuvo niveles bajos de robos con violencia y robos con intimidación, sin embargo, la estadística recogió un incremento en violencia intrafamiliar, situación que se repitió en Tocopilla, donde los delitos por VIF son el principal desafío preventivo.</p><p>“Entendemos que la decisión de una mujer por denunciar nos es fácil. Hay estudios que señalan que una mujer tarda en promedio siete o más años en hacer patente lo que vive. Hay hijas e hijos, hay sentimientos y otros factores de por medio que dificultan dar ese importante paso”, señaló la directora regional subrogante.</p><p>¿Cuáles son las cifras de femicidios en la región?</p><p>Las cifras que manejamos como Servicio nos señalan que, de enero de este año a la fecha, en la región no han ocurrido femicidios consumados ni suicidios femicidas. Sí, ocho femicidios frustrados y seis tentados. El año pasado hubo en esta zona dos femicidios consumados y un suicidio femicida, doce femicidios frustrados y tres tentados.</p><p>¿Qué representa para el servicio que las estadísticas de VIF registren un aumento?</p><p>En ese sentido, la quinta Encuesta Nacional de Violencia contra las Mujeres de la Subsecretaría de Prevención del Delito nos muestran que la prevalencia, esto es la afirmación de haber experimentado al menos un episodio de violencia de género en su vida fue del 21,4 por ciento en 2024. Este mismo índice de la encuesta anterior de 2020 fue del 24,7 por ciento. Esto nos permite vislumbrar que hubo un avance en términos culturales para asegurar que el derecho de una mujer a vivir sin violencia está siendo internalizado en la población.</p><p>¿A qué medios de ayuda puede recurrir una víctima que todavía no denuncia su situación?</p><p>Entendemos que la decisión de una mujer por denunciar nos es fácil. Hay estudios que señalan que una mujer tarda en promedio siete o más años en hacer patente lo que vive. Hay hijas e hijos, hay sentimientos y otros factores de por medio que dificultan dar ese importante paso. Por ello, como Servicio contamos con medios seguros para que aquellas mujeres reciban orientación, y que están vigentes desde los tiempos más álgidos de la pandemia de Covid 19, a través del fono 1455 y el WhatsApp +569 9700 7000. Están nuestros Centros de las Mujeres repartidos en cada provincia y están nuestros aliados como Carabineros, la Policía de Investigaciones y los tribunales que son las entidades encargadas de recibir denuncias de este tipo.</p><p>Según lo que aprecian en los últimos años en Antofagasta, los casos específicos de VIF contra mujeres se mantienen en alguna tendencia.</p><p>Para responder a esa pregunta, antes bien debo explicar que desde que entró en vigencia la Ley Integral de Violencia Contra Mujeres -21.675- a mediados de 2024 los análisis anteriores a esta Ley quedaron obsoletos. Esta normativa amplía lo que habíamos entendido como violencia hasta esa fecha, pues ya no se trataba sólo de violencia intrafamiliar, sino también el tipo de violencia que recibía una mujer sin tener necesariamente un vínculo sentimental con quien la ejercía. Fueron incorporados nuevos conceptos como la violencia política o la violencia gineco obstétrica. Por ello, y sólo por dar un ejemplo, las denuncias que recibió Carabineros en la comuna de Antofagasta pasaron de consignar dos mil 644 denuncias en 2024 a tres mil 355 en 2025.</p><p>¿Cuál es la principal gestión del servicio para prevenir y qué rol esperan de los otros servicios públicos?</p><p>Nuestro Servicio posee una unidad especializada en la prevención de todo tipo de violencia contra mujeres y que trabaja cada año con diversas organizaciones de la sociedad civil para entender donde nace ese tipo de discriminaciones culturales y qué hacer para prevenirla y cómo denunciar. Trabajamos además de forma coordinada con otras entidades con pertinencia en este tema como el Servicio Médico Legal, el Ministerio Público y otros, los que en conjunto conformamos la Subcomisión de Articulación de la Respuesta frente a la Violencia de Género.</p><p>No obstante, la mejor prevención viene dada porque cada persona investigue, sepa y se interiorice que este tipo de maltratos nace y se perpetua en una cultura que posiciona a las mujeres en inferioridad respecto de los hombres. Si cada persona toma conciencia de lo que puede entregar una mujer con sus diferentes inteligencias y destrezas y que las diferencias comunes se solucionan con diálogo, habremos dado un paso determinante para comenzar a acabar con este flagelo.</p><p>La entrada SernamEG valora aumento de denuncias por VIF en Antofagasta en casos que no involucran ningún tipo de femicidio se publicó primero en Timeline.cl.</p>",
@@ -1559,7 +1664,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "timeline-112",
+      "id": "timeline-113",
       "title": "Parlamentarios de oposición respaldan idea de acusación constitucional contra ministro de Justicia",
       "summary": "Apuntando sus dardos a la decisión de La Moneda de mantenerlo en el cargo, los parlamentarios de oposición en Antofagasta respaldaron la idea de una acusación constitucional contra el ministro de Justicia Fernando Rabat. El secretario de Estado enfrenta críticas por firmar los decretos que permitieron rebajar las sanciones de 56...",
       "content": "<p>Apuntando sus dardos a la decisión de La Moneda de mantenerlo en el cargo, los parlamentarios de oposición en Antofagasta respaldaron la idea de una acusación constitucional contra el ministro de Justicia Fernando Rabat.</p><p>El secretario de Estado enfrenta críticas por firmar los decretos que permitieron rebajar las sanciones de 56 condenados por delitos sexuales. El presidente José Antonio Kast reconoció ayer que la medida tomada por Justicia fue un error, sin embargo, por el momento no mencionó la posibilidad de remover al ministro y enfocó el tema en la manera legal de resolver la controversia.</p><p>Los legisladores antofagastinos esperaban que el mandatario sacara del gabinete a Rabat como una primera señal del mea culpa del Ejecutivo, lo cual no ocurrió durante la jornada del lunes. Y como consecuencia de ello, coinciden en que respaldarán una acusación constitucional contra el titular de Justicia que articulen los partidos de oposición.</p><p>“SI EXISTEN FUNDAMENTOS, HAY QUE AVANZAR”</p><p>El diputado Sebastián Videla (IND-PL) manifestó que lo ocurrido “es gravísimo» y que no basta con que el presidente reconozca un error y al mismo tiempo mantenga al ministro en su cargo. En esa línea, dijo que tienen que asumir sus responsabilidades todos los involucrados, caiga quien caiga.</p><p>“Nadie puede quedar protegido por su cargo ni por su cercanía con el gobierno. Si existen fundamentos para una acusación constitucional, hay que avanzar sin titubeos. Con la seguridad de nuestros niños y la justicia para las víctimas no se juega”, aseguró Videla.</p><p>“TENGO LA CONVICCIÓN DE QUE DEBE PRESENTARSE”</p><p>Jaime Araya, diputado independiente por el PPD, sostuvo que reducir las condenas de violadores de niños y abusadores sexuales infantiles es un hecho de la máxima gravedad, considerando que la autoridad tiene las herramientas para negar los decretos. “El instrumento de la acusación constitucional es lo que procede utilizar para perseguir la responsabilidad que cabe por estas 56 decisiones”, subrayó.</p><p>Araya cuestionó que el gobierno no puede escudarse en una supuesta ausencia de norma legal para amparar sus actos, ya que todos los gobiernos anteriores se negaron a conceder estos beneficios. “No son derechos, por lo tanto, tengo la convicción que debe presentarse una acusación constitucional, sin embargo, por la naturaleza de la acción es necesario actuar coordinadamente con las bancadas que compartan esta posición”, puntualizó.</p><p>NO DEJAN OTRO CAMINO A LA OPOSICIÓN</p><p>La diputada Marcela Hernando (Partido Radical) lamentó lo sucedido con el ministro Rabat, a quien identificó como el secretario de Estado más dialogante y con quien mayor entendimiento habían logrado en la Cámara.</p><p>“Dicho eso, si es que no se toman medidas por parte del gobierno no dejan más remedio a la oposición que presentar una interpelación o una acusación constitucional. Pediría que ellos mismos (el gobierno) tomaran las medidas para que no llegara la sangre al río”, adelantó Hernando.</p><p>Fabián Ossandón, diputado del Partido de la Gente quien no se identifica como oposición automática al gobierno, pero tampoco actúa complaciente con el oficialismo, dijo que “no descartamos ninguna herramienta fiscalizadora, incluida la acusación constitucional, porque aquí se le falló gravemente a las víctimas”.</p><p>El parlamentario remarcó que no bastan las disculpas del gobierno, por ello exigen apoyo concreto a los afectados y reformar con rigurosidad el sistema penitenciario para que esto no vuelva a repetirse.</p><p>La entrada Parlamentarios de oposición respaldan idea de acusación constitucional contra ministro de Justicia se publicó primero en Timeline.cl.</p>",
@@ -1659,7 +1764,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "dw-238",
+      "id": "dw-241",
       "title": "La española Alexia Putellas conquista su tercer Balón de Oro",
       "summary": "La estrella española Alexia Putellas ganó el Balón de Oro por tercera vez en su carrera, después de sus coronas de 2021 y 2022.",
       "content": "",
@@ -1679,27 +1784,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "eldiarioes-229",
-      "title": "El Gobierno prevé llevar a la Diputación Permanente los decretos de vivienda el día después de la huelga general",
-      "summary": "La convocatoria para el 12 de noviembre aún no es oficial y no ha sido confirmada a los grupos parlamentarios, pero el Ejecutivo cree que no hay margen para otras fechas porque el 13 empieza oficialmente la campaña y prefiere esperar a que pase el paro sindical del 11-N El bloque de izquierdas recorta distancias, pero PP y Vox...",
-      "content": "<p>La convocatoria para el 12 de noviembre aún no es oficial y no ha sido confirmada a los grupos parlamentarios, pero el Ejecutivo cree que no hay margen para otras fechas porque el 13 empieza oficialmente la campaña y prefiere esperar a que pase el paro sindical del 11-N</p><p>El bloque de izquierdas recorta distancias, pero PP y Vox mantienen la mayoría absoluta</p><p>El Gobierno ya anunció en su día que la intención esta vez era apurar el límite de los plazos legales para estirar el tiempo en que las medidas estaban en vigor antes de ser sometidas a su convalidación en el Congreso. Ese plazo, de 30 días hábiles según el reglamento de la Cámara Baja, expiraría el sábado 14 de noviembre, ya en pleno primer fin de semana de campaña. La preferencia del Ejecutivo, según ha podido contrastar elDiario.es con distintas fuentes gubernamentales, es que ese debate parlamentario se produzca en todo caso después de la huelga general del 11-N y no antes. Así que las opciones para convalidar los decretos fuera de los quince días oficiales que fija la ley de campaña electoral se reducen únicamente al 12 de noviembre. De cara a la cita con las urnas, el PSOE espera que tanto la huelga general como el debate parlamentario del día siguiente, en el que PP y Vox se opondrán a las medidas, supongan una activación del electorado progresista en plena crisis de la vivienda con movilizaciones por todo el país.</p><p>El Gobierno cuenta esta vez, además, con garantías de éxito para que sea convalidado el decreto que contiene la mayoría de medidas. Porque en la Diputación Permanente, el órgano que garantiza la continuidad de los poderes de la Cámara cuando esta no está reunida (en este caso, por estar disuelta), se produce una leve alteración de las mayorías parlamentarias del Pleno que resulta clave: el voto de Junts, que sumó su fuerza a la del PP y Vox para derogarlo a principios de octubre, no es imprescindible. Basta con el apoyo del PNV, que ya ha anunciado su &#x27;sí&#x27; al texto.</p><p>Ese decreto que contiene el grueso de medidas y que sí cuenta con apoyos suficientes contempla en su primer artículo la limitación de la compra de vivienda a los fondos buitre hasta el último día de 2028, a los que endurece las condiciones para su compra. La norma se centra más en la intención de la adquisición que en la naturaleza de la empresa o entidad y se refiere a la “protección de la función social de la vivienda y frente a la especulación”.</p><p>Para limitar estas transacciones se fija en entidades que tengan como objeto social comprar casas “por un precio inferior al 70% de su valor de tasación de mercado”, entendiendo que el principal objetivo de ello es maximizar el lucro inmediatamente después. Este veto podría cerrar las puertas a los fondos a comprar pisos en nuda propiedad o con inquilinos, que suelen ser los que tienen un precio más bajo.</p><p>Además, los desahucios quedarán suspendidos para “personas vulnerables sin alternativa habitacional” hasta el 31 de diciembre de 2030. Pero existe una protección que se extiende más allá. Si quien desahucia es un fondo o empresa, el tribunal estará obligado a suspender el proceso aunque exista sentencia. Pero si no lo es, se prevén compensaciones a los propietarios por los impagos.</p><p>En el artículo 5 se modifica la Ley de Enjuiciamento Civil e incluye la “enervación extraordinaria”. Esto significa que las comunidades, cuando no se ofrezca alternativa habitacional, están obligadas a cubrir los impagos del inquilino en las viviendas que no sean de grandes tenedores, es decir, con más de 10 viviendas. El Estado, a su vez, compensará a las comunidades por este gasto. Sin embargo, los propietarios vulnerables o con menos de dos viviendas sí que podrán desahuciar por impago, aunque no se les ofrezca alternativa residencial.</p><p>El decreto rescata también la prórroga extraordinaria que estuvo un mes en vigor al estallar la guerra de Irán. De esta forma, se prorrogarán por dos años todos los alquileres vigentes que venzan antes del 31 de diciembre de 2028 en los mismos términos que el contrato en vigor. Ahora bien, para acogerse a ella habrá que estar al corriente de los últimos ocho pagos. Solo si se pactan otras condiciones o si el propietario necesita el piso para él o para familiares no tendrá efecto la prórroga.</p><p>El decreto recoge en una disposición final una congelación de alquileres en las renovaciones anuales. Solo podrán subir un 2% en caso de que el precio del alquiler sea inferior a la media, delimitada por el Índice de Referencia. Si el alquiler es superior a los precios de referencia, el propietario no podrá subir de ninguna manera el precio en la renovación año a año.</p><p>Por otra parte, el Gobierno financiará a través del Instituto de Crédito Oficial (ICO) línea a particulares para la compra de la primera vivienda, financiada a cargo del Ministerio de Vivienda. El mecanismo “Tu Casa” permitirá financiar la entrada de una hipoteca, por hasta un total de 50.000 euros o el 20% del precio si es inferior, y tendrá un periodo de carencia (es decir, que no será necesario devolverlo) igual al plazo de la hipoteca o por un máximo de treinta años. El préstamo no tendrá intereses. Las ayudas ascenderán a 10.000 millones de euros, lo que podría servir para 200.000 viviendas teniendo en cuenta que el máximo es de 50.000.</p>",
-      "url": "https://www.eldiario.es/politica/gobierno-preve-llevar-diputacion-permanente-decretos-vivienda-dia-despues-huelga-general_1_13616839.html",
-      "image": "https://static.eldiario.es/clip/4dea6d97-22cb-4f57-afb3-35025956498e_16-9-discover-aspect-ratio_default_0_x839y283.jpg",
-      "publishedAt": "2026-10-27T07:00:11+00:00",
-      "sourceId": "eldiarioes",
-      "sourceName": "elDiario.es",
-      "sourceType": "Independiente de Socios",
-      "sourceSite": "https://www.eldiario.es",
-      "region": "mundo",
-      "country": "España",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 78,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "globalvoices-241",
+      "id": "globalvoices-244",
       "title": "Energía de oeste a este, cómputo de este a oeste: El costo uigur del orden digital de China",
       "summary": "Pekín está trasladando una vieja geografía de extracción a la era de la IA, lo que convierte la tierra, energía y trabajo uigures en capacidad de cómputo, pero calla sobre coerción y vigilancia.",
       "content": "<p>Pekín califica a la región uigur de «base nacional estratégica de seguridad energética y de recursos»</p><p>Originalmente publicado en Global Voices en Español</p><p>Parque Industrial de Computación en la Nube de Karamay, región uigur. Captura de pantalla de la Radio y Televisión de Sinkiang. Uso legítimo.</p><p>Este articulo es parte de la serie Spotlight de Global Voices de octubre de 2026 “Gigantes tecnológicos y autoritarismo”. Esta serie explora cómo las empresas gigantes de tecnología facilitan y obstaculizan a Gobiernos y prácticas autoritarias, y cómo estas decisiones influyen en los países en desarrollo. Puedes apoyar esta cobertura con una donación.</p><p>El 14 de septiembre, ministros y altos funcionarios se reunieron en privado en Urumqi, capital de la región uigur de China, en vísperas del Foro de Economía Digital de la Organización de Cooperación de Shanghái (OCS) de 2026. La reunión se presentó como un ejercicio técnico y de desarrollo en el que los participantes debatieron sobre infraestructura digital, transformación industrial, inteligencia artificial, gobernanza de datos y su valor económico. El foro se llevó a cabo con el tema «Promover la conectividad de datos de la Organización de Cooperación de Shanghái, forjando el futuro con IA».</p><p>La elección de Urumqi como lugar de encuentro no fue casual. Las autoridades chinas están posicionando la región uigur como una puerta de entrada terrestre a través de la cual la infraestructura digital, la capacidad de cómputo, los sistemas de datos y los estándares técnicos de China puedan extenderse a Asia central y al mercado euroasiático en general. Al mismo tiempo, que el foro se haga en Urumqi ayuda a Pekín a reformular la imagen de una región asociada internacionalmente con la vigilancia masiva y graves violaciones de los derechos humanos, y la presenta como un escaparate de innovación, apertura y prosperidad.</p><p>Esa estrategia también se basa en la energía. La región uigur, que durante mucho tiempo Pekín consideró una fuente de petróleo, gas, carbón y electricidad para el resto de China, se está replanteando ahora como una fuente de la vasta potencia informática necesaria para la inteligencia artificial. La nueva economía digital se está construyendo sobre una economía extractiva más antigua.</p><p>La tecnología digital en la patria uigur ya se ha utilizado para dar seguimiento al movimiento, las comunicaciones, las prácticas religiosas y el comportamiento social cotidiano. Esa historia, y el sufrimiento que ha causado, no estuvo en el discurso público del foro. En cambio, los responsables presentaron la transformación digital de la región como una promesa de modernización.</p><p>Según la Administración Nacional de Datos de China, la reunión privada, que se llevó a cabo el 14 de septiembre, reunió a funcionarios de los Estados miembros de la Organización de Cooperación de Shanghái y de otros países socios. Nueve miembros (Bielorrusia, China, Irán, Kazajistán, Kirguistán, Pakistán, Rusia, Tayikistán y Uzbekistán) alcanzaron un acuerdo sobre la Declaración Ministerial de la Organización de Cooperación de Shanghái sobre Economía Digital de 2026.</p><p>Los participantes elaboraron asimismo una «Lista de asuntos prioritarios de cooperación e intenciones en la economía digital de la OCS, 2026-2027″ (上合组织数字经济领域重点合作事项和意向清单 (2026—2027)), que contiene cerca de 20 intenciones de cooperación en más de 10 sectores, entre los que se incluyen infraestructura digital, agricultura, industria manufacturera, energía, transporte y logística, prevención de catástrofes, educación, salud y desarrollo de capacidades.</p><p>La estructura institucional detrás del foro es más relevante que una sola declaración; tras el primer Foro de Economía Digital de la OCS celebrado en Tianjin en 2025, se incluye una plataforma de cooperación que supervisa los avances mensualmente, revisa los proyectos trimestralmente y lleva a cabo intercambios bilaterales o multilaterales cada seis meses. En otras palabras, el sistema adapta proactivamente la tecnología, los parámetros y los servicios chinos a las políticas y las necesidades de infraestructura de los Estados de la Organización de Cooperación de Shanghái.</p><p>La convocatoria de propuestas para la recopilación de 2026 buscaba casos de cooperación relacionados con 5G, la computación en la nube, centros de datos, cables transfronterizos, inteligencia artificial, identidad digital, ciudades inteligentes y administración digital, flujos transfronterizos de datos y tecnologías de seguridad de datos. En agosto en una rueda de prensa, las autoridades revelaron que la recopilación de casos de éxito de 2025 incluía un «puerto digital e inteligente» entre China y Uzbekistán, un espacio de datos de confianza para el comercio entre China y Rusia, una plataforma de datos sobre financias automotrices entre China y Pakistán, y el apoyo chino a un intercambio de datos en Astaná, Kazajistán. Las instituciones ferroviarias chinas y kazajas también están conectando datos y realizando una evaluación previa de los documentos de carga para la ruta transcaspiana.</p><p>Durante la rueda de prensa de agosto, las autoridades chinas describieron la región uigur como un territorio con 19 puertos de entrada, tres puertas de enlace regionales para telecomunicaciones internacionales y 28 cables de fibra óptica transfronterizos que se dirigen hacia Asia central. También dicen que están buscando un punto de conexión directa a la red troncal nacional de internet y una puerta de enlace de comunicaciones internacionales con todos los servicios en la región.</p><p>Las ambiciones van mucho más allá de la conectividad. Las autoridades regionales han anunciado planes para construir grandes grupos informáticos en Urumqi y sus alrededores, incluidos grupos con decenas de miles (y con el tiempo, con cientos de miles) de tarjetas aceleradoras. Su objetivo declarado es convertir la ciudad en un centro informático que sirva a los mercados de Asia central y a Eurasia en general, y promover la exportación de capacidad de computo y tokens de IA.</p><p>También revelaron un plan para crear una alianza regional destinada a promover los parámetros digitales, con formación técnica periódica de acuerdo con los sistemas de certificación, de modo que los parámetros chinos sirvan de «referencia prioritaria» para las infraestructuras de Asia central. Esos parámetros pueden determinar quién controla los datos, cómo se comunican los sistemas y qué formas de acceso estatal se incorporan a los centros de datos, los sistemas de identidad digital, las ciudades inteligentes y las bases de datos gubernamentales.</p><p>Desde hace tiempo, los investigadores señalan a la SCO como un foro a través del cual China y Rusia promueven ideas estatistas en torno a la «soberanía en internet». Un estudio académico sobre la estrategia de China en materia de normas cibernéticas la describe como una plataforma para impulsar normas que priorizan el control estatal, la seguridad de la información y la estabilidad del régimen, a menudo a expensas de la transparencia, la rendición de cuentas y los derechos humanos. Por lo tanto, alinear normas y parámetros digitales constituye una coordinación económica y un intento de configurar la arquitectura de gobernanza digital de la región.</p><p>La inteligencia artificial puede parecer intangible, pero su infraestructura es profundamente física. Los modelos se entrenan y ejecutan en centros de datos repletos de procesadores que consumen mucha energía, que están conectados a redes eléctricas y sistemas de refrigeración. La Agencia Internacional de la Energía lo deja claro: «no hay IA sin energía». Se estima que un centro de datos típico dedicado a la IA consume tanta electricidad como 100,000 hogares, mientras que las instalaciones más grandes que se están construyendo podrían consumir hasta veinte veces más. Se prevé que la demanda mundial de electricidad de los centros de datos se duplique, y más, entre 2024 y 2030, impulsada en gran medida por la IA.</p><p>La estrategia digital de China sigue una geografía de extracción más antigua. Durante décadas, el transporte de gas de oeste a este, el transporte de electricidad de oeste a este y el transporte de carbón de oeste a este han trasladado la energía desde las fronteras de recursos del interior hacia los centros industriales del este. Para allanar el camino hacia la economía de datos, desde 2023, el presidente de China Mobile, Yang Jie, pidió públicamente ampliar las capacidades de almacenamiento, procesamiento, entrenamiento y representación de los datos del este en el oeste de China.</p><p>«Datos del este, informática del oeste» traslada parte del trabajo de computación a las regiones occidentales, donde la tierra y la electricidad satisfacen la demanda del resto de China. En la región uigur, además de los gasoductos, las exportaciones de carbón y electricidad, los centros de datos y los grupos de inteligencia artificial se suman ahora a la lista de la extracción de recursos naturales.</p><p>Pekín califica la región uigur como una «base estratégica de seguridad nacional en energía y recursos«. Las cifras oficiales sitúan su producción de energía primaria en 2025 en 510 millones de toneladas métricas de carbón estándar y su capacidad instalada de energías nuevas en más de 170 millones de kilovatios. La electricidad se transmite desde la región a más de 20 zonas de nivel provincial; aproximadamente un tercio de esta electricidad exportada se describe como energía verde. Las autoridades locales también esperan que la región se convierta en una base para la «computación verde» y planean exportar capacidad de cómputo y tokens de IA (las unidades procesadas por los modelos de lenguaje) hacia Asia central.</p><p>Desde el punto de vista político, la designación de la patria uigur como «base estratégica de seguridad» nacional sitúa sus recursos en la agenda de seguridad de Pekín. Las decisiones sobre el suelo, la minería, el transporte de electricidad y la infraestructura informática se toman, y probablemente se seguirán tomando, a través de un sistema jerárquico dominado por el Estado y las grandes empresas. Los uigures, a quienes ya se les niega una participación política significativa, tienen poco espacio independiente para cuestionar el uso del suelo, los daños ambientales o la distribución de los ingresos. La extracción de energía y la gobernanza digital se refuerzan así mutuamente: una brinda poder material, mientras que la otra amplía la capacidad del Estado para supervisar y administrar el territorio y la población.</p><p>Las minas, los parques industriales, los corredores de transmisión y las bases de energía eólica y solar requieren terrenos y, en una región árida, necesitan agua, un recurso escaso. Cuando los medios de vida agrícolas o ganaderos se reorganizan en torno a proyectos estatales, es posible que más uigures enfrenten pérdida de su independencia basada en la tierra, separación familiar, traslados forzados por motivos laborales o asignaciones de trabajo dictadas por las autoridades.</p><p>Aunque los datos públicos no han revelado cuántos uigures se han visto desplazados específicamente por la construcción de instalaciones energéticas y de computación, expertos en derechos humanos de Naciones Unidas advirtieron en enero de 2026 que los programas de traslado laboral impuestos por el Estado que afectan a los uigures presentan indicios de coacción y pueden dar lugar a desplazamientos. Una investigación de la Universidad de Sheffield Hallam rastreó la mano de obra uigur impuesta por el Estado a lo largo de la cadena de suministro solar, desde la extracción de cuarzo y la producción de polisilicio alimentada con carbón hasta la fabricación de módulos solares.</p><p>La etiqueta «verde» que se aplica a un centro de datos de IA no basta para que su cadena de suministro sea limpia ni su mano de obra, libre. Un estudio sobre ciudades de industria pesada de la región documentó una grave contaminación por partículas, aunque no evaluó los efectos de los centros de datos de IA ni determinó resultados de salud específicos para los uigures.</p><p>Existe una profunda contradicción al presentar a Urumqi como el centro de un futuro digital benigno e inclusivo.</p><p>La región uigur es el lugar donde las autoridades chinas construyeron uno de los sistemas de control de la población basado en la tecnología más intrusivos del mundo. Según la investigación de Human Rights Watch, la Plataforma Integrada de Operaciones Conjuntas agregaba información sobre personas y marcaba a individuos para investigarlos en función de actividades cotidianas, que iban desde el comportamiento religioso y las relaciones familiares hasta el uso del teléfono y el contacto social. Una conducta lícita podía considerarse un indicio de sospecha.</p><p>La evaluación de 2022 de la Oficina de Derechos Humanos de Naciones Unidas también documentó una vigilancia extensa y graves restricciones a la privacidad, la circulación y la expresión en la región. Concluyó que la magnitud de las detenciones arbitrarias y discriminatorias, y de las violaciones relacionadas contra los uigures podrían constituir crímenes internacionales, en particular crímenes de lesa humanidad.</p><p>El foro de la Organización de Cooperación de Shanghái no trató los problemas importantes en materia de derechos de privacidad, la supervisión independiente, la discriminación algorítmica, las medidas correctivas ante el uso indebido, la participación de la sociedad civil ni salvaguardas contra la vigilancia estatal. La «gobernanza de datos» se debatió principalmente como una cuestión relacionada con la generación de valor, la conexión de mercados, la alineación de normas y la facilitación de los flujos transfronterizos.</p><p>Aún no se ha publicado la lista completa de proyectos, por lo que aún no es posible evaluar del todo las implicaciones de cada uno en materia de derechos humanos. Las categorías de cooperación incluyen ciudades inteligentes, administración digital, identidad digital, conjuntos de datos de IA y plataformas de servicios públicos (sistemas capaces de ampliar los servicios públicos y el poder del Estado). La evidencia disponible no demuestra que los proyectos del foro exporten los sistemas de vigilancia utilizados contra los uigures.</p><p>La cuestión no es si la infraestructura digital puede aportar beneficios económicos. Puede aportarlos. La cuestión es qué normas la regularán, quién podrá acceder a los datos y qué medidas de protección existirán cuando la tecnología se utilice contra las personas a quienes pretende servir. La transparencia es importante, pero escasa.</p><p>Las autoridades chinas se han mostrado inusualmente francos sobre el objetivo político de celebrar el foro en la región uigur. En la rueda de agosto, un alto funcionario regional lo calificó de «importante tarea politica» al servicio de la estrategia nacional y dijo que proyectaría una imagen de estabilidad social, desarrollo económico, unidad y felicidad de la población.</p><p>Por lo tanto, el foro tenía dos objetivos paralelos: en el plano material, conectar la infraestructura informática, los sistemas de datos y las normas técnicas de China con los Estados vecinos; en el plano narrativo, sustituir la atención prestada a la represión por un relato controlado sobre tecnología y prosperidad. Urumqi fue el escenario como el mensaje. Pekín presentó la región en la que se han utilizado herramientas digitales para clasificar, vigilar y castigar a los uigures como prueba de que su modelo de desarrollo digital merece la confianza del extranjero.</p><p>La transformación de la región uigur en un centro digital euroasiático constituye también una proyección del poder político hacia el exterior: sobre las infraestructuras y los datos, y sobre la narrativa internacional acerca de lo que les ocurrió a los uigures.</p><p>Sin transparencia ni una evaluación de los derechos humanos, Gobiernos y ciudadanía no pueden evaluar significativamente las empresas participantes, las tecnologías, los acuerdos de intercambio de datos o los riesgos para los derechos humanos. Sin ese escrutinio, la cooperación digital puede reducir la brecha tecnológica, tal como prometen los organizadores del foro; pero también puede trasladar una antigua jerarquía extractiva a la era de la IA, arraigar más profundamente (hacerla más difícil de cuestionar) un modelo autoritario de gobernanza digital más allá de las fronteras.</p>",
@@ -1719,7 +1804,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "dw-239",
+      "id": "dw-242",
       "title": "Israel abre las urnas en unas elecciones clave para el primer ministro Benjamín Netanyahu",
       "summary": "Según las últimas encuestas, la coalición encabezada por el ex jefe del Ejército Gadi Eisenkot superaría al bloque del primer ministro.",
       "content": "",
@@ -1739,7 +1824,27 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "globalvoices-242",
+      "id": "eldiarioes-230",
+      "title": "Quiénes son los candidatos de Vox al Senado integrados en las listas del PP",
+      "summary": "Entre ellos está José Luis Aguirre, exconseller de Agricultura en la Comunitat Valenciana, que será el número dos por Valencia al Senado como \"independiente\" PP y Vox cierran un acuerdo de mínimos para buscar el control total del Senado el 29N Como parte del pacto con el PP para el Senado, Vox ha acordado no presentar candidatura al...",
+      "content": "<p>Entre ellos está José Luis Aguirre, exconseller de Agricultura en la Comunitat Valenciana, que será el número dos por Valencia al Senado como &quot;independiente&quot;</p><p>PP y Vox cierran un acuerdo de mínimos para buscar el control total del Senado el 29N</p><p>Como parte del pacto con el PP para el Senado, Vox ha acordado no presentar candidatura al Senado en seis provincias, donde se integrarán en la lista de los de Feijóo como independientes. En total, entre titulares y suplentes, son una veintena de personas.</p><p>El acuerdo parte del análisis de que la alianza del PSOE y del Frente Amplio podría impedir a las derechas lograr los tres quintos del senado, lo que les permitiría controlar el Tribunal Constitucional durante una década, e incluso podría poner en riesgo la mayoría absoluta en la Cámara Alta, cuyo sistema de elección difiere del que se aplica en el Congreso: una única papeleta con todas las candidaturas, listas abiertas y más circunscripciones que provincias.</p><p>Estos son los nombres de los titulares de Vox que irán en listas como “independientes”:</p><p>Escritor y profesor. Es el número tres por Cádiz y ya fue el cabeza de lista al Senado hace tres años por la misma provincia, sin lograr representación.</p><p>Concurrirá como número tres en la papeleta de Castellón. Es periodista, actualmente el director de comunicación de la Fundación Disenso. Entre 2023 y 2025 fue jefe de Gabinete de la portavocía de VOX en el Congreso.</p><p>El exconseller de Agricultura valenciano José Luis Aguirre será el número dos por Valencia al Senado. Ocupó esa cartera de forma breve, entre 2023 hasta la salida de la extrema derecha de los gobiernos autonómicos en 2024. Previamente, Aguirre fue diputado de Vox en Les Corts.</p><p>La número dos por Gran Canaria será Alba Moreno, trabajadora de prensa del partido. Fue la subordinada a la que Ortega Smith reprochó una “falta de interés” durante su permiso de maternidad en un audio publicado por El País: “No has venido a un solo pleno, no has venido a nada”.</p><p>Será el número dos por Tenerife como independiente. Fue candidato de la extrema derecha como cabeza de lista por León en el Senado en 2023 y formó parte de la lista de Vox a las europeas de 2024.</p><p>La periodista valenciana irá de número dos por Mallorca. Es la directora de Comunicación del grupo de Vox en el Parlamento de Andalucía.</p>",
+      "url": "https://www.eldiario.es/politica/son-candidatos-vox-senado-integrados-listas-pp_1_13617335.html",
+      "image": "https://static.eldiario.es/clip/c2e73fd0-92ae-49b1-9478-d09d05336dd0_16-9-discover-aspect-ratio_default_0_x1145y267.jpg",
+      "publishedAt": "2026-10-27T06:42:53+00:00",
+      "sourceId": "eldiarioes",
+      "sourceName": "elDiario.es",
+      "sourceType": "Independiente de Socios",
+      "sourceSite": "https://www.eldiario.es",
+      "region": "mundo",
+      "country": "España",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 78,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "globalvoices-245",
       "title": "Cómo se exageró en línea una protesta de agricultores en Bucarest y luego se le dio otro giro",
       "summary": "El análisis de más de 1180 publicaciones en Facebook y cien videos en TikTok reveló cómo una protesta genuina de agricultores la exageraron grupos de cuentas que difundían mensajes idénticos, para luego integrarse en narrativas antigubernamentales, contra la Unión Europea y pro-Kremlin.",
       "content": "<p>Un problema económico real se convirtió en combustible para las narrativas antisistema que ya existían en Rumania</p><p>Originalmente publicado en Global Voices en Español</p><p>Imagen miniatura del video de YouTube ‘Incidentes violentos en la protesta de los ganaderos en la Plaza de la Victoria’ en las protestas del 15 de septiembre de 2006 en Bucarest, Rumania, de Digi24HD. La leyenda de la pantalla dice: ‘Violencia en la protesta en la plaza Victoria. Enfrentamientos con policías, se usó gas lacrimógeno’. Uso legítimo.</p><p>Este artículo de Matei Vrabie y Calin Georgia de Funky Citizens, ONG rumana que trabaja en la intersección de buena gobernanza y ciudadanía activa, es parte de la serie Spotlight de Global Voices de septiembre 2026, «Protesta en democracia«. Esta serie busca explorar las distintas formas de protestas, las tácticas que usan los Estados para deslegitimarlas y reprimirlas, y la compleja relación entre la protesta y la democracia. Puedes apoyar esta cobertura con una donación.</p><p>El 15 de septiembre, más de mil pastores, ganaderos y otros granjeros se reunieron en la plaza Victoria, frente a la sede central del Gobierno rumano en Bucarest, para protestar contra una prohibición de la Unión Europea a exportaciones de ovejas y cabras vivas, extendidas hasta fines de 2026 tras brotes de plagas de pequeños rumiantes y viruela ovina.</p><p>Exigían compensación por animales sacrificados y cultivos perdidos por sequías. Los organizadores pidieron que los manifestantes llevaran ovejas, tractores y balas de heno a la plaza, pero las restricciones impidieron que animales vivos y maquinaria pesada entrara a la zona de la manifestación.</p><p>La manifestación empezó pacíficamente antes de las 10:00 horas. Por la tarde, algunos manifestantes empujaron las barreras policiales y tiraron piedras, botellas y trozos de sardineles. Los policías respondieron con gases lacrimógenos. Según la Gendarmería de Bucarest, 24 personas necesitaron atención médica esa noche, incluidos 10 policías, cuatro de los cuales fueron hospitalizados, y llevaron a 47 personas a estaciones policiales. El presidente Nicușor Dan y el primer ministro interino, Ilie Bolojan, condenaron la violencia. Asociaciones de ganaderos dijeron que en la multitud había personas que no son granjeros, y el prefecto de Bucarest dijo que los “ganaderos ovinos no se organizan así”.</p><p>Esto es lo que pasó en la calle. Lo que pasó en línea, a la vez y antes, es el tema de un nuevo informe de Funky Citizens, organización cívica de Bucarest en la que investigamos sobre manipulación digital y desinformación. Con otros colegas, analizamos 1186 publicaciones de Facebook y cien videos de TikTok publicados en rumano entre el 14 y 15 de septiembre, que rastrean qué narrativas circulaban sobre la protesta, las frases idénticas o casi idénticas que había entre las páginas con segundos de diferencia, y qué idioma acompañaba a los llamados a la movilización.</p><p>El hallazgo más claro no se refiere a la violencia. Se refiere a la noche anterior. Entre las 19:00 y las 19:15 horas del 14 de septiembre, docenas de páginas de Facebook reprodujeron, casi palabra por palabra, un mensaje que decía que “se esperaba que casi 200,000 granjeros” fueran a la plaza Victoria un día después. Al día siguiente, según informes de prensa, más de 3000 personas concurrieron. Con una ventana de 300 segundos para marcar frases idénticas o casi idénticas publicadas en diferentes páginas, trazamos la red de coordinación resultante. Cerca del 90% de los 2253 pares de cuentas en la red final, que se formó en dos días completos, ya estaba formada al cabo de esos 15 minutos la noche antes de que empezara la protesta.</p><p>Distribución de publicaciones y atención pública. Gráfico de Funky Citizens, usado con autorización.</p><p>A las 15:30 horas del 15 de septiembre, la red abarcaba 160 cuentas y 12 textos que se multiplicaron por la red. La estructura estaba muy concentrada: dos grupos de 50 cuentas cada una, construidas alrededor de dos versiones casi idénticas del mensaje de “200,000 granjeros”, que equivalían a cien de las 160 cuentas, y cerca del 90% de todas las conexiones. Los nodos más visibles que pudimos identificar por nombre, páginas como Case de Vis, femina.ro y ROL.ro, son páginas que agregan y difunden contenido, no abiertamente político. Republicar textos idénticos en segundos es, por definición, una distribución coordinada en sentido técnico. Por sí mismo, eso no establece quién organizó todo ni por qué; nuestro juego de datos no permite conclusiones sobre intención.</p><p>Alrededor de esta coordinación, había cuatro hilos narrativos. Uno se refería a los pedidos económicos concretos de los granjeros: detener las matanzas, retomar las exportaciones y fijar precios justos. El segundo abarcaba el recrudecimiento con la Policía, dividido entre cuentas que culpaban a los manifestantes por forzar las líneas policiales y las cuentas que culpaban a la Policía, junto con una afirmación recurrente de que en la multitud había “provocadores» plantados. Un tercer hijo politizaba la protesta directamente, generado en torno a los llamados a la calma del líder de la Alianza para la Unión de los Rumanos, George Simion, y que la Gendarmería mostrara control, y en torno a disputas sobre si su intervención ayudaba o perjudicaba a la causa de los granjeros. Un cuarto hilo, más desconectado de los acontecimientos del día, abarcaba problemas estructurales en la agricultura rumana, desde demoras en el financiamiento de la Unión Europea para maquinaria a un cambio a siembra directa.</p><p>Red cronológica de diseminación 3D. Gráfico de Funky Citizens, usado con autorización.</p><p>Referencias a la Unión Europea se dividieron en dos registros. Sesenta y siete publicaciones mencionaron a Bruselas o la Unión Europea en relación con la protesta. Algunos describieron negociaciones concretas sobre la prohibición a la exportación con la Comisión Europea; otros presentan a la Unión Europea como un adversario, con formulaciones como “el objetivo de Europa es dejarnos sin animales, sin ganadería, sin agricultura en Rumania”, o afirmaciones de que la “Unión Europea quiere matar de hambre a Rumania”.</p><p>Rastreamos dos canales de Telegram que antes habíamos documentado el Instituto Nacional Elie Wiesel y el grupo de expertos de seguridad de GLOBSEC, como parte de redes de propaganda a favor del Kremlin activas en Rumania y Moldavia. Su planteamiento de la protesta cambió al cabo de horas. A las 11:56 horas, un canal describió la manifestación, enumeró las demandas de los granjeros. A las 14:06 horas, un segundo canal había pasado de advertir a los “usurpadores” que usarían la protesta para montar “provocaciones, luego aumentar y luego un estado de emergencia”. A las 16:03 horas, después de los enfrentamientos, el mismo canal cambió a atacar a cómo las televisoras informaban sobre la confrontación. Un cambio similar, de reclamos a provocación y aumento a desconfianza de los medios, se repitió en publicaciones que usaban lenguaje explícito de movilización, incluidos llamados a “ocupar Bucarest” y afirmaciones de que la “REVOLUCIÓN ha comenzado”.</p><p>En TikTok, donde analizamos cien videos de 34 cuentas con la etiqueta #protest [protesta], apareció la misma división. Treinta y un videos mencionaron directamente a la Gendarmería en su descripción, y solo el video más difundido, que anunciaba nuevos enfrentamientos y docenas de arrestos, tuvo cerca de 30,000 interacciones.</p><p>Nada de esto nos dice quién organizó la protesta, o quién se benefició por inflar las expectativas sobre la protesta. Lo que muestran los datos es un patrón conocido en toda Rumania y en la región: un verdadero reclamo económico, amplificado al cabo de horas de densos grupos de cuentas que reproducían textos idénticos, e incorporó narrativas preexistentes sobre elecciones robadas, gobiernos ilegítimos y un “sistema” que debe ser confrontado.</p><p>Distinguir la protesta de los granjeros de su amplificación en línea, y la amplificación de toda instrumentalización política deliberada, no es una nota al pie de una historia para entender qué pasó en la plaza Victoria. Es la historia.</p>",
@@ -1779,7 +1884,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-240",
+      "id": "dw-243",
       "title": "Coalición saudí afirma que derribó tres misiles lanzados por los hutíes de Yemen",
       "summary": "Arabia Saudita activó una alerta temprana por \"una amenaza hostil\" en la gobernación de Al-Kharj y la Provincia Oriental.",
       "content": "",
@@ -1839,7 +1944,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-243",
+      "id": "globalvoices-246",
       "title": "Médiums queer del culto a María Lionza redefinen binariedad de género en la montaña sagrada de Venezuela",
       "summary": "Una mirada etnográfica al culto a María Lionza en Venezuela, se analiza cómo los médiums LGBTQ+ desafían los roles de género tradicionales y enfrentan la discriminación al canalizar diversas entidades espirituales.",
       "content": "<p>Diversidad de género, resistencia y travestismo ritual en el culto sagrado de Venezuela</p><p>Originalmente publicado en Global Voices en Español</p><p>Retrato de Wander Rodríguez, parte de la comunidad de María Dolores Rodríguez Caravan y sus potencias, y la comunidad LGBTIQ+. Sorte (Yaracuy, Venezuela), 12 de octubre. Freisy González Portales. Usada con autorización.</p><p>En Venezuela, el espiritismo como religión es parte de la imaginación colectiva, de la identidad; creencias populares y prácticas rituales que llevan de vuelta a los ancestros de tiempos coloniales. Con los años, el espiritismo ha evolucionado hasta convertirse en un culto nacional vibrante y contemporáneo centrado en la figura de María Lionza como la principal protectora de las aguas y las amuletos de la naturaleza, figura que enfrenta las nociones del estado patriarcal y se opone a las religiones monoteístas.</p><p>Este sistema religioso ha sido estudiado en profundidad por antropólogos en Venezuela (Daisy Barreto, Angelina Pollak-Eltz, Michelle Asencio, Francisco Ferrándiz, Cesar Escalona, entre otros), sobre lo que leí y encontré interesante en su momento, pero que luego vi por primera vez en sus sitios más importantes, como Quibayo y Sorte, en el estado de Yaracuy, Venezuela.</p><p>Altar a María Lionza en Quibayo (Yaracuy, Venezuela), 11 de octubre. Freisy González Portales. Usada con autorización.</p><p>Estos sitios son parte del monumento nacional Cerro María Lionza, popularmente conocido como la Montaña de Sorte, y representan las expresiones más destacadas de este culto a nivel nacional, así que recibe visitas todo el año de practicantes o “caravanas” (como se suele llamar a estos grupos).</p><p>Pero pocos días son tan importantes como el 11 y 12 de octubre, cuando miles van a celebrar el Día de la Resistencia Indígena en Venezuela.</p><p>Estas fechas ofrecen una oportunidad de observación etnográfica y cultural, específicamente en cómo se recuperan las historias orales y nuestros orígenes étnicos, incluidos los de los pueblos indígenas, que incluyen guerreros que lucharon contra la colonización española, y las poblaciones africanas —pueblos esclavizados y cimarrones— como podemos entender a través de la figura de los Tres Potencias: reina María Lionza como la figura central del culto, la líder, acompañada del indio Guaicaipuro y el negro Felipe.</p><p>Altar a la reina María Lionza en Quibayo (Yaracuy, Venezuela), 11 de octubre. Freisy González Portales. Usada con autorización.</p><p>Para esta celebración, las familias se reúnen alrededor de los árboles y a lo largo de las orillas del río Yaracuy, que recorre toda la montaña, y arman lujosos altares de las diversas deidades del espiritualismo venezolano, que encarna los rituales sagrados característicos del culto marialioncero.</p><p>La figura de María Lionza es profunda, y creo que es arriesgado simplificarla, pues se le considera reina, diosa, madre y guardiana, pero también hay aspectos vinculados a su sensualidad, como lo evidencian sus representaciones iconográficas que han surgido, desnudas o vestidas, por ejemplo.</p><p>En este aspecto, recurrí a los escritos de Francisco Ferrándiz y César Escalona desde la perspectiva de la antropología venezolana, los combiné con mis observaciones y entrevistas de campo, para abordar problemas relacionados con el género y la diversidad sexual que son esenciales al fascinante debate dentro del culto en sus diversas cortes, como la corte negra, la corte vikinga, la corte malandra, la corte chamarrera, la corte médica, entre otras, además de entidades.</p><p>Detalle de flores y botellas del baile del vidrio en Sorte (Yaracuy, Venezuela),12 de octubre. Freisy González Portales. Usada con autorización.</p><p>La montaña Sorte es un entorno en el que se cuestionan los estereotipos de género, y creo que socavan las perspectivas androcéntricas y rígidas nociones de masculinidad y femineidad que se encuentran en el cristianismo, pues las entidades suponen un desafío por el amplio espectro en términos de fortaleza, altura, voz, vestimenta y otros detalles de los médiums que los encarnan, y también las características particulares de cada espíritu.</p><p>Fuerzas entre orillas y la entidad de la corte vikinga. Baile del vidrio en Sorte (Yaracuy, Venezuela), 12 de octubre. Freisy González Portales. Usada con autorización.</p><p>En sus etnografías y escritos, Ferrandíz ofrece interesantes reflexiones sobre el cuerpo y la masculinidad en esta religión, y cómo los hombres médiums (desde una posición de masculinidad estigmatizada) resistían la posesión de espíritus de mujeres, algo que ocurría con tanta frecuencia entre espiritualistas mujeres.</p><p>Por eso, mi encuentro en Sorte con la caravana de María Dolores Rodríguez y sus Potencias —encabezada por Osmer Padrón y sus ahijados— también me permitió explorar esos aspectos.</p><p>Osmer Padrón encarna el espíritu de María Dolores. Sorte (Yaracuy, Venezuela), 12 de octubre. Freisy González Portales. Usada con autorización.</p><p>Osmer Padrón, Wander Rodríguez y Jhonaiker Díaz son hombres médiums que pertenecen a la comunidad LGBTQ+, y son parte de esta caravana que canaliza entidades femeninas de la corte negra, como María Dolores Rodríguez, Francisca Martínez, Rita Encarnación y La Negra Tomasa. Pero en el caso de Osmer, también canaliza a Mister Píter, entidad masculina de la corte vikinga, guerrero y curandero.</p><p>Wander me dice que en la comunidad espiritualista LGBTQ+, “hay mucha discriminación, dentro y fuera de la montaña [de Sorte], pero la reina María Lionza es amor y cariño, y como muchos seres espirituales han dicho, estima grandemente a todos. Estamos acá antes que nada para cumplir un mandato de la Dios y nuestra Majestad María Lionza. Nada más importa”.</p><p>Retratos de Jhonaiker Díaz (que trabaja con el espíritu de la Negra Tomasa) y José Rojas. Son parte de la comunidad LGBTIQ+. Sorte (Yaracuy, Venezuela), 12 de octubre . Freisy González Portales. Usada con autorización.</p><p>Con respecto a la práctica de canalizar entidades femeninas de la corte negra, Rodríguez me cuenta:</p><p>Most of us spiritualists in the LGBTQ+ community dress up in dresses — or find ourselves transported into that state — not because we want to… Right now, there’s a lot of talk from people saying that men who want to be women channel Black Court entities just to wear dresses, but that’s not the case. When a spiritual entity is a woman or was a woman, she always seeks to be fully covered, to cover her breasts, and why? Because she feels exposed; she feels alive. There are many spiritual entities, such as the Negra I work with — who is Rita Encarnación Martínez Chávez — as well as María Dolores Rodríguez Rodríguez, Francisca Martínez Martínez, and Negra Tomasa, who have their dresses made for them. It’s not because we want to wear dresses; if they were our own bodies, we’d walk around shirtless, but no, they always… Spirituality always seeks to feel alive; that’s why they put on their dress, their turban, and some even seek out a flower.</p><p>Muchos de los espiritualistas en la comunidad LGBTQ+ usamos vestidos —o nos encontrarnos transportados en ese estado— no porque queramos… Ahora, muchos dicen que los hombres que quieren ser mujeres que canalizan entidades de la corte negra solo para usar vestido, pero ese no es el caso. Cuando una entidad espiritual es una mujer o fue una mujer, siempre busca estar totalmente cubierta, cubrir su pecho, ¿y por qué? Porque se siente expuesta, se siente viva. Hay muchas entidades espirituales, como la Negra con la que trabajo —que es Rita Encarnación Martínez Chávez— y también María Dolores Rodríguez Rodríguez, Francisca Martínez Martínez y la Negra Tomasa, que tienen vestidos hechos a la medida. No es porque queramos usar vestidos; si fueran nuestros cuerpos iríamos sin camisa, pero no, siempre… la espiritualidad siempre busca sentirse viva. Es por eso que se ponen sus vestido, sus turbantes y algunos hasta buscan una flor.</p><p>Vestios para entidades femeninas de la corte negra: Francisca Martínez, Francisca Palacios, María Dolores Rodríguez, Negra Tomasa y Rita Encarnación. Sorte (Yaracuy, Venezuela), 12 de octubre. Freisy González Portales. Usada con autorización.</p><p>Hay detalles curiosos con respecto a los que las entidades piden a sus “orillas” —personas que también atienden a formas físicas de las entidades— como tabaco y aguardiente; pero en el caso de las mujeres negras: justo cuando piden sus vestidos, también piden maquillaje y hacen gestos como si se miraran en un espejo.</p><p>Wander me dice que, en el caso de Rita Encarnación, “su flor favorita es la cayena, pues es la flor con la que aprendió a hacer su magia, y califica a “otras flores como hipócritas, pues esas otras flores siguen vivas muchos días después de que las arrancan de las naturaleza, mientras la cayena se marchita inmediatamente después de que la arrancan de la naturaleza”.</p><p>Altar a las Tres Potencias, en Quibayo (Yaracuy, Venezuela), 11 de octubre. Freisy González Portales. Usada con autorización.</p><p>Todo esto demuestra que el espiritismo venezolano debe examinarse a través del lente del género, desde una perspectiva feminista, lo que se refleja en la dinámica de poder establecida entre hombres y mujeres, la presencia de travestismo ritual durante el trance y los rituales de posesión, y otros aspectos que enriquecen nuestra comprensión de esta importante religión venezolana.</p><p>Wander Rodríguez entra en trance para recibir el espíritu de Rita Encarnación. Sorte (Yaracuy, Venezuela), 12 de octubre. Freisy González Portales. Usada con autorización.</p>",
@@ -2379,7 +2484,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-113",
+      "id": "timeline-114",
       "title": "Declaran alerta preventiva por tormentas eléctricas y nevadas en zonas de la Región de Antofagasta",
       "summary": "El Servicio Nacional de Prevención y Respuesta ante Desastres (Senapred) declaró Alerta Temprana Preventiva por evento meteorológico para la provincia de El Loa y las comunas de Antofagasta y Taltal, debido a los pronósticos de tormentas eléctricas y nevadas en distintos sectores de la Región de Antofagasta. De acuerdo con los...",
       "content": "<p>El Servicio Nacional de Prevención y Respuesta ante Desastres (Senapred) declaró Alerta Temprana Preventiva por evento meteorológico para la provincia de El Loa y las comunas de Antofagasta y Taltal, debido a los pronósticos de tormentas eléctricas y nevadas en distintos sectores de la Región de Antofagasta.</p><p>De acuerdo con los antecedentes de la Dirección Meteorológica de Chile, se esperan probables tormentas eléctricas entre el miércoles 28 y el jueves 29 de octubre en la precordillera occidental, precordillera de El Loa, precordillera del Salar y cordillera de la región.</p><p>Además, se pronostican nevadas normales a moderadas en la cordillera entre el jueves 29 y el viernes 30 de octubre, con montos estimados de entre 5 y 15 centímetros.</p><p>La alerta se encuentra vigente desde este lunes 26 de octubre y se mantendrá hasta que las condiciones meteorológicas lo ameriten. Su declaración implica reforzar la vigilancia y el monitoreo de las zonas de mayor vulnerabilidad, además de coordinar a los organismos que integran el sistema de prevención y respuesta ante desastres.</p><p>Ante el pronóstico de precipitaciones sólidas, Senapred recomendó mantener especial atención en sectores vulnerables, cursos de agua y quebradas, debido al riesgo de desbordes y arrastre de sedimentos. También advirtió sobre posibles dificultades en el tránsito vehicular y acumulaciones de agua y barro en zonas donde se realizan trabajos en calles y caminos.</p><p>En cuanto a las tormentas eléctricas, el organismo llamó a suspender las actividades al aire libre, evitar refugiarse bajo árboles, postes o antenas y mantenerse alejados de cercas, rejas y otras estructuras metálicas. En los hogares, recomendó desconectar los aparatos eléctricos y evitar el contacto con el agua durante estos eventos.</p><p>La entrada Declaran alerta preventiva por tormentas eléctricas y nevadas en zonas de la Región de Antofagasta se publicó primero en Timeline.cl.</p>",
@@ -2419,7 +2524,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-114",
+      "id": "timeline-115",
       "title": "Prohíben funcionamiento de cuatro cocinerías en la Feria Modelo de Calama",
       "summary": "Cuatro cocinerías de la Feria Modelo de Calama quedaron con prohibición de funcionamiento tras una fiscalización de la Seremi de Salud, que detectó graves incumplimientos sanitarios y obligó al decomiso y desnaturalización de 200 kilos de alimentos. El operativo se realizó durante este mediodía y fue encabezado por el seremi de Salud,...",
       "content": "<p>Cuatro cocinerías de la Feria Modelo de Calama quedaron con prohibición de funcionamiento tras una fiscalización de la Seremi de Salud, que detectó graves incumplimientos sanitarios y obligó al decomiso y desnaturalización de 200 kilos de alimentos.</p><p>El operativo se realizó durante este mediodía y fue encabezado por el seremi de Salud, Rodrigo Medina, junto a fiscalizadores de la Oficina Provincial de El Loa. Durante la inspección, se constató la presencia de productos sin rotulación ni trazabilidad, además de alimentos vencidos y prácticas inadecuadas para su conservación.</p><p>Entre las principales irregularidades, la autoridad sanitaria detectó riesgos de contaminación cruzada, descongelación de carnes fuera de las condiciones establecidas y almacenamiento conjunto de pescados, mariscos y otros tipos de carnes al interior de congeladores.</p><p>Debido a estas condiciones, los fiscalizadores decomisaron y desnaturalizaron los alimentos y preparaciones que representaban un riesgo para la salud de las personas, alcanzando un total de 200 kilos.</p><p>El seremi Rodrigo Medina también advirtió importantes falencias en las condiciones de limpieza e higiene de los locales fiscalizados, entre ellas una considerable acumulación de grasa en las campanas extractoras.</p><p>La autoridad señaló que este tipo de operativos continuará desarrollándose con el objetivo de resguardar la salud de la población y verificar que los establecimientos de expendio de alimentos cumplan con la normativa sanitaria vigente.</p><p>Las cuatro cocinerías deberán mantener la prohibición de funcionamiento hasta que sus propietarios subsanen las deficiencias detectadas y acrediten el cumplimiento de las exigencias sanitarias.</p><p>La entrada Prohíben funcionamiento de cuatro cocinerías en la Feria Modelo de Calama se publicó primero en Timeline.cl.</p>",
@@ -2439,7 +2544,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "timeline-115",
+      "id": "timeline-116",
       "title": "Personas mayores de Sierra Gorda se suman por primera vez a viajes turísticos de Sernatur",
       "summary": "Un nuevo hito para el turismo regional se concretó el pasado fin de semana con la incorporación de beneficiarios de la comuna de Sierra Gorda a un viaje del programa Vacaciones Tercera Edad de Sernatur, que en su modalidad Escapadas tuvo como destino a Taltal. La iniciativa permitió que, por primera vez, 46 personas mayores […] La...",
       "content": "<p>Un nuevo hito para el turismo regional se concretó el pasado fin de semana con la incorporación de beneficiarios de la comuna de Sierra Gorda a un viaje del programa Vacaciones Tercera Edad de Sernatur, que en su modalidad Escapadas tuvo como destino a Taltal.</p><p>La iniciativa permitió que, por primera vez, 46 personas mayores de Sierra Gorda accedieran a esta experiencia turística, gracias a una inyección adicional de recursos realizada por la municipalidad, que permitió ampliar las oportunidades de participación en el turismo de quienes pertenecen a destinos con potencial de desarrollo y, a su vez, poner en valor el acceso de las personas mayores a espacios de recreación y encuentro dentro de su propia región.</p><p>El hito se enmarca en los objetivos del programa Vacaciones Tercera Edad, creado para facilitar el acceso al turismo mediante paquetes subsidiados y, al mismo tiempo, fortalecer la actividad turística en destinos emergentes, apoyar a los operadores regionales y contribuir a la descentralización del desarrollo turístico.</p><p>Ronie Navarrete Tapia, director regional de turismo expresó: “Nos llena de orgullo concretar, por primera vez en la historia del programa Vacaciones Tercera Edad, modalidad Escapadas, un viaje con origen en Sierra Gorda. Este hito refleja el éxito del trabajo conjunto con el municipio para descentralizar el turismo regional. Al integrar a comunas tradicionalmente alejadas de estos circuitos, no solo impulsamos la economía local de Taltal, sino que garantizamos el acceso a la recreación, la dignidad y el descanso que nuestras personas mayores merecen.</p><p>Para la temporada 2025-2026, la iniciativa regional contempla beneficiar a 580 personas mayores de la Región de Antofagasta, mediante viajes a Taltal. Para ello, considera una inversión total de $95.983.542, de los cuales $47,3 millones fueron ejecutados durante 2025 y cerca de $48,7 millones están contemplados para 2026.</p><p>Además, el programa registra una inyección presupuestaria de $20.120.780, correspondiente a 113 subsidios adicionales, recursos que permiten ampliar la cobertura de los viajes programados para la temporada.</p><p>La incorporación de Sierra Gorda representa un avance en el propósito de acercar las oportunidades turísticas a más comunidades de la región, al tiempo que impulsa el movimiento de visitantes hacia Taltal y contribuye a la actividad de los servicios turísticos locales.</p><p>Por su parte, la alcaldesa Adriana Rivera Vega señaló: “Queremos que nuestras personas mayores sean protagonistas de una comuna que promueve el bienestar, la participación activa y el acceso a nuevas experiencias. Este viaje a Taltal, desarrollado en alianza con Sernatur y con el acompañamiento de nuestros equipos de la Dirección de Desarrollo Comunitario, es parte de ese compromiso, generar espacios de encuentro, recreación y conexión con nuestro patrimonio regional. Porque en Sierra Gorda entendemos que envejecer con dignidad también significa tener oportunidades para disfrutar, descubrir y seguir construyendo recuerdos. Ese es el sentido de una gestión que pone a las personas en el centro de sus acciones”.</p><p>De esta manera, Vacaciones Tercera Edad reafirma el valor del turismo como una herramienta de inclusión y desarrollo territorial, promoviendo que las personas mayores puedan conocer destinos de su propia región y participar de experiencias que favorecen la recreación y la integración social.</p><p>Con este hito, Sernatur Antofagasta refuerza su compromiso con la promoción del turismo interno, la descentralización de las oportunidades de viaje y el bienestar de las personas mayores, contribuyendo al mismo tiempo al desarrollo de los destinos y de los servicios turísticos regionales.</p><p>La entrada Personas mayores de Sierra Gorda se suman por primera vez a viajes turísticos de Sernatur se publicó primero en Timeline.cl.</p>",
@@ -2599,7 +2704,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-43",
+      "id": "elmostrador-44",
       "title": "Chile posterga adhesión a coalición anticárteles de Trump: hay reparos de Defensa a enfoque militar",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Chile posterga adhesión a coalición anticárteles de Trump: hay reparos de Defensa a enfoque militar El Mostrador</p>",
@@ -2619,7 +2724,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-116",
+      "id": "timeline-117",
       "title": "Región de Antofagasta suma siete sumarios sanitarios por productos de Halloween",
       "summary": "Un total de siete sumarios ya cursó la Autoridad Sanitaria en la región de Antofagasta en el marco de las fiscalizaciones previas a Halloween. Así lo informó el seremi de Salud, Rodrigo Medina, quien hizo un llamado a los padres a comprar en el comercio establecido y fijarse en el etiquetado de cada producto. “Como […] La entrada...",
       "content": "<p>Un total de siete sumarios ya cursó la Autoridad Sanitaria en la región de Antofagasta en el marco de las fiscalizaciones previas a Halloween. Así lo informó el seremi de Salud, Rodrigo Medina, quien hizo un llamado a los padres a comprar en el comercio establecido y fijarse en el etiquetado de cada producto.</p><p>“Como todos los años nuestras Unidades de Salud Ambiental y de Alimentos, desarrollan un completo plan de fiscalización previo al festejo de Halloween con el objetivo de proteger la salud de la población en materias fundamentalmente asociadas al correcto etiquetado de las golosinas y los materiales de máscaras, disfraces y decoración alusiva”, dijo Medina.</p><p>En detalle, la autoridad detalló que los controles se enfocan en verificar las disposiciones del Reglamento de Seguridad de los Juguetes, a propósito del aumento de la oferta y la demanda de los artículos de Halloween, la mayoría destinados para el uso infantil y juvenil.</p><p>Esta normativa establece los requisitos de seguridad física, mecánica, química e inflamabilidad para todo producto destinado a menores de 14 años, incluyendo accesorios alusivos a Halloween, juguetes luminosos, varitas, armas plásticas de fantasía y máscaras.</p><p>Medina lideró una fiscalización realizada en el supermercado Jumbo Angamos, ubicado frente al Estadio Regional de Antofagasta.</p><p>“En el caso específico de este supermercado, su oferta cumplía plenamente con la norma. No obstantes eso, en otras fiscalizaciones realizadas a distribuidoras y comercializadoras de la comuna hemos detectado incumplimientos, iniciándose siete sumarios y retirando los productos que no cumplen”, dijo Medina.</p><p>En este contexto, recomendó a los padres prestar una especial atención al rotulado de los juguetes, que debe describirse y presentarse de forma tal que no induzca a error al consumidor con respecto a la naturaleza y características de los mismos.</p><p>“La información de la etiqueta debe expresarse en idioma español, sin perjuicio de presentarse en otros idiomas, y en un tamaño y letra que permitan al consumidor su lectura a simple vista”, finalizó.</p><p>La entrada Región de Antofagasta suma siete sumarios sanitarios por productos de Halloween se publicó primero en Timeline.cl.</p>",
@@ -2657,26 +2762,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "timeline-117",
-      "title": "Sacha Razmilic reordena su equipo municipal y designa nuevos directores en Antofagasta",
-      "summary": "La Municipalidad de Antofagasta concretará cambios en tres de sus direcciones a partir del 1 de noviembre, en el marco de una evaluación de la gestión municipal, ad portas de cumplirse la mitad del mandato del alcalde Sacha Razmilic. Uno de los principales movimientos será el de Gonzalo Castro, quien dejará la Dirección de Seguridad...",
-      "content": "<p>La Municipalidad de Antofagasta concretará cambios en tres de sus direcciones a partir del 1 de noviembre, en el marco de una evaluación de la gestión municipal, ad portas de cumplirse la mitad del mandato del alcalde Sacha Razmilic.</p><p>Uno de los principales movimientos será el de Gonzalo Castro, quien dejará la Dirección de Seguridad Pública para asumir como administrador municipal, en reemplazo de Rafael Castro.</p><p>A su vez, David Estay, exteniente coronel de la Prefectura de Carabineros de Antofagasta y asesor en seguridad del sector privado, asumirá la Dirección de Gestión de Riesgos y Desastres, en lugar de Cristian Burgos.</p><p>Los cambios también consideran a Edgardo Navea, actual coordinador del Departamento de Aseo Municipal, quien encabezará la Dirección de Servicios Traspasados, a cargo de las áreas de salud, educación y otros servicios incorporados a la gestión municipal. El funcionario reemplazará a Paulo Villegas.</p><p>Los tres directivos salientes presentaron sus renuncias voluntarias. Desde el municipio agradecieron su compromiso y dedicación, y les desearon éxito en los nuevos desafíos profesionales que emprendan.</p><p>Según lo informado por la administración comunal, estos nombramientos, junto con la reciente reestructuración de las direcciones operativas, buscan fortalecer la gestión municipal y mejorar los resultados para la comunidad antofagastina.</p><p>La entrada Sacha Razmilic reordena su equipo municipal y designa nuevos directores en Antofagasta se publicó primero en Timeline.cl.</p>",
-      "url": "https://www.timeline.cl/sacha-razmilic-reordena-su-equipo-municipal-y-designa-nuevos-directores-en-antofagasta/",
-      "image": "https://www.timeline.cl/wp-content/uploads/2025/06/sacha-razmilic.jpg",
-      "publishedAt": "2026-10-26T15:21:41+00:00",
-      "sourceId": "timeline",
-      "sourceName": "Timeline Antofagasta",
-      "sourceType": "Regional Independiente (Norte)",
-      "sourceSite": "https://timeline.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 79,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "elmostrador-48",
@@ -3099,7 +3184,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "resumen-77",
+      "id": "resumen-72",
       "title": "Tierras raras en Hualqui: seminario municipal incluyó a académico que asesoró a minera de Penco",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Tierras raras en Hualqui: seminario municipal incluyó a académico que asesoró a minera de Penco Resumen.cl</p>",
@@ -3179,7 +3264,27 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "resumen-78",
+      "id": "resumen-77",
+      "title": "Diputados pro Kast del Biobío rechazaron iniciativa para resguardar la soberanía chilena sobre \"minerales críticos\"",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Diputados pro Kast del Biobío rechazaron iniciativa para resguardar la soberanía chilena sobre &quot;minerales críticos&quot; Resumen.cl</p>",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObFRqeEs4YTNWMzA5MTRzVUtwekVKWjAzQ1doWHV0YmdpbHlfMm90THJlNWRteWVHMWd4Q216cGFfVXdlNkxMak1STHJwN1ZaMGpFMkkxZ09pTkNqNGtBQUkzbGh6TWNBVnNRdnNDTE5pNUI5TWx0YWZxMHl4TTI3MEVhM1hpZWo1T25CXzRYSjNFMGlDZUlLTmNHQkJkaThJQnR2ekFQeEo0WjZNR0V3TnJoWk92bkZ0ekNRRzlaZGtKY1ZXT1V6QWNHakdQcklmWVF3MVk2OElQUQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-26T08:21:56+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 79,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "resumen-73",
       "title": "Medicina UNAB en paro: \"La calidad de nuestra educación no puede separarse de la transparencia de las decisiones\"",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Medicina UNAB en paro: &quot;La calidad de nuestra educación no puede separarse de la transparencia de las decisiones&quot; Resumen.cl</p>",
@@ -3199,7 +3304,27 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-244",
+      "id": "resumen-75",
+      "title": "Reforma al INDH: retroceso e impunidad",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE50TnlXcmdxREJLX3VtNG1UbEJkMTlTV2x6V2RESy1QcllEMWgzMmNPcXRRTlo5N1NMYkFNNG80Tnp3VGFoT1BSSWRoWVNjd1UwVl9hUkJYc25XUkFjVExlTkh6b1VtXzRzaGJPb2MtbFFuVTBs?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-26T08:21:17+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 79,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "globalvoices-247",
       "title": "Policía de Hong Kong presenta plataforma de seguridad nacional impulsada por IA para escolares",
       "summary": "Esta tecnología permite crear historias personalizadas sobre el \"perspectiva integral de la seguridad nacional\" de China, marco impulsado por presidente Xi Jinping que abarca rubros desde política y economía hasta ecología y tecnología.",
       "content": "<p>Que las semillas de la seguridad nacional echen raíces y broten en los corazones de los alumnos…</p><p>Originalmente publicado en Global Voices en Español</p><p>Policía de Hong Kong presenta plataforma educativa sobre seguridad nacional impulsada con inteligencia artificial para escolares de la ciudad en ceremonia realizada el 6 de octubre de 2026. Foto: HKPF, vía Facebook. Utilizada con autorización.</p><p>Este artículo se publicó originalmente en Hong Kong Free Press el 13 de octubre de 2026. Global Voices reproduce una versión se vuelve a publicar en virtud de un acuerdo de colaboración de contenido. Este artículo también es parte de la serie Spotlight de Global Voices de octubre de 2026 “Gigantes tecnológicos y autoritarismo”. Puedes apoyar esta cobertura con una donación.</p><p>La Policía de Hong Kong presentó una plataforma de seguridad nacional impulsada por IA para escolares.</p><p>El 6 de octubre de 2026 se presentó oficialmente la plataforma interactiva de inteligencia artificial NSmarties en una ceremonia en la escuela primaria Precious Blood de Ap Lei Chau, a la que asistieron unos 700 alumnos, según informó la Policía en una publicación de Facebook:</p><p>【 NSmarties童心護港AI互動平台 • 正式啟動 】 國家安全，由童心出發！ 由警務處國家安全處主辦的「NSmarties童心護港AI互動平台」今日（6日）於海怡寶血小學正式啟動！ 警務處處長周一鳴、警務處副處長（國家安全）江學禮、寶血會總會長區綺雯修女等一眾嘉賓，聯同約700位同學一同見證這個重要時刻。 啟動禮圓滿結束，標誌着國安教育以創新科技走進校園的新里程！ 願國安種子在同學心裏生根發芽，茁壯成長！</p><p>¡La seguridad nacional comienza en el corazón de los niños! El Departamento de Seguridad Nacional de la Policía de Hong Kong organizó la ceremonia de «NSmarties: Plataforma interactiva de IA ‘Los corazones de los niños protegen Hong Kong&#x27;» hoy (6 de octubre) en la escuela primaria Sea View Precious Blood. Distinguidos invitados, como el comisario de Policía, Joe Chow Yat-ming, el subcomisario de Policía (Seguridad Nacional), Kelvin Kong Hok-lai, y la hermana Au Yee-man, presidenta de la Sociedad de la Preciosa Sangre, se unieron a unos 700 alumnos para presenciar este momento tan significativo. El éxito de la ceremonia de presentación marca un nuevo hito en la incorporación de la educación sobre seguridad nacional a las escuelas a través de la tecnología innovadora. ¡Que las semillas de la seguridad nacional echen raíces y broten en los corazones de los alumnos y crezcan con fuerza!</p><p>La plataforma, elaborada en conjunto por la Policía y la empresa Hong Kong Qianfan Technology, permite a los estudiantes crear historias personalizadas sobre la «perspectiva integral de la seguridad nacional» de China, marco impulsado por el presidente chino Xi Jinping que abarca rubros que van desde política y economía, hasta ecología y tecnología.</p><p>Además, incluye las voces de Chow y del jefe de seguridad, Chris Tang, que explican las leyes de seguridad nacional de la ciudad y difunden información sobre seguridad.</p><p>Según la Policía, la ceremonia fue un «hito» en incorporar la educación sobre seguridad nacional a los colegios de la ciudad con tecnologías innovadoras.</p><p>La plataforma NSmarties se presentó en abril, en el Día de la Educación sobre la Seguridad Nacional, pero en aquel momento no estaba a disposición del público general.</p><p>Hong Kong ha reforzado la educación sobre seguridad nacional a la par de una política de mano dura, desde que Pekín impuso la ley de seguridad nacional en 2020, tras las protestas y disturbios de 2019.</p><p>En junio de 2020, Pekín incorporó directamente una ley de seguridad nacional a la miniconstitución de Hong Kong, tras un año de protestas a favor de la democracia y disturbios. La ley tipificó como delito la subversión, la secesión, la colusión con fuerzas extranjeras y los actos terroristas, que define ampliamente para incluir la interrupción del transporte y de otras infraestructuras. Esta medida dio a la Policía nuevos y amplios poderes, y dio lugar a cientos de detenciones en medio de nuevos precedentes legales, mientras que desaparecieron decenas de grupos de la sociedad civil. Las autoridades afirman que se restauró la estabilidad y la paz en la ciudad, y rechazaron las críticas de sus socios comerciales, Naciones Unidas y ONG.</p>",
@@ -3219,7 +3344,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-201",
+      "id": "ciclismo-chile-202",
       "title": "En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania - ANBariloche",
       "summary": "En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania ANBariloche",
       "content": "<p>En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania ANBariloche</p>",
@@ -3237,26 +3362,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "cooperativa-131",
-      "title": "¿Cuándo y dónde ver a Alejandro Tabilo contra Rafael Jódar en Basilea?",
-      "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes El chileno Alejandro Tabilo (30° del ranking mundial), debutará en al ATP 500 de Basilea, Suiza, ante el español Rafael Jódar (11°) en un duelo agendado para este martes 27 de octubre . El partido se disputará en el primer turno del Court Central, desde las 10:00 horas. El duelo...",
-      "content": "<p>El chileno Alejandro Tabilo (30° del ranking mundial), debutará en al ATP 500 de Basilea, Suiza, ante el español Rafael Jódar (11°) en un duelo agendado para este martes 27 de octubre.</p><p>El partido se disputará en el primer turno del Court Central, desde las 10:00 horas. El duelo contará con transmisión a través del plan premium en la plataforma Disney+.</p><p>El historial favorece al español por 2-1: El pasado 17 de agosto, Jódar arrasó con Tabilo por 6-2 y 6-1 en el Masters 1.000 de Cincinnati. Además, ambos estuvieron en la serie de Copa Davis que España le ganó a Chile en septiembre, aunque no les tocó enfrentarse.</p><p>El vencedor enfrentará en octavos de final al monegasco Valentin Vacherot (31°) o al argentino Mariano Navone (43°).</p>",
-      "url": "https://www.cooperativa.cl/noticias/deportes/tenis/alejandro-tabilo/cuando-y-donde-ver-a-alejandro-tabilo-contra-rafael-jodar-en-basilea/2026-10-25/233619.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261025/imag/foto_0000000220261025233619.png",
-      "publishedAt": "2026-10-26T02:36:19+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 72,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "elmostrador-49",
@@ -3299,7 +3404,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-232",
+      "id": "elsalto-233",
       "title": "Los estudiantes hacen historia en Serbia y derrotan al todopoderoso Aleksandar Vučić",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Los estudiantes hacen historia en Serbia y derrotan al todopoderoso Aleksandar Vučić El Salto</p>",
@@ -3356,26 +3461,6 @@
       "category": "Investigación y Poder",
       "relevanceTier": "alta",
       "relevanceScore": 96,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "eldesconcierto-59",
-      "title": "Mancha venenosa e imagen estancada: el panorama de Milei de cara a 2027",
-      "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Mancha venenosa e imagen estancada: el panorama de Milei de cara a 2027 El Desconcierto</p>",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZUNRLWg4Rkt2eDdPVDBqUzdINlBVbkVmWHZ3NVJXak9fZDZCMzkwaDIwQjl2aUFBQ0ZFaVlic1FUZ2hQczUyd2ZEaGdNMV9TR0JtQmNVSElidElyZUhKd3VfSW1tUDhKaWNzV3pyYlAtc1AySVNUWTJXTG9xNTlBZklwZGFocmNhOHRQNDlPS1ExanRxMEFpVU0tcVhTckpYUWI1Y0FmdWh6VnFC?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-25T16:33:28+00:00",
-      "sourceId": "eldesconcierto",
-      "sourceName": "El Desconcierto",
-      "sourceType": "Periodismo Independiente",
-      "sourceSite": "https://eldesconcierto.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 84,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3497,46 +3582,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 91,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "resumen-74",
-      "title": "Villa CCU: las huellas del paternalismo industrial en Concepción",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Villa CCU: las huellas del paternalismo industrial en Concepción Resumen.cl</p>",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMUpsR1puVW90d1NXNUZ6anJ1WjJpOTRWS0dJaTZBYXZGbTJQV0VwTllNdEZKc2RJMUwtczFrNTYxLTNPMWlsWjZBai1sOThURksyUWpUNnhyUFNHZThSN2Jiby1yUDBMSFVlSl8tcFYzYjh1bU5TZ2RLUjd6aG5CZHh4R2lCTGsyVXhnN1B4SWhUakx2MDZJ?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-25T09:39:03+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 70,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "resumen-76",
-      "title": "El debate que falta: memoria, coherencia y resultados para el Magisterio",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>El debate que falta: memoria, coherencia y resultados para el Magisterio Resumen.cl</p>",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcW5OQWRkejRBaUFvZFdxWlJaTjUxaEZLbThhZy1oeVFUSkxZdmJtTllhUldHNmc0TkxkbjN1YUt3Y190QWVBY0o1cnUtVzViSmt4U3NhRExZc1dsWWRsQmxIOUlSUHpmcldBMDZvSXJIeUxJWjZtZUl0WmEzeWFFbl96X0JsX1h5N2VsY1FnZEl2d25iV0djTHVNSDdOOG5l?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-25T09:00:57+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 70,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "interferencia-15",
@@ -3779,7 +3824,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-44",
+      "id": "elmostrador-43",
       "title": "Otro exconcertacionista aterriza en el gobierno de José Antonio Kast: Ricardo Navarrete",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Otro exconcertacionista aterriza en el gobierno de José Antonio Kast: Ricardo Navarrete El Mostrador</p>",
@@ -4339,7 +4384,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-191",
+      "id": "brecha-192",
       "title": "Entre la catástrofe y la capacidad de acción",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
@@ -4359,7 +4404,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-192",
+      "id": "brecha-193",
       "title": "El futuro del pasado",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
@@ -4399,31 +4444,11 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "brecha-190",
+      "id": "brecha-191",
       "title": "¿Fantasía o realidad?",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0XzBaSmtzcnRxZ3dMbW5Gd1lGbW05ZHdRZ2NSWE0tSWlURldQcTUzb1M0SEQ1Z2tkYXM1NWhsRmxDV3BmZkItOFhlaTdQMGNad0tnZw?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-23T03:42:02+00:00",
-      "sourceId": "brecha",
-      "sourceName": "Semanario Brecha",
-      "sourceType": "Periodismo Indep. LatAm",
-      "sourceSite": "https://brecha.com.uy",
-      "region": "latam",
-      "country": "Uruguay",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "brecha-193",
-      "title": "«Los humanos han creado un mundo que no controlan por completo»",
-      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>«Los humanos han creado un mundo que no controlan por completo» Brecha</p>",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUTl3WElrME54TDBoSHcxLUxkTy00VmZlN2Y1cE1UU3FSTHA1bUpzYjFXRFMtWWpKNlJmLTRDNHpBZHpPcEpTSDhqWkVLWG96WnQwQUNlcXBVdmxadGhSblFQLThpTGRxdDV2cWhzTXNUdTFvNkNlRDJ1UXNCUW0xMDdzb2ZtWVNFQ2ZmWg?oc=5",
       "image": null,
       "publishedAt": "2026-10-23T03:42:02+00:00",
       "sourceId": "brecha",
@@ -4559,6 +4584,66 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "resumen-76",
+      "title": "Medicina UCSC en paro: \"Estamos solicitando condiciones básicas y necesarias para recibir una educación médica de calidad\"",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Medicina UCSC en paro: &quot;Estamos solicitando condiciones básicas y necesarias para recibir una educación médica de calidad&quot; Resumen.cl</p>",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQelI2enYxVnp2MXZoTlRXNW9ZYkxIeks5aUtvcDhhZ3htYzhwajliOFV0blZVT2ZvTnlfMEpaSFlwZEdKQ3k3UmxvWi1SU0t2eDExS3RwRzJQc0ppRzgwN3VtS2hOcXV0Q1JfNW5raG82Q3MxMXl3amZBQVc3QTRfLXJBSU5iS2RLUjVfRFg4MDNrY29DbEhrdlZ2aElZUDNyd0Z2b3B0MHgwb0VGZGdyRG9xNnotdHI5U3VtSnFWcnFGcnVHbXBTOVJjU3RpZEVPdVlmREV3dzgzX2VGSW1qSEFB?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-22T08:40:32+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 79,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "resumen-79",
+      "title": "Gestación subrogada: organizaciones llaman a firmar para prohibir \"la explotación reproductiva de las mujeres en todas sus formas\"",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Gestación subrogada: organizaciones llaman a firmar para prohibir &quot;la explotación reproductiva de las mujeres en todas sus formas&quot; Resumen.cl</p>",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPclVSUVQ5YnVram03M3VpTTJlWkxtUmxvLXIzR01WU2xPVDVMVGM3cm4tTGNIa0hDeHRsRVM3YU4td2hWeVhIT2Q0ZWZRdm81b0FJMGJQQ3VUVkx0UElmVlF3WW5QMzdyb1FWR1BiN1dZTlFUZVYtVEhKQktteUNvUlhwVVd4UGNRajFWWjl3aElrd3VEUEk1NVlqTUtEYmZ4M2VQc2FZNXZUYXhjWXhWU3ppNGZnYnl5UWtSZkd4TWpNaEdzYU1wSlFPSWUwZVFEMmZxa0E5Nk5HeGNNZ2Y0U0tIZ3ZudldPZVd2aw?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-22T08:10:16+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 74,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "elsalto-232",
+      "title": "El Ayuntamiento de Bilbao veta presentar un libro de Ahoztar Zelaieta sobre la deriva ultra de la Ertzaintza",
+      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>El Ayuntamiento de Bilbao veta presentar un libro de Ahoztar Zelaieta sobre la deriva ultra de la Ertzaintza El Salto</p>",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOLVhlT1ZUR1JTYjFFaXd5eGw0NDIxT1YtSHMtMWFrZEd4SFU4dXdpR29qSUdVRnZrX3cycVh1MnI1LUZJU2FMcTBySzJ2OVh0aWxqWDhuV2laUDNid2FYNEdpUVBZb2FYSmNMbVgtT1hUcVc2VUh5Tkk1b0tZQU5rUmFZVHJzM2QyTUd3aDRRa2JhSTdTWGs1RnVqYlk5MkFlekt3X0ZxWEhWUm9nZ0VlOGIzMDhPbnNYMW1DS0hEVlZWa2s?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-22T04:18:00+00:00",
+      "sourceId": "elsalto",
+      "sourceName": "El Salto Diario",
+      "sourceType": "Cooperativa Independiente",
+      "sourceSite": "https://www.elsaltodiario.com",
+      "region": "mundo",
+      "country": "España",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 64,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "fastcheck-29",
       "title": "Renuncia segunda jefa de gabinete de Iván Poduje",
       "summary": "Por razones personales, y aceptadas por el ministro Iván Poduje, la ex jefa de comunicaciones y segunda jefa de gabinete del ministro renunció al Ministerio de Vivienda y Urbanismo. Dos meses antes, Fast Check informaba la salida de la primera jefa de gabinete y el jefe de la división jurídica.",
@@ -4599,7 +4684,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "resumen-73",
+      "id": "resumen-71",
       "title": "No duermo porque estoy preocupado: Miedo a perder el trabajo, desempleo e insomnio en Chile",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>No duermo porque estoy preocupado: Miedo a perder el trabajo, desempleo e insomnio en Chile Resumen.cl</p>",
@@ -4639,7 +4724,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elsalto-233",
+      "id": "elsalto-234",
       "title": "La COP17 pone a prueba el compromiso global para frenar la pérdida de biodiversidad",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>La COP17 pone a prueba el compromiso global para frenar la pérdida de biodiversidad El Salto</p>",
@@ -4659,7 +4744,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "resumen-79",
+      "id": "resumen-74",
       "title": "Revisa tu cartola: Robo a las pensiones por apuestas de las AFP superan los $2 millones en cuentas personales",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Revisa tu cartola: Robo a las pensiones por apuestas de las AFP superan los $2 millones en cuentas personales Resumen.cl</p>",
@@ -4719,24 +4804,24 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-234",
-      "title": "El legado de Feijóo en la sanidad gallega: 91 días de espera para una cirugía y 120 ayuntamientos sin pediatra",
-      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>El legado de Feijóo en la sanidad gallega: 91 días de espera para una cirugía y 120 ayuntamientos sin pediatra El Salto</p>",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdE1RYkxsRW5MbkdxRVpBbDk0Uk51OEp1eldMTURWLWlXX2Z2TERVN1U5d3dLd3NvSXF0SlNyeE52TExnLVdqMlZUc1NkNzdEWkhzNU1JUmxka2RQMXFZelI2MlNJVXpqVnhMdUszY2VZME84aWtTN2JqMy14dDVpVHZQWGl3RFIxQ1JXY1VSSzhRSWdjNllCc0J6aDNHRXk1UGlWZDdjSkdUZFNFTjk5X3IwSlE0NzJs?oc=5",
+      "id": "resumen-78",
+      "title": "Tierras raras: minera NeoRe ingresó nueva oleada de concesiones mineras en Maule, Biobío y La Araucanía",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Tierras raras: minera NeoRe ingresó nueva oleada de concesiones mineras en Maule, Biobío y La Araucanía Resumen.cl</p>",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTWtQWk5xcjNqQmNqMWNMbDBab1dVYmZpTTdiTWtWMGlDQlNKallnaXJfUlFhSnZCUHVsb3VsVjlaY2IzWnFLVUlmX0RVclNabW1NSERfckU0M3RYcHdXaHctNzMxYmJHLXItTGluTWZoMHdvSkoxY0t6TEM0NERRdHpzXzY2QnZCamRzVVJmeGlRR3FvZk41SHlBbVZLa2l0Rmc0V1FsdVpIZTJtNE1SWURZUmt3a2czNDNqeFFPMDJkMGM5TDVydUF3?oc=5",
       "image": null,
-      "publishedAt": "2026-10-20T14:39:00+00:00",
-      "sourceId": "elsalto",
-      "sourceName": "El Salto Diario",
-      "sourceType": "Cooperativa Independiente",
-      "sourceSite": "https://www.elsaltodiario.com",
-      "region": "mundo",
-      "country": "España",
+      "publishedAt": "2026-10-20T08:34:22+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 68,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "relevanceScore": 74,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "anfibia-147",
@@ -4779,26 +4864,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "resumen-75",
-      "title": "El Estallido se expande: 19 de octubre en Concepción",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>El Estallido se expande: 19 de octubre en Concepción Resumen.cl</p>",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORDdoUW0ybld4dVRUckEzeTlqbTFmcnpVLVJxZkZ6Qkc4SUlVNEd0UEpXdWdwbFlIWm1wWFo2YmZsUW04SnFqTG04aWw4SUxXWXFjWmZPaVpjTERXYkM1WENJQkdVMEhSX1E5X2xTYlVpZmMyYkdoWExKUlYwVkd2S1V4eDZiMFFhN0E?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-19T08:08:02+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 70,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "resumen-70",
       "title": "Agricultores, campesinos, huerteras y miembros de comunidades mapuche interponen recurso de protección para invalidar resolución del SAG y proteger travkintu",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4819,23 +4884,23 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "resumen-71",
-      "title": "A 7 años del Estallido Social: ¿Nunca más qué?",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "id": "brecha-190",
+      "title": "En busca del bajo perdido",
+      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE54aE8zRUdZRWYtMkVzX0c2Rl8tRmo2bkdZZVE5R3FjQTJFd3J1VjJYaVVpa05rSkU4REtyX2NhcjdXbmRJb2tNX1c3czNfN01xbnlBZHRSbFU0TF9ZdGNDVFZ2c2tqaVNveE5IUDBQQ2UzZTY3cHlKUTEzSnQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ocV9uQkJpb04tZ2VjQ0lfN0VfaVlDbFVMbWN0NDRCMjFfMG52WEQybS1Ha3JxdDFsUWw3NDJVUmRHQU02VjRSNlltc0hTMExHQUFNYnNidDI2cWgt?oc=5",
       "image": null,
-      "publishedAt": "2026-10-18T02:42:27+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "country": "Chile",
+      "publishedAt": "2026-10-16T07:00:00+00:00",
+      "sourceId": "brecha",
+      "sourceName": "Semanario Brecha",
+      "sourceType": "Periodismo Indep. LatAm",
+      "sourceSite": "https://brecha.com.uy",
+      "region": "latam",
+      "country": "Uruguay",
       "independent": true,
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 74,
+      "relevanceScore": 82,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
@@ -4877,26 +4942,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 91,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "resumen-72",
-      "title": "Miseria a trabajadores y jubilados: Fondos previsionales sufren millonarias pérdidas",
-      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Miseria a trabajadores y jubilados: Fondos previsionales sufren millonarias pérdidas Resumen.cl</p>",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2wzMklXS24xQnZNRWFDNmhQU1pPTmJVejIzb2RHY3lZc1hHTzRFUmF5RnVOZVJjaEJQR1ZDMjBoSVFqTGdzMkxrVVlYclFBbHQ4QlJzUy1hbzF1MklfRU9VdWxjbVVsUThESS1PWGF6UGZRUFFGUmF5MGc1MmIyeUhHNGJnbE11RklqS216TFQwTWdsTTZaV21MZ3JtNVJMTmxlRnBoTHJNYVZfWVNGMTFB?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-15T07:00:00+00:00",
-      "sourceId": "resumen",
-      "sourceName": "Resumen.cl (Biobío)",
-      "sourceType": "Prensa Independiente Regional",
-      "sourceSite": "https://resumen.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 74,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "vergara240-97",
@@ -4979,7 +5024,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "ciclismo-chile-204",
+      "id": "ciclismo-chile-201",
       "title": "Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina - 24horas",
       "summary": "Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina 24horas",
       "content": "<p>Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina 24horas</p>",
@@ -5039,7 +5084,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-203",
+      "id": "ciclismo-chile-204",
       "title": "Final de infarto: chilena vence a Argentina con “fotofinish” en ciclismo pista - TVN",
       "summary": "Final de infarto: chilena vence a Argentina con “fotofinish” en ciclismo pista TVN",
       "content": "<p>Final de infarto: chilena vence a Argentina con “fotofinish” en ciclismo pista TVN</p>",
@@ -5059,7 +5104,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "ciclismo-chile-202",
+      "id": "ciclismo-chile-203",
       "title": "Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur - Teletrece",
       "summary": "Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur Teletrece",
       "content": "<p>Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur Teletrece</p>",
@@ -5219,6 +5264,26 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
+      "id": "laderasur-67",
+      "title": "Bajo el hielo: minería, glaciares y las grietas de la transición verde en la cordillera de Santiago",
+      "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Bajo el hielo: minería, glaciares y las grietas de la transición verde en la cordillera de Santiago Ladera Sur</p>",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd0xNSW13bFlNdFgyaVhPU0hJT2VzajVabmFYZktDWjlNcVBrMkxiTlJneVVsT1ZZbk9jaFJrd1JmRm9saExTTXNMbUVvVHVzYTYzT3RPbHp6dFJKMG5vbWtzUVlMYXhMU3NwN1NUdWF2ZktyR1pDVVg5dmdzLXhBclpjelg3SnM5c0FWREU5aFJjNHVleEV0U3k4YzNrSXRJX2dwMTBndGdTa25FNm9mQkh4S2hJWkNLSUlvZUFxNU1uMnVTTmhnTQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-07-23T10:14:44+00:00",
+      "sourceId": "laderasur",
+      "sourceName": "Ladera Sur",
+      "sourceType": "Naturaleza y Ciencia Indep.",
+      "sourceSite": "https://laderasur.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Medioambiente y Territorio",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
       "id": "sinpermiso-235",
       "title": "5-7-2026",
       "summary": "Cumbre de Ankara de la OTAN: a la sombra del “cambio de régimen global” trumpista Gustavo Buster 1936: el año de la revolución Miguel Salas Bancos + Turismo = Colapso del acceso a la vivienda en España Albino Prada Discurso de Zohran Mamdani en el 250 aniversario de los Estados Unidos Zohran Mamdani Historia e inventario Julio César...",
@@ -5279,7 +5344,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "laderasur-63",
+      "id": "laderasur-66",
       "title": "Polera SW 2026",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
@@ -5296,26 +5361,6 @@
       "category": "Medioambiente y Territorio",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 80,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "laderasur-67",
-      "title": "Libro \"La Naturaleza Primero\": 10 años de Ladera Sur",
-      "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Libro &quot;La Naturaleza Primero&quot;: 10 años de Ladera Sur Ladera Sur</p>",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTVE2RW1aOEs3dkZheTNCR0IwXzJLQWJjaXU2bkxRc1hNVm1PN29xOWRLWTJMN2hnX3NYdXY5bWdqRTh4OUJlQ0FTcDdzVHlpaFJxMXVJV2tlOVdQNl94OUpPeHJxcDdSYzQ4MG9oS01yN3VGbnAzdDZQYW1tRERLbG5LeklmcURWLTZCZ3EzUQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-06-04T23:25:30+00:00",
-      "sourceId": "laderasur",
-      "sourceName": "Ladera Sur",
-      "sourceType": "Naturaleza y Ciencia Indep.",
-      "sourceSite": "https://laderasur.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Medioambiente y Territorio",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
@@ -5639,13 +5684,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "laderasur-65",
-      "title": "¿A dónde se fueron las estrellas? La fotografía nocturna como herramienta de conservación",
+      "id": "laderasur-69",
+      "title": "¿Sabías que en Chile existen siete especies de serpientes? Conoce a estas incomprendidas criaturas, de gran importancia ecológica",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>¿A dónde se fueron las estrellas? La fotografía nocturna como herramienta de conservación Ladera Sur</p>",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcGxmX2lYZnU3X0xUOXd1ZElZSm9YTmFoNVA2dXpIV19TRk51bFRoUHpmSkxKYjhOejdzSE4xWnY0UUhWSnA5VHRydmgxbUJvcEpqbVZ4N2ZRWktyYUZibHhUeW1zaFdpZVZmSUxBaGJvcmZ0SU80dHJPNnkzLVh0cEI2eFctMVBkUkUzUDN0M0tlR2tiQ2lmWkZpVTFjRVk3QUJDV2VOeDRUcGdZYTZZeUJUd0s0N1JDelR3YzBR?oc=5",
+      "content": "<p>¿Sabías que en Chile existen siete especies de serpientes? Conoce a estas incomprendidas criaturas, de gran importancia ecológica Ladera Sur</p>",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVnJtaTczTkdveTAxNTAtLU80cS1RMzl3MGtVdXRNMGc5VXNSdm04blVUSHZNNGxVcnNJLW5VamtpV1FmMGk0SENhaG9qV3FPMVlkaUNpQ2pBeU5EUWFIZm1ueEhLM0xpRWptUkFvdktUNm9IT19VR0pMZnV2Y1prb2ZHcF9BSlk4d0hsZG8tN1FwcExyakZWUDhSeVMxelk2M3lIdXlmekw1MkpTWGkzT0x0ZEpmcWFjZVpLTDA1VldJQ2Jyamk5RUtKSEhQczRfeGo2Y3lJU2JpUG1iMFNXVHpEcFpvcmxtdW1CMC1qVQ?oc=5",
       "image": null,
-      "publishedAt": "2024-07-15T07:00:00+00:00",
+      "publishedAt": "2025-01-18T08:00:00+00:00",
       "sourceId": "laderasur",
       "sourceName": "Ladera Sur",
       "sourceType": "Naturaleza y Ciencia Indep.",
@@ -5659,7 +5704,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-62",
+      "id": "laderasur-63",
       "title": "Descárgala en laderasur.com",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
@@ -5679,7 +5724,27 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-64",
+      "id": "laderasur-65",
+      "title": "OPINIÓN | El Parque Andino Juncal y la alta cuenca del Aconcagua en peligro Inminente",
+      "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>OPINIÓN | El Parque Andino Juncal y la alta cuenca del Aconcagua en peligro Inminente Ladera Sur</p>",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdEh1Z0FXWk1ZaFhQY2JMb0FFX1N0NGZfai1nSDBkcmlIWDJBTnNjY0hZQ2hjX0dGMVNPODZwd3FzbDlhRHp6V1VQbTVET2FtVDM0OUwxY3ZoTTF5cUFDTEV1UC0zczViN0tkWXlZblZReHFUTkJJeFBvckhCWTRZdS10cEVXNmd5MWFjdHA0OHJFdHdON0FScW9VRDB6UWtEQk1VcTJDNW1qT2M?oc=5",
+      "image": null,
+      "publishedAt": "2024-04-04T07:00:00+00:00",
+      "sourceId": "laderasur",
+      "sourceName": "Ladera Sur",
+      "sourceType": "Naturaleza y Ciencia Indep.",
+      "sourceSite": "https://laderasur.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Medioambiente y Territorio",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "laderasur-68",
       "title": "¡Descárgala aquí! Guía de campo de bolsillo para identificar las especies del desierto florido, elaborada por Ladera Sur",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>¡Descárgala aquí! Guía de campo de bolsillo para identificar las especies del desierto florido, elaborada por Ladera Sur Ladera Sur</p>",
@@ -5699,13 +5764,13 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-68",
-      "title": "Quienes Somos",
+      "id": "laderasur-62",
+      "title": "El debate que ha generado el “Gran abuelo”, el alerce que sería el árbol más viejo del planeta",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xOWdYREdsdUREd2FjeFVtanJySnU0SGFZV0pjbC1lTExuQlZaUFZ3Tl9KVHpqZk41YmVjMGNxZklGNmNISkZRY0JWY0F2d29LVmlqVTdLMFB5ZXZ5cy1F?oc=5",
+      "content": "<p>El debate que ha generado el “Gran abuelo”, el alerce que sería el árbol más viejo del planeta Ladera Sur</p>",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVjVUNkZ4bmoxcDhLeFpVQmhKcHoxS1U2UVlHUlVSTG53R0Z0dVZZN3ZkWjhOZ3FnY3lvVUd4ME5hN2dGT2tHNEt1SncxaGcxRnQ1QjBKcEMySm43NE1uZ09YM3VaODQ4a1AtckNDd3YxUEVUdW9uTlJhdXM5a0RZYnVRZmY1NW5ZWlgweENfaWVDSHR3NU9GSWl2Mmh1NEhKckNqTXRPSmpGMVNRWDRYVGFYb1B2TTFVa0l0NWpLWkI?oc=5",
       "image": null,
-      "publishedAt": "2022-05-02T02:37:31+00:00",
+      "publishedAt": "2022-06-02T07:00:00+00:00",
       "sourceId": "laderasur",
       "sourceName": "Ladera Sur",
       "sourceType": "Naturaleza y Ciencia Indep.",
@@ -5719,33 +5784,13 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-66",
-      "title": "Libro ¿Por qué Parques Nacionales?",
+      "id": "laderasur-64",
+      "title": "Huemules enfermos por bacteria del ganado en el Parque Nacional Cerro Castillo: claman por más medidas para su protección",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1xXy1aYzBrUEZta2dZZ29hZnpwU1hPRXktZVltcjJvTEZmSWhtcUN4V2NNWW5MZm5mTFNaaEd0WnJITkc5MEt4SHRDVE02VVBCNE85dW5EM3lJMDVmTjRCUnRpQUdibEZnV3FiT2xpcXVadmhIYnkxdw?oc=5",
+      "content": "<p>Huemules enfermos por bacteria del ganado en el Parque Nacional Cerro Castillo: claman por más medidas para su protección Ladera Sur</p>",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWE9aOFBNZDJFRzhrR3R2YWtkeFF5eFVMVUpBMWN0SE9FekNsZ2ViOTNKNjJrMVdhMEdlRndBYklwc3p5d2phVktQcjF0dTF6M0dCRV9lb1hqZG9jOUctODJJeXg4TnFWZWl1bW45VDFIS0ZUa0prTGw2NUt0NXRxdzI1T2UwTFZyWklnS3c1WDgydzlMaWpJdnljR1ZNX0NlcnlzOUZQSy1mendjZTZ4T01LZm9mSzItN0kySHVrMHZiWDdTUnNjcERwUVZHSkNIU0lfcmhPRFZ4WFVzWWtzekhOd1hJOFE?oc=5",
       "image": null,
-      "publishedAt": "2022-05-02T02:37:30+00:00",
-      "sourceId": "laderasur",
-      "sourceName": "Ladera Sur",
-      "sourceType": "Naturaleza y Ciencia Indep.",
-      "sourceSite": "https://laderasur.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Medioambiente y Territorio",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "laderasur-69",
-      "title": "LaderaSur",
-      "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9rRHdLTzlwWjJpb0hEeTNvajJsWEppLTVYSDA2T01oZ2p6VXNtR2h0ODRmN3VTOGFLUTAyeVVPMHRsTHc?oc=5",
-      "image": null,
-      "publishedAt": "2022-04-26T14:46:17+00:00",
+      "publishedAt": "2020-06-18T07:00:00+00:00",
       "sourceId": "laderasur",
       "sourceName": "Ladera Sur",
       "sourceType": "Naturaleza y Ciencia Indep.",
@@ -5776,6 +5821,26 @@
       "category": "Investigación y Poder",
       "relevanceTier": "alta",
       "relevanceScore": 91,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "eldesconcierto-59",
+      "title": "El Desconcierto en YT",
+      "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9YcnBRcnJtNEhZTFFYeFBrVk5ndmhkOXpoRjZuWmRCRjJld2MtT0NFUGNpNnpxNWI2YTYtXzRWQQ?oc=5",
+      "image": null,
+      "publishedAt": "2018-12-24T23:56:32+00:00",
+      "sourceId": "eldesconcierto",
+      "sourceName": "El Desconcierto",
+      "sourceType": "Periodismo Independiente",
+      "sourceSite": "https://eldesconcierto.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 84,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
