@@ -915,28 +915,35 @@ function renderCardsInto(container, list) {
 
       return `
         <article id="article-${escapeHtml(art.id)}" class="feed-card ${hasRealImage ? "" : "feed-card-editorial"} ${state.targetArticleId === art.id ? "highlight-target-card" : ""}" data-article-id="${escapeHtml(art.id)}">
-          <!-- Card Header: Source, Time, Category Pill, Save Button -->
+          <!-- Card Header: Distribución espaciosa por filas -->
           <div class="card-header">
-            <div class="card-author">
-              <span class="card-avatar">${badgeInfo.icon}</span>
-              <div class="card-meta">
-                <span class="card-source-name">${escapeHtml(art.sourceName)}${art.country && art.country !== "Chile" ? ` (${escapeHtml(art.country)})` : ""}</span>
-                <span class="card-dot">·</span>
-                <span class="card-time">${formatRelativeTime(art.publishedAt)}</span>
+            <!-- Fila 1: Medio, País y Acción Guardar -->
+            <div class="card-header-top">
+              <div class="card-author">
+                <span class="card-avatar">${badgeInfo.icon}</span>
+                <div class="card-source-group">
+                  <span class="card-source-name">${escapeHtml(art.sourceName)}</span>
+                  ${art.country && art.country !== "Chile" ? `<span class="card-country-badge">${escapeHtml(art.country)}</span>` : ""}
+                </div>
               </div>
-            </div>
-            <div class="card-header-actions">
-              <span class="card-category-pill" data-filter-topic-name="${escapeHtml(art.category)}" title="Filtrar por temática: ${escapeHtml(art.category)}">
-                ${escapeHtml(art.category)}
-              </span>
-              ${
-                state.instagramPostIds && state.instagramPostIds.has(art.id)
-                  ? `<span class="card-instagram-badge" title="Publicado en Instagram @pulso.independiente.26">📸 En Instagram</span>`
-                  : ""
-              }
-              <button class="card-btn-icon ${isSaved ? "saved" : ""}" data-toggle-save="${escapeHtml(art.id)}" title="${isSaved ? "Guardada" : "Guardar"}">
+              <button class="card-btn-icon ${isSaved ? "saved" : ""}" data-toggle-save="${escapeHtml(art.id)}" title="${isSaved ? "Guardada" : "Guardar"}" aria-label="Guardar">
                 ${isSaved ? "🔖" : "🤍"}
               </button>
+            </div>
+
+            <!-- Fila 2: Tiempo relativo y Temática / Instagram -->
+            <div class="card-header-bottom">
+              <span class="card-time">${formatRelativeTime(art.publishedAt)}</span>
+              <div class="card-header-tags">
+                <span class="card-category-pill" data-filter-topic-name="${escapeHtml(art.category)}" title="Filtrar por temática: ${escapeHtml(art.category)}">
+                  ${escapeHtml(art.category)}
+                </span>
+                ${
+                  state.instagramPostIds && state.instagramPostIds.has(art.id)
+                    ? `<span class="card-instagram-badge" title="Publicado en Instagram @pulso.independiente.26">📸 En Instagram</span>`
+                    : ""
+                }
+              </div>
             </div>
           </div>
 
