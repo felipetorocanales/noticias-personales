@@ -272,10 +272,19 @@ body {
   border: 1px solid var(--border-subtle);
   color: var(--text-primary);
   border-radius: 999px;
-  padding: 8px 18px;
-  font-size: 0.9rem;
+  padding: 10px 18px;
+  font-size: 16px; /* Exactamente 16px para anular el auto-zoom nativo de iOS Safari */
   outline: none;
   transition: border-color 0.15s ease;
+}
+
+/* Regla global anti-zoom para iOS Safari en todos los campos de texto */
+input[type="search"],
+input[type="text"],
+input[type="url"],
+input[type="email"],
+textarea {
+  font-size: 16px;
 }
 
 .search-drawer-inner input:focus {
