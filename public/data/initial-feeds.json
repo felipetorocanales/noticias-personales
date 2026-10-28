@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-28T16:21:24.835724+00:00",
-  "totalArticles": 247,
-  "totalBlockedFarandula": 9,
+  "generatedAt": "2026-10-28T16:33:03.611044+00:00",
+  "totalArticles": 244,
+  "totalBlockedFarandula": 10,
   "blockedExamples": [
     {
       "title": "¿Nos rendimos o seguimos jugando?",
@@ -29,6 +29,11 @@
       "reason": "universidad católica"
     },
     {
+      "title": "Méndez: Lo lindo es que el título depende exclusivamente de nosotros",
+      "source": "Radio Cooperativa",
+      "reason": "colo colo"
+    },
+    {
       "title": "Felipe Méndez tras clausura de la ANFP: No beneficia a nadie",
       "source": "Radio Cooperativa",
       "reason": "anfp"
@@ -44,7 +49,7 @@
       "reason": "palestino"
     },
     {
-      "title": "Vuelta del Biobío 2026: cinco etapas y 660 kilómetros marcarán el regreso del ciclismo UCI a Chile - Universidad de Chile",
+      "title": "Movilidad urbana y convivencia vial en bicicleta - Universidad de Chile",
       "source": "Ciclismo Chile",
       "reason": "universidad de chile"
     }
@@ -671,7 +676,7 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 2
+      "blocked": 3
     },
     {
       "id": "elfaro",
@@ -897,11 +902,11 @@
       "id": "france24",
       "name": "France 24 Español",
       "region": "mundo",
-      "country": "Francia / Global",
       "type": "Medio Público Internacional",
       "independent": false,
-      "status": "ok",
-      "count": 3,
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "count": 0,
       "blocked": 0
     },
     {
@@ -1031,8 +1036,8 @@
     {
       "id": "eldiarioes-230",
       "title": "La Guardia Civil interroga al operario que dio la orden de retomar la marcha al AVE que se estrelló contra el Iryo",
-      "summary": "Los agentes acompañan a los técnicos de la Comisión de Investigación del Ministerio de Transportes encargados de elaborar el informe que se remitirá al juzgado Agentes de la especialidad de Policía Judicial de la Guardia Civil participan en las gestiones que están realizando los miembros de la Comisión de Investigación de Accidentes...",
-      "content": "<p>Los agentes acompañan a los técnicos de la Comisión de Investigación del Ministerio de Transportes encargados de elaborar el informe que se remitirá al juzgado</p><p>Agentes de la especialidad de Policía Judicial de la Guardia Civil participan en las gestiones que están realizando los miembros de la Comisión de Investigación de Accidentes Ferroviarios (CIAF) en el centro de control de Adif ubicado en la estación de Atocha, en Madrid. Esas gestiones incluyen la toma de declaración al operario que dio la orden de retomar la marcha con normalidad antes de que lo hiciera el otro convoy que le precedía, de la compañía Iryo, lo que finalmente motivó que este le embistiera, según informan a elDiario.es fuentes próximas a la investigación.</p><p>El trabajo de la CIAF y la Guardia Civil en Atocha incluye recopilar testimonios de otros operarios y recabar el material audiovisual relacionado con el siniestro. En estos casos, los agentes del instituto armado contribuyen a la labor de los técnicos de la CIAF, que son los encargados de redactar el informe que se presenta al juzgado.</p><p>El ministro de Transportes, Óscar Puente, ha calificado este mediodía como “inexplicable” la decisión de centro de control de Adif en Madrid que ha permitido reanudar la marcha del tren AVE de Renfe cuando había otro, el de Iryo, parado en la vía, que ha derivado en el accidente de este miércoles en Urda (Toledo) en el que han fallecido decenas de personas.</p><p>“Se da una orden, para que reanude la marcha, una decisión errónea”, que no se ha rectificado a tiempo, ha recalcado Puente. “La decisión corresponde al centro de control”, de Adif en Atocha, “a través de sus operarios”, que han permitido retomar la marcha del tren AVE “en unas circunstancias inexplicables, estando un tren detenido y con una señalización roja”, ha afirmado Puente en rueda de prensa.</p>",
+      "summary": "Los agentes acompañan a los técnicos de la Comisión de Investigación del Ministerio de Transportes encargados de elaborar el informe que se remitirá al juzgado Última hora del accidente de tren en Toledo Agentes de la especialidad de Policía Judicial de la Guardia Civil participan en las gestiones que están realizando los miembros de...",
+      "content": "<p>Los agentes acompañan a los técnicos de la Comisión de Investigación del Ministerio de Transportes encargados de elaborar el informe que se remitirá al juzgado</p><p>Última hora del accidente de tren en Toledo</p><p>Agentes de la especialidad de Policía Judicial de la Guardia Civil participan en las gestiones que están realizando los miembros de la Comisión de Investigación de Accidentes Ferroviarios (CIAF) en el centro de control de Adif ubicado en la estación de Atocha, en Madrid. Esas gestiones incluyen la toma de declaración al operario que dio la orden de retomar la marcha con normalidad antes de que lo hiciera el otro convoy que le precedía, de la compañía Iryo, lo que finalmente motivó que este le embistiera, según informan a elDiario.es fuentes próximas a la investigación.</p><p>El trabajo de la CIAF y la Guardia Civil en Atocha incluye recopilar testimonios de otros operarios y recabar el material audiovisual relacionado con el siniestro. En estos casos, los agentes del instituto armado contribuyen a la labor de los técnicos de la CIAF, que son los encargados de redactar el informe que se presenta al juzgado.</p><p>El ministro de Transportes, Óscar Puente, ha calificado este mediodía como “inexplicable” la decisión de centro de control de Adif en Madrid que ha permitido reanudar la marcha del tren AVE de Renfe cuando había otro, el de Iryo, parado en la vía, que ha derivado en el accidente de este miércoles en Urda (Toledo) en el que han fallecido decenas de personas.</p><p>“Se da una orden, para que reanude la marcha, una decisión errónea”, que no se ha rectificado a tiempo, ha recalcado Puente. “La decisión corresponde al centro de control”, de Adif en Atocha, “a través de sus operarios”, que han permitido retomar la marcha del tren AVE “en unas circunstancias inexplicables, estando un tren detenido y con una señalización roja”, ha afirmado Puente en rueda de prensa.</p>",
       "url": "https://www.eldiario.es/castilla-la-mancha/guardia-civil-interroga-tecnico-renfe-autorizo-retomar-circulacion-ave_1_13622429.html",
       "image": "https://static.eldiario.es/clip/6a5451f4-d12c-4a44-a6cd-4b511fa52dcf_16-9-discover-aspect-ratio_default_0.jpg",
       "publishedAt": "2026-10-28T15:47:56+00:00",
@@ -1389,26 +1394,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "france24-238",
-      "title": "España atribuye el accidente ferroviario a una decisión errónea tras un fallo en las comunicaciones",
-      "summary": "El ministro español de Transportes, Óscar Puente, afirmó este 28 de octubre que el accidente ferroviario mortal se produjo después de que un tren de alta velocidad de Renfe recibiera autorización para reanudar la marcha pese a que una señal roja indicaba que debía detenerse, debido a la presencia de otro convoy inmovilizado en las...",
-      "content": "<p>El ministro español de Transportes, Óscar Puente, afirmó este 28 de octubre que el accidente ferroviario mortal se produjo después de que un tren de alta velocidad de Renfe recibiera autorización para reanudar la marcha pese a que una señal roja indicaba que debía detenerse, debido a la presencia de otro convoy inmovilizado en las vías. Según el ministro, esa decisión contravino el protocolo de seguridad.</p>",
-      "url": "https://www.france24.com/es/video/20261028-espa%C3%B1a-atribuye-el-accidente-ferroviario-a-una-decisi%C3%B3n-err%C3%B3nea-tras-un-fallo-en-las-comunicaciones",
-      "image": "https://s.france24.com/media/display/6f31d174-d2df-11f1-87d6-efcc5769f1db/w:1024/p:16x9/ES-20261028-085600-091337-CS.jpg",
-      "publishedAt": "2026-10-28T14:56:11+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "cooperativa-129",
       "title": "Canal argentino censuró escena de las Malvinas en \"Los Simpson\"",
       "summary": "La cadena de televisión argentina Telefe causó polémica al censurar un episodio de \"Los Simpson\" donde se hace referencia a las Islas Malvinas . Se trata del capítulo \"El heredero de Burns\" , emitido originalmente en 1994 y perteneciente a la quinta temporada de la longeva serie animada creada por Matt Groening , donde el \"Sr. Burns\"...",
@@ -1426,26 +1411,6 @@
       "category": "Geopolítica y Mundo",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "france24-239",
-      "title": "Más de 60 muertos tras colisión de dos trenes de pasajeros al sur de Madrid",
-      "summary": "Dos trenes de pasajeros, con unas 544 personas a bordo, que circulaban por la misma vía en dirección Madrid-Sevilla, colisionaron este 28 de octubre a la altura de la estación de Urda (Toledo), al sur de Madrid. El accidente ha dejado al menos 64 personas muertas. Horas antes del siniestro, se habían registrado fallos en el sistema de...",
-      "content": "<p>Dos trenes de pasajeros, con unas 544 personas a bordo, que circulaban por la misma vía en dirección Madrid-Sevilla, colisionaron este 28 de octubre a la altura de la estación de Urda (Toledo), al sur de Madrid. El accidente ha dejado al menos 64 personas muertas. Horas antes del siniestro, se habían registrado fallos en el sistema de señalización, lo que obligó a detener ocho trenes en la zona. Nuestra corresponsal, Marina Colorado, amplía la información.</p>",
-      "url": "https://www.france24.com/es/video/20261028-al-menos-64-muertos-tras-colisi%C3%B3n-de-dos-trenes-de-pasajeros-al-sur-de-madrid",
-      "image": "https://s.france24.com/media/display/e7caf036-d2d8-11f1-b566-a7bbbeea0b20/w:1024/p:16x9/ES-20261028-080230-080514-CS.jpg",
-      "publishedAt": "2026-10-28T14:51:20+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1469,26 +1434,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "france24-240",
-      "title": "En vivo: Pedro Sánchez habla desde el lugar del accidente ferroviario que dejó al menos 64 muertos en España",
-      "summary": "Nota publicada por France 24 Español (Medio Público Internacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://www.france24.com/es/europa/20261028-al-menos-64-fallecidos-y-80-heridos-en-un-accidente-ferroviario-en-espa%C3%B1a",
-      "image": null,
-      "publishedAt": "2026-10-28T14:49:21+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "radiouchile-33",
       "title": "Choque de trenes en España: suben a 64 los muertos en Toledo",
       "summary": "El accidente, ocurrido en la estación de Urda, dejó además 58 personas hospitalizadas, 15 de ellas en estado muy grave, mientras el Gobierno central atribuye preliminarmente el siniestro a un error humano. La entrada Choque de trenes en España: suben a 64 los muertos en Toledo se publicó primero en Diario y Radio Universidad Chile .",
@@ -1509,7 +1454,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-241",
+      "id": "dw-238",
       "title": "\"Grave accidente de trenes\" en España: más de 60 muertos",
       "summary": "Al menos 64 personas murieron en la colisión de dos trenes de alta velocidad a unos 150 kilómetros al sur de Madrid, según el último balance de las autoridades, que advierten que el número de víctimas puede aumentar.",
       "content": "",
@@ -1969,7 +1914,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-242",
+      "id": "dw-239",
       "title": "Flávio Bolsonaro aterriza en Florida",
       "summary": "El excandidato presidencial Flávio Bolsonaro huyó de Brasil con su familia rumbo a Estados Unidos, dos días tras perder las elecciones y en medio de una investigación en su contra por presunto blanqueo de capitales.",
       "content": "",
@@ -2009,7 +1954,7 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-243",
+      "id": "dw-240",
       "title": "Tras elecciones en Israel: oposición aboga por \"alianza judeoárabe\" para desbancar a Netanyahu",
       "summary": "El bloque del primer ministro lidera, pero sin mayoría para formar Gobierno, con el 84 % de los votos escrutados.",
       "content": "",
@@ -2150,10 +2095,10 @@
     },
     {
       "id": "timeline-114",
-      "title": "Incendio afectó vivienda de dos pisos y dejó a cuatro personas damnificadas en Antofagasta",
-      "summary": "Una vivienda de dos pisos resultó afectada por un incendio registrado durante la madrugada de este miércoles 28 de octubre, en la intersección de las calles Carrizal y Fresia, en Antofagasta. La emergencia movilizó a voluntarios del Cuerpo de Bomberos de Antofagasta, quienes acudieron inicialmente con las unidades B-6, BR-8 y M-1....",
-      "content": "<p>Una vivienda de dos pisos resultó afectada por un incendio registrado durante la madrugada de este miércoles 28 de octubre, en la intersección de las calles Carrizal y Fresia, en Antofagasta.</p><p>La emergencia movilizó a voluntarios del Cuerpo de Bomberos de Antofagasta, quienes acudieron inicialmente con las unidades B-6, BR-8 y M-1. Posteriormente, se declaró la primera alarma de incendio, lo que motivó el despacho de otras dos unidades en apoyo, BX-4 y BT-3.</p><p>Cerca de las 3:07 horas, la situación fue reportada como controlada. Según la información preliminar, el siniestro dejó a cuatro personas damnificadas: dos adultos y dos menores de edad.</p><p>La entrada Incendio afectó vivienda de dos pisos y dejó a cuatro personas damnificadas en Antofagasta se publicó primero en Timeline.cl.</p>",
-      "url": "https://www.timeline.cl/incendio-afecto-vivienda-de-dos-pisos-y-dejo-a-cuatro-personas-damnificadas-en-antofagasta/",
+      "title": "Incendio afectó estructura residencial y dejó a 13 personas damnificadas en Antofagasta",
+      "summary": "Un total de 13 personas resultaron damnificadas tras un incendio que afectó durante la madrugada de este miércoles 28 de octubre a una estructura residencial de dos pisos independientes, ubicada en la intersección de las calles Carrizal y Fresia, en Antofagasta. Según los antecedentes actualizados, ambos niveles funcionaban como...",
+      "content": "<p>Un total de 13 personas resultaron damnificadas tras un incendio que afectó durante la madrugada de este miércoles 28 de octubre a una estructura residencial de dos pisos independientes, ubicada en la intersección de las calles Carrizal y Fresia, en Antofagasta.</p><p>Según los antecedentes actualizados, ambos niveles funcionaban como viviendas independientes, con accesos hacia calles distintas y numeraciones propias.</p><p>En el primer piso residían seis adultos y tres niños, mientras que en el segundo vivían dos adultos y dos niños, sumando 13 personas damnificadas.</p><p>La emergencia movilizó a voluntarios del Cuerpo de Bomberos de Antofagasta, quienes acudieron inicialmente con las unidades B-6, BR-8 y M-1. Posteriormente, se declaró la primera alarma de incendio, lo que motivó el despacho de las unidades BX-4 y BT-3 en apoyo.</p><p>Cabe destacar que cerca de las 3:07 horas, Bomberos informó que la situación se encontraba controlada.</p><p>La entrada Incendio afectó estructura residencial y dejó a 13 personas damnificadas en Antofagasta se publicó primero en Timeline.cl.</p>",
+      "url": "https://www.timeline.cl/incendio-afecto-estructura-residencial-y-dejo-a-13-personas-damnificadas-en-antofagasta/",
       "image": "https://www.timeline.cl/wp-content/uploads/2026/10/28-incendio.jpg",
       "publishedAt": "2026-10-28T12:17:05+00:00",
       "sourceId": "timeline",
@@ -2163,7 +2108,7 @@
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Economía y Sociedad",
+      "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 74,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
@@ -2389,7 +2334,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-244",
+      "id": "globalvoices-241",
       "title": "Cuando el derecho a protestar sigue vigente, pero manifestarse tiene un precio",
       "summary": "Desde la década de 1950, el sistema europeo de democracia y derechos humanos ha evolucionado gracias al fortalecimiento gradual de las garantías para la expresión política, el derecho de reunión y la disidencia.",
       "content": "<p>Los activistas climáticos son especialmente vulnerables a detenciones y persecuciones</p><p>Originalmente publicado en Global Voices en Español</p><p>Protesta por el clima en Copenhague. Imagen de Flickr (CC BY-NC-ND 2.0).</p><p>Este artículo es parte de la serie Spotlight de Global Voices de septiembre 2026, «Protesta en democracia«. Esta serie busca explorar las distintas formas de protestas, las tácticas que usan los Estados para deslegitimarlas y reprimirlas, y la compleja relación entre la protesta y la democracia. Puedes apoyar esta cobertura con una donación.</p><p>En toda Europa, los Gobiernos recurren a leyes penales contra quienes protestan por el clima y el ambiente, algo que no muestra señales de retroceder. Un estudio comparativo publicado a fines de 2025, que analizó 14 países desarrollados y países en desarrollo, concluyó que la criminalización forma parte de un patrón más amplio de represión. Los investigadores identificaron detenciones, y también nuevas leyes que restringen las protestas, uso estratégico de leyes y procedimientos legales vigentes, vigilancia, hostigamiento y deslegitimación pública de los activistas.</p><p>Las cifras muestran la magnitud de la respuesta. Un estudio sobre las protestas climáticas reveló que el 17.2% de las protestas en Reino Unido terminó con detenciones, frente a un promedio internacional del 6.3%. En Berlín, la fiscalía recibió 5681 causas relacionadas con el movimiento climático Letzte Generation (Última generación) entre enero de 2022 y octubre de 2025, aunque finalmente se archivó casi la mitad.</p><p>La tendencia continuó en 2026. En julio, un tribunal francés de apelación confirmó las condenas contra cuatro defensores ambientales por organizar la protesta prohibida de Sainte-Soline que se oponía a la construcción de grandes reservas de agua para uso agrícola. Días después, en Turquía, la activista ambiental Esra Işık fue condenada a dos años y un mes de prisión, a la espera de que se resolviera la apelación, después de pasar 42 días en prisión preventiva por participar en una protesta pacífica relacionada con la expansión de la minería de carbón en los alrededores del bosque de Akbelen. Por su parte, en Australia, detuvieron a 138 personas por impedir que un buque cargado de carbón atracara en un puerto muy concurrido.</p><p>En Australia, detuvieron a 138 personas por impedir que un buque cargado de carbón atracara en un puerto de gran actividad. Captura de pantalla de YouTube.</p><p>Sin embargo, los expertos internacionales en derechos humanos han ido en otra dirección. En octubre de 2025, Michel Forst, relator especial de Naciones Unidas sobre defensores del ambiente en el marco del Convenio de Aarhus, publicó las Directrices sobre el derecho a la protesta ambiental pacífica y la desobediencia civil. Las directrices instan a los Estados a no utilizar el aumento de los actos de desobediencia civil como pretexto para restringir el espacio cívico y a garantizar que las sanciones contra quienes protestan pacíficamente sean necesarias y proporcionales. En marzo de 2026, varios relatores especiales del Consejo de Derechos Humanos de Naciones Unidas expresaron su firme respaldo a las directrices.</p><p>En este contexto, merece especial atención lo que ocurre en el Tribunal Europeo de Derechos Humanos (TEDH) con sede en Estrasburgo.</p><p>Desde hace tiempo, el TEDH de Estrasburgo desempeña un papel importante al definir hasta dónde pueden llegar los Gobiernos europeos al restringir las protestas y la expresión política. Sus sentencias fijan parámetros de derechos humanos para los 46 países del Consejo de Europa.</p><p>Las protestas ambientales también forman parte de esta historia. En el caso Bryan y otros contra Rusia, el Tribunal concluyó que se habían vulnerado los derechos de activistas de Greenpeace, detenidos tras participar en una protesta contra las perforaciones petroleras en el Ártico. En Friedrich y otros contra Polonia, se llegó a una conclusión similar tras la detención en Gdansk de activistas que protestaban contra un cargamento de carbón. Ambos casos reflejaron el reconocimiento del Tribunal de Estrasburgo de que una protesta política puede ser incómoda, poco convencional y disruptiva y, aun así, merecer protección.</p><p>Luego llegó el caso Ludes y otros contra Francia. En 2019, activistas del movimiento climático no violento ANV-COP21 retiraron retratos oficiales del presidente Emmanuel Macron de municipalidades de toda Francia y dejaron las paredes vacías para simbolizar lo que consideraban una respuesta insuficiente del Gobierno frente al cambio climático. Los activistas describieron la acción como una «confiscación» temporal de los retratos, pero las autoridades francesas la calificaron de robo.</p><p>Ante el TEDH, los activistas argumentaron que sus condenas habían vulnerado el artículo 10 del Convenio Europeo de Derechos Humanos, que garantiza la libertad de expresión. El Tribunal reconoció que la acción había sido no violenta, transmitía un mensaje político y se refería al cambio climático, un asunto indudablemente de interés público. Aun así, en julio de 2025, por cinco votos contra dos, concluyó que no se había vulnerado el artículo 10.</p><p>La mayoría distinguió entre retirar los retratos y conservarlos. Según su razonamiento, retirarlos ya había transmitido el mensaje, por lo que negarse a devolverlos podía castigarse como robo. La mayoría consideró relativamente bajas las multas de entre 200 y 500 euros, cuya ejecución quedó en suspenso. Sin embargo, dos jueces disidentes sostuvieron que no era tan sencillo separar ambos actos: la ausencia prolongada de los retratos formaba parte, en sí misma, del mensaje político. También advirtieron que no se debía recurrir con tanta facilidad al derecho penal contra activistas políticos pacíficos.</p><p>Este caso no excluyó las protestas climáticas del ámbito de protección de la libertad de expresión. Sin embargo, el Tribunal de Estrasburgo reconoció el mensaje político de la acción, su carácter pacífico y la importancia del debate sobre el clima, y aun así dejó firme una condena penal. Por lo tanto, la pregunta no es solo si se protege la disidencia, sino qué queda de esa protección cuando la disidencia altera deliberadamente las reglas habituales.</p><p>Por eso, la creciente criminalización de la protesta importa más allá del destino de cada activista. Un Estado no necesita abolir el derecho a protestar para debilitarlo. El derecho puede seguir protegido en el papel, mientras las detenciones, los procesos penales, las sanciones económicas y los procedimientos judiciales prolongados elevan poco a poco el costo de ejercerlo. La posibilidad de enfrentar una detención o un proceso penal puede influir, por sí sola, en la decisión de otras personas de expresarse, reunirse o sumarse a la próxima protesta.</p><p>Desde la década de 1950, el sistema europeo de democracia y derechos humanos se ha desarrollado mediante el fortalecimiento gradual de las garantías para la expresión política, el derecho de reunión y la disidencia. Las amenazas a esa tradición no necesariamente se presentan como restricciones de gran alcance o nuevas leyes contra las protestas. También pueden surgir de manera más discreta, a través de cambios en la interpretación de los derechos vigentes y en la forma de ponderarlos frente al orden público, la propiedad o el derecho penal.</p>",
@@ -2409,7 +2354,7 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elmostrador-46",
+      "id": "elmostrador-47",
       "title": "No es que les falló el Estado: les falló el Presidente Kast",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>No es que les falló el Estado: les falló el Presidente Kast El Mostrador</p>",
@@ -2429,7 +2374,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-245",
+      "id": "globalvoices-242",
       "title": "Qué podría significar la minería en aguas profundas para los pescadores de Jamaica",
       "summary": "La minería en aguas profundas puede generar columnas de sedimentos, destruir hábitats y reducir la biodiversidad, con un consiguiente efecto en cadena en toda la cadena alimentaria, lo que deja a los pescadores en medio de una economía oceánica incierta.",
       "content": "<p>«Cualquier actividad que altere la salud de los océanos podría tener consecuencias a largo plazo…»</p><p>Originalmente publicado en Global Voices en Español</p><p>Toma desde abajo del agua de una embarcación con una bandera jamaicana en la arte inferior del casco. Imagen creada con elementos de Canva Pro.</p><p>Para la comunidad pesquera de Jamaica, el mar ha sido siempre la fuente principal de alimento, sustento, libertad y futuro. Es su despensa, su lugar de trabajo y su espacio cultural, pero a medida que las empresas multinacionales ponen el ojo sobre los minerales que se encuentran muy por debajo del fondo del océano, surgen las preguntas: ¿qué pasará con quienes viven de la pesca en estas aguas cuando el lecho marino mismo se convierta en un recurso a explotar?</p><p>La respuesta a esa pregunta podría ser determinante para el futuro de la actividad pesquera de Jamaica, y los efectos del cambio climático ya pesan sobre la resiliencia de las comunidades. La minería de aguas profundas genera penachos de sedimentos, destruye hábitats y reduce la biodiversidad, lo que incide en la cadena alimentaria y deja a pescadores ante una economía marina incierta.</p><p>El Centro Oceanográfico Nacional define la minería de aguas profundas como el «proceso mediante el cual se extraen recursos minerales del lecho marino, generalmente, a mas de mil metros de profundidad». Estos recursos consisten en cobalto, cobre, manganeso, níquel y otros elementos raros que se utilizan para fabricar las baterías de vehículos eléctricos, turbinas de aire, paneles solares y dispositivos electrónicos de uso cotidiano.</p><p>A pesar de ser claves para promover energía limpia mundial, la minería de estos elementos genera seria preocupación por el ambiente. Para quienes viven de la pesca en Jamaica, la situación se traduce en que algunos de los minerales que aportan soluciones climáticas en otros lugares podría suponer nuevos riesgos para las aguas de las que depende su subsistencia.</p><p>La minería de aguas profundas se ha convertido en uno de los debates ambientales más críticos de nuestro tiempo, que supone una amplia variedad de consecuencias para un país como Jamaica, donde la identidad y la economía están tan estrechamente vinculadas al mar. Si bien actualmente no se está contemplando esta industria en las aguas jamaicanas, las conversaciones en torno del tema suscitan cuestiones críticas sobre gobernanza, el impacto sobre los medios de vida y la resiliencia ecológica.</p><p>Geógrafo Jesse Cleary, del Laboratorio de Ecología Marina Geoespacial de la Universidad de Duke. Foto usada con autorización.</p><p>En Kingston, la Autoridad Internacional de los Fondos Marinos (ISA), organismo intergubernamental responsable de regular la actividad relacionada con los recursos minerales del lecho marino más allá de las jurisdicciones nacionales, continúa debatiendo cómo, dónde y en qué condiciones podría ejecutarse la minería. Estas conversaciones en desarrollo son críticas y nada abstractas para Jamaica.</p><p>Jesse Cleary, geógrafo de la Universidad de Duke, explica: «No sabemos a ciencia cierta qué impactos tendría [la minería de aguas profundas]», y agregó que la incertidumbre que rodea el tema exige que se observe con detenimiento. Un documento normativo de la relatoría especial de Naciones Unidas de 2025 señala que la minería de aguas profundas representa una potencial amenaza a la protección de los derechos humanos, en particular los derechos a la seguridad alimentaria y culturales, que son el centro de las comunidades costeras.</p><p>Diego Alonso Lillo Goffreri, abogado miembro de la Asociación Interamericana para la Defensa del Ambiente (AIDA), advierte: «Si nos descuidamos, otros tomarán las decisiones por nosotros». Enfatizó que la ausencia de la sociedad civil beneficia a los Gobiernos y a las empresas que promueven la minería sin que se asuman responsabilidades.</p><p>Alex Simpson, director de zonas marinas protegidas de la Fundación Alligator Head, explica: «La seguridad alimentaria, el sustento, el turismo y la identidad cultural de las comunidades costeras de Jamaica dependen enteramente de un ecosistema marino sano. Cualquier actividad que perturbe la salud oceánica, ya sea mediante penachos de sedimentos, ruido subacuático o alteraciones ecológicas, podría acarrear consecuencias para las poblaciones que dependen de esos ecosistemas».</p><p>Simpson señala que, incluso antes de que comience la minería, «el solo hecho de que se la mencione plantea la necesidad de que Jamaica fortalezca la gobernanza sobre su océano, invierta en investigación científica y garantice que las decisiones sobre los recursos marinos se apoyen en sólidas pruebas y una efectiva participación ciudadana».</p><p>«Si la minería de aguas profundas altera la población de especies marinas, sus patrones migratorios, zonas de desove o la red alimentaria en general», enfatiza Simpson, «estas alteraciones podrían reducir las capturas e incrementar la incertidumbre entre las comunidades pesqueras».</p><p>Además, menciona otro posible factor de tensión que aumentaría su vulnerabilidad: «Mientras se encaminan medidas para pasar a la pesca pelágica, las rutas migratorias de estas especies podrían ser las más afectadas, y eso anularía los esfuerzos por diversificar los medios de sustento».</p><p>Existen otros aspectos que se deben considerar. Simpson destaca que la minería causaría una destrucción de hábitats, penachos de sedimentos, ruido subacuático y la liberación de agentes contaminantes. Tales alteraciones afectarían directamente a los organismos de mar profundo y, en consecuencia, modificar la relación ecológica entre los ecosistemas profundos y superficiales.</p><p>A partir de sus propios estudios acústicos en arrecifes de coral, Simpson explica: «el sonido incide en la salud del arrecife y el reclutamiento de los peces, pero no contamos con datos sobre el posible impacto del ruido generado por la minería sobre los arrecifes y la población de peces. Desde una perspectiva conservacionista, Jamaica debería evitar cualquier daño irreversible hasta que la ciencia pueda evaluar fehacientemente los riegos».</p><p>Simpson cree que es posible mejorar la información que reciben las comunidades: «Si bien la minería de aguas profundas es compleja, y muchas poblaciones costeras, como es entendible, priorizan los problemas más inmediatos, esta realidad hace más esencial la información accesible, equilibrada y sustentada científicamente».</p><p>Se debe empezar por la gente en el terreno, o más bien en el agua. «El conocimiento local de la comunidad pesquera ofrece perspectivas que se escapan al método científico», enfatiza Simpson. «Las comunidades deben tener la oportunidad de enterarse de los potenciales argumentos económicos tanto como del riego ambiental, hacer preguntas y participar activamente en la toma de decisiones. Y lo más importante, esa participación debe ocurrir antes de avanzar con las decisiones políticas».</p><p>Simpson considera que la organizaciones no gubernamentales y otras entidades de la sociedad civil desempeñan un papel fundamental, pues «pueden transmitir las complejidades de la ciencia en un lenguaje accesible, facilitar el diálogo entre las partes interesadas y asegurarse de que las voces locales tengan la misma representación que el personal técnico y político».</p><p>También estas organizaciones pueden «identificar fallos en las investigaciones, promover la toma de decisiones prudentes y fomentar las políticas que den prioridad a la sustentabilidad ambiental a largo plazo a la par de las consideraciones económicas».</p><p>Aunque los debates sobre comercial minería en aguas profundas están bien avanzadas, las negociaciones en curso en la Autoridad Internacional de los Fondos Marinos afectan en qué condiciones debería proceder en la Zona, el lecho marino y el suelo oceánico más allá de la jurisdicción nacional.</p><p>Para Jamaica, donde está la sede central de la Autoridad Internacional de los Fondos Marinos y que participa en estas negociaciones, el proceso es muy cercano. Aunque las zonas que se consideraron inicialmente para la minería están en gran parte en el océano Pacífico, las reglas que se negocian en Kingston están hechas para regir actividades relacionadas con minerales en toda la Zona, donde sea que ocurran.</p><p>Esto significa que lo que ocurre en el Pacífico no es simplemente un asunto regional. Las decisiones que se tomen ahora ayudarán a establecer el marco de trabajo internacional de cómo se regulará la minería en aguas profundas, qué salvaguardas ambientales se necesitan, cómo se dividen los beneficios y cómo asumen su responsabilidad países y empresas.</p><p>Por tanto, el Pacífico ofrece a Jamaica y al Caribe en general un importante caso de estudio. Las incertidumbres científicas, las preguntas sobre gobernanza y las inquietudes planteadas por las comunidades del Pacífico y defensores de los océanos pueden ayudar a los países de la región entender las posibles consecuencias de un rubro que podría extenderse más allá del Pacífico.</p><p>Para Jamaica, prestar atención a estas novedades no se trata de asumir que los mismos impactos se darán en el Caribe, sino de entender las reglas que se crean, las lecciones que surjan lecciones de los debates del Pacífico, y qué significaría para los pescadores, la gobernanza oceánica y futuro de región.</p><p>A partir de ahí, las conexiones solo se vuelven más complejas. Muchas especies marinas se mueven mucho a través de límites nacionales y oceánicos en sus ciclos de vida, mientras los ecosistemas oceánicos se vinculan por redes de alimentos interconectadas. Los cambios a hábitats de aguas profundas o los organismos que sostienen esas redes podrían tener consecuencias más allá de la zonas minera inmediata, dependiendo de las especies y los procesos ecológicas involucrados.</p><p>Entender esos caminos es importante para los países caribeños, pues consideran lo que la minería de aguas profundas puede significar para sus propios ecosistemas marinos y pesquerías. Simpson enfatiza que las “decisiones que se tomen hoy sobre industrias emergentes, como la minería de aguas profundas, podría tener consecuencias que duren por generaciones”.</p><p>De otro lado, Cleary ve que las aguas que rodean los países caribeños, “se superponen de manera ecológica y económica». Dice que aunque los territorios toman decisiones individualmente, “lo que sus vecinos hacen tiene un efecto grande». Así, se necesita solo un accidente o un proyecto mal gestionado para eclipsar la reputación de la región como excelente destino turístico.</p><p>Para los pescadores, los riesgos potenciales son menos inmediatos, pero vale la pena considerarlos. Cleary señala que las actividades mineras cerca de la costa ya compiten con por el espacio y pueden contaminar las aguas donde viven tortugas, tiburones y delfines. Si la minería de aguas profundas se expande a zonas que sustentan ecosistemas marinos y pesquerías interconectadas, podría agregar otra capa de incertidumbre a pescas ya reducidas.</p><p>Diego Alonso Lillo Goffreri, abogado de la Agencia Interamericana de Defensa Ambiental (AIDA). Foto usada con autorización.</p><p>Entender cómo esos impactos alcanzan, si es que alcanzan, las aguas jamaicanas necesita más evidencia sobre movimientos, redes de comida y otras conexiones oceanográficas de las especies. Goffreri enmarca el asunto en términos de derechos: “Primero, tienes el riesgo del impacto en los medios de vida y seguridad alimentaria del país [y] hay un gran asunto que se pasa por alto en los derechos de pueblos indígenas”.</p><p>Otro estudio de la Universidad de Hawái en Mānoa que se publicó en Communications, mostró que las columnas de sedimento por la minería de aguas profundas podría afectar el zooplancton y el micronekton, y amenazar al atún y otros peces comercialmente importantes.</p><p>Aunque la minería de aguas profundas sigue en fase de prueba, Goffreri señala que los “Gobiernos no suelen facilitar la participación de la sociedad civil, porque es un obstáculo para que asuman responsabilidades». Advirtió “hay muchos mecanismos regulatorios fuera del Código Minero […] el umbral ambiental que debía desarrollarse no han progresado».</p><p>En cambio, hay presión para aprobar regulaciones rápidamente, lo que pone en riesgo la minería sin las debidas medidas de seguridad. El Código Minero de la Autoridad Internacional de los Fondos Marinos tiene el objetivo de equilibrar prioridades como proteger el entorno marino, garantizar una justa distribución de beneficios y fijar parámetros claro. La Autoridad también señala que actualmente no hay explotación comercial de recursos minerales de aguas profundas en la Zona; las actividades actuales se limitan a exploración y estudios ambientales de base.</p><p>Sin embargo, Goffreri sostiene que “es improbable que los países puedan tener control efectivo en una actividad que está tan lejos y tan en profundo en el mar. Esto es básicamente ciencia ficción”. Al mismo tiempo, le preocupa que, que, como los mecanismos para distribuir los beneficios son débiles, es probable que los ingresos beneficien a las empresas y no a las comunidades.</p><p>Esto sugiere que las comunidades costeras y pesquerías de Jamaica pueden cargas con los costos ambientales sin ver rédito económico. Casi no se ha debatido la compensación para los países en desarrollo cuyas economías mineras en tierra podrían verse alteradas, lo que deja a las pequeñas naciones y sus pescadores vulnerables a impacto económico.</p><p>Las perspectivas de la pesca de Jamaica y otras organizaciones relacionadas con las aguas profundas no participan en la narrativa, lo que destaca una realidad complicada: quienes probablemente se vean más afectados por la minería de aguas profundas no son parte de la conversación, lo que revela una brecha entre la toma de decisiones y quienes se ven más directamente afectados.</p><p>Sin iniciativas más decididas para informar, incluir y fortalecer a las comunidades costeras de Jamaica, los pescadores corren el riesgo de quedar excluidos de la toma de decisiones que definirán sus medios de vida y sus vínculos culturales con el mar.</p><p>Por ahora, la minería de aguas profundas sigue siendo una posibilidad inminente más que una realidad vivida, pero como señala Cleary: «En realidad no sabemos cuál podría ser el impacto en toda su magnitud». Goffreri agrega: «Solo si mostramos interés en el proceso y alentamos a nuestros países a hacer lo correcto, así se lo hará».</p><p>Simpson lanza un llamado contundente sobre el contexto específico de Jamaica: «Los océanos saludables son fundamentales para comunidades saludables y economías resilientes. Aunque existe incertidumbre científica, esa duda debería fomentar una consideración cuidadosa y no complacencia. Debemos adherirnos al principio de precaución: cuando los riesgos son inciertos pero potencialmente graves, debemos priorizar la protección».</p><p>Para los pescadores de Jamaica, que ya enfrentan los crecientes desafíos del cambio climático, tener voz en estas decisiones es especialmente importante. Si bien los efectos de la minería en aguas profundas dependerían de dónde y cómo se realicen las actividades, las decisiones que se tomen hoy podrían tener consecuencias para los ecosistemas marinos y la pesca más allá de las zonas donde se lleve a cabo la minería. Será esencial garantizar que se tomen en cuenta las inquietudes y los conocimientos de las comunidades costeras a medida que se desarrollen estas normas».</p>",
@@ -3129,7 +3074,7 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "elmostrador-47",
+      "id": "elmostrador-48",
       "title": "Rabat contra las cuerdas: se desliga de las 56 rebajas de penas y se aferra al respaldo de Kast",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "<p>Rabat contra las cuerdas: se desliga de las 56 rebajas de penas y se aferra al respaldo de Kast El Mostrador</p>",
@@ -3250,12 +3195,12 @@
     },
     {
       "id": "elmostrador-49",
-      "title": "Hospital de Ovalle y Registro Civil adjudicaron casi $700 millones a empresa de alcaldesa",
+      "title": "Ministro Alvarado califica como “error” imagen de subsecretario Pavez en avión de la FACH",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Hospital de Ovalle y Registro Civil adjudicaron casi $700 millones a empresa de alcaldesa El Mostrador</p>",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ0RrQTZNYkN5SDMxUmJsR1JiLVVUa3htZmgwS1laM0ZlUGxUaE1KaG1lR3RfaVFPOVFIQm5Ld0hMcVlTN3prTjNUVXVlM0wtczZmY0ZIWENwNFJwN25SYi1KNGQwUURBbWEyZExaeEkyTG9JaXlSdllaY2gtVnY1YkVBZjh1dlAyQ1ZnbjNwek9TRkZYVElzMmxuYVBSVXdHU1JBanYtOHNjX1UtdDhFYmdESl9velFqRHpoMlZSM3BQWkt0N18xZUJBMU1lVC1jOW4taU1IWFA?oc=5",
+      "content": "<p>Ministro Alvarado califica como “error” imagen de subsecretario Pavez en avión de la FACH El Mostrador</p>",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSVJuT2NPNGgtZ040VVdpMnkxOTRLNTA2WGZDc2dNR0dTci16ek81dzdweEt1RkNLY2hjZGNjQWdfejdRYUxoQm9ERHA4YnB5eVNpOE1uRTVlOFJWeWM5SXdDdWl6SkdjY3kxempLZGtmeTg1NDMwQXp5bEpaYnVicE14LUpkUVR6T0lfMWRxamM0NDRuWlNadEg3dHdIUWxZTXY0RnRuVEVMX01ydkdqQmhDT0VxSmh6Ti15WVM4Nmpqc2dqNzdwSzQxcjBGc3FaMlFLaFlkMA?oc=5",
       "image": null,
-      "publishedAt": "2026-10-27T14:40:19+00:00",
+      "publishedAt": "2026-10-27T14:13:56+00:00",
       "sourceId": "elmostrador",
       "sourceName": "El Mostrador",
       "sourceType": "Digital Independiente",
@@ -3263,7 +3208,7 @@
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Ciencia, Salud y Futuro",
+      "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 86,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
@@ -3289,23 +3234,23 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-48",
-      "title": "Ministro Alvarado califica como “error” imagen de subsecretario Pavez en avión de la FACH",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Ministro Alvarado califica como “error” imagen de subsecretario Pavez en avión de la FACH El Mostrador</p>",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSVJuT2NPNGgtZ040VVdpMnkxOTRLNTA2WGZDc2dNR0dTci16ek81dzdweEt1RkNLY2hjZGNjQWdfejdRYUxoQm9ERHA4YnB5eVNpOE1uRTVlOFJWeWM5SXdDdWl6SkdjY3kxempLZGtmeTg1NDMwQXp5bEpaYnVicE14LUpkUVR6T0lfMWRxamM0NDRuWlNadEg3dHdIUWxZTXY0RnRuVEVMX01ydkdqQmhDT0VxSmh6Ti15WVM4Nmpqc2dqNzdwSzQxcjBGc3FaMlFLaFlkMA?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-27T14:13:56+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
+      "id": "fastcheck-28",
+      "title": "Video que muestra al rey sueco negándose a estrechar la mano de Zelenski fue recortado",
+      "summary": "En redes sociales circula un video que muestra al rey sueco Carlos XVI Gustavo negarle el saludo al presidente de Ucrania, Volodímir Zelenski. Fast Check califica el contenido como #Engañoso, pues luego de rastrear las , se constató que el registro fue recortado y omite el momento en que ambos se estrechan la mano.",
+      "content": "",
+      "url": "https://www.fastcheck.cl/2026/10/27/video-que-muestra-al-rey-sueco-negandose-a-estrechar-la-mano-de-zelenski-fue-recortado/",
+      "image": "https://www.fastcheck.cl/media/images/2026/10/video-que-muestra-al-rey-sueco-negandose-a-estrechar-la-mano-de-zelenski-fue-recortado.webp",
+      "publishedAt": "2026-10-27T14:02:00+00:00",
+      "sourceId": "fastcheck",
+      "sourceName": "Fast Check CL",
+      "sourceType": "Fact-Checking Independiente",
+      "sourceSite": "https://www.fastcheck.cl",
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Política y Actualidad",
+      "category": "Geopolítica y Mundo",
       "relevanceTier": "alta",
-      "relevanceScore": 86,
+      "relevanceScore": 93,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3326,26 +3271,6 @@
       "category": "Medioambiente y Territorio",
       "relevanceTier": "alta",
       "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "fastcheck-28",
-      "title": "Video que muestra al rey sueco negándose a estrechar la mano de Zelenski fue recortado",
-      "summary": "En redes sociales circula un video que muestra al rey sueco Carlos XVI Gustavo negarle el saludo al presidente de Ucrania, Volodímir Zelenski. Fast Check califica el contenido como #Engañoso, pues luego de rastrear las , se constató que el registro fue recortado y omite el momento en que ambos se estrechan la mano.",
-      "content": "",
-      "url": "https://www.fastcheck.cl/2026/10/27/video-que-muestra-al-rey-sueco-negandose-a-estrechar-la-mano-de-zelenski-fue-recortado/",
-      "image": "https://www.fastcheck.cl/media/images/2026/10/video-que-muestra-al-rey-sueco-negandose-a-estrechar-la-mano-de-zelenski-fue-recortado.webp",
-      "publishedAt": "2026-10-27T14:02:00+00:00",
-      "sourceId": "fastcheck",
-      "sourceName": "Fast Check CL",
-      "sourceType": "Fact-Checking Independiente",
-      "sourceSite": "https://www.fastcheck.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 93,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3426,6 +3351,26 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 94,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elmostrador-46",
+      "title": "Caso Guerra: formalizan a Hermosilla por soborno y exponen 15 hechos que involucran a Chadwick",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Caso Guerra: formalizan a Hermosilla por soborno y exponen 15 hechos que involucran a Chadwick El Mostrador</p>",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNHpjb1UtRW1DTDRZOC1rYUNPVkhMZUc2UDJ0cWRfY1VCOE9KVHJjMHJVdEhmYUI3bXRjclh1aHVZX2dwcmstdE5SRTN6UFBURVNUbUh3M1kzSnBaekNDVFgxODJDNWZ3cE9xU3dBSkxJLU5FWEtkMGpYcmpjMlJMVkhtZXUtYW5TWVpvZHFNbHJjUDg3emh4cC1GMFhHeVo5MkdNeGwtcWJWVktBRU1pNTJScTBZbjBiNk5MTm5pc0ZuTzFoSUdkNEtETW53LTRBREZLcHZ3YUZub1BYTVF3?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-27T12:31:15+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 91,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3589,7 +3534,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-246",
+      "id": "globalvoices-243",
       "title": "Energía de oeste a este, cómputo de este a oeste: El costo uigur del orden digital de China",
       "summary": "Pekín está trasladando una vieja geografía de extracción a la era de la IA, lo que convierte la tierra, energía y trabajo uigures en capacidad de cómputo, pero calla sobre coerción y vigilancia.",
       "content": "<p>Pekín califica a la región uigur de «base nacional estratégica de seguridad energética y de recursos»</p><p>Originalmente publicado en Global Voices en Español</p><p>Parque Industrial de Computación en la Nube de Karamay, región uigur. Captura de pantalla de la Radio y Televisión de Sinkiang. Uso legítimo.</p><p>Este articulo es parte de la serie Spotlight de Global Voices de octubre de 2026 “Gigantes tecnológicos y autoritarismo”. Esta serie explora cómo las empresas gigantes de tecnología facilitan y obstaculizan a Gobiernos y prácticas autoritarias, y cómo estas decisiones influyen en los países en desarrollo. Puedes apoyar esta cobertura con una donación.</p><p>El 14 de septiembre, ministros y altos funcionarios se reunieron en privado en Urumqi, capital de la región uigur de China, en vísperas del Foro de Economía Digital de la Organización de Cooperación de Shanghái (OCS) de 2026. La reunión se presentó como un ejercicio técnico y de desarrollo en el que los participantes debatieron sobre infraestructura digital, transformación industrial, inteligencia artificial, gobernanza de datos y su valor económico. El foro se llevó a cabo con el tema «Promover la conectividad de datos de la Organización de Cooperación de Shanghái, forjando el futuro con IA».</p><p>La elección de Urumqi como lugar de encuentro no fue casual. Las autoridades chinas están posicionando la región uigur como una puerta de entrada terrestre a través de la cual la infraestructura digital, la capacidad de cómputo, los sistemas de datos y los estándares técnicos de China puedan extenderse a Asia central y al mercado euroasiático en general. Al mismo tiempo, que el foro se haga en Urumqi ayuda a Pekín a reformular la imagen de una región asociada internacionalmente con la vigilancia masiva y graves violaciones de los derechos humanos, y la presenta como un escaparate de innovación, apertura y prosperidad.</p><p>Esa estrategia también se basa en la energía. La región uigur, que durante mucho tiempo Pekín consideró una fuente de petróleo, gas, carbón y electricidad para el resto de China, se está replanteando ahora como una fuente de la vasta potencia informática necesaria para la inteligencia artificial. La nueva economía digital se está construyendo sobre una economía extractiva más antigua.</p><p>La tecnología digital en la patria uigur ya se ha utilizado para dar seguimiento al movimiento, las comunicaciones, las prácticas religiosas y el comportamiento social cotidiano. Esa historia, y el sufrimiento que ha causado, no estuvo en el discurso público del foro. En cambio, los responsables presentaron la transformación digital de la región como una promesa de modernización.</p><p>Según la Administración Nacional de Datos de China, la reunión privada, que se llevó a cabo el 14 de septiembre, reunió a funcionarios de los Estados miembros de la Organización de Cooperación de Shanghái y de otros países socios. Nueve miembros (Bielorrusia, China, Irán, Kazajistán, Kirguistán, Pakistán, Rusia, Tayikistán y Uzbekistán) alcanzaron un acuerdo sobre la Declaración Ministerial de la Organización de Cooperación de Shanghái sobre Economía Digital de 2026.</p><p>Los participantes elaboraron asimismo una «Lista de asuntos prioritarios de cooperación e intenciones en la economía digital de la OCS, 2026-2027″ (上合组织数字经济领域重点合作事项和意向清单 (2026—2027)), que contiene cerca de 20 intenciones de cooperación en más de 10 sectores, entre los que se incluyen infraestructura digital, agricultura, industria manufacturera, energía, transporte y logística, prevención de catástrofes, educación, salud y desarrollo de capacidades.</p><p>La estructura institucional detrás del foro es más relevante que una sola declaración; tras el primer Foro de Economía Digital de la OCS celebrado en Tianjin en 2025, se incluye una plataforma de cooperación que supervisa los avances mensualmente, revisa los proyectos trimestralmente y lleva a cabo intercambios bilaterales o multilaterales cada seis meses. En otras palabras, el sistema adapta proactivamente la tecnología, los parámetros y los servicios chinos a las políticas y las necesidades de infraestructura de los Estados de la Organización de Cooperación de Shanghái.</p><p>La convocatoria de propuestas para la recopilación de 2026 buscaba casos de cooperación relacionados con 5G, la computación en la nube, centros de datos, cables transfronterizos, inteligencia artificial, identidad digital, ciudades inteligentes y administración digital, flujos transfronterizos de datos y tecnologías de seguridad de datos. En agosto en una rueda de prensa, las autoridades revelaron que la recopilación de casos de éxito de 2025 incluía un «puerto digital e inteligente» entre China y Uzbekistán, un espacio de datos de confianza para el comercio entre China y Rusia, una plataforma de datos sobre financias automotrices entre China y Pakistán, y el apoyo chino a un intercambio de datos en Astaná, Kazajistán. Las instituciones ferroviarias chinas y kazajas también están conectando datos y realizando una evaluación previa de los documentos de carga para la ruta transcaspiana.</p><p>Durante la rueda de prensa de agosto, las autoridades chinas describieron la región uigur como un territorio con 19 puertos de entrada, tres puertas de enlace regionales para telecomunicaciones internacionales y 28 cables de fibra óptica transfronterizos que se dirigen hacia Asia central. También dicen que están buscando un punto de conexión directa a la red troncal nacional de internet y una puerta de enlace de comunicaciones internacionales con todos los servicios en la región.</p><p>Las ambiciones van mucho más allá de la conectividad. Las autoridades regionales han anunciado planes para construir grandes grupos informáticos en Urumqi y sus alrededores, incluidos grupos con decenas de miles (y con el tiempo, con cientos de miles) de tarjetas aceleradoras. Su objetivo declarado es convertir la ciudad en un centro informático que sirva a los mercados de Asia central y a Eurasia en general, y promover la exportación de capacidad de computo y tokens de IA.</p><p>También revelaron un plan para crear una alianza regional destinada a promover los parámetros digitales, con formación técnica periódica de acuerdo con los sistemas de certificación, de modo que los parámetros chinos sirvan de «referencia prioritaria» para las infraestructuras de Asia central. Esos parámetros pueden determinar quién controla los datos, cómo se comunican los sistemas y qué formas de acceso estatal se incorporan a los centros de datos, los sistemas de identidad digital, las ciudades inteligentes y las bases de datos gubernamentales.</p><p>Desde hace tiempo, los investigadores señalan a la SCO como un foro a través del cual China y Rusia promueven ideas estatistas en torno a la «soberanía en internet». Un estudio académico sobre la estrategia de China en materia de normas cibernéticas la describe como una plataforma para impulsar normas que priorizan el control estatal, la seguridad de la información y la estabilidad del régimen, a menudo a expensas de la transparencia, la rendición de cuentas y los derechos humanos. Por lo tanto, alinear normas y parámetros digitales constituye una coordinación económica y un intento de configurar la arquitectura de gobernanza digital de la región.</p><p>La inteligencia artificial puede parecer intangible, pero su infraestructura es profundamente física. Los modelos se entrenan y ejecutan en centros de datos repletos de procesadores que consumen mucha energía, que están conectados a redes eléctricas y sistemas de refrigeración. La Agencia Internacional de la Energía lo deja claro: «no hay IA sin energía». Se estima que un centro de datos típico dedicado a la IA consume tanta electricidad como 100,000 hogares, mientras que las instalaciones más grandes que se están construyendo podrían consumir hasta veinte veces más. Se prevé que la demanda mundial de electricidad de los centros de datos se duplique, y más, entre 2024 y 2030, impulsada en gran medida por la IA.</p><p>La estrategia digital de China sigue una geografía de extracción más antigua. Durante décadas, el transporte de gas de oeste a este, el transporte de electricidad de oeste a este y el transporte de carbón de oeste a este han trasladado la energía desde las fronteras de recursos del interior hacia los centros industriales del este. Para allanar el camino hacia la economía de datos, desde 2023, el presidente de China Mobile, Yang Jie, pidió públicamente ampliar las capacidades de almacenamiento, procesamiento, entrenamiento y representación de los datos del este en el oeste de China.</p><p>«Datos del este, informática del oeste» traslada parte del trabajo de computación a las regiones occidentales, donde la tierra y la electricidad satisfacen la demanda del resto de China. En la región uigur, además de los gasoductos, las exportaciones de carbón y electricidad, los centros de datos y los grupos de inteligencia artificial se suman ahora a la lista de la extracción de recursos naturales.</p><p>Pekín califica la región uigur como una «base estratégica de seguridad nacional en energía y recursos«. Las cifras oficiales sitúan su producción de energía primaria en 2025 en 510 millones de toneladas métricas de carbón estándar y su capacidad instalada de energías nuevas en más de 170 millones de kilovatios. La electricidad se transmite desde la región a más de 20 zonas de nivel provincial; aproximadamente un tercio de esta electricidad exportada se describe como energía verde. Las autoridades locales también esperan que la región se convierta en una base para la «computación verde» y planean exportar capacidad de cómputo y tokens de IA (las unidades procesadas por los modelos de lenguaje) hacia Asia central.</p><p>Desde el punto de vista político, la designación de la patria uigur como «base estratégica de seguridad» nacional sitúa sus recursos en la agenda de seguridad de Pekín. Las decisiones sobre el suelo, la minería, el transporte de electricidad y la infraestructura informática se toman, y probablemente se seguirán tomando, a través de un sistema jerárquico dominado por el Estado y las grandes empresas. Los uigures, a quienes ya se les niega una participación política significativa, tienen poco espacio independiente para cuestionar el uso del suelo, los daños ambientales o la distribución de los ingresos. La extracción de energía y la gobernanza digital se refuerzan así mutuamente: una brinda poder material, mientras que la otra amplía la capacidad del Estado para supervisar y administrar el territorio y la población.</p><p>Las minas, los parques industriales, los corredores de transmisión y las bases de energía eólica y solar requieren terrenos y, en una región árida, necesitan agua, un recurso escaso. Cuando los medios de vida agrícolas o ganaderos se reorganizan en torno a proyectos estatales, es posible que más uigures enfrenten pérdida de su independencia basada en la tierra, separación familiar, traslados forzados por motivos laborales o asignaciones de trabajo dictadas por las autoridades.</p><p>Aunque los datos públicos no han revelado cuántos uigures se han visto desplazados específicamente por la construcción de instalaciones energéticas y de computación, expertos en derechos humanos de Naciones Unidas advirtieron en enero de 2026 que los programas de traslado laboral impuestos por el Estado que afectan a los uigures presentan indicios de coacción y pueden dar lugar a desplazamientos. Una investigación de la Universidad de Sheffield Hallam rastreó la mano de obra uigur impuesta por el Estado a lo largo de la cadena de suministro solar, desde la extracción de cuarzo y la producción de polisilicio alimentada con carbón hasta la fabricación de módulos solares.</p><p>La etiqueta «verde» que se aplica a un centro de datos de IA no basta para que su cadena de suministro sea limpia ni su mano de obra, libre. Un estudio sobre ciudades de industria pesada de la región documentó una grave contaminación por partículas, aunque no evaluó los efectos de los centros de datos de IA ni determinó resultados de salud específicos para los uigures.</p><p>Existe una profunda contradicción al presentar a Urumqi como el centro de un futuro digital benigno e inclusivo.</p><p>La región uigur es el lugar donde las autoridades chinas construyeron uno de los sistemas de control de la población basado en la tecnología más intrusivos del mundo. Según la investigación de Human Rights Watch, la Plataforma Integrada de Operaciones Conjuntas agregaba información sobre personas y marcaba a individuos para investigarlos en función de actividades cotidianas, que iban desde el comportamiento religioso y las relaciones familiares hasta el uso del teléfono y el contacto social. Una conducta lícita podía considerarse un indicio de sospecha.</p><p>La evaluación de 2022 de la Oficina de Derechos Humanos de Naciones Unidas también documentó una vigilancia extensa y graves restricciones a la privacidad, la circulación y la expresión en la región. Concluyó que la magnitud de las detenciones arbitrarias y discriminatorias, y de las violaciones relacionadas contra los uigures podrían constituir crímenes internacionales, en particular crímenes de lesa humanidad.</p><p>El foro de la Organización de Cooperación de Shanghái no trató los problemas importantes en materia de derechos de privacidad, la supervisión independiente, la discriminación algorítmica, las medidas correctivas ante el uso indebido, la participación de la sociedad civil ni salvaguardas contra la vigilancia estatal. La «gobernanza de datos» se debatió principalmente como una cuestión relacionada con la generación de valor, la conexión de mercados, la alineación de normas y la facilitación de los flujos transfronterizos.</p><p>Aún no se ha publicado la lista completa de proyectos, por lo que aún no es posible evaluar del todo las implicaciones de cada uno en materia de derechos humanos. Las categorías de cooperación incluyen ciudades inteligentes, administración digital, identidad digital, conjuntos de datos de IA y plataformas de servicios públicos (sistemas capaces de ampliar los servicios públicos y el poder del Estado). La evidencia disponible no demuestra que los proyectos del foro exporten los sistemas de vigilancia utilizados contra los uigures.</p><p>La cuestión no es si la infraestructura digital puede aportar beneficios económicos. Puede aportarlos. La cuestión es qué normas la regularán, quién podrá acceder a los datos y qué medidas de protección existirán cuando la tecnología se utilice contra las personas a quienes pretende servir. La transparencia es importante, pero escasa.</p><p>Las autoridades chinas se han mostrado inusualmente francos sobre el objetivo político de celebrar el foro en la región uigur. En la rueda de agosto, un alto funcionario regional lo calificó de «importante tarea politica» al servicio de la estrategia nacional y dijo que proyectaría una imagen de estabilidad social, desarrollo económico, unidad y felicidad de la población.</p><p>Por lo tanto, el foro tenía dos objetivos paralelos: en el plano material, conectar la infraestructura informática, los sistemas de datos y las normas técnicas de China con los Estados vecinos; en el plano narrativo, sustituir la atención prestada a la represión por un relato controlado sobre tecnología y prosperidad. Urumqi fue el escenario como el mensaje. Pekín presentó la región en la que se han utilizado herramientas digitales para clasificar, vigilar y castigar a los uigures como prueba de que su modelo de desarrollo digital merece la confianza del extranjero.</p><p>La transformación de la región uigur en un centro digital euroasiático constituye también una proyección del poder político hacia el exterior: sobre las infraestructuras y los datos, y sobre la narrativa internacional acerca de lo que les ocurrió a los uigures.</p><p>Sin transparencia ni una evaluación de los derechos humanos, Gobiernos y ciudadanía no pueden evaluar significativamente las empresas participantes, las tecnologías, los acuerdos de intercambio de datos o los riesgos para los derechos humanos. Sin ese escrutinio, la cooperación digital puede reducir la brecha tecnológica, tal como prometen los organizadores del foro; pero también puede trasladar una antigua jerarquía extractiva a la era de la IA, arraigar más profundamente (hacerla más difícil de cuestionar) un modelo autoritario de gobernanza digital más allá de las fronteras.</p>",
@@ -3629,7 +3574,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-247",
+      "id": "globalvoices-244",
       "title": "Cómo se exageró en línea una protesta de agricultores en Bucarest y luego se le dio otro giro",
       "summary": "El análisis de más de 1180 publicaciones en Facebook y cien videos en TikTok reveló cómo una protesta genuina de agricultores la exageraron grupos de cuentas que difundían mensajes idénticos, para luego integrarse en narrativas antigubernamentales, contra la Unión Europea y pro-Kremlin.",
       "content": "<p>Un problema económico real se convirtió en combustible para las narrativas antisistema que ya existían en Rumania</p><p>Originalmente publicado en Global Voices en Español</p><p>Imagen miniatura del video de YouTube ‘Incidentes violentos en la protesta de los ganaderos en la Plaza de la Victoria’ en las protestas del 15 de septiembre de 2006 en Bucarest, Rumania, de Digi24HD. La leyenda de la pantalla dice: ‘Violencia en la protesta en la plaza Victoria. Enfrentamientos con policías, se usó gas lacrimógeno’. Uso legítimo.</p><p>Este artículo de Matei Vrabie y Calin Georgia de Funky Citizens, ONG rumana que trabaja en la intersección de buena gobernanza y ciudadanía activa, es parte de la serie Spotlight de Global Voices de septiembre 2026, «Protesta en democracia«. Esta serie busca explorar las distintas formas de protestas, las tácticas que usan los Estados para deslegitimarlas y reprimirlas, y la compleja relación entre la protesta y la democracia. Puedes apoyar esta cobertura con una donación.</p><p>El 15 de septiembre, más de mil pastores, ganaderos y otros granjeros se reunieron en la plaza Victoria, frente a la sede central del Gobierno rumano en Bucarest, para protestar contra una prohibición de la Unión Europea a exportaciones de ovejas y cabras vivas, extendidas hasta fines de 2026 tras brotes de plagas de pequeños rumiantes y viruela ovina.</p><p>Exigían compensación por animales sacrificados y cultivos perdidos por sequías. Los organizadores pidieron que los manifestantes llevaran ovejas, tractores y balas de heno a la plaza, pero las restricciones impidieron que animales vivos y maquinaria pesada entrara a la zona de la manifestación.</p><p>La manifestación empezó pacíficamente antes de las 10:00 horas. Por la tarde, algunos manifestantes empujaron las barreras policiales y tiraron piedras, botellas y trozos de sardineles. Los policías respondieron con gases lacrimógenos. Según la Gendarmería de Bucarest, 24 personas necesitaron atención médica esa noche, incluidos 10 policías, cuatro de los cuales fueron hospitalizados, y llevaron a 47 personas a estaciones policiales. El presidente Nicușor Dan y el primer ministro interino, Ilie Bolojan, condenaron la violencia. Asociaciones de ganaderos dijeron que en la multitud había personas que no son granjeros, y el prefecto de Bucarest dijo que los “ganaderos ovinos no se organizan así”.</p><p>Esto es lo que pasó en la calle. Lo que pasó en línea, a la vez y antes, es el tema de un nuevo informe de Funky Citizens, organización cívica de Bucarest en la que investigamos sobre manipulación digital y desinformación. Con otros colegas, analizamos 1186 publicaciones de Facebook y cien videos de TikTok publicados en rumano entre el 14 y 15 de septiembre, que rastrean qué narrativas circulaban sobre la protesta, las frases idénticas o casi idénticas que había entre las páginas con segundos de diferencia, y qué idioma acompañaba a los llamados a la movilización.</p><p>El hallazgo más claro no se refiere a la violencia. Se refiere a la noche anterior. Entre las 19:00 y las 19:15 horas del 14 de septiembre, docenas de páginas de Facebook reprodujeron, casi palabra por palabra, un mensaje que decía que “se esperaba que casi 200,000 granjeros” fueran a la plaza Victoria un día después. Al día siguiente, según informes de prensa, más de 3000 personas concurrieron. Con una ventana de 300 segundos para marcar frases idénticas o casi idénticas publicadas en diferentes páginas, trazamos la red de coordinación resultante. Cerca del 90% de los 2253 pares de cuentas en la red final, que se formó en dos días completos, ya estaba formada al cabo de esos 15 minutos la noche antes de que empezara la protesta.</p><p>Distribución de publicaciones y atención pública. Gráfico de Funky Citizens, usado con autorización.</p><p>A las 15:30 horas del 15 de septiembre, la red abarcaba 160 cuentas y 12 textos que se multiplicaron por la red. La estructura estaba muy concentrada: dos grupos de 50 cuentas cada una, construidas alrededor de dos versiones casi idénticas del mensaje de “200,000 granjeros”, que equivalían a cien de las 160 cuentas, y cerca del 90% de todas las conexiones. Los nodos más visibles que pudimos identificar por nombre, páginas como Case de Vis, femina.ro y ROL.ro, son páginas que agregan y difunden contenido, no abiertamente político. Republicar textos idénticos en segundos es, por definición, una distribución coordinada en sentido técnico. Por sí mismo, eso no establece quién organizó todo ni por qué; nuestro juego de datos no permite conclusiones sobre intención.</p><p>Alrededor de esta coordinación, había cuatro hilos narrativos. Uno se refería a los pedidos económicos concretos de los granjeros: detener las matanzas, retomar las exportaciones y fijar precios justos. El segundo abarcaba el recrudecimiento con la Policía, dividido entre cuentas que culpaban a los manifestantes por forzar las líneas policiales y las cuentas que culpaban a la Policía, junto con una afirmación recurrente de que en la multitud había “provocadores» plantados. Un tercer hijo politizaba la protesta directamente, generado en torno a los llamados a la calma del líder de la Alianza para la Unión de los Rumanos, George Simion, y que la Gendarmería mostrara control, y en torno a disputas sobre si su intervención ayudaba o perjudicaba a la causa de los granjeros. Un cuarto hilo, más desconectado de los acontecimientos del día, abarcaba problemas estructurales en la agricultura rumana, desde demoras en el financiamiento de la Unión Europea para maquinaria a un cambio a siembra directa.</p><p>Red cronológica de diseminación 3D. Gráfico de Funky Citizens, usado con autorización.</p><p>Referencias a la Unión Europea se dividieron en dos registros. Sesenta y siete publicaciones mencionaron a Bruselas o la Unión Europea en relación con la protesta. Algunos describieron negociaciones concretas sobre la prohibición a la exportación con la Comisión Europea; otros presentan a la Unión Europea como un adversario, con formulaciones como “el objetivo de Europa es dejarnos sin animales, sin ganadería, sin agricultura en Rumania”, o afirmaciones de que la “Unión Europea quiere matar de hambre a Rumania”.</p><p>Rastreamos dos canales de Telegram que antes habíamos documentado el Instituto Nacional Elie Wiesel y el grupo de expertos de seguridad de GLOBSEC, como parte de redes de propaganda a favor del Kremlin activas en Rumania y Moldavia. Su planteamiento de la protesta cambió al cabo de horas. A las 11:56 horas, un canal describió la manifestación, enumeró las demandas de los granjeros. A las 14:06 horas, un segundo canal había pasado de advertir a los “usurpadores” que usarían la protesta para montar “provocaciones, luego aumentar y luego un estado de emergencia”. A las 16:03 horas, después de los enfrentamientos, el mismo canal cambió a atacar a cómo las televisoras informaban sobre la confrontación. Un cambio similar, de reclamos a provocación y aumento a desconfianza de los medios, se repitió en publicaciones que usaban lenguaje explícito de movilización, incluidos llamados a “ocupar Bucarest” y afirmaciones de que la “REVOLUCIÓN ha comenzado”.</p><p>En TikTok, donde analizamos cien videos de 34 cuentas con la etiqueta #protest [protesta], apareció la misma división. Treinta y un videos mencionaron directamente a la Gendarmería en su descripción, y solo el video más difundido, que anunciaba nuevos enfrentamientos y docenas de arrestos, tuvo cerca de 30,000 interacciones.</p><p>Nada de esto nos dice quién organizó la protesta, o quién se benefició por inflar las expectativas sobre la protesta. Lo que muestran los datos es un patrón conocido en toda Rumania y en la región: un verdadero reclamo económico, amplificado al cabo de horas de densos grupos de cuentas que reproducían textos idénticos, e incorporó narrativas preexistentes sobre elecciones robadas, gobiernos ilegítimos y un “sistema” que debe ser confrontado.</p><p>Distinguir la protesta de los granjeros de su amplificación en línea, y la amplificación de toda instrumentalización política deliberada, no es una nota al pie de una historia para entender qué pasó en la plaza Victoria. Es la historia.</p>",
@@ -3986,6 +3931,26 @@
       "category": "Geopolítica y Mundo",
       "relevanceTier": "alta",
       "relevanceScore": 97,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "ciclismo-chile-206",
+      "title": "En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania - ANBariloche",
+      "summary": "En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania ANBariloche",
+      "content": "<p>En Chile, Río Negro abre su presencia en los 33º Juegos Binacionales de la Araucania ANBariloche</p>",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVDVHMWxnQjJrUkxXbHo2WElRZ09pbWtlRUE2Y3RlaHVlem9SMkhJVFlFVkt0LUg0QVZyQm9wMkhMUmUzejF6WjhNUjEtNTR3M1pqUHQ2aEhtYUNGUGtaeklCXzJicnc3NmJTMzRxeUNxY3hQU1FzaXJ4bnNoTnA5Mmlwc2VYVVpZZ1VNcThNSS1FbTNia0dnUUdJQms3dUUwTkwwSGRMYkxxM0szTlBJZ3pqdWg5RXp6bDJ4dlV0TFU4czVyMUNDdXlhUTU4WEdueTVXQjVLa9IB3AFBVV95cUxNeDRWd1RsemZxX3c5T1ltU1hYM040TVdDSFdOLTZNM3MwWlQybWtSYy1pSFlYUDRhQmIxRmNRdzNTdkpvMUl2WGU3VUJDaUExdHJZTWNnQnZEYzN6STJGZVNxVnBPc0gyUlJkNUtjekJNeVBIMnpYbng3aTZKS3NmcF80R2VPelREM1dzRXFxQzZtQkVRRDBjZzNKOHUzdm1VTHRocllUOG9zYWhyMy1UeEtoSDVsLUFGR2lGbGZCUzI1SFBCZ1ZNX3VsMU5HbjJvYURfS19LVTdFNUxL?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-26T03:19:06+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -4489,7 +4454,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-191",
+      "id": "brecha-193",
       "title": "Entre la catástrofe y la capacidad de acción",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
@@ -4529,13 +4494,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-193",
-      "title": "La IA está colonizando la vida y el cerebro",
+      "id": "brecha-188",
+      "title": "Algoritmos para la guerra",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oNW1GZDB2TDJaU24yUmlkaVR0SWNTU3NYR0xaUDJISElHckhNRlNVNTVhbXhIN0ppdlFtS1VvVEp2MGlYZEJ4dHBYcVFnS0lyUTQxZlZMUi1nVDJtSVgzcEthRUlUQy0yTW5XT3BTSFEtUUZx?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95cm5lbF9BS1RsYkoxdUhuOV9KTHNEdlFYY2dYT2tCVFpOMFlUREYtdW45NW5Ia3dvX3BSR1ZxamIxem9QQ2VMRGZDbEw0bVNxTlpJa1VySmNfbUph?oc=5",
       "image": null,
-      "publishedAt": "2026-10-23T05:08:02+00:00",
+      "publishedAt": "2026-10-23T03:42:02+00:00",
       "sourceId": "brecha",
       "sourceName": "Semanario Brecha",
       "sourceType": "Periodismo Indep. LatAm",
@@ -4543,9 +4508,9 @@
       "region": "latam",
       "country": "Uruguay",
       "independent": true,
-      "category": "Ciencia, Salud y Futuro",
+      "category": "Geopolítica y Mundo",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
+      "relevanceScore": 87,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
@@ -4569,11 +4534,11 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-188",
-      "title": "Algoritmos para la guerra",
+      "id": "brecha-191",
+      "title": "¿Fantasía o realidad?",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95cm5lbF9BS1RsYkoxdUhuOV9KTHNEdlFYY2dYT2tCVFpOMFlUREYtdW45NW5Ia3dvX3BSR1ZxamIxem9QQ2VMRGZDbEw0bVNxTlpJa1VySmNfbUph?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0XzBaSmtzcnRxZ3dMbW5Gd1lGbW05ZHdRZ2NSWE0tSWlURldQcTUzb1M0SEQ1Z2tkYXM1NWhsRmxDV3BmZkItOFhlaTdQMGNad0tnZw?oc=5",
       "image": null,
       "publishedAt": "2026-10-23T03:42:02+00:00",
       "sourceId": "brecha",
@@ -4583,9 +4548,9 @@
       "region": "latam",
       "country": "Uruguay",
       "independent": true,
-      "category": "Geopolítica y Mundo",
+      "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 87,
+      "relevanceScore": 82,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
@@ -4609,26 +4574,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-190",
-      "title": "¿Fantasía o realidad?",
-      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0XzBaSmtzcnRxZ3dMbW5Gd1lGbW05ZHdRZ2NSWE0tSWlURldQcTUzb1M0SEQ1Z2tkYXM1NWhsRmxDV3BmZkItOFhlaTdQMGNad0tnZw?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-23T03:42:02+00:00",
-      "sourceId": "brecha",
-      "sourceName": "Semanario Brecha",
-      "sourceType": "Periodismo Indep. LatAm",
-      "sourceSite": "https://brecha.com.uy",
-      "region": "latam",
-      "country": "Uruguay",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "vergara240-95",
       "title": "Falso: la imagen de dos ancianos semidesnudos durante las protestas en Francia fue generada con inteligencia artificial",
       "summary": "La entrada Falso: la imagen de dos ancianos semidesnudos durante las protestas en Francia fue generada con inteligencia artificial se publicó primero en Vergara 240 .",
@@ -4647,26 +4592,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "brecha-192",
-      "title": "Desinteligencia artificial",
-      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByY3ZtOExnVVJPVk50YzBKN1RrMW05YkJNODBYRUN6UDMyaDM4N3JicHZGWmpuQzNMRF9QWFZjcWc3NE9GVGVBMEZrUkFINEtQbmlTSFBEbjNGaXlEVmc?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-23T03:12:02+00:00",
-      "sourceId": "brecha",
-      "sourceName": "Semanario Brecha",
-      "sourceType": "Periodismo Indep. LatAm",
-      "sourceSite": "https://brecha.com.uy",
-      "region": "latam",
-      "country": "Uruguay",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "bellingcat-221",
@@ -4889,26 +4814,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-207",
-      "title": "Ranking de las mejores bicicletas de montaña en Chile: modelos y precios - El Vacanudo",
-      "summary": "Ranking de las mejores bicicletas de montaña en Chile: modelos y precios El Vacanudo",
-      "content": "<p>Ranking de las mejores bicicletas de montaña en Chile: modelos y precios El Vacanudo</p>",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMDRKUGUzOGJveklBbUJ3Nkt3RU5kMW1qSDVvYjFXQzdTR0d3NVZNZTEyQjRsV1M1dGhpb2tCb18wQm5TUjc5YzlyM040a1BBZXItWURnUDdpMnJHc2JWZ1ZseFpEZjdqQjdmZ2hHZ19ZMldzZ2szSU1tcWxTZ1AzVzA4aElxRDhidmJ0cldKNFhUQTh2Z3hqWldOOGU0QXFmSzFRWkdINTdnQ2FjUzhWVzk5cw?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-19T11:44:29+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
       "id": "resumen-77",
       "title": "Tierras raras: minera NeoRe ingresó nueva oleada de concesiones mineras en Maule, Biobío y La Araucanía",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4926,6 +4831,26 @@
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 74,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "brecha-190",
+      "title": "En busca del bajo perdido",
+      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ocV9uQkJpb04tZ2VjQ0lfN0VfaVlDbFVMbWN0NDRCMjFfMG52WEQybS1Ha3JxdDFsUWw3NDJVUmRHQU02VjRSNlltc0hTMExHQUFNYnNidDI2cWgt?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-16T07:00:00+00:00",
+      "sourceId": "brecha",
+      "sourceName": "Semanario Brecha",
+      "sourceType": "Periodismo Indep. LatAm",
+      "sourceSite": "https://brecha.com.uy",
+      "region": "latam",
+      "country": "Uruguay",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
@@ -4947,6 +4872,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "brecha-192",
+      "title": "Algunos callos",
+      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Sckh4Tlpkc0pWc3Z2R0FjblNST3g4WHJ0YVhQWk9zRU9SOS1zMUFUNlctbkhWR2FlZ2dqbmRGcjkxbFg3WEJPTTc3S1JTQQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-16T07:00:00+00:00",
+      "sourceId": "brecha",
+      "sourceName": "Semanario Brecha",
+      "sourceType": "Periodismo Indep. LatAm",
+      "sourceSite": "https://brecha.com.uy",
+      "region": "latam",
+      "country": "Uruguay",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "bellingcat-222",
@@ -5069,7 +5014,7 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-206",
+      "id": "ciclismo-chile-205",
       "title": "Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina - 24horas",
       "summary": "Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina 24horas",
       "content": "<p>Abren inscripciones para Final Frontier Patagonia 2027: travesía en bicicleta unirá Chile y Argentina 24horas</p>",
@@ -5109,13 +5054,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-205",
-      "title": "La Vuelta llega por primera vez a Chile: histórica competencia de ciclismo recorrerá el Valle de Colchagua - ADN Radio",
-      "summary": "La Vuelta llega por primera vez a Chile: histórica competencia de ciclismo recorrerá el Valle de Colchagua ADN Radio",
-      "content": "<p>La Vuelta llega por primera vez a Chile: histórica competencia de ciclismo recorrerá el Valle de Colchagua ADN Radio</p>",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOempFZUgzelg5eEJVOThlVDBTNVY4elgyNDBlTTdMYjZpX1lIZllja3ZyZTM0OUtEcEdrX0EzNlhMd1VGNS16UFlJYnlyMkhmUUxVTEpyT2hzX3N4YjZwdVZ6LXpUMXVOcjhucVJ1WlJUZFVTQ3JBWFFsZV92RXA0YkI0UE15VlVvY0Z5N052VzFRVHg0OTA2elB3Rl9pczMtVG9GeUlUUklkWXR4RHZPdjZ0SGh2b3lOMHREdjJzU1NRUE9qYm9QbVoxNHVVOXVYQkU3NHNZUTHSAewBQVVfeXFMUEtqbEFuRkExVkMyQXEyTmdZRVg5N0hCdzQwNk9QRjJWbFk2VXo4T0x4RERFZWU3R1dheWF5QWNTWWZoMTA2bmZjaXdta3hXVDN3RXRYVkhzczhnZXR5ajZhbXB5Tzg0LVI1WTh6VTZLUmJpVFoyejRrek5BT1EteFE1N3ZCSF9HR0tybjQtSW9kMGR4UmQtRHl3TkpPeWFvUm1rRFF3SUw4cWs3THI4RC1pN3BOVE9wM09tSWFLT1pXdVlyc0NCcjgxQzJSYzI1Q2l4THZzVWVsQzVqTXNKb29KR3JhUjFhQzVtNGQ?oc=5",
+      "id": "ciclismo-chile-207",
+      "title": "Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur - Teletrece",
+      "summary": "Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur Teletrece",
+      "content": "<p>Con bicicletas rotas, atropellos y una chilena: El impactante choque en el ciclismo de los Juegos Odesur Teletrece</p>",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMlB3VTJvcEp1aS11U0JNcVBsWFpyZ3ZQanRXTWYzcFNFay1mdmdCdjYyYXJrWWRuRmZhUXBFV2RMX0xTSDhMa05VTzNYb3duMG42cldxMDhXU1NwZ2xJNGdPV21yOUtkOXZsd25Yb19uQVowQjlvUFlodW02WTVUM2pxOTBiNTNVTUgxUV90NW4wdkhURlJkY3VaZ0Z0NXFmUDJmZXlyVnZWbHQxeThpRm9rT0ZmdmNRdUZES1Zhc1FPUQ?oc=5",
       "image": null,
-      "publishedAt": "2026-09-26T07:00:00+00:00",
+      "publishedAt": "2026-09-21T07:00:00+00:00",
       "sourceId": "ciclismo-chile",
       "sourceName": "Ciclismo Chile",
       "sourceType": "Ciclismo y Deporte Nacional",
