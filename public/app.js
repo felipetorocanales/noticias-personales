@@ -162,7 +162,7 @@ const state = {
   targetArticleId: null
 };
 
-function balanceSourceDiversity(list, maxConsecutive = 2) {
+function balanceSourceDiversity(list, maxConsecutive = 1) {
   if (!list || list.length <= maxConsecutive) return list;
   const result = [];
   const pool = [...list];
@@ -215,7 +215,7 @@ function sortArticles(list, criterion) {
     default:
       res = sorted.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   }
-  return balanceSourceDiversity(res, 2);
+  return balanceSourceDiversity(res, 1);
 }
 
 // Utility functions

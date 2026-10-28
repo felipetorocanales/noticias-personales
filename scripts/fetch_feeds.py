@@ -945,7 +945,7 @@ def fallback_regex_items(xml_text):
         })
     return items
 
-def balance_source_diversity(article_list, max_consecutive=2):
+def balance_source_diversity(article_list, max_consecutive=1):
     """
     Evita que una sola fuente acapare la portada consecutivamente.
     Si una fuente ya tiene max_consecutive artículos consecutivos, busca en la lista
@@ -1189,7 +1189,7 @@ def fetch_all():
 
 
     articles.sort(key=lambda x: x["publishedAt"], reverse=True)
-    articles = balance_source_diversity(articles, max_consecutive=2)
+    articles = balance_source_diversity(articles, max_consecutive=1)
 
     os.makedirs("public/data", exist_ok=True)
     payload = {
