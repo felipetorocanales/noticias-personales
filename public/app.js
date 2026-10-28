@@ -159,7 +159,9 @@ const state = {
   activeReaderArticle: null,
   instagramPostIds: new Set(),
   instagramHistory: [],
-  targetArticleId: null
+  targetArticleId: null,
+  lastGeneratedAt: null,
+  knownArticleUrls: new Set()
 };
 
 function balanceSourceDiversity(list, maxConsecutive = 1) {
@@ -402,11 +404,8 @@ async function initApp() {
   await loadInitialSnapshot();
   renderAll();
 
-  // Actualización honesta automática cada 2 minutos en segundo plano
-  setInterval(async () => {
-    await loadInitialSnapshot();
-    renderAll();
-  }, 2 * 60 * 1000);
+  // Chequeo periódico de novedades en segundo plano cada 60 segundos
+  setInterval(checkForFreshSnapshot, 60 * 1000);
 }
 
 
@@ -472,6 +471,8 @@ async function loadInitialSnapshot() {
     }
 
     state.articles = validArticles;
+    state.lastGeneratedAt = data.generatedAt || null;
+    state.knownArticleUrls = new Set(validArticles.map(a => a.url || a.id));
 
     // Cargar historial de publicaciones en Instagram para badges y filtro
     try {
@@ -496,75 +497,38 @@ async function loadInitialSnapshot() {
   }
 }
 
-// Chequeo y sincronización inteligente en segundo plano (Stale-While-Revalidate)
-async function triggerBackgroundCheck(snapshotGeneratedAt) {
+// Chequeo periódico en segundo plano para detectar cuando GitHub Actions publica nuevas noticias
+async function checkForFreshSnapshot() {
   try {
-    let isStale = false;
-    if (snapshotGeneratedAt) {
-      const genTime = new Date(snapshotGeneratedAt).getTime();
-      const elapsedMin = (Date.now() - genTime) / (1000 * 60);
-      if (elapsedMin >= 8) {
-        isStale = true;
+    const res = await fetch(`/data/initial-feeds.json?_poll=${Date.now()}`, {
+      cache: "no-store",
+      headers: {
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache"
       }
-    } else {
-      isStale = true;
-    }
-
-    if (!isStale) return;
-
-    // Evitar peticiones redundantes si el usuario recarga rápidamente la pestaña
-    const lastTrigger = parseInt(localStorage.getItem("pulso_last_bg_trigger") || "0", 10);
-    if (Date.now() - lastTrigger < 8 * 60 * 1000) {
-      return;
-    }
-
-    localStorage.setItem("pulso_last_bg_trigger", Date.now().toString());
-
-    // Llamada silenciosa a la Google Cloud Function
-    const res = await fetch("/api/refresh", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" }
     });
-
     if (!res.ok) return;
-    const data = await res.json();
-    console.log("[Pulso Cloud Sync]", data);
+    const freshData = await res.json();
 
-    if (data.status === "triggered" || data.status === "in_progress") {
-      pollForFreshSnapshot(snapshotGeneratedAt);
+    // Comprobar si hay un snapshot más reciente o noticias que no estaban en pantalla
+    const isNewTimestamp = freshData.generatedAt && freshData.generatedAt !== state.lastGeneratedAt;
+    const freshArticles = (freshData.articles || []).filter(a => !isTranslationDuplicate(a));
+    const newArticlesCount = freshArticles.filter(a => !state.knownArticleUrls.has(a.url || a.id)).length;
+
+    if (isNewTimestamp && newArticlesCount > 0) {
+      showNewArticlesBanner(freshData, newArticlesCount);
     }
   } catch (err) {
-    console.debug("[Pulso Cloud Sync] Error en background check:", err.message);
+    console.debug("[Pulso Sync] Chequeo de novedades:", err.message);
   }
 }
 
-function pollForFreshSnapshot(oldGeneratedAt) {
-  let attempts = 0;
-  const maxAttempts = 8;
-  const pollTimer = setInterval(async () => {
-    attempts++;
-    if (attempts > maxAttempts) {
-      clearInterval(pollTimer);
-      return;
-    }
-
-    try {
-      const res = await fetch(`/data/initial-feeds.json?_poll=${Date.now()}`, {
-        cache: "no-store",
-        headers: { "Cache-Control": "no-cache" }
-      });
-      if (!res.ok) return;
-      const freshData = await res.json();
-
-      if (freshData.generatedAt && freshData.generatedAt !== oldGeneratedAt) {
-        clearInterval(pollTimer);
-        showNewArticlesBanner(freshData);
-      }
-    } catch (_) {}
-  }, 15000);
+function triggerBackgroundCheck(snapshotGeneratedAt) {
+  // Ejecutar una verificación inicial tras 30 segundos de navegación
+  setTimeout(checkForFreshSnapshot, 30 * 1000);
 }
 
-function showNewArticlesBanner(freshData) {
+function showNewArticlesBanner(freshData, count = 0) {
   let banner = document.getElementById("newArticlesBanner");
   if (!banner) {
     banner = document.createElement("div");
@@ -573,25 +537,33 @@ function showNewArticlesBanner(freshData) {
     document.body.appendChild(banner);
   }
 
+  const label = count > 0 
+    ? `✨ ${count} noticia${count > 1 ? "s" : ""} nueva${count > 1 ? "s" : ""} · Ver novedades`
+    : `✨ Hay noticias recién salidas · Ver novedades`;
+
   banner.innerHTML = `
     <button type="button" class="btn-new-articles" id="btnApplyNewArticles">
-      ✨ Hay noticias recién salidas · Ver novedades
+      ${label}
     </button>
   `;
   banner.classList.add("show");
 
-  document.getElementById("btnApplyNewArticles")?.addEventListener("click", () => {
-    banner.classList.remove("show");
-    applyFreshSnapshot(freshData);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    showToast("¡Feed actualizado con las últimas noticias! ⚡");
-  });
+  const btn = document.getElementById("btnApplyNewArticles");
+  if (btn) {
+    btn.onclick = () => {
+      banner.classList.remove("show");
+      applyFreshSnapshot(freshData);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      showToast("¡Feed actualizado con las últimas noticias! ⚡");
+    };
+  }
 }
 
 function applyFreshSnapshot(data) {
   state.sources = [...(data.sources || []), ...state.customSources];
   state.blockedExamples = data.blockedExamples || [];
   state.totalBlockedCount = data.totalBlockedFarandula || 0;
+  state.lastGeneratedAt = data.generatedAt || null;
 
   const validArticles = [];
   for (const art of data.articles || []) {
@@ -603,6 +575,7 @@ function applyFreshSnapshot(data) {
   }
 
   state.articles = validArticles;
+  state.knownArticleUrls = new Set(validArticles.map(a => a.url || a.id));
   renderAll();
 }
 
