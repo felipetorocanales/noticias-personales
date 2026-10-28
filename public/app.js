@@ -162,19 +162,50 @@ const state = {
   targetArticleId: null
 };
 
+function balanceSourceDiversity(list, maxConsecutive = 2) {
+  if (!list || list.length <= maxConsecutive) return list;
+  const result = [];
+  const pool = [...list];
+  let consecutiveCount = 0;
+  let lastSource = null;
+
+  while (pool.length > 0) {
+    let nextIdx = -1;
+    if (consecutiveCount >= maxConsecutive && lastSource) {
+      nextIdx = pool.findIndex(a => a.sourceId !== lastSource);
+    }
+    if (nextIdx === -1) {
+      nextIdx = 0;
+    }
+
+    const item = pool.splice(nextIdx, 1)[0];
+    if (item.sourceId === lastSource) {
+      consecutiveCount++;
+    } else {
+      consecutiveCount = 1;
+      lastSource = item.sourceId;
+    }
+    result.push(item);
+  }
+  return result;
+}
+
 function sortArticles(list, criterion) {
   const sorted = [...list];
+  let res;
   switch (criterion) {
     case "date_desc":
-      return sorted.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+      res = sorted.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+      break;
     case "date_asc":
       return sorted.sort((a, b) => new Date(a.publishedAt) - new Date(b.publishedAt));
     case "relevance_desc":
-      return sorted.sort(
+      res = sorted.sort(
         (a, b) =>
           b.relevanceScore - a.relevanceScore ||
           new Date(b.publishedAt) - new Date(a.publishedAt)
       );
+      break;
     case "relevance_asc":
       return sorted.sort(
         (a, b) =>
@@ -182,8 +213,9 @@ function sortArticles(list, criterion) {
           new Date(b.publishedAt) - new Date(a.publishedAt)
       );
     default:
-      return sorted.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+      res = sorted.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   }
+  return balanceSourceDiversity(res, 2);
 }
 
 // Utility functions

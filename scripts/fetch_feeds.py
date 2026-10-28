@@ -945,6 +945,42 @@ def fallback_regex_items(xml_text):
         })
     return items
 
+def balance_source_diversity(article_list, max_consecutive=2):
+    """
+    Evita que una sola fuente acapare la portada consecutivamente.
+    Si una fuente ya tiene max_consecutive artículos consecutivos, busca en la lista
+    el siguiente artículo de otra fuente para intercalarlo y asegurar variedad visual.
+    """
+    if not article_list or len(article_list) <= max_consecutive:
+        return article_list
+
+    balanced = []
+    pool = list(article_list)
+    consec_count = 0
+    last_source = None
+
+    while pool:
+        next_idx = -1
+        if consec_count >= max_consecutive and last_source:
+            for j, item in enumerate(pool):
+                if item.get("sourceId") != last_source:
+                    next_idx = j
+                    break
+
+        if next_idx == -1:
+            next_idx = 0
+
+        item = pool.pop(next_idx)
+        if item.get("sourceId") == last_source:
+            consec_count += 1
+        else:
+            consec_count = 1
+            last_source = item.get("sourceId")
+
+        balanced.append(item)
+
+    return balanced
+
 def fetch_all():
     articles = []
     blocked_items = []
@@ -1153,6 +1189,7 @@ def fetch_all():
 
 
     articles.sort(key=lambda x: x["publishedAt"], reverse=True)
+    articles = balance_source_diversity(articles, max_consecutive=2)
 
     os.makedirs("public/data", exist_ok=True)
     payload = {
