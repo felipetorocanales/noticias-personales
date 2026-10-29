@@ -4,7 +4,7 @@ import json
 import os
 from datetime import datetime, timezone
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "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")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 REPO = "felipetorocanales/noticias-personales"
 WORKFLOW_ID = "sync_feeds.yml"
 COOLDOWN_MINUTES = 10
