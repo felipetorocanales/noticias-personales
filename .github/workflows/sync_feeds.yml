@@ -3,7 +3,7 @@ name: Pulso News Auto Sync
 on:
   schedule:
     # Run every 15 minutes 24/7
-    - cron: '*/15 * * * *'
+    - cron: '4,19,34,49 * * * *'
   workflow_dispatch:
 
 permissions:
