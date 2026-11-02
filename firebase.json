@@ -86,17 +86,11 @@
           ]
         }
       ],
-      "rewrites": [
+      "redirects": [
         {
-          "source": "/api/refresh",
-          "function": {
-            "functionId": "refreshFeeds",
-            "region": "us-central1"
-          }
-        },
-        {
-          "source": "**",
-          "destination": "/index.html"
+          "glob": "/**",
+          "destination": "https://pulso-independiente.web.app/:splat",
+          "type": 301
         }
       ]
     }

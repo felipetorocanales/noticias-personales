@@ -1,5 +1,11 @@
 // Pulso Independiente — Motor de Agregación, Clasificación de Relevancia y Escudo Anti-Farándula
 
+const CANONICAL_SITE_URL = "https://pulso-independiente.web.app";
+
+function getPulsoArticleUrl(articleId) {
+  return `${CANONICAL_SITE_URL}/?id=${encodeURIComponent(articleId)}`;
+}
+
 const DEFAULT_BLOCKED_TERMS = [
   "farándula", "celebridades", "famosos",
   "reality", "gran hermano", "tierra brava", "ganar o servir", "mundos opuestos",
@@ -999,7 +1005,7 @@ function renderCardsInto(container, list) {
                 </svg>
                 <span>Instagram</span>
               </button>
-              <button class="card-btn-share" data-share-link="${escapeHtml(art.url)}" title="Copiar enlace directo">
+              <button class="card-btn-share" data-share-article-id="${escapeHtml(art.id)}" data-share-title="${escapeHtml(art.title)}" data-original-url="${escapeHtml(art.url)}" title="Compartir enlace de Pulso" aria-label="Compartir enlace de Pulso">
                 🔗
               </button>
             </div>
@@ -1520,18 +1526,37 @@ function bindEvents() {
       return;
     }
 
-    // Share link button click
-    const shareTrigger = e.target.closest("[data-share-link]");
+    // Share link button click (Comparte siempre la URL canónica de Pulso)
+    const shareTrigger = e.target.closest("[data-share-article-id]") || e.target.closest("[data-share-link]");
     if (shareTrigger) {
-      const url = shareTrigger.getAttribute("data-share-link");
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(url).then(() => {
-          showToast("¡Enlace copiado al portapapeles! 📋");
-        }).catch(() => {
-          showToast("Enlace: " + url);
+      const artId = shareTrigger.getAttribute("data-share-article-id");
+      const title = shareTrigger.getAttribute("data-share-title") || "Pulso Independiente";
+      const shareUrl = artId ? getPulsoArticleUrl(artId) : (shareTrigger.getAttribute("data-share-link") || CANONICAL_SITE_URL);
+
+      if (navigator.share && /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        navigator.share({
+          title: title,
+          text: title,
+          url: shareUrl
+        }).catch((err) => {
+          if (err.name !== "AbortError") {
+            if (navigator.clipboard) {
+              navigator.clipboard.writeText(shareUrl).then(() => {
+                showToast("¡Enlace de Pulso copiado al portapapeles! 🔗");
+              });
+            }
+          }
         });
       } else {
-        showToast("Enlace: " + url);
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(shareUrl).then(() => {
+            showToast("¡Enlace de Pulso copiado al portapapeles! 🔗");
+          }).catch(() => {
+            showToast("Enlace: " + shareUrl);
+          });
+        } else {
+          showToast("Enlace: " + shareUrl);
+        }
       }
       return;
     }
@@ -1733,7 +1758,7 @@ function buildInstagramCaption(art) {
   const summary = (art.summary || "").trim();
   const source = art.sourceName || "Prensa Independiente";
   const category = (art.category || "").toLowerCase();
-  const pulsoUrl = `${window.location.origin}/?id=${encodeURIComponent(art.id)}`;
+  const pulsoUrl = getPulsoArticleUrl(art.id);
   const region = art.region || "chile";
   const country = art.country || "";
 
@@ -1858,7 +1883,7 @@ function initInstagramShareModal() {
   const copyLinkBtn = document.getElementById("igCopyLinkBtn");
   copyLinkBtn?.addEventListener("click", () => {
     if (!state.activeInstagramArticle) return;
-    const pulsoUrl = `${window.location.origin}/?id=${encodeURIComponent(state.activeInstagramArticle.id)}`;
+    const pulsoUrl = getPulsoArticleUrl(state.activeInstagramArticle.id);
     if (navigator.clipboard) {
       navigator.clipboard.writeText(pulsoUrl).then(() => {
         showToast("¡Enlace directo copiado al portapapeles! 🔗");
@@ -1876,7 +1901,7 @@ function initInstagramShareModal() {
     if (!state.activeInstagramArticle) return;
     const art = state.activeInstagramArticle;
     const caption = buildInstagramCaption(art);
-    const pulsoUrl = `${window.location.origin}/?id=${encodeURIComponent(art.id)}`;
+    const pulsoUrl = getPulsoArticleUrl(art.id);
 
     if (navigator.share) {
       try {

@@ -3,7 +3,7 @@
 Aplicación web de agregación periodística que recopila tanto las noticias **más relevantes** (investigación, poder, economía estructural, geopolítica, derechos humanos) como las **no tan relevantes / bajo el radar** (prensa regional, hallazgos científicos, biodiversidad, memoria local y crónicas ciudadanas) de **Chile 🇨🇱 y el Mundo 🌍**, priorizando **fuentes independientes** y omitiendo de raíz todo contenido de espectáculo, farándula, realities o celebridades.
 
 ## 🌐 Despliegue en Vivo (Firebase Hosting)
-- **URL Pública:** [https://noticias-personales-cl.web.app](https://noticias-personales-cl.web.app)
+- **URL Pública:** [https://pulso-independiente.web.app](https://pulso-independiente.web.app)
 - **Proyecto Firebase:** `noticias-personales-cl`
 
 ## ✨ Características Principales
