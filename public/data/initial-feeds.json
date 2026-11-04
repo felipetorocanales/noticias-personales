@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-04T23:16:13.395573+00:00",
+  "generatedAt": "2026-11-04T23:31:18.068241+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
-  "totalArticles": 220,
-  "totalBlockedFarandula": 7,
+  "totalArticles": 222,
+  "totalBlockedFarandula": 9,
   "blockedExamples": [
     {
       "title": "El escritoriazo de la ANFP",
@@ -12,9 +12,19 @@
       "reason": "fútbol"
     },
     {
+      "title": "La formación de la U para la revancha contra Antofagasta en cuartos de la Copa Chile",
+      "source": "Radio Cooperativa",
+      "reason": "copa chile"
+    },
+    {
       "title": "Unión La Calera cae con Coquimbo Unido en la ida de cuartos de Copa Chile",
       "source": "Radio Cooperativa",
       "reason": "copa chile"
+    },
+    {
+      "title": "Pellegrini y la caída de Betis en Champions: \"Si hay que perder, que sea como hoy\"",
+      "source": "Radio Cooperativa",
+      "reason": "champions league"
     },
     {
       "title": "Haaland salvó a Manchester City con el gol del triunfo ante RB Leipzig en la Champions",
@@ -512,7 +522,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.1
+      "newestAgeHours": 0.4
     },
     {
       "id": "interferencia",
@@ -525,7 +535,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 14.3
+      "newestAgeHours": 14.5
     },
     {
       "id": "fastcheck",
@@ -538,7 +548,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.4
+      "newestAgeHours": 2.6
     },
     {
       "id": "radiouchile",
@@ -551,7 +561,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.9
+      "newestAgeHours": 1.1
     },
     {
       "id": "elmostrador",
@@ -564,7 +574,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 11.8
+      "newestAgeHours": 3.6
     },
     {
       "id": "eldesconcierto",
@@ -577,7 +587,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.0
+      "newestAgeHours": 3.2
     },
     {
       "id": "laderasur",
@@ -590,7 +600,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 5,
-      "newestAgeHours": 7.3
+      "newestAgeHours": 7.5
     },
     {
       "id": "resumen",
@@ -600,10 +610,10 @@
       "type": "Prensa Independiente Regional",
       "independent": true,
       "status": "ok",
-      "count": 7,
+      "count": 9,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 79.0
+      "newestAgeHours": 62.5
     },
     {
       "id": "elciudadano",
@@ -616,7 +626,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 0.4
     },
     {
       "id": "malaespina",
@@ -629,7 +639,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.1
+      "newestAgeHours": 3.4
     },
     {
       "id": "vergara240",
@@ -642,7 +652,7 @@
       "count": 2,
       "blocked": 0,
       "staleDropped": 16,
-      "newestAgeHours": 289.9
+      "newestAgeHours": 290.2
     },
     {
       "id": "terram",
@@ -655,7 +665,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 8.6
+      "newestAgeHours": 8.9
     },
     {
       "id": "timeline",
@@ -668,7 +678,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.1
+      "newestAgeHours": 2.3
     },
     {
       "id": "diariouach",
@@ -681,7 +691,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.8
+      "newestAgeHours": 1.1
     },
     {
       "id": "cooperativa",
@@ -692,9 +702,9 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 6,
+      "blocked": 8,
       "staleDropped": 0,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 0.1
     },
     {
       "id": "elfaro",
@@ -720,7 +730,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.2
+      "newestAgeHours": 4.4
     },
     {
       "id": "lasillavacia",
@@ -733,7 +743,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 0.0
     },
     {
       "id": "ojopublico",
@@ -746,7 +756,7 @@
       "count": 5,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 68.1
+      "newestAgeHours": 68.3
     },
     {
       "id": "cuestionpublica",
@@ -759,7 +769,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 121.5
+      "newestAgeHours": 121.7
     },
     {
       "id": "chequeado",
@@ -772,7 +782,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 123.5
+      "newestAgeHours": 123.7
     },
     {
       "id": "piedepagina",
@@ -785,7 +795,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 77.6
+      "newestAgeHours": 77.8
     },
     {
       "id": "cenital",
@@ -798,7 +808,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.8
+      "newestAgeHours": 2.0
     },
     {
       "id": "brecha",
@@ -811,7 +821,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 87.9
+      "newestAgeHours": 88.2
     },
     {
       "id": "jacobinlat",
@@ -824,7 +834,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 8.3
+      "newestAgeHours": 8.5
     },
     {
       "id": "ciclismo-chile",
@@ -837,7 +847,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 23.3
+      "newestAgeHours": 23.6
     },
     {
       "id": "ciclo21",
@@ -850,7 +860,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 14.3
+      "newestAgeHours": 14.5
     },
     {
       "id": "brujulabike",
@@ -863,7 +873,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.1
+      "newestAgeHours": 3.3
     },
     {
       "id": "esciclismo",
@@ -876,7 +886,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.4
+      "newestAgeHours": 6.6
     },
     {
       "id": "propublica",
@@ -889,7 +899,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 8.2
+      "newestAgeHours": 8.4
     },
     {
       "id": "bellingcat",
@@ -902,7 +912,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 55.1
+      "newestAgeHours": 55.3
     },
     {
       "id": "theintercept",
@@ -915,7 +925,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.6
+      "newestAgeHours": 0.0
     },
     {
       "id": "eldiarioes",
@@ -928,7 +938,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.4
+      "newestAgeHours": 4.7
     },
     {
       "id": "elsalto",
@@ -941,7 +951,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 17.4
+      "newestAgeHours": 17.7
     },
     {
       "id": "sinpermiso",
@@ -967,7 +977,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.4
+      "newestAgeHours": 1.6
     },
     {
       "id": "dw",
@@ -980,7 +990,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.6
+      "newestAgeHours": 0.8
     },
     {
       "id": "globalvoices",
@@ -993,10 +1003,70 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 16.3
+      "newestAgeHours": 16.5
     }
   ],
   "articles": [
+    {
+      "id": "lasillavacia-68dd756d26",
+      "title": "Andrea Padilla aprobó Ley de Sometimiento y logró cambio en restauración ambiental",
+      "summary": "La senadora animalista votó a favor de todos los artículos propuestos en la Ley de Sometimiento, que fue aprobada ayer en el Congreso. The post Andrea Padilla aprobó Ley de Sometimiento y logró cambio en restauración ambiental appeared first on La Silla Vacía .",
+      "content": "<p>Andrea Padilla, senadora del Partido Verde, votó a favor de todos los artículos propuestos en la Ley de Sometimiento, que fue aprobada ayer en el Congreso. Coincide con que logró que le aprobaran una proposición de modificar el artículo que concede reducción de pena por proyectos de restauración ambiental.</p><p>La proposición de Padilla consistió en modificar un párrafo del artículo 66C. El artículo reconoce la restauración ambiental como una forma de redimir penas. La congresista pidió:</p><p>Los verdes y el Pacto fueron claves para el quórum en el Senado. La ley de sometimiento tenía plazo hasta hoy para ser aprobada y una de las preocupaciones principales del gobierno era completar el quórum, pues tiene mayorías frágiles. El viernes 30 de octubre, la plenaria del Senado aprobó la ponencia positiva con 48 votos positivos y 5 negativos, apenas alcanzando el quórum decisorio de 52.</p><p>Lo llamativo de la sesión fue que se completó gracias a tres votos del Pacto Histórico y dos de la Alianza Verde. Aunque los cinco votaron negativo, llama la atención, pues la mayoría de la bancada del Pacto se ausentó para dañar el quórum. La ponencia a favor del proyecto contó con el voto positivo de la senadora animalista Andrea Padilla.</p><p>La cercanía de Padilla con el nuevo gobierno. La senadora, que antes hizo política con Claudia López, se ha acercado al gobierno, que tiene una sensibilidad por el tema del animalismo, con su voto durante la elección de magistrados del Consejo Nacional Electoral, cuando apoyó la lista del gobierno.</p><p>Además, había tenido éxito en el trámite del Presupuesto General —que luego se cayó— con una partida de 26.500 millones para esterilización de perros y gatos, una de las banderas del animalismo para evitar la reproducción de animales callejeros.</p><p>Padilla ha mostrado cercanía con Carlos Suárez, el poderoso estratega de De la Espriella, quien también ha declarado su amor por los animales. Lo menciona frecuentemente en sus mensajes en redes, y le agradeció a él y al presidente por sancionar una ley que penaliza el abuso sexual de animales.</p><p>Para establecer su política de paz y de seguridad, cada gobierno ha modificado, adicionado y prorrogado la Ley 418 de 1997 al principio de su mandato. La de Petro fue la política de la paz total. El gobierno De la Espriella tenía plazo hasta hoy para reemplazarla y promover la suya.</p><p>La ley busca someter y facilitar el sometimiento de integrantes de grupos armados y terroristas. Es la contracara de la paz total, pues no hay reconocimiento político ni negociación con los grupos armados. Uno de los puntos centrales es la reducción de penas de hasta el 30% para los cabecillas que se sometan y de hasta el 50% para integrantes de base.</p><p>Según explicó el ponente Hernán Cadavid (Centro Democrático), los principales cambios frente a lo aprobado en comisiones es que hay menos beneficios para los delitos de lavado de activo, quitan los beneficios para reclutadores de menores y les quitan las cargas económicas del sometimiento a municipios y departamentos para que sean responsabilidad del Ministerio de Justicia.</p><p>The post Andrea Padilla aprobó Ley de Sometimiento y logró cambio en restauración ambiental appeared first on La Silla Vacía.</p>",
+      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/andrea-padilla-aprobo-ley-de-sometimiento-y-logro-cambio-en-restauracion-ambiental/",
+      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/Andrea_Padilla_Verde-1.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
+      "publishedAt": "2026-11-04T23:30:26+00:00",
+      "sourceId": "lasillavacia",
+      "sourceName": "La Silla Vacía",
+      "sourceType": "Poder y Política",
+      "sourceSite": "https://www.lasillavacia.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 97,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "theintercept-ba744187de",
+      "title": "ICE Was Secretly Ordered to Stop All Immigration Raids on Election Day",
+      "summary": "“Yesterday was the least amount of activity observed from ICE ERO throughout the entire year so far,” said an activist who monitors immigration enforcement nationwide. The post ICE Was Secretly Ordered to Stop All Immigration Raids on Election Day appeared first on The Intercept .",
+      "content": "<p>Orders for what one official called a “national no enforcement day” began circulating on Monday inside U.S. Immigrations and Customs Enforcement.</p><p>Handed down through ICE’s Enforcement and Removal Operations division through internal group chats and verbal commands, the directive called for a halt to all immigration enforcement operations on Election Day, according to ICE officials across the country who spoke to The Intercept.</p><p>“We were told all operations are canceled for Election Day,” said one ICE immigration official, who operates in the south and requested anonymity to protect their livelihood. “Word of mouth from our first-line supervisors, no official email notice.”</p><p>According to multiple ICE officials who spoke to The Intercept, the orders were handed down quietly to avoid media attention.</p><p>“Yesterday was the least amount of activity observed from ICE ERO throughout the entire year so far,” said Sherman Austin, the creator of StopICE.net, a crowdsourced platform tracking reported ICE activity across the United States. “You can kind of tell like from the morning. Usually, ICE gets started really early, and there’s a huge spike in activity between 5 a.m. and 10 a.m. That spike wasn’t there on Election Day.”</p><p>Another ICE official, who works in the Great Lakes region, confirmed the orders ahead of Election Day, referring to it as “National No Enforcement Day.”</p><p>“We were told to do ‘admin’ shit,” the official said. They said that ICE deportation officers who regularly do street-level operations were diverted to administrative office work: “I’ll be drinking coffee at the office for the first time in a year.”</p><p>In total, ICE officials working in four areas of responsibility — ICE’s jurisdictional regions — coving parts of the northeastern, midwestern, northern, and south-central U.S. regions told The Intercept that they had received orders to stand down on Election Day.</p><p>StopICE, the tracking website, which has roughly half a million subscribers, did record some ICE activity on Election Day, according to Austin, although most of the reports stemmed from sightings unrelated to any immigration enforcement activities.</p><p>“There were a few reports that came in about ICE being at usual spots like the jails,” Austin said, “or seen driving in certain areas in in the city, but it wasn’t the same type of activity that’s usually seen on the site. It was pretty clear that something unusual was going on.”</p><p>AntiFreeze, another crowdsourced ICE-tracking platform that allows users to report and receive real-time alerts about ICE raids, also saw abnormally low levels of ICE activity on November 3, according to Josh, the creator and developer behind the site, who requested to keep his last name anonymous.</p><p>“On Election Day, our network only logged about 56 reported ICE sightings nationwide, which is one of the quietest Tuesdays we’ve ever seen,” Josh said. “We did get about three sightings that did report ICE activity near polling stations, but most of the reports were observations of vehicles associated with ICE. We barely got any reports about actual ICE arrests yesterday.”</p><p>Local activists also observed a low level of ICE activity on the street level.</p><p>“There was no evidence of street abductions,” said an activist working with the rapid-response network in Minnesota’s Twin Cities.</p><p>“ICE, in some capacity, was still out and about, but we did not see any reports of off-the-street detainments by ICE or attempts at detainments,” said the activist, who said they got word of ICE arrests at jails, but not targeted operations among the general public. “There were a lot of folks, probably more than usual, observing, and so I think we can be pretty confident that this wasn’t due to lack of observation.”</p><p>Leo Martinez, who volunteers with VC Defensa in Southern California, told The Intercept that no one in his rapid-response group reported any sightings of ICE activity on Tuesday.</p><p>It is still unclear exactly where the orders to halt immigration enforcement operations on Election Day originated from, although some ICE officials believe the orders stemmed from ICE Enforcement and Removal Operations leadership — and not directly from the White House.</p><p>“Nobody from the SDDO level” — a reference to Supervisory Detention and Deportation Officer, part of ICE’s upper management — “expected it to happen until the very last moment,” said another ICE official familiar with the matter. “But I think some of us caught on that senior leadership was making this call with fears of us being at the polls.”</p><p>The official said, “It’s crazy that The White House didn’t catch on.”</p><p>The post ICE Was Secretly Ordered to Stop All Immigration Raids on Election Day appeared first on The Intercept.</p>",
+      "url": "https://theintercept.com/2026/11/04/ice-orders-stop-election-day/",
+      "image": "https://theintercept.com/wp-content/uploads/2026/11/GettyImages-2275813196-e1793831939700.jpg?fit=6000%2C3000",
+      "publishedAt": "2026-11-04T23:29:11+00:00",
+      "sourceId": "theintercept",
+      "sourceName": "The Intercept",
+      "sourceType": "Investigación Independiente",
+      "sourceSite": "https://theintercept.com",
+      "region": "mundo",
+      "country": "EE.UU.",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 91,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "lasillavacia-528093781e",
+      "title": "Radican ley “anti-cepo” para proteger a periodistas del acoso judicial",
+      "summary": "La iniciativa define el acoso litigioso y les permite a los jueces ponerle freno mediante una sentencia anticipada. The post Radican ley “anti-cepo” para proteger a periodistas del acoso judicial appeared first on La Silla Vacía .",
+      "content": "<p>Hoy fue radicado el proyecto de ley “anti-cepo”, que busca prevenir el hostigamiento judicial contra periodistas y, en general, la opinión pública. La iniciativa define el acoso litigioso y les permite a los jueces ponerle freno mediante una sentencia anticipada.</p><p>El proyecto fue presentado por los congresistas Gabriel Becerra, del Pacto Histórico, y Jennifer Pedraza, de Dignidad y Compromiso, junto con la organización El Veinte.</p><p>El proyecto “anti-cepo”, explicado. La iniciativa busca que los jueces puedan cerrar un proceso judicial antes de tiempo si detectan que se usa para silenciar a alguien. Así lo explicó en marzo la abogada Ana Bejerano: “Es la posibilidad de que se termine anticipadamente un juicio cuando se demuestre que hay acoso judicial en la jurisdicción civil”.</p><p>La propuesta no busca limitar el acceso a la justicia, sino evitar que se use para silenciar a periodistas. “No se limitará el derecho a acceder a la justicia, pero cuando se haga con fines de silenciamiento, los jueces tendrán mejores elementos para determinar”, explicó la congresista Jennifer Pedraza.</p><p>Además, toma como referencia las leyes anti-Slapp (sigla en inglés de Strategic Lawsuit Against Public Participation), que ya funcionan en países como Canadá, Estados Unidos y Australia, y en la Unión Europea.</p><p>El acoso judicial también viene desde la Presidencia. Según una revisión de La Silla Vacía, el hoy presidente Abelardo de la Espriella ha interpuesto 22 denuncias penales contra periodistas, columnistas y activistas.</p><p>“Me he dado cuenta de que nada le duele más a ese periodismo independiente que el bolsillo”, dijo De la Espriella sobre su estrategia. Busca que los demandados retiren sus publicaciones, le pidan disculpas y, además, le paguen millonarias indemnizaciones por supuestos perjuicios a su nombre.</p><p>Para entender cómo funciona esa estrategia legal, revisamos más de 100 documentos y audiencias y hablamos con varios de los demandados. El abogado y el bufete del candidato no respondieron las preguntas.</p><p>Así funciona la estrategia judicial de De la Espriella contra periodistas.</p><p>Y ha documentado 14 agresiones en lo que va del año. “Cuando desde el poder se presenta a la prensa como enemiga, el mensaje de fondo es que investigar al gobierno puede desencadenar represalias desde quienes cuentan con capacidad institucional, económica y política”, escribieron.</p><p>The post Radican ley “anti-cepo” para proteger a periodistas del acoso judicial appeared first on La Silla Vacía.</p>",
+      "url": "https://www.lasillavacia.com/en-vivo/radican-ley-anti-cepo-para-proteger-a-periodistas-del-acoso-judicial/",
+      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Ana-Bejarano-Jennifer-Pedraza-Gabriel-Becerra.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
+      "publishedAt": "2026-11-04T23:26:30+00:00",
+      "sourceId": "lasillavacia",
+      "sourceName": "La Silla Vacía",
+      "sourceType": "Poder y Política",
+      "sourceSite": "https://www.lasillavacia.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 87,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
     {
       "id": "ciper-76e17b52d4",
       "title": "Defensoría de la Niñez insiste con amparo contra rebajas de condena; participación de menores en delitos sube 16,4%, y gobierno repone $94 mil millones al presupuesto de las regiones",
@@ -1061,7 +1131,7 @@
       "id": "cooperativa-5e3d4e93d6",
       "title": "Juan Gabriel Valdés: Pese a la derrota, Trump podrá seguir tomando decisiones con libertad",
       "summary": "El excanciller y exembajador de Chile en Estados Unidos Juan Gabriel Valdés afirmó en Lo que Queda del Día en Cooperativa que, pese a la histórica derrota republicana en las elecciones de medio mandato, el presidente estadounidense, Donald Trump, puede seguir tomando \"decisiones extraordinariamente complicadas\" en materia...",
-      "content": "<p>El excanciller y exembajador de Chile en Estados Unidos Juan Gabriel Valdés afirmó en Lo que Queda del Día en Cooperativa que, pese a la histórica derrota republicana en las elecciones de medio mandato, el presidente estadounidense, Donald Trump, puede seguir tomando &quot;decisiones extraordinariamente complicadas&quot; en materia internacional.</p><p>&quot;El panorama que se presenta por delante es extraordinariamente difícil de determinar: van a ocurrir cosas inesperadas y, si bien la victoria demócrata es muy fuerte, las potencialidades que tiene todavía Trump para seguir con sus propias visiones e imponer sus puntos de vista todavía no está del todo cancelado. Eso hay que decirlo de inmediato&quot;, sostuvo el diplomático.</p><p>&quot;Es un pato cojo (hasta cierto punto); él puede tomar decisiones extraordinariamente complicadas desde el punto de vista presupuestario e internacional, tanto ahora como después del 20 de enero (cuando su mandato se acabe), porque el Congreso tiene muy pocas posibilidades de impedir que el presidente tome decisiones que no le gusten&quot;, señaló Valdés.</p><p>&quot;Vale decir, el mandatario de EE.UU. tiene mucha libertad para determinar ataques o determinar políticas en las que el Congreso no participa más que de forma reactiva&quot;, precisó.</p>",
+      "content": "<p>El excanciller y exembajador de Chile en Estados Unidos Juan Gabriel Valdés afirmó en Lo que Queda del Día en Cooperativa que, pese a la histórica derrota republicana en las elecciones de medio mandato, el presidente estadounidense, Donald Trump, puede seguir tomando &quot;decisiones extraordinariamente complicadas&quot; en materia internacional.</p><p>&quot;El panorama que se presenta por delante es extraordinariamente difícil de determinar: van a ocurrir cosas inesperadas y, si bien la victoria demócrata es muy fuerte, las potencialidades que tiene todavía Trump para seguir con sus propias visiones e imponer sus puntos de vista todavía no están del todo canceladas. Eso hay que decirlo de inmediato&quot;, sostuvo el diplomático.</p><p>&quot;Es un pato cojo (hasta cierto punto); él puede tomar decisiones extraordinariamente complicadas desde el punto de vista presupuestario e internacional, tanto ahora como después del 20 de enero (cuando su mandato se acabe), porque el Congreso tiene muy pocas posibilidades de impedir que el presidente tome decisiones que no le gusten&quot;, señaló Valdés.</p><p>&quot;Vale decir, el mandatario de EE.UU. tiene mucha libertad para determinar ataques o determinar políticas en las que el Congreso no participa más que de forma reactiva&quot;, precisó.</p><p>De hecho, dado que tras las elecciones legislativas tienen poco margen de acción a nivel interno, los presidentes norteamericanos &quot;se dedican a desarrollar iniciativas internacionales. En el caso de Trump, es evidente que él ha propuesto, por ejemplo, un acuerdo de control de armamentos con China y con Rusia que no ha tenido mayor eco (...). O lo de (buscar un cambio de régimen en) Cuba, que es extraordinariamente delicado y pienso que puede ser muy difícil para el Congreso controlar lo que quiera hacer Rubio o el mandatario en el próximo futuro&quot;, analizó el exembajador.</p><p>En materia internacional, los aranceles impuestos globalmente por Washington y el Escudo de las Américas son iniciativas de Trump que han afectado e involucrado a Chile.</p><p>En este contexto, Valdés dijo que los gravámenes &quot;son un tema en el que tampoco el Congreso incide, por lo que el republicano va a poder seguir haciendo lo que quiera. Sin embargo, hay una reacción muy fuerte en contra de la manera sobre cómo él ha llevado la política, tanto interna como externa y, por lo tanto, me imagino que él va a tener que repensar lo que va a hacer hacia adelante&quot;.</p><p>Además, afirmó que el resultado de las elecciones legislativas anticipan &quot;un cambio de rumbo del viento&quot; de las tendencias políticas, que se han alejado progresivamente de la extrema derecha y &quot;cuyos gobiernos y las propuestas que Estados Unidos está haciendo, como el Escudo de las Américas, van a debilitarse seriamente&quot;.</p><p>En consecuencia, &quot;el Presidente Kast, que ha tenido dudas al respecto -o por lo menos sus ministros de Defensa (Fernando Barros) y de Relaciones Exteriores (Francisco Pérez Mackenna) las han tenido-, hoy confirmarán que sería un grave error el ingresar a este Escudo con la mayoría que ha obtenido la oposición norteamericana en las elecciones&quot;, indicó quien fue canciller durante el último año de Gobierno de Eduardo Frei Ruiz-Tagle (1994-2000).</p><p>&quot;Por lo tanto, creo que va a cambiar la influencia de Washington. Un gobierno que pierde de esta manera pierde influencia en el mundo, y eso se va a notar en Europa y se va a notar también particularmente con China y Rusia, los rivales de Estados Unidos&quot;, cerró Valdés.</p>",
       "url": "https://www.cooperativa.cl/noticias/mundo/ee-uu/donald-trump/juan-gabriel-valdes-pese-a-la-derrota-trump-podra-seguir-tomando/2026-11-04/200054.html",
       "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104200054.png",
       "publishedAt": "2026-11-04T23:00:54+00:00",
@@ -1998,23 +2068,23 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "lasillavacia-13c716c4f3",
-      "title": "Menos impuestos para empresas, más cargas para los hogares",
-      "summary": "La reforma tributaria plantea dudas sobre quién asumirá el esfuerzo fiscal y si las cargas estarán distribuidas de acuerdo con la capacidad económica de cada contribuyente. The post Menos impuestos para empresas, más cargas para los hogares appeared first on La Silla Vacía .",
-      "content": "<p>El proyecto de Ley de Rescate Económico plantea una discusión que va más allá de cuánto dinero necesita recaudar el gobierno nacional. La cuestión central es quién asumirá ese esfuerzo y bajo qué condiciones. La propuesta combina modificaciones al impuesto sobre la renta de las personas naturales, cambios en la tributación empresarial y ajustes al IVA. Aunque incorpora medidas de progresividad y compensación, su diseño plantea dudas sobre la distribución de las cargas fiscales entre los hogares y las empresas.</p><p>Como se observa en la tabla 1, el proyecto de reforma tributaria combina la reducción de las tarifas generales del impuesto sobre la renta empresarial con modificaciones a la tributación de las personas naturales, el IVA y el gasto público. En particular, los cambios en el tratamiento tributario de determinados bienes y servicios, junto con las exclusiones, exenciones y mecanismos de devolución para hogares vulnerables, merecen especial atención por sus posibles efectos sobre el consumo y el ingreso disponible de las familias. Desde una perspectiva fiscal y distributiva, el impacto de estas medidas dependerá de la carga tributaria efectiva que asuma cada grupo de contribuyentes y de la eficacia de los mecanismos de compensación previstos en el proyecto.</p><p>Tabla 1 : Reforma tributaria de 2026: cambios fiscales y efectos económicos</p><p>La discusión sobre eventuales incrementos del 5 % al 19 % exige precisión. Esa modificación representaría 14 puntos porcentuales adicionales. Para una compra hipotética de 100 mil pesos antes de impuestos, el IVA pasaría de 5 mil a 19 mil pesos. El impuesto aumentaría 14 mil pesos, aunque el efecto sobre el precio final dependería de las decisiones comerciales de productores y vendedores.</p><p>El articulado examinado no establece un incremento general e indiscriminado de esa naturaleza. Su contenido exige distinguir entre productos gravados, excluidos y exentos. Esta diferencia resulta determinante para evaluar las consecuencias distributivas. Atribuir a todos los bienes una modificación uniforme conduciría a una interpretación equivocada del proyecto.</p><p>El gobierno propone implementar, a partir del 1 de enero de 2028, un mecanismo de devolución efectiva del IVA para compensar parcialmente el impuesto pagado por las personas en situación de pobreza extrema, pobreza y vulnerabilidad económica. Sin embargo, el proyecto no explica con claridad cómo funcionará este mecanismo ni cómo se garantizará su aplicación. La propuesta contempla una compensación del 50 % del impuesto reconocido para la población vulnerable y del 30 % para los hogares de menores ingresos en situación de vulnerabilidad. Esta diferenciación plantea interrogantes sobre los criterios de focalización y la efectividad de la medida para aliviar la carga tributaria de los hogares con menor capacidad económica.</p><p>Esta medida constituye un elemento favorable desde la equidad tributaria. Reconoce que una misma tarifa de IVA afecta de manera distinta a los hogares según sus ingresos. No obstante, su efectividad dependerá de la identificación de beneficiarios, las operaciones reconocidas y la oportunidad de los pagos. Una compensación que llegue después del consumo no elimina necesariamente las restricciones de liquidez que enfrentan las familias.</p><p>En materia de renta personal, el artículo 48 propone una tabla progresiva con tarifas marginales del 0 %, 9 %, 19 %, 28 %, 33 % y 39 %. La tributación comenzaría a partir de una renta líquida gravable superior a 720 UVT. El proyecto también modifica el tratamiento de las rentas exentas y las deducciones, mediante una restricción conjunta que considera el 40 % del resultado correspondiente y un máximo de 1.180 UVT anuales.</p><p>Estas disposiciones merecen un análisis distributivo cuidadoso. Una tarifa marginal creciente reconoce que quienes obtienen mayores rentas deben contribuir proporcionalmente más. Pero el impuesto efectivamente pagado depende de la base gravable, las deducciones permitidas y las exenciones aplicables. Una reducción de beneficios tributarios también puede incrementar la obligación de contribuyentes que anteriormente disfrutaban de tratamientos favorables.</p><p>Por esta razón, declarar renta y pagar impuesto son obligaciones distintas. Tampoco resulta correcto afirmar que cualquier ampliación de la base gravable incorpora automáticamente a personas de ingresos bajos. Para establecer qué grupos asumirían mayores cargas se requiere comparar las obligaciones anteriores y las propuestas, considerando la situación económica de los contribuyentes.</p><p>El tratamiento de las empresas presenta otra orientación. El artículo 57 propone reducir la tarifa general del impuesto sobre la renta de las personas jurídicas al 33 % para 2027 y al 31 % a partir de 2028. Esta reducción busca mejorar las condiciones tributarias de la actividad empresarial, aunque una menor tarifa nominal no garantiza por sí misma mayores inversiones, contratación laboral o crecimiento económico.</p><p>El proyecto conserva tratamientos diferenciados. Determinadas entidades financieras, aseguradoras y otras actividades contempladas en el artículo 240 enfrentarían cinco puntos adicionales durante varios períodos gravables. Para esos contribuyentes, la tarifa alcanzaría el 38 % en 2027 y el 36 % entre 2028 y 2030, cuando cumplan las condiciones establecidas. Por tanto, sería incorrecto sostener que todas las empresas recibirían una reducción equivalente.</p><p>La propuesta también crea el Régimen Único para Generar Estabilidad Empresarial, dirigido a proyectos de inversión que cumplan requisitos específicos. Sus incentivos incluyen tarifas de renta del 20 % para proyectos iniciados en 2027 y 2028, y del 26 % para aquellos que comiencen desde 2029. También contempla un tratamiento especial para dividendos, depreciación acelerada y estabilidad jurídica.</p><p>Los incentivos empresariales plantean interrogantes sobre la equidad tributaria, pues empresas con capacidades económicas similares enfrentarían cargas diferentes. Su justificación requiere resultados verificables en inversión, empleo y recaudo. Desde la Hacienda Pública, reducir impuestos empresariales mientras se modifica la tributación de los hogares exige evaluar sus efectos distributivos y fiscales. Aunque el proyecto contempla austeridad y eficiencia del gasto, resulta necesario determinar si los ingresos adicionales compensarán los beneficios otorgados a las empresas. Una estructura progresiva del impuesto sobre la renta tampoco garantiza la equidad del sistema tributario. Las compensaciones del IVA y los incentivos empresariales deben evaluarse conjuntamente. La sostenibilidad fiscal exige recaudo suficiente, gasto eficiente y una distribución de las obligaciones acorde con la capacidad económica de los contribuyentes.</p><p>The post Menos impuestos para empresas, más cargas para los hogares appeared first on La Silla Vacía.</p>",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-social/menos-impuestos-para-empresas-mas-cargas-para-los-hogares/",
-      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/04/Gonzalo_Caicedo-1.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
-      "publishedAt": "2026-11-04T20:00:00+00:00",
-      "sourceId": "lasillavacia",
-      "sourceName": "La Silla Vacía",
-      "sourceType": "Poder y Política",
-      "sourceSite": "https://www.lasillavacia.com",
-      "region": "latam",
-      "country": "Colombia",
+      "id": "elmostrador-6ce0dd6070",
+      "title": "Ramón Cavieres y caída de Kast en encuestas: “Tiene una posición dogmática, doctrinaria”",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Ramón Cavieres y caída de Kast en encuestas: “Tiene una posición dogmática, doctrinaria” El Mostrador</p>",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT3VqS3ljc09wM3hTaVlnSk5fcERDSzhJQ1ZPMi04UUllTEJGUGdBeUhpTGRweF9TWEVXczdVc3N5NzlacG5YVURQY1FqRmhuSHA0c2daR0FtT2t1Ui04UUhSd2pCQU1CV2ZfdDE3R0liS2JrSU41dDEyd3FxSS10eUtnN21ySEpZZ0w4ZUh3OVNiSnB1OHVqTkdRTzVRTzN4NnIzNkJHam5iSm40RTlnWWk0ZXJYQTZ3TjEza0R0dDBlSkY2UTJwY1hLR2gydWFFTFBz?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-04T19:57:13+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
-      "category": "Economía y Sociedad",
+      "category": "Política y Actualidad",
       "relevanceTier": "alta",
-      "relevanceScore": 97,
+      "relevanceScore": 86,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2038,23 +2108,23 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "lasillavacia-c1b3fd8e8e",
-      "title": "Consulta previa sobre la Amazonía, que dejó sin efectos gobierno, costó 13 mil millones",
-      "summary": "Para la resolución que declaró el bioma amazónico como reserva el gobierno invirtió 13 mil millones en la consulta previa con las comunidades. The post Consulta previa sobre la Amazonía, que dejó sin efectos gobierno, costó 13 mil millones appeared first on La Silla Vacía .",
-      "content": "<p>El gobierno de Abelardo de la Espriella revocó la resolución 961 que delimitó y declaró el bioma amazónico como reserva definitiva de los recursos naturales renovables, a dos días de acabar el gobierno Petro. Según el Ministerio de Ambiente, la decisión se tomó porque no se hizo el proceso de consulta previa con las comunidades afro.</p><p>Sin embargo, el gobierno sí llegó a acuerdos con los pueblos indígenas y en la resolución contempló que la reserva no produciría efectos sobre los territorios de las comunidades afro hasta que terminara el proceso de consulta previa, procesos en los que La Silla Vacía encontró que la cartera invirtió 13.081 millones.</p><p>La Silla revisó los contratos y la proyección de pagos para el 2026 del Fondo para la Vida, la bolsa de recursos más grande para el sector ambiental. En ellos encontró tres convenios para el proceso de consulta previa con las comunidades: el 119-2026 con “las comunidades negras, afrocolombianas raizales y palenqueras” por 5 mil millones de pesos “en proceso de liquidación”, el 189-2026 con “el Consejo Comunitario de la Comunidad Negra Vereda Gamboa” por mil millones también “en proceso de liquidación” y finalmente el 063-2026 con la Organización Nacional de los Pueblos Indígenas de la Amazonía Colombiana (Opiac), que agrupa los 64 pueblos de esa región, por 6 mil millones en ejecución. A pesar del gasto, no se sabe qué pasará con estos procesos.</p><p>El proceso de consulta. La resolución del bioma amazónico comprendía 483.283 kilómetros cuadrados, esto es toda la región amazónica, que representa el 42% del país. Un 55% de este territorio son resguardos indígenas (231) dispersos en ese vasto territorio. También hay cerca de 36 consejos comunitarios afro, asentados, en su mayoría en Putumayo.</p><p>Debido a los efectos de la norma en estas poblaciones, el MinAmbiente adelantó un proceso de consulta previa con los pueblos indígenas, que se protocolizó el 19 y 20 de julio, e implicó, según le dijo a La Silla una fuente con conocimiento, cerca de 10 espacios de socialización con autoridades indígenas previo a la instalación, dos reuniones de la Mesa Regional Amazónica —MRA— ampliada, donde las entidades públicas discuten con los pueblos de la Amazonía, las políticas que los impactan, y 10 espacios más de diálogo con autoridades como parte del proceso formal de consulta. Entre los aportes de los pueblos indígenas estuvieron:</p><p>Por otro lado, con los pueblos afro se inició formalmente el proceso de consulta previa, pero no se pudo concluir, según una fuente con conocimiento, porque no hubo acuerdo sobre si este se debía limitar a los consejos comunitarios afro que tienen titulación colectiva sobre la tierra, o extenderse a otras formas de organización de esos pueblos étnicos, lo que hacía más complejo el proceso.</p><p>Lo más probable es que el Ministerio no restablezca la medida. El Ministerio aseguró que adelantarán nuevas acciones para proteger el bioma una vez se cumpla la consulta previa y las valoraciones técnicas, ambientales y jurídicas que corresponden. Sin embargo, no especificó cuáles.</p><p>Fabio Arjona ya era crítico desde antes de asumir el cargo. Su argumento es que el efecto de la resolución sería aumentar más las actividades ilegales en la región amazónica, refiriéndose a la extracción de oro ilegal. Dijo que aunque al MinAmbiente no le compete decidir si se hará minería y explotación de hidrocarburos en la Amazonía, esta se haría de forma legal en territorios no comprometidos y quizá en el piedemonte amazónico. “Pero para nada en los territorios vedados y de alta sensibilidad ambiental. Y casi toda la Amazonía es de alta sensibilidad ambiental”, destacó en ese momento.</p><p>En el comunicado de hoy declaró que “la minería ilegal, la deforestación, el acaparamiento de tierras y las economías criminales, que encontraron espacio para expandirse durante el gobierno anterior, no se combaten únicamente con resoluciones. Se requiere una verdadera presencia institucional, control territorial, recursos, seguridad y alternativas productivas sostenibles para las comunidades”.</p><p>The post Consulta previa sobre la Amazonía, que dejó sin efectos gobierno, costó 13 mil millones appeared first on La Silla Vacía.</p>",
-      "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/consulta-previa-sobre-la-amazonia-que-dejo-sin-efectos-gobierno-costo-13-mil-millones/",
-      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2025/12/amazonia1-1.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
-      "publishedAt": "2026-11-04T19:58:50+00:00",
-      "sourceId": "lasillavacia",
-      "sourceName": "La Silla Vacía",
-      "sourceType": "Poder y Política",
-      "sourceSite": "https://www.lasillavacia.com",
-      "region": "latam",
-      "country": "Colombia",
+      "id": "radiouchile-a259398797",
+      "title": "Verónica Amarante, directora de CAF: La evaluación de las políticas públicas debe considerar más que sus resultados inmediatos",
+      "summary": "La directora de Investigaciones Socioeconómicas de CAF destacó la importancia de evaluar las políticas públicas en sus distintas dimensiones e identificar a los hogares vulnerables que siguen cerca de la línea de la pobreza. La entrada Verónica Amarante, directora de CAF: La evaluación de las políticas públicas debe considerar más que...",
+      "content": "<p>En conversación con la primera edición de Radioanálisis, la directora de Investigaciones Socioeconómicas del Banco de Desarrollo de América Latina y el Caribe (CAF) y profesora titular de la Universidad de la República de Uruguay, Verónica Amarante, analizó los desafíos que enfrenta la evaluación de las políticas públicas y la medición de la pobreza, en el marco de su participación en el cuarto Seminario Anual de la Red de Políticas Públicas 2026 de la Universidad de Chile.</p><p>La académica sostuvo que las decisiones sobre asignación de recursos deben contar con la mayor cantidad de información posible y destacó el aporte que puede realizar la investigación económica para evaluar los resultados de los programas, sus costos y el cumplimiento de sus objetivos.</p><p>“Lo que esperaríamos es que quienes están haciendo la política pública tuvieran la mejor información posible. Ahí es donde el trabajo de los investigadores puede ayudar. En nuestro caso, como investigadores en economía, la investigación ha ido mucho por el lado de evaluar los resultados de las políticas públicas. Eso es muy importante porque da insumos para ver si la política consiguió lo que quería y a qué costo”, explicó.</p><p>Amarante también advirtió que la evaluación debe considerar cuidadosamente cuáles son los objetivos que se espera alcanzar con cada iniciativa. Para ejemplificarlo, se refirió al programa “Yo elijo mi PC”, que, hasta la fecha, entrega computadores a estudiantes de familias vulnerables en nuestro país y cuya continuidad fue cuestionada a partir de evaluaciones sobre sus resultados educativos hechos por el Gobierno.</p><p>Al respecto, la economista señaló que, en distintos países, las iniciativas de entrega de computadores no consiguieron producir los avances esperados en los aprendizajes de matemática, lenguaje y ciencias.</p><p>Sin embargo, advirtió que: “Eso no quiere decir, desde mi punto de vista, que la política en sí misma no sea buena o no cumpla otros objetivos que pueden ser igualmente importantes. Por ejemplo, la inclusión social. En el caso de Uruguay, que yo conozco más, para muchísimas familias fue el primer acceso a un computador a través de la computadora que la escuela le daba al niño. Eso también permite otras cosas, abre las puertas a otro mundo y tiene otros objetivos de inclusión social que también deberían tenerse en cuenta”.</p><p>En esa línea, enfatizó que una evaluación integral de las políticas públicas debe definir previamente qué resultados busca medir y no limitarse a una sola dimensión. En el caso de los computadores, por ejemplo, su impacto puede extenderse desde el aprendizaje escolar hasta la conectividad y las posibilidades de acceso a herramientas digitales para el conjunto de una familia.</p><p>Amarante explicó que: “Los indicadores de pobreza multidimensional tienden a moverse mucho más lentamente. Muchas veces, un shock en los ingresos hace que la pobreza monetaria aumente, mientras que los resultados de las políticas públicas que acompañan ciertas dimensiones, o el efecto de retirar esas políticas, tardan más en verse reflejados en los indicadores multidimensionales”.</p><p>Además, la directora de Investigaciones Socioeconómicas de CAF puso atención en los hogares vulnerables que se encuentran por encima de la línea de pobreza, pero que mantienen condiciones de vulnerabilidad económica. Explicó que la clasificación entre personas pobres y no pobres establece un umbral necesario para las mediciones, aunque no representa una separación absoluta entre ambas realidades.</p><p>En ese sentido, advirtió que “los hogares que quedan por encima de la línea de pobreza no están clasificados como hogares pobres, pero son hogares vulnerables. Tienen un alto riesgo de que, ante cualquier shock económico, cualquier problema de la economía o dificultades en el mercado de trabajo, puedan caer en situación de pobreza”.</p><p>La economista, mencionó que existen conceptos como la vulnerabilidad y la inseguridad económica que permiten ampliar la mirada sobre quienes, pese a no ser considerados pobres según los indicadores de ingresos, enfrentan dificultades para llegar a fin de mes, mantienen deudas o dependen de la estabilidad laboral de alguno de sus integrantes.</p><p>Finalmente, Amarante destacó que estos debates forman parte de los desafíos que deben abordar la investigación económica y el diseño de políticas públicas, especialmente en contextos de incertidumbre y restricciones presupuestarias.</p><p>La académica participará este jueves 5 de noviembre, desde las 9:00 horas, en el cuarto Seminario Anual de la Red de Políticas Públicas 2026, organizado conjuntamente por la Facultad de Gobierno, la Facultad de Ciencias Sociales (FACSO) y la Facultad de Ciencias Físicas y Matemáticas (FCFM) de la Universidad de Chile. El encuentro se desarrollará bajo el lema “Evaluar para decidir: superar la pobreza en tiempos de incertidumbre” y tendrá lugar en el salón del séptimo piso del edificio nuevo de la Universidad de Chile, con acceso por el sector de Ramón Carnicer, en Vicuña Mackenna 20.</p><p>La entrada Verónica Amarante, directora de CAF: La evaluación de las políticas públicas debe considerar más que sus resultados inmediatos se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/04/veronica-amarante-directora-de-caf-la-evaluacion-de-las-politicas-publicas-debe-considerar-mas-que-sus-resultados-inmediatos/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/04160335/veronica-amarante.png",
+      "publishedAt": "2026-11-04T19:11:54+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
+      "category": "Política y Actualidad",
       "relevanceTier": "alta",
-      "relevanceScore": 88,
+      "relevanceScore": 93,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2076,26 +2146,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 70,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "radiouchile-a259398797",
-      "title": "Verónica Amarante, directora de CAF: La evaluación de las políticas públicas debe considerar más que sus resultados inmediatos",
-      "summary": "La directora de Investigaciones Socioeconómicas de CAF destacó la importancia de evaluar las políticas públicas en sus distintas dimensiones e identificar a los hogares vulnerables que siguen cerca de la línea de la pobreza. La entrada Verónica Amarante, directora de CAF: La evaluación de las políticas públicas debe considerar más que...",
-      "content": "<p>En conversación con la primera edición de Radioanálisis, la directora de Investigaciones Socioeconómicas del Banco de Desarrollo de América Latina y el Caribe (CAF) y profesora titular de la Universidad de la República de Uruguay, Verónica Amarante, analizó los desafíos que enfrenta la evaluación de las políticas públicas y la medición de la pobreza, en el marco de su participación en el cuarto Seminario Anual de la Red de Políticas Públicas 2026 de la Universidad de Chile.</p><p>La académica sostuvo que las decisiones sobre asignación de recursos deben contar con la mayor cantidad de información posible y destacó el aporte que puede realizar la investigación económica para evaluar los resultados de los programas, sus costos y el cumplimiento de sus objetivos.</p><p>“Lo que esperaríamos es que quienes están haciendo la política pública tuvieran la mejor información posible. Ahí es donde el trabajo de los investigadores puede ayudar. En nuestro caso, como investigadores en economía, la investigación ha ido mucho por el lado de evaluar los resultados de las políticas públicas. Eso es muy importante porque da insumos para ver si la política consiguió lo que quería y a qué costo”, explicó.</p><p>Amarante también advirtió que la evaluación debe considerar cuidadosamente cuáles son los objetivos que se espera alcanzar con cada iniciativa. Para ejemplificarlo, se refirió al programa “Yo elijo mi PC”, que, hasta la fecha, entrega computadores a estudiantes de familias vulnerables en nuestro país y cuya continuidad fue cuestionada a partir de evaluaciones sobre sus resultados educativos hechos por el Gobierno.</p><p>Al respecto, la economista señaló que, en distintos países, las iniciativas de entrega de computadores no consiguieron producir los avances esperados en los aprendizajes de matemática, lenguaje y ciencias.</p><p>Sin embargo, advirtió que: “Eso no quiere decir, desde mi punto de vista, que la política en sí misma no sea buena o no cumpla otros objetivos que pueden ser igualmente importantes. Por ejemplo, la inclusión social. En el caso de Uruguay, que yo conozco más, para muchísimas familias fue el primer acceso a un computador a través de la computadora que la escuela le daba al niño. Eso también permite otras cosas, abre las puertas a otro mundo y tiene otros objetivos de inclusión social que también deberían tenerse en cuenta”.</p><p>En esa línea, enfatizó que una evaluación integral de las políticas públicas debe definir previamente qué resultados busca medir y no limitarse a una sola dimensión. En el caso de los computadores, por ejemplo, su impacto puede extenderse desde el aprendizaje escolar hasta la conectividad y las posibilidades de acceso a herramientas digitales para el conjunto de una familia.</p><p>Amarante explicó que: “Los indicadores de pobreza multidimensional tienden a moverse mucho más lentamente. Muchas veces, un shock en los ingresos hace que la pobreza monetaria aumente, mientras que los resultados de las políticas públicas que acompañan ciertas dimensiones, o el efecto de retirar esas políticas, tardan más en verse reflejados en los indicadores multidimensionales”.</p><p>Además, la directora de Investigaciones Socioeconómicas de CAF puso atención en los hogares vulnerables que se encuentran por encima de la línea de pobreza, pero que mantienen condiciones de vulnerabilidad económica. Explicó que la clasificación entre personas pobres y no pobres establece un umbral necesario para las mediciones, aunque no representa una separación absoluta entre ambas realidades.</p><p>En ese sentido, advirtió que “los hogares que quedan por encima de la línea de pobreza no están clasificados como hogares pobres, pero son hogares vulnerables. Tienen un alto riesgo de que, ante cualquier shock económico, cualquier problema de la economía o dificultades en el mercado de trabajo, puedan caer en situación de pobreza”.</p><p>La economista, mencionó que existen conceptos como la vulnerabilidad y la inseguridad económica que permiten ampliar la mirada sobre quienes, pese a no ser considerados pobres según los indicadores de ingresos, enfrentan dificultades para llegar a fin de mes, mantienen deudas o dependen de la estabilidad laboral de alguno de sus integrantes.</p><p>Finalmente, Amarante destacó que estos debates forman parte de los desafíos que deben abordar la investigación económica y el diseño de políticas públicas, especialmente en contextos de incertidumbre y restricciones presupuestarias.</p><p>La académica participará este jueves 5 de noviembre, desde las 9:00 horas, en el cuarto Seminario Anual de la Red de Políticas Públicas 2026, organizado conjuntamente por la Facultad de Gobierno, la Facultad de Ciencias Sociales (FACSO) y la Facultad de Ciencias Físicas y Matemáticas (FCFM) de la Universidad de Chile. El encuentro se desarrollará bajo el lema “Evaluar para decidir: superar la pobreza en tiempos de incertidumbre” y tendrá lugar en el salón del séptimo piso del edificio nuevo de la Universidad de Chile, con acceso por el sector de Ramón Carnicer, en Vicuña Mackenna 20.</p><p>La entrada Verónica Amarante, directora de CAF: La evaluación de las políticas públicas debe considerar más que sus resultados inmediatos se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/04/veronica-amarante-directora-de-caf-la-evaluacion-de-las-politicas-publicas-debe-considerar-mas-que-sus-resultados-inmediatos/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/04160335/veronica-amarante.png",
-      "publishedAt": "2026-11-04T19:11:54+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 93,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "anfibia-d588665740",
@@ -2935,26 +2985,6 @@
       "category": "Geopolítica y Mundo",
       "relevanceTier": "alta",
       "relevanceScore": 83,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "theintercept-e28c386479",
-      "title": "Democrats, Don’t Mess This Up",
-      "summary": "With these midterm election results, Democrats have a mandate to fight Trump and deliver for the working class. This is what they should do. The post Democrats, Don’t Mess This Up appeared first on The Intercept .",
-      "content": "<p>For two years, Donald Trump’s Republican Party has worked to push the United States further and further into a state of fascist rule. Trump’s regime has turned the federal government against ideological enemies, enriched and entrenched the power of billionaire allies, and done its utmost to decimate any checks and balances on the actions of the despotic leader and his loyalists.</p><p>It is, then, an extraordinary and overdue moment of relief to see the processes of democracy — however flawed in our barely representational system — offer the opportunity to take an off-ramp away from technocapital-backed fascism. Across the nation, Democrats secured historic victories. Even in Republican strongholds including Texas, Georgia, and South Carolina, voters delivered a rebuke to Trump’s GOP.</p><p>Democrats in Congress now have a mandate to do two things: Stop Trump, and improve the welfare of the U.S. working class. This should be understood as no less than a moral imperative to act immediately to curb the regime’s fascism in every possible way.</p><p>Americans are above all furious at the dire economic conditions in which they’re expected to struggle. The midterm results reflect a limit of Trumpian false consciousness: People know when they are poor, and they can see when billionaires, federal armed forces, genocidal governments, and presidential family members are profiting.</p><p>Despite their newfound congressional majority, Democrats now face an uphill battle to deliver legislation that will improve people’s material conditions. But that is not an excuse for inaction, mealy-mouthed gestures, or nods to bipartisanship. Democrats must push legislation that Republicans cannot stop, as well as legislation that Trump is all but sure to veto.</p><p>For one, Democrats must immediately roll back cuts to programs like Medicaid and supplemental nutritional programs. They must go further, too, and deliver on campaign promises for robust healthcare provisions, welfare spending, and restrictions on the ruinous depredations of Big Tech.</p><p>Trump bypassed Congress to prosecute his illegal war of choice on Iran, which has cost over $47 billion to date. But Congress has the power to curb military spending. Democrats must pass further resolutions to end the war, and they must pull the plug on military budget, directing funds instead to healthcare, housing, and investments in green infrastructure, to name a few urgent priorities. Though a flailing Trump finally announced that he would end military aid to Israel on Monday, it is Democrats who must pass further legislation to end all U.S. complicity in Israel’s apartheid regime and genocide.</p><p>Democrats must also propose laws to defund and abolish Immigration and Customs Enforcement. This is no outlandish proposal; the impunity-drenched militia was only founded in 2003, and it is only by virtue of Congress that it now receives more funding than any other federal law enforcement agency. It is in Congress’s power to dismantle the agency and pass legislation to nullify the $170 billion-plus allocated to the border regime in Trump’s One Big Beautiful Bill.</p><p>Democrats should do whatever possible to roll back and end political prosecutions and the Trump administration’s brazen efforts to criminalize dissent.</p><p>The Democratic program must, in short, reject the austerity logics that have dominated the party for four decades. As sociologist Melinda Cooper has pointed out, and Trump’s Republicans have again and again proven, such austerity is not even austere: Pro-austerity governments since the Nixon administration in the 1970s have overseen lavish public spending in the shape of tax cuts and subsidies for holders of financial wealth (which does not trickle down), as well as funding for policing, border enforcement, prisons, and war machines. These are choices, and Democrats have been given a mandate to make choices that instead benefit — to revive a classic — the many, not the few.</p><p>Democrats such as Rep. Pete Aguilar, D-Calif., have stressed that their focus will be on the “affordability agenda” on which the party has run. This must include taking swift action to investigate and impeach the president and the worst offenders in his Cabinet, including Secretary of War Pete Hegseth and Secretary of Health and Human Services Robert F. Kennedy Jr. In no way does insisting on accountability for Trump and his acolytes’ lawlessness distract from an economic focus. No affordability agenda can be achieved with an authoritarian executive in place. Challenging Trump’s despotism and self-dealing with every possible tool goes hand in hand with legislating to deliver on so-called kitchen-table issues.</p><p>Will Democrats in Congress, many of whom continue to reject the progressive and left-wing energies that have helped drive this blue wave, succeed in this anti-fascist political and economic agenda? No doubt, they will be thwarted at every turn by a desperate and dangerous executive and an embattled Republican minority. That is no reason to compromise, and constant pressure must be kept on Democrats who pretend otherwise. As the votes tonight make clear, in their millions, Americans know who to blame.</p><p>The post Democrats, Don’t Mess This Up appeared first on The Intercept.</p>",
-      "url": "https://theintercept.com/2026/11/04/midterm-election-results-democrats-blue-wave/",
-      "image": "https://theintercept.com/wp-content/uploads/2026/11/GettyImages-2302799836_0510f5-e1793770994540.jpg?fit=4000%2C2000",
-      "publishedAt": "2026-11-04T10:05:00+00:00",
-      "sourceId": "theintercept",
-      "sourceName": "The Intercept",
-      "sourceType": "Investigación Independiente",
-      "sourceSite": "https://theintercept.com",
-      "region": "mundo",
-      "country": "EE.UU.",
-      "independent": true,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 91,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3958,26 +3988,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-b2c6c66034",
-      "title": "Antes que el rey, Abascal: Kast abre su gira europea con su aliado de la ultraderecha española",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Antes que el rey, Abascal: Kast abre su gira europea con su aliado de la ultraderecha española El Mostrador</p>",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYVdhbHM4ZHVhamJ5ZlNZWXRRX0tpdXhQYUNGUEJnQnhzeENuQ0FNSk1oZFJtVGdQdGdZMnRlYy1KOFNHYmx3dkVmbXA1QjBUWHVQb2pMeTN1YmN6TmN2X1JfbzV6MldFNm1IUG9nc1ZRODFBUFZWSTEweUxrNG95aHBsdmpWR3ZIMTBFeDh2OVV0ZS04dml1SHBrQklDOWVhQ3dmb3FUdWRXTlhuNTAwTWJYTU5adU53S2Q4NElZYkZLb0piV1lJS2tMU1VvM3paa1RDUnFfcTZvaU83ZXc?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-02T22:29:24+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "fastcheck-499e5d1d61",
       "title": "The Economist no se refirió a Milei como \"el líder más ignorante del mundo\"",
       "summary": "El presidente argentino Javier Milei realizó una charla magistral en la Universidad de Torcuato Di Tella en la que se refirió erróneamente al protagonista de 'La Odisea' como 'Eliseo' en vez de 'Odiseo'. Tras ello circuló una supuesta portada de The Economist tildando al mandatario como «el líder más ignorante». Fast Check califica el...",
@@ -4238,6 +4248,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "resumen-8ac7bbe6d0",
+      "title": "Subempleo profesional: más de 1,2 millones de personas con estudios superiores trabajan en empleos no calificados",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Subempleo profesional: más de 1,2 millones de personas con estudios superiores trabajan en empleos no calificados Resumen.cl</p>",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ1RWTUVTOHpLWmtvcnlRVWU2bFlseXlJMzZFd0NSZ1lwenZJWWlqem9pQ002WjlCMlM1QnpVQ2hjR0dyQXN1NWNqY2kzTG1kT3VkeDFRd3VOR2RLTzJ4ODhNYzNBeXRPaG9rdlBUS2diWG1mRTFYNjlvYkZ4TVBnZ2RhNTFzeWt6b2pHX0VBTVZVYlNvNkQ3NnU4NkJwcmVlUDY1UllIck4wZVZxTkpKS3NncmFNeHQ5YThmd0lPZmxkN05JZUZyQUFCRG9aeFVzaGV5WDRVUQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-02T08:58:04+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 70,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
       "id": "ciclismo-chile-6a71cfa128",
       "title": "Más de $87 millones sin devolver: la historia detrás del fallido Giro de Rigo en Chile",
       "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4256,6 +4286,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 94,
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "resumen-f7d7e2b896",
+      "title": "Siguen los intentos de acabar con el chavismo",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwMFZ1Yl91VGRvOTMzOHNFYVRBcWFsdzZ0SVU5QnN6RlIyVG1iT3ZUdmViS1hmWC0wSldMSVRZOEg5Vjd3ZVgtVmp0MzZUMkhfRE9naTVrcXFxQ19lVEdwRDRGSWRDNzA3R0ZYdWNyejNvNW5CcldhMGg3X2tDT3M?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-02T08:00:00+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 74,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "ojopublico-9038676b89",
@@ -4844,7 +4894,7 @@
       "content": "",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYUXJxdTNKT1N3U1FNOWxrTUlxZ1NWNzlvVEJfWHJocWw3bm9rYXRNaXBXbE4tbUFXeGFGN0xaeU1fTkFDb21jVE56clF2bXZXSmgwR05n?oc=5",
       "image": null,
-      "publishedAt": "2026-10-30T05:26:53+00:00",
+      "publishedAt": "2026-10-30T03:47:08+00:00",
       "sourceId": "brecha",
       "sourceName": "Semanario Brecha",
       "sourceType": "Periodismo Indep. LatAm",
@@ -5323,7 +5373,7 @@
       "summary": "Foto: Télam En la computadora de Mariano Cosentino hay una presentación de PowerPoint preparada para una reunión con José Luis Espert. Es mayo de 2021. Es el contador de Espert y trabaja sobre su situación patrimonial. En la computadora tiene una diapositiva que ordena cuatro maneras posibles de blanquear doscientos mil dólares. La...",
       "content": "<p>En la computadora de Mariano Cosentino hay una presentación de PowerPoint preparada para una reunión con José Luis Espert. Es mayo de 2021. Es el contador de Espert y trabaja sobre su situación patrimonial. En la computadora tiene una diapositiva que ordena cuatro maneras posibles de blanquear doscientos mil dólares. La plata había llegado desde el exterior. Desde Wright Brothers Inc., una compañía del entramado de Federico “Fred” Machado, el empresario ligado a la aviación privada que para entonces ya estaba investigado en una causa en Estados Unidos por narcotráfico, lavado y fraude. Ese dinero había entrado en una cuenta del Morgan Stanley que Espert nunca declaró ante el fisco argentino. Después empezó a moverse de a poco hacia una cuenta local del Banco Francés. Cosentino guarda en su computadora un archivo con el abanico de opciones para resolverlo. Lo creó la noche anterior al encuentro con el nombre “Apuntes para la reunión del 7-5-2021.pptx”. Una diapositiva. Y un gráfico con cuatro columnas prolijas que ofrecían distintas alternativas: Mostrar todo, Prestación del servicio incumplida, Liberalidad, No mostrar nada.</p><p>Las cuatro alternativas que evaluaron los contadores de Espert en 2021 para tratar los US$200.000 recibidos.</p><p>Este jueves 22 de octubre, el juez federal de San Isidro, Lino Mirabelli, procesó a Espert por presunto lavado de activos sin prisión preventiva. Le impuso un embargo de mil millones de pesos y le prohibió salir del país. La resolución también alcanzó a Cosentino y a Varianza SA, la sociedad familiar.</p><p>En esas cuatro columnas se condensa toda la historia que sigue. Cada vez que a Espert se le presentó una salida, eligió la que lo terminaría hundiendo. Firmó un contrato en un país al que nunca viajó, recibió dinero en una cuenta que no declaró, cuando le mostraron cuatro maneras de blanquear esa plata, eligió esconderla. Cuando el escándalo se hizo público dio explicaciones que se pisaban entre sí. Cuando se dio cuenta de que ya no quedaba margen se quebró, lloró al aire en Radio Mitre y se bajó tarde de una candidatura que ya tenía su cara impresa en la boleta.</p><p>Los archivos registran qué alternativas discutieron sus asesores en mayo de 2021 y qué se informó después al fisco. En septiembre de 2025, las mismas decisiones reaparecieron en otros documentos preparados para explicar la transferencia cuando ya era pública.</p><p>El economista libertario que había sido candidato en la campaña presidencial de 2019, el que decía “cárcel o bala”, el que después encabezó la lista de diputados de La Libertad Avanza en la provincia de Buenos Aires, tenía una historia paralela que empezó con un contrato guatemalteco que siete años más tarde lo dejó procesado.</p><p>El 7 de julio de este año, Espert se presentó a indagatoria ante la Justicia Federal de San Isidro. Llegó con un escrito y no respondió preguntas. Un mes y medio después volvió a hablar. Esta vez con un descargo de 141 páginas —65 de escrito y 76 de anexos— y una frase en redes sociales. “No pido que me crean, sólo que me lean”, escribió. Este artículo rescata la documentación que permite reconstruir el camino, las dudas y las decisiones de Espert y sus contadores para ocultar el dinero.</p><p>El documento llevaba fecha del 7 de junio de 2019 y ubicaba la firma en Guatemala. Allí, Minas del Pueblo, una empresa minera, aparecía contratando a Espert por un millón de dólares. Del otro lado firmaba Federico “Fred” Machado, presentado en el contrato como gerente general de la compañía. La tarea prometida tenía tres partes. Un análisis de mercado, un asesoramiento para refinanciar la deuda de la minera, un plan de crecimiento a tres años con seguimiento e informes periódicos.</p><p>Según la explicación de Espert, la empresa había contratado a un economista de la city porteña. Los doscientos mil dólares eran apenas un adelanto. El trabajo no se había hecho por la pandemia. La explicación tenía una ventaja: existía un contrato. Pero tenía un problema: casi todo alrededor de ese contrato crujía.</p><p>El contrato estaba firmado en Guatemala. Pero la documentación de Migraciones mostró que Espert no estaba allí. No registró un solo viaje a ese país ni antes de la firma, ni en la fecha, ni después. Entre febrero y agosto de 2019 fue a Estados Unidos y a Chile. A Guatemala, nunca. En cambio, el que se encontraba en la Argentina por esos días fue Machado. Entró el 5 de junio y salió el 8. El contrato lleva fecha del 7.</p><p>La empresa existía. Estaba inscripta, tenía objeto minero y esa cáscara formal servía para la defensa. “Existe la mina, todo”, diría Espert después. Pero el fiscal no encontró deudas ni problemas financieros que justificaran contratar a un economista para asesorar a la minera guatemalteca. Mucho menos por un millón de dólares cuando la deuda de la empresa era de 372.975 dólares. La Fiscalía también cuestionó su experiencia para el trabajo contratado.</p><p>Según su propio sitio espert.com.ar, su experiencia muestra conocimientos sobre macroeconomía, apertura comercial, gasto público e inflación. Sin embargo, nada sobre minería más que una charla que brindó en San Juan.</p><p>¿Por qué se firmó un contrato en Guatemala si Espert no viajó a Guatemala? ¿Por qué Machado estaba en la Argentina el día de la firma? ¿Por qué una minera sin deuda necesitaba refinanciarse? ¿Por qué un economista sin trayectoria en minería iba a cobrar un millón de dólares por un plan de ampliación? ¿Por qué Espert cobró doscientos mil dólares, no hizo el trabajo y nunca devolvió la plata?</p><p>En agosto de este año, Espert volvió sobre ese punto. Presentó once correos de 2019, la certificación notarial, la apostilla del contrato y señaló a tres testigos que, según su defensa, corroboraron la relación profesional. Para él, esos documentos prueban que el contrato existió antes de la transferencia. Para el fiscal, siguen sin explicar su objeto real, su ejecución ni por qué Wright Brothers terminó pagando doscientos mil dólares.</p><p>Siete meses después de la firma, el 22 de enero de 2020, salieron doscientos mil dólares de una cuenta de esa empresa y entraron a una cuenta del Morgan Stanley a nombre de Espert y su esposa, María Mercedes González.</p><p>Wright Brothers administraba fondos para operaciones aeronáuticas. El Departamento de Justicia estadounidense identifica como propietaria a Debra Mercer-Erwin y describe un esquema en el que inversores depositaban dinero bajo custodia para compras de aviones que luego no se concretaban. Los fondos se desviaban a otras cuentas y nuevos depósitos cubrían obligaciones anteriores. Esa estructura combinaba empresas, cuentas y documentos de operaciones aparentemente comerciales.</p><p>En un intercambio, los contadores advirtieron que la transferencia había ingresado y que había que “amortiguar” esa suma. La herramienta posible para blanquear era Varianza SA, la sociedad de Espert y su esposa. Era una empresa real, inscripta y con papeles, aunque casi no registraba actividad. Según los propios contadores, había facturado apenas dos meses y pagaba sueldos a Espert y a su esposa. En las tramas de lavado, sociedades formalmente constituidas y con poca actividad pueden utilizarse para incorporar ingresos a una contabilidad, justificar movimientos y alejar el dinero de su recorrido original. Para los investigadores, Varianza cumplía la función de simular ingresos profesionales legítimos y justificar consumos dentro de la economía de Espert.</p><p>En 2020, el exdiputado ordenó dos transferencias de cincuenta mil dólares cada una desde la cuenta del Morgan Stanley a su cuenta local en el Banco Francés. Del primer giro retiró efectivo y pagó 47.800 dólares por un BMW M240i. En noviembre de 2024 vendió ese auto por 62.000 dólares. Después compró un Lexus de casi 130.000 dólares. El dinero empezó a tener usos y movimiento.</p><p>Para la adquisición del Lexus, Cosentino -ahora también procesado- firmó una certificación de origen de fondos. La acusación atribuye a ese documento una función concreta en la incorporación de los activos al mercado formal.</p><p>La cuenta del Morgan Stanley no aparecía en las declaraciones juradas analizadas por la investigación. Espert declaraba una cuenta en el exterior en UBS Financial Services Inc, pero nunca mencionó la otra. Y sus contadores lo sabían.</p><p>En abril de 2021 detuvieron a Fred Machado en Viedma. Para el fiscal, ese momento es uno de los elementos de juicio de “mayor relevancia y trascendencia” de toda la maniobra. Según el dictamen, la detención mostró la comprensión que Espert y sus contadores tenían sobre el problema que representaban las transferencias y los activos en el exterior.</p><p>Hasta entonces, la relación de Espert con Machado era una historia de campaña. Vuelos de favor, una camioneta blindada, la presentación de un libro en Viedma, fotos y sonrisas. La detención cambió la escala del problema. El expediente dice que fue la detención del empresario rionegrino la que precipitó la revisión de la situación patrimonial de Espert.</p><p>Entre los archivos del contador apareció un documento de Excel que la fiscalía atribuye al propio Espert. Se llamaba “Morgan Stanley Value Holdings a fin de año desde 2019.xlsx”. Un estado de situación de las existencias dinerarias de la cuenta del Morgan Stanley a distintas fechas. Después de la detención, Espert enviaría un audio a uno de sus contadores alertando sobre el contratiempo.</p><p>“El problema es… el ingreso de esos doscientos del 2020”, le dijo.</p><p>Algo alterado, le confesó a su contador que la plata venía de Minas del Pueblo, la empresa de Machado. “Existe la mina, todo”, se justificó. Y agregó “puede ser que el tipo, como muchos de estos ñatos, tenga sus negocios blancos”. La expresión quedó grabada. Espert hablaba de Machado después de su detención y buscaba encajar los doscientos mil dólares dentro de una actividad que pudiera ser presentada como legítima. Minas del Pueblo servía para eso. Era una empresa existente, estaba inscripta y tenía como objeto la minería. El contrato también existía. “Negocios blancos” podía ser una manera de separar esa parte presentable del resto de los negocios de Machado que ya estaban bajo investigación en Estados Unidos.</p><p>Los mensajes y audios de WhatsApp recuperados del teléfono del contador Fernando Escobar, otro de los contadores, permiten seguir las conversaciones entre Espert y sus contadores. Las planillas y presentaciones secuestradas a Cosentino completan esa reconstrucción.</p><p>El 26 de abril de 2021, se produjo el siguiente diálogo entre los contadores. “Locura buen día, avísame a qué hora te puedo llamar, tengo un tema delicado”, le escribió Fernando Escobar, otro de los asesores contables de Espert, a Cosentino. “Uf.. que cagada esto. Fijate si conseguís el extracto a ver cómo fue la transferencia. Lei todo y esta todo re vinculado, ya se sabe que la empresa es de ese tipo” le contestó Cosentino.</p><p>A partir de esos dos mensajes, los contadores trabajaron en distintos archivos con alternativas para resolver cómo blanquear el dinero y sus movimientos.</p><p>“JLE-Revisión y planificación fiscal.pptx”</p><p>Según la fiscalía, el “punto neurálgico” era qué hacer con esos doscientos mil dólares en las declaraciones juradas. Declararlos, explicar su origen, “afrontar el costo impositivo” aunque eso dejara un rastro. O mantenerlos afuera.</p><p>El trabajo no se agotaba en los doscientos mil dólares. Los contadores también revisaban otras deudas, sociedades y formas de acomodar los números. Hablaron de una deuda de Ingresos Brutos de Varianza SA. La solución que se discutía era hacerla desaparecer con una declaración jurada en cero. “Para mí eso es bastante arriesgado”, dijo una contadora. “Yo sé que desaparece, pero no es lo que corresponde”, agregó. La frase vuelve a mostrar el clima de esas semanas. Había advertencias y una conciencia bastante clara de cuándo algo servía y cuándo algo correspondía.</p><p>Además, los archivos que los contadores le presentaban a Espert intentaban ordenar su futuro. En uno de esos documentos aparecían “pautas para evitar situaciones similares” durante el 2021. Una recomendación era especialmente gráfica y alertaba “maximizar consumo en efectivo”. El problema no era solamente qué hacer con los doscientos mil dólares que ya habían entrado sino cómo administrar de ahí en adelante un patrimonio que no podía mostrarse entero.</p><p>“Maximizar consumo en efectivo”. Una de las recomendaciones de los contadores de Espert para administrar sus gastos y justificar su patrimonio durante 2021.</p><p>Cada opción contenía pros y contras. Mostrar la transferencia obligaba a afrontar los costos impositivos y dejar rastros de la operación en la declaración jurada. Presentar la transferencia como una prestación de servicio incumplida podía aliviar los costos impositivos aunque abría otros riesgos. La “liberalidad” aparecía como “la de menor riesgo político y de más transparencia por si se conoce el contrato”. Significaba presentar el pago como una donación o aporte en lugar de un pago por servicios. La última alternativa era forzar la declaración jurada y no mostrar nada. “Si sale mal se puede complicar todo”, decían sobre esta última. Esas alternativas discutían qué declarar y con qué explicación. Ninguna podía convertir en lícito un eventual origen delictivo de los fondos.</p><p>De todas las opciones, Espert eligió la peor.</p><p>“Si sale mal se puede complicar todo”. La advertencia junto a la opción de “forzar” la declaración jurada de 2020, en el esquema de alternativas elaborado por los contadores de Espert.</p><p>Espert no parece haber elegido inconscientemente. Según la justicia, se trató de una decisión deliberada. Sus contadores revisaron su patrimonio, proyectaron sus declaraciones juradas, discutieron sobre “hacer desaparecer la deuda” a través de Varianza SA, pensaron cómo administrar el efectivo y escribieron “pautas para evitar situaciones similares”. Cada decisión le compraba un poco más de tiempo. Declarar la cuenta, devolver la plata o explicar su origen obligaban a resolver el problema en ese momento. Dejarla afuera permitía patearlo hacia adelante. Durante años funcionó. La transferencia no era pública, la cuenta del Morgan Stanley tampoco y el contrato seguía guardado.</p><p>Por esos días, Espert parecía más preocupado por no desordenar el trabajo de sus contadores que por el fondo del asunto. Hablaba de ingresos blancos, de alquileres, de honorarios. Los números apenas le cerraban.</p><p>“En 2022 si Dios quiere estaré como Diputado de la Nación, ya tendré un sueldo como empleado del Congreso de la Nación”, decía. Además le pedía a uno de sus contadores que arreglara el pago de la otra contadora para que no “descuajeringara todos los números” que estaban “encaminando”.</p><p>La omisión no podía explicarse como un olvido. Después de la detención de Machado, después de revisar la cuenta del Morgan Stanley y después de discutir las salidas posibles con sus contadores, Espert todavía estaba a tiempo de decir la verdad. Según describió el fiscal en el pedido de indagatoria, si el ex diputado actuaba de buena fe podía declarar la cuenta, explicar el saldo o consignar judicialmente la plata que seguía en el exterior. Al 30 de abril de 2021, todavía quedaban más de ciento dieciocho mil dólares sin declarar ni justificar. Pero no lo hizo. Lo mantuvo en secreto. “In pectore”. Fuera de la declaración jurada.</p><p>Al procesarlo, el juez Mirabelli le atribuyó haber advertido la posibilidad concreta de que el dinero tuviera origen delictivo y haber continuado con operaciones para introducirlo y disimularlo en el sistema financiero.</p><p>Cuando la transferencia finalmente se hizo pública, quedaron a la vista las decisiones que había ido postergando durante años. La cuenta sin declarar, el contrato, los archivos de sus contadores, los audios y las declaraciones juradas empezaron a formar parte de una misma historia.</p><p>Esa historia ya había tenido su expediente. En 2021, después de la detención de Machado, se abrió una causa en Comodoro Py por los aviones que Espert había usado durante su campaña presidencial de 2019. Vuelos privados, una camioneta blindada, fotos de campaña. Todavía no aparecía la cuenta del Morgan Stanley. Todavía no aparecía el giro de doscientos mil dólares. Todavía no aparecía el contrato guatemalteco.</p><p>En septiembre de 2025, Juan Grabois denunció a Espert en la Justicia Federal de San Isidro. La presentación señalaba que el diputado había recibido al menos doscientos mil dólares de una empresa vinculada a Machado y pedía investigar si esos fondos podían integrar una maniobra de lavado. La denuncia se apoyó en documentación de una causa en Texas contra Machado y su socia Debra Mercer-Erwin. Días después, La Nación publicó registros oficiales del Bank of America que ubicó el giro del 22 de enero de 2020, por doscientos mil dólares, desde Wright Brothers Aircraft Title Inc. hacia una cuenta vinculada a Espert.</p><p>La transferencia incluyó una anotación en la que figuraba la patente de uno de los aviones de Machado que Espert había usado en su campaña. ¿Por qué un pago por asesoramiento a una minera tenía como referencia ese avión? Según el juez, el ex diputado tampoco explicó esto en su descargo.</p><p>El expediente en Texas también siguió avanzando. En agosto, el juez federal de Texas, Amos Mazzant, aceptó la declaración de culpabilidad de Machado por conspiración para cometer lavado de dinero y fraude electrónico. Cuando Espert presentó su descargo, el empresario ya había reconocido esos delitos ante la justicia estadounidense.</p><p>Cuando la transferencia salió a la luz, Espert publicó un video para justificarse. Dijo que Machado le había contado que una “empresa minera vinculada a él” necesitaba un economista. Habló de una reunión, de un adelanto, de una condición que él mismo había puesto. “Nada que esconder” aclaró. Dos días después, en una entrevista radial agregó que “la empresa era de Fred Machado” y dijo que había firmado el contrato con él. Consultado por la detención respondió que quedó “shockeado” y “entró en pánico”. La justicia encontró la copia física del contrato en un allanamiento en la casa donde Machado esperaba la extradición y una versión digital del mismo documento entre los archivos del contador de Espert.</p><p>El requerimiento fiscal ordena esas explicaciones como una serie de versiones que se acumulan. Que el depósito había sido diferido aunque el contrato preveía otra cosa. Que en un holding una empresa puede pagar por otra. Que el origen de los fondos debía controlarlo el banco receptor en Estados Unidos. Que la pandemia frustró los viajes y el cumplimiento del trabajo. Ninguna resolvía la pregunta inicial. ¿Por qué una empresa del entramado de Machado le giró doscientos mil dólares a una cuenta que después no apareció en sus declaraciones juradas?</p><p>En los dispositivos también aparecieron otros archivos digitales que funcionaban como una reedición de las alternativas de 2021, pero con una diferencia. Ya no se trataba de decidir si mostrar o no mostrar. Ahora había que explicar por qué durante años no se había mostrado. Así nombraron los contadores de Espert a los documentos en los que ofrecían nuevas explicaciones:</p><p>“Esquema Contrato Minas del Pueblo.pdf”</p><p>“Evaluación de Riesgos Penales por Lavado de Dinero en la Situación del Cliente.docx”</p><p>“Rectificativas de impuesto a las ganancias.docx”</p><p>“JLE-Flujo de fondos Banco Exterior.pdf”</p><p>Otro de esos documentos se llamaba “250930_TemaFM.docx”. Era un “insumo discursivo” para entrevistas periodísticas ante la posible pregunta sobre por qué no se declaró la transferencia en 2020:</p><p>“a) por un tema de “pánico impositivo” y los daños que estos hechos podrían generar en la figura de JLE</p><p>b) JLE ya era candidato y era conocido su enfrentamiento con el Kircherismo</p><p>c) Frente a la AFIP estaba Mercedez Marcó del Pont, funcionaria del Gobierno de Alberto Fernandez y fuertemente alineada a Cristina Fernandez de Kirchner.</p><p>d) Hay ejemplos de sobra de como el Kirchnerismo no respetaba las Instituciones</p><p>e) Por ello lo que se busco en no declarar la cuenta al 2020 fue evitar que a través de la AFIP se den a conocer hechos de una forma distorsionada como finalmente está sucediendo actualmente porque explicar eso significaria que JLE quedara afuera de su carrera politica en el 2021, lo mismo que sucedió ahora. Finalmente esto sucedió porque el kirchnerismo accedió a información privilegiada del expediente en Texas”.</p><p>El lenguaje ya le resultaba familiar. El 5 de junio de 2025, tres meses antes de que se conociera la transferencia, Espert había presentado en Casa Rosada el proyecto del Poder Ejecutivo sobre Inocencia Fiscal. Como presidente de la Comisión de Presupuesto habló entonces de abandonar el “régimen persecutorio” de la ex AFIP y de permitir que quien hubiera ahorrado pudiera “formalizar ese ahorro sin que lo persiga el fisco”. Cuando meses después sus asesores escribieron “pánico impositivo”, la persecución fiscal ya formaba parte del vocabulario público de Espert.</p><p>En agosto de este año, Diputados le dio media sanción a Inocencia Fiscal II, la reforma con la que el Gobierno buscó facilitar la formalización de ahorros que permanecieron fuera del sistema. El texto aprobado permite que los funcionarios utilicen la declaración simplificada, pero los deja afuera de sus principales beneficios entre ellos la presunción de exactitud y la liberación de fiscalizaciones. La restricción alcanza también a quienes fueron legisladores durante los últimos cinco años.</p><p>“Quien lava fracciona, usa testaferros y esconde su nombre”, escribiría Espert luego en su descargo. La descripción legal del lavado en la Argentina es más amplia. El Código Penal contempla transferir, administrar, adquirir o poner en circulación bienes provenientes de un ilícito cuando pueden adquirir apariencia lícita.</p><p>Al mismo tiempo, Espert encabezaba la lista de diputados de La Libertad Avanza en la provincia de Buenos Aires. Cuando el escándalo escaló lo suficiente, decidió bajarse. Lo hizo a tres semanas de las elecciones. El oficialismo lo reemplazó con Diego Santilli y pidió reimprimir las boletas. Por decisión de la justicia electoral, el nombre y la cara de Espert quedaron impresos. La Cámara Nacional Electoral consideró inviable la reimpresión en los plazos disponibles. Santilli, buen soldado de emergencias, meses después volvería a ser reemplazante. Esta vez, de Manuel Adorni en la Jefatura de Gabinete.</p><p>El 27 de octubre de 2025, una vez iniciada la causa que lo investiga por lavado de dinero, Espert extrajo ochenta mil dólares de su cuenta. Meses antes, su esposa se había sumado a un fideicomiso llamado Costa Dunas situado en el km 378 de la Ruta 11 a 2 km de la entrada principal de Costa Esmeralda. Según la documentación incorporada a la causa, pagó un anticipo de 55.501 dólares y después más de cincuenta millones de pesos en siete cuotas. La fiscalía incluyó esa operación en su hipótesis. En cambio, el juez, no consideró acreditado que la seña proviniera del dinero de Machado. Tampoco dio por probado ese origen para la parte en pesos del Lexus.</p><p>En el descargo que Espert presentó ante la justicia cuando todas las sospechas ya eran públicas argumentó que nadie lava dinero a cara descubierta con su propia cuenta, en su propio banco y con contratos a su nombre. “No pido que me crean. Sólo que me lean”. El juez lo leyó pero hasta ahora no le creyó.</p><p>Este mes, la Cámara Federal de San Martín rechazó sus cuestionamientos a la investigación. Días después llegó el procesamiento.</p><p>“La verdad está escrita en los documentos. Y los documentos no militan ni operan”, escribió al terminar aquel hilo de Twitter. Quería mostrarlo. Quería que lo leyeran. Lo publicó en sus redes sociales. Pero era tarde. Lo que demuestran los documentos es el ocultamiento. Todo lo que Espert presentó hace apenas dos meses tuvo que investigarlo la justicia durante años, precisamente porque el ex diputado no lo había mostrado. Los contadores le habían ofrecido cinco años antes varias alternativas para declarar los doscientos mil dólares y la cuenta bancaria estadounidense. Todavía podía elegir qué mostrar. Eligió no mostrar nada.</p><p>La entrada No mostrar nada se publicó primero en Revista Anfibia.</p>",
       "url": "https://www.revistaanfibia.com/no-mostrar-nada/",
-      "image": null,
+      "image": "https://www.revistaanfibia.com/wp-content/uploads/2026/10/espert_TELAM_01_port.jpg",
       "publishedAt": "2026-10-23T15:35:00+00:00",
       "sourceId": "anfibia",
       "sourceName": "Revista Anfibia",
