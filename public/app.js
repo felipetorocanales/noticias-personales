@@ -129,8 +129,7 @@ function topicBlob(article) {
 }
 
 const TOPIC_FILTERS = [
-  { id: "all", label: "Todas las temáticas", icon: "🎯", matcher: () => true },
-  {
+  { id: "all", label: "Todas las temáticas", icon: "🎯", matcher: () => true },  {
     id: "ciclismo",
     label: "Ciclismo y Deportes",
     icon: "🚴",
@@ -149,6 +148,13 @@ const TOPIC_FILTERS = [
   { id: "geopolitica", label: "Geopolítica", icon: "🌐", matcher: (a) => a.category === "Geopolítica y Mundo" },
   { id: "cultura", label: "Cultura", icon: "🎨", matcher: (a) => a.category === "Cultura y Sociedad" }
 ];
+
+// Temática asociada a la categoría de una tarjeta (para el filtro por clic).
+function getTopicIdForCategory(category) {
+  if (!category) return null;
+  const matched = TOPIC_FILTERS.slice(1).find((topic) => topic.matcher({ category }));
+  return matched ? matched.id : null;
+}
 
 function getSourceBadge(sourceId, region) {
   const flags = {
@@ -1161,6 +1167,7 @@ function renderCardsInto(container, list) {
       const isHigh = art.relevanceTier === "alta";
       const hasRealImage = !!(art.image && !isGenericImageUrl(art.image));
       const isLead = index === 0 && hasRealImage;
+      const topicId = getTopicIdForCategory(art.category);
 
       return `
         <article id="article-${escapeHtml(art.id)}" class="feed-card ${hasRealImage ? "" : "feed-card-editorial"} ${isLead ? "feed-card--lead" : ""} ${state.targetArticleId === art.id ? "highlight-target-card" : ""}" data-article-id="${escapeHtml(art.id)}">
@@ -1184,9 +1191,12 @@ function renderCardsInto(container, list) {
             <div class="card-header-bottom">
               <span class="card-time">${formatRelativeTime(art.publishedAt)}</span>
               <div class="card-header-tags">
-                <span class="card-category-pill" title="${escapeHtml(art.category)}">
+                <button type="button"
+                        class="card-category-pill ${topicId && state.topicFilter === topicId ? "is-active" : ""}"
+                        data-filter-topic-name="${escapeHtml(art.category)}"
+                        title="${state.topicFilter === topicId ? "Quitar el filtro de temática" : `Ver solo ${escapeHtml(art.category)}`}">
                   ${escapeHtml(art.category)}
-                </span>
+                </button>
                 ${
                   state.instagramPostIds && state.instagramPostIds.has(art.id)
                     ? `<span class="card-instagram-badge" title="Publicado en Instagram @pulso.independiente.26">📸 En Instagram</span>`
@@ -1762,6 +1772,33 @@ function bindEvents() {
       const topicId = topicBtnTrigger.getAttribute("data-topic-filter");
       state.topicFilter = topicId;
       renderAll();
+      return;
+    }
+
+    // Chip de categoría: filtra manteniendo la tarjeta tocada en su sitio
+    const catPillTrigger = e.target.closest("[data-filter-topic-name]");
+    if (catPillTrigger) {
+      e.preventDefault();
+      const catName = catPillTrigger.getAttribute("data-filter-topic-name");
+      const matched = TOPIC_FILTERS.slice(1).find((t) => t.matcher({ category: catName }));
+      if (matched) {
+        const card = catPillTrigger.closest("[data-article-id]");
+        const anchorId = card ? card.getAttribute("data-article-id") : null;
+        const beforeTop = card ? card.getBoundingClientRect().top : null;
+
+        state.topicFilter = state.topicFilter === matched.id ? "all" : matched.id;
+        renderAll();
+
+        // Anclaje visual: la tarjeta pulsada no debe saltar bajo el dedo.
+        if (anchorId && beforeTop !== null) {
+          const after = document.getElementById(`article-${anchorId}`);
+          if (after) {
+            const delta = after.getBoundingClientRect().top - beforeTop;
+            if (Math.abs(delta) > 1) window.scrollBy(0, delta);
+          }
+        }
+        showToast(state.topicFilter === "all" ? "Todas las temáticas" : `Solo ${matched.label}`);
+      }
       return;
     }
 

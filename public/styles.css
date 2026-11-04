@@ -3244,14 +3244,29 @@ body {
   padding: 3px 9px;
   white-space: nowrap;
   cursor: default;
-  user-select: none;
+  font-family: var(--font-mono);
+  line-height: 1.4;
+  transition: border-color 0.14s ease, color 0.14s ease, background 0.14s ease;
 }
 
-/* La píldora es una etiqueta, no un botón: no reacciona al puntero */
-.card-category-pill:hover {
-  border-color: var(--border-subtle);
-  color: var(--text-secondary);
-  background: transparent;
+.card-category-pill[data-filter-topic-name] {
+  cursor: pointer;
+}
+
+/* Filtra sin dramas: se insinúa al pasar el puntero y se marca cuando está activo */
+.card-category-pill:hover,
+.card-category-pill:focus-visible {
+  border-color: var(--accent-high-border);
+  color: var(--accent-high);
+  background: var(--accent-high-bg);
+  outline: none;
+}
+
+.card-category-pill.is-active {
+  border-color: var(--accent-high);
+  color: var(--accent-high);
+  background: var(--accent-high-bg);
+  font-weight: 700;
 }
 
 .card-instagram-badge {
