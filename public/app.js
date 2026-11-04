@@ -181,6 +181,7 @@ function showToast(msg) {
 const state = {
   articles: [],
   sources: [],
+  sourceStats: [],
   blockedExamples: [],
   totalBlockedCount: 0,
   mainFilter: "all",
@@ -509,6 +510,7 @@ async function loadInitialSnapshot() {
     const data = await res.json();
 
     state.sources = [...(data.sources || []), ...state.customSources];
+    state.sourceStats = data.sourceStats || [];
     state.blockedExamples = data.blockedExamples || [];
     state.totalBlockedCount = data.totalBlockedFarandula || 0;
 
@@ -620,6 +622,7 @@ function showNewArticlesBanner(freshData, count = 0) {
 
 function applyFreshSnapshot(data) {
   state.sources = [...(data.sources || []), ...state.customSources];
+  state.sourceStats = data.sourceStats || [];
   state.blockedExamples = data.blockedExamples || [];
   state.totalBlockedCount = data.totalBlockedFarandula || 0;
   state.lastGeneratedAt = data.generatedAt || null;
@@ -1549,6 +1552,19 @@ function openSourcesModal() {
   grid.innerHTML = state.sources
     .map((s) => {
       const count = state.articles.filter((a) => a.sourceId === s.id).length;
+      const stat = state.sourceStats.find((x) => x.id === s.id) || {};
+
+      let health = "";
+      if (stat.status === "error") {
+        health = `<span class="source-health health-bad">⚠️ feed con error</span>`;
+      } else if (stat.status === "stale") {
+        health = `<span class="source-health health-warn">⏸️ sin notas recientes</span>`;
+      } else if (typeof stat.newestAgeHours === "number") {
+        const h = stat.newestAgeHours;
+        const label = h < 1 ? "hace minutos" : h < 48 ? `hace ${Math.round(h)} h` : `hace ${Math.round(h / 24)} días`;
+        health = `<span class="source-health">🕒 última nota ${label}</span>`;
+      }
+
       return `
         <div class="source-dir-card">
           <div class="source-dir-top">
@@ -1556,6 +1572,7 @@ function openSourcesModal() {
             <span class="indep-tag">${count} notas</span>
           </div>
           <div class="source-dir-meta">${escapeHtml(s.type)}</div>
+          ${health ? `<div class="source-dir-meta">${health}</div>` : ""}
           <div class="source-dir-meta">
             <a href="${escapeHtml(s.site || s.url)}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-low);">
               Visitar sitio ↗

@@ -2391,6 +2391,20 @@ textarea {
   opacity: 0.85;
 }
 
+/* Salud del feed por fuente (modal de fuentes) */
+.source-health {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+}
+
+.source-health.health-warn {
+  color: var(--accent-low);
+}
+
+.source-health.health-bad {
+  color: var(--accent-danger);
+}
+
 /* ==========================================================================
    FLOATING FEEDBACK BUTTON & MODAL (Espacio para Mejorar la Página)
    ========================================================================== */

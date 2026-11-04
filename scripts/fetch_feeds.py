@@ -489,6 +489,19 @@ SOURCES = [
     }
 ]
 
+# --- Ventana de frescura --------------------------------------------------------
+# Google News devuelve su archivo histórico completo cuando la consulta no lleva
+# filtro temporal: eso metía notas de 2015 y 2022 en portada. `when:7d` limita la
+# búsqueda a la última semana sin dejar fuera a los medios de publicación lenta.
+GOOGLE_NEWS_RECENCY = "when:7d"
+for _src in SOURCES:
+    _url = _src.get("url", "")
+    if "news.google.com/rss/search" in _url and "when:" not in _url:
+        _src["url"] = _url.replace("&hl=", f"+{GOOGLE_NEWS_RECENCY}&hl=", 1)
+
+# Tope de antigüedad: nada más viejo entra al snapshot (sigue disponible en archive.json).
+MAX_AGE_DAYS = float(os.environ.get("PULSO_MAX_AGE_DAYS", "14"))
+
 # --- Filtro 2.0 -----------------------------------------------------------------
 # Tres niveles, de más a menos estricto:
 #   1. FOOTBALL_TERMS: vocabulario inequívocamente futbolístico -> bloqueo directo.
@@ -1157,6 +1170,8 @@ def fetch_all():
     for src in SOURCES:
         count = 0
         blocked_count = 0
+        stale_count = 0
+        newest_age = None
         try:
             req = urllib.request.Request(
                 src["url"],
@@ -1224,7 +1239,13 @@ def fetch_all():
                 if not title:
                     continue
 
-                if " - " in title and src["id"] in ["elmostrador", "eldesconcierto", "brecha", "laderasur", "resumen", "elsalto"]:
+                # Títulos que son solo una fecha (números de boletín, no noticias).
+                if re.fullmatch(r"[\d\s\-/.]{4,14}", title.strip()):
+                    continue
+
+                # Google News añade " - Medio" al final del titular.
+                es_google_news = "news.google.com" in src["url"]
+                if " - " in title and (es_google_news or src["id"] in ["elmostrador", "eldesconcierto", "brecha", "laderasur", "resumen", "elsalto"]):
                     parts = title.rsplit(" - ", 1)
                     if len(parts[1]) < 30:
                         title = parts[0].strip()
@@ -1232,6 +1253,17 @@ def fetch_all():
                 norm_title = re.sub(r"\W+", "", title.lower())[:50]
                 if norm_title in seen_titles:
                     continue
+
+                # Tope de antigüedad: fuera de la ventana de frescura no entra a portada.
+                published_at = parse_date(entry["pubDate"])
+                try:
+                    age_hours = (datetime.now(timezone.utc) - datetime.fromisoformat(published_at)).total_seconds() / 3600
+                except Exception:
+                    age_hours = 0.0
+                if age_hours > MAX_AGE_DAYS * 24:
+                    stale_count += 1
+                    continue
+                newest_age = age_hours if newest_age is None else min(newest_age, age_hours)
 
                 raw_desc = entry["description"] or ""
                 summary = clean_html(raw_desc)
@@ -1290,7 +1322,7 @@ def fetch_all():
                     "content": full_content or "",
                     "url": article_url,
                     "image": entry.get("img") if (entry.get("img") and not is_generic_image(entry.get("img"))) else None,
-                    "publishedAt": parse_date(entry["pubDate"]),
+                    "publishedAt": published_at,
                     "sourceId": src["id"],
                     "sourceName": src["name"],
                     "sourceType": src["type"],
@@ -1308,6 +1340,9 @@ def fetch_all():
                 if count >= max_allowed:
                     break
 
+            status = "ok"
+            if count == 0 and stale_count > 0:
+                status = "stale"
             source_stats.append({
                 "id": src["id"],
                 "name": src["name"],
@@ -1315,11 +1350,14 @@ def fetch_all():
                 "country": src.get("country", "Chile" if src.get("region") == "chile" else "Mundo"),
                 "type": src["type"],
                 "independent": src["independent"],
-                "status": "ok",
+                "status": status,
                 "count": count,
-                "blocked": blocked_count
+                "blocked": blocked_count,
+                "staleDropped": stale_count,
+                "newestAgeHours": round(newest_age, 1) if newest_age is not None else None
             })
-            print(f"[OK] {src['name']}: {count} noticias ({blocked_count} filtradas por farándula)")
+            extra = f", {stale_count} descartadas por antigüedad >{MAX_AGE_DAYS:g}d" if stale_count else ""
+            print(f"[OK] {src['name']}: {count} noticias ({blocked_count} filtradas por farándula{extra})")
         except Exception as e:
             source_stats.append({
                 "id": src["id"],
@@ -1330,12 +1368,23 @@ def fetch_all():
                 "status": "error",
                 "error": str(e),
                 "count": 0,
-                "blocked": 0
+                "blocked": 0,
+                "staleDropped": 0,
+                "newestAgeHours": None
             })
             print(f"[WARN] {src['name']}: {e}")
 
         # Enriquecimiento multihilo de imágenes y texto completo para notas
-    articles_needing_enrich = [a for a in articles if (not a.get("image") or not a.get("content") or len(a.get("content", "")) < 300)]
+    skip_enrich = os.environ.get("PULSO_SKIP_ENRICH", "0") == "1"
+    # Los enlaces de Google News son páginas JS: nunca entregan og:image ni el
+    # texto del medio, así que no vale la pena gastar una petición por nota.
+    def _enrichable(art):
+        return "news.google.com" not in (art.get("url") or "")
+
+    articles_needing_enrich = [] if skip_enrich else [
+        a for a in articles
+        if _enrichable(a) and (not a.get("image") or not a.get("content") or len(a.get("content", "")) < 300)
+    ]
     print(f"\n[ENRIQUECIMIENTO] Enriqueciendo fotos y texto completo de {len(articles_needing_enrich)} artículos...")
 
     def enrich_one(art):
@@ -1366,6 +1415,8 @@ def fetch_all():
     payload = {
         "generatedAt": generated_at,
         "schemaVersion": 2,
+        "maxAgeDays": MAX_AGE_DAYS,
+        "googleNewsWindow": GOOGLE_NEWS_RECENCY,
         "totalArticles": len(articles),
         "totalBlockedFarandula": len(blocked_items),
         "blockedExamples": blocked_items[:15],

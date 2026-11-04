@@ -186,3 +186,33 @@ Empezar por **A + C** en la misma tanda: son cambios acotados, medibles y resuel
 - Pipeline completo ejecutado: 248 notas, 161 con imagen, 169 con texto completo, 248 IDs únicos y estables, archivo de 164 KB.
 - 14 casos de filtro en Python y en JS: todos correctos.
 
+---
+
+## 8. Cambios aplicados (Frente B — frescura y fuentes, 2026-11-04)
+
+### Ventana temporal en Google News
+- Las 8 fuentes que usan `news.google.com/rss/search` (El Mostrador, El Desconcierto, Ladera Sur, Resumen.cl, Ojo Público, Brecha, El Salto, Ciclismo Chile) reciben ahora `when:7d` en la consulta. Se inyecta automáticamente al cargar `SOURCES`, así que vale también para fuentes futuras.
+- Motivo: sin filtro temporal, Google devuelve su archivo completo. Medido antes del cambio: Ladera Sur traía notas de 2022, Ojo Público de 2015, El Faro congelado en abril-2025.
+
+### Tope de antigüedad
+- `MAX_AGE_DAYS` (variable de entorno `PULSO_MAX_AGE_DAYS`, por defecto **14**): lo más viejo no entra al snapshot. No se pierde: queda en `archive.json` y sigue accesible por enlace.
+- `sourceStats` publica ahora `status` (`ok` / `stale` / `error`), `staleDropped` y `newestAgeHours`.
+
+### Limpieza de títulos y ruido
+- Títulos que son solo una fecha (boletines de Sin Permiso: "5-7-2026") se descartan.
+- El sufijo " - Medio" que agrega Google News se quita en todas sus fuentes, no en una lista fija.
+
+### Enriquecimiento más barato
+- Las URLs de Google News son páginas JS: nunca devuelven `og:image` ni el texto del medio, así que se dejan de intentar. Elimina ~90 peticiones inútiles por ejecución y acorta el workflow.
+- Consecuencia asumida: las notas que entran solo por Google News se muestran con la tarjeta editorial (sin foto). Resolver esos enlaces exigiría el `batchexecute` interno de Google, que hoy entrega IDs cifrados no decodificables.
+
+### Medición local (sin enriquecimiento, para aislar la frescura)
+- 221 notas (antes 248), 36 fuentes vivas.
+- Mediana de antigüedad: **23,7 h**; la más vieja: 13,4 días (antes había notas de 2015 y 2022).
+- Descartes por antigüedad: Vergara 240 (16), El Faro (18), Chequeado (15), Bellingcat (7), Ladera Sur (5), Sin Permiso (1).
+- El Faro y Sin Permiso quedan en 0 notas sin borrar su configuración: si vuelven a publicar, reaparecen solas.
+
+### Interfaz
+- El modal de fuentes muestra la salud de cada medio ("última nota hace X", "sin notas recientes", "feed con error") en vez de un "0 notas" sin explicación.
+
+
