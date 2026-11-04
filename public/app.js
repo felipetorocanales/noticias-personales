@@ -521,7 +521,8 @@ function updateThemeIcon() {
 }
 
 function setupTheme() {
-  const savedTheme = localStorage.getItem("pulso_theme") || "dark";
+  const urlTheme = new URLSearchParams(window.location.search).get("theme");
+  const savedTheme = urlTheme || localStorage.getItem("pulso_theme") || "dark";
   document.documentElement.setAttribute("data-theme", savedTheme);
   updateThemeIcon();
 }
@@ -1154,14 +1155,15 @@ function renderCardsInto(container, list) {
   }
 
   container.innerHTML = list
-    .map((art) => {
+    .map((art, index) => {
       const isSaved = state.savedIds.has(art.id);
       const badgeInfo = getSourceBadge(art.sourceId, art.region);
       const isHigh = art.relevanceTier === "alta";
       const hasRealImage = !!(art.image && !isGenericImageUrl(art.image));
+      const isLead = index === 0 && hasRealImage;
 
       return `
-        <article id="article-${escapeHtml(art.id)}" class="feed-card ${hasRealImage ? "" : "feed-card-editorial"} ${state.targetArticleId === art.id ? "highlight-target-card" : ""}" data-article-id="${escapeHtml(art.id)}">
+        <article id="article-${escapeHtml(art.id)}" class="feed-card ${hasRealImage ? "" : "feed-card-editorial"} ${isLead ? "feed-card--lead" : ""} ${state.targetArticleId === art.id ? "highlight-target-card" : ""}" data-article-id="${escapeHtml(art.id)}">
           <!-- Card Header: Distribución espaciosa por filas -->
           <div class="card-header">
             <!-- Fila 1: Medio, País y Acción Guardar -->
@@ -1218,6 +1220,10 @@ function renderCardsInto(container, list) {
                 ${isHigh ? "🔥 Relevante" : "📡 Bajo el Radar"}
               </span>
               <span class="card-category-label">${escapeHtml(art.category)}</span>
+            </div>
+            <div class="card-editorial-note">
+              <span class="note-label">Por qué está aquí</span>
+              <p class="note-text">${escapeHtml(art.relevanceReason || "Seleccionada por su valor informativo fuera de la agenda de los grandes medios.")}</p>
             </div>
             `
                 : ""

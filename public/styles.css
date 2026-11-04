@@ -2955,3 +2955,520 @@ textarea {
     justify-content: space-between;
   }
 }
+
+/* ==========================================================================
+   PULSO · CAPA VISUAL v3 — "Papel y Tinta" (2026-11)
+   Se aplica al final para tomar precedencia sobre la capa anterior.
+   Objetivo: grid fluido de revista, tarjetas con aire, tipografía con
+   jerarquía real y estados de interacción que inviten a recorrer.
+   ========================================================================== */
+
+/* ---------- 1. Tokens ---------- */
+:root,
+[data-theme="dark"] {
+  --bg-body: #101010;
+  --bg-surface: rgba(18, 17, 16, 0.88);
+  --bg-card: #1a1817;
+  --bg-card-hover: #211e1c;
+  --bg-elevated: #26221f;
+
+  --border-subtle: rgba(240, 232, 220, 0.09);
+  --border-strong: rgba(240, 232, 220, 0.18);
+
+  --text-primary: #f7f1e6;
+  --text-secondary: #b6aa9b;
+  --text-muted: #857a6c;
+
+  --accent-high: #e07a4a;
+  --accent-high-hover: #ef8d5d;
+  --accent-high-bg: rgba(224, 122, 74, 0.14);
+  --accent-high-border: rgba(224, 122, 74, 0.38);
+
+  --accent-low: #d9a95c;
+  --accent-low-bg: rgba(217, 169, 92, 0.12);
+  --accent-low-border: rgba(217, 169, 92, 0.34);
+
+  --accent-indep: #5a9b74;
+  --accent-indep-hover: #6cb287;
+  --accent-indep-bg: rgba(90, 155, 116, 0.14);
+  --accent-indep-border: rgba(90, 155, 116, 0.36);
+
+  --accent-danger: #d6544f;
+  --accent-danger-bg: rgba(214, 84, 79, 0.14);
+
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.35), 0 14px 34px -20px rgba(0, 0, 0, 0.85);
+  --shadow-card-hover: 0 2px 6px rgba(0, 0, 0, 0.4), 0 26px 50px -24px rgba(0, 0, 0, 0.9);
+
+  --radius-card: 16px;
+  --radius-btn: 12px;
+
+  --surface-glow: radial-gradient(1100px 480px at 50% -8%, rgba(224, 122, 74, 0.10), transparent 70%);
+}
+
+[data-theme="light"] {
+  --bg-body: #f7f2e9;
+  --bg-surface: rgba(250, 246, 238, 0.9);
+  --bg-card: #fffdfa;
+  --bg-card-hover: #ffffff;
+  --bg-elevated: #efe7d9;
+
+  --border-subtle: rgba(44, 34, 24, 0.10);
+  --border-strong: rgba(44, 34, 24, 0.20);
+
+  --text-primary: #1c1712;
+  --text-secondary: #5c5145;
+  --text-muted: #8d8174;
+
+  --accent-high: #b8461e;
+  --accent-high-hover: #a03b17;
+  --accent-high-bg: rgba(184, 70, 30, 0.10);
+  --accent-high-border: rgba(184, 70, 30, 0.32);
+
+  --accent-low: #8f6420;
+  --accent-low-bg: rgba(143, 100, 32, 0.10);
+  --accent-low-border: rgba(143, 100, 32, 0.30);
+
+  --accent-indep: #2f5a41;
+  --accent-indep-hover: #244632;
+  --accent-indep-bg: rgba(47, 90, 65, 0.10);
+  --accent-indep-border: rgba(47, 90, 65, 0.30);
+
+  --accent-danger: #a8201e;
+  --accent-danger-bg: rgba(168, 32, 30, 0.10);
+
+  --shadow-card: 0 1px 2px rgba(50, 35, 20, 0.05), 0 14px 34px -22px rgba(50, 35, 20, 0.45);
+  --shadow-card-hover: 0 2px 6px rgba(50, 35, 20, 0.08), 0 26px 50px -26px rgba(50, 35, 20, 0.55);
+
+  --radius-card: 16px;
+  --radius-btn: 12px;
+
+  --surface-glow: radial-gradient(1100px 480px at 50% -8%, rgba(184, 70, 30, 0.07), transparent 70%);
+}
+
+/* ---------- 2. Lienzo ---------- */
+body {
+  background-image: var(--surface-glow);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  line-height: 1.6;
+}
+
+/* ---------- 3. Cabecera ---------- */
+.app-header {
+  border-bottom: 1px solid var(--border-subtle);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02), 0 10px 30px -22px rgba(0, 0, 0, 0.6);
+}
+
+.app-header::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-high), var(--accent-low) 45%, var(--accent-indep));
+  opacity: 0.85;
+}
+
+.header-inner {
+  height: 62px;
+}
+
+.brand-logo {
+  font-size: 2.05rem;
+  letter-spacing: 0.06em;
+}
+
+.brand-tagline {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.22em;
+  color: var(--text-muted);
+}
+
+.btn-icon-nav {
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  transition: transform 0.16s ease, border-color 0.16s ease, background 0.16s ease;
+}
+
+.btn-icon-nav:hover {
+  transform: translateY(-1px);
+  border-color: var(--border-strong);
+  background: var(--bg-card-hover);
+}
+
+/* ---------- 4. Filtros ---------- */
+.filters-section {
+  border-top: 1px solid transparent;
+  padding-bottom: 10px;
+}
+
+.filter-main-btn {
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: transparent;
+  color: var(--text-secondary);
+  font-weight: 600;
+  transition: all 0.16s ease;
+}
+
+.filter-main-btn:hover {
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+  background: var(--bg-card);
+  transform: translateY(-1px);
+}
+
+.filter-main-btn.active {
+  background: var(--text-primary);
+  color: var(--bg-body);
+  border-color: var(--text-primary);
+  box-shadow: 0 6px 18px -10px rgba(0, 0, 0, 0.7);
+}
+
+.filter-main-btn.active::after {
+  display: none;
+}
+
+.filter-topic-btn {
+  border-radius: 999px;
+  border: 1px solid transparent;
+  color: var(--text-muted);
+  transition: all 0.16s ease;
+}
+
+.filter-topic-btn:hover {
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border-color: var(--border-subtle);
+}
+
+.filter-topic-btn.active {
+  background: var(--accent-high-bg);
+  border-color: var(--accent-high-border);
+  color: var(--accent-high);
+  box-shadow: none;
+}
+
+/* ---------- 5. Retícula de revista ---------- */
+.feed-container {
+  max-width: 1440px;
+  padding: 26px 20px 90px;
+}
+
+.feed-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
+  gap: 22px;
+  align-items: stretch;
+}
+
+.feed-card,
+.card-header,
+.card-header-top,
+.card-header-bottom,
+.card-content,
+.card-footer {
+  min-width: 0;
+}
+
+.card-header-top {
+  flex-wrap: wrap;
+  row-gap: 6px;
+}
+
+@media (min-width: 1180px) {
+  .feed-card--lead .card-title {
+    font-size: 1.85rem;
+    line-height: 1.14;
+    letter-spacing: -0.015em;
+  }
+
+  .feed-card--lead .card-media {
+    aspect-ratio: 16 / 8.5;
+  }
+}
+
+/* ---------- 6. Tarjetas ---------- */
+.feed-card {
+  border-radius: var(--radius-card);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.22s cubic-bezier(0.2, 0.7, 0.3, 1), box-shadow 0.22s ease,
+    border-color 0.22s ease;
+  position: relative;
+}
+
+.feed-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card-hover);
+  border-color: var(--border-strong);
+}
+
+.card-header {
+  padding: 13px 16px 0;
+  gap: 8px;
+}
+
+.card-source-name {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.card-avatar {
+  border-radius: 50%;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+}
+
+.card-time {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+}
+
+.card-header-bottom {
+  flex-wrap: wrap;
+  row-gap: 6px;
+}
+
+.card-category-pill {
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.62rem;
+  letter-spacing: 0.09em;
+  padding: 3px 9px;
+  white-space: nowrap;
+  transition: all 0.16s ease;
+}
+
+.card-category-pill:hover {
+  border-color: var(--accent-high-border);
+  color: var(--accent-high);
+  background: var(--accent-high-bg);
+}
+
+.card-instagram-badge {
+  border-radius: 999px;
+  border: 1px solid rgba(214, 84, 130, 0.35);
+  background: linear-gradient(45deg, rgba(224, 122, 74, 0.16), rgba(160, 80, 200, 0.16));
+  font-size: 0.62rem;
+  padding: 3px 9px;
+}
+
+.card-media {
+  aspect-ratio: 16 / 10;
+  margin-top: 12px;
+  background: var(--bg-elevated);
+}
+
+.card-media::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 45%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.55), transparent);
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+.card-media img {
+  transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.feed-card:hover .card-media img {
+  transform: scale(1.045);
+}
+
+.card-pill,
+.card-pill-editorial {
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  letter-spacing: 0.05em;
+}
+
+.card-content {
+  padding: 14px 16px 4px;
+  flex: 1;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  line-height: 1.18;
+  letter-spacing: -0.012em;
+  margin-bottom: 8px;
+  transition: color 0.16s ease;
+}
+
+.card-summary {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-footer {
+  border-top: 1px solid var(--border-subtle);
+  padding: 11px 16px 13px;
+  margin-top: auto;
+}
+
+.card-btn-read {
+  font-size: 0.82rem;
+  letter-spacing: 0.01em;
+  border-radius: 999px;
+  padding: 6px 12px;
+  margin-left: -12px;
+  transition: background 0.16s ease, color 0.16s ease;
+}
+
+.card-btn-read:hover {
+  background: var(--accent-high-bg);
+  color: var(--accent-high);
+}
+
+.card-btn-ig,
+.card-btn-share {
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: transparent;
+  padding: 5px 10px;
+  transition: all 0.16s ease;
+  color: var(--text-muted);
+}
+
+.card-btn-ig:hover,
+.card-btn-share:hover {
+  border-color: var(--accent-high-border);
+  color: var(--accent-high);
+  background: var(--accent-high-bg);
+}
+
+/* Tarjetas sin foto: bloque editorial con textura, no un hueco blanco */
+.feed-card-editorial {
+  border-left: none;
+  background:
+    radial-gradient(420px 200px at 100% 0%, var(--accent-high-bg), transparent 70%),
+    var(--bg-card);
+}
+
+.feed-card-editorial .card-content {
+  padding-top: 18px;
+}
+
+.feed-card-editorial .card-title {
+  font-size: 1.5rem;
+}
+
+.card-editorial-tags {
+  margin-bottom: 10px;
+}
+
+/* Nota sin foto: se rellena con la razón editorial, no con un hueco */
+.card-editorial-note {
+  margin: 2px 0 12px;
+  padding: 14px 14px 13px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background:
+    radial-gradient(120% 150% at 100% 0%, var(--accent-high-bg), transparent 62%),
+    linear-gradient(150deg, var(--bg-elevated), transparent 85%);
+}
+
+.card-editorial-note .note-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.card-editorial-note .note-text {
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  line-height: 1.32;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.card-editorial-note .note-text::before {
+  content: "“";
+  color: var(--accent-high);
+}
+
+.card-editorial-note .note-text::after {
+  content: "”";
+  color: var(--accent-high);
+}
+
+/* ---------- 7. Estados vacíos y banners ---------- */
+.empty-state {
+  grid-column: 1 / -1;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-card);
+  padding: 60px 24px;
+  text-align: center;
+  color: var(--text-muted);
+  background: var(--bg-card);
+}
+
+.new-articles-banner {
+  bottom: 26px;
+}
+
+.btn-new-articles {
+  border-radius: 999px;
+  box-shadow: 0 18px 40px -18px rgba(0, 0, 0, 0.8);
+  border: 1px solid var(--accent-high-border);
+}
+
+/* ---------- 8. Móvil ---------- */
+@media (max-width: 640px) {
+  .header-inner {
+    height: 56px;
+  }
+
+  .brand-logo {
+    font-size: 1.7rem;
+  }
+
+  .brand-tagline {
+    display: none;
+  }
+
+  .feed-container {
+    max-width: 100%;
+    padding: 16px 12px 80px;
+  }
+
+  .feed-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .card-title {
+    font-size: 1.28rem;
+  }
+
+  .card-media {
+    aspect-ratio: 16 / 11;
+    margin-top: 10px;
+  }
+
+  .card-source-name {
+    max-width: 62vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
