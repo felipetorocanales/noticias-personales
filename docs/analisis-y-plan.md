@@ -215,4 +215,26 @@ Empezar por **A + C** en la misma tanda: son cambios acotados, medibles y resuel
 ### Interfaz
 - El modal de fuentes muestra la salud de cada medio ("última nota hace X", "sin notas recientes", "feed con error") en vez de un "0 notas" sin explicación.
 
+---
+
+## 9. Filtros robustecidos (2026-11-04, tras reporte del usuario)
+
+Síntoma: al pulsar "Ciclismo y Deportes" aparecían una nota de farmacia, una de un local clausurado y una crónica de fútbol.
+
+### Causas encontradas (medidas sobre las 219 notas en vivo)
+1. **Coincidencia por subcadena sin límites de palabra.** El patrón `bici` hacía match dentro de "prohi**bici**ón" y `deporte` dentro de "Cooperativa **Deportes**" (relleno del resumen). Eran 3 de 18 falsos positivos.
+2. **Fuga de fútbol:** "Récord: Partido en Brasil terminó con 51 expulsados" no contiene la palabra "fútbol" ni nombres de clubes, así que pasaba el escudo.
+3. **"En Instagram" marcaba 0:** el historial guarda IDs antiguos (`cooperativa-130`) que ya no existen tras la migración a IDs estables.
+
+### Correcciones
+- **Matcher temático reescrito**: coincidencia por palabra completa (`\b`), vocabulario explícito por temática, comparación exacta con la categoría asignada y limpieza del relleno editorial ("Súmate al canal de WhatsApp de…", "Nota publicada por…") antes de evaluar.
+- **Regla de crónica deportiva**: "partido" + al menos dos señales de juego (expulsados, árbitro, gol, estadio, sub 20, campeonato, torneo, jugador, entrenador…) bloquea la nota aunque no diga "fútbol". Deliberadamente se excluyó "selección" y "clasificación" para no tocar política.
+- **IDs de Instagram traducidos** con `legacy_ids.json` al cargar el historial: el badge "📸 En Instagram" y el filtro vuelven a funcionar con los posts antiguos.
+
+### Verificación
+- Corpus real: 15 notas en "Ciclismo y Deportes" (antes 18), sin farmacias, sin clausuras y sin fútbol.
+- La regla nueva bloquea exactamente 1 nota del feed (la crónica de Brasil) y ninguna de las de control (astronomía, INDH, ciclismo urbano, Blues Chileno FM).
+- 9 casos de prueba del matcher temático: todos correctos.
+
+
 

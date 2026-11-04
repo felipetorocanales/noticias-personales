@@ -108,17 +108,46 @@ const MAIN_FILTERS = [
   { id: "saved", label: "Guardadas", icon: "🔖", matcher: (a) => state.savedIds.has(a.id) }
 ];
 
+// --- Filtros temáticos (coincidencia por palabra completa, no por subcadena) ----
+// "bici" dentro de "prohibición" o "deporte" dentro de "Cooperativa Deportes"
+// metían notas de farmacias y de fútbol en el filtro de deportes.
+const CYCLING_RE = /\b(?:ciclismo|ciclistas?|bicicletas?|bicis?|mtb|gravel|bmx|ciclocr[oó]s|vel[oó]dromo|maillot|contrarreloj|uci|pogacar|vingegaard|evenepoel|roglic|tour de francia|giro de italia|vuelta a espa[ñn]a|vuelta a chile)\b/i;
+const SPORTS_RE = /\b(?:deportes?|atletismo|tenis|marat[oó]n|triatl[oó]n|nataci[oó]n|b[aá]squetbol|baloncesto|rugby|voleibol|gimnasia|boxeo|judo|taekwondo|esgrima|canotaje|ol[ií]mpicos?|panamericanos?|paral[ií]mpicos?|ironman|f[uú]tbol|arquero|delantero)\b/i;
+const BOILERPLATE_RE = [
+  /s[úu]mate[^.]*\./gi,
+  /canal de whatsapp[^.]*\./gi,
+  /nota publicada por[^.]*\./gi,
+  /haz clic para leer[^.]*\./gi,
+  /s[íi]guenos en[^.]*\./gi
+];
+
+// Texto del artículo sin la retórica de relleno que arrastran algunos medios.
+function topicBlob(article) {
+  let text = `${article.category || ""} ${article.title || ""} ${article.summary || ""}`;
+  for (const re of BOILERPLATE_RE) text = text.replace(re, " ");
+  return text;
+}
+
 const TOPIC_FILTERS = [
   { id: "all", label: "Todas las temáticas", icon: "🎯", matcher: () => true },
-  { id: "ciclismo", label: "Ciclismo y Deportes", icon: "🚴", matcher: (a) => /ciclismo|ciclis|bici|mtb|gravel|bmx|deporte|atletismo|tenis|marat|pelot[oó]n|tour de francia|giro de italia|vuelta a espa/i.test((a.category || "") + " " + (a.title || "") + " " + (a.summary || "")) },
-  { id: "investigacion", label: "Investigación", icon: "🕵️", matcher: (a) => /investigaci/i.test(a.category || "") },
-  { id: "politica", label: "Política", icon: "🏛️", matcher: (a) => /pol[ií]tic/i.test(a.category || "") },
-  { id: "medioambiente", label: "Medioambiente", icon: "🌿", matcher: (a) => /medioambiente|ambiente|territorio/i.test(a.category || "") },
-  { id: "ciencia", label: "Ciencia y Salud", icon: "🔬", matcher: (a) => /ciencia|salud|futuro/i.test(a.category || "") },
-  { id: "economia", label: "Economía", icon: "📈", matcher: (a) => /econom[ií]a/i.test(a.category || "") },
-  { id: "ddhh", label: "DD.HH. y Justicia", icon: "⚖️", matcher: (a) => /derechos|humanos|ciudadan/i.test(a.category || "") },
-  { id: "geopolitica", label: "Geopolítica", icon: "🌐", matcher: (a) => /geopol[ií]tic|mundo/i.test(a.category || "") },
-  { id: "cultura", label: "Cultura", icon: "🎨", matcher: (a) => /cultura/i.test(a.category || "") }
+  {
+    id: "ciclismo",
+    label: "Ciclismo y Deportes",
+    icon: "🚴",
+    matcher: (a) => {
+      if (a.category === "Ciclismo y Deporte") return true;
+      const text = topicBlob(a);
+      return CYCLING_RE.test(text) || SPORTS_RE.test(text);
+    }
+  },
+  { id: "investigacion", label: "Investigación", icon: "🕵️", matcher: (a) => a.category === "Investigación y Poder" },
+  { id: "politica", label: "Política", icon: "🏛️", matcher: (a) => a.category === "Política y Actualidad" },
+  { id: "medioambiente", label: "Medioambiente", icon: "🌿", matcher: (a) => a.category === "Medioambiente y Territorio" },
+  { id: "ciencia", label: "Ciencia y Salud", icon: "🔬", matcher: (a) => a.category === "Ciencia, Salud y Futuro" },
+  { id: "economia", label: "Economía", icon: "📈", matcher: (a) => a.category === "Economía y Sociedad" },
+  { id: "ddhh", label: "DD.HH. y Justicia", icon: "⚖️", matcher: (a) => a.category === "Derechos Humanos y Ciudadanía" },
+  { id: "geopolitica", label: "Geopolítica", icon: "🌐", matcher: (a) => a.category === "Geopolítica y Mundo" },
+  { id: "cultura", label: "Cultura", icon: "🎨", matcher: (a) => a.category === "Cultura y Sociedad" }
 ];
 
 function getSourceBadge(sourceId, region) {
@@ -196,6 +225,7 @@ const state = {
   activeReaderArticle: null,
   instagramPostIds: new Set(),
   instagramHistory: [],
+  legacyIds: null,
   targetArticleId: null,
   lastGeneratedAt: null,
   knownArticleUrls: new Set(),
@@ -540,7 +570,7 @@ async function loadInitialSnapshot() {
       const igRes = await fetch(`/data/instagram_history.json?_cb=${Date.now()}`, { cache: "no-store" });
       if (igRes.ok) {
         state.instagramHistory = await igRes.json();
-        state.instagramPostIds = new Set(state.instagramHistory.map(h => h.articleId));
+        state.instagramPostIds = await buildInstagramPostIds(state.instagramHistory);
       }
     } catch (_) {}
 
@@ -980,6 +1010,25 @@ function handleTargetArticleDeepLink(targetId) {
       renderMissingArticleNotice();
     }
   }, 150);
+}
+
+async function buildInstagramPostIds(history) {
+  // Los posts anteriores al cambio de IDs usan el formato "fuente-123": se
+  // traducen a su ID estable para que el badge y el filtro sigan funcionando.
+  const ids = new Set(history.map((h) => h.articleId));
+  try {
+    if (!state.legacyIds) {
+      const res = await fetch(`/data/legacy_ids.json?_cb=${Date.now()}`, { cache: "no-store" });
+      state.legacyIds = res.ok ? await res.json() : {};
+    }
+    for (const h of history) {
+      const mapped = state.legacyIds && state.legacyIds[h.articleId];
+      if (mapped) ids.add(mapped);
+    }
+  } catch (err) {
+    console.debug("[Pulso] Sin mapa de IDs heredados:", err.message);
+  }
+  return ids;
 }
 
 async function loadArchiveIndex() {

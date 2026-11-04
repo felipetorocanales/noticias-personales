@@ -660,6 +660,16 @@ PROTECTED_CONTEXT_PATTERNS = CYCLING_PATTERNS + [
     r"\bpremio iberoamericano\b", r"\bconvenio de colaboraci[oó]n\b"
 ]
 
+# Señales que, junto con la palabra "partido", delatan una crónica deportiva
+# aunque el texto nunca diga "fútbol" (ej: "Partido en Brasil terminó con 51
+# expulsados"). Se exigen dos señales para no confundir política con deporte.
+FOOTBALL_MATCH_SIGNALS = [
+    r"\bexpulsad", r"\b[áa]rbitros?\b", r"\bgoles?\b", r"\bpenal(?:es)?\b",
+    r"\bcancha\b", r"\bestadio\b", r"\bsub ?20\b", r"\bcampeonato\b",
+    r"\btorneo\b", r"\bplantel\b", r"\bjugador(?:es)?\b", r"\bentrenador\b",
+    r"\bfichajes?\b", r"\bhinchada\b", r"\bpelotazo\b"
+]
+
 HIGH_IMPACT_KEYWORDS = [
     "investigación", "investigacion", "corrupción", "corrupcion", "fiscalía", "fiscalia",
     "corte suprema", "congreso", "senado", "diputados", "gobierno", "presidente",
@@ -871,6 +881,12 @@ def is_farandula(title, summary, categories):
 
     if hits and any(re.search(p, combined, re.IGNORECASE) for p in FOOTBALL_CONTEXT_PATTERNS):
         return True, hits[0]
+
+    # Crónica deportiva sin nombres propios: "partido" + dos señales de juego.
+    if re.search(r"\bpartidos?\b", combined, re.IGNORECASE):
+        signals = [p for p in FOOTBALL_MATCH_SIGNALS if re.search(p, combined, re.IGNORECASE)]
+        if len(signals) >= 2:
+            return True, "partido + crónica deportiva"
 
     return False, None
 
