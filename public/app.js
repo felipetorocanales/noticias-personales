@@ -1184,7 +1184,7 @@ function renderCardsInto(container, list) {
             <div class="card-header-bottom">
               <span class="card-time">${formatRelativeTime(art.publishedAt)}</span>
               <div class="card-header-tags">
-                <span class="card-category-pill" data-filter-topic-name="${escapeHtml(art.category)}" title="Filtrar por temática: ${escapeHtml(art.category)}">
+                <span class="card-category-pill" title="${escapeHtml(art.category)}">
                   ${escapeHtml(art.category)}
                 </span>
                 ${
@@ -1762,19 +1762,6 @@ function bindEvents() {
       const topicId = topicBtnTrigger.getAttribute("data-topic-filter");
       state.topicFilter = topicId;
       renderAll();
-      return;
-    }
-
-    // Click directo en chip de categoría en tarjeta
-    const catPillTrigger = e.target.closest("[data-filter-topic-name]");
-    if (catPillTrigger) {
-      const catName = catPillTrigger.getAttribute("data-filter-topic-name");
-      const matched = TOPIC_FILTERS.slice(1).find((t) => t.matcher({ category: catName }));
-      if (matched) {
-        state.topicFilter = state.topicFilter === matched.id ? "all" : matched.id;
-        renderAll();
-        showToast(state.topicFilter === "all" ? "Todas las temáticas" : `Temática: ${matched.label}`);
-      }
       return;
     }
 

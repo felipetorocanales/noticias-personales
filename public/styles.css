@@ -3243,13 +3243,15 @@ body {
   letter-spacing: 0.09em;
   padding: 3px 9px;
   white-space: nowrap;
-  transition: all 0.16s ease;
+  cursor: default;
+  user-select: none;
 }
 
+/* La píldora es una etiqueta, no un botón: no reacciona al puntero */
 .card-category-pill:hover {
-  border-color: var(--accent-high-border);
-  color: var(--accent-high);
-  background: var(--accent-high-bg);
+  border-color: var(--border-subtle);
+  color: var(--text-secondary);
+  background: transparent;
 }
 
 .card-instagram-badge {
