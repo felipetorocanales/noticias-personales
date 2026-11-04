@@ -2,9 +2,10 @@ import json
 import re
 import html
 import gzip
+import hashlib
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from concurrent.futures import ThreadPoolExecutor
 import os
@@ -488,12 +489,22 @@ SOURCES = [
     }
 ]
 
-BLACKLIST_PATTERNS = [
-    # Filtro estricto anti-fútbol (manteniendo otros deportes intactos)
+# --- Filtro 2.0 -----------------------------------------------------------------
+# Tres niveles, de más a menos estricto:
+#   1. FOOTBALL_TERMS: vocabulario inequívocamente futbolístico -> bloqueo directo.
+#   2. AMBIGUOUS_FOOTBALL_TERMS: clubes, instituciones, jugadores y competiciones
+#      cuyo nombre también existe fuera del fútbol (Universidad de Chile, Palestino,
+#      Cruzados, Cacique...). Solo bloquean si el texto trae además contexto
+#      futbolístico explícito (FOOTBALL_CONTEXT_PATTERNS).
+#   3. STRICT_BLOCK_PATTERNS: espectáculo y farándula -> bloqueo directo.
+FOOTBALL_TERMS = [
     r"\bf[uú]tbol\b",
     r"\bfutbolero\b",
     r"\bbalompi[eé]\b",
     r"\bpeloteros?\b",
+]
+
+AMBIGUOUS_FOOTBALL_TERMS = [
     r"\bcolo[- ]colo\b",
     r"\bcacique\b",
     r"\buniversidad de chile\b",
@@ -503,7 +514,6 @@ BLACKLIST_PATTERNS = [
     r"\bcobreloa\b",
     r"\bhuachipato\b",
     r"\bcoquimbo unido\b",
-    r"\bpalestino\b",
     r"\baudax italiano\b",
     r"\buni[oó]n espa[ñn]ola\b",
     r"\bdeportes iquique\b",
@@ -559,6 +569,9 @@ BLACKLIST_PATTERNS = [
     r"\bliverpool\b",
     r"\bboca juniors\b",
     r"\briver plate\b",
+]
+
+STRICT_BLOCK_PATTERNS = [
     r"\bfar[aá]ndula\b",
     r"\breality\b",
     r"\brealities\b",
@@ -600,6 +613,38 @@ GENERAL_SPORTS_PATTERNS = [
     r"\bjudo\b", r"\btaekwondo\b", r"\besgrima\b", r"\bcanotaje\b", r"\bescalada deportiva\b",
     r"\bjuegos ol[ií]mpicos\b", r"\bpanamericanos\b", r"\bparal[ií]mpicos\b",
     r"\btriatl[oó]n\b", r"\bironman\b"
+]
+
+# Competiciones y organismos que solo existen en el fútbol: bloqueo directo.
+_FOOTBALL_STRICT_EXTRA = [
+    r"\bchampions league\b", r"\beuropa league\b", r"\bcopa libertadores\b",
+    r"\bcopa sudamericana\b", r"\bcopa am[eé]rica\b", r"\bcopa chile\b",
+    r"\banfp\b", r"\bconmebol\b", r"\bfifa\b", r"\buefa\b", r"\bclasificatorias\b"
+]
+
+FOOTBALL_TERMS = FOOTBALL_TERMS + _FOOTBALL_STRICT_EXTRA
+# La lista ambigua conserva duplicados con la estricta; se depuran aquí.
+AMBIGUOUS_FOOTBALL_TERMS = [p for p in AMBIGUOUS_FOOTBALL_TERMS if p not in FOOTBALL_TERMS]
+AMBIGUOUS_FOOTBALL_TERMS += [r"\balbo\b", r"\bla u\b", r"\bgago\b", r"\bar[aá]nguiz\b"]
+
+# Contexto que convierte un nombre ambiguo (club, institución, jugador) en fútbol.
+# No se incluye "partido" a propósito: en política es demasiado frecuente.
+FOOTBALL_CONTEXT_PATTERNS = FOOTBALL_TERMS + [
+    r"\bgol(?:es|eada|e[oó]|ea|eador)?\b", r"\btorneo\b", r"\bliga\b", r"\bcopa\b",
+    r"\bestadio\b", r"\bhinchada\b", r"\bcancha\b", r"\bplantel\b", r"\bjugador(?:es)?\b",
+    r"\bentrenador\b", r"\bcuerpo t[eé]cnico\b", r"\bdirector t[eé]cnico\b",
+    r"\bfichajes?\b", r"\brefuerzos?\b", r"\bdelantero\b", r"\barquero\b",
+    r"\bmediocampista\b", r"\bguardameta\b", r"\bempate\b", r"\bmarcador\b",
+    r"\bsemifinal\b", r"\bcuartos de final\b", r"\bpr[oó]rroga\b", r"\bpenal(?:es)?\b",
+    r"\btabla de posiciones\b", r"\bcampeonato\b", r"\bprimera divisi[oó]n\b"
+]
+
+# Temas protegidos: si la nota es de ciclismo, ciencia o cultura, un nombre de club
+# o institución no debe bastar para descartarla.
+PROTECTED_CONTEXT_PATTERNS = CYCLING_PATTERNS + [
+    r"\bastronom", r"\bgalaxia", r"\btelescopio", r"\bf[oó]sil", r"\bbiodiversidad\b",
+    r"\bmuseo", r"\bexposici[oó]n\b", r"\bconcierto", r"\bpatrimonio\b", r"\bliteratura\b",
+    r"\bpremio iberoamericano\b", r"\bconvenio de colaboraci[oó]n\b"
 ]
 
 HIGH_IMPACT_KEYWORDS = [
@@ -778,11 +823,42 @@ def scrape_real_article_image_and_text(url, title=""):
     return img, extracted_text
 
 def is_farandula(title, summary, categories):
+    """Filtro 2.0: espectáculo y fútbol sin falsos positivos institucionales.
+
+    - Espectáculo/farándula y vocabulario futbolístico inequívoco: bloqueo directo.
+    - Nombres de clubes, instituciones o jugadores: solo bloquean si el texto trae
+      contexto futbolístico explícito y no pertenece a un tema protegido
+      (ciclismo, ciencia, cultura).
+    """
     combined = f"{title} {summary} {' '.join(categories)}".lower()
-    for pat in BLACKLIST_PATTERNS:
+
+    for pat in STRICT_BLOCK_PATTERNS:
         m = re.search(pat, combined, re.IGNORECASE)
         if m:
             return True, m.group(0)
+
+    for pat in FOOTBALL_TERMS:
+        m = re.search(pat, combined, re.IGNORECASE)
+        if m:
+            return True, m.group(0)
+
+    if any(re.search(p, combined, re.IGNORECASE) for p in PROTECTED_CONTEXT_PATTERNS):
+        return False, None
+
+    hits = []
+    for pat in AMBIGUOUS_FOOTBALL_TERMS:
+        m = re.search(pat, combined, re.IGNORECASE)
+        if m:
+            hits.append(m.group(0))
+
+    # Dos o más nombres de clubes/jugadores en la misma nota es señal suficiente
+    # aunque no aparezca la palabra "fútbol" (ej: editorial + jugador).
+    if len(hits) >= 2:
+        return True, hits[0]
+
+    if hits and any(re.search(p, combined, re.IGNORECASE) for p in FOOTBALL_CONTEXT_PATTERNS):
+        return True, hits[0]
+
     return False, None
 
 CATEGORY_RULES = {
@@ -981,11 +1057,102 @@ def balance_source_diversity(article_list, max_consecutive=1):
 
     return balanced
 
+ARCHIVE_PATH = "public/data/archive.json"
+LEGACY_SEED_PATH = "public/data/legacy_ids.json"
+ARCHIVE_RETENTION_DAYS = 14
+ARCHIVE_MAX_ENTRIES = 6000
+
+
+def make_article_id(source_id, url, used_ids):
+    """ID estable derivado de la URL: sobrevive a los cambios de orden del feed."""
+    digest = hashlib.sha1((url or "").strip().encode("utf-8")).hexdigest()
+    length = 10
+    art_id = f"{source_id}-{digest[:length]}"
+    while art_id in used_ids and length < len(digest):
+        length += 2
+        art_id = f"{source_id}-{digest[:length]}"
+    used_ids.add(art_id)
+    return art_id
+
+
+def load_archive():
+    try:
+        with open(ARCHIVE_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+        if isinstance(data, dict) and isinstance(data.get("entries"), list):
+            return data
+    except Exception:
+        pass
+    return {"entries": [], "legacy": {}}
+
+
+def build_archive(previous, articles, generated_at):
+    """Índice histórico para que los enlaces ya compartidos sigan resolviendo."""
+    entries = {}
+    for entry in previous.get("entries", []):
+        if entry.get("id"):
+            entries[entry["id"]] = entry
+
+    legacy = dict(previous.get("legacy") or {})
+    # Semilla congelada: IDs antiguos ("fuente-123") publicados en Instagram.
+    try:
+        with open(LEGACY_SEED_PATH, encoding="utf-8") as f:
+            seed = json.load(f)
+        if isinstance(seed, dict):
+            for old_id, new_id in seed.items():
+                legacy.setdefault(old_id, new_id)
+    except Exception:
+        pass
+
+    for art in articles:
+        art_id = art["id"]
+        entry = entries.get(art_id, {})
+        entry.update({
+            "id": art_id,
+            "title": art["title"],
+            "sourceId": art["sourceId"],
+            "sourceName": art["sourceName"],
+            "url": art["url"],
+            "image": art.get("image"),
+            "publishedAt": art["publishedAt"],
+            "category": art.get("category"),
+            "relevanceTier": art.get("relevanceTier"),
+            "lastSeen": generated_at,
+            "firstSeen": entry.get("firstSeen", generated_at),
+        })
+        entries[art_id] = entry
+
+    pinned = {v for v in legacy.values() if v}
+    cutoff = datetime.now(timezone.utc) - timedelta(days=ARCHIVE_RETENTION_DAYS)
+
+    def is_fresh(entry):
+        try:
+            return datetime.fromisoformat(entry.get("lastSeen", "")) >= cutoff
+        except Exception:
+            return False
+
+    kept = {aid: e for aid, e in entries.items() if aid in pinned or is_fresh(e)}
+    if len(kept) > ARCHIVE_MAX_ENTRIES:
+        ordered = sorted(kept.items(), key=lambda kv: kv[1].get("lastSeen", ""), reverse=True)
+        kept = dict(ordered[:ARCHIVE_MAX_ENTRIES])
+        kept.update({aid: e for aid, e in entries.items() if aid in pinned})
+
+    ordered = sorted(kept.values(), key=lambda e: e.get("lastSeen", ""), reverse=True)
+    return {
+        "generatedAt": generated_at,
+        "totalEntries": len(ordered),
+        "retentionDays": ARCHIVE_RETENTION_DAYS,
+        "entries": ordered,
+        "legacy": legacy,
+    }
+
+
 def fetch_all():
     articles = []
     blocked_items = []
     source_stats = []
     seen_titles = set()
+    used_ids = set()
 
     for src in SOURCES:
         count = 0
@@ -1113,12 +1280,15 @@ def fetch_all():
                         if len(desc_full) > len(full_content):
                             full_content = desc_full
 
+                article_url = clean_html(entry["link"])
+                article_id = make_article_id(src["id"], article_url, used_ids)
+
                 articles.append({
-                    "id": f"{src['id']}-{len(articles)+1}",
+                    "id": article_id,
                     "title": title,
                     "summary": summary,
                     "content": full_content or "",
-                    "url": clean_html(entry["link"]),
+                    "url": article_url,
                     "image": entry.get("img") if (entry.get("img") and not is_generic_image(entry.get("img"))) else None,
                     "publishedAt": parse_date(entry["pubDate"]),
                     "sourceId": src["id"],
@@ -1192,8 +1362,10 @@ def fetch_all():
     articles = balance_source_diversity(articles, max_consecutive=1)
 
     os.makedirs("public/data", exist_ok=True)
+    generated_at = datetime.now(timezone.utc).isoformat()
     payload = {
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "generatedAt": generated_at,
+        "schemaVersion": 2,
         "totalArticles": len(articles),
         "totalBlockedFarandula": len(blocked_items),
         "blockedExamples": blocked_items[:15],
@@ -1204,6 +1376,11 @@ def fetch_all():
     with open("public/data/initial-feeds.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
     print(f"\nGuardado public/data/initial-feeds.json con {len(articles)} noticias y {len(blocked_items)} descartadas.")
+
+    archive = build_archive(load_archive(), articles, generated_at)
+    with open(ARCHIVE_PATH, "w", encoding="utf-8") as f:
+        json.dump(archive, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"Guardado {ARCHIVE_PATH} con {archive['totalEntries']} entradas históricas y {len(archive['legacy'])} IDs heredados.")
 
 
 if __name__ == "__main__":

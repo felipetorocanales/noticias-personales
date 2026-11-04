@@ -178,6 +178,8 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
             history = load_history()
             history.append({
                 "articleId": article["id"],
+                "articleUrl": article.get("url", ""),
+                "sourceId": article.get("sourceId", ""),
                 "title": article["title"],
                 "postId": post_id,
                 "publishedAt": article.get("publishedAt"),
@@ -190,9 +192,35 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
         return False
 
 
+def _norm_title(text):
+    import unicodedata
+    text = unicodedata.normalize("NFKD", (text or "").lower())
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    return " ".join(text.split())
+
+
 def get_candidate(data, history):
-    published_ids = set(h["articleId"] for h in history)
-    candidates = [a for a in data.get("articles", []) if a["id"] not in published_ids and a.get("image")]
+    """Elige la próxima nota evitando repetir lo ya publicado.
+
+    La comparación no usa solo el ID: tras la migración a IDs estables por URL
+    los posts antiguos conservan IDs posicionales, así que también se descarta
+    por URL y por título normalizado.
+    """
+    published_ids = set(h.get("articleId") for h in history)
+    published_urls = set(h.get("articleUrl") for h in history if h.get("articleUrl"))
+    published_titles = set(_norm_title(h.get("title")) for h in history)
+
+    candidates = []
+    for a in data.get("articles", []):
+        if not a.get("image"):
+            continue
+        if a["id"] in published_ids:
+            continue
+        if a.get("url") and a["url"] in published_urls:
+            continue
+        if _norm_title(a.get("title")) in published_titles:
+            continue
+        candidates.append(a)
     if not candidates:
         return None
 
@@ -209,7 +237,10 @@ def get_candidate(data, history):
 
     # Analizar últimas 6 publicaciones en Instagram
     recent_history = history[-6:] if history else []
-    recent_sources = [h.get("articleId", "").split("-")[0] for h in recent_history]
+    recent_sources = [
+        h.get("sourceId") or h.get("articleId", "").split("-")[0]
+        for h in recent_history
+    ]
     recent_regions = [source_info.get(s, {}).get("region", "chile") for s in recent_sources]
     recent_countries = [source_info.get(s, {}).get("country", "Chile") for s in recent_sources]
 

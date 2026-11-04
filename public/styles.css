@@ -2355,6 +2355,42 @@ textarea {
   border-color: var(--accent-high);
 }
 
+/* ========================================================
+   ARCHIVO HISTÓRICO / ENLACES QUE YA NO ESTÁN EN PORTADA
+   ======================================================== */
+.instagram-deep-link-banner,
+.archived-article-wrap,
+.archived-notice {
+  grid-column: 1 / -1;
+}
+
+.archived-article-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.archived-card {
+  max-width: 720px;
+}
+
+.archived-card .card-btn-read {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+
+.archived-notice {
+  margin-bottom: 0;
+}
+
+.blocked-tag-context {
+  border-style: dashed;
+  opacity: 0.85;
+}
+
 /* ==========================================================================
    FLOATING FEEDBACK BUTTON & MODAL (Espacio para Mejorar la Página)
    ========================================================================== */

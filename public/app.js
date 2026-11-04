@@ -6,6 +6,8 @@ function getPulsoArticleUrl(articleId) {
   return `${CANONICAL_SITE_URL}/?id=${encodeURIComponent(articleId)}`;
 }
 
+// --- Filtro 2.0 -------------------------------------------------------------
+// Nivel 1: espectáculo/farándula y fútbol inequívoco -> bloqueo directo.
 const DEFAULT_BLOCKED_TERMS = [
   "farándula", "celebridades", "famosos",
   "reality", "gran hermano", "tierra brava", "ganar o servir", "mundos opuestos",
@@ -15,22 +17,50 @@ const DEFAULT_BLOCKED_TERMS = [
   "showbiz", "gossip", "miss universo", "reina de viña",
   "red carpet", "polémica entre famosos",
 
-  // Filtro estricto anti-fútbol (manteniendo intacto el resto de deportes y ciclismo)
+  // Fútbol inequívoco
   "fútbol", "futbol", "futbolero", "balompié", "balompie", "pelotero",
+  "anfp", "conmebol", "fifa", "uefa",
+  "champions league", "europa league",
+  "copa libertadores", "copa sudamericana", "copa américa", "copa chile",
+  "clasificatorias"
+];
+
+// Nivel 2: clubes, instituciones, jugadores y competiciones genéricas. Su nombre
+// también existe fuera del fútbol, así que solo bloquean con contexto explícito.
+const AMBIGUOUS_FOOTBALL_TERMS = [
   "colo-colo", "colo colo", "albo", "cacique", "universidad de chile", "la u",
   "romántico viajero", "universidad católica", "cruzados", "cobreloa",
-  "huachipato", "coquimbo unido", "palestino", "audax italiano", "unión española",
+  "huachipato", "coquimbo unido", "audax italiano", "unión española",
   "deportes iquique", "campeonato nacional", "primera división", "primera b",
-  "anfp", "conmebol", "fifa", "uefa", "copa libertadores", "copa sudamericana",
-  "champions league", "europa league", "copa américa", "copa chile",
-  "la roja", "selección chilena", "clasificatorias", "gareca", "berizzo",
-  "arturo vidal", "alexis sánchez", "alexis sanchez", "claudio bravo", "gary medel",
-  "charles aránguiz", "rodrigo goldberg", "barticciotto", "jordhy thompson",
+  "la roja", "selección chilena",
+  "gareca", "berizzo", "arturo vidal", "alexis sánchez", "alexis sanchez",
+  "claudio bravo", "gary medel", "charles aránguiz", "rodrigo goldberg",
+  "barticciotto", "jordhy thompson", "gago", "aránguiz",
   "director técnico", "delantero", "guardameta", "arquero", "mediocampista",
   "penales", "tiro de esquina", "offside", "fuera de juego",
   "lamine yamal", "mbappé", "mbappe", "messi", "cristiano ronaldo", "cr7",
   "haaland", "vinicius", "real madrid", "barcelona fc", "manchester city",
   "liverpool", "boca juniors", "river plate"
+];
+
+// Contexto que convierte un nombre ambiguo en fútbol. No incluye "partido":
+// en política es demasiado frecuente y generaría falsos positivos.
+const FOOTBALL_CONTEXT_PATTERNS = [
+  /\bgol(?:es|eada|eó|ea|eador)?\b/i,
+  /\btorneo\b/i, /\bliga\b/i, /\bcopa\b/i, /\bestadio\b/i,
+  /\bhinchada\b/i, /\bcancha\b/i, /\bplantel\b/i, /\bjugador(?:es)?\b/i,
+  /\bentrenador\b/i, /\bcuerpo técnico\b/i, /\bfichajes?\b/i, /\brefuerzos?\b/i,
+  /\bempate\b/i, /\bmarcador\b/i, /\bsemifinal\b/i, /\bcuartos de final\b/i,
+  /\bprórroga\b/i, /\btabla de posiciones\b/i, /\bcampeonato\b/i,
+  /\bprimera división\b/i
+];
+
+// Temas protegidos: una nota de ciclismo, ciencia o cultura nunca se descarta
+// solo porque mencione a la Universidad de Chile o a los Cruzados.
+const PROTECTED_CONTEXT_PATTERNS = [
+  /ciclismo|ciclista|bicicleta|\bbici\b|\bmtb\b|gravel|tour de fran|giro d|vuelta a españa/i,
+  /astronom|galaxia|telescopio|fósil|biodiversidad/i,
+  /museo|exposición|concierto|patrimonio|literatura/i
 ];
 
 
@@ -167,7 +197,9 @@ const state = {
   instagramHistory: [],
   targetArticleId: null,
   lastGeneratedAt: null,
-  knownArticleUrls: new Set()
+  knownArticleUrls: new Set(),
+  archiveIndex: undefined,
+  deepLinkHandledId: null
 };
 
 function balanceSourceDiversity(list, maxConsecutive = 1) {
@@ -206,7 +238,8 @@ function sortArticles(list, criterion) {
       res = sorted.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
       break;
     case "date_asc":
-      return sorted.sort((a, b) => new Date(a.publishedAt) - new Date(b.publishedAt));
+      res = sorted.sort((a, b) => new Date(a.publishedAt) - new Date(b.publishedAt));
+      break;
     case "relevance_desc":
       res = sorted.sort(
         (a, b) =>
@@ -311,16 +344,36 @@ function isTranslationDuplicate(art) {
   return false;
 }
 
-function checkFarandula(title, summary) {
-  const text = `${title} ${summary}`.toLowerCase();
-  const allTerms = [...DEFAULT_BLOCKED_TERMS, ...state.customBlockedWords];
-  for (const term of allTerms) {
-    if (!term) continue;
-    const escaped = term.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const regex = new RegExp(`\\b${escaped}\\b`, "i");
-    if (regex.test(text)) {
+function matchesBlockedTerm(text, term) {
+  if (!term) return false;
+  const escaped = term.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`\\b${escaped}\\b`, "i").test(text);
+}
+
+function checkFarandula(title, summary, category) {
+  const text = `${title || ""} ${summary || ""} ${category || ""}`.toLowerCase();
+
+  // Nivel 1: farándula, espectáculo y fútbol inequívoco.
+  const strictTerms = [...DEFAULT_BLOCKED_TERMS, ...state.customBlockedWords];
+  for (const term of strictTerms) {
+    if (matchesBlockedTerm(text, term)) {
       return { blocked: true, reason: term };
     }
+  }
+
+  // Nivel 2: clubes e instituciones solo cuentan si hay contexto futbolístico
+  // y la nota no pertenece a un tema protegido (ciclismo, ciencia, cultura).
+  if (PROTECTED_CONTEXT_PATTERNS.some((re) => re.test(text))) {
+    return { blocked: false, reason: null };
+  }
+
+  const hits = AMBIGUOUS_FOOTBALL_TERMS.filter((term) => matchesBlockedTerm(text, term));
+  // Dos o más nombres de clubes/jugadores en la misma nota ya es señal de fútbol.
+  if (hits.length >= 2) {
+    return { blocked: true, reason: hits[0] };
+  }
+  if (hits.length && FOOTBALL_CONTEXT_PATTERNS.some((re) => re.test(text))) {
+    return { blocked: true, reason: hits[0] };
   }
   return { blocked: false, reason: null };
 }
@@ -463,7 +516,7 @@ async function loadInitialSnapshot() {
     const validArticles = [];
     for (const art of data.articles || []) {
       if (isTranslationDuplicate(art)) continue;
-      const check = checkFarandula(art.title, art.summary);
+      const check = checkFarandula(art.title, art.summary, art.category);
       if (check.blocked) {
         state.totalBlockedCount++;
         state.blockedExamples.unshift({
@@ -574,7 +627,7 @@ function applyFreshSnapshot(data) {
   const validArticles = [];
   for (const art of data.articles || []) {
     if (isTranslationDuplicate(art)) continue;
-    const check = checkFarandula(art.title, art.summary);
+    const check = checkFarandula(art.title, art.summary, art.category);
     if (!check.blocked) {
       validArticles.push(art);
     }
@@ -775,7 +828,7 @@ function getFilteredArticles() {
 
   return state.articles.filter((art) => {
     // Re-check custom blocked words dynamically
-    if (checkFarandula(art.title, art.summary).blocked) return false;
+    if (checkFarandula(art.title, art.summary, art.category).blocked) return false;
 
     // Descartar traducciones y duplicados multilingües
     if (isTranslationDuplicate(art)) return false;
@@ -802,7 +855,7 @@ function renderFilterBars() {
   const topicContainer = document.getElementById("topicFiltersBar");
 
   const unblockedArticles = state.articles.filter(
-    (art) => !checkFarandula(art.title, art.summary).blocked
+    (art) => !checkFarandula(art.title, art.summary, art.category).blocked
   );
 
   // 1. Barra Principal (Ámbito e Impacto)
@@ -869,41 +922,172 @@ function renderAll() {
   }
 }
 
-function handleTargetArticleDeepLink(targetId) {
-  setTimeout(() => {
-    const el = document.getElementById(`article-${targetId}`);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "center" });
-      el.classList.add("highlight-target-card");
+function focusArticleCard(targetId) {
+  const el = document.getElementById(`article-${targetId}`);
+  if (!el) return false;
 
-      const container = document.getElementById("gridViewContainer");
-      if (container && !document.getElementById("instagramDeepLinkBanner")) {
-        const art = state.articles.find((a) => a.id === targetId);
-        const banner = document.createElement("div");
-        banner.id = "instagramDeepLinkBanner";
-        banner.className = "instagram-deep-link-banner";
-        banner.innerHTML = `
-          <div>
-            <p><strong>📸 Noticia destacada desde Instagram:</strong> ${art ? escapeHtml(art.title) : "Reportaje seleccionado"}</p>
-          </div>
-          <button id="dismissIgBannerBtn" title="Cerrar">Ver todas las noticias ✕</button>
-        `;
-        container.insertBefore(banner, container.firstChild);
-        document.getElementById("dismissIgBannerBtn")?.addEventListener("click", () => {
-          banner.remove();
-          el.classList.remove("highlight-target-card");
-          state.targetArticleId = null;
-        });
-      }
+  el.scrollIntoView({ behavior: "smooth", block: "center" });
+  el.classList.add("highlight-target-card");
+
+  const container = document.getElementById("gridViewContainer");
+  if (container && !document.getElementById("instagramDeepLinkBanner")) {
+    const art = state.articles.find((a) => a.id === targetId);
+    const banner = document.createElement("div");
+    banner.id = "instagramDeepLinkBanner";
+    banner.className = "instagram-deep-link-banner";
+    banner.innerHTML = `
+      <div>
+        <p><strong>📸 Noticia destacada desde Instagram:</strong> ${art ? escapeHtml(art.title) : "Reportaje seleccionado"}</p>
+      </div>
+      <button id="dismissIgBannerBtn" title="Cerrar">Ver todas las noticias ✕</button>
+    `;
+    container.insertBefore(banner, container.firstChild);
+    document.getElementById("dismissIgBannerBtn")?.addEventListener("click", () => {
+      banner.remove();
+      el.classList.remove("highlight-target-card");
+      state.targetArticleId = null;
+    });
+  }
+  return true;
+}
+
+function handleTargetArticleDeepLink(targetId) {
+  setTimeout(async () => {
+    if (focusArticleCard(targetId)) return;
+
+    // Si la noticia no está en la vista actual (por filtros), resetear a 'all'
+    if (state.mainFilter !== "all" || state.topicFilter !== "all") {
+      state.mainFilter = "all";
+      state.topicFilter = "all";
+      renderAll();
+      return;
+    }
+
+    if (state.deepLinkHandledId === targetId) return;
+    state.deepLinkHandledId = targetId;
+
+    // El enlace puede apuntar a una nota que ya salió de portada: el archivo
+    // histórico la conserva para que el enlace compartido no muera.
+    const archived = await resolveArchivedArticle(targetId);
+    if (archived) {
+      // Un ID antiguo ("cooperativa-130") puede seguir en portada con su ID nuevo.
+      if (archived.id !== targetId && focusArticleCard(archived.id)) return;
+      renderArchivedArticleCard(archived);
     } else {
-      // Si la noticia no está en la vista actual (por filtros), resetear a 'all'
-      if (state.mainFilter !== "all" || state.topicFilter !== "all") {
-        state.mainFilter = "all";
-        state.topicFilter = "all";
-        renderAll();
-      }
+      renderMissingArticleNotice();
     }
   }, 150);
+}
+
+async function loadArchiveIndex() {
+  if (state.archiveIndex !== undefined) return state.archiveIndex;
+  try {
+    const res = await fetch(`/data/archive.json?_cb=${Date.now()}`, { cache: "no-store" });
+    state.archiveIndex = res.ok ? await res.json() : null;
+  } catch (err) {
+    console.debug("[Pulso] Archivo histórico no disponible:", err.message);
+    state.archiveIndex = null;
+  }
+  return state.archiveIndex;
+}
+
+async function resolveArchivedArticle(targetId) {
+  const archive = await loadArchiveIndex();
+  if (!archive) return null;
+  const entries = archive.entries || [];
+  const direct = entries.find((e) => e.id === targetId);
+  if (direct) return direct;
+  // Los enlaces antiguos usan IDs posicionales ("cooperativa-130"): el archivo
+  // guarda su equivalencia para no romper los posts ya publicados.
+  const legacy = archive.legacy || {};
+  if (legacy[targetId]) {
+    return entries.find((e) => e.id === legacy[targetId]) || null;
+  }
+  return null;
+}
+
+function renderArchivedArticleCard(entry) {
+  const container = document.getElementById("gridViewContainer");
+  if (!container || document.getElementById("archivedArticleNotice")) return;
+
+  const hasImage = entry.image && !isGenericImageUrl(entry.image);
+  const isHigh = entry.relevanceTier === "alta";
+  const dateLabel = entry.publishedAt ? formatRelativeTime(entry.publishedAt) : "Archivo";
+
+  const wrapper = document.createElement("div");
+  wrapper.id = "archivedArticleNotice";
+  wrapper.className = "archived-article-wrap";
+  wrapper.innerHTML = `
+    <div class="instagram-deep-link-banner archived-notice">
+      <div>
+        <p><strong>📌 Guardada en el archivo de Pulso:</strong> esta nota ya salió de la portada, pero el enlace sigue vivo.</p>
+      </div>
+      <button id="dismissArchivedBtn" title="Ver portada">Ver noticias de hoy ✕</button>
+    </div>
+    <article class="feed-card archived-card">
+      <div class="card-header">
+        <div class="card-header-top">
+          <div class="card-author">
+            <span class="card-avatar">${getSourceBadge(entry.sourceId, "chile").icon}</span>
+            <div class="card-source-group">
+              <span class="card-source-name">${escapeHtml(entry.sourceName || "Medio original")}</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-header-bottom">
+          <span class="card-time">${escapeHtml(dateLabel)}</span>
+          <div class="card-header-tags">
+            <span class="card-category-pill">${escapeHtml(entry.category || "Archivo")}</span>
+            <span class="card-instagram-badge">${isHigh ? "🔥 Relevante" : "📡 Bajo el Radar"}</span>
+          </div>
+        </div>
+      </div>
+      ${hasImage ? `
+      <div class="card-media">
+        <img src="${escapeHtml(entry.image)}" alt="${escapeHtml(entry.title)}" loading="lazy" />
+      </div>` : ""}
+      <div class="card-content">
+        <h2 class="card-title">${escapeHtml(entry.title)}</h2>
+      </div>
+      <div class="card-footer">
+        <a class="card-btn-read" href="${escapeHtml(entry.url)}" target="_blank" rel="noopener noreferrer">
+          Leer en el medio original ↗
+        </a>
+      </div>
+    </article>
+  `;
+  container.insertBefore(wrapper, container.firstChild);
+  wrapper.scrollIntoView({ behavior: "smooth", block: "start" });
+
+  document.getElementById("dismissArchivedBtn")?.addEventListener("click", () => {
+    wrapper.remove();
+    state.targetArticleId = null;
+    state.deepLinkHandledId = null;
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+function renderMissingArticleNotice() {
+  const container = document.getElementById("gridViewContainer");
+  if (!container || document.getElementById("missingArticleNotice")) return;
+
+  const notice = document.createElement("div");
+  notice.id = "missingArticleNotice";
+  notice.className = "instagram-deep-link-banner archived-notice";
+  notice.innerHTML = `
+    <div>
+      <p><strong>🔎 No encontramos esta nota.</strong> Puede haber salido del archivo o el enlace estar incompleto. Abajo tienes lo más reciente de la portada.</p>
+    </div>
+    <button id="dismissMissingBtn" title="Ver portada">Ver portada ✕</button>
+  `;
+  container.insertBefore(notice, container.firstChild);
+  notice.scrollIntoView({ behavior: "smooth", block: "center" });
+
+  document.getElementById("dismissMissingBtn")?.addEventListener("click", () => {
+    notice.remove();
+    state.targetArticleId = null;
+    state.deepLinkHandledId = null;
+  });
 }
 
 function renderCardsInto(container, list) {
@@ -1017,7 +1201,7 @@ function renderCardsInto(container, list) {
 }
 
 function updateMetricsAndCounters() {
-  const baseList = state.articles.filter((a) => !checkFarandula(a.title, a.summary).blocked);
+  const baseList = state.articles.filter((a) => !checkFarandula(a.title, a.summary, a.category).blocked);
   const chileCount = baseList.filter((a) => a.region === "chile").length;
   const mundoCount = baseList.filter((a) => a.region === "mundo").length;
 
@@ -1312,12 +1496,16 @@ async function fetchAndRenderFullArticle(art) {
 function openShieldModal() {
   document.getElementById("modalBlockedCount").textContent = state.totalBlockedCount;
   document.getElementById("modalActivePatternsCount").textContent =
-    DEFAULT_BLOCKED_TERMS.length + state.customBlockedWords.length;
+    DEFAULT_BLOCKED_TERMS.length + AMBIGUOUS_FOOTBALL_TERMS.length + state.customBlockedWords.length;
 
   const defaultCloud = document.getElementById("defaultBlockedTagsCloud");
-  defaultCloud.innerHTML = DEFAULT_BLOCKED_TERMS.map(
-    (t) => `<span class="blocked-tag">🚫 ${escapeHtml(t)}</span>`
-  ).join("");
+  defaultCloud.innerHTML = [
+    ...DEFAULT_BLOCKED_TERMS.map((t) => `<span class="blocked-tag">🚫 ${escapeHtml(t)}</span>`),
+    ...AMBIGUOUS_FOOTBALL_TERMS.map(
+      (t) =>
+        `<span class="blocked-tag blocked-tag-context" title="Solo se bloquea si la nota además habla de fútbol">⚠️ ${escapeHtml(t)}</span>`
+    )
+  ].join("");
 
   renderCustomBlockedWords();
 
