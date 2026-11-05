@@ -1,15 +1,20 @@
 {
-  "generatedAt": "2026-11-05T20:01:30.170464+00:00",
+  "generatedAt": "2026-11-05T20:16:39.614835+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
-  "totalArticles": 208,
-  "totalBlockedFarandula": 6,
+  "totalArticles": 214,
+  "totalBlockedFarandula": 5,
   "blockedExamples": [
     {
       "title": "El escritoriazo de la ANFP",
       "source": "Interferencia",
       "reason": "fútbol"
+    },
+    {
+      "title": "AC Milan quedó complicado en la Europa League tras sorpresiva caída ante Ferencvaros",
+      "source": "Radio Cooperativa",
+      "reason": "europa league"
     },
     {
       "title": "Osorio inició la jugada que permitió el agónico empate de Crystal Palace en Europa League",
@@ -25,16 +30,6 @@
       "title": "[VIDEO] Contra letal: El golazo \"maradoniano\" de Sparta Praga ante Bournemouth",
       "source": "Radio Cooperativa",
       "reason": "europa league"
-    },
-    {
-      "title": "¿Qué partido será transmitido por TV abierta en la fecha 27 de la Liga de Primera?",
-      "source": "Radio Cooperativa",
-      "reason": "huachipato"
-    },
-    {
-      "title": "\"Llegó el día de devolver la camiseta número siete\": Cristiano Ronaldo se retira de Portugal",
-      "source": "France 24 Español",
-      "reason": "delantero"
     }
   ],
   "sources": [
@@ -507,7 +502,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.4
+      "newestAgeHours": 2.6
     },
     {
       "id": "interferencia",
@@ -520,7 +515,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 11.0
+      "newestAgeHours": 11.3
     },
     {
       "id": "fastcheck",
@@ -533,7 +528,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.9
+      "newestAgeHours": 2.1
     },
     {
       "id": "radiouchile",
@@ -546,7 +541,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 0.0
     },
     {
       "id": "elmostrador",
@@ -559,7 +554,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.6
+      "newestAgeHours": 2.8
     },
     {
       "id": "eldesconcierto",
@@ -572,7 +567,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.7
+      "newestAgeHours": 1.9
     },
     {
       "id": "laderasur",
@@ -584,8 +579,8 @@
       "status": "ok",
       "count": 10,
       "blocked": 0,
-      "staleDropped": 5,
-      "newestAgeHours": 0.1
+      "staleDropped": 6,
+      "newestAgeHours": 0.4
     },
     {
       "id": "resumen",
@@ -598,20 +593,20 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 22.3
+      "newestAgeHours": 22.5
     },
     {
       "id": "elciudadano",
       "name": "El Ciudadano",
       "region": "chile",
+      "country": "Chile",
       "type": "Prensa Alternativa",
       "independent": true,
-      "status": "error",
-      "error": "IncompleteRead(0 bytes read)",
-      "count": 0,
+      "status": "ok",
+      "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": null
+      "newestAgeHours": 0.0
     },
     {
       "id": "malaespina",
@@ -624,7 +619,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.0
+      "newestAgeHours": 2.3
     },
     {
       "id": "vergara240",
@@ -637,7 +632,7 @@
       "count": 1,
       "blocked": 0,
       "staleDropped": 17,
-      "newestAgeHours": 310.7
+      "newestAgeHours": 310.9
     },
     {
       "id": "terram",
@@ -650,7 +645,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.8
+      "newestAgeHours": 6.0
     },
     {
       "id": "timeline",
@@ -663,7 +658,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.1
+      "newestAgeHours": 0.3
     },
     {
       "id": "diariouach",
@@ -676,7 +671,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.8
+      "newestAgeHours": 6.1
     },
     {
       "id": "cooperativa",
@@ -689,7 +684,7 @@
       "count": 6,
       "blocked": 4,
       "staleDropped": 0,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 0.1
     },
     {
       "id": "elfaro",
@@ -715,7 +710,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.0
+      "newestAgeHours": 10.3
     },
     {
       "id": "lasillavacia",
@@ -728,7 +723,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.5
     },
     {
       "id": "ojopublico",
@@ -741,7 +736,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 1,
-      "newestAgeHours": 88.8
+      "newestAgeHours": 89.1
     },
     {
       "id": "cuestionpublica",
@@ -754,7 +749,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 42.2
+      "newestAgeHours": 42.4
     },
     {
       "id": "chequeado",
@@ -767,7 +762,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 144.2
+      "newestAgeHours": 144.5
     },
     {
       "id": "piedepagina",
@@ -780,7 +775,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 98.3
+      "newestAgeHours": 98.6
     },
     {
       "id": "cenital",
@@ -793,7 +788,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 7.5
+      "newestAgeHours": 7.8
     },
     {
       "id": "brecha",
@@ -806,7 +801,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 153.3
+      "newestAgeHours": 153.6
     },
     {
       "id": "jacobinlat",
@@ -819,7 +814,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.6
+      "newestAgeHours": 2.8
     },
     {
       "id": "ciclismo-chile",
@@ -832,7 +827,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.9
+      "newestAgeHours": 1.1
     },
     {
       "id": "ciclo21",
@@ -845,7 +840,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.0
+      "newestAgeHours": 10.3
     },
     {
       "id": "brujulabike",
@@ -858,7 +853,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.8
+      "newestAgeHours": 3.1
     },
     {
       "id": "esciclismo",
@@ -871,7 +866,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.5
+      "newestAgeHours": 0.7
     },
     {
       "id": "propublica",
@@ -884,7 +879,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.6
+      "newestAgeHours": 0.9
     },
     {
       "id": "bellingcat",
@@ -897,7 +892,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 10.2
+      "newestAgeHours": 10.5
     },
     {
       "id": "theintercept",
@@ -910,7 +905,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.1
+      "newestAgeHours": 1.3
     },
     {
       "id": "eldiarioes",
@@ -923,7 +918,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.8
+      "newestAgeHours": 7.1
     },
     {
       "id": "elsalto",
@@ -936,7 +931,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.9
+      "newestAgeHours": 7.2
     },
     {
       "id": "sinpermiso",
@@ -960,9 +955,9 @@
       "independent": false,
       "status": "ok",
       "count": 3,
-      "blocked": 1,
+      "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.2
     },
     {
       "id": "dw",
@@ -975,7 +970,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.5
+      "newestAgeHours": 0.7
     },
     {
       "id": "globalvoices",
@@ -988,10 +983,150 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 13.0
+      "newestAgeHours": 13.3
     }
   ],
   "articles": [
+    {
+      "id": "elciudadano-0b845bddf9",
+      "title": "(VIDEO) El ministro de justicia guarda silencio ante la prensa sobre la liberación de criminales en Chile",
+      "summary": "El Ciudadano Una mirada crítica a la falta de respuesta del Ministro de Justicia de Chile al ser cuestionado sobre la liberación de criminales peligrosos, incluyendo violadores de menores y narcotraficantes. La actitud evasiva de las autoridades resalta la discrepancia entre la eficiencia burocrática y la responsabilidad ante la...",
+      "content": "<p>Una mirada crítica a la falta de respuesta del Ministro de Justicia de Chile al ser cuestionado sobre la liberación de criminales peligrosos, incluyendo violadores de menores y narcotraficantes. La actitud evasiva de las autoridades resalta la discrepancia entre la eficiencia burocrática y la responsabilidad ante la ciudadanía. Un tema que desafía la confianza pública frente al sistema judicial y sus decisiones.</p><p>La entrada (VIDEO) El ministro de justicia guarda silencio ante la prensa sobre la liberación de criminales en Chile se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/reels/video-el-ministro-de-justicia-guarda-silencio-ante-la-prensa-sobre-la-liberacion-de-criminales-en-chile/11/05/",
+      "image": null,
+      "publishedAt": "2026-11-05T20:15:20+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "radiouchile-2d958eb640",
+      "title": "Inmobiliaria Fundamenta: “El que la hace la paga”",
+      "summary": "En el título de esta columna aludimos a este refrán porque expresa con suma claridad que toda falta, daño o mala acción debe recibir un castigo o consecuencia proporcional y en tal sentido, recordamos que, desde hace años, en medios independientes y democráticos, estamos publicando columnas de opinión acusando las malas prácticas...",
+      "content": "<p>En el título de esta columna aludimos a este refrán porque expresa con suma claridad que toda falta, daño o mala acción debe recibir un castigo o consecuencia proporcional y en tal sentido, recordamos que, desde hace años, en medios independientes y democráticos, estamos publicando columnas de opinión acusando las malas prácticas cometidas por la empresa Fundamenta. Pues bien, en esta ocasión damos a conocer la reciente iniciativa judicial, tomada por la fundación Defendamos la Ciudad y otros legitimados, demostrando que en este negocio inmobiliario es perfectamente aplicable ese conocido dicho.</p><p>En efecto, la empresa Fundamenta, para su proyecto Plaza Egaña SpA, obtuvo un permiso de edificación en la Dirección de Obras Municipales (DOM) de Ñuñoa para construir cuatro torres de 32 pisos c/u y debido a su excesiva altura, se debía elaborar un estudio de conos de sombra, el que bien hecho, aseguraba la luminosidad natural a las viviendas emplazadas en un terreno adyacente. Como ello no fue posible, por incapacidad técnica del privado y/o porque la función municipal “no hizo su pega”, al no cumplirse el procedimiento asignado a ese estudio, la institucionalidad ambiental tuvo que paralizar por varios meses las faenas constructivas del megaproyecto.</p><p>Debido a que la prolongada detención del proyecto significaba pérdidas económicas al actor privado, éste hizo gestiones administrativas para salir airoso, sin resultados y por ello el conflicto llegó a los tribunales de justicia. Finalmente, la 3a Sala de la Corte Suprema, con presiones indebidas de esa inmobiliaria, las que tuvieron como resultado: 1° la destitución del poder judicial del magistrado Sergio Muñoz, porque éste respetaba la posición ambiental, y 2° un fallo favorable de esa sala, gracias al oportuno manejo de la entonces jueza Ángela Vivanco, el proyecto continuó desarrollándose.</p><p>Pero como en los últimos meses los competentes periodistas de investigación de Ciper y Reportea dieron a conocer la existencia de importantes sumas de dinero, se habla de 600 millones de pesos, que recibieron unos avispados abogados, de parte de la empresa interesada, fue necesario actuar y así fue cómo el pasado 27 de octubre, este columnista con el periodista Alejandro Jiménez y con el ingeniero civil Rodolfo Acha, ex funcionario del Minvu, con un poder y patrocinio que le entregamos al capacitado abogado Gabriel Muñoz, interpusimos una querella en el 7° Juzgado de Garantía de Santiago en contra de los involucrados en esta grosera “operación comercial”, por los presuntos delitos de cohecho y soborno, la que fue admitida y trasladada al Ministerio Público el 28 de octubre de 2026.</p><p>La acción se dirige contra la exministra Ángela Vivanco, de su ex pareja, Gonzalo Migueles, el abogado Eduardo Lagos, el controlador de Fundamenta, Pablo Medina, y Plaza Egaña SpA, además de otras sociedades vinculadas en el negocio. Nosotros, como querellantes, solicitábamos investigar el origen y destino de los recursos y la participación de los responsables de la inmobiliaria en las operaciones denunciadas. El escrito recoge antecedentes sobre un depósito de $13 millones abonado a Migueles, cuando era feliz pareja de Vivanco, el que habría sido ordenado por Lagos el 28 de febrero de 2023 y al día siguiente, la Corte Suprema, con la participación activa de Vivanco, rechazó la reclamación ambiental contra Eco Egaña SpA. Se debe tener presente que Migueles reconoció haber recibido ese dinero por gestionar que la entonces ministra apurara la resolución judicial.</p><p>En la querella expresamos que la investigación de la Fiscalía debe llegar hasta los ejecutivos y controladores de la empresa que pudieron conocer o autorizar esas operaciones, pues los vecinos de Ñuñoa que acudieron a la justicia para defender su entorno merecen saber si sus reclamaciones fueron resueltas con independencia, recordando que la presidenta de la Corte Suprema, Gloria Ana Chevesich, aseguró en una entrevista del 9 de enero de 2026 con Ciper, que llevaría al Pleno las denuncias de faltas a la probidad que recibiera, incluso si fuesen anónimas</p><p>Por lo que se ha sabido, los vecinos de Ñuñoa que protegían sus barrios, perdieron en la Justicia porque se cometieron trampas y por ello nosotros tres, a cara descubierta, estamos ejerciendo nuestros derechos para que, en un tiempo más, se conozca absolutamente toda la verdad de lo sucedido. Si se comprueba que el fallo favorable a Fundamenta fue obtenido mediante corrupción, exigiremos que la Corte Suprema, examinando con rigor esa sentencia, la declare nula.</p><p>La entrada Inmobiliaria Fundamenta: “El que la hace la paga” se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/05/inmobiliaria-fundamenta-el-que-la-hace-la-paga/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/07/23184036/fundamenta.jpeg",
+      "publishedAt": "2026-11-05T20:15:00+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 88,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elciudadano-54738b29f9",
+      "title": "(VIDEO) Estrategias para evitar la acusación constitucional: ¿Cambios en el gabinete podrían ser la solución?",
+      "summary": "El Ciudadano Un cambio en el gabinete es considerado por analistas como una medida clave para evitar la acusación constitucional contra el ministro Rabat, mientras el gobierno evalúa tácticas para asegurar el apoyo del UDI y Renovación Nacional. La situación política es dinámica, y cada movimiento influencia el desenlace de la...",
+      "content": "<p>Un cambio en el gabinete es considerado por analistas como una medida clave para evitar la acusación constitucional contra el ministro Rabat, mientras el gobierno evalúa tácticas para asegurar el apoyo del UDI y Renovación Nacional. La situación política es dinámica, y cada movimiento influencia el desenlace de la acusación. Mantente al tanto de las decisiones clave y sus implicaciones en la política chilena.</p><p>La entrada (VIDEO) Estrategias para evitar la acusación constitucional: ¿Cambios en el gabinete podrían ser la solución? se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/reels/video-estrategias-para-evitar-la-acusacion-constitucional-cambios-en-el-gabinete-podrian-ser-la-solucion/11/05/",
+      "image": null,
+      "publishedAt": "2026-11-05T20:15:08+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "radiouchile-dd24a32f20",
+      "title": "PNUD advierte que el miedo al delito crece en Chile y limita el uso de espacios públicos",
+      "summary": "El organismo planteó que las medidas de prevención, control y sanción son necesarias, pero insuficientes. Por ello, llamó a implementar estrategias que atiendan sus causas específicas y consideren sus distintas formas de expresión. La entrada PNUD advierte que el miedo al delito crece en Chile y limita el uso de espacios públicos se...",
+      "content": "<p>El Programa de las Naciones Unidas para el Desarrollo (PNUD) presentó su informe 2026, “El miedo al delito en Chile”, en una actividad que contó con representantes de los altos mandos de Carabineros y de la PDI, y con la subsecretaria de Seguridad Pública, Pilar Giannini. El documento analiza cómo la percepción de inseguridad condiciona la vida cotidiana y el desarrollo humano, incluso más allá de los niveles efectivos de victimización.</p><p>Entre sus principales hallazgos, el estudio advierte que la brecha entre la percepción de riesgo y la victimización efectiva pasó de nueve puntos porcentuales en 2009-2010 a 31 puntos en 2025. Asimismo, la proporción de personas que considera probable ser víctima de un delito en sus actividades habituales aumentó de un 42% en 2021 a un 53% en 2025.</p><p>La magnitud del fenómeno también se refleja en la comparación internacional. Según el Gallup Global Safety Report 2025, mientras que un 73% de las personas a nivel mundial declara sentirse segura caminando sola de noche, en Chile esa proporción llega solo al 39%.</p><p>En ese contexto, la representante residente del PNUD en Chile, Georgiana Braga-Orillard, durante su discurso, sostuvo que: “El miedo al delito es entonces una experiencia compleja y multicausal. Por ello, prevenir, controlar y sancionar el delito, si bien es imprescindible, no es suficiente para reducir el temor. Y algunas veces incluso pueden aumentarlo. Necesitamos entonces de políticas que aborden sus causas específicas y reconozcan sus distintas formas de expresión”.</p><p>La representante del organismo agregó que el temor tiene consecuencias que trascienden la seguridad y afectan las posibilidades de desarrollo de las comunidades. “El miedo es un freno al desarrollo”, manifestó, junto con explicar que el índice de desarrollo humano comunal ajustado por miedo permitió confirmar que “el temor al delito pone un techo invisible para el desarrollo humano de las comunas”.</p><p>El documento plantea que el miedo no depende exclusivamente de haber sido víctima de un delito. También inciden las condiciones del entorno barrial, la percepción de desorden y violencia, el deterioro de los espacios públicos, la circulación de noticias sobre hechos delictivos y la evaluación que las personas hacen de la respuesta institucional. Sus consecuencias incluyen restricciones en el uso de la ciudad, aislamiento y pérdida de autonomía, con impactos diferenciados según género, edad y territorio.</p><p>Durante la actividad, la subsecretaria de Seguridad Pública, Pilar Giannini, destacó los efectos del temor en la convivencia y en el ejercicio de las libertades. “El miedo al delito no es una abstracción. Cuando el miedo se instala, las personas ceden espacio público, ceden confianza y ceden libertad. Y la seguridad, y lo decimos con mucha convicción, no es solo la ausencia del delito, es la posibilidad de vivir sin miedo”, expresó.</p><p>En esa línea, sostuvo que un país puede mejorar sus estadísticas delictivas y, aun así, “seguir perdiendo el bien común si no se hace cargo del temor”. Por ello, valoró que el informe del PNUD aborde el miedo como “un problema público con dinámica propia, que exige políticas públicas específicas”.</p><p>La autoridad también adelantó que, tras el Plan Nacional de Seguridad Pública de 2025 elaborado en la administración del expresidente Gabriel Boric, el Gobierno trabaja ahora en una estrategia del Sistema de Seguridad Pública que será presentada próximamente ante el Consejo Nacional de Seguridad Pública y Prevención del Delito.</p><p>Según detalló, esta contempla 32 líneas de acción priorizadas, con indicadores, metas, responsables y plazos verificables. Entre sus ámbitos de trabajo mencionó un sistema integrado de información para la toma de decisiones, el control del crimen organizado, la modernización de la persecución penal y la reinserción mediante programas diferenciados según el perfil de las personas condenadas.</p><p>En tanto, el análisis del PNUD sobre las políticas públicas de los últimos 25 años advierte que el miedo al delito fue perdiendo su carácter multidimensional y quedó progresivamente subordinado a objetivos de reducción del delito, prevención de la violencia y gestión de la seguridad. El organismo plantea que las respuestas deben ir más allá del control y la sanción, incorporando medidas para recuperar espacios públicos, fortalecer la cohesión social y la presencia institucional en los territorios, junto con intervenciones diferenciadas y sostenidas en el tiempo.</p><p>La entrada PNUD advierte que el miedo al delito crece en Chile y limita el uso de espacios públicos se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/05/pnud-advierte-que-el-miedo-al-delito-crece-en-chile-y-limita-el-uso-de-espacios-publicos/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05153654/fiscalizacion-carabineros.jpg",
+      "publishedAt": "2026-11-05T20:14:41+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 88,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elciudadano-dd29ff504f",
+      "title": "Acusan montaje del Gobierno con extranjeros expulsados por participar en manifestación del 18-O: Haitianos fueron detenidos por otros motivos y fuera de Santiago",
+      "summary": "El Ciudadano «Se está inculpando a los muchachos por algo que ellos nunca hicieron», asegura de entrada Marckenson Dol, integrante de la comunidad haitiana en Chile, activista y defensor de los Derechos Humanos, al dar a conocer el caso que afecta a Ives Dossous y Jean Claydy. Ambos aparecieron en la prensa como dos de los extranjeros...",
+      "content": "<p>«Se está inculpando a los muchachos por algo que ellos nunca hicieron», asegura de entrada Marckenson Dol, integrante de la comunidad haitiana en Chile, activista y defensor de los Derechos Humanos, al dar a conocer el caso que afecta a Ives Dossous y Jean Claydy.</p><p>Ambos aparecieron en la prensa como dos de los extranjeros detenidos en la manifestación del pasado 18 de Octubre en Santiago (conmemoración del estallido social), situación que es absolutamente falsa, denuncia Dol, quien preside la ONG Voz Haitiano en Chile.</p><p>«Ellos no participaron en ninguna manifestación», asegura el dirigente social.</p><p>Recordemos que el Presidente José A. Kast anunció la noche del 19 de octubre haber instruido «al Ministerio del Interior y al Servicio de Migraciones para que use todas las herramientas legales y administrativas para expulsar a los extranjeros que participaron en los desmanes del día domingo».</p><p>«Salió en toda la prensa y medios de comunicación, que el gobierno aseguró haber detenido 6 extranjeros el día 18 de octubre de 2026 en una manifestación, y que esos extranjeros estaban causando desórdenes públicos, falta de respeto a la autoridad, todo eso», recordó Marckenson Dol.</p><p>«Entre ellos figuraban 2 ciudadanos haitianos, pero ellos no tienen ninguna relación con estos hechos, nunca participaron en esa manifestación del 18 de octubre», afirma.</p><p>Dol explica que ese día, los dos tuvieron un control de identidad, pero uno «lo tuvo en Quilicura y a las 10 de la mañana, no en Plaza Italia o en la manifestación como dice el gobierno. Él no estuvo ni cerca. Y ahora le llegó su carta de expulsión, sin que él haya participado nunca en la protesta».</p><p>Respecto a este caso en particular, el defensor de DDHH indica que su compatriota «mantiene una orden de detención porque tuvo un accidente en 2022 y tenía que ir a participar de una audiencia, pero no tenía conocimiento. Por eso lo llevaron preso, no porque haya participado en la manifestación».</p><p>En tanto, el segundo detenido también tuvo un control policial, pero tampoco fue en Santiago: fue en Melipilla. La detención, en este caso, raya en lo insólito: «Él estaba trabajando en su auto, manejando, y tenía un cuchillo con él que ocupaba para prepararse panes con palta», señala Marckenson Dol.</p><p>Esa sería el «arma cortopunzante» presentada en los medios como parte de la detención del ciudadano haitiano, que luego quedó libre.</p><p>«Esto es pura falsedad, porque ellos no participaron en ninguna manifestación. Se está inculpando a los muchachos por algo que ellos nunca hicieron», insistió Marckenson Dol.</p><p>La entrada Acusan montaje del Gobierno con extranjeros expulsados por participar en manifestación del 18-O: Haitianos fueron detenidos por otros motivos y fuera de Santiago se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/chile/acusan-montaje-del-gobierno-con-extranjeros-expulsados-por-participar-en-manifestacion-del-18-o-haitianos-fueron-detenidos-por-otros-motivos-y-fuera-de-santiago/11/05/",
+      "image": "https://www.elciudadano.com/wp-content/uploads/2023/10/Carabineros-marihuana-640x426.jpg",
+      "publishedAt": "2026-11-05T20:05:28+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-d941ae4fc6",
+      "title": "Israel: Gadi Eisenkot busca consolidar sus apoyos para formar Gobierno tras las elecciones",
+      "summary": "El bloque de oposición israelí, encabezado por Gadi Eisenkot, busca reunir los apoyos necesarios para formar una mayoría parlamentaria tras las elecciones legislativas del 27 de octubre, que no dejaron un vencedor claro. El papel de los partidos árabes, que consiguieron un récord histórico de 19 escaños, se encuentra en el centro de...",
+      "content": "<p>El bloque de oposición israelí, encabezado por Gadi Eisenkot, busca reunir los apoyos necesarios para formar una mayoría parlamentaria tras las elecciones legislativas del 27 de octubre, que no dejaron un vencedor claro. El papel de los partidos árabes, que consiguieron un récord histórico de 19 escaños, se encuentra en el centro de las negociaciones. Por su parte, Benjamin Netanyahu propone una amplia coalición que excluya a estas formaciones, a las que acusa de &quot;apoyar el terrorismo&quot;.</p>",
+      "url": "https://www.france24.com/es/medio-oriente/20261105-israel-gadi-eisenkot-busca-consolidar-sus-apoyos-para-formar-gobierno-tras-las-elecciones",
+      "image": "https://s.france24.com/media/display/9361e280-d908-11f1-937a-bf1914cabd52/w:1024/p:16x9/7115210ef211be26605d71f75f79d5b316b5ad59.jpg",
+      "publishedAt": "2026-11-05T20:05:16+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "radiouchile-51f5a79807",
+      "title": "Exembajador Heine tras elecciones en Estados Unidos: “La situación en las Américas ha cambiado fundamentalmente”",
+      "summary": "El exrepresentante diplomático analizó el triunfo demócrata en las elecciones de medio término y el regreso de Lula en Brasil. Según Heine, el Gobierno se ha dado cuenta de que alinearse 100% con las políticas de Trump no es tan \"buena idea\". La entrada Exembajador Heine tras elecciones en Estados Unidos: “La situación en las Américas...",
+      "content": "<p>En conversación con la primera edición de Radioanálisis, el exembajador de Chile en China, Jorge Heine, abordó la gira a Europa del Presidente José Antonio Kast, además de las recientes elecciones en Estados Unidos.</p><p>“La situación en las Américas ha cambiado fundamentalmente”, dijo el también abogado a raíz del triunfo aplastante de los demócratas en las midterms, y sumó al análisis el triunfo de Luiz Inácio Lula da Silva en Brasil.</p><p>En ese marco analizó la relación que ha mantenido el Gobierno con Washington. “En todo este año, el Presidente Kast, antes de asumir el cargo, en condición de presidente electo, se cuadró 100% con todas las políticas del presidente Trump. Apoyó el ataque a Venezuela el 3 de enero y el secuestro del presidente Maduro”, mencionó.</p><p>Aseguró que son demostraciones de “un alineamiento total con Estados Unidos”. Sin embargo, aseguró que el país norteamericano “no ha correspondido a estas demostraciones de cariño”, imponiendo aranceles, por ejemplo.</p><p>“Pero lo que hemos visto en las últimas semanas, dentro del propio Gobierno del Presidente Kast, se han dado cuenta que esto no da para más”, dijo el cientista político, quien apuntó al ministro de Defensa, Fernando Barros, que se ha manifestado en contra de que Chile se incorpore como miembro pleno de la Coalición contra los Carteles de las Américas (A3C).</p><p>Lo anterior lo describió como “una división dentro del Gobierno” y agregó que “eso me indica que poco a poco se han dado cuenta de que esto de alinearse 100% con las políticas de Trump no necesariamente es una buena idea”.</p><p>Sobre el debate por la política arancelaria de Washington, el también académico destacó que “Chile ha sido un país pionero en esta materia” y, en ese sentido, aseguró que sería una “mala idea” descartar este instrumento para firmar el acuerdo recíproco que impone Estados Unidos. “Abandonar un pilar clave de nuestra política exterior por un compromiso inmediato, yo creo que es una mal idea”, agregó.</p><p>Respecto específicamente al resultado de las elecciones de medio término en Estados Unidos, Heine asoció la derrota republicana a la situación económica del país y la guerra con Irán principalmente. En ese marco evaluó las dificultades que tienen los líderes de ultraderecha al llegar al poder.</p><p>En el caso de Trump señaló que en esta pasada “se encontró con la horma de su zapato. Él pensó que Irán iba a ser otra Venezuela y que podía en un par de semanas liquidar a Irán y hacer lo mismo que hizo en Venezuela, pero Irán demostró no ser así”.</p><p>La entrada Exembajador Heine tras elecciones en Estados Unidos: “La situación en las Américas ha cambiado fundamentalmente” se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/05/exembajador-heine-tras-elecciones-en-estados-unidos-la-situacion-en-las-americas-ha-cambiado-fundamentalmente/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05104449/exembajador-de-chile-en-china-jorge-heine.jpg",
+      "publishedAt": "2026-11-05T20:00:48+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "alta",
+      "relevanceScore": 93,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
     {
       "id": "timeline-566301f7bb",
       "title": "Speakers En Verde El Loa 2026: Cinco equipos escolares de Calama presentaron propuestas para abordar problemáticas de su entorno escolar",
@@ -1033,6 +1168,46 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
+      "id": "elciudadano-8b0876ee31",
+      "title": "Santiago Peña renuncia a la presidencia de Paraguay en medio del caso Ueno Bank",
+      "summary": "El Ciudadano El presidente de Paraguay, Santiago Peña, anunció este jueves su renuncia al cargo ante la crisis política derivada de la intervención de Ueno Bank y el congelamiento de los ahorros de millones de ciudadanos. A través de su cuenta de Twitter, Peña pidió disculpas al pueblo paraguayo y afirmó que este es «uno de los […] La...",
+      "content": "<p>El presidente de Paraguay, Santiago Peña, anunció este jueves su renuncia al cargo ante la crisis política derivada de la intervención de Ueno Bank y el congelamiento de los ahorros de millones de ciudadanos.</p><p>A través de su cuenta de Twitter, Peña pidió disculpas al pueblo paraguayo y afirmó que este es «uno de los momentos más difíciles» que le ha tocado vivir.</p><p>«Quiero pedir disculpas al pueblo. Si en algún momento he fallado, nunca fue mi intención defraudar la confianza que depositaron en mí (…) Estoy convencido de que ningún cargo puede estar por encima del bienestar del Paraguay», señaló.</p><p>La renuncia de Peña se da luego de que legisladores de oposición anunciaran un juicio político en su contra por «grave y sistemático mal desempeño de sus funciones», esto debido a que en los meses previos se habían levantado diversas alertas por la posible insolvencia de Ueno Bank.</p><p>A lo anterior se suma que Peña fue socio de Ueno Holding -la predecesora de Ueno Bank- hasta marzo del 2025. Además, el actual presidente del Banco Central paraguayo, Carlos Carvallo, fue presidente de Ueno desde junio de 2021 hasta septiembre de 2023.</p><p>Ueno Bank es un banco que comenzó a operar en noviembre de 2023 y que, producto de una agresiva estrategia digital, logró convertirse en una de las principales entidades financieras de Paraguay. En 2026, el banco contaba con 2,9 millones de clientes, casi la mitad de los habitantes del país.</p><p>Ueno Bank no solo administra los ahorros privados de millones de paraguayos: también gestiona el 9% de los fondos del Instituto de Previsión Social, la entidad a cargo de las pensiones de 32.000 jubilados del país. También administra parte de los fondos de la Administración Nacional de Electricidad (Ande) y de la Represa Binacional de Itaipú, una de las mayores empresas productoras de energía del planeta.</p><p>El escándalo estalló durante la madrugada del martes, cuando el Banco Central de Paraguay comunicó la intervención de Ueno Bank tras detectar que su índice de solvencia cayó por debajo del 50%, el mínimo exigido por la regulación.</p><p>«Procedimos al cierre de la entidad, por lo tanto, ni la aplicación, ni las tarjetas, ni ningún servicio de la entidad está activo a partir de la fecha», informaron desde el Banco Central.</p><p>En paralelo a la intervención, el Ministerio Público ordenó la detención de ocho altos ejecutivos de Ueno Bank, incluyendo a su principal accionista, Miguel Vázquez, quien se entregó voluntariamente a la justicia durante la mañana del martes.</p><p>En tanto, el presidente del Banco Central, Carlos Carvallo, presentó su renuncia al cargo debido a los cuestionamientos que ha enfrentado por sus vínculos con Ueno Bank: Carvallo fue presidente de la Financiera Ueno -luego convertida en Ueno Bank- desde 2021 hasta septiembre de 2023, fecha en la que dejó el cargo para asumir como presidente del Banco Central de Paraguay.</p><p>Si bien Carvallo puso su cargo a disposición, afirmó que la crisis financiera exige su permanencia en el ente emisor hasta que finalice el proceso de intervención.</p><p>Con el correr de las horas, el caos financiero que se desató tras la intervención de Ueno Bank se transformó en una crisis política para el gobierno de Peña: la tarde del martes, miles de personas se manifestaron frente al Congreso paraguayo, en Asunción, pidiendo la renuncia del presidente.</p><p>Y es que Peña fue socio empresarial de Ueno Holding hasta marzo de 2025,fecha en la que decidió vender sus acciones por más de 6 mil millones de guaraníes. Y en octubre de este año, un reportaje de ABC reveló que una empresa en la que Peña fue accionista hasta marzo de este año todavía facturaba millones de guaraníes a Ueno Bank por servicios de marketing.</p><p>Pese a las alertas levantadas por la oposición sobre el peligro de concentrar los fondos públicos en un solo banco, Peña restó gravedad a la situación y acusó una «campaña mediática mezquina y mentirosa» en su contra, afirmando que estaba protegiendo el ahorro de los jubilados.</p><p>Tras estallar la crisis, senadores de oposición anunciaron que promoverían un juicio político para destituir a Peña y al vicepresidente Pedro Alliana, además de impulsar acciones contra los miembros del directorio del Banco Central.</p><p>La crisis escaló a tal nivel que desde Peña tuvo que suspender su participación en la XXX Cumbre Iberoamericana, que se celebrará miércoles y jueves en Madrid, para “atender de manera directa los asuntos prioritarios del Estado”</p><p>La entrada Santiago Peña renuncia a la presidencia de Paraguay en medio del caso Ueno Bank se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/actualidad/santiago-pena-renuncia-a-la-presidencia-de-paraguay-en-medio-del-caso-ueno-bank/11/05/",
+      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-1.31.41-PM-640x341.jpeg",
+      "publishedAt": "2026-11-05T19:52:26+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-e7d4e1e2c2",
+      "title": "Paciente tetrapléjico recibió la visita de su perrito con cáncer en hospital de Viña del Mar",
+      "summary": "Un paciente tetrapléjico que permanece internado en el Hospital Dr. Gustavo Fricke de Viña del Mar recibió la visita de su perrito Siam, con quien ha compartido durante 15 años y que actualmente padece un cáncer terminal. El encuentro fue posible gracias al programa \"Visitas de Acompañamiento de Mascotas\" , una iniciativa del...",
+      "content": "<p>Un paciente tetrapléjico que permanece internado en el Hospital Dr. Gustavo Fricke de Viña del Mar recibió la visita de su perrito Siam, con quien ha compartido durante 15 años y que actualmente padece un cáncer terminal.</p><p>El encuentro fue posible gracias al programa &quot;Visitas de Acompañamiento de Mascotas&quot;, una iniciativa del establecimiento que busca mejorar el ánimo de los pacientes y contribuir a su recuperación mediante el contacto con sus animales de compañía.</p><p>Javier Dejon lleva dos meses y medio en la Unidad de Paciente Crítico Adulto (UPC), luego de sufrir un accidente que le provocó un trauma raquimedular, una lesión que afecta la columna vertebral y la médula espinal.</p><p>&quot;Mi hermano lleva dos meses y medio acá, y todavía le falta tiempo. El tema es que el perrito tiene un cáncer terminal y han sido compañeros durante 15 años. Es su amigo; anhelábamos un reencuentro. En definitiva, es su hijo, iba para todos lados con él y se entendían perfectamente&quot;, explicó Alicia Dejon, hermana del paciente.</p><p>Las condiciones de salud de Javier le impidieron abrazar o tocar a su mascota, ya que se encuentra tetrapléjico y tiene una traqueostomía que no le permite hablar.</p><p>&quot;&#x27;¿Por qué no me lo pusieron acá en el pecho?&#x27;, nos indicaba mediante gestos; nos retaba. No lo podíamos hacer por su delicada condición de salud. Fue alegre, pero a la vez triste, pues podría ser la última vez que vea a Siam&quot;, recordó su hermana.</p><p>Desde el equipo de salud también destacaron el efecto positivo en el ánimo del paciente, ya que Javier preguntaba constantemente por su perro cuando recibía a sus familiares, preocupado por su mascota que está en sus últimos días.</p><p>&quot;Los equipos están muy emocionados por esta visita. El establecimiento hace un buen tiempo que está recibiendo y dando esta opción a quienes lo requieran. Los equipos están disponibles para recibir a todos aquellos que, cumpliendo las condiciones, puedan realizar estas visitas de acompañamiento de mascotas&quot;, comentó el director del Hospital Dr. Gustavo Fricke, Juan Carlos Gac.</p>",
+      "url": "https://www.cooperativa.cl/noticias/pais/salud/paciente-tetraplejico-recibio-la-visita-de-su-perrito-con-cancer-en/2026-11-05/164937.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000000220261105164937.png",
+      "publishedAt": "2026-11-05T19:49:37+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "radiouchile-5a01d0a72b",
       "title": "Presidente Kast cierra su gira por Europa: “Todos quieren ser parte del nuevo momento que está viviendo nuestra nación”",
       "summary": "El Mandatario calificó el viaje de cuatro días como \"breve, pero muy intenso y productivo\", tras reunirse con distintas autoridades en Italia y en España. Además, destacó el interés de inversionistas extranjeros en Chile. La entrada Presidente Kast cierra su gira por Europa: “Todos quieren ser parte del nuevo momento que está viviendo...",
@@ -1053,10 +1228,30 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "elciudadano-282cd630e1",
+      "title": "(VIDEO) La oposición se reúne hoy en el Congreso Nacional para discutir la acusación constitucional contra el ministro de Justicia, Fernando Rabat, por su conducta ética y moral. Presidentes de partidos y jefes de bancada sostienen que su conducta es «insostenible e inaceptable». Argumentan que lo hecho ha causado un daño irreparable a las víctimas y a la justicia en Chile. Mantente atento a lo que viene: se espera que la oposición presente su acusación en los próximos días. #CongresoNacional #Fernando Rabat #AcusaciónConstitucional #Justicia #Ética",
+      "summary": "El Ciudadano La entrada (VIDEO) La oposición se reúne hoy en el Congreso Nacional para discutir la acusación constitucional contra el ministro de Justicia, Fernando Rabat, por su conducta ética y moral. Presidentes de partidos y jefes de bancada sostienen que su conducta es «insostenible e inaceptable». Argumentan que lo hecho ha...",
+      "content": "<p>La entrada (VIDEO) La oposición se reúne hoy en el Congreso Nacional para discutir la acusación constitucional contra el ministro de Justicia, Fernando Rabat, por su conducta ética y moral. Presidentes de partidos y jefes de bancada sostienen que su conducta es «insostenible e inaceptable». Argumentan que lo hecho ha causado un daño irreparable a las víctimas y a la justicia en Chile. Mantente atento a lo que viene: se espera que la oposición presente su acusación en los próximos días. #CongresoNacional #Fernando Rabat #AcusaciónConstitucional #Justicia #Ética se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/reels/video-la-oposicion-se-reune-hoy-en-el-congreso-nacional-para-discutir-la-acusacion-constitucional-contra-el-ministro-de-justicia-fernando-rabat-por-su-conducta-etica-y-moral-presidentes-de-partid/11/05/",
+      "image": null,
+      "publishedAt": "2026-11-05T19:45:10+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 95,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "lasillavacia-f1f7fd422a",
       "title": "Fiscalía imputó al exgerente de campaña Santos por ocultar plata de Odebrecht",
       "summary": "Roberto Prieto habría ocultado un millón de dólares en las cuentas de campaña de Juan Manuel Santos. Es imputado por fraude procesal y enriquecimiento ilícito. The post Fiscalía imputó al exgerente de campaña Santos por ocultar plata de Odebrecht appeared first on La Silla Vacía .",
-      "content": "<p>La Fiscalía imputó a Roberto Prieto, exgerente de la campaña de Juan Manuel Santos, por fraude procesal y enriquecimiento ilícito. Según la investigación, Prieto habría escondido un millón de dólares que Odebrecht aportó para la candidatura y que nunca apareció en las cuentas de campaña.</p><p>Según la Fiscalía, ese ocultamiento permitió que el Consejo Nacional Electoral (CNE) aprobara unas cuentas que no incluían ese dinero y autorizara el pago de $576 millones a la campaña por reposición de votos en la primera vuelta presidencial de 2014.</p><p>La Fiscalía imputó a José Roberto Prieto por enriquecimiento ilícito, al señalar que la campaña presidencial de Juan Manuel Santos recibió irregularmente 13.461 millones de pesos de financiación estatal a los que no tenía derecho: $6.576 millones por reposición de votos y $6.884… pic.twitter.com/Got25gslU6</p><p>¿Qué fue lo que pasó? El 25 de junio de 2014, Prieto entregó al CNE las cuentas de la campaña de Santos para la primera vuelta. Reportó gastos por $13.503 millones, pero, según la Fiscalía, dejó por fuera un millón de dólares que Odebrecht aportó para pagar servicios de marketing político.</p><p>Y así fue como la campaña pudo recibir la reposición de votos. El 15 de julio de 2014, Prieto presentó ante el CNE las cuentas de la segunda vuelta, con gastos por $9.475 millones. Pero, según la Fiscalía, el informe tampoco registró donaciones ni mencionó los servicios que Odebrecht había pagado.</p><p>En total, según la entidad, la campaña habría recibido $13.461 millones del Estado a los que no tenía derecho: $6.576 millones por reposición de votos y otros $6.884 millones de financiación previa.</p><p>Prieto está inhabilitado por la Procuraduría desde 2023.La sanción le impide ocupar cargos públicos o contratar con el Estado durante 12 años. Además, tuvo que pagar una multa de más de $50 millones.</p><p>Si es declarado culpable, Prieto podría enfrentar entre seis y 15 años de prisión, según la fiscal.</p><p>Acá les dejo el perfil completo de Roberto Prieto, el hombre de la reelección.</p><p>The post Fiscalía imputó al exgerente de campaña Santos por ocultar plata de Odebrecht appeared first on La Silla Vacía.</p>",
+      "content": "<p>La Fiscalía imputó a Roberto Prieto, exgerente de la campaña de Juan Manuel Santos, por fraude procesal y enriquecimiento ilícito. Según la investigación, Prieto habría escondido un millón de dólares que Odebrecht aportó a la campaña y que nunca se reportó en sus cuentas.</p><p>Según la Fiscalía, ese ocultamiento permitió que el Consejo Nacional Electoral (CNE) aprobara unas cuentas que no incluían ese dinero y autorizara el pago de $576 millones a la campaña por reposición de votos en la primera vuelta presidencial de 2014.</p><p>La Fiscalía imputó a José Roberto Prieto por enriquecimiento ilícito, al señalar que la campaña presidencial de Juan Manuel Santos recibió irregularmente 13.461 millones de pesos de financiación estatal a los que no tenía derecho: $6.576 millones por reposición de votos y $6.884… pic.twitter.com/Got25gslU6</p><p>¿Qué fue lo que pasó? El 25 de junio de 2014, Prieto entregó al CNE las cuentas de la campaña de Santos para la primera vuelta. Reportó gastos por $13.503 millones, pero, según la Fiscalía, dejó por fuera un millón de dólares que Odebrecht aportó para pagar servicios de marketing político.</p><p>Y así fue como la campaña pudo recibir la reposición de votos. El 15 de julio de 2014, Prieto presentó ante el CNE las cuentas de la segunda vuelta, con gastos por $9.475 millones. Pero, según la Fiscalía, el informe tampoco registró donaciones ni mencionó los servicios que Odebrecht había pagado.</p><p>En total, según la entidad, la campaña habría recibido $13.461 millones del Estado a los que no tenía derecho: $6.576 millones por reposición de votos y otros $6.884 millones de financiación previa.</p><p>Prieto está inhabilitado por la Procuraduría desde 2023.La sanción le impide ocupar cargos públicos o contratar con el Estado durante 12 años. Además, tuvo que pagar una multa de más de $50 millones.</p><p>¿Qué sigue? Si es declarado culpable, Prieto podría enfrentar entre seis y 15 años de prisión, según la fiscal. Acá les dejo el perfil de Roberto Prieto, el hombre de la reelección.</p><p>The post Fiscalía imputó al exgerente de campaña Santos por ocultar plata de Odebrecht appeared first on La Silla Vacía.</p>",
       "url": "https://www.lasillavacia.com/en-vivo/fiscalia-imputo-al-exgerente-de-campana-de-santos-por-ocultar-plata-de-odebrecht/",
       "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Roberto-Prieto.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
       "publishedAt": "2026-11-05T19:44:51+00:00",
@@ -1173,26 +1368,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "france24-1224029988",
-      "title": "Huelga general en Francia por el alto costo de la vida: así avanza la jornada",
-      "summary": "Con un minuto de silencio, los manifestantes en Francia recordaron a las víctimas del acto racista de Trappes e iniciaron la huelga general convocada para este 5 de noviembre. El movimiento fue convocado por los sindicatos, pero también por estudiantes, jubilados y chalecos amarillos, por el alto costo de la vida. Nuestra periodista,...",
-      "content": "<p>Con un minuto de silencio, los manifestantes en Francia recordaron a las víctimas del acto racista de Trappes e iniciaron la huelga general convocada para este 5 de noviembre. El movimiento fue convocado por los sindicatos, pero también por estudiantes, jubilados y chalecos amarillos, por el alto costo de la vida. Nuestra periodista, Erika Olavarría, nos contó más.</p>",
-      "url": "https://www.france24.com/es/video/20261105-huelga-general-en-francia-por-el-alto-costo-de-la-vida-as%C3%AD-avanza-la-jornada",
-      "image": "https://s.france24.com/media/display/531121a6-d94d-11f1-98be-695cb59fade5/w:1024/p:16x9/ES-20261105-090428-090547-CS.jpg",
-      "publishedAt": "2026-11-05T19:36:41+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "dw-17b289292b",
       "title": "Nigeria pasó de ser un país de tránsito a centro de drogas en África",
       "summary": "El reciente hallazgo de laboratorios de metanfetamina sugiere que algunas regiones de África están dejando atrás su rol como simple zona de tránsito y se transforman en grandes centros de producción de drogas sintéticas.",
@@ -1210,6 +1385,26 @@
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 67,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "cooperativa-b00d3bffa2",
+      "title": "Sebastián Eyzaguirre insultó a Fran García-Huidobro y reconoció problemas económicos de \"Sin Filtros\"",
+      "summary": "Sebastián \"Cuchillo\" Eyzaguirre , uno de los productores de \"Sin Filtros\" , reconoció los problemas económicos y administrativos que afronta el programa digital de corte político y, de paso, insultó a Francisca García-Huidobro luego de que la animadora lo cuestionara por tener trabajadores sin sueldos . El ex \"CQC\" sostuvo una...",
+      "content": "<p>Sebastián &quot;Cuchillo&quot; Eyzaguirre, uno de los productores de &quot;Sin Filtros&quot;, reconoció los problemas económicos y administrativos que afronta el programa digital de corte político y, de paso, insultó a Francisca García-Huidobro luego de que la animadora lo cuestionara por tener trabajadores sin sueldos.</p><p>El ex &quot;CQC&quot; sostuvo una entrevista con Gabriel Alemparte en la que abordó el &quot;dramático momento personal y administrativo que remece la interna del programa&quot;, explicando que Gastón Calcagno, dueño de la productora que maneja &quot;Sin Filtros&quot;, además de ser el cerebro legal y financiero del formato, sufrió una grave crisis de salud mental hace un mes, lo cual complicó el manejo del espacio.</p><p>Al quebrarse la comunicación con la empresa controladora del programa, todo derivó en un &quot;crítico entramado financiero&quot; y en una &quot;parálisis administrativa&quot; que golpea a &quot;Sin Filtros&quot;, que recién recuperó su canal de YouTube tras verse obligado a transmitir en canales asociados.</p><p>“¡MEDIAPROMAX MANEJA LAS PLATAS, FACTURAS Y YOUTUBE, PERO NO ME CONTESTAN: GASTÓN ME MINTIÓ, ME OCULTÓ COSAS!” Sebastián #Eyzaguirre expuso el crítico entramado financiero y la parálisis administrativa que afecta a Sin Filtros tras el quiebre y la incomunicación con la empresa controladora del espacio. #SinFiltros #SinFiltrostv #Sinfiltros_tv</p><p>Fue ahí donde Eyzaguirre, que ejerce como director de contenidos de &quot;Sin Filtros&quot;, lanzó una dura crítica a los espacios de farándula y medios de comunicación que han informado sobre los problemas financieros del programa, apuntando directamente a las declaraciones de García-Huidobro en &quot;Plan Perfecto&quot; (CHV).</p><p>Sin mencionarla, sostuvo que, mientras enfrentaba un delicado momento familiar, &quot;me estaba fumando a una conchuda diciendo en televisión que yo le debía plata a Pedro, Juan y Diego, los trabajadores de este programa que hemos hecho con tanto cariño, ventilando mi vida privada y mis supuestos privilegios -que los tengo, pero que me los gané en la vida trabajando, no robándole nada a nadie- con una desfachatez, con una impunidad asquerosa&quot;.</p><p>“¡MIENTRAS TENÍA A UN FAMILIAR DIRECTO ENTRE LA VIDA Y LA MUERTE, UNA CONCHUDA SALIÓ A INJURIARME EN TELEVISIÓN!” Sebastián #Eyzaguirre descargó toda su furia y rompió el silencio tras los ataques e injurias recibidos en televisión durante uno de los momentos más dramáticos de su vida personal. #SinFiltros #SinFiltrostv #Sinfiltros_tv</p>",
+      "url": "https://www.cooperativa.cl/noticias/magazine/television/sebastian-eyzaguirre-insulto-a-fran-garcia-huidobro-y-reconocio/2026-11-05/162506.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000000220261105162506.jpg",
+      "publishedAt": "2026-11-05T19:25:06+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1393,13 +1588,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-7d3a6a44df",
-      "title": "Diego Pánico fue hospitalizado de urgencia y se baja de Teletón",
-      "summary": "El influencer Diego Pánico nuevamente generó preocupación entre sus seguidores al revelar que fue hospitalizado de urgencia en una clínica de Las Condes, situación que le obligó a cancelar su participación un evento solidario en apoyo a la Teletón 2026 este sábado . La figura de redes sociales explicó que llegó hasta el recinto de...",
-      "content": "<p>El influencer Diego Pánico nuevamente generó preocupación entre sus seguidores al revelar que fue hospitalizado de urgencia en una clínica de Las Condes, situación que le obligó a cancelar su participación un evento solidario en apoyo a la Teletón 2026 este sábado.</p><p>La figura de redes sociales explicó que llegó hasta el recinto de salud este miércoles por &quot;un fuerte dolor en el pecho&quot;, sometiéndose a exámenes donde le diagnosticaron tromboembolismo pulmonar.</p><p>&quot;Es algo muy similar a lo que vivimos en junio de este año&quot;, explicó el veinteañero en su cuenta de Instagram, recordando su hospitalización de hace unos meses a raíz de una trombosis en la pierna derecha y también una trombosis silenciosa en la izquierda.</p><p>Junto con una foto suya internado en el recinto de salud privado, reconoció haber pensado que &quot;ya estábamos completamente sanos y que todo había quedado atrás, pero hoy nos toca enfrentar nuevamente esta difícil situación&quot;.</p><p>&quot;A veces me pregunto: ¿por qué a mí? Y después pienso: ¿y por qué no a mí?&quot;, reflexionó el creador de contenido, esperando &quot;de todo corazón que esto no comprometa ningún otro órgano y que podamos salir adelante una vez más&quot;.</p><p>Diego Espinoza, su verdadero nombre, participó en &quot;Gran Hermano&quot; y también en &quot;Fiebre de Baile&quot;, ambos programas de CHV; para luego, en el verano 2026, ser incluso candidato a rey del Festival de Viña del Mar.</p><p>Una publicación compartida por Diego Espinoza (@diegopanico11)</p>",
-      "url": "https://www.cooperativa.cl/noticias/magazine/personajes/diego-panico-fue-hospitalizado-de-urgencia-y-se-baja-de-teleton/2026-11-05/155249.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000000220261105155249.jpg",
-      "publishedAt": "2026-11-05T18:52:49+00:00",
+      "id": "cooperativa-e9327b4f37",
+      "title": "Derrame en la División Andina de Codelco amenazó con llegar al río",
+      "summary": "La Corporación Nacional del Cobre (Codelco) reportó este jueves un derrame de relaves en su División Andina y advirtió el riesgo de la llegada del material al cauce del río Blanco, en la zona de cordillera en la región de Valparaíso. Según informó la cuprífera estatal a través de un comunicado, la emergencia se produjo luego de una...",
+      "content": "<p>La Corporación Nacional del Cobre (Codelco) reportó este jueves un derrame de relaves en su División Andina y advirtió el riesgo de la llegada del material al cauce del río Blanco, en la zona de cordillera en la región de Valparaíso.</p><p>Según informó la cuprífera estatal a través de un comunicado, la emergencia se produjo luego de una obstrucción en el sistema de transporte del material &quot;producto de la caída de un objeto&quot; en una de las canaletas.</p><p>&quot;Esta situación habría generado un derrame parcial de material con eventual llegada al cauce del Río Blanco&quot;, señaló la empresa, y agregó que activó los protocolos de emergencia incluyendo la paralización del transporte de relaves - residuos sólidos, líquidos y químicos de los minerales extraídos-, las faenas de la planta concentradora y el desvío preventivo de aguas.</p><p>&quot;Esta condición se encuentra controlada, las medidas de mitigación continúan en desarrollo y la autoridad competente ha sido informada oportunamente&quot;, subrayó la compañía.</p><p>Como parte de las medidas implementadas frente a la contingencia, Codelco Andina solicitó adicionalmente a la Entidad Técnica de Fiscalización Ambiental (ETFA) la ejecución de monitoreos y análisis al cauce de los ríos Blanco y Aconcagua.</p><p>&quot;Dichos análisis, que consideraron parámetros como pH, conductividad y temperatura del agua, arrojaron como resultado que no existen variaciones significativas en los parámetros evaluados ni evidencian cambios en la calidad o apariencia del agua&quot;, sostuvo a través de un comunicado.</p><p>La división operativa de la cuprífera subrayó que los resultados &quot;ya fueron reportados a la Junta de Vigilancia del río Aconcagua 1ª sección y a Esval, con el fin de dar la tranquilidad de que los procesos de extracción de aguas puedan continuar con la debida normalidad&quot;.</p><p>En tanto, la Superintendencia de Medio Ambiente (SMA) está verificando la correcta aplicación de protocolos y planes ante la emergencia.</p><p>La ministra de Medio Ambiente, Francisca Toledo, se comunicó con el superintendente Emanuel Ibarra para solicitar el inicio de un procedimiento de fiscalización.</p><p>&quot;La Superintendencia se encuentra investigando el incidente ocurrido en la división Codelco Andina&quot;, afirmó Ibarra, que detalló que personal especializado se encuentra en terrreno &quot;verificando la correcta aplicación de sus planes de contingencia y la ejecución de los monitoreos en el sector afectado&quot;.</p><p>&quot;Adicionalmente, se requerirá información a la empresa para precisar aspectos específicos del evento y nuestros equipos están coordinando una fiscalización en terreno&quot;, subrayó el superintendente.</p><p>Por su parte, ejecutivos de Esval, la empresa sanitaria que opera en la Región de Valparaíso, informaron el cierre preventivo de las compuertas de captación superficial desde el Río Aconcagua.</p><p>&quot;El suministro es normal y los equipos de la sanitaria están monitoreando la situación de manera permanente&quot;, indicó el subgerente de la sanitaria, Rodrigo Lastra.</p><p>En tanto, el delegado provincial de Los Andes, Ricardo Figueroa, afirmó que la situación &quot;se encuentra absolutamente controlada. Se tomaron los protocolos correspondientes que son muy estrictos: se han desviado las aguas, ha parado la planta concentradora y también se han desviado los transportes de relave, de tal manera de hacer un monitoreo permanente de la situación&quot;.</p><p>&quot;Esval también ha tomado las medidas preventivas: se cerró la planta captadora de agua superficial teniendo el abastecimiento suficiente para poder abastecer a toda la provincia sin mayor problema. Así que en este minuto las condiciones son absolutamente normales, no hay ningún problema con el consumo de agua&quot;, puntualizó.</p><p>La División Andina de Codelco registra al menos otros dos derrames de relave en los últimos 10 años: la filtración de concentrado de cobre vertido directamente en el lecho del río Blanco en febrero de 2016 y la rotura de un relaveducto en enero de 2019, que afectó al mismo cauce y por el que la SMA formuló cargos en contra de la estatal en 2020.</p><p>El Servicio Nacional de Geología y Minería (Sernageomin) tiene contabilizados a la fecha 839 depósitos de relave a lo largo del país, 83 de ellos ubicados en la región de Valparaíso.</p><p>Especialistas señalaron que estos depósitos de material, desecho arenoso que queda después de extraer los minerales valiosos, constituyen un &quot;peligro silencioso&quot; en un escenario de lluvias intensas como las que han azotado la zona centro-norte y sur del país durante los últimos meses a raíz del fenómeno de El Niño.</p><p>La emergencia ocurre el mismo día en que Codelco concretó una junta extraordinaria de accionistas solicitada por el Gobierno para dimensionar las inconsistencias detectadas en sus reportes productivos de 2024 y 2025, en la que se constató la existencia de más de 42 mil toneladas de cobre registradas de manera artificial, maniobra que representaría un impacto financiero cercano a los 140 millones de dólares.</p>",
+      "url": "https://www.cooperativa.cl/noticias/pais/empresas-del-estado/codelco/derrame-en-la-division-andina-de-codelco-amenazo-con-llegar-al-rio/2026-11-05/154521.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000000220261105154521.jpg",
+      "publishedAt": "2026-11-05T18:45:21+00:00",
       "sourceId": "cooperativa",
       "sourceName": "Radio Cooperativa",
       "sourceType": "Radio Informativa Nacional",
@@ -1408,9 +1603,9 @@
       "country": "Chile",
       "independent": false,
       "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "lasillavacia-0814c48868",
@@ -1433,26 +1628,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-e9327b4f37",
-      "title": "Derrame en la División Andina de Codelco amenazó con llegar al río",
-      "summary": "La Corporación Nacional del Cobre (Codelco) reportó este jueves un derrame de relaves en su División Andina y advirtió el riesgo de la llegada del material al cauce del río Blanco, en la zona de cordillera en la región de Valparaíso. Según informó la cuprífera estatal a través de un comunicado, la emergencia se produjo luego de una...",
-      "content": "<p>La Corporación Nacional del Cobre (Codelco) reportó este jueves un derrame de relaves en su División Andina y advirtió el riesgo de la llegada del material al cauce del río Blanco, en la zona de cordillera en la región de Valparaíso.</p><p>Según informó la cuprífera estatal a través de un comunicado, la emergencia se produjo luego de una obstrucción en el sistema de transporte del material &quot;producto de la caída de un objeto&quot; en una de las canaletas.</p><p>&quot;Esta situación habría generado un derrame parcial de material con eventual llegada al cauce del Río Blanco&quot;, señaló la empresa, y agregó que activó los protocolos de emergencia incluyendo la paralización del transporte de relaves - residuos sólidos, líquidos y químicos de los minerales extraídos-, las faenas de la planta concentradora y el desvío preventivo de aguas.</p><p>&quot;Esta condición se encuentra controlada, las medidas de mitigación continúan en desarrollo y la autoridad competente ha sido informada oportunamente&quot;, subrayó la compañía.</p><p>Como parte de las medidas implementadas frente a la contingencia, Codelco Andina solicitó adicionalmente a la Entidad Técnica de Fiscalización Ambiental (ETFA) la ejecución de monitoreos y análisis al cauce de los ríos Blanco y Aconcagua.</p><p>&quot;Dichos análisis, que consideraron parámetros como pH, conductividad y temperatura del agua, arrojaron como resultado que no existen variaciones significativas en los parámetros evaluados ni evidencian cambios en la calidad o apariencia del agua&quot;, sostuvo a través de un comunicado.</p><p>La división operativa de la cuprífera subrayó que los resultados &quot;ya fueron reportados a la Junta de Vigilancia del río Aconcagua 1ª sección y a Esval, con el fin de dar la tranquilidad de que los procesos de extracción de aguas puedan continuar con la debida normalidad&quot;.</p><p>En tanto, la Superintendencia de Medio Ambiente (SMA) está verificando la correcta aplicación de protocolos y planes ante la emergencia.</p><p>La ministra de Medio Ambiente, Francisca Toledo, se comunicó con el superintendente Emanuel Ibarra para solicitar el inicio de un procedimiento de fiscalización.</p><p>&quot;La Superintendencia se encuentra investigando el incidente ocurrido en la división Codelco Andina&quot;, afirmó Ibarra, que detalló que personal especializado se encuentra en terrreno &quot;verificando la correcta aplicación de sus planes de contingencia y la ejecución de los monitoreos en el sector afectado&quot;.</p><p>&quot;Adicionalmente, se requerirá información a la empresa para precisar aspectos específicos del evento y nuestros equipos están coordinando una fiscalización en terreno&quot;, subrayó el superintendente.</p><p>Por su parte, ejecutivos de Esval, la empresa sanitaria que opera en la Región de Valparaíso, informaron el cierre preventivo de las compuertas de captación superficial desde el Río Aconcagua.</p><p>&quot;El suministro es normal y los equipos de la sanitaria están monitoreando la situación de manera permanente&quot;, indicó el subgerente de la sanitaria, Rodrigo Lastra.</p><p>En tanto, el delegado provincial de Los Andes, Ricardo Figueroa, afirmó que la situación &quot;se encuentra absolutamente controlada. Se tomaron los protocolos correspondientes que son muy estrictos: se han desviado las aguas, ha parado la planta concentradora y también se han desviado los transportes de relave, de tal manera de hacer un monitoreo permanente de la situación&quot;.</p><p>&quot;Esval también ha tomado las medidas preventivas: se cerró la planta captadora de agua superficial teniendo el abastecimiento suficiente para poder abastecer a toda la provincia sin mayor problema. Así que en este minuto las condiciones son absolutamente normales, no hay ningún problema con el consumo de agua&quot;, puntualizó.</p><p>La División Andina de Codelco registra al menos otros dos derrames de relave en los últimos 10 años: la filtración de concentrado de cobre vertido directamente en el lecho del río Blanco en febrero de 2016 y la rotura de un relaveducto en enero de 2019, que afectó al mismo cauce y por el que la SMA formuló cargos en contra de la estatal en 2020.</p><p>El Servicio Nacional de Geología y Minería (Sernageomin) tiene contabilizados a la fecha 839 depósitos de relave a lo largo del país, 83 de ellos ubicados en la región de Valparaíso.</p><p>Especialistas señalaron que estos depósitos de material, desecho arenoso que queda después de extraer los minerales valiosos, constituyen un &quot;peligro silencioso&quot; en un escenario de lluvias intensas como las que han azotado la zona centro-norte y sur del país durante los últimos meses a raíz del fenómeno de El Niño.</p><p>La emergencia ocurre el mismo día en que Codelco concretó una junta extraordinaria de accionistas solicitada por el Gobierno para dimensionar las inconsistencias detectadas en sus reportes productivos de 2024 y 2025, en la que se constató la existencia de más de 42 mil toneladas de cobre registradas de manera artificial, maniobra que representaría un impacto financiero cercano a los 140 millones de dólares.</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/empresas-del-estado/codelco/derrame-en-la-division-andina-de-codelco-amenazo-con-llegar-al-rio/2026-11-05/154521.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000000220261105154521.jpg",
-      "publishedAt": "2026-11-05T18:45:21+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "esciclismo-30c48512e3",
       "title": "Matxín asegura que Tadej Pogacar volverá en 2027 \"más fuerte que nunca\"",
       "summary": "Joxean Fernández 'Matxín', director del UAE Emirates-XRG, el mejor equipo del mundo por cuarto año consecutivo firmando en el curso 78 victorias con 20 corredores...",
@@ -1471,26 +1646,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 94,
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
-      "id": "cooperativa-5ea0ed276e",
-      "title": "Corte Suprema rechaza renuncia y retiene a jueza que contrató a \"ghostwriter\"",
-      "summary": "La Corte Suprema frenó la renuncia de la jueza de la Corte de Valparaíso Rosa Aguirre -que pagó por casi 20 años a una abogada externa para que redactara sus fallos- con el propósito de saber por qué dicho tribunal no abrió un sumario en su contra. De acuerdo con La Tercera, el pleno de la Corte porteña resolvió no abrir el...",
-      "content": "<p>La Corte Suprema frenó la renuncia de la jueza de la Corte de Valparaíso Rosa Aguirre -que pagó por casi 20 años a una abogada externa para que redactara sus fallos- con el propósito de saber por qué dicho tribunal no abrió un sumario en su contra.</p><p>De acuerdo con La Tercera, el pleno de la Corte porteña resolvió no abrir el procedimiento sancionatorio y determinó pedir un informe sobre lo sucedido. Según explicó su presidenta, Silvana Donoso, el objetivo es el objetivo es, con ese antecedente, decidir si hay mérito para avanzar hacia un sumario.</p><p>En este contexto, la Suprema recibió el lunes la renuncia de Aguirre, que no se ha presentado en Sala desde hace una semana por encontrarse con licencia médica. La solicitud estaba acompañada de un certificado que acreditaba que no estaba sometida a ningún sumario.</p><p>No obstante, el máximo tribunal no aceptó la dimisión y pidió un informe a la Corte de Valparaíso para que explique por qué no abrió sumario. Dependiendo de esa respuesta, la obligará a iniciar una investigación administrativa y, si eso ocurre, la cuestionada jueza no podrá renunciar y deberá quedarse en judicatura deberá quedarse en la judicatura -no por más de dos años, pues ya tiene 73- hasta el fin del proceso.</p><p>Según los jueces de la Suprema, lo que se busca es que la conducta grave de Aguirre no quede impune; de lo contrario, la señal que se transmitirá a la judicatura será de exenciones para quienes tienen la práctica de que sus sentencias sean redactadas por profesionales externos al Poder Judicial.</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/judicial/corte-suprema/corte-suprema-rechaza-renuncia-y-retiene-a-jueza-que-contrato-a/2026-11-05/153322.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000000220261105153322.jpg",
-      "publishedAt": "2026-11-05T18:33:22+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Investigación y Poder",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 81,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "dw-f341065d53",
@@ -1611,6 +1766,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 93,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elciudadano-31ba2ef45e",
+      "title": "Desde París a Valdivia: destacados filósofos franceses llegarán a UACh para reflexionar sobre la vida, la salud y los desafíos de lo humano",
+      "summary": "El Ciudadano Entre 9 y 13 de noviembre, la UACh reunirá a reconocidos pensadores de Europa y Latinoamérica en una semana dedicada a las humanidades médicas, para abordar los cuidados en salud, la psiquiatría, las políticas de la vida y la muerte, y los desafíos de la IA. La entrada Desde París a Valdivia: destacados filósofos...",
+      "content": "<p>Desde París hasta Valdivia, en el sur del mundo, llegarán destacados filósofos franceses para participar en una serie de encuentros organizados por el Programa Internacional de Estudios Médico-Filosóficos y Bioéticos de la Universidad Austral de Chile (UACh), entre el 9 y el 13 de noviembre de 2026.</p><p>Entre los invitados destacan Patrice Vermeren, profesor emérito de la Universidad París 8 Saint-Denis, y Pierre Dardot, profesor de la Universidad París Nanterre, quienes compartirán sus reflexiones sobre temas que adquieren especial relevancia en la sociedad contemporánea.</p><p>El Dr. Walter Brokering, académico del programa y director de la Especialización en Psiquiatría de la Escuela de Graduados de la Facultad de Medicina UACh, extendió una invitación a toda la comunidad valdiviana a participar de esta semana dedicada a las humanidades médicas.</p><p>“Queremos invitar a toda la comunidad valdiviana a participar en esta Semana de las Humanidades Médicas. Tendremos la visita de distinguidos filósofos y pensadores de Europa y Latinoamérica, con quienes podremos debatir y reflexionar sobre temas muy contingentes y de gran actualidad, como las políticas de la vida, las políticas del cuidado en salud y las políticas de la muerte”, señaló.</p><p>Asimismo, subrayó que se trata de una oportunidad excepcional para generar espacios de reflexión y diálogo en torno a los desafíos contemporáneos, especialmente frente al acelerado desarrollo tecnológico y la irrupción de la inteligencia artificial.</p><p>Tres encuentros para reflexionar desde el sur del mundo</p><p>La programación comenzará el lunes 9 de noviembre, a las 18:00 horas, en la Sala Paraninfo de la UACh, con la inauguración de la Cátedra en Humanidades Médicas Dr. Fernando Oyarzún Peña. En la ocasión, Patrice Vermeren ofrecerá la conferencia “La filosofía de la vida cotidiana en Humberto Giannini”.</p><p>El martes 10 de noviembre, a las 18:00 horas, Pierre Dardot encabezará el seminario internacional “Psiquiatría y antipsiquiatría: la interrogación sobre los cuidados médicos y la institución psiquiátrica”, también en la Sala Paraninfo.</p><p>Finalmente, entre el 11 y el 13 de noviembre, se desarrollará en Temuco y Valdivia el coloquio internacional “Políticas de la vida-Políticas de la muerte: el cuidado de la vida humana en el orden neoliberal (Canguilhem-Foucault)”, con participación de investigadores nacionales e internacionales.</p><p>Las actividades del 9 y 10 de noviembre serán de acceso libre, y se invita especialmente a estudiantes, profesionales de la salud y a toda la comunidad regional a participar de esta oportunidad de encuentro y reflexión en la Universidad Austral de Chile.</p><p>Inscripción al mail psiquiat@uach.cl</p><p>*Artículo escrito por Soledad Ojeda.</p><p>La entrada Desde París a Valdivia: destacados filósofos franceses llegarán a UACh para reflexionar sobre la vida, la salud y los desafíos de lo humano se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/actualidad/desde-paris-a-valdivia-destacados-filosofos-franceses-llegaran-a-uach-para-reflexionar-sobre-la-vida-la-salud-y-los-desafios-de-lo-humano/11/05/",
+      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/filosofos_UAch_destacada-e1793901949703-640x430.jpg",
+      "publishedAt": "2026-11-05T18:08:09+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "fastcheck-45d15578c6",
@@ -2010,6 +2185,26 @@
       "category": "Economía y Sociedad",
       "relevanceTier": "alta",
       "relevanceScore": 98,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elmostrador-b242fab15e",
+      "title": "Jordán y por qué Rabat no entrega decretos: “Lo ponen en una posición de acusabilidad altísima”",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Jordán y por qué Rabat no entrega decretos: “Lo ponen en una posición de acusabilidad altísima” El Mostrador</p>",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZjBRQU5ZQWtkV3FQTnd3Z0FUQXV3RFdOVG9XdF9YV3RpaUx1VWI3OHBiZ1R5aEF5ZlRjYjVWelEycHg1cG1kaEVSOUVCSlJ4WnhuQkJlVGFDc0g1NkZ0dlFSMjhoTUUwZ0lLRms1RmNibHFEOGpQYldxZUptYUZOMDFyam84S3JHTlVTRWRLZzZYR042QVlyS0FwbVN6M3d5TnBWVnJmckZsSHRaS3BVQUo0VWZKV05iZkc5NWFsankzYkk4T3d4UWVobjYyOTZwSUhVZW9oRk5xZ0d1dUE?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-05T15:19:57+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2453,26 +2648,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-429fd8fd46",
-      "title": "Kast en Cumbre Iberoamericana de Madrid: “Sin seguridad, no hay cambio posible”",
-      "summary": "Ante el rey Felipe VI y líderes de la región, el Mandatario llamó a pasar \"de las palabras a la acción\", destacó el Compromiso Regional de Santiago contra el crimen organizado y valoró la reanudación de las relaciones diplomáticas con Venezuela. La entrada Kast en Cumbre Iberoamericana de Madrid: “Sin seguridad, no hay cambio posible”...",
-      "content": "<p>El Presidente José Antonio Kast inició su cuarta jornada de gira por Europa con su participación en la XXX Cumbre Iberoamericana en Madrid, instancia en la que expuso durante alrededor de 7 minutos. “Pasar de las palabras a la acción. La cooperación internacional sólo tiene sentido si es capaz de generar respuestas y soluciones concretas para las personas”, aseguró el Mandatario en su intervención frente al rey de España y líderes de diversos países.</p><p>Kast valoró la instancia y señaló que “estos encuentros contribuyen a superar diferencias históricas, quebrar barreras de entendimiento y así avanzar en materias concretas que benefician a nuestros conciudadanos”.</p><p>Mencionó su visita oficial a Bolivia como un hito en la cooperación internacional y destacó: “Como lo dijo el presidente (Rodrigo) Paz, podemos tener algunas diferencias, pero ello no impide que podamos construir un futuro común”.</p><p>El Mandatario destacó la aprobación de la Estrategia de Cooperación Iberoamericana y en ese marco señaló que “ninguna cooperación puede ser efectiva si no enfrenta primero aquello que más condiciona nuestro futuro. Chile está trabajando para crecer y tiene una convicción clara: sin seguridad, no hay cambio posible hacia ese objetivo”, dijo, y destacó el Compromiso Regional de Santiago.</p><p>“Nos estamos articulando para actuar unidos frente al crimen organizado y para generar oportunidades de desarrollo conjunto”, agregó.</p><p>Además, se refirió a la reanudación de las relaciones diplomáticas con Venezuela e indicó que “valoramos el cambio donde existe y ofrecemos nuestro acompañamiento en el proceso que están desarrollando”.</p><p>“Majestad, nuestro llamado es claro, concentrarnos en las prioridades que unen a los distintos pueblos como la seguridad, el empleo y el crecimiento económico sustentable”, aseguró el Presidente. En ese sentido, mencionó la intención de Chile de que Valparaíso sea sede de la Secretaría Ejecutiva del Acuerdo BBNJ.</p><p>Además, abordó la relevancia de la inteligencia artificial —que es tema de interés en esta cumbre— y señaló que “es una fuente extraordinaria de oportunidades para el crecimiento de todas nuestras economías y, a la vez, plantea desafíos éticos y geopolíticos que ningún país puede resolver por sí solo”.</p><p>La entrada Kast en Cumbre Iberoamericana de Madrid: “Sin seguridad, no hay cambio posible” se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/05/presidente-kast-en-cumbre-iberoamericana-de-madrid-sin-seguridad-no-hay-cambio-posible/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05093535/presidente-kast-en-la-xxx-cumbre-iberoamericana.jpeg",
-      "publishedAt": "2026-11-05T12:48:15+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "fastcheck-86721ef8a2",
       "title": "El reacomodo societario de Samuel Donoso y la fugaz empresa en Miami creada justo cuando se revelaron sus inversiones en esa ciudad",
       "summary": "En el contexto de cuestionamientos a su patrimonio y la causa iniciada tras una querella del Consejo de Defensa del Estado, el abogado Samuel Donoso ha tenido una intensa actividad societaria. Con movimientos en Chile y el extranjero, uno de los más recientes es la creación de la fugaz empresa GNV Finext LLC, constituida en Miami, uno...",
@@ -2490,26 +2665,6 @@
       "category": "Cultura y Sociedad",
       "relevanceTier": "alta",
       "relevanceScore": 84,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "radiouchile-63e8e9c7a7",
-      "title": "Ley de IA: la indicación que Lincolao reescribió sin su equipo y que complicó a Segpres y Hacienda",
-      "summary": "La ministra de Ciencia reescribió parte del borrador por cuenta propia; el texto llegó a la Segpres con observaciones legales y un mecanismo tributario cuestionado por Hacienda. El Senado fijó el 4 de diciembre como plazo para ingresar indicaciones. La entrada Ley de IA: la indicación que Lincolao reescribió sin su equipo y que...",
-      "content": "<p>La tramitación del proyecto de ley que busca regular la inteligencia artificial (IA) en Chile enfrenta complejas negociaciones dentro del Gobierno. La indicación sustitutiva impulsada por la ministra de Ciencia, Ximena Lincolao, generó discrepancias técnicas, jurídicas y tributarias entre distintas carteras antes de su presentación formal al Congreso, según un reportaje de La Tercera.</p><p>Fuentes del Ejecutivo consultadas por el citado medio señalan que la secretaria de Estado intervino de forma personal el borrador del proyecto, al margen de las revisiones habituales con los equipos técnicos de su propio ministerio. Aunque inicialmente la cartera había trabajado en un texto que debía pasar por las revisiones técnicas y legislativas de rigor, además de una mesa de trabajo con otras carteras, Lincolao habría reescrito gran parte de su contenido sin compartir la nueva versión con sus colaboradores.</p><p>Ese hecho derivó en que el documento llegara a la Secretaría General de la Presidencia (Segpres) con una cantidad considerable de observaciones legales. La situación generó una dificultad adicional: los propios equipos del Ministerio de Ciencia no estarían en condiciones de responder las consultas técnicas sobre la indicación, debido a que desconocen el contenido de la versión reformulada por la ministra.</p><p>Ante los reparos, la Segpres, liderada por el ministro José García Ruminot, junto a asesores del Segundo Piso de La Moneda —entre ellos el profesional en materias tecnológicas Sebastián Torrealba—, debieron abrir una mesa de revisión para adecuar el texto a los estándares de técnica legislativa requeridos.</p><p>Entre los puntos cuestionados figura un mecanismo de depreciación acelerada del 100% para empresas del sector tecnológico, que permitiría reducir la carga impositiva en inversiones del rubro y que provocó reparos en la cartera de Hacienda por su impacto en las finanzas públicas.</p><p>El proyecto original, ingresado en abril de 2023, contempla una regulación de la IA basada en categorías de riesgo, mientras que la ministra ha impulsado un modelo menos prescriptivo, con certificaciones voluntarias y espacios de experimentación regulatoria (“sandboxes”).</p><p>Consultados al respecto, en el Ministerio de Ciencia indicaron a La Tercera que “ha estado trabajando las indicaciones sustitutivas para la propuesta de Ley de IA con todos los actores relevantes, recogiendo sus distintas miradas y aportes para construir una regulación que promueva la innovación, el desarrollo de esta tecnología y que sea responsable con los desafíos que presenta. Si bien es el Ministerio de Ciencia, Tecnología, Conocimiento e Innovación quien lidera el proceso y firma el proyecto, lo ha hecho articulando un trabajo con todos los actores relevantes. Las indicaciones serán ingresadas al congreso en tiempo y forma”.</p><p>La discusión también generó críticas parlamentarias. Según el citado medio, la senadora socialista Daniella Cicardini pidió aclarar “si desde el Segundo Piso se está obstaculizando” el trabajo de Lincolao, mientras que su par PPD Ricardo Celis apuntó a “deficiencias en la asesoría legislativa”. El Senado fijó el 4 de diciembre como fecha límite para el ingreso formal de las indicaciones.</p><p>Esta controversia se suma a la intervención que La Moneda realizó en el Ministerio de Ciencia, luego del quiebre de la relación entre Lincolao y la subsecretaria Carolina Rossi, marcado por acusaciones cruzadas, desconfianzas y desvinculaciones de funcionarios. En ese contexto, el Ejecutivo incorporó a la exasesora Carolina Calvo para reforzar la cartera.</p><p>La entrada Ley de IA: la indicación que Lincolao reescribió sin su equipo y que complicó a Segpres y Hacienda se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/05/ley-de-ia-la-indicacion-que-lincolao-reescribio-sin-su-equipo-y-que-complico-a-segpres-y-hacienda/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05093023/ximena-lincolao.jpg",
-      "publishedAt": "2026-11-05T12:35:00+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 89,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2531,26 +2686,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 79,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "radiouchile-01fa5fd321",
-      "title": "La deteriorada imagen de Israel en la opinión pública estadounidense",
-      "summary": "La estrategia de Benjamin Netanyahu de apoyar incondicionalmente a Donald Trump y desafiar a los presidentes demócratas, así como la guerra en Gaza dañaron la imagen de Israel en la opinión pública estadounidense. La entrada La deteriorada imagen de Israel en la opinión pública estadounidense se publicó primero en Diario y Radio...",
-      "content": "<p>Durante los últimos años, el primer ministro Benjamin Netanyahu se peleó con los presidentes demócratas y apoyó incondicionalmente al republicano Donald Trump.</p><p>Durante la segunda presidencia de Barack Obama, Netanyahu se presentó en contra de su voluntad frente al Congreso dominado por republicanos, para insistir en que Obama anule el acuerdo con Irán, algo que logró más tarde convenciendo a Trump, con desastrosas consecuencias.</p><p>Tres años de guerra en Gaza, sumamente criticada en Europa y también en Estados Unidos, socavó el apoyo de la población estadounidense a Israel, a pesar de haber comenzado con un obsceno ataque de Hamás contra la población civil israelí.</p><p>Y si faltaba algo, tratando de minimizar su derrota en las elecciones de medio término ayer, Trump anunció que hasta fin de año se interrumpiría totalmente el apoyo de defensa de casi 4.000 millones de dólares que Washington otorga a Israel anualmente.</p><p>El próximo gobierno israelí, que a juzgar por el resultado de las elecciones de la semana pasada, estará encabezado por Gady Eizenkot y no por Netanyahu, deberá hacer muy buena letra para recuperar la confianza de la ciudadanía de la potencia occidental, principalmente hacer pasos en dirección a una reconciliación con el mundo árabe en general y con los palestinos en particular.</p><p>La entrada La deteriorada imagen de Israel en la opinión pública estadounidense se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/05/la-deteriorada-imagen-de-israel-en-la-opinion-publica-estadounidense/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/26123858/colonos-en-cisjordania.png",
-      "publishedAt": "2026-11-05T12:12:05+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 98,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "malaespina-741ffe49fd",
@@ -3673,13 +3808,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-bc89350486",
-      "title": "“Memoria histórica no puede quedar subordinada al ajuste fiscal”: organismos DDHH rechazan recortes",
+      "id": "elmostrador-9083aea285",
+      "title": "Midterms: el ocaso del Trumpismo",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>“Memoria histórica no puede quedar subordinada al ajuste fiscal”: organismos DDHH rechazan recortes El Mostrador</p>",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON0ltYlRmMk1CaEJrTlE3QU1KUHFzZHk2Nlp2dl91QmdRZElNb0xEeE1tc1dxMWZhODNBV0YtdFhDTDlXUlZQR2pzUVZ2Wk5zbGwyeXFKc2cySkhhVVYxUC0yV2JMd3FaeG9iMWVpRkVUbmdKWFdBVXJkMXdMLUlLem8zSGJ3RU0wT2FZcFIzVzZhMVhuZVdfYklBWVYyNmVhQkNzVllfU1BDenhmWHluS0oxdFItc2pTVlpITm9GQ1dJdmdldGRoN1lPWlNQdWlteEhfUXdRZFJfQnM?oc=5",
+      "content": "<p>Midterms: el ocaso del Trumpismo El Mostrador</p>",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOenIyRVZ3WDliTnNCWmJxeVI3bE1FQUdyODRHODFrRDBtbTdLbHMwNEpCbGU4WTFvNURCV1dISUpiNWdXN3JxOWRseEh6dFJiUWV0ck8zemtuemtIU2QzRVBDYWFhWTZQLWwzdXFMSDJoRVBIODljNDJxZUhwZHRfZHVUNnpLYWlmNkUwYlB4UTU?oc=5",
       "image": null,
-      "publishedAt": "2026-11-04T11:30:53+00:00",
+      "publishedAt": "2026-11-04T11:25:38+00:00",
       "sourceId": "elmostrador",
       "sourceName": "El Mostrador",
       "sourceType": "Digital Independiente",
@@ -3687,9 +3822,9 @@
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
+      "category": "Política y Actualidad",
       "relevanceTier": "alta",
-      "relevanceScore": 87,
+      "relevanceScore": 86,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3713,24 +3848,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-9083aea285",
-      "title": "Midterms: el ocaso del Trumpismo",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Midterms: el ocaso del Trumpismo El Mostrador</p>",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOenIyRVZ3WDliTnNCWmJxeVI3bE1FQUdyODRHODFrRDBtbTdLbHMwNEpCbGU4WTFvNURCV1dISUpiNWdXN3JxOWRseEh6dFJiUWV0ck8zemtuemtIU2QzRVBDYWFhWTZQLWwzdXFMSDJoRVBIODljNDJxZUhwZHRfZHVUNnpLYWlmNkUwYlB4UTU?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-04T11:25:38+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "country": "Chile",
+      "id": "globalvoices-d380c68902",
+      "title": "Cuando la libertad de expresión tiene un precio: Voces de los jóvenes de Mozambique",
+      "summary": "Para los jóvenes mozambiqueños, la libertad de expresión existe en la ley, pero expresarse públicamente tiene un precio. La música se ha convertido en un espacio poderoso de crítica y resistencia.",
+      "content": "<p>Cuando la libertad de expresión tiene consecuencias, los jóvenes recurren a la música para hacer frente al silencio político</p><p>Originalmente publicado en Global Voices en Español</p><p>Hombres en una protesta pacífica; uno sostiene un micrófono y un cartel. La foto fue tomada por Stephanie Douglas. Nigeria (vía Pexels con .licencia Pexel).</p><p>En Mozambique, la libertad de expresión está regulada por la ley 34/2014 sobre el derecho a la información, que está garantizado constitucionalmente según el artículo 48 de la Constitución de la República de Mozambique. Sin embargo, para muchos jóvenes, hablar públicamente sobre corrupción, desigualdad, violencia policial o responsabilidades sigue representando un riesgo, lo que demuestra la brecha entre las promesas de la democracia y la realidad diaria.</p><p>Por ejemplo, esta contradicción es notoria en la música. En los últimos veinte años, el hip hop se volvió un espacio fundamental para que los jóvenes urbanos expresaran su crítica social, particularmente en la capital, Maputo. Más que un simple género musical, el hip hop se convirtió en una manera de documentar las preocupaciones de las generaciones que crecieron, de un lado, con la democratización política y el multipartidismo de principios de la década de 1990, pero, por otro lado, el gran porcentaje de jóvenes desempleados, desigualdades económicas y una creciente desconfianza a las instituciones públicas lideradas por el partido Frente de Liberación de Mozambique (FRELIMO).</p><p>A través de narrativas musicales, grupos como GPRO y artistas como Azagaia crearon un lenguaje que refleja la vida cotidiana de la gente en los espacios públicos e institucionales. Quizás la pregunta que plantea Azagaia en su canción «O ciclo da Censura» (El ciclo de Censura) sigue siendo relevante: «¿Quién dice que en este país hay libertad de expresión?». No es solo un comentario artístico provocativo, sino una reflexión sobre las condiciones materiales y políticas que determinan quién puede hablar, sobre qué y con qué consecuencias.</p><p>Loa jóvenes mozambiqueños han ido reinventado su manera de participar políticamente. Durante muchos años los ciudadanos estaban fuertemente vinculados a partidos políticos y a organizaciones estatales, hoy en día se manifiestan mediante organizaciones como colectivos feminista, como el Foro de Mujeres, plataformas digitales para dar seguimiento a la gobernanza local, asociaciones culturales e iniciativas artísticas. Este cambio dirige la atención a una generación que no acepta que la política se limite a las elecciones y demanda el derecho continuo a participar en la conformación de los espacios públicos.</p><p>Sin embargo, estas nuevas formas de participación suelen generar conflictos con las autoridades, que ven continuamente a los manifestantes como una amenaza al orden público. Uno de los acontecimientos más destacables ocurrió en 2016, cuando las organizaciones feministas tomaron las calles para protestar contra la prohibición de las minifaldas en los colegios públicos. La medida se presentó como una respuesta al acoso sexual, pero daba a entender que la ropa elegida por las estudiantes era la causa del daño que sufrían.</p><p>Al responsabilizar a las niñas y no a los agresores, el debate reveló algo más profundo: la disputa sobre el control del cuerpo femenino y el derecho a que las jóvenes definan su propia identidad. Durante las manifestaciones, la activista española Eva Anadón Moreno fue detenida y posteriormente la expulsaron de Mozambique por participar en la protesta.</p><p>En años recientes, la censura en Mozambique casi nunca llega en forma prohibiciones explícitas. Sin embargo, eso no significa que no existan miedo ni autocensura. En una entrevista de 2010, Azagaia señaló que el mayor obstáculo para la libertad de expresión en Mozambique no era necesariamente intimidación policial directa, sino precariedad económica. Cuando muchas oportunidades de trabajo dependen, directa o indirectamente, de tus contactos con los poderes estructurales establecidos, la crítica pública puede poner en peligro a las personas.</p><p>Este resultado es lo que podemos llamar la «economía del silencio». Los periodistas evitan algunos temas, los artistas moderan sus palabras, los funcionarios públicos callan sus opiniones y los jóvenes activistas aprenden que sus palabras pueden ser letales. La libertad deja de ser meramente un problema legal y se convierte en sobrevivencia. En este contexto, la música de protesta adquiere un valor político singular. Rompe el silencio colectivo y desarrolla el reconocimiento comunitario, donde las vivencias injustas encuentran voz, memoria y empatía.</p><p>La Constitución de Mozambique establece que todos los ciudadanos tienen el derecho a la libertad de expresión y opinión. Sin embargo, una democracia no se mide únicamente en los derechos plasmados en el papel, sino también en las condiciones reales en las que se ejercen. La ilusión de la libertad yace en esta contradicción: se les hace creer a los ciudadanos que pueden expresarse libremente, mientras los mecanismos de vigilancia, estigmatización y exclusión limitan quién puede participar en los espacios públicos. No es necesario silenciar todas las voces; basta con que el costo de la disconformidad sea elevado, como por ejemplo, cuando el incremento de las tarifas de telecomunicaciones sobrepasa el costo real.</p><p>En este contexto, el activismo juvenil simboliza esta ambigüedad. Amplifica las voces que históricamente fueron marginadas y las visibiliza. Cuanto mayor es la capacidad de artistas, activistas o colectivos juveniles para movilizar personas, mayor es el riesgo de sufrir intimidación, desinformación o aislamiento económico.</p><p>Independientemente de las dificultades, los jóvenes siguen creando nuevas formas de esperanza política. El arte, la música y activismo digital demuestran que la ciudadanía no es solo una situación legal, sino una práctica diaria de participación, imaginación y resiliencia. El desafío real al proteger a los mozambiqueños no es solo garantizar la libertad de expresión que menciona la Constitución, sino crear condiciones donde todos puedan ejercerla sin miedo al impacto económico, social o a las represalias políticas. La cuestión fundamental para Mozambique no es solo que los jóvenes puedan opinar, sino si pueden hacerlo sin poner en riesgo su seguridad, su empleo o su capacidad para participar en público.</p>",
+      "url": "https://es.globalvoices.org/2026/11/04/cuando-la-libertad-de-expresion-tiene-un-precio-voces-de-los-jovenes-de-mozambique/",
+      "image": "https://pt.globalvoices.org/wp-content/uploads/2026/09/pexels-stephanie-douglas-1622396040-27555056-400x300.webp",
+      "publishedAt": "2026-11-04T07:00:33+00:00",
+      "sourceId": "globalvoices",
+      "sourceName": "Global Voices ES",
+      "sourceType": "Periodismo Ciudadano Global",
+      "sourceSite": "https://es.globalvoices.org",
+      "region": "mundo",
+      "country": "Global",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Cultura y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 70,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "interferencia-f3d48f78d6",
@@ -3753,24 +3888,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "globalvoices-d380c68902",
-      "title": "Cuando la libertad de expresión tiene un precio: Voces de los jóvenes de Mozambique",
-      "summary": "Para los jóvenes mozambiqueños, la libertad de expresión existe en la ley, pero expresarse públicamente tiene un precio. La música se ha convertido en un espacio poderoso de crítica y resistencia.",
-      "content": "<p>Cuando la libertad de expresión tiene consecuencias, los jóvenes recurren a la música para hacer frente al silencio político</p><p>Originalmente publicado en Global Voices en Español</p><p>Hombres en una protesta pacífica; uno sostiene un micrófono y un cartel. La foto fue tomada por Stephanie Douglas. Nigeria (vía Pexels con .licencia Pexel).</p><p>En Mozambique, la libertad de expresión está regulada por la ley 34/2014 sobre el derecho a la información, que está garantizado constitucionalmente según el artículo 48 de la Constitución de la República de Mozambique. Sin embargo, para muchos jóvenes, hablar públicamente sobre corrupción, desigualdad, violencia policial o responsabilidades sigue representando un riesgo, lo que demuestra la brecha entre las promesas de la democracia y la realidad diaria.</p><p>Por ejemplo, esta contradicción es notoria en la música. En los últimos veinte años, el hip hop se volvió un espacio fundamental para que los jóvenes urbanos expresaran su crítica social, particularmente en la capital, Maputo. Más que un simple género musical, el hip hop se convirtió en una manera de documentar las preocupaciones de las generaciones que crecieron, de un lado, con la democratización política y el multipartidismo de principios de la década de 1990, pero, por otro lado, el gran porcentaje de jóvenes desempleados, desigualdades económicas y una creciente desconfianza a las instituciones públicas lideradas por el partido Frente de Liberación de Mozambique (FRELIMO).</p><p>A través de narrativas musicales, grupos como GPRO y artistas como Azagaia crearon un lenguaje que refleja la vida cotidiana de la gente en los espacios públicos e institucionales. Quizás la pregunta que plantea Azagaia en su canción «O ciclo da Censura» (El ciclo de Censura) sigue siendo relevante: «¿Quién dice que en este país hay libertad de expresión?». No es solo un comentario artístico provocativo, sino una reflexión sobre las condiciones materiales y políticas que determinan quién puede hablar, sobre qué y con qué consecuencias.</p><p>Loa jóvenes mozambiqueños han ido reinventado su manera de participar políticamente. Durante muchos años los ciudadanos estaban fuertemente vinculados a partidos políticos y a organizaciones estatales, hoy en día se manifiestan mediante organizaciones como colectivos feminista, como el Foro de Mujeres, plataformas digitales para dar seguimiento a la gobernanza local, asociaciones culturales e iniciativas artísticas. Este cambio dirige la atención a una generación que no acepta que la política se limite a las elecciones y demanda el derecho continuo a participar en la conformación de los espacios públicos.</p><p>Sin embargo, estas nuevas formas de participación suelen generar conflictos con las autoridades, que ven continuamente a los manifestantes como una amenaza al orden público. Uno de los acontecimientos más destacables ocurrió en 2016, cuando las organizaciones feministas tomaron las calles para protestar contra la prohibición de las minifaldas en los colegios públicos. La medida se presentó como una respuesta al acoso sexual, pero daba a entender que la ropa elegida por las estudiantes era la causa del daño que sufrían.</p><p>Al responsabilizar a las niñas y no a los agresores, el debate reveló algo más profundo: la disputa sobre el control del cuerpo femenino y el derecho a que las jóvenes definan su propia identidad. Durante las manifestaciones, la activista española Eva Anadón Moreno fue detenida y posteriormente la expulsaron de Mozambique por participar en la protesta.</p><p>En años recientes, la censura en Mozambique casi nunca llega en forma prohibiciones explícitas. Sin embargo, eso no significa que no existan miedo ni autocensura. En una entrevista de 2010, Azagaia señaló que el mayor obstáculo para la libertad de expresión en Mozambique no era necesariamente intimidación policial directa, sino precariedad económica. Cuando muchas oportunidades de trabajo dependen, directa o indirectamente, de tus contactos con los poderes estructurales establecidos, la crítica pública puede poner en peligro a las personas.</p><p>Este resultado es lo que podemos llamar la «economía del silencio». Los periodistas evitan algunos temas, los artistas moderan sus palabras, los funcionarios públicos callan sus opiniones y los jóvenes activistas aprenden que sus palabras pueden ser letales. La libertad deja de ser meramente un problema legal y se convierte en sobrevivencia. En este contexto, la música de protesta adquiere un valor político singular. Rompe el silencio colectivo y desarrolla el reconocimiento comunitario, donde las vivencias injustas encuentran voz, memoria y empatía.</p><p>La Constitución de Mozambique establece que todos los ciudadanos tienen el derecho a la libertad de expresión y opinión. Sin embargo, una democracia no se mide únicamente en los derechos plasmados en el papel, sino también en las condiciones reales en las que se ejercen. La ilusión de la libertad yace en esta contradicción: se les hace creer a los ciudadanos que pueden expresarse libremente, mientras los mecanismos de vigilancia, estigmatización y exclusión limitan quién puede participar en los espacios públicos. No es necesario silenciar todas las voces; basta con que el costo de la disconformidad sea elevado, como por ejemplo, cuando el incremento de las tarifas de telecomunicaciones sobrepasa el costo real.</p><p>En este contexto, el activismo juvenil simboliza esta ambigüedad. Amplifica las voces que históricamente fueron marginadas y las visibiliza. Cuanto mayor es la capacidad de artistas, activistas o colectivos juveniles para movilizar personas, mayor es el riesgo de sufrir intimidación, desinformación o aislamiento económico.</p><p>Independientemente de las dificultades, los jóvenes siguen creando nuevas formas de esperanza política. El arte, la música y activismo digital demuestran que la ciudadanía no es solo una situación legal, sino una práctica diaria de participación, imaginación y resiliencia. El desafío real al proteger a los mozambiqueños no es solo garantizar la libertad de expresión que menciona la Constitución, sino crear condiciones donde todos puedan ejercerla sin miedo al impacto económico, social o a las represalias políticas. La cuestión fundamental para Mozambique no es solo que los jóvenes puedan opinar, sino si pueden hacerlo sin poner en riesgo su seguridad, su empleo o su capacidad para participar en público.</p>",
-      "url": "https://es.globalvoices.org/2026/11/04/cuando-la-libertad-de-expresion-tiene-un-precio-voces-de-los-jovenes-de-mozambique/",
-      "image": "https://pt.globalvoices.org/wp-content/uploads/2026/09/pexels-stephanie-douglas-1622396040-27555056-400x300.webp",
-      "publishedAt": "2026-11-04T07:00:33+00:00",
-      "sourceId": "globalvoices",
-      "sourceName": "Global Voices ES",
-      "sourceType": "Periodismo Ciudadano Global",
-      "sourceSite": "https://es.globalvoices.org",
-      "region": "mundo",
-      "country": "Global",
+      "id": "ciper-e55acb5581",
+      "title": "Reforma al INDH: el Leviatán sin contrapesos",
+      "summary": "La entrada Reforma al INDH: el Leviatán sin contrapesos se publicó primero en CIPER Chile .",
+      "content": "<p>En tiempos de incertidumbre y fake news, el periodismo de CIPER es más necesario que nunca.</p><p>Tu aporte mensual nos permite seguir investigando</p><p>-- --&gt; --&gt; --&gt; --&gt; --&gt; --&gt; La autora de esta columna advierte que el proyecto del gobierno para reformar el INDH debilita el único contrapeso independiente frente a los abusos del Estado: le quita la facultad de querellarse por crímenes como la tortura, la desaparición forzada y la trata de personas, y permite que el Presidente defina por completo a su primer Consejo. Recuerda que esta discusión ya se dio en 2009, cuando el Congreso optó por mantener esas querellas, y sostiene que, aunque el INDH necesita reformas, ninguna debería dejar a las víctimas más solas. Concluye que “los derechos humanos no son un premio para quienes nos caen bien. Son un seguro para todos, incluso para quienes hoy desconfían de ellos”.</p><p>Imagen de portada: Rodrigo Fuica / Agencia Uno</p><p>En su libro Leviatán, publicado en 1651, Thomas Hobbes pensó al Estado desde una constatación incómoda: solas, las personas somos frágiles y estamos expuestas a la violencia de otros. Para escapar de ese estado salvaje, recurrió a la imagen del Leviatán: un poder enorme al que entregamos parte de nuestra libertad a cambio de protección. El trato parece razonable, pero deja una pregunta abierta desde entonces: ¿quién nos protege cuando es el propio Estado el que abusa?</p><p>Esa pregunta obsesionó a quienes fundaron el Estado liberal de derechos. Montesquieu advirtió que “todo hombre que tiene poder se inclina a abusar de él”, y que solo el poder puede detener al poder. Rousseau dio vuelta el pacto de Hobbes: el contrato social solo es legítimo si cada persona, al unirse a todas, “no obedece más que a sí misma y queda tan libre como antes”. Para él, la soberanía es del pueblo y el gobierno es apenas su mandatario, siempre tentado de usurparla. James Madison, en los debates de la Constitución norteamericana, lo resumió así: si los hombres fueran ángeles, no haría falta gobierno; como no lo son, hay que darle poder al gobierno y, a la vez, obligarlo a controlarse a sí mismo. Y los revolucionarios franceses escribieron en 1789 que una sociedad sin garantía de los derechos ni separación de poderes “carece de Constitución”. Los contrapesos no son un capricho ideológico. Son la condición para que el Leviatán no se vuelva contra nosotros.</p><p>Esta no es una pregunta que solo se hicieron pensadores hace más de 300 años. Se la hace hoy la persona detenida que es golpeada en una comisaría. Se la hace la mujer traída a Chile con engaños y explotada por una red de trata. Se la hace la familia que busca a alguien que nunca volvió. Y se la puede hacer cualquiera, piense como piense y viva donde viva: la familia que deja a su padre o a su madre en una residencia de larga estadía y teme que lo maltraten o lo mantengan sedado para que no moleste. A esos lugares entra hoy, sin aviso previo, el Comité de Prevención contra la Tortura del INDH. Y cuando en septiembre murieron 16 personas mayores en el incendio de una residencia en Pitrufquén, fue el INDH el que exigió explicaciones a las autoridades. En la mayoría de los casos, el agresor tiene poder, abogados y tiempo. La víctima, casi siempre, está sola.</p><p>El lunes 19 de octubre el gobierno de José Antonio Kast ingresó a la Cámara el proyecto que reforma el Instituto Nacional de Derechos Humanos (Boletín N° 18.754-17), con suma urgencia. Antes de discutir sus artículos, vale la pena volver a esa pregunta. Porque de eso se trata, en el fondo, este proyecto.</p><p>Los derechos humanos tienen una historia, y conviene contarla sin complejos. No son la doctrina de un sector: son un pacto, probablemente el más amplio que ha logrado la humanidad. Nacieron de una decisión colectiva tras los horrores de la Segunda Guerra Mundial, cuando el mundo comprobó que un Estado moderno, con leyes y tribunales, podía organizar el exterminio de millones. La Declaración Universal de 1948, aprobada sin votos en contra por países de tradiciones políticas, religiosas y culturales muy distintas, fue la respuesta: hay cosas que ningún poder puede hacerle a una persona, gane quien gane la elección. El propio proyecto del gobierno de Kast lo recuerda con orgullo: un chileno, Hernán Santa Cruz, fue decisivo en su redacción.</p><p>Chile aprendió eso por el camino más duro. En 1991, la Comisión Rettig propuso por unanimidad crear “una institución cuyo fin específico sea proteger al hombre corriente de los abusos de poder”. El proyecto del gobierno de Kast cita esa frase. Tardó casi dos décadas en concretarse: la Ley N° 20.405 creó el INDH en 2009, siguiendo los Principios de París de Naciones Unidas, que exigen instituciones independientes del gobierno de turno y con competencias reales.</p><p>¿Qué hace el proyecto con esa institución? Lo más comentado es que le quita la facultad de presentar querellas. Hay que decir con precisión qué significa eso. Hoy el INDH no puede querellarse por cualquier delito. La ley lo limita a hechos de genocidio, lesa humanidad, crímenes de guerra, tortura, desaparición forzada, tráfico de migrantes y trata de personas. Es decir, los crímenes más graves que conoce el derecho. En varios de ellos, el INDH ha sido querellante contra redes de trata, incluidas causas contra miembros del Tren de Aragua.</p><p>El proyecto reemplaza esa facultad por una “denuncia institucional”. La diferencia no es técnica: es la diferencia entre avisar y acompañar. Quien denuncia informa a la Fiscalía y se va. Quien se querella es parte del juicio: pide diligencias, impugna, insiste cuando la investigación se archiva. Para una víctima de tortura o de trata, sin recursos ni redes, el INDH suele ser el único que puede hacer eso. Sacarlo del proceso no la protege mejor; la deja más sola.</p><p>Esta discusión ya la tuvimos, y se zanjó. En 2009 el Senado había eliminado la facultad de querellarse, con los mismos argumentos de hoy: la acción penal es del Ministerio Público y las víctimas pueden querellarse por sí mismas. La presidenta Bachelet la repuso por veto, precisamente para tortura, desaparición forzada, trata y tráfico de migrantes. El Senado lo aprobó el 11 de noviembre de 2009, por 16 votos contra 13. En ese debate, el senador Juan Pablo Letelier lo dijo con claridad: la norma era «una declaración contra el abuso del poder por parte del Estado, que es el único que puede cometer estos crímenes tan atroces». Por eso, agregó, «necesitamos que un órgano independiente posea la facultad para deducir acciones».</p><p>¿Con qué fundamento? El proyecto del gobierno de Kast afirma que hay una “concentración masiva” de la acción del Instituto en querellas, pero no entrega una sola cifra. Invoca el informe de la Comisión Asesora de 2025, que el propio Estado convocó. Esa Comisión, sin embargo, recomendó lo contrario: robustecer la capacidad de acción judicial del Instituto y fortalecer sus sedes regionales. El proyecto no obliga a mantener ninguna sede fuera de Santiago.</p><p>Además, el INDH no se ocupa solo de estos crímenes extremos. Recibe denuncias por todo tipo de vulneraciones, con una institucionalidad pequeña que no alcanza a cubrirlas, y menos si hay quienes buscan reducirla al mínimo. Un ejemplo reciente: en la tramitación de la Ley N° 21.822, sobre envejecimiento digno, activo y saludable, el Ejecutivo del exPresidente Boric propuso que el INDH destinara personal y recursos a interponer acciones legales y constitucionales en favor de personas mayores víctimas de vulneraciones, y a vigilar las residencias de larga estadía. En un país que envejece rápidamente, parecía una decisión sensata. La derecha encabezó el rechazo, y en la Sala de la Cámara se llegó a gritar: “¡Este proyecto no será utilizado para entregarle más plata al INDH!”. La norma terminó suprimida en la Comisión Mixta. Cuando se acusa al INDH de tener sesgos, cabe preguntarse: ¿quién tiene realmente el sesgo?</p><p>Adicionalmente, el proyecto hace cesar “de pleno derecho” a los once consejeros actuales. El nuevo Consejo de cinco miembros, que gobernará el INDH sus primeros dos años, saldrá íntegro de una nómina del Presidente de la República. El Senado la aprobará en bloque y por mayoría simple, no por el quórum de cuatro séptimos que el mismo proyecto exige después. Ese Consejo nombrará al primer director ejecutivo sin concurso de Alta Dirección Pública y redactará los nuevos estatutos. El contraste con 2009 es elocuente. Ese mismo veto objetivó las causales de remoción de los consejeros para blindar su independencia, y el Senado lo acogió sin votos en contra. Hoy se propone removerlos a todos por ley. Dicho en simple: el gobierno de turno elige a quienes deben vigilarlo.</p><p>Nada de esto significa que el INDH no deba reformarse. Tras 16 años, hay preguntas legítimas sobre su gobernanza, su transparencia y la renovación de su Consejo. Algunas propuestas del proyecto van en esa línea: contenidos mínimos para el informe anual, reglas sobre conflictos de interés, la facultad expresa de informar proyectos de ley. Esa discusión hay que darla, y sin miedo.</p><p>Una reforma seria empieza por preguntarse dónde, cómo y con qué facultades y recursos diseñamos las instituciones que protegen los derechos. Ese diseño no es neutro: es, al mismo tiempo, el sistema de contrapesos que limita el ejercicio del poder de las autoridades. Lo que no es serio es responder a esa pregunta quitándole una facultad al único órgano que la ejerce, sin datos y con una urgencia que impide pensar.</p><p>El INDH es un bastión de esas ideas nacidas en 1789 y en 1948, pero un bastión modesto. Sus herramientas cubren lo mínimo: que la tortura, la desaparición o la trata no queden impunes, y que alguien independiente pueda llevarlas ante un tribunal. Es cierto que eso no basta. Hoy el abuso tiene muchas formas, y el debate debería hacerse cargo de todas ellas. Pero ampliar la mirada no puede significar retroceder en las trincheras mínimas que ya ganamos.</p><p>Los derechos humanos no son un premio para quienes nos caen bien. Son un seguro para todos, incluso para quienes hoy desconfían de ellos. Nadie puede asegurar que el Leviatán no vuelva a abusar de su poder, gobierne quien gobierne. Por eso necesitamos un contrapeso independiente, con herramientas reales, que nos proteja si eso ocurre. Debilitarlo no nos hace más libres ni más seguros: nos deja solos ante el Leviatán.</p><p>--&gt; --&gt; --&gt; --&gt; Rabat rechazó al menos nueve rebajas de penas y las disputó en tribunales: en seis los jueces le dieron la razón y no otorgaron el beneficioVER MÁS Fallos de cortes de apelaciones establecen que Rabat sí podía rechazar las rebajas de condenasVER MÁS Los fallos que contradicen a RabatVER MÁS ¿Cómo se financia CIPER? Ver informes de ingresos ¿Cómo apoyar a CIPER? Conoce las opciones Principios de CIPER Lo que nos mueve Directorio Fundación CIPER Nuestro directorio Equipo CIPER Conócenos Investigaciones con impacto Revísalas Premios obtenidos Ver premios Libros CIPER Conócelos Enviar cartas y columnas Revisa las opciones</p>",
+      "url": "https://www.ciperchile.cl/2026/11/04/reforma-al-indh-el-leviatan-sin-contrapesos/?utm_source=rss&utm_medium=rss&utm_campaign=reforma-al-indh-el-leviatan-sin-contrapesos",
+      "image": "https://www.ciperchile.cl/wp-content/uploads/A_UNO_1761177-scaled.jpg",
+      "publishedAt": "2026-11-04T07:00:14+00:00",
+      "sourceId": "ciper",
+      "sourceName": "CIPER Chile",
+      "sourceType": "Investigación Independiente",
+      "sourceSite": "https://www.ciperchile.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
-      "category": "Cultura y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 70,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 99,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "interferencia-6f2e9168ff",
@@ -3788,26 +3923,6 @@
       "country": "Chile",
       "independent": true,
       "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 99,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "ciper-e55acb5581",
-      "title": "Reforma al INDH: el Leviatán sin contrapesos",
-      "summary": "La entrada Reforma al INDH: el Leviatán sin contrapesos se publicó primero en CIPER Chile .",
-      "content": "<p>En tiempos de incertidumbre y fake news, el periodismo de CIPER es más necesario que nunca.</p><p>Tu aporte mensual nos permite seguir investigando</p><p>-- --&gt; --&gt; --&gt; --&gt; --&gt; --&gt; La autora de esta columna advierte que el proyecto del gobierno para reformar el INDH debilita el único contrapeso independiente frente a los abusos del Estado: le quita la facultad de querellarse por crímenes como la tortura, la desaparición forzada y la trata de personas, y permite que el Presidente defina por completo a su primer Consejo. Recuerda que esta discusión ya se dio en 2009, cuando el Congreso optó por mantener esas querellas, y sostiene que, aunque el INDH necesita reformas, ninguna debería dejar a las víctimas más solas. Concluye que “los derechos humanos no son un premio para quienes nos caen bien. Son un seguro para todos, incluso para quienes hoy desconfían de ellos”.</p><p>Imagen de portada: Rodrigo Fuica / Agencia Uno</p><p>En su libro Leviatán, publicado en 1651, Thomas Hobbes pensó al Estado desde una constatación incómoda: solas, las personas somos frágiles y estamos expuestas a la violencia de otros. Para escapar de ese estado salvaje, recurrió a la imagen del Leviatán: un poder enorme al que entregamos parte de nuestra libertad a cambio de protección. El trato parece razonable, pero deja una pregunta abierta desde entonces: ¿quién nos protege cuando es el propio Estado el que abusa?</p><p>Esa pregunta obsesionó a quienes fundaron el Estado liberal de derechos. Montesquieu advirtió que “todo hombre que tiene poder se inclina a abusar de él”, y que solo el poder puede detener al poder. Rousseau dio vuelta el pacto de Hobbes: el contrato social solo es legítimo si cada persona, al unirse a todas, “no obedece más que a sí misma y queda tan libre como antes”. Para él, la soberanía es del pueblo y el gobierno es apenas su mandatario, siempre tentado de usurparla. James Madison, en los debates de la Constitución norteamericana, lo resumió así: si los hombres fueran ángeles, no haría falta gobierno; como no lo son, hay que darle poder al gobierno y, a la vez, obligarlo a controlarse a sí mismo. Y los revolucionarios franceses escribieron en 1789 que una sociedad sin garantía de los derechos ni separación de poderes “carece de Constitución”. Los contrapesos no son un capricho ideológico. Son la condición para que el Leviatán no se vuelva contra nosotros.</p><p>Esta no es una pregunta que solo se hicieron pensadores hace más de 300 años. Se la hace hoy la persona detenida que es golpeada en una comisaría. Se la hace la mujer traída a Chile con engaños y explotada por una red de trata. Se la hace la familia que busca a alguien que nunca volvió. Y se la puede hacer cualquiera, piense como piense y viva donde viva: la familia que deja a su padre o a su madre en una residencia de larga estadía y teme que lo maltraten o lo mantengan sedado para que no moleste. A esos lugares entra hoy, sin aviso previo, el Comité de Prevención contra la Tortura del INDH. Y cuando en septiembre murieron 16 personas mayores en el incendio de una residencia en Pitrufquén, fue el INDH el que exigió explicaciones a las autoridades. En la mayoría de los casos, el agresor tiene poder, abogados y tiempo. La víctima, casi siempre, está sola.</p><p>El lunes 19 de octubre el gobierno de José Antonio Kast ingresó a la Cámara el proyecto que reforma el Instituto Nacional de Derechos Humanos (Boletín N° 18.754-17), con suma urgencia. Antes de discutir sus artículos, vale la pena volver a esa pregunta. Porque de eso se trata, en el fondo, este proyecto.</p><p>Los derechos humanos tienen una historia, y conviene contarla sin complejos. No son la doctrina de un sector: son un pacto, probablemente el más amplio que ha logrado la humanidad. Nacieron de una decisión colectiva tras los horrores de la Segunda Guerra Mundial, cuando el mundo comprobó que un Estado moderno, con leyes y tribunales, podía organizar el exterminio de millones. La Declaración Universal de 1948, aprobada sin votos en contra por países de tradiciones políticas, religiosas y culturales muy distintas, fue la respuesta: hay cosas que ningún poder puede hacerle a una persona, gane quien gane la elección. El propio proyecto del gobierno de Kast lo recuerda con orgullo: un chileno, Hernán Santa Cruz, fue decisivo en su redacción.</p><p>Chile aprendió eso por el camino más duro. En 1991, la Comisión Rettig propuso por unanimidad crear “una institución cuyo fin específico sea proteger al hombre corriente de los abusos de poder”. El proyecto del gobierno de Kast cita esa frase. Tardó casi dos décadas en concretarse: la Ley N° 20.405 creó el INDH en 2009, siguiendo los Principios de París de Naciones Unidas, que exigen instituciones independientes del gobierno de turno y con competencias reales.</p><p>¿Qué hace el proyecto con esa institución? Lo más comentado es que le quita la facultad de presentar querellas. Hay que decir con precisión qué significa eso. Hoy el INDH no puede querellarse por cualquier delito. La ley lo limita a hechos de genocidio, lesa humanidad, crímenes de guerra, tortura, desaparición forzada, tráfico de migrantes y trata de personas. Es decir, los crímenes más graves que conoce el derecho. En varios de ellos, el INDH ha sido querellante contra redes de trata, incluidas causas contra miembros del Tren de Aragua.</p><p>El proyecto reemplaza esa facultad por una “denuncia institucional”. La diferencia no es técnica: es la diferencia entre avisar y acompañar. Quien denuncia informa a la Fiscalía y se va. Quien se querella es parte del juicio: pide diligencias, impugna, insiste cuando la investigación se archiva. Para una víctima de tortura o de trata, sin recursos ni redes, el INDH suele ser el único que puede hacer eso. Sacarlo del proceso no la protege mejor; la deja más sola.</p><p>Esta discusión ya la tuvimos, y se zanjó. En 2009 el Senado había eliminado la facultad de querellarse, con los mismos argumentos de hoy: la acción penal es del Ministerio Público y las víctimas pueden querellarse por sí mismas. La presidenta Bachelet la repuso por veto, precisamente para tortura, desaparición forzada, trata y tráfico de migrantes. El Senado lo aprobó el 11 de noviembre de 2009, por 16 votos contra 13. En ese debate, el senador Juan Pablo Letelier lo dijo con claridad: la norma era «una declaración contra el abuso del poder por parte del Estado, que es el único que puede cometer estos crímenes tan atroces». Por eso, agregó, «necesitamos que un órgano independiente posea la facultad para deducir acciones».</p><p>¿Con qué fundamento? El proyecto del gobierno de Kast afirma que hay una “concentración masiva” de la acción del Instituto en querellas, pero no entrega una sola cifra. Invoca el informe de la Comisión Asesora de 2025, que el propio Estado convocó. Esa Comisión, sin embargo, recomendó lo contrario: robustecer la capacidad de acción judicial del Instituto y fortalecer sus sedes regionales. El proyecto no obliga a mantener ninguna sede fuera de Santiago.</p><p>Además, el INDH no se ocupa solo de estos crímenes extremos. Recibe denuncias por todo tipo de vulneraciones, con una institucionalidad pequeña que no alcanza a cubrirlas, y menos si hay quienes buscan reducirla al mínimo. Un ejemplo reciente: en la tramitación de la Ley N° 21.822, sobre envejecimiento digno, activo y saludable, el Ejecutivo del exPresidente Boric propuso que el INDH destinara personal y recursos a interponer acciones legales y constitucionales en favor de personas mayores víctimas de vulneraciones, y a vigilar las residencias de larga estadía. En un país que envejece rápidamente, parecía una decisión sensata. La derecha encabezó el rechazo, y en la Sala de la Cámara se llegó a gritar: “¡Este proyecto no será utilizado para entregarle más plata al INDH!”. La norma terminó suprimida en la Comisión Mixta. Cuando se acusa al INDH de tener sesgos, cabe preguntarse: ¿quién tiene realmente el sesgo?</p><p>Adicionalmente, el proyecto hace cesar “de pleno derecho” a los once consejeros actuales. El nuevo Consejo de cinco miembros, que gobernará el INDH sus primeros dos años, saldrá íntegro de una nómina del Presidente de la República. El Senado la aprobará en bloque y por mayoría simple, no por el quórum de cuatro séptimos que el mismo proyecto exige después. Ese Consejo nombrará al primer director ejecutivo sin concurso de Alta Dirección Pública y redactará los nuevos estatutos. El contraste con 2009 es elocuente. Ese mismo veto objetivó las causales de remoción de los consejeros para blindar su independencia, y el Senado lo acogió sin votos en contra. Hoy se propone removerlos a todos por ley. Dicho en simple: el gobierno de turno elige a quienes deben vigilarlo.</p><p>Nada de esto significa que el INDH no deba reformarse. Tras 16 años, hay preguntas legítimas sobre su gobernanza, su transparencia y la renovación de su Consejo. Algunas propuestas del proyecto van en esa línea: contenidos mínimos para el informe anual, reglas sobre conflictos de interés, la facultad expresa de informar proyectos de ley. Esa discusión hay que darla, y sin miedo.</p><p>Una reforma seria empieza por preguntarse dónde, cómo y con qué facultades y recursos diseñamos las instituciones que protegen los derechos. Ese diseño no es neutro: es, al mismo tiempo, el sistema de contrapesos que limita el ejercicio del poder de las autoridades. Lo que no es serio es responder a esa pregunta quitándole una facultad al único órgano que la ejerce, sin datos y con una urgencia que impide pensar.</p><p>El INDH es un bastión de esas ideas nacidas en 1789 y en 1948, pero un bastión modesto. Sus herramientas cubren lo mínimo: que la tortura, la desaparición o la trata no queden impunes, y que alguien independiente pueda llevarlas ante un tribunal. Es cierto que eso no basta. Hoy el abuso tiene muchas formas, y el debate debería hacerse cargo de todas ellas. Pero ampliar la mirada no puede significar retroceder en las trincheras mínimas que ya ganamos.</p><p>Los derechos humanos no son un premio para quienes nos caen bien. Son un seguro para todos, incluso para quienes hoy desconfían de ellos. Nadie puede asegurar que el Leviatán no vuelva a abusar de su poder, gobierne quien gobierne. Por eso necesitamos un contrapeso independiente, con herramientas reales, que nos proteja si eso ocurre. Debilitarlo no nos hace más libres ni más seguros: nos deja solos ante el Leviatán.</p><p>--&gt; --&gt; --&gt; --&gt; Rabat rechazó al menos nueve rebajas de penas y las disputó en tribunales: en seis los jueces le dieron la razón y no otorgaron el beneficioVER MÁS Fallos de cortes de apelaciones establecen que Rabat sí podía rechazar las rebajas de condenasVER MÁS Los fallos que contradicen a RabatVER MÁS ¿Cómo se financia CIPER? Ver informes de ingresos ¿Cómo apoyar a CIPER? Conoce las opciones Principios de CIPER Lo que nos mueve Directorio Fundación CIPER Nuestro directorio Equipo CIPER Conócenos Investigaciones con impacto Revísalas Premios obtenidos Ver premios Libros CIPER Conócelos Enviar cartas y columnas Revisa las opciones</p>",
-      "url": "https://www.ciperchile.cl/2026/11/04/reforma-al-indh-el-leviatan-sin-contrapesos/?utm_source=rss&utm_medium=rss&utm_campaign=reforma-al-indh-el-leviatan-sin-contrapesos",
-      "image": "https://www.ciperchile.cl/wp-content/uploads/A_UNO_1761177-scaled.jpg",
-      "publishedAt": "2026-11-04T07:00:14+00:00",
-      "sourceId": "ciper",
-      "sourceName": "CIPER Chile",
-      "sourceType": "Investigación Independiente",
-      "sourceSite": "https://www.ciperchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Investigación y Poder",
       "relevanceTier": "alta",
       "relevanceScore": 99,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
@@ -4353,26 +4468,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-824f54936c",
-      "title": "Valdivia se tiñó de amarillo: cerca de 2 mil ciclistas dieron vida a primera versión de L’Étape Chile",
-      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Valdivia se tiñó de amarillo: cerca de 2 mil ciclistas dieron vida a primera versión de L’Étape Chile BioBioChile</p>",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQdF9SMnBpeE10UTEzY0Q3UnQ1RmEtYzNUZ19RaFRmVmotcGV5MTB0N1VwNlVRMVpTXzltYVUwUUFHV0pkX3JqOUhoQnV5VVUwZkwwR0V6Z3lPckxoWXg0eGRTSmpVckJiRlpCZlN0WXFoZ1VBSF9aaFZncnB2Sk1XWGh0cWVPRXBUWHA1WWtIU3RyRTdYTzYyYUlYbzkwUlJZMnpEUjNjNEVpbWFBSWxBb2c1MlFLLTdzb1h2dnRpUGotTHBaRG5LeXVfd2psZG1tc0RDQUs2UTdiVk5EaXYtN2haVWI1LXJoN19hWFUzNU9BUkFSdDJmWDBXZkVzV2dKVkN4Sw?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-02T00:38:35+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
       "id": "piedepagina-8d036ac3f8",
       "title": "Una detención, horas sin rastro y el miedo a desaparecer",
       "summary": "Guadalupe Ocaña, estudiante de la UNAM, fue detenida y agredida por policías en el Centro Histórico. Después de salir de El Torito, su familia pasó varias horas sin saber dónde estaba. Aunque ya se reunió con sus familiares, su caso expone el miedo a desaparecer a manos de agentes de seguridad y las irregularidades que pueden ocurrir...",
@@ -4573,24 +4668,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "interferencia-15ca47d4e7",
-      "title": "Kast saca a Silva por el video y no por los decretos: oposición y parte de la derecha apuntan ahora a Rabat",
-      "summary": "El Presidente José Antonio Kast removió este viernes 30 de octubre a Luis Silva Irarrázaval, militante del Partido Republicano, de la Subsecretaría de Justicia. En su lugar nombró a la abogada Josefina Soto Larreátegui. Es la primera autoridad que cae por los 56 decretos que redujeron las condenas de personas sentenciadas por delitos...",
-      "content": "<p>El Presidente José Antonio Kast removió este viernes 30 de octubre a Luis Silva Irarrázaval, militante del Partido Republicano, de la Subsecretaría de Justicia. En su lugar nombró a la abogada Josefina Soto Larreátegui. Es la primera autoridad que cae por los 56 decretos que redujeron las condenas de personas sentenciadas por delitos sexuales contra menores.</p><p>La salida no apagó el incendio. Ese mismo viernes, la Fiscalía Centro Norte abrió una investigación contra Rabat y Silva por presunta prevaricación administrativa, y la oposición prepara una acusación constitucional contra el ministro que podría sumar votos oficialistas. Para buena parte del arco político, el Gobierno sacrificó al subsecretario por desleal, no por las rebajas, y la cuenta pendiente sigue siendo Rabat.</p><p>El jueves 29, mientras Kast insistía en que el debate no era sobre una persona, Silva rompió su silencio con un video en su cuenta de Instagram, @elprofesorsilva. &quot;Yo aparezco firmando algunos de esos decretos y quiero explicar por qué&quot;, partió. Reconoció la indignación ciudadana, habló de crímenes horribles y aseguró que ni él ni el ministro buscaban que los condenados salieran un día antes de tiempo.</p><p>El núcleo del mensaje, sin embargo, apuntaba hacia arriba. Silva relató que al llegar al ministerio rechazaron solicitudes, varias de ellas con su firma, pero que fallos de la Suprema los obligaron a revertirlas, igual que había ocurrido en el gobierno de Gabriel Boric. Entonces, dijo, fue el ministro quien decidió ajustar el criterio jurídico. Explicó su firma por la subrogancia: los decretos corresponden al titular, pero cuando este se ausenta firma el subsecretario, aplicando el criterio fijado por el ministro. &quot;Y eso fue lo que hice&quot;, remató. Cerró admitiendo que el Estado había fallado y que quedaban preguntas sin responder.</p><p>La pieza no había pasado por Rabat ni por Palacio, donde provocó sorpresa e indignación. Tampoco cayó bien en su propio partido: en chats de dirigentes republicanos se comentó que Silva había buscado defenderse a sí mismo a costa del ministro. En Chile Vamos fue peor. Evelyn Matthei dijo que culpar a otros era &quot;de las cosas más feas que me ha tocado ver&quot;, el exministro Cristián Monckeberg advirtió señales de desorden en el equipo de gobierno y el senador Andrés Longton (RN) pidió a Silva aclarar sus dichos.</p><p>El viernes por la mañana, de pie junto a Rabat tras una reunión con la presidenta del Senado, Paulina Núñez, Silva defendió que solo buscaba informar a la ciudadanía y admitió que no pidió autorización: &quot;no estimé necesario consultarlo con el ministro&quot;. Aseguró que trabajaba estrechamente con Rabat y que seguirían juntos. Horas después estaba fuera del Gobierno. El senador Rojo Edwards respaldó la decisión y le reprochó una &quot;falta de lealtad&quot; con su superior, mientras Rabat, ya sin subsecretario, le agradeció su compromiso y lealtad.</p><p>La senadora socialista Daniella Cicardini criticó que lo echaran por subir un video sin permiso y no por las rebajas, y emplazó al Mandatario: &quot;Presidente Kast asuma la responsabilidad y saque a Rabat&quot;. En la misma línea, el diputado Gustavo Gatica contrastó la rapidez del Gobierno para cuidar la imagen de un ministro con su lentitud para proteger a los niños; la frenteamplista Emilia Schneider atribuyó la salida a la deslealtad de Silva y al desorden interno del Ejecutivo, y pidió a Kast entregar la información y la renuncia de Rabat; y su compañera de bancada Gael Yeomans ironizó con que al Presidente parece importarle más el video que las rebajas.</p><p>El comunista Luis Cuello, que junto a Santana presentó la denuncia que hoy investiga el fiscal regional Francisco Jacir con apoyo de la Fiscalía Anticorrupción, sostuvo que el ministro infringió la norma de manera expresa: &quot;tenía que obedecer la ley y no lo hizo&quot;. Ya el miércoles, el jefe de la bancada DC, Jorge Díaz, había advertido en Emol que ni Rabat ni Silva podían seguir en sus cargos y que el caso ameritaba una acusación constitucional.</p><p>Ese libelo se ingresaría la próxima semana y sería el primero contra un ministro de Kast, que según La Tercera ha llamado personalmente a parlamentarios para blindarlo. La opinión pública tampoco acompaña al ministro: una encuesta Cadem mostró que el 79% cree que Rabat no estaba obligado a firmar los decretos. La Moneda insiste en que no hay causales para acusarlo.</p><p>El caso abrió la grieta más profunda del oficialismo desde marzo. Kast decidió sostener al ministro, Chile Vamos lo cuestiona en público y el Partido Republicano acusa a sus socios de deslealtad, aunque las directivas de RN y la UDI no han exigido institucionalmente su remoción.</p><p>Las primeras voces oficialistas contra Rabat se escucharon temprano. El lunes 26, Rojo Edwards lo emplazó a renunciar porque la magnitud del error es muy grande. Al día siguiente se sumaron los diputados Eduardo Durán (RN), Omar Sabat (UDI) y Marlene Pérez (independiente-UDI); Sabat habló de un &quot;error garrafal&quot;. La diputada Macarena Santelices (independiente-UDI) anticipó que la salida del ministro es inminente y describió la crisis como un incendio sin vuelta atrás. En la votación del miércoles, Hotuiti Teao y Marlene Pérez apoyaron la resolución, y entre quienes se abstuvieron estuvieron Ximena Ossandón (RN), la jefa de bancada UDI, Flor Weisse, y el presidente de la UDI, Guillermo Ramírez.</p><p>Los republicanos respondieron con dureza. Su secretario general, Vicente Bruna, lamentó el &quot;fuego amigo&quot; y pidió que las críticas se hicieran en privado; el diputado Alejandro Riquelme reprochó a Chile Vamos pedir cargos y después cuestionar al gabinete, y el jefe de bancada, Benjamín Moreno, criticó la rapidez con que algunos aliados fijaron posición. Con todo, La Tercera consignó que hay republicanos que en privado reconocen que la salida de Rabat sería necesaria para aminorar la crisis.</p><p>La UDI no se quedó callada. Weisse acusó a sus aliados de que &quot;confunden lealtad con ceguera política&quot;, y los diputados Marco Antonio Sulantay, Mario Olavarría y Natalia Romero emplazaron a Republicanos a decir derechamente si quieren que la UDI abandone el Gobierno. Ramírez optó por un tono más cauto y pidió dejar que el ministro se defienda antes de decidir. En RN, el senador Longton renunció a la subjefatura de su bancada por diferencias con la conducción en torno a la petición de salida del ministro.</p>",
-      "url": "https://interferencia.cl/%3Ca%20href%3D%22/articulos/kast-saca-silva-por-el-video-y-no-por-los-decretos-oposicion-y-parte-de-la-derecha-apuntan%22%3EKast%20saca%20a%20Silva%20por%20el%20video%20y%20no%20por%20los%20decretos%3A%20oposici%C3%B3n%20y%20parte%20de%20la%20derecha%20apuntan%20ahora%20a%20Rabat%3C/a%3E",
-      "image": "https://interferencia.cl/sites/default/files/styles/article/public/subsecretario_luis_silva.jpg.jpg?itok=f-3cZCKD&amp;c=2e475402fa27739e57f19b782babb6fd",
-      "publishedAt": "2026-10-31T09:00:00+00:00",
-      "sourceId": "interferencia",
-      "sourceName": "Interferencia",
-      "sourceType": "Investigación y Poder",
-      "sourceSite": "https://interferencia.cl",
+      "id": "ciclismo-chile-afae59b01f",
+      "title": "L’Étape Chile abre fuegos en Valdivia: el detalle de carrera que acerca experiencia de Tour de France",
+      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>L’Étape Chile abre fuegos en Valdivia: el detalle de carrera que acerca experiencia de Tour de France BioBioChile</p>",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNLVFOZ0dCNkVfclBIbGJDSlVpeDA1bHM4WnVmd1VldUZYUHNzV21QWDVmeWFTaEpJWkgtNzJtREhQQzRXd1c4cUlrbGFlTnlvVTB0U1ZxVXpuVU5Hems3OXRQX2ZqVGU4RV9XM3RuMm04dFZwd2g4YmtNRzNwbFVLMWNNRy1GX3dXS2hzeV92MnlXNmdIcTk1eEhKZkpOLTR5NWVrbmpvNUJwZV94M0ZDNm8xUmZqRlA0OEREN29aN3FNaDhpUHR6V3Y3a21pQnY2Y19XS1N0SklkdHppVzJ2Y2ZFc19jdzh1ZExlVzFJVFlva2V1LUZoNnFEN2RKTlExdC1tbg?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-01T03:00:31+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Política y Actualidad",
+      "category": "Ciclismo y Deporte",
       "relevanceTier": "alta",
-      "relevanceScore": 97,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "ojopublico-e3d4ecfa02",
@@ -4610,6 +4705,26 @@
       "category": "Investigación y Poder",
       "relevanceTier": "alta",
       "relevanceScore": 91,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "interferencia-15ca47d4e7",
+      "title": "Kast saca a Silva por el video y no por los decretos: oposición y parte de la derecha apuntan ahora a Rabat",
+      "summary": "El Presidente José Antonio Kast removió este viernes 30 de octubre a Luis Silva Irarrázaval, militante del Partido Republicano, de la Subsecretaría de Justicia. En su lugar nombró a la abogada Josefina Soto Larreátegui. Es la primera autoridad que cae por los 56 decretos que redujeron las condenas de personas sentenciadas por delitos...",
+      "content": "<p>El Presidente José Antonio Kast removió este viernes 30 de octubre a Luis Silva Irarrázaval, militante del Partido Republicano, de la Subsecretaría de Justicia. En su lugar nombró a la abogada Josefina Soto Larreátegui. Es la primera autoridad que cae por los 56 decretos que redujeron las condenas de personas sentenciadas por delitos sexuales contra menores.</p><p>La salida no apagó el incendio. Ese mismo viernes, la Fiscalía Centro Norte abrió una investigación contra Rabat y Silva por presunta prevaricación administrativa, y la oposición prepara una acusación constitucional contra el ministro que podría sumar votos oficialistas. Para buena parte del arco político, el Gobierno sacrificó al subsecretario por desleal, no por las rebajas, y la cuenta pendiente sigue siendo Rabat.</p><p>El jueves 29, mientras Kast insistía en que el debate no era sobre una persona, Silva rompió su silencio con un video en su cuenta de Instagram, @elprofesorsilva. &quot;Yo aparezco firmando algunos de esos decretos y quiero explicar por qué&quot;, partió. Reconoció la indignación ciudadana, habló de crímenes horribles y aseguró que ni él ni el ministro buscaban que los condenados salieran un día antes de tiempo.</p><p>El núcleo del mensaje, sin embargo, apuntaba hacia arriba. Silva relató que al llegar al ministerio rechazaron solicitudes, varias de ellas con su firma, pero que fallos de la Suprema los obligaron a revertirlas, igual que había ocurrido en el gobierno de Gabriel Boric. Entonces, dijo, fue el ministro quien decidió ajustar el criterio jurídico. Explicó su firma por la subrogancia: los decretos corresponden al titular, pero cuando este se ausenta firma el subsecretario, aplicando el criterio fijado por el ministro. &quot;Y eso fue lo que hice&quot;, remató. Cerró admitiendo que el Estado había fallado y que quedaban preguntas sin responder.</p><p>La pieza no había pasado por Rabat ni por Palacio, donde provocó sorpresa e indignación. Tampoco cayó bien en su propio partido: en chats de dirigentes republicanos se comentó que Silva había buscado defenderse a sí mismo a costa del ministro. En Chile Vamos fue peor. Evelyn Matthei dijo que culpar a otros era &quot;de las cosas más feas que me ha tocado ver&quot;, el exministro Cristián Monckeberg advirtió señales de desorden en el equipo de gobierno y el senador Andrés Longton (RN) pidió a Silva aclarar sus dichos.</p><p>El viernes por la mañana, de pie junto a Rabat tras una reunión con la presidenta del Senado, Paulina Núñez, Silva defendió que solo buscaba informar a la ciudadanía y admitió que no pidió autorización: &quot;no estimé necesario consultarlo con el ministro&quot;. Aseguró que trabajaba estrechamente con Rabat y que seguirían juntos. Horas después estaba fuera del Gobierno. El senador Rojo Edwards respaldó la decisión y le reprochó una &quot;falta de lealtad&quot; con su superior, mientras Rabat, ya sin subsecretario, le agradeció su compromiso y lealtad.</p><p>La senadora socialista Daniella Cicardini criticó que lo echaran por subir un video sin permiso y no por las rebajas, y emplazó al Mandatario: &quot;Presidente Kast asuma la responsabilidad y saque a Rabat&quot;. En la misma línea, el diputado Gustavo Gatica contrastó la rapidez del Gobierno para cuidar la imagen de un ministro con su lentitud para proteger a los niños; la frenteamplista Emilia Schneider atribuyó la salida a la deslealtad de Silva y al desorden interno del Ejecutivo, y pidió a Kast entregar la información y la renuncia de Rabat; y su compañera de bancada Gael Yeomans ironizó con que al Presidente parece importarle más el video que las rebajas.</p><p>El comunista Luis Cuello, que junto a Santana presentó la denuncia que hoy investiga el fiscal regional Francisco Jacir con apoyo de la Fiscalía Anticorrupción, sostuvo que el ministro infringió la norma de manera expresa: &quot;tenía que obedecer la ley y no lo hizo&quot;. Ya el miércoles, el jefe de la bancada DC, Jorge Díaz, había advertido en Emol que ni Rabat ni Silva podían seguir en sus cargos y que el caso ameritaba una acusación constitucional.</p><p>Ese libelo se ingresaría la próxima semana y sería el primero contra un ministro de Kast, que según La Tercera ha llamado personalmente a parlamentarios para blindarlo. La opinión pública tampoco acompaña al ministro: una encuesta Cadem mostró que el 79% cree que Rabat no estaba obligado a firmar los decretos. La Moneda insiste en que no hay causales para acusarlo.</p><p>El caso abrió la grieta más profunda del oficialismo desde marzo. Kast decidió sostener al ministro, Chile Vamos lo cuestiona en público y el Partido Republicano acusa a sus socios de deslealtad, aunque las directivas de RN y la UDI no han exigido institucionalmente su remoción.</p><p>Las primeras voces oficialistas contra Rabat se escucharon temprano. El lunes 26, Rojo Edwards lo emplazó a renunciar porque la magnitud del error es muy grande. Al día siguiente se sumaron los diputados Eduardo Durán (RN), Omar Sabat (UDI) y Marlene Pérez (independiente-UDI); Sabat habló de un &quot;error garrafal&quot;. La diputada Macarena Santelices (independiente-UDI) anticipó que la salida del ministro es inminente y describió la crisis como un incendio sin vuelta atrás. En la votación del miércoles, Hotuiti Teao y Marlene Pérez apoyaron la resolución, y entre quienes se abstuvieron estuvieron Ximena Ossandón (RN), la jefa de bancada UDI, Flor Weisse, y el presidente de la UDI, Guillermo Ramírez.</p><p>Los republicanos respondieron con dureza. Su secretario general, Vicente Bruna, lamentó el &quot;fuego amigo&quot; y pidió que las críticas se hicieran en privado; el diputado Alejandro Riquelme reprochó a Chile Vamos pedir cargos y después cuestionar al gabinete, y el jefe de bancada, Benjamín Moreno, criticó la rapidez con que algunos aliados fijaron posición. Con todo, La Tercera consignó que hay republicanos que en privado reconocen que la salida de Rabat sería necesaria para aminorar la crisis.</p><p>La UDI no se quedó callada. Weisse acusó a sus aliados de que &quot;confunden lealtad con ceguera política&quot;, y los diputados Marco Antonio Sulantay, Mario Olavarría y Natalia Romero emplazaron a Republicanos a decir derechamente si quieren que la UDI abandone el Gobierno. Ramírez optó por un tono más cauto y pidió dejar que el ministro se defienda antes de decidir. En RN, el senador Longton renunció a la subjefatura de su bancada por diferencias con la conducción en torno a la petición de salida del ministro.</p>",
+      "url": "https://interferencia.cl/%3Ca%20href%3D%22/articulos/kast-saca-silva-por-el-video-y-no-por-los-decretos-oposicion-y-parte-de-la-derecha-apuntan%22%3EKast%20saca%20a%20Silva%20por%20el%20video%20y%20no%20por%20los%20decretos%3A%20oposici%C3%B3n%20y%20parte%20de%20la%20derecha%20apuntan%20ahora%20a%20Rabat%3C/a%3E",
+      "image": "https://interferencia.cl/sites/default/files/styles/article/public/subsecretario_luis_silva.jpg.jpg?itok=f-3cZCKD&amp;c=2e475402fa27739e57f19b782babb6fd",
+      "publishedAt": "2026-10-31T09:00:00+00:00",
+      "sourceId": "interferencia",
+      "sourceName": "Interferencia",
+      "sourceType": "Investigación y Poder",
+      "sourceSite": "https://interferencia.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 97,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -5136,9 +5251,9 @@
       "id": "vergara240-400847ebbb",
       "title": "Falso: las imágenes de Kast junto a Paul Schäfer son un montaje",
       "summary": "La entrada Falso: las imágenes de Kast junto a Paul Schäfer son un montaje se publicó primero en Vergara 240 .",
-      "content": "<p>La entrada Falso: las imágenes de Kast junto a Paul Schäfer son un montaje se publicó primero en Vergara 240.</p>",
+      "content": "<p>Desde al menos diciembre de 2025 circulan en redes sociales dos imágenes que muestran a José Antonio Kast junto a Paul Schäfer, fundador de Colonia Dignidad y condenado por abusos sexuales contra menores. Las supuestas fotografías, que corresponderían a una época en que Kast era diputado de la UDI, volvieron a difundirse esta semana. Sin embargo, las imágenes presentan inconsistencias que ponen en duda su autenticidad.</p><p>En redes sociales como Instagram, X y Facebook circulan dos supuestas fotografías de José Antonio Kast junto a Paul Schäfer, fundador de Colonia Dignidad. En una de ellas, el entonces diputado de la UDI aparece besándole la frente a Schäfer, quien está sentado en una silla de ruedas. En la otra, Kast aparece mirándolo y tocándole la espalda, en un lugar que parece ser el pasillo de un hospital.</p><p>“Kast está cumpliendo una promesa a su antiguo maestro y abusador Paul Schaefer #KastLiberaPedofilos” y “Kast besando al pedófilo Paul Schäfer” son algunos de los mensajes que acompañan las decenas de publicaciones en las que se han difundido estas imágenes.</p><p>Sin embargo, VerificaUDP identificó una serie de inconsistencias que ponen en duda la autenticidad de las fotografías, además de someter una de ellas a una herramienta de detección de contenido generado con inteligencia artificial.</p><p>Uno de los primeros elementos que llama la atención es la vestimenta de Paul Schäfer. En las imágenes difundidas en redes sociales aparece con una chaqueta muy similar a la que llevaba el 10 de marzo de 2005, cuando fue detenido en Argentina.</p><p>Sin embargo, al comparar ambas imágenes se advierte una diferencia: en los registros de su detención, la chaqueta de Schäfer tiene un logotipo bordado en el lado derecho, mientras que ese elemento no aparece en la fotografía que circula en redes sociales.</p><p>El registro de su detención puede revisarse en el siguiente video:</p><p>Otra inconsistencia está en la esquina inferior derecha de la imagen, donde aparece una inscripción con una fecha, similar a las marcas que incorporaban algunas cámaras fotográficas: “04 OCT 2003”.</p><p>Para esa fecha, Schäfer todavía se encontraba prófugo de la justicia chilena. Dos años después, un reportaje del programa Contacto, de Canal 13, reveló que se escondía en Las Acacias, Argentina. Tras ser localizado, fue detenido y posteriormente extraditado a Chile, el 13 de marzo de 2005.</p><p>Su extradición y llegada al país fueron cubiertas por agencias internacionales como Reuters, Agence France-Presse y Associated Press. VerificaUDP revisó sus archivos históricos y no encontró registros de Kast en las secuencias consultadas.</p><p>El equipo también examinó archivos periodísticos de la época, sin hallar menciones a la presencia de José Antonio Kast. Asimismo, contactó a periodistas que cubrieron esos acontecimientos, pero ninguno recordó alguna visita del entonces diputado de la UDI.</p><p>“Esa foto es absolutamente mentira. Nunca ocurrió. Esa imagen está tomada por la policía argentina en el aeropuerto de Ezeiza y es la última foto que existe de Schäffer antes de que regresara a Chile. Al ingresar al país no hubo ninguna foto”, dijo a VerificaUDP el periodista Marco Antonio Guzmán, que entonces cubrió la noticia para radio Cooperativa.</p><p>Como parte de la verificación, una de las imágenes fue analizada mediante Synth ID, una herramienta desarrollada por Google para identificar contenido generado con inteligencia artificial. Según el resultado, la imagen fue identificada como contenido creado con esta tecnología.</p><p>Las imágenes no son nuevas. Ya habían circulado en diciembre de 2025, cuando José Antonio Kast todavía era candidato presidencial.</p><p>Sin embargo, volvieron a viralizarse esta semana, luego de que el medio Interferencia revelara que el Ministerio de Justicia había firmado 56 rebajas de condenas a personas sentenciadas por abuso sexual y violación de menores de edad.</p><p>Posteriormente, El Mostrador informó que también se habían rebajado las condenas de dos internos del penal Punta Peuco, sentenciados por violaciones de los derechos humanos.</p><p>Horas después de conocerse estos antecedentes, el ministro de Justicia, Fernando Rabat, reconoció haber firmado los decretos. No obstante, más tarde se anunció la suspensión de su tramitación.</p><p>Fue en ese contexto que las supuestas fotografías de Kast junto a Schäfer comenzaron a circular nuevamente, acompañadas de mensajes que vinculaban al Mandatario con el fundador de Colonia Dignidad.</p><p>Paul Schäfer, exmilitar nazi alemán, fundó Colonia Dignidad, un enclave ubicado en la Región del Maule, donde sus habitantes realizaban distintos trabajos sin recibir remuneración.</p><p>En el lugar, Schäfer cometió abusos sexuales contra menores de edad. También fue acusado de participar en violaciones de los derechos humanos, ya que las instalaciones de Colonia Dignidad fueron utilizadas para torturar a opositores de la dictadura militar.</p><p>En 1997, Schäfer huyó de Chile y permaneció prófugo hasta marzo de 2005, cuando fue capturado en Argentina y trasladado de regreso al país.</p><p>Murió en 2010 mientras se encontraba privado de libertad.</p>",
       "url": "https://vergara240.udp.cl/falso-las-imagenes-de-kast-junto-a-paul-schafer-son-un-montaje/",
-      "image": null,
+      "image": "https://vergara240.udp.cl/cms/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-4.36.18-PM.jpg",
       "publishedAt": "2026-10-23T21:19:43+00:00",
       "sourceId": "vergara240",
       "sourceName": "Vergara 240 (UDP)",
