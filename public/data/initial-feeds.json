@@ -1,15 +1,20 @@
 {
-  "generatedAt": "2026-11-05T01:46:10.040613+00:00",
+  "generatedAt": "2026-11-05T02:01:18.217705+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
   "totalArticles": 217,
-  "totalBlockedFarandula": 7,
+  "totalBlockedFarandula": 6,
   "blockedExamples": [
     {
       "title": "El escritoriazo de la ANFP",
       "source": "Interferencia",
       "reason": "fútbol"
+    },
+    {
+      "title": "La agenda de La Roja para los amistosos con Colombia en la fecha FIFA",
+      "source": "Radio Cooperativa",
+      "reason": "fifa"
     },
     {
       "title": "La U luchará por una remontada ante Antofagasta por el paso a semis de la Copa Chile",
@@ -30,16 +35,6 @@
       "title": "Coquimbo Unido repitió la dosis ante Unión La Calera para imponerse en la Copa Chile",
       "source": "Radio Cooperativa",
       "reason": "copa chile"
-    },
-    {
-      "title": "Coquimbo superó a La Calera y tomó ventaja en la llave de cuartos por la Copa Chile",
-      "source": "Radio Cooperativa",
-      "reason": "copa chile"
-    },
-    {
-      "title": "Eduardo Loyola y el futuro de Ortiz: Se verá cuando termine la liga o antes si alcanzamos la copa",
-      "source": "Radio Cooperativa",
-      "reason": "colo colo"
     }
   ],
   "sources": [
@@ -512,7 +507,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.6
+      "newestAgeHours": 2.9
     },
     {
       "id": "interferencia",
@@ -525,7 +520,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 16.8
+      "newestAgeHours": 17.0
     },
     {
       "id": "fastcheck",
@@ -538,7 +533,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.9
+      "newestAgeHours": 5.1
     },
     {
       "id": "radiouchile",
@@ -551,7 +546,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.4
+      "newestAgeHours": 3.6
     },
     {
       "id": "elmostrador",
@@ -564,7 +559,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.8
+      "newestAgeHours": 6.1
     },
     {
       "id": "eldesconcierto",
@@ -577,7 +572,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.5
+      "newestAgeHours": 5.7
     },
     {
       "id": "laderasur",
@@ -590,7 +585,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 5,
-      "newestAgeHours": 9.8
+      "newestAgeHours": 10.0
     },
     {
       "id": "resumen",
@@ -603,7 +598,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 81.5
+      "newestAgeHours": 81.7
     },
     {
       "id": "elciudadano",
@@ -616,7 +611,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.1
+      "newestAgeHours": 0.4
     },
     {
       "id": "malaespina",
@@ -629,7 +624,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.6
+      "newestAgeHours": 5.9
     },
     {
       "id": "vergara240",
@@ -642,7 +637,7 @@
       "count": 2,
       "blocked": 0,
       "staleDropped": 16,
-      "newestAgeHours": 292.4
+      "newestAgeHours": 292.7
     },
     {
       "id": "terram",
@@ -655,7 +650,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 11.1
+      "newestAgeHours": 11.4
     },
     {
       "id": "timeline",
@@ -668,7 +663,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.5
+      "newestAgeHours": 4.8
     },
     {
       "id": "diariouach",
@@ -681,7 +676,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.3
+      "newestAgeHours": 3.6
     },
     {
       "id": "cooperativa",
@@ -692,9 +687,9 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 6,
+      "blocked": 5,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.2
     },
     {
       "id": "elfaro",
@@ -720,7 +715,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.7
+      "newestAgeHours": 6.9
     },
     {
       "id": "lasillavacia",
@@ -733,7 +728,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.3
+      "newestAgeHours": 1.6
     },
     {
       "id": "ojopublico",
@@ -746,7 +741,7 @@
       "count": 5,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 70.6
+      "newestAgeHours": 70.8
     },
     {
       "id": "cuestionpublica",
@@ -759,7 +754,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 124.0
+      "newestAgeHours": 120.4
     },
     {
       "id": "chequeado",
@@ -772,7 +767,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 126.0
+      "newestAgeHours": 126.2
     },
     {
       "id": "piedepagina",
@@ -785,7 +780,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 80.1
+      "newestAgeHours": 80.3
     },
     {
       "id": "cenital",
@@ -798,7 +793,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.3
+      "newestAgeHours": 4.5
     },
     {
       "id": "brecha",
@@ -811,7 +806,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 92.7
+      "newestAgeHours": 92.9
     },
     {
       "id": "jacobinlat",
@@ -824,7 +819,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.8
+      "newestAgeHours": 11.0
     },
     {
       "id": "ciclismo-chile",
@@ -837,7 +832,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.8
+      "newestAgeHours": 2.0
     },
     {
       "id": "ciclo21",
@@ -850,7 +845,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 16.8
+      "newestAgeHours": 17.0
     },
     {
       "id": "brujulabike",
@@ -863,7 +858,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.6
+      "newestAgeHours": 5.8
     },
     {
       "id": "esciclismo",
@@ -876,7 +871,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 8.9
+      "newestAgeHours": 9.1
     },
     {
       "id": "propublica",
@@ -889,7 +884,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.7
+      "newestAgeHours": 10.9
     },
     {
       "id": "bellingcat",
@@ -902,7 +897,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 57.6
+      "newestAgeHours": 57.8
     },
     {
       "id": "theintercept",
@@ -915,7 +910,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.3
+      "newestAgeHours": 0.0
     },
     {
       "id": "eldiarioes",
@@ -928,7 +923,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.9
+      "newestAgeHours": 7.2
     },
     {
       "id": "elsalto",
@@ -941,7 +936,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 16.1
+      "newestAgeHours": 20.2
     },
     {
       "id": "sinpermiso",
@@ -967,7 +962,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.2
+      "newestAgeHours": 2.5
     },
     {
       "id": "dw",
@@ -980,7 +975,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.1
+      "newestAgeHours": 1.4
     },
     {
       "id": "globalvoices",
@@ -993,10 +988,50 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 18.8
+      "newestAgeHours": 19.0
     }
   ],
   "articles": [
+    {
+      "id": "theintercept-6f8426d726",
+      "title": "How Democrats Changed Everything",
+      "summary": "The Intercept breaks down a historic midterms sweep and hears from voters on what they want next. The post How Democrats Changed Everything appeared first on The Intercept .",
+      "content": "<p>The size of the Democrats’ victory Tuesday night shattered records and even the most optimistic expectations, handing the party a governing mandate with a clear demand for change.</p><p>But what do voters want that change to look like? This week on The Intercept Briefing, politics reporter Jessica Washington and managing editor Maia Hibbett break down Tuesday night’s election and hear from voters in Maine, Michigan, and Texas about what drove them to the polls in the midterms that saw a so-called “blue tsunami.”</p><p>“The rich get richer, the poor get poorer,” said one voter in Maine. In Michigan, a voter told The Intercept that politics “feels like a game that the rich play sometimes.” A Texas voter expressed anger that President Donald Trump was “spending taxpayer money to renovate the White House and turn it into this gold sanctuary.”</p><p>Frustration with wealth inequality and money in politics came up again and again in The Intercept’s conversations with voters. So did a desire for more social welfare spending, Medicare for All, freedom for Palestinians — and responses to transphobic and Islamophobic fearmongering on the campaign trail.</p><p>“When Democrats win so far across the board, you can make an argument that any faction of the Democratic Party has the mandate,” said Hibbett, “because Democrats of all stripes won Tuesday night.”</p><p>In any case, the results indicated a clear disapproval of the way the Trump administration is governing and the use of fearmongering as a tactic of distraction.</p><p>“One lesson maybe for Democrats is there’s no point in attempting to placate people when it comes to bigotry,” said Washington. “The thing that’ll motivate voters is if you can convince them that you’re going to make their lives better, not if you can convince them that you’re playing the middle on an issue of civil rights.”</p><p>For more, listen to the full conversation of The Intercept Briefing on Apple Podcasts, Spotify, YouTube, or wherever you listen to podcasts.</p><p>Bruce Bryan: We’re just hoping that people step up and tell Washington to go fuck itself.</p><p>Jessica Washington: Welcome to the Intercept Briefing. I’m Jessica Washington, politics reporter at The Intercept.</p><p>Maia Hibbett: And I’m Maia Hibbett, managing editor here.</p><p>JW: Over the past few days, Intercept reporters hit the ground in key states to speak to voters about the issues driving them to the polls. We went to Texas.</p><p>Jermiah Robinson: The food prices, for one, and the gas prices.</p><p>Darryl Moore: Gotta work two jobs just to make it.</p><p>Tiffany Williams: I never really understood, like, how important it is for the minority to vote.</p><p>Lenna Tasby: This election is important because this election is going to make or break whether we have a vote or not. There’s a reason why they’re shutting down these polling places.</p><p>Intercept reporter Akela Lacy: What are the issues that motivated you this cycle?</p><p>Charles Senter: Well, I love Trump.</p><p>Helen Dexter: Red ticket all the way. The stop of the Muslim influx.</p><p>Lenna Tasby: If you’re spending taxpayer money to renovate the White House and turn it into this gold sanctuary, that’s money that can be used for our military veterans. That’s money that can be used to help with this homeless population. The government needs to be held accountable.</p><p>MH: We heard from voters in Michigan.</p><p>Erin Horne: The election this year is very critical because Trump’s got two more years.</p><p>Zouheir Alawieh: Our democracy is in danger.</p><p>Noora Iskander: I believe in Medicare for All. People have a right to self-determination, especially in Palestine.</p><p>Wendy: There’s a lot of concern about, of course, the economy, but the data centers, our children’s education.</p><p>JW: And we spoke to voters in Maine.</p><p>Intercept reporter Noah Hurowitz: What mattered to you as a voter this election?</p><p>Tyler Echard: Cost for the most part. Everything keeps going up.</p><p>Bryan Golay: The rich get richer, the poor get poorer. At least 30 years ago, there was like a veneer of caring, and now there’s just blatant corruption and greed.</p><p>MH: Yeah, it’s honestly embarrassing if you’re a Democrat and you did not win. They swept the House and the Senate by just about the biggest margins that the pollsters could have predicted. So luckily, the audience I’m concerned about, the pollsters, can rest easy. As of 11:00 a.m. [ET] on Wednesday morning, they had 228 seats in the House, Democrats did. They only needed 218 for a majority, so obviously that is more, and they’re expected to pick up some more seats as some more races get called. They had 54 seats in the Senate, which means that they have a big enough margin that they can’t be stopped from legislating by one lone senator, if one senator wanted to gum things up.</p><p>JW: And not at all surprising. The White House tried to spin Republican losses on Trump not being on the ballot and the quality of candidates, despite the fact that Trump repeatedly said at rallies across the country, “Pretend I’m on the ballot.”</p><p>Donald Trump: We’re going to ask you to pretend I’m on the ballot, because when I’m on the ballot, this has nothing to do with ego, I just get 49.2 percent more vote. And if we get even a good percentage of that, we’ll have the biggest victory that you’ve ever seen.</p><p>MH: He’s saying, “We’ll have the biggest victory ever” — and it was a very historic night. I think people will hear the word “historic” a lot in the coverage in the coming days because of this huge blue wave, not the kind of history Trump wanted, but also because there are some really surprising major firsts.</p><p>One of them was that last night, very early, like at 2:30 a.m. [ET], Abdul El-Sayed became the winner of the Senate race in Michigan, which means he will be the first ever Muslim U.S. senator.</p><p>Abdul El-Sayed (acceptance speech): To all the kids who watched this last month, to all the parents who struggled to explain why the president openly mocked someone for their name or how they pray, let them know tomorrow that the bad guys lost.</p><p>JW: That race was filled with Islamophobia, both in the primary and in the general election. His Republican opponent, Mike Rogers, just peddled in a million different Islamophobic tropes. Voters told our colleague, Matt Sledge, who was out in Michigan speaking with them, that they really didn’t like hearing all of this hate speech.</p><p>Zouheir Alawieh: They don’t have any programs for our economy, for our health, for our future. So that’s why they are attacking us as Muslims and as human beings.</p><p>Tea Edwards: Just, like, all of the Islamophobic hate campaigns that have been going around will probably sway a few people. The people who are actually researching what will be good for communities I think will see right through it.</p><p>MH: This was a campaign that was defined by so much panic about El-Sayed being Muslim. The race ended 25 years after 9/11, and there were all of these really kind of vitriolic Islamophobic tropes. It reminded me a lot of the campaign against [Mayor] Zohran Mamdani here in New York last year. There’s all this fear of the left and this fearmongering suggesting that there’s no way a Muslim candidate could represent American interests.</p><p>And of course, one of the big differences between El-Sayed and Mamdani is that El-Sayed is not a socialist.</p><p>JW: Say that again for the people in the back, because they are not going to believe you. El-Sayed has described himself as a capitalist who understands how capitalism works, so definitely not a socialist.</p><p>I’ve heard him described as much more of a [Sen. Elizabeth] Warren than someone in the Bernie Sanders mold.</p><p>MH: But he still faced millions of dollars in outside spending in this race, mostly because of his stance on the United States relationship to one other country.</p><p>We’ve heard in some of these deep-blue districts in the House races where socialists were elevated in the primaries, there was a lot of rhetoric on opposing Israel’s genocide in Gaza and fighting U.S. weapons flows to Israel. But it’s pretty rare to hear that from a U.S. Senate candidate, and now from a senator-elect.</p><p>JW: It also caused some really ugly drama with his former primary opponent, Haley Stevens.</p><p>MH: Do you want to try to recap that as fast as we can, or should I?</p><p>JW: I’ll get started and see if you can add in anything that I miss.</p><p>So essentially, on the Friday right before [Election Day], Haley Stevens released a statement condemning an ad that was not even created by the El-Sayed campaign, calling on him to condemn the ad, which he did disavow. She also asked him to take back his statements on Israel.</p><p>Now, things seemed fine for a second. Haley Stevens had all of these Democratic surrogates going on air saying that she promised to support him. While Haley Stevens’s staffers were at an event for El-Sayed, Haley Stevens popped up at an event supporting the Republican candidate, Mike Rogers, giving him her endorsement.</p><p>Maia, is there anything that I missed in that?</p><p>MH: Jessie, I think the only thing you missed was just how baffling and strange this episode was. So you mentioned this ad that kicked it off. It was produced by this outside group Rebellion PAC, which is the group headed by Cenk Uygur, who some listeners might know from The Young Turks. He is also famously Hasan Piker’s uncle.</p><p>Haley Stevens, as she was struggling to explain why she switched from El-Sayed to the Rogers camp, kept citing Hasan Piker and the “uncle.” It was this kind of almost incomprehensible move where Anderson Cooper, the CNN host, was pressing her at one point, saying, well, you cite his affiliation with Hasan Piker and this part of the Democratic Party you don’t like, but you knew about this before — so what changed?</p><p>It really seemed strange. So we sent Matt Sledge out in Michigan to ask some voters what they thought of it, and if they thought that this was a politically savvy move that would have any resonance. And here’s what they said.</p><p>Kathleen Britton: I’m so disappointed in Haley Stevens. I gave her serious consideration during the primary.</p><p>Jesse Craft: She fought against Mike Rogers, then said somehow he earned her vote. I don’t really understand it. I kinda think it’s career-ending for her.</p><p>Wendy: How embarrassing to use an African American church. How embarrassing for you to use our votes and then disregard them because of your own personal issues.</p><p>Intercept reporter Matt Sledge: So you don’t think it’s gonna help Mike Rogers?</p><p>Erin Horne: No, I think she actually helped Abdul.</p><p>JW: Maia, before the break, you started talking about money and politics, and I want to get into how that shaped the midterms. Last week, we talked about how this election cycle became the most expensive on record. Midterms ad spending is expected to reach north of $11.6 billion. Mega-donors overwhelmingly gave to Republican candidates, including Elon Musk, who spent nearly $450 million, with large sums of that directed at boosting Ken Paxton in Texas, who, by the way, lost to James Talarico. Now, for context, the next highest donors under Musk are a Republican couple [Richard and Elizabeth Uihlein] who spent $150 million, mostly in Wisconsin and Illinois.</p><p>Jesse Craft: We all see where money is coming from. It’s coming from very, very wealthy billionaires. I don’t think we should be able to buy elections.</p><p>Tea Edwards: Politics, it just feels like a game that the rich play sometimes. Kind of feels hopeless when you’re just looking at all of these people and corporations giving money to each other.</p><p>MH: You hate to see Elon Musk throw away almost half a billion dollars. It only leaves him so many billions to go.</p><p>MH: But, I mean, in Texas, as you mentioned, that money really did not pan out. It didn’t seem to sway voters. It seemed like if anything from the voters who talked to our reporters in Texas, in Michigan, and in Maine, which we’ll get to later, people were really mad about outside election spending and don’t like the idea that billionaires or corporations can buy their elections.</p><p>And in Texas, a lot of that money went to propping up this anti-trans panic campaign that Paxton was running. But all that money was not enough to save Paxton from James Talarico. Paxton was a pretty bad candidate: He was mired in too many scandals to keep track of, including a 2015 grand jury indictment on felony securities fraud charges.</p><p>In 2020, eight of his top deputies reported to the FBI that he was potentially abusing his office to do favors for a donor and friend. And just earlier this year, he offered a plea deal in a child sex abuse case that seemed to anger Texans and voters.</p><p>Remember, this is the era of the Epstein files and people being very concerned about child sex abuse. It did not seem like the wisest calculation for Paxton to offer this while running for Senate.</p><p>JW: As it turns out, there is not enough money in the world to buy Ken Paxton out of being Ken Paxton and voters recognizing that. But Republicans tried this cycle to spend big on transphobia and to blanket the airwaves with these anti-trans advertisements.</p><p>Elon Musk’s Texas PAC spent $78 million on anti-transgender ads in Texas, which actually accounted for nearly half of all ad spending in support of Paxton. Republicans’ big play in Texas was transphobia — and that play failed.</p><p>While clearly it didn’t sway the election, some of those messages did appear to trickle down to voters. Our colleague, Akela Lacy, talked to voters in Dallas and the surrounding areas, and she did come across some voters who said they wanted to support Talarico or even some voters who did support Talarico but were concerned about his stance on trans rights, an issue that Republicans really fearmongered on this cycle yet again after doing it in 2024.</p><p>Akela Lacy: When you said you saw some stuff about James Talarico that made you unsure about voting for him, can you say more about that? What did you see, and what’s your impression of him?</p><p>Jermiah Robinson: I think I seen something about the LGBTQ+ community? I mean, I don’t really care about it, but I don’t know. People were saying a lot of bad stuff. I think they said something about him —</p><p>Jermiah Robinson: Yeah, on the children. I don’t really stand for that.</p><p>Maia Hibbett: The watchdog group Media Matters also put together a montage that showed just how much Republicans really leaned into this transphobic rhetoric.</p><p>Danielle Buck: He wants to trans our kids. He believes that there are six genders.</p><p>Andrew Kolvet: They wanna indoctrinate your kids. They wanna trans your kids.</p><p>Adam Sosnick: They’re gonna trans your kids. They’re gonna Talarico your kids.</p><p>Donald Trump Jr.: Trans kids back in school, trans agendas back in school, in your classrooms, with your children.</p><p>JW: Clearly, some of that rhetoric did trickle down to voters based on Akela’s conversations, and some people even believed the misinformation being spread in those ads.</p><p>But fearmongering was just clearly not persuasive enough to distract people from their lived reality, and that lived reality is that gas prices are up, rent is unaffordable, and grocery prices are up.</p><p>I think one lesson maybe for Democrats is, there’s no point in attempting to placate people when it comes to bigotry. The right can and will distort your messages, and so you can stand in your values or not, but the thing that’ll motivate voters is if you can convince them that you’re going to make their lives better, not if you can convince them that you’re playing the middle on an issue of civil rights.</p><p>MH: We saw a parallel to this in some ways in Michigan as well, where a lot of the Republican argument was based on this perception of Islamophobia and fearmongering. Ultimately, that was not enough to elevate Mike Rogers over Abdul El-Sayed. In Texas, there’s also, of course, the strong anti-immigrant sentiment that Republicans frequently run on, and I think the statewide results showed us that that narrative really fell apart this cycle.</p><p>JW: To your point, clearly, attacks on trans people, attacks on immigrants didn’t work in Texas. Democrats had an amazing night. Gina Hinojosa toppled three-term incumbent Gov. Greg Abbott. The state has not had a Democratic governor since 1990.</p><p>MH: And speaking of toppling long-term incumbents that have been hard to get out of office, our colleague Noah Hurowitz was in Maine, where Troy Jackson defeated Susan Collins last night after many Democratic attempts to get her out of office.</p><p>This issue of disillusionment with money and politics came up quite a bit when he was talking to Maine voters.</p><p>Sharon McDonnell: It’s immoral. It is immoral to have people worried about their fuel and have that much money coming into this. It’s just wrong.</p><p>Tyler Echard: The amount they spent on just mailers, not handed at the door but in the mail, is especially, it seems, on the Republican side of things, has been absolutely insane. The amount of money is more than I will probably make in my lifetime, spent in this election.</p><p>Charlie Dingman: It’s been extraordinary in Maine, the amount of spending in this race, particularly in the Senate race. I think there’s a lot of fatigue. I think people are tired of it. I have had some conversations with voters at the doors that lead me to think that the extremely negative and extremely untruthful ads may be backfiring.</p><p>JW: It seems like those ads backfired. The last voice you heard was Charlie Dingman, Maine Democratic Party chair.</p><p>Collins campaigned on her record of securing federal investments for state infrastructure, such as rural hospitals, and she really prided herself on being a moderate Republican who apparently breaks rank with President Donald Trump. But the reality of the situation is quite different.</p><p>The Congressional Quarterly Roll Call found that her votes aligned with Trump 90 percent of the time in both of the president’s first and second terms, and voters really noticed that. They understood the difference between what she said she was, a political moderate, and her voting record, which aligned with the really far-right Donald Trump. And that’s something that Noah heard from voters as well.</p><p>Sharon McDonnell: She has had this persona of moderate cross-party stuff that’s just really eroded. If you read every article about her, it’s like, “Moderate Susan Collins.” Like, wait a minute, she’s voted with Trump. She hasn’t used her power.</p><p>MH: Collins really used that line about her being a moderate and being an independent voice in Washington as a go-to for her campaign.</p><p>In past cycles, it has worked. As we alluded to a little bit earlier, the Democrats have mounted challenges against her before. In 2020, they ran a candidate named Sara Gideon, who looked somewhat likely to oust Collins. And I think this cycle, there were a lot of reasons for Democrats to be nervous about this race.</p><p>Troy Jackson, the nominee, is a former state senator, and he ran on lowering costs, really centering working-class interests. But he had jumped into the race kind of hastily. If you remember Graham Platner, Jessie, he was the former nominee for Senate in Maine for the Democratic Party, and he was really considered a rising star, but had to drop out because of a series of scandals, and Jackson had to jump in last minute and fill his place.</p><p>But ultimately, Jackson pulled it off.</p><p>Troy Jackson (acceptance speech): We did it. Working people did it.</p><p>JW: Clearly, Jackson had a disadvantage going into this race. There were people who complained and said that he wasn’t as charming as Platner, he wasn’t as polished. But in this election, the ideas and running on affordability seems to have won the day in Maine and really throughout the country.</p><p>Collins had a reputation of delivering for the state, but clearly that wasn’t enough to overcome this blue wave across the country and some frustrations with Collins as well.</p><p>But Maia, taking a step back to look at the full scope of Democratic wins, what do you make of their gains on Tuesday? Are there other races that stood out to you? What stood out to you overall?</p><p>MH: Well, there’s the spin about the spin, which is that everybody is going to be framing this election and these results in their own interests. When Democrats win so far across the board, you can make an argument that any faction of the Democratic Party has the mandate, because Democrats of all stripes won Tuesday night.</p><p>But to my view, it’s hard to see how this is a world where there isn’t a clear demand for some kind of transformational change. So I’m wondering what Democrats do with their mandate now, especially as we think ahead to 2028.</p><p>If you recall 2020 and the last time the U.S. elected a Democratic president, you might remember that the Biden campaign was the sort of centrist, moderate return to normalcy choice, but they got there after a lot of left momentum in the primary and a really serious showing of support for Bernie Sanders, who remains one of the most popular politicians in the country.</p><p>Once Biden got into office, he arguably tried to give some of that kind of left, dare we say, populist economic message some service. There was the Build Back Better plan that had a lot of social safety net spending and Covid relief. There were climate infrastructure projects. There was the elevation of Lina Khan [to Federal Trade Commission chair].</p><p>For a little while, Biden was getting called the most progressive president since FDR, and then he threw it all away supporting the genocide in Gaza and really lost the support of the left, and then lost the support of the country when he was kind of visibly melting on the debate stage and refusing to drop out of the race.</p><p>So I’m curious what Democrats have learned from the Biden years and how that will convert into the next congressional term and the next presidential election.</p><p>JW: It really feels like I’ve lived a million lives in between now and that debate that really tanked Joe Biden’s entire political career at the end there.</p><p>I will say to your point, we’re already seeing Hakeem Jeffries, who’s likely to be the House Speaker, calling for unity and saying that people don’t want to fight. But you don’t really get a blue wave like this or a political wave like this when people don’t want to fight.</p><p>Clearly, there’s anger at Republicans. There’s anger at the cost of living. There’s anger at the war. If Democrats don’t deliver, they’re likely to see a red wave come the next cycle.</p><p>But I did want to take just a little bit of a step back and talk about Black voters and what’s happened in the aftermath of the Supreme Court voting rights decision. Black voters in this election really delivered historic victories in southern states for Democrats, but Black representation in Congress thus far appears to have been slightly reduced in this election. Now, for those who remember our discussion earlier this year about the Supreme Court decision to gut the Voting Rights Act, there were a lot of deep concerns that the decision would crater Black political representation, and so far that hasn’t come to bear, but it’s worth paying attention to in cycles that are less blue, where we’ve seen really massive redistricting.</p><p>I will shout out, there was one historic victory for Black Americans: Keisha Lance Bottoms, the former Atlanta mayor, won her race for governor, becoming the first Black female governor in the country.</p><p>MH: We’ve talked a lot about these historic wins, but we would be remiss to not mention a close call in Florida, where Angie Nixon narrowly lost.</p><p>Nixon is a Black woman who’s a member of the Democratic Socialists of America and had a really shocking primary upset when she defeated the establishment favorite to get the Democratic nomination. The Democrats didn’t invest very much in her Senate race in Florida. The conventional wisdom says Florida’s not flippable, but conventional wisdom also says that South Carolina’s not flippable — and they did that.</p><p>Nixon ended up coming within about 2 [percentage] points to Ashley Moody, the Republican incumbent, who just won a full term after being appointed to hold the seat that used to belong to [Secretary of State] Marco Rubio. A lot of people on the left side of the Democratic Party are wondering what would have happened if Democrats had invested in a DSA candidate running statewide in Florida, which is kind of a crazy statement to make if you think of just two years ago.</p><p>JW: I mean, I listened to her [concession] speech, she is an incredible speaker, but obviously, that’s not enough to win elections. You need money, clearly, and investment from the party.</p><p>We’re going to leave it there, but there is so much more election coverage you can follow at theintercept.com.</p><p>We want to hear from you. Tell us what you’re following or want to see more coverage of. Email us at podcasts@theintercept.com, or leave us a voice mail at 530-POD-CAST, that’s 530-763-2278.</p><p>This episode was produced by Laura Flynn. Chelsey B. Coombs is our social media producer. Ben Muessig is our editor-in-chief. Maia Hibbett is our managing editor. Thank you to all of our reporters who worked late on election night: Matt Sledge, Akela Lacy, Noah Hurowitz, Jonah Valdez, and Austin Campbell, and the rest of our team.</p><p>Nara Shin is our copy editor. William Stanton mixed our show. Legal review by David Bralow.</p><p>Slip Stream provided our theme music.</p><p>This show and our reporting at The Intercept do not exist without you. Your donation, no matter the amount, makes a real difference. Keep our investigations free and fearless at theintercept.com/join.</p><p>And if you haven’t already, please subscribe to The Intercept Briefing wherever you listen to podcasts. Do leave us a rating or a review; it helps other listeners find our reporting.</p><p>Until next time, I’m Jessica Washington.</p><p>The post How Democrats Changed Everything appeared first on The Intercept.</p>",
+      "url": "https://theintercept.com/2026/11/04/midterm-election-results-voters-democrats/",
+      "image": "https://theintercept.com/wp-content/uploads/2026/11/TIB-Ep.-107-Web.jpg?fit=2000%2C1000",
+      "publishedAt": "2026-11-05T02:00:00+00:00",
+      "sourceId": "theintercept",
+      "sourceName": "The Intercept",
+      "sourceType": "Investigación Independiente",
+      "sourceSite": "https://theintercept.com",
+      "region": "mundo",
+      "country": "EE.UU.",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-caf900b5ab",
+      "title": "Flamengo de Pulgar venció a Gremio y dio un paso clave hacia el título del Brasileirao",
+      "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes Flamengo , que contó con la titularidad del volante chileno Erick Pulgar , venció por 3-1 a Gremio en el Estadio Maracaná por la fecha 34 del Brasileirao, estirando a seis puntos su ventaja provisional sobre el escolta Palmeiras, a falta de cuatro fechas para terminar el torneo....",
+      "content": "<p>Flamengo, que contó con la titularidad del volante chileno Erick Pulgar, venció por 3-1 a Gremio en el Estadio Maracaná por la fecha 34 del Brasileirao, estirando a seis puntos su ventaja provisional sobre el escolta Palmeiras, a falta de cuatro fechas para terminar el torneo.</p><p>El conjunto carioca resolvió el trámite durante una primera mitad y se adelantó con las anotaciones de Samuel Lino (20&#x27;) junto a un doblete de Pedro (28&#x27; y 45+2&#x27;), la segunda originada a partir de una acción que el propio Pulgar inició.</p><p>QUE JOGADA DO CARALHO DO CARRASCAL NESSE GOL https://t.co/autJE8U4EU</p><p>La escuadra visitante intentó reaccionar en el complemento y descontó mediante un golazo de tiro libre ejecutado por Francis Amuzu (68&#x27;), pero el líder controló las acciones sin grandes sobresaltos hasta el final.</p><p>Con esta victoria, Flamengo llegó a 76 unidades y se preparará para recibir a Athletico Paranaense el miércoles 18 de noviembre a las 20:30 horas (23:30 GMT).</p>",
+      "url": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-brasilena/flamengo-de-pulgar-vencio-a-gremio-y-dio-un-paso-clave-hacia-el-titulo/2026-11-04/224805.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104224805.png",
+      "publishedAt": "2026-11-05T01:48:05+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 72,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
     {
       "id": "elciudadano-c656163005",
       "title": "Represión policial, discapacidad y derechos humanos",
@@ -1018,13 +1053,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-6cf764990b",
-      "title": "\"Es inviable\": Revelan los motivos que complicarían la venta de la casa de Mauricio Pinilla en Chicureo",
-      "summary": "La casa de Mauricio Pinilla y Gissella Gallardo, ubicada en el sector de Chicureo, continúa enfrentando dificultades para concretar su venta, en medio del proceso de liquidación de bienes del exfutbolista. En el programa \"Bombastic\" de Cecilia Gutiérrez, el invitado Nelson Beltrán, conocido como \"El Colombiano\", entregó detalles sobre...",
-      "content": "<p>La casa de Mauricio Pinilla y Gissella Gallardo, ubicada en el sector de Chicureo, continúa enfrentando dificultades para concretar su venta, en medio del proceso de liquidación de bienes del exfutbolista.</p><p>En el programa &quot;Bombastic&quot; de Cecilia Gutiérrez, el invitado Nelson Beltrán, conocido como &quot;El Colombiano&quot;, entregó detalles sobre las características de la propiedad y relató una conversación que habría sostenido con el arquitecto a cargo de su construcción.</p><p>&quot;Yo estuve en un carrete, hace mucho tiempo, y me encontré con el arquitecto de esa casa. Me dice que es una casa tan tirada de las mechas que para calefaccionares se tenía que tener como una habitación especial con máquinas con motores, con generadores, porque era inviable&quot;, contó.</p><p>En esa misma línea, sostuvo que &quot;no es una casa social, no es una casa para vivir. Es una casa museo con volúmenes los cuales hacen imposible comercialmente a menos que no te falte dinero&quot;, agregando que para mantener una temperatura adecuada se necesitarían &quot;dos o tres estufas más calefacción central&quot;.</p><p>Beltrán también apuntó a los gastos asociados al mantenimiento de los espacios exteriores: &quot;Y el montón de agua que se gasta para tener el jardín verde. Además, hacerse el aseo a eso, mínimo dos personas&quot;.</p><p>La propiedad fue incorporada al proceso de liquidación de bienes de Pinilla y su último remate, programado para el 28 de octubre con una postura mínima de 22.000 UF, equivalente a cerca de $907 millones, correspondía al cuarto intento por concretar su venta desde abril.</p>",
-      "url": "https://www.cooperativa.cl/noticias/magazine/personajes/es-inviable-revelan-los-motivos-que-complicarian-la-venta-de-la-casa/2026-11-04/220438.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104220438.jpg",
-      "publishedAt": "2026-11-05T01:04:38+00:00",
+      "id": "cooperativa-3d8134ba51",
+      "title": "Teletón 2026: programación, artistas y dónde ver la transmisión",
+      "summary": "Este viernes 6 y sábado 7 de noviembre se realizará una nueva edición de la Teletón , que contará con 27 horas de transmisión televisiva y una programación que incluirá música, humor, competencias y actividades para toda la familia. La jornada comenzará a las 22:00 horas del viernes con una obertura inspirada en el Chile del futuro,...",
+      "content": "<p>Este viernes 6 y sábado 7 de noviembre se realizará una nueva edición de la Teletón, que contará con 27 horas de transmisión televisiva y una programación que incluirá música, humor, competencias y actividades para toda la familia.</p><p>La jornada comenzará a las 22:00 horas del viernes con una obertura inspirada en el Chile del futuro, seguida del tradicional mensaje de Don Francisco, mientras que durante el sábado se desarrollarán distintos bloques temáticos hasta llegar al espectáculo de cierre en el Estadio Nacional.</p><p>Bloque noche: viernes 6 de noviembre, de 22:00 a 02:00 horas</p><p>Bloque trasnoche: sábado 7 de noviembre, de 02:00 a 08:00 horas</p><p>Bloque mañana familiar: sábado 7 de noviembre, de 08:00 a 13:30 horas</p><p>Bloque sábado por la tarde: de 13:30 a 17:00 horas</p><p>Bloque cierre Teatro Teletón: de 17:00 a 21:00 horas</p><p>El espectáculo final contará con presentaciones de Princesa Alba y SINAKA junto a la Orquesta Sinfónica Nacional Juvenil, Gondwana, Alanys Lagos, Picus, Rodantes Invisibles, Leo Rey, Tito El Bambino y Santaferia, además del ilusionista Jean Paul Olhaberry y el humor de Stefan Kramer.</p><p>También se presentarán Pablito Pesadilla junto a Pailita, King Savagge y Juliano Sossa, entre otros invitados.</p><p>La transmisión televisiva estará a cargo de los canales asociados a Anatel, mientras que la Digitón tendrá una señal especial a través de las plataformas digitales de Teletón, con cerca de 40 creadores de contenido, entrevistas, reacciones en vivo y actividades especiales.</p><p>Una publicación compartida por Banco de Chile (@bancodechile)</p>",
+      "url": "https://www.cooperativa.cl/noticias/magazine/television/teleton/teleton-2026-programacion-artistas-y-donde-ver-la-transmision/2026-11-04/223912.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104223912.jpg",
+      "publishedAt": "2026-11-05T01:39:12+00:00",
       "sourceId": "cooperativa",
       "sourceName": "Radio Cooperativa",
       "sourceType": "Radio Informativa Nacional",
@@ -1032,7 +1067,7 @@
       "region": "chile",
       "country": "Chile",
       "independent": false,
-      "category": "Política y Actualidad",
+      "category": "Cultura y Sociedad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 76,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
@@ -1058,13 +1093,13 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-6ad3a3816c",
-      "title": "Tomás Barrios fue eliminado en octavos del Challenger de Costa do Sauipe",
-      "summary": "El tenista chileno Tomás Barrios (154° del ranking ATP) quedó eliminado este miércoles en los octavos de final del Challenger de Costa do Sauipe , tras inclinarse por parciales de 5-7, 6-3 y 5-7 frente al argentino Lautaro Midón (185°). El duelo arrancó cuesta arriba para el chillanejo al ceder su saque de entrada y, si bien emparejó...",
-      "content": "<p>El tenista chileno Tomás Barrios (154° del ranking ATP) quedó eliminado este miércoles en los octavos de final del Challenger de Costa do Sauipe, tras inclinarse por parciales de 5-7, 6-3 y 5-7 frente al argentino Lautaro Midón (185°).</p><p>El duelo arrancó cuesta arriba para el chillanejo al ceder su saque de entrada y, si bien emparejó las acciones en el quinto juego, un nuevo quiebre en el duodécimo le entregó la primera manga al trasandino.</p><p>En el segundo capítulo, la Barrios afinó sus tiros desde el fondo de cancha y rompió en tres ocasiones el servicio rival para ir a la manga decisiva. No obstante, el nacional desperdició una ventaja 4-1 ante un rival que se recuperó con otro quiebre en el undécimo juego.</p><p>Con esta despedida en la ronda de los 16 mejores, el chillanejo sufrirá un sensible retroceso en el ranking en vivo de la ATP, cediendo momentáneamente cerca de 35 casilleros para ubicarse en el casillero 189 del escalafón mundial.</p>",
-      "url": "https://www.cooperativa.cl/noticias/deportes/tenis/challengers/tomas-barrios-fue-eliminado-en-octavos-del-challenger-de-costa-do-sauipe/2026-11-04/220242.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104220242.png",
-      "publishedAt": "2026-11-05T01:02:42+00:00",
+      "id": "cooperativa-6cf764990b",
+      "title": "\"Es inviable\": Revelan los motivos que complicarían la venta de la casa de Mauricio Pinilla en Chicureo",
+      "summary": "La casa de Mauricio Pinilla y Gissella Gallardo, ubicada en el sector de Chicureo, continúa enfrentando dificultades para concretar su venta, en medio del proceso de liquidación de bienes del exfutbolista. En el programa \"Bombastic\" de Cecilia Gutiérrez, el invitado Nelson Beltrán, conocido como \"El Colombiano\", entregó detalles sobre...",
+      "content": "<p>La casa de Mauricio Pinilla y Gissella Gallardo, ubicada en el sector de Chicureo, continúa enfrentando dificultades para concretar su venta, en medio del proceso de liquidación de bienes del exfutbolista.</p><p>En el programa &quot;Bombastic&quot; de Cecilia Gutiérrez, el invitado Nelson Beltrán, conocido como &quot;El Colombiano&quot;, entregó detalles sobre las características de la propiedad y relató una conversación que habría sostenido con el arquitecto a cargo de su construcción.</p><p>&quot;Yo estuve en un carrete, hace mucho tiempo, y me encontré con el arquitecto de esa casa. Me dice que es una casa tan tirada de las mechas que para calefaccionares se tenía que tener como una habitación especial con máquinas con motores, con generadores, porque era inviable&quot;, contó.</p><p>En esa misma línea, sostuvo que &quot;no es una casa social, no es una casa para vivir. Es una casa museo con volúmenes los cuales hacen imposible comercialmente a menos que no te falte dinero&quot;, agregando que para mantener una temperatura adecuada se necesitarían &quot;dos o tres estufas más calefacción central&quot;.</p><p>Beltrán también apuntó a los gastos asociados al mantenimiento de los espacios exteriores: &quot;Y el montón de agua que se gasta para tener el jardín verde. Además, hacerse el aseo a eso, mínimo dos personas&quot;.</p><p>La propiedad fue incorporada al proceso de liquidación de bienes de Pinilla y su último remate, programado para el 28 de octubre con una postura mínima de 22.000 UF, equivalente a cerca de $907 millones, correspondía al cuarto intento por concretar su venta desde abril.</p>",
+      "url": "https://www.cooperativa.cl/noticias/magazine/personajes/es-inviable-revelan-los-motivos-que-complicarian-la-venta-de-la-casa/2026-11-04/220438.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104220438.jpg",
+      "publishedAt": "2026-11-05T01:04:38+00:00",
       "sourceId": "cooperativa",
       "sourceName": "Radio Cooperativa",
       "sourceType": "Radio Informativa Nacional",
@@ -1074,7 +1109,7 @@
       "independent": false,
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 72,
+      "relevanceScore": 76,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1098,13 +1133,13 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-62ed198ff0",
-      "title": "Sala Cuna logró importante avance en la Cámara: Comisión destrabó nudo sobre financiamiento",
-      "summary": "El proyecto de ley de Sala Cuna Universal dio un avance importante en su tramitación legislativa luego que la Comisión de Trabajo de la Cámara Baja aprobase las indicaciones del Ejecutivo, entre ellas la que reponía el mecanismo de financiamiento. Dicho mecanismo, que contempla una cotización de 0,3% a cargo del empleador para el...",
-      "content": "<p>El proyecto de ley de Sala Cuna Universal dio un avance importante en su tramitación legislativa luego que la Comisión de Trabajo de la Cámara Baja aprobase las indicaciones del Ejecutivo, entre ellas la que reponía el mecanismo de financiamiento.</p><p>Dicho mecanismo, que contempla una cotización de 0,3% a cargo del empleador para el Fondo de Sala Cuna y considera, además, reducciones de 0,15 puntos en la cotización destinada al Fondo Solidario del Seguro de Cesantía y en la cuenta de capitalización individual, fue rechazado previamente en el Senado durante la primera etapa de la discusión parlamentaria.</p><p>El ministro del Trabajo, Tomás Rau, destacó que se destrabara el nudo del financiamiento del proyecto: &quot;Hemos logrado un avance importante. Se aprobaron (en la Comisión) todos los artículos y todas las indicaciones&quot;, valoró.</p><p>&quot;Trabajamos arduamente en una sesión hasta total despacho el día de hoy. Repusimos los artículos que se habían caído en el primer trámite de financiamiento. Llegamos a una buena fórmula sostenible, recogiendo opiniones de distintos actores, tanto de la sociedad civil como en las conversaciones con parlamentarios&quot;.</p><p>El proyecto fue despachado a la Comisión de Hacienda, &quot;para después ir a la Sala de la Cámara y terminar el segundo trámite legislativo&quot;, indicó el secretario de Estado.</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/sala-cuna-logro-importante-avance-en-la-camara-comision-destrabo-nudo/2026-11-04/215339.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104215339.png",
-      "publishedAt": "2026-11-05T00:53:39+00:00",
+      "id": "cooperativa-6ad3a3816c",
+      "title": "Tomás Barrios fue eliminado en octavos del Challenger de Costa do Sauipe",
+      "summary": "El tenista chileno Tomás Barrios (154° del ranking ATP) quedó eliminado este miércoles en los octavos de final del Challenger de Costa do Sauipe , tras inclinarse por parciales de 5-7, 6-3 y 5-7 frente al argentino Lautaro Midón (185°). El duelo arrancó cuesta arriba para el chillanejo al ceder su saque de entrada y, si bien emparejó...",
+      "content": "<p>El tenista chileno Tomás Barrios (154° del ranking ATP) quedó eliminado este miércoles en los octavos de final del Challenger de Costa do Sauipe, tras inclinarse por parciales de 5-7, 6-3 y 5-7 frente al argentino Lautaro Midón (185°).</p><p>El duelo arrancó cuesta arriba para el chillanejo al ceder su saque de entrada y, si bien emparejó las acciones en el quinto juego, un nuevo quiebre en el duodécimo le entregó la primera manga al trasandino.</p><p>En el segundo capítulo, la Barrios afinó sus tiros desde el fondo de cancha y rompió en tres ocasiones el servicio rival para ir a la manga decisiva. No obstante, el nacional desperdició una ventaja 4-1 ante un rival que se recuperó con otro quiebre en el undécimo juego.</p><p>Con esta despedida en la ronda de los 16 mejores, el chillanejo sufrirá un sensible retroceso en el ranking en vivo de la ATP, cediendo momentáneamente cerca de 35 casilleros para ubicarse en el casillero 189 del escalafón mundial.</p>",
+      "url": "https://www.cooperativa.cl/noticias/deportes/tenis/challengers/tomas-barrios-fue-eliminado-en-octavos-del-challenger-de-costa-do-sauipe/2026-11-04/220242.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104220242.png",
+      "publishedAt": "2026-11-05T01:02:42+00:00",
       "sourceId": "cooperativa",
       "sourceName": "Radio Cooperativa",
       "sourceType": "Radio Informativa Nacional",
@@ -1114,7 +1149,7 @@
       "independent": false,
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
+      "relevanceScore": 72,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1136,6 +1171,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 81,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-62ed198ff0",
+      "title": "Sala Cuna logró importante avance en la Cámara: Comisión destrabó nudo sobre financiamiento",
+      "summary": "El proyecto de ley de Sala Cuna Universal dio un avance importante en su tramitación legislativa luego que la Comisión de Trabajo de la Cámara Baja aprobase las indicaciones del Ejecutivo, entre ellas la que reponía el mecanismo de financiamiento. Dicho mecanismo, que contempla una cotización de 0,3% a cargo del empleador para el...",
+      "content": "<p>El proyecto de ley de Sala Cuna Universal dio un avance importante en su tramitación legislativa luego que la Comisión de Trabajo de la Cámara Baja aprobase las indicaciones del Ejecutivo, entre ellas la que reponía el mecanismo de financiamiento.</p><p>Dicho mecanismo, que contempla una cotización de 0,3% a cargo del empleador para el Fondo de Sala Cuna y considera, además, reducciones de 0,15 puntos en la cotización destinada al Fondo Solidario del Seguro de Cesantía y en la cuenta de capitalización individual, fue rechazado previamente en el Senado durante la primera etapa de la discusión parlamentaria.</p><p>El ministro del Trabajo, Tomás Rau, destacó que se destrabara el nudo del financiamiento del proyecto: &quot;Hemos logrado un avance importante. Se aprobaron (en la Comisión) todos los artículos y todas las indicaciones&quot;, valoró.</p><p>&quot;Trabajamos arduamente en una sesión hasta total despacho el día de hoy. Repusimos los artículos que se habían caído en el primer trámite de financiamiento. Llegamos a una buena fórmula sostenible, recogiendo opiniones de distintos actores, tanto de la sociedad civil como en las conversaciones con parlamentarios&quot;.</p><p>El proyecto fue despachado a la Comisión de Hacienda, &quot;para después ir a la Sala de la Cámara y terminar el segundo trámite legislativo&quot;, indicó el secretario de Estado.</p>",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/sala-cuna-logro-importante-avance-en-la-camara-comision-destrabo-nudo/2026-11-04/215339.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104215339.png",
+      "publishedAt": "2026-11-05T00:53:39+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "lasillavacia-916b138e18",
@@ -1398,26 +1453,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-0ec201e05d",
-      "title": "Académica atribuye desencanto social al \"relato oscuro\" instalado por el Gobierno",
-      "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Ante el malestar y desconfianza entre la población chilena evidenciado en la última Encuesta Bicentenario de la UC, la investigadora participante del estudio Kathya Araujo advirtió en Cooperativa que el Gobierno del Presidente Kast cometió &quot;un error muy grande&quot; al instalar la narrativa de un país en crisis al momento de asumir el poder.</p><p>Por un lado, la experta planteó en Lo que Queda del Día que &quot;hay un proceso largo en que ha aumentado el grado de desencanto de las personas, porque han sentido que hay muchas promesas incumplidas&quot;, pero que esto se mezcló luego con el discurso del Ejecutivo al comienzo del mandato.</p><p>&quot;Construyó una realidad muy negra, muy oscura, y en eso hubo un error muy grande, y es contingente, pero se monta en este camino de desencanto, porque las personas necesitan cambios, están muy agobiadas, y depositan esperanzas en los actores políticos, pero son decepcionadas posteriormente&quot;, explicó la socióloga.</p><p>Este &quot;relato muy negro y oscuro&quot; impulsado por el Gobierno se suma a otras amenazas que ya generan inestabilidad en las vidas de las personas, como el cambio climático, la falta de seguridad laboral y el complejo acceso a la salud. Según la académica de la Usach, estos factores en su conjunto &quot;han tenido un impacto bastante grande en el país&quot;.</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/poblacion/academica-atribuye-desencanto-social-al-relato-oscuro-instalado-por-el/2026-11-04/202203.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000120261104202203.jpg",
-      "publishedAt": "2026-11-04T23:22:03+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 77,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "ciper-76e17b52d4",
       "title": "Defensoría de la Niñez insiste con amparo contra rebajas de condena; participación de menores en delitos sube 16,4%, y gobierno repone $94 mil millones a las regiones",
       "summary": "La entrada Defensoría de la Niñez insiste con amparo contra rebajas de condena; participación de menores en delitos sube 16,4%, y gobierno repone $94 mil millones a las regiones se publicó primero en CIPER Chile .",
@@ -1436,26 +1471,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 99,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "cooperativa-bc30e39f76",
-      "title": "Maya Hawke protagonizará película sobre cartas \"Magic\"",
-      "summary": "La actriz Maya Hawke , reconocida por su trabajo en \"Stranger Things\", saltará al universo de los juegos de cartas coleccionables (TCG, por sus siglas en inglés) con la película inspirada en el popular \"Magic: The Gathering\" . Desde el medio especializado Deadline informaron que la intérprete de \"Los Juegos del Hambre: Amanecer en la...",
-      "content": "<p>La actriz Maya Hawke, reconocida por su trabajo en &quot;Stranger Things&quot;, saltará al universo de los juegos de cartas coleccionables (TCG, por sus siglas en inglés) con la película inspirada en el popular &quot;Magic: The Gathering&quot;.</p><p>Desde el medio especializado Deadline informaron que la intérprete de &quot;Los Juegos del Hambre: Amanecer en la Cosecha&quot; encabezará el elenco del largometraje inspirado en el título pionero de los TCG, cuya trama no ha sido revelada.</p><p>Hasbro Entertainment y Legendary Entertainment producirán esta película de acción real que será dirigida por Matt Johnson (&quot;Tony&quot;), quien también se encuentra escribiendo el guion junto a Noah Gardner (&quot;Super 8&quot;) y Aidan Fitzgerald (&quot;Calls&quot;).</p><p>Editado por Wizards of the Coast, el TCG por excelencia posee más de 50 millones de jugadores en todo el mundo desde su lanzamiento en 1993.</p><p>Teniendo al arte como una de las características más reconocibles del famoso juego de cartas coleccionables, fue en 1999 que Hasbro adquirió Wizards of the Coast y actualmente es todo un fenómeno global, con convenciones, torneos, circuitos profesionales y un enorme mercado secundario de cartas raras y poderosas.</p>",
-      "url": "https://www.cooperativa.cl/noticias/magazine/cine/maya-hawke-protagonizara-pelicula-sobre-cartas-magic/2026-11-04/201545.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104201545.jpg",
-      "publishedAt": "2026-11-04T23:15:45+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Cultura y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "lasillavacia-f85f9def66",
@@ -2278,26 +2293,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "theintercept-c27846eef0",
-      "title": "Lesson From Lansing: To Win in Swing Districts, Fight Data Centers",
-      "summary": "Left-aligned candidate Will Lawrence beat a Republican incumbent by battling new AI infrastructure in his purple Michigan district. The post Lesson From Lansing: To Win in Swing Districts, Fight Data Centers appeared first on The Intercept .",
-      "content": "<p>When progressive Will Lawrence beat two moderates in a Michigan congressional primary earlier this year, some Democrats were worried about his ability to win one of the nation’s most evenly divided districts.</p><p>On Wednesday afternoon, The Associated Press declared Will Lawrence the winner of Michigan’s 7th Congressional District race over Republican Rep. Tom Barrett.</p><p>A national swing in favor of Democrats helped him — but so did a campaign that leaned heavily on opposition to data centers to situate Lawrence as a populist instead of an extremist.</p><p>Data centers were on voters’ minds everywhere, but they rarely dominated a race as much as Michigan’s 7th District. Lawrence vocally opposed data center construction almost as soon as he began running last year. A series of proposed hyperscale developments in and around Lansing pushed the issue into the limelight.</p><p>A month and a half before the election, Lawrence announced a data center platform calling for a moratorium on new development, environmental regulations, and a national jobs program to replace work taken away by artificial intelligence.</p><p>As progressives take stock of the 2026 midterms, Lawrence’s approach points one way forward for their wing of the Democratic Party. Lawrence’s opponent tried to turn his time as an environmental activist into a liability, but in an interview with The Intercept, Lawrence said his background primed him to come down on the same side as the public on a red-hot issue like data centers.</p><p>“I fought against Wall Street landlords trying to kick people out of their homes. I fought against oil companies who are polluting our air and water,” he told The Intercept in an interview last month. “So for me, this was not the first time that I’ve stood on the line against a corporate behemoth like this.”</p><p>Lawrence is a co-founder of the Sunrise Movement, which had one of its most famous moments when its youth activists marched into the office of then-House Speaker Nancy Pelosi to push for the Green New Deal with Rep. Alexandria Ocasio-Cortez, D-N.Y., by their side in 2018.</p><p>Data centers and AI were remote issues for voters then, but they were starting to bubble up in the public consciousness by the time Lawrence announced his run for Congress in August 2025.</p><p>Two months later, one of his first moves as a candidate was to visit public meetings in two small townships in Michigan to express his opposition to proposed data center developments.</p><p>As a former member of the Democratic Socialists of America, he drew skepticism from many observers over his ability to win the primary in a district that narrowly voted for Donald Trump in 2024. They were equally skeptical of his ability to beat Barrett, a Republican who tried to play up his moderate bona fides in the race’s final weeks. Barrett was one of a handful of Republicans to vote in favor of a resolution to end the Iran war, for instance.</p><p>Lawrence had some major liabilities in a purple district, including tweets where he wrote “fuck the nuclear-family home” and told then-Democratic Sen. Joe Manchin in a song to “hurry up and die.”</p><p>While Barrett leaned on those posts and Lawrence’s time with the DSA to cast his opponent as an extremist, the young progressive had a card up his sleeves in the form of the data center issue.</p><p>It is the rare cause that leaps across party lines to unite Republicans and Democrats who are just as worried about water sources drying up and ceaseless buzzing sounds.</p><p>At an October 5 city council meeting in the quaint town of Mason, where a developer has proposed a hyperscale data center on a plot of picturesque farmland, Democrats and Republicans alike said they were outraged. Some residents said they would sell their house and leave town if the development is built.</p><p>In a sign of how politically charged the issue has become, many of the speakers were candidates for office angling for votes. Lawrence had dropped by himself a few weeks before. His first television ad centered on his opposition to the Mason project.</p><p>Karl Sime, a Mason resident who crisscrossed the area on behalf of Democratic candidates, told The Intercept last month that “100 percent” of voters were angry about the data center proposed for the swath of farmland just outside city limits.</p><p>“Sometimes they’ll just say it unprovoked,” he said. “You can see the body language just dramatically change into anger.”</p><p>Lawrence was hardly the only candidate who tried to tap into opposition to data centers. Some Republicans tried to catch the wave as well.</p><p>Barrett voted for the One Big Beautiful Bill, which included tax breaks that could benefit rural data center developers. But as the danger he faced in the election became clear, he proposed legislation in Congress that would ban local officials from signing non-disclosure agreements with developers and would allow local communities to set regulations on data centers without federal interference.</p><p>Some voters said they wanted to see candidates take a harder stance in favor of regulation, however. At the City Council meeting last month, Doug DeLind said he was left shaking his head at neighbors who had yard signs opposing data centers and supporting Barrett.</p><p>DeLind, a sculptor who lives near the proposed data center, said that Barrett’s position was that “we’re going to leave it up to the local communities, but we’re not going to provide any federal protection or any guidelines to what a data center can do.”</p><p>Although Mason faces a more imminent possibility of a massive data center, Americans across the country are worried about having one in their backyard. Multiple surveys showed a remarkable shift in public opinion on the subject over the past year. Half of Americans oppose a data center being built within 3 miles of their house, according to a recent Politico poll.</p><p>In recent months, data centers became a signature issue for Democrats with progressive pasts trying to recast themselves as populists. Sherrod Brown, the party’s Senate candidate in Ohio, and Texas gubernatorial candidate Gina Hinojosa also staked their campaigns on opposition to data centers. Both won.</p><p>“The playbook was listening to voters. I think voters across ideologies were speaking with one voice, and I think their opponents were some of the people most willing to silence voters and accept industry cash instead,” said Alex Bores, who became a national figure by arguing for stricter AI regulations during a failed New York congressional primary bid earlier this year.</p><p>As candidates ran away from data centers, the artificial intelligence industry’s most powerful super PAC stopped intervening in close races. An Intercept analysis found that the well-funded Leading the Future super PAC network, which is aligned with OpenAI, largely stopped spending in competitive general election races.</p><p>It lost in the one state where it did place a big bet, South Carolina. Incumbent Sen. Darline Graham, a Republican, fell to challenger Annie Andrews.</p><p>Bores, who now leads a pro-AI regulation group called Who Decides, said he was not surprised to see candidates increasingly market themselves as AI skeptics.</p><p>“I think it’s overdue. I think candidates and elected officials are catching up to where the electorate is, across parties,” Bores told The Intercept. “It is remarkable the agreement that voters have around wanting guardrails to protect us from the most powerful and fastest moving technology of our lifetime. Democracy is sometimes slow, but only so much.”</p><p>This story was supported by a grant from the Tarbell Center for AI Journalism.</p><p>Update: November 4, 2026, 2:32 p.m. ET The story has been updated after The Associated Press officially called Michigan’s 7th Congressional District race for Will Lawrence.</p><p>The post Lesson From Lansing: To Win in Swing Districts, Fight Data Centers appeared first on The Intercept.</p>",
-      "url": "https://theintercept.com/2026/11/04/will-lawrence-michigan-midterms-data-centers/",
-      "image": "https://theintercept.com/wp-content/uploads/2026/11/GettyImages-2294869660-e1793760503656.jpg?fit=8325%2C4163",
-      "publishedAt": "2026-11-04T17:15:41+00:00",
-      "sourceId": "theintercept",
-      "sourceName": "The Intercept",
-      "sourceType": "Investigación Independiente",
-      "sourceSite": "https://theintercept.com",
-      "region": "mundo",
-      "country": "EE.UU.",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "esciclismo-c00ab9bc76",
       "title": "La Copa de España de Pista 2027 arranca en Valdepeñas con más de 170 participantes",
       "summary": "La Copa de España de Pista 2027 comenzará este fin de semana, los días 7 y 8 de noviembre (de 2026), con la disputa del Gran Premio Copa de España-Ciudad de Valdepeñas. El...",
@@ -2978,26 +2973,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elsalto-e1d47f3ff3",
-      "title": "Matar al mensajero: el derecho a informar sobre las infiltraciones policiales",
-      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Matar al mensajero: el derecho a informar sobre las infiltraciones policiales El Salto</p>",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdjR5YmVWWDBBR3NtWGhJRGtkeXQxWGV4cWd4aUlJdnZUdXo3ckFzaEZXbGFIQ0l4UVk5c25uN1ZrdmlKeUVfTVR6SkljcUpmV08wUHJ4b0tUcTBtTlF3d05wcE1EUENNUVdUNzFRdGJ2MWEtYVlySjFab1BnRTUxUmRTV2FSaS1IQ19sN01HcEc5TDRHdExXRUFfaV9rUzBFZXgzZF9fQlZTUQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-04T09:39:00+00:00",
-      "sourceId": "elsalto",
-      "sourceName": "El Salto Diario",
-      "sourceType": "Cooperativa Independiente",
-      "sourceSite": "https://www.elsaltodiario.com",
-      "region": "mundo",
-      "country": "España",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 68,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "ciclo21-49ae0f4da0",
       "title": "El pelotón español 27-30: Aranaz y Retegi",
       "summary": "Todos los profesionales con contrato desde 2027 hasta 2030 La entrada El pelotón español 27-30: Aranaz y Retegi aparece primero en Ciclo21 .",
@@ -3238,13 +3213,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elsalto-9f9dc5c713",
-      "title": "¿Qué pasaría si el 29N solo votaran policías y militares? Mayoría absoluta de derechas, con Vox a la cabeza",
+      "id": "elsalto-338ed11b71",
+      "title": "Cómo desbordar la huelga general que le gustaría a Pedro Sánchez",
       "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>¿Qué pasaría si el 29N solo votaran policías y militares? Mayoría absoluta de derechas, con Vox a la cabeza El Salto</p>",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdE5mYXNsOHRpSU5xUkVhUm0xY2RodTF3eWVaTHowYkNLTVJ0OEtyZGFrNHZPUVFUNzB4N0l2aEF3VzduR1JTSWdKM1JMNWozQ0g3bFdXOXk1VW45SzlhNXVDNkVoblNFaVJrbHJ3YTBHVDN4ZEdmUUVLbklxWGwyX2NCUmtSWGgwUXhsY2hWUDJqT0JyYW1LR2JHS0FRYnFtX2F6OUVnb21mY3lsTHZBbVIybE5jbF9RUVR5ZGZ3?oc=5",
+      "content": "<p>Cómo desbordar la huelga general que le gustaría a Pedro Sánchez El Salto</p>",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQjFBNUNwdV9sOWtISHJWRzdQS3A3V2hfOGZ5TWl4NXBmYVRMWm83c2pleGtoRFZoc0twdjQyYVNfZUpXbzZWdDdjcmhfYy1JbHdLUU5adTdGSlFEeGI0cmRWMkFVM0JmakpUcE9aSlRwNWo4Z1dNbjNuN1Ytd3hoOUVtMVZfR0VuLVVNZlRKeEtCWXdtYTdqY0FuUQ?oc=5",
       "image": null,
-      "publishedAt": "2026-11-04T04:00:00+00:00",
+      "publishedAt": "2026-11-04T05:00:00+00:00",
       "sourceId": "elsalto",
       "sourceName": "El Salto Diario",
       "sourceType": "Cooperativa Independiente",
@@ -3276,6 +3251,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 86,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elsalto-9f9dc5c713",
+      "title": "¿Qué pasaría si el 29N solo votaran policías y militares? Mayoría absoluta de derechas, con Vox a la cabeza",
+      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>¿Qué pasaría si el 29N solo votaran policías y militares? Mayoría absoluta de derechas, con Vox a la cabeza El Salto</p>",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdE5mYXNsOHRpSU5xUkVhUm0xY2RodTF3eWVaTHowYkNLTVJ0OEtyZGFrNHZPUVFUNzB4N0l2aEF3VzduR1JTSWdKM1JMNWozQ0g3bFdXOXk1VW45SzlhNXVDNkVoblNFaVJrbHJ3YTBHVDN4ZEdmUUVLbklxWGwyX2NCUmtSWGgwUXhsY2hWUDJqT0JyYW1LR2JHS0FRYnFtX2F6OUVnb21mY3lsTHZBbVIybE5jbF9RUVR5ZGZ3?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-04T04:00:00+00:00",
+      "sourceId": "elsalto",
+      "sourceName": "El Salto Diario",
+      "sourceType": "Cooperativa Independiente",
+      "sourceSite": "https://www.elsaltodiario.com",
+      "region": "mundo",
+      "country": "España",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 68,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "ciclismo-chile-392a215ef7",
@@ -4098,6 +4093,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "ciclismo-chile-2870b56e63",
+      "title": "“La bicicleta”, “Robarte un beso” y más: Carlos Vives llega a LOS40 Music Awards Santander 2026",
+      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>“La bicicleta”, “Robarte un beso” y más: Carlos Vives llega a LOS40 Music Awards Santander 2026 LOS40</p>",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMlM3SmxsS2U5SVhjcnM2MUQ3U3ZlMWdYbTJHby1wcXNoNzk1VnA0V1hDU0NTSFhRS0FqZmNLSlY5NmtoYXNPazlIOXFiMFlHdU5PRzBlbnd5TXRrRElBX2F2X25rb2ljd1IwSnYzUGFVT2lmdmY4aGo1ekJtVm9NdDVLUmllT28zaHA1SXV4aG5YSEprZU5LdlFSTC1taUtBc0dSdUVmd21PMUZW0gHAAUFVX3lxTFAtemp0d0dLRElvNy1KNG9jdnJvM0Ryd2dfUS1ES1NmTE5DRnFBTEZ5X3hPSTE1NmdDckRtVHFubVZiUVlLbXJZWnZZdHZkV0xkejBHNEljd3BmVng4T25EWm5Yem9WeDRLRl9oWkRJMEF1WEsxV0tQMHd1SVZ4Y1V6Smtic2JEUFN5SHFlVFNnZjJHTlVtcUhUR0RUaVQ5akJicmdzRkdGelRSNWpEdHU0YjdBWW9jOWNqUUVuSVpsag?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-02T15:48:56+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
       "id": "laderasur-cbe93624dd",
       "title": "COP17: Italia, Uruguay y Panamá se suman al Compromiso por la Conservación de los Hongos",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4598,13 +4613,13 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "cuestionpublica-61e28d591c",
-      "title": "La presidenta de la SAE fue abogada del Clan Char en un proceso penal que continúa abierto",
-      "summary": "Cuestión Pública encontró que, desde 2020, la actual presidenta de la SAE, Diana Bravo Vélez, fue la abogada de Alejandro Char en un proceso por fraude procesal y prevaricato que la Fiscalía ha intentado precluir tres veces este año. La entrada La presidenta de la SAE fue abogada del Clan Char en un proceso penal que continúa abierto...",
-      "content": "<p>Cuestión Pública encontró que, desde 2020, la actual presidenta de la SAE, Diana Bravo Vélez, fue la abogada de Alejandro Char en un proceso por fraude procesal y prevaricato que la Fiscalía ha intentado precluir tres veces este año.</p><p>La mujer que hoy administra los bienes incautados a los grupos al margen de la ley en Colombia fue la abogada de Alejandro Char, actual alcalde de Barranquilla y heredero del control del ‘Clan Char’, en un proceso penal que sigue abierto por medio de la firma De La Espriella Lawyers.</p><p>Diana Patricia Bravo Vélez llegó en agosto de 2026 a la presidencia de la Sociedad de Activos Especiales (SAE), nombrada por Abelardo De la Espriella, que hasta julio era su socio en De la Espriella Lawyers. En noviembre de 2020, Bravo firmó ante la Fiscalía de Barranquilla como «apoderada judicial del señor Alejandro Char Chaljub».</p><p>El expediente, con radicado 080016001257201600030, investiga a Char por fraude procesal y prevaricato en su primer periodo como alcalde de Barranquilla. Se trata de hechos que se remontan a 2008. Dieciocho años después, la Fiscalía lo mantiene activo y en indagación, aunque en 2026 pidió tres veces precluirlo. La última vez fue el 18 de junio, tres días antes de la segunda vuelta presidencial.</p><p>Mientras el expediente contra Alejandro Char dormía en la Fiscalía, la firma De La Espriella Lawyers que lo había defendido contrataba con su alcaldía. El 20 de febrero de 2026, 28 días después del contrato de $357 millones con la Alcaldía de Char, la Fiscalía pidió por primera vez precluir el proceso por atipicidad.</p><p>En un segundo intento, volvió a pedirlo el 15 de mayo, dos semanas antes de la primera vuelta presidencial. Ningún juez ha cerrado el caso.</p><p>El 7 de agosto, De la Espriella se posesionó como presidente y siete días después, el 14 de agosto, la Alcaldía de Barranquilla le adjudicó a la firma otro contrato directo, por $297,5 millones. El 19 de agosto, Diana Bravo, la abogada que sustituyó a De la Espriella durante el proceso penal contra Alejandro Char, fue nombrada presidenta de la Sociedad de Activos Especiales.</p><p>Antes de que Abelardo De la Espriella, el exsocio de Diana Bravo según su perfil de LinkedIn, entrara a la carrera presidencial, su firma ya contrataba recibiendo dineros públicos del Atlántico. Entre diciembre de 2024 y abril de 2025, De la Espriella Lawyers Enterprise firmó dos contratos por $642.896.000. El primero fue con la Gobernación del Atlántico, por $47,9 millones, en diciembre de 2024. El segundo, con la Alcaldía de Barranquilla de Alejandro Char, por $595 millones, el 11 de abril de 2025.</p><p>El comité del movimiento Defensores de la Patria, con el que De la Espriella se lanzó a la Presidencia, se inscribió el 16 de julio de 2025. Desde entonces, la firma sumó cuatro contratos más con las mismas dos entidades, por $854.500.000.</p><p>La Gobernación del Atlántico le adjudicó $100 millones en julio de 2025 y otros $100 millones en enero de 2026. La Alcaldía de Char le adjudicó $357 millones en enero de 2026, en plena campaña, y $297,5 millones el 14 de agosto de 2026, una semana después de la posesión presidencial. En total, la firma ha recibido $1.497.396.000 de ambas entidades desde diciembre de 2024, y el 57 % de ese dinero se contrató después de que su fundador se convirtiera en candidato.</p><p>Después de esta fecha, el SPOA no registra ninguna actividad investigativa hasta la primera solicitud de preclusión, en febrero de 2026. 23 ene2026ContratoAlcaldía de Barranquilla contrata a De la Espriella Lawyers$357.000.000Contrato CD-45-2026-5021, por contratación directa: defensa judicial y extrajudicial del Distrito de Barranquilla. Ver en SECOP 29 ene2026ContratoGobernación del Atlántico contrata a De la Espriella Lawyers$100.000.000Contrato 202602197, por contratación directa: apoyo a la Secretaría General en actuaciones jurídicas administrativas. Ver en SECOP 20 feb2026FiscalíaPrimera solicitud de preclusión por atipicidadEl SPOA registra una solicitud de preclusión por atipicidad del hecho investigado, es decir, por considerar que los hechos no constituyen delito. Llega 28 días después del contrato de $357 millones con la Alcaldía de Char. 15 may2026FiscalíaSegunda solicitud de preclusión por atipicidadSegunda anotación en el SPOA, dos semanas antes de la primera vuelta presidencial. 31 may2026PolíticaPrimera vuelta presidencialAbelardo de la Espriella, fundador de la firma, compite por la Presidencia con el movimiento Defensores de la Patria. 18 jun2026FiscalíaTercera solicitud de preclusión por atipicidadEs la última anotación del SPOA, tres días antes de la segunda vuelta presidencial (21 de junio). Ninguna decisión judicial aparece en el registro, y el caso sigue activo y en indagación. 7 ago2026PolíticaDe la Espriella se posesiona como presidenteEl abogado que fue apoderado de Alejandro Char llega a la Casa de Nariño. 14 ago2026ContratoAlcaldía de Barranquilla contrata de nuevo a la firma$297.500.000Contrato CD-45-2026-9146, por contratación directa, siete días después de la posesión presidencial: defensa judicial y extrajudicial del Distrito. Ver en SECOP 19 ago2026PolíticaDiana Bravo, exapoderada de Char, es nombrada presidenta de la SAEDe la Espriella la nombra con el Decreto 1255 de 2026. Bravo había recibido en 2020 la sustitución del poder de Char en este mismo proceso. Ver decreto Contratos de la firma en 2026$754.500.000 Valores reportados en SECOP. La coincidencia de fechas no implica una relación causal entre los contratos y las actuaciones judiciales. Cuestión Pública De ser abogada de clanes políticos a administrar bienes de grupos al margen de la ley Bravo fue fiscal antes de ser abogada de la firma. Entró a la Fiscalía en 2003 como investigadora judicial II en Cali y llegó a directora seccional de Fiscalías, primero en Valledupar y después en Barranquilla.</p><p>Antes había sido asesora jurídica del Ejército, abogada de control interno de la Alcaldía de Cali y abogada externa de la empresa Calitubos. Es especialista en Alta Gerencia y en Derecho Administrativo, y tiene una maestría en Administración (MBA).</p><p>En 2015 entró a De la Espriella Lawyers Enterprise como directora administrativa y jurídica. Fue socia de la firma hasta julio de 2026.</p><p>En la campaña presidencial formó parte del comité inscriptor del movimiento Defensores de la Patria, que recogió las firmas de la candidatura de De la Espriella. También manejó el dinero de la campaña.</p><p>El 19 de agosto de 2026, con el Decreto 1255, De la Espriella aceptó la renuncia de Amelia Pérez a la SAE y nombró a Bravo en su lugar.</p><p>Abelardo de la EspriellaPresidente SAEBienes incautados a gruposal margen de la ley De la EspriellaLawyers Enterprise Clan CharAlcaldía de Barranquilla Diana BravoPresidenta de la SAE Socia y tesorera Su abogada Apoyo electoral $1.249 M en contratos Predios del narcoparamilitar«Comandante Barbie» Con De la EspriellaFue su apoderada sustituta, su socia y la tesorera de su campaña. Hoy es su funcionaria. Con CharLo representó ante la Fiscalía de Barranquilla, la misma ciudad donde antes dirigió la seccional de Fiscalías. RAYA reporta que De la Espriella ha sido abogado de la familia Char y que Alejandro Char ha sido su principal cliente en ese clan (RAYA). Char con el gobiernoLa casa Char respaldó la candidatura de De la Espriella, y su aliada Elsa Noguera es ministra de Transporte (Cambio). Char con la firmaLa Alcaldía de Barranquilla le adjudicó a De la Espriella Lawyers tres contratos directos por $1.249,5 millones en 2025 y 2026. El último se firmó una semana después de la posesión presidencial. La SAE con el presidenteVorágine reportó que varios predios vecinos del terreno de De la Espriella en el Cesar, propiedad de alias Comandante Barbie o de sus familiares, estuvieron en poder de la SAE. Cuestión Pública Los documentos que incluyen a Alejandro Char El poder (agosto de 2020). En papel membretado de De la Espriella Lawyers Enterprise, Abelardo de la Espriella se dirige al fiscal 56 seccional de Patrimonio Económico de Barranquilla, Gustavo Orozco. Se presenta como apoderado de Alejandro Char Chaljub y sustituye ese poder a Diana Bravo, con facultades para recibir, desistir, transigir, conciliar y recurrir, entre otras funciones. En el asunto figuran el denunciante, Fabián Araujo Polo; el denunciado, Char; y el radicado 080016001257201600030.</p><p>La suplencia (noviembre de 2020). Bravo firma «en mi calidad de Apoderada Judicial del señor Alejandro Char Chaljub» y designa como apoderada suplente a otra abogada de la firma. Las dos usan correos del dominio lawyersenterprise.com.</p><p>El correo del fiscal (11 de noviembre de 2020). A las 10:33 a. m., Bravo radica la sustitución y la suplencia en un buzón de la Fiscalía. El mensaje se reenvía ese día a Gustavo Adolfo Orozco Pertuz. A las 5:27 p. m., Orozco responde a las dos abogadas: acusa recibo y les da su correo institucional y el de su asistente. Firma como F-56 Seccional, Unidad de Patrimonio Económico.</p><p>Orozco Pertuz es el fiscal que, según Araujo, nunca acusó a Char. RAYA lo describe como un fiscal conocido en Barranquilla por su cercanía a la familia Char. También reporta que paga una condena de tres años por prevaricato por omisión, confirmada por la Corte Suprema, en otro caso: el del ex rector de la Universidad Metropolitana, Jaller Raad. Según esa sentencia, retardó sin justificación las órdenes de trasladar aquel expediente a Bogotá (RAYA).</p><p>El caso que Bravo llevó por Char sigue abierto. Al 29 de octubre de 2026, el SPOA lo registra activo, en etapa de indagación y asignado a la Fiscalía 5 Seccional de la Dirección Especializada contra la Corrupción en Barranquilla. Los delitos registrados son fraude procesal (artículo 453 del Código Penal) y prevaricato por acción (artículo 413).</p><p>Los hechos datan del 8 de mayo de 2008, durante la primera alcaldía de Char. Ese día se firmó la escritura 740, con la que, según la denuncia de Araujo, Char declaró baldíos 38 hectáreas privadas de La Loma y las adjudicó al Distrito para el proyecto urbanístico que desarrolló Edubar. Araujo representa a las familias que reclaman esos predios (RAYA).</p><p>En 2026, la Fiscalía pidió tres veces la preclusión por atipicidad, es decir, alegando que los hechos no constituyen delito. La última solicitud es del 18 de junio, semanas después de la primera vuelta presidencial. La decisión le corresponde a un juez, y el caso sigue activo.</p><p>La Fiscalía usó la misma causal el 6 de julio de 2026 en el caso de Elsa Noguera sobre el POT de La Loma, un día antes de que se anunciara su llegada al gobierno, según RAYA.</p><p>Cuestión Pública, en aras de la transparencia y el equilibrio informativo, le envió preguntas a Diana Bravo el 30 de octubre sobre su representación de Alejandro Char y sus posibles conflictos de interés en la SAE. Al cierre de esta edición no se ha recibido respuesta alguna.</p><p>La entrada La presidenta de la SAE fue abogada del Clan Char en un proceso penal que continúa abierto se publicó primero en Cuestión Pública.</p>",
-      "url": "https://cuestionpublica.com/la-presidenta-de-la-sae-fue-abogada-del-clan-char-en-un-proceso-penal-que-continua-abierto/",
-      "image": "https://cuestionpublica.com/wp-content/uploads/2026/10/Cover-SAE_11zon.jpg",
-      "publishedAt": "2026-10-30T21:48:49+00:00",
+      "id": "cuestionpublica-5deed56d61",
+      "title": "¿El presidente humilla y degrada a algunos capturados? Análisis",
+      "summary": "Es cierto, los operativos en que Abelardo De la Espriella, presidente de Colombia, sale increpando a detenidos con palabras como “bandido” o “payaso”, antes de que sean legalizadas sus capturas, que haya un juicio y por lo tanto, una sentencia condenatoria en firme, nos hacen preguntarnos porque no se están dando todas las plenas...",
+      "content": "<p>Es cierto, los operativos en que Abelardo De la Espriella, presidente de Colombia, sale increpando a detenidos con palabras como “bandido” o “payaso”, antes de que sean legalizadas sus capturas, que haya un juicio y por lo tanto, una sentencia condenatoria en firme, nos hacen preguntarnos porque no se están dando todas las plenas garantías a estos detenidos.</p><p>La entrada ¿El presidente humilla y degrada a algunos capturados? Análisis se publicó primero en Cuestión Pública.</p>",
+      "url": "https://cuestionpublica.com/el-presidente-humilla-y-degrada-a-algunos-capturados-analisis/",
+      "image": "https://cuestionpublica.com/wp-content/uploads/2026/11/Cover-aguzate-capturas-Abelardo_11zon.jpeg",
+      "publishedAt": "2026-10-31T01:39:48+00:00",
       "sourceId": "cuestionpublica",
       "sourceName": "Cuestión Pública",
       "sourceType": "Periodismo de Datos y Poder",
@@ -4612,49 +4627,9 @@
       "region": "latam",
       "country": "Colombia",
       "independent": true,
-      "category": "Investigación y Poder",
+      "category": "Derechos Humanos y Ciudadanía",
       "relevanceTier": "alta",
       "relevanceScore": 90,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "ciclismo-chile-a11749aea6",
-      "title": "Más de 2.200 ciclistas participarán en Valdivia en la primera edición de L’Étape Chile by Tour de France",
-      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Más de 2.200 ciclistas participarán en Valdivia en la primera edición de L’Étape Chile by Tour de France La Tercera</p>",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNnBMelpoV25pcFdXcHJHaWVzVDRWX21sYmwyMlZEdnF2b3h3U2QyaHpUWVFYdlk2OXU1a211VGJzV0NWRUJBY1FrMC1uckw2NlhGdkc4Unk3S2ZZck9rWURPUHBzaDZlZlFXUWJvNC1Ed1pFQ1FhZ1BwVG1xcjlxaUJpWVB1djAxRnlxVDd3NzROQ1RQZzFVLTg1ZWNVeG5HQk96aE5PckNQVGtzRmNDUmZiazdBMnotbHpxLWpoMm9MNkIwZGRNdG5wX09aMmdoeU1HUzd4aDI0eDhtTHQxNE9XRTPSAYYCQVVfeXFMUFNuaC1TTXJMOERGTm9CRmFISUZSd1VKMTlFcllPY21aVG9iempNQktEWXpMbDdxRzViWmJ5dU5oUVNIenpaVWxCSDVlb1Z0cjU5UmNta0pqSkhlMVh1WnBnb2tUU3VjZWxOcVdxeDMzenc2V3lRNDZXWldIdHkwVVVYVGUxRzg1dVVNUnM2ekV2MTU2RGUwOWVSSnI0VnJhTDlFb1VPTW1aQVlWVUhCcl9EY204dHRBZGhZYWRsUGo3ZFVmZTY0a3g3VW9TcmZXajVxbVlhajg4R0pfanhDOTlTTWV4cWdvaXZfaGpiY19rcVp2TGdGWjBBXy1QWHpFRm9weWY5Zw?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-30T20:46:57+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
-      "id": "cuestionpublica-8fbbebfa45",
-      "title": "El horror a plena vista",
-      "summary": "Hay delitos que ocurren a escondidas y hay delitos que, de alguna manera, hemos aprendido a esconder nosotros. La explotación sexual de niños, niñas y adolescentes pertenece a esa segunda categoría. La entrada El horror a plena vista se publicó primero en Cuestión Pública .",
-      "content": "<p>Hay delitos que ocurren a escondidas y hay delitos que, de alguna manera, hemos aprendido a esconder nosotros. La explotación sexual de niños, niñas y adolescentes pertenece a esa segunda categoría. No porque nadie sepa que existe, sino porque resulta más cómodo imaginar que sucede lejos, en lugares oscuros de internet, entre delincuentes anónimos, en algún rincón de la red al que una persona normal jamás llegaría. Aunque es una fantasía bastante tranquilizadora. También es falsa.</p><p>Las redes que encontramos funcionaban con una lógica casi empresarial. Una cuenta conduce a otra. Un espacio lleva a otro. Un grupo desaparece y poco después aparece uno nuevo. Un enlace es eliminado y otro ocupa su lugar. Algunas personas intentan captar usuarios, otras ofrecen material, otras cobran, otras amenazan. Y en medio de toda esa circulación hay algo que parece perderse deliberadamente, que detrás de cada archivo no hay un archivo, sino un niño. Parece una obviedad, pero quizá haga falta repetirla porque una de las formas más eficaces de deshumanizar a una víctima es convertirla en contenido.</p><p>Internet ha hecho algo particularmente perverso con esta violencia, la volvió reproducible. Un abuso puede ocurrir una vez, pero la imagen del abuso puede circular durante años. Una víctima puede haber salido de aquella situación y, sin embargo, aquello que le hicieron puede continuar pasando de una pantalla a otra. Se puede borrar una publicación, cerrar una cuenta, eliminar un enlace. Lo que no se puede hacer con la misma facilidad es borrar la circulación que ya ocurrió. La tecnología es extraordinariamente eficiente para multiplicar el daño y bastante menos eficiente para impedirlo.</p><p>Y aquí aparece Colombia. Un país que no puede decir que carece de leyes para enfrentar el problema. Existen normas que castigan la producción, distribución, comercialización, posesión y transmisión de material de explotación sexual de menores. En 2025 se aprobó además una ley destinada específicamente a promover entornos digitales seguros para niños y adolescentes, con obligaciones para el Estado, las familias y las empresas, y con la creación prevista de un sistema integral de monitoreo para detectar y prevenir riesgos como la explotación sexual en línea. Es decir, normas hay. Lo que la realidad obliga a preguntarnos es otra cosa, ¿qué tan rápido consiguen esas normas alcanzar un delito que cambia de forma cada vez que alguien intenta cerrarle una puerta?</p><p>Porque ahí está uno de los vacíos que más deberían preocuparnos. No necesariamente la ausencia absoluta de una norma, sino la distancia entre lo que la norma dice y lo que ocurre en la pantalla. El Congreso puede aprobar una ley, el Gobierno puede reglamentarla y las plataformas pueden anunciar mecanismos de protección. Pero mientras todos esos procesos ocurren, quienes producen, distribuyen o buscan este material pueden trasladarse a otro espacio, cambiar una palabra, crear otra cuenta o reconstruir una comunidad. El delito no necesita esperar una reglamentación. La burocracia sí.</p><p>Hay algo casi absurdo en esa desigualdad de velocidades. Una plataforma puede tardar segundos en recomendarle a una persona un video porque sabe qué le interesa, qué mira, cuánto tiempo permanece frente a la pantalla y qué probablemente verá después. Sin embargo, cuando se trata de detectar que detrás de una cuenta puede existir explotación sexual infantil, la respuesta parece necesitar denuncias, reportes, investigaciones, solicitudes de información y procedimientos que pueden atravesar distintas instituciones. La tecnología corre. La justicia camina.</p><p>Y entonces solemos hacer lo más sencillo, trasladar la responsabilidad a las familias. Hay que vigilar a los niños, decimos. Hay que revisarles el teléfono. Hay que enseñarles los peligros de internet. Hay que hablar con ellos. Todo eso es necesario, pero también es insuficiente. Porque resulta bastante cómodo pedirle a una madre o a un padre que controle cada rincón de internet mientras las empresas que construyeron esos espacios disponen de tecnologías capaces de conocer hasta nuestros hábitos de consumo más insignificantes. ¿De verdad la protección de un niño puede depender solamente de que su padre sepa qué aplicación está utilizando esa semana?</p><p>Los niños no construyeron estas plataformas. Tampoco diseñaron sus sistemas de recomendación, sus mecanismos de mensajería, sus herramientas de anonimato ni sus formas de moderación. Son los adultos quienes construimos este internet y quienes establecemos las reglas bajo las cuales funciona. Por eso resulta extraño que cada vez que aparece un nuevo riesgo digital la primera respuesta sea decirle al menor que tenga cuidado. Como si el niño fuera el responsable de sobrevivir en un territorio diseñado por adultos.</p><p>Lo más grave es que la explotación sexual infantil no existe solamente porque haya personas dispuestas a producirla. Existe porque hay personas dispuestas a consumirla. Hay una demanda. Hay dinero. Hay intercambio. Hay personas que pagan, personas que distribuyen, personas que buscan y personas que intentan conseguir nuevas víctimas. La pantalla permite que toda esa cadena pueda organizarse sin que sus integrantes tengan que encontrarse físicamente. Y esa distancia produce una ilusión particularmente peligrosa, la sensación de que lo que ocurre detrás de una pantalla no tiene una víctima delante.</p><p>Tiene una cara, aunque no la veamos. Tiene miedo, aunque no lo escuchemos. Tiene una familia, aunque no sepamos su nombre. Tiene una vida que continúa después de que alguien descarga, comparte o vende aquello que nunca debió convertirse en mercancía.</p><p>Quizá por eso resulta tan preocupante la manera en que estos comportamientos terminan normalizándose dentro de determinados espacios digitales. Primero se inventan palabras para no decir lo que realmente se está buscando. Después aparecen categorías para organizar aquello que no debería poder organizarse. Finalmente, el lenguaje consigue que una agresión parezca un producto. Y cuando la violencia empieza a parecer un producto, todo lo demás se vuelve más sencillo, ponerle precio, intercambiarla, almacenarla, venderla.</p><p>Ese es uno de los efectos más perversos de la pantalla, puede convertir una tragedia humana en un archivo sin rostro.</p><p>Por eso la discusión no puede limitarse a si una plataforma eliminó o no una publicación. Esa es una parte del problema, pero no todo el problema. La pregunta debería ser qué ocurre después. Qué pasa con quienes distribuyeron el contenido. Qué ocurre con quienes lo compraron. Cómo se identifica a quienes lo producen. Cómo se protege a las víctimas. Cómo se comparte información entre las instituciones. Cómo se actúa cuando las personas involucradas están en diferentes países. Cómo se persigue una red que puede cambiar de plataforma antes de que una investigación termine de identificarla.</p><p>Ahí es donde la discusión sobre los vacíos judiciales y digitales se vuelve realmente importante. No basta con tener un delito escrito en un código penal si la infraestructura del delito se transforma más rápido que la capacidad institucional para investigarlo. No basta con cerrar una cuenta si detrás de ella existen diez más. No basta con retirar un contenido si ya fue replicado. No basta con decir que hay mecanismos de denuncia si la víctima o su familia no saben dónde acudir o qué sucederá después de hacerlo.</p><p>Y tampoco basta con que cada nueva tragedia produzca una nueva promesa de regulación.</p><p>Colombia ha legislado. Ha creado obligaciones. Ha intentado fortalecer la protección digital de los menores. El problema es que una ley, por sí sola, no vigila una pantalla a las tres de la mañana. Una ley no identifica automáticamente a quien utiliza una identidad falsa para acercarse a un menor. Una ley no impide que un archivo vuelva a aparecer después de haber sido eliminado. Una ley tampoco consigue, por sí sola, que todas las instituciones trabajen con la misma información y a la misma velocidad.</p><p>Ese es el verdadero desafío, conseguir que la protección exista antes de la víctima y no únicamente después de ella.</p><p>Porque hasta ahora parece que tenemos una maquinaria diseñada para reaccionar. Alguien denuncia, entonces investigamos. Alguien descubre, entonces retiramos. Alguien es víctima, entonces buscamos al responsable. Y quizá deberíamos empezar a preguntarnos por qué aceptamos como normal que la protección llegue después del daño.</p><p>Mi investigación no descubrió todo. Ni siquiera estuvo cerca. Descubrió una pequeña muestra de un fenómeno que parece mucho más grande, una serie de puertas que conducían a otras puertas. Y eso debería ser suficiente para entender que el problema no desaparece cuando desaparece una cuenta. El problema existe mientras haya demanda, mientras haya personas dispuestas a pagar, mientras existan espacios que puedan utilizarse para captar víctimas y mientras la respuesta institucional llegue después de que el delito ya cambió de lugar.</p><p>Lo verdaderamente preocupante, entonces, no es que existan rincones oscuros en internet. Eso casi sería lo esperable. Lo preocupante es que algunos de esos rincones puedan abrirse en lugares que usamos todos los días y que, aun cuando son descubiertos, vuelvan a aparecer bajo otra forma.</p><p>Nos gusta decir que los niños son el futuro. Es una frase bonita, de esas que funcionan bien en discursos y campañas. Pero un niño no necesita ser el futuro para merecer protección. Necesita estar protegido ahora. En este momento. En la pantalla que tiene delante. En el teléfono que lleva en el bolsillo. En la plataforma que le promete entretenimiento. En el mensaje que recibe de alguien que no conoce.</p><p>Y ahí es donde la pregunta deja de ser tecnológica y se vuelve política, judicial y moral, si sabemos que estas redes existen, si sabemos cómo se desplazan y si sabemos que las víctimas son menores, ¿por qué seguimos llegando después?</p><p>Porque ese es el punto en el que esta historia deja de hablar solamente de internet y empieza a hablar de nosotros.</p><p>De un país que puede tener leyes y, aun así, tener víctimas. De plataformas que pueden tener reglas y, aun así, tener agujeros. De instituciones que pueden investigar y, aun así, llegar tarde. Y de una sociedad que dice proteger a los niños mientras todavía parece estar aprendiendo a protegerlos del mundo que nosotros mismos construimos para ellos.</p><p>El delito corre más rápido que la justicia. La pregunta, entonces, no debería ser si podemos alcanzarlo algún día. Debería ser por qué seguimos permitiéndole tanta ventaja.</p><p>*La Tribuna es el espacio de columnas de pensamiento de nuestros analistas y expertos en Cuestión Pública. Sus contenidos no comprometen al medio.</p><p>La entrada El horror a plena vista se publicó primero en Cuestión Pública.</p>",
-      "url": "https://cuestionpublica.com/el-horror-a-plena-vista/",
-      "image": "https://cuestionpublica.com/wp-content/uploads/2026/10/Maria-Navarro-2-e1793392576396.jpg",
-      "publishedAt": "2026-10-30T20:05:56+00:00",
-      "sourceId": "cuestionpublica",
-      "sourceName": "Cuestión Pública",
-      "sourceType": "Periodismo de Datos y Poder",
-      "sourceSite": "https://cuestionpublica.com",
-      "region": "latam",
-      "country": "Colombia",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -4678,6 +4653,26 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
+      "id": "cuestionpublica-61e28d591c",
+      "title": "La presidenta de la SAE fue abogada del Clan Char en un proceso penal que continúa abierto",
+      "summary": "Cuestión Pública encontró que, desde 2020, la actual presidenta de la SAE, Diana Bravo Vélez, fue la abogada de Alejandro Char en un proceso por fraude procesal y prevaricato que la Fiscalía ha intentado precluir tres veces este año. La entrada La presidenta de la SAE fue abogada del Clan Char en un proceso penal que continúa abierto...",
+      "content": "<p>Cuestión Pública encontró que, desde 2020, la actual presidenta de la SAE, Diana Bravo Vélez, fue la abogada de Alejandro Char en un proceso por fraude procesal y prevaricato que la Fiscalía ha intentado precluir tres veces este año.</p><p>La mujer que hoy administra los bienes incautados a los grupos al margen de la ley en Colombia fue la abogada de Alejandro Char, actual alcalde de Barranquilla y heredero del control del ‘Clan Char’, en un proceso penal que sigue abierto por medio de la firma De La Espriella Lawyers.</p><p>Diana Patricia Bravo Vélez llegó en agosto de 2026 a la presidencia de la Sociedad de Activos Especiales (SAE), nombrada por Abelardo De la Espriella, que hasta julio era su socio en De la Espriella Lawyers. En noviembre de 2020, Bravo firmó ante la Fiscalía de Barranquilla como «apoderada judicial del señor Alejandro Char Chaljub».</p><p>El expediente, con radicado 080016001257201600030, investiga a Char por fraude procesal y prevaricato en su primer periodo como alcalde de Barranquilla. Se trata de hechos que se remontan a 2008. Dieciocho años después, la Fiscalía lo mantiene activo y en indagación, aunque en 2026 pidió tres veces precluirlo. La última vez fue el 18 de junio, tres días antes de la segunda vuelta presidencial.</p><p>Mientras el expediente contra Alejandro Char dormía en la Fiscalía, la firma De La Espriella Lawyers que lo había defendido contrataba con su alcaldía. El 20 de febrero de 2026, 28 días después del contrato de $357 millones con la Alcaldía de Char, la Fiscalía pidió por primera vez precluir el proceso por atipicidad.</p><p>En un segundo intento, volvió a pedirlo el 15 de mayo, dos semanas antes de la primera vuelta presidencial. Ningún juez ha cerrado el caso.</p><p>El 7 de agosto, De la Espriella se posesionó como presidente y siete días después, el 14 de agosto, la Alcaldía de Barranquilla le adjudicó a la firma otro contrato directo, por $297,5 millones. El 19 de agosto, Diana Bravo, la abogada que sustituyó a De la Espriella durante el proceso penal contra Alejandro Char, fue nombrada presidenta de la Sociedad de Activos Especiales.</p><p>Antes de que Abelardo De la Espriella, el exsocio de Diana Bravo según su perfil de LinkedIn, entrara a la carrera presidencial, su firma ya contrataba recibiendo dineros públicos del Atlántico. Entre diciembre de 2024 y abril de 2025, De la Espriella Lawyers Enterprise firmó dos contratos por $642.896.000. El primero fue con la Gobernación del Atlántico, por $47,9 millones, en diciembre de 2024. El segundo, con la Alcaldía de Barranquilla de Alejandro Char, por $595 millones, el 11 de abril de 2025.</p><p>El comité del movimiento Defensores de la Patria, con el que De la Espriella se lanzó a la Presidencia, se inscribió el 16 de julio de 2025. Desde entonces, la firma sumó cuatro contratos más con las mismas dos entidades, por $854.500.000.</p><p>La Gobernación del Atlántico le adjudicó $100 millones en julio de 2025 y otros $100 millones en enero de 2026. La Alcaldía de Char le adjudicó $357 millones en enero de 2026, en plena campaña, y $297,5 millones el 14 de agosto de 2026, una semana después de la posesión presidencial. En total, la firma ha recibido $1.497.396.000 de ambas entidades desde diciembre de 2024, y el 57 % de ese dinero se contrató después de que su fundador se convirtiera en candidato.</p><p>Después de esta fecha, el SPOA no registra ninguna actividad investigativa hasta la primera solicitud de preclusión, en febrero de 2026. 23 ene2026ContratoAlcaldía de Barranquilla contrata a De la Espriella Lawyers$357.000.000Contrato CD-45-2026-5021, por contratación directa: defensa judicial y extrajudicial del Distrito de Barranquilla. Ver en SECOP 29 ene2026ContratoGobernación del Atlántico contrata a De la Espriella Lawyers$100.000.000Contrato 202602197, por contratación directa: apoyo a la Secretaría General en actuaciones jurídicas administrativas. Ver en SECOP 20 feb2026FiscalíaPrimera solicitud de preclusión por atipicidadEl SPOA registra una solicitud de preclusión por atipicidad del hecho investigado, es decir, por considerar que los hechos no constituyen delito. Llega 28 días después del contrato de $357 millones con la Alcaldía de Char. 15 may2026FiscalíaSegunda solicitud de preclusión por atipicidadSegunda anotación en el SPOA, dos semanas antes de la primera vuelta presidencial. 31 may2026PolíticaPrimera vuelta presidencialAbelardo de la Espriella, fundador de la firma, compite por la Presidencia con el movimiento Defensores de la Patria. 18 jun2026FiscalíaTercera solicitud de preclusión por atipicidadEs la última anotación del SPOA, tres días antes de la segunda vuelta presidencial (21 de junio). Ninguna decisión judicial aparece en el registro, y el caso sigue activo y en indagación. 7 ago2026PolíticaDe la Espriella se posesiona como presidenteEl abogado que fue apoderado de Alejandro Char llega a la Casa de Nariño. 14 ago2026ContratoAlcaldía de Barranquilla contrata de nuevo a la firma$297.500.000Contrato CD-45-2026-9146, por contratación directa, siete días después de la posesión presidencial: defensa judicial y extrajudicial del Distrito. Ver en SECOP 19 ago2026PolíticaDiana Bravo, exapoderada de Char, es nombrada presidenta de la SAEDe la Espriella la nombra con el Decreto 1255 de 2026. Bravo había recibido en 2020 la sustitución del poder de Char en este mismo proceso. Ver decreto Contratos de la firma en 2026$754.500.000 Valores reportados en SECOP. La coincidencia de fechas no implica una relación causal entre los contratos y las actuaciones judiciales. Cuestión Pública De ser abogada de clanes políticos a administrar bienes de grupos al margen de la ley Bravo fue fiscal antes de ser abogada de la firma. Entró a la Fiscalía en 2003 como investigadora judicial II en Cali y llegó a directora seccional de Fiscalías, primero en Valledupar y después en Barranquilla.</p><p>Antes había sido asesora jurídica del Ejército, abogada de control interno de la Alcaldía de Cali y abogada externa de la empresa Calitubos. Es especialista en Alta Gerencia y en Derecho Administrativo, y tiene una maestría en Administración (MBA).</p><p>En 2015 entró a De la Espriella Lawyers Enterprise como directora administrativa y jurídica. Fue socia de la firma hasta julio de 2026.</p><p>En la campaña presidencial formó parte del comité inscriptor del movimiento Defensores de la Patria, que recogió las firmas de la candidatura de De la Espriella. También manejó el dinero de la campaña.</p><p>El 19 de agosto de 2026, con el Decreto 1255, De la Espriella aceptó la renuncia de Amelia Pérez a la SAE y nombró a Bravo en su lugar.</p><p>Abelardo de la EspriellaPresidente SAEBienes incautados a gruposal margen de la ley De la EspriellaLawyers Enterprise Clan CharAlcaldía de Barranquilla Diana BravoPresidenta de la SAE Socia y tesorera Su abogada Apoyo electoral $1.249 M en contratos Predios del narcoparamilitar«Comandante Barbie» Con De la EspriellaFue su apoderada sustituta, su socia y la tesorera de su campaña. Hoy es su funcionaria. Con CharLo representó ante la Fiscalía de Barranquilla, la misma ciudad donde antes dirigió la seccional de Fiscalías. RAYA reporta que De la Espriella ha sido abogado de la familia Char y que Alejandro Char ha sido su principal cliente en ese clan (RAYA). Char con el gobiernoLa casa Char respaldó la candidatura de De la Espriella, y su aliada Elsa Noguera es ministra de Transporte (Cambio). Char con la firmaLa Alcaldía de Barranquilla le adjudicó a De la Espriella Lawyers tres contratos directos por $1.249,5 millones en 2025 y 2026. El último se firmó una semana después de la posesión presidencial. La SAE con el presidenteVorágine reportó que varios predios vecinos del terreno de De la Espriella en el Cesar, propiedad de alias Comandante Barbie o de sus familiares, estuvieron en poder de la SAE. Cuestión Pública Los documentos que incluyen a Alejandro Char El poder (agosto de 2020). En papel membretado de De la Espriella Lawyers Enterprise, Abelardo de la Espriella se dirige al fiscal 56 seccional de Patrimonio Económico de Barranquilla, Gustavo Orozco. Se presenta como apoderado de Alejandro Char Chaljub y sustituye ese poder a Diana Bravo, con facultades para recibir, desistir, transigir, conciliar y recurrir, entre otras funciones. En el asunto figuran el denunciante, Fabián Araujo Polo; el denunciado, Char; y el radicado 080016001257201600030.</p><p>La suplencia (noviembre de 2020). Bravo firma «en mi calidad de Apoderada Judicial del señor Alejandro Char Chaljub» y designa como apoderada suplente a otra abogada de la firma. Las dos usan correos del dominio lawyersenterprise.com.</p><p>El correo del fiscal (11 de noviembre de 2020). A las 10:33 a. m., Bravo radica la sustitución y la suplencia en un buzón de la Fiscalía. El mensaje se reenvía ese día a Gustavo Adolfo Orozco Pertuz. A las 5:27 p. m., Orozco responde a las dos abogadas: acusa recibo y les da su correo institucional y el de su asistente. Firma como F-56 Seccional, Unidad de Patrimonio Económico.</p><p>Orozco Pertuz es el fiscal que, según Araujo, nunca acusó a Char. RAYA lo describe como un fiscal conocido en Barranquilla por su cercanía a la familia Char. También reporta que paga una condena de tres años por prevaricato por omisión, confirmada por la Corte Suprema, en otro caso: el del ex rector de la Universidad Metropolitana, Jaller Raad. Según esa sentencia, retardó sin justificación las órdenes de trasladar aquel expediente a Bogotá (RAYA).</p><p>El caso que Bravo llevó por Char sigue abierto. Al 29 de octubre de 2026, el SPOA lo registra activo, en etapa de indagación y asignado a la Fiscalía 5 Seccional de la Dirección Especializada contra la Corrupción en Barranquilla. Los delitos registrados son fraude procesal (artículo 453 del Código Penal) y prevaricato por acción (artículo 413).</p><p>Los hechos datan del 8 de mayo de 2008, durante la primera alcaldía de Char. Ese día se firmó la escritura 740, con la que, según la denuncia de Araujo, Char declaró baldíos 38 hectáreas privadas de La Loma y las adjudicó al Distrito para el proyecto urbanístico que desarrolló Edubar. Araujo representa a las familias que reclaman esos predios (RAYA).</p><p>En 2026, la Fiscalía pidió tres veces la preclusión por atipicidad, es decir, alegando que los hechos no constituyen delito. La última solicitud es del 18 de junio, semanas después de la primera vuelta presidencial. La decisión le corresponde a un juez, y el caso sigue activo.</p><p>La Fiscalía usó la misma causal el 6 de julio de 2026 en el caso de Elsa Noguera sobre el POT de La Loma, un día antes de que se anunciara su llegada al gobierno, según RAYA.</p><p>Cuestión Pública, en aras de la transparencia y el equilibrio informativo, le envió preguntas a Diana Bravo el 30 de octubre sobre su representación de Alejandro Char y sus posibles conflictos de interés en la SAE. Al cierre de esta edición no se ha recibido respuesta alguna.</p><p>La entrada La presidenta de la SAE fue abogada del Clan Char en un proceso penal que continúa abierto se publicó primero en Cuestión Pública.</p>",
+      "url": "https://cuestionpublica.com/la-presidenta-de-la-sae-fue-abogada-del-clan-char-en-un-proceso-penal-que-continua-abierto/",
+      "image": "https://cuestionpublica.com/wp-content/uploads/2026/10/Cover-SAE_11zon.jpg",
+      "publishedAt": "2026-10-30T21:48:49+00:00",
+      "sourceId": "cuestionpublica",
+      "sourceName": "Cuestión Pública",
+      "sourceType": "Periodismo de Datos y Poder",
+      "sourceSite": "https://cuestionpublica.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "laderasur-22f30ef485",
       "title": "Podcast «Inspirados por la Naturaleza 8», capítulo 3: Stefan Gelcich, entre intermareales y ecología costera",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4696,6 +4691,26 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 80,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "cuestionpublica-8fbbebfa45",
+      "title": "El horror a plena vista",
+      "summary": "Hay delitos que ocurren a escondidas y hay delitos que, de alguna manera, hemos aprendido a esconder nosotros. La explotación sexual de niños, niñas y adolescentes pertenece a esa segunda categoría. La entrada El horror a plena vista se publicó primero en Cuestión Pública .",
+      "content": "<p>Hay delitos que ocurren a escondidas y hay delitos que, de alguna manera, hemos aprendido a esconder nosotros. La explotación sexual de niños, niñas y adolescentes pertenece a esa segunda categoría. No porque nadie sepa que existe, sino porque resulta más cómodo imaginar que sucede lejos, en lugares oscuros de internet, entre delincuentes anónimos, en algún rincón de la red al que una persona normal jamás llegaría. Aunque es una fantasía bastante tranquilizadora. También es falsa.</p><p>Las redes que encontramos funcionaban con una lógica casi empresarial. Una cuenta conduce a otra. Un espacio lleva a otro. Un grupo desaparece y poco después aparece uno nuevo. Un enlace es eliminado y otro ocupa su lugar. Algunas personas intentan captar usuarios, otras ofrecen material, otras cobran, otras amenazan. Y en medio de toda esa circulación hay algo que parece perderse deliberadamente, que detrás de cada archivo no hay un archivo, sino un niño. Parece una obviedad, pero quizá haga falta repetirla porque una de las formas más eficaces de deshumanizar a una víctima es convertirla en contenido.</p><p>Internet ha hecho algo particularmente perverso con esta violencia, la volvió reproducible. Un abuso puede ocurrir una vez, pero la imagen del abuso puede circular durante años. Una víctima puede haber salido de aquella situación y, sin embargo, aquello que le hicieron puede continuar pasando de una pantalla a otra. Se puede borrar una publicación, cerrar una cuenta, eliminar un enlace. Lo que no se puede hacer con la misma facilidad es borrar la circulación que ya ocurrió. La tecnología es extraordinariamente eficiente para multiplicar el daño y bastante menos eficiente para impedirlo.</p><p>Y aquí aparece Colombia. Un país que no puede decir que carece de leyes para enfrentar el problema. Existen normas que castigan la producción, distribución, comercialización, posesión y transmisión de material de explotación sexual de menores. En 2025 se aprobó además una ley destinada específicamente a promover entornos digitales seguros para niños y adolescentes, con obligaciones para el Estado, las familias y las empresas, y con la creación prevista de un sistema integral de monitoreo para detectar y prevenir riesgos como la explotación sexual en línea. Es decir, normas hay. Lo que la realidad obliga a preguntarnos es otra cosa, ¿qué tan rápido consiguen esas normas alcanzar un delito que cambia de forma cada vez que alguien intenta cerrarle una puerta?</p><p>Porque ahí está uno de los vacíos que más deberían preocuparnos. No necesariamente la ausencia absoluta de una norma, sino la distancia entre lo que la norma dice y lo que ocurre en la pantalla. El Congreso puede aprobar una ley, el Gobierno puede reglamentarla y las plataformas pueden anunciar mecanismos de protección. Pero mientras todos esos procesos ocurren, quienes producen, distribuyen o buscan este material pueden trasladarse a otro espacio, cambiar una palabra, crear otra cuenta o reconstruir una comunidad. El delito no necesita esperar una reglamentación. La burocracia sí.</p><p>Hay algo casi absurdo en esa desigualdad de velocidades. Una plataforma puede tardar segundos en recomendarle a una persona un video porque sabe qué le interesa, qué mira, cuánto tiempo permanece frente a la pantalla y qué probablemente verá después. Sin embargo, cuando se trata de detectar que detrás de una cuenta puede existir explotación sexual infantil, la respuesta parece necesitar denuncias, reportes, investigaciones, solicitudes de información y procedimientos que pueden atravesar distintas instituciones. La tecnología corre. La justicia camina.</p><p>Y entonces solemos hacer lo más sencillo, trasladar la responsabilidad a las familias. Hay que vigilar a los niños, decimos. Hay que revisarles el teléfono. Hay que enseñarles los peligros de internet. Hay que hablar con ellos. Todo eso es necesario, pero también es insuficiente. Porque resulta bastante cómodo pedirle a una madre o a un padre que controle cada rincón de internet mientras las empresas que construyeron esos espacios disponen de tecnologías capaces de conocer hasta nuestros hábitos de consumo más insignificantes. ¿De verdad la protección de un niño puede depender solamente de que su padre sepa qué aplicación está utilizando esa semana?</p><p>Los niños no construyeron estas plataformas. Tampoco diseñaron sus sistemas de recomendación, sus mecanismos de mensajería, sus herramientas de anonimato ni sus formas de moderación. Son los adultos quienes construimos este internet y quienes establecemos las reglas bajo las cuales funciona. Por eso resulta extraño que cada vez que aparece un nuevo riesgo digital la primera respuesta sea decirle al menor que tenga cuidado. Como si el niño fuera el responsable de sobrevivir en un territorio diseñado por adultos.</p><p>Lo más grave es que la explotación sexual infantil no existe solamente porque haya personas dispuestas a producirla. Existe porque hay personas dispuestas a consumirla. Hay una demanda. Hay dinero. Hay intercambio. Hay personas que pagan, personas que distribuyen, personas que buscan y personas que intentan conseguir nuevas víctimas. La pantalla permite que toda esa cadena pueda organizarse sin que sus integrantes tengan que encontrarse físicamente. Y esa distancia produce una ilusión particularmente peligrosa, la sensación de que lo que ocurre detrás de una pantalla no tiene una víctima delante.</p><p>Tiene una cara, aunque no la veamos. Tiene miedo, aunque no lo escuchemos. Tiene una familia, aunque no sepamos su nombre. Tiene una vida que continúa después de que alguien descarga, comparte o vende aquello que nunca debió convertirse en mercancía.</p><p>Quizá por eso resulta tan preocupante la manera en que estos comportamientos terminan normalizándose dentro de determinados espacios digitales. Primero se inventan palabras para no decir lo que realmente se está buscando. Después aparecen categorías para organizar aquello que no debería poder organizarse. Finalmente, el lenguaje consigue que una agresión parezca un producto. Y cuando la violencia empieza a parecer un producto, todo lo demás se vuelve más sencillo, ponerle precio, intercambiarla, almacenarla, venderla.</p><p>Ese es uno de los efectos más perversos de la pantalla, puede convertir una tragedia humana en un archivo sin rostro.</p><p>Por eso la discusión no puede limitarse a si una plataforma eliminó o no una publicación. Esa es una parte del problema, pero no todo el problema. La pregunta debería ser qué ocurre después. Qué pasa con quienes distribuyeron el contenido. Qué ocurre con quienes lo compraron. Cómo se identifica a quienes lo producen. Cómo se protege a las víctimas. Cómo se comparte información entre las instituciones. Cómo se actúa cuando las personas involucradas están en diferentes países. Cómo se persigue una red que puede cambiar de plataforma antes de que una investigación termine de identificarla.</p><p>Ahí es donde la discusión sobre los vacíos judiciales y digitales se vuelve realmente importante. No basta con tener un delito escrito en un código penal si la infraestructura del delito se transforma más rápido que la capacidad institucional para investigarlo. No basta con cerrar una cuenta si detrás de ella existen diez más. No basta con retirar un contenido si ya fue replicado. No basta con decir que hay mecanismos de denuncia si la víctima o su familia no saben dónde acudir o qué sucederá después de hacerlo.</p><p>Y tampoco basta con que cada nueva tragedia produzca una nueva promesa de regulación.</p><p>Colombia ha legislado. Ha creado obligaciones. Ha intentado fortalecer la protección digital de los menores. El problema es que una ley, por sí sola, no vigila una pantalla a las tres de la mañana. Una ley no identifica automáticamente a quien utiliza una identidad falsa para acercarse a un menor. Una ley no impide que un archivo vuelva a aparecer después de haber sido eliminado. Una ley tampoco consigue, por sí sola, que todas las instituciones trabajen con la misma información y a la misma velocidad.</p><p>Ese es el verdadero desafío, conseguir que la protección exista antes de la víctima y no únicamente después de ella.</p><p>Porque hasta ahora parece que tenemos una maquinaria diseñada para reaccionar. Alguien denuncia, entonces investigamos. Alguien descubre, entonces retiramos. Alguien es víctima, entonces buscamos al responsable. Y quizá deberíamos empezar a preguntarnos por qué aceptamos como normal que la protección llegue después del daño.</p><p>Mi investigación no descubrió todo. Ni siquiera estuvo cerca. Descubrió una pequeña muestra de un fenómeno que parece mucho más grande, una serie de puertas que conducían a otras puertas. Y eso debería ser suficiente para entender que el problema no desaparece cuando desaparece una cuenta. El problema existe mientras haya demanda, mientras haya personas dispuestas a pagar, mientras existan espacios que puedan utilizarse para captar víctimas y mientras la respuesta institucional llegue después de que el delito ya cambió de lugar.</p><p>Lo verdaderamente preocupante, entonces, no es que existan rincones oscuros en internet. Eso casi sería lo esperable. Lo preocupante es que algunos de esos rincones puedan abrirse en lugares que usamos todos los días y que, aun cuando son descubiertos, vuelvan a aparecer bajo otra forma.</p><p>Nos gusta decir que los niños son el futuro. Es una frase bonita, de esas que funcionan bien en discursos y campañas. Pero un niño no necesita ser el futuro para merecer protección. Necesita estar protegido ahora. En este momento. En la pantalla que tiene delante. En el teléfono que lleva en el bolsillo. En la plataforma que le promete entretenimiento. En el mensaje que recibe de alguien que no conoce.</p><p>Y ahí es donde la pregunta deja de ser tecnológica y se vuelve política, judicial y moral, si sabemos que estas redes existen, si sabemos cómo se desplazan y si sabemos que las víctimas son menores, ¿por qué seguimos llegando después?</p><p>Porque ese es el punto en el que esta historia deja de hablar solamente de internet y empieza a hablar de nosotros.</p><p>De un país que puede tener leyes y, aun así, tener víctimas. De plataformas que pueden tener reglas y, aun así, tener agujeros. De instituciones que pueden investigar y, aun así, llegar tarde. Y de una sociedad que dice proteger a los niños mientras todavía parece estar aprendiendo a protegerlos del mundo que nosotros mismos construimos para ellos.</p><p>El delito corre más rápido que la justicia. La pregunta, entonces, no debería ser si podemos alcanzarlo algún día. Debería ser por qué seguimos permitiéndole tanta ventaja.</p><p>*La Tribuna es el espacio de columnas de pensamiento de nuestros analistas y expertos en Cuestión Pública. Sus contenidos no comprometen al medio.</p><p>La entrada El horror a plena vista se publicó primero en Cuestión Pública.</p>",
+      "url": "https://cuestionpublica.com/el-horror-a-plena-vista/",
+      "image": "https://cuestionpublica.com/wp-content/uploads/2026/10/Maria-Navarro-2-e1793392576396.jpg",
+      "publishedAt": "2026-10-30T20:05:56+00:00",
+      "sourceId": "cuestionpublica",
+      "sourceName": "Cuestión Pública",
+      "sourceType": "Periodismo de Datos y Poder",
+      "sourceSite": "https://cuestionpublica.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "resumen-067a282fa2",
@@ -5178,24 +5193,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cuestionpublica-09e4c29810",
-      "title": "¿Preocupante deriva autoritaria de Abelardo? Habla Rafael Nieto",
-      "summary": "Una columna publicada por el senador del Centro Democrático, Rafael Nieto, el pasado 4 de octubre en el Diario del Magdalena, dejó plasmadas varias de las preocupaciones del parlamentario sobre el gobierno de Abelardo De la Espriella. La entrada ¿Preocupante deriva autoritaria de Abelardo? Habla Rafael Nieto se publicó primero en...",
-      "content": "<p>Una columna publicada por el senador del Centro Democrático, Rafael Nieto, el pasado 4 de octubre en el Diario del Magdalena, dejó plasmadas varias de las preocupaciones del parlamentario sobre el gobierno de Abelardo De la Espriella. Hoy en Agúzate con Marulo hablaremos con Nieto sobre el nuevo gobierno de Colombia, y como lo ha visto en estos casi tres meses en la Casa de Nariño.</p><p>La entrada ¿Preocupante deriva autoritaria de Abelardo? Habla Rafael Nieto se publicó primero en Cuestión Pública.</p>",
-      "url": "https://cuestionpublica.com/preocupante-deriva-autoritaria-de-abelardo-habla-rafael-nieto/",
-      "image": "https://cuestionpublica.com/wp-content/uploads/2026/10/Cover-aguzate-Abelardo-Nieto_11zon.jpeg",
-      "publishedAt": "2026-10-27T00:30:50+00:00",
-      "sourceId": "cuestionpublica",
-      "sourceName": "Cuestión Pública",
-      "sourceType": "Periodismo de Datos y Poder",
-      "sourceSite": "https://cuestionpublica.com",
+      "id": "piedepagina-d037a929c9",
+      "title": "¡Ay ay AI IA!",
+      "summary": "Mientras cada día van saliendo más libros en que se detecta el uso de la inteligencia artificial, Anne Carson —la más reciente Premio Nobel de Literatura— hablaba en una entrevista sobre el placer que le produce el escribir a mano. Hay una satisfacción inmediata al momento de hacerlo que es inigualable, que no se puede comparar The...",
+      "content": "<p>Mientras cada día van saliendo más libros en que se detecta el uso de la inteligencia artificial, Anne Carson —la más reciente Premio Nobel de Literatura— hablaba en una entrevista sobre el placer que le produce el escribir a mano. Hay una satisfacción inmediata al momento de hacerlo que es inigualable, que no se puede comparar</p><p>Por Évolet Aceves / X: @EvoletAceves</p><p>¡Ay ay AI IA! Ahora hasta los premios literarios tienen sospechas del uso de inteligencia artificial. No voy a abogar ni en pro ni en contra de quien escribió dicho libro premiado recientemente, ni de la editorial ni del jurado. Tampoco voy a leer algo nada más para tratar de formarme un juicio para demostrar o tratar de probar o desaprobar lo que dice la inteligencia artificial. No es ni la primera vez ni será la última en que este tipo de controversias aparezcan. Y desgraciadamente cada vez se vuelven aún más comunes.</p><p>También me pregunto, ¿ahora habrá que confiar en verificadores cibernéticos para juzgar a los libros? ¿Habremos de estar pasando cada libro que leamos por verificadores y filtros digitales para ver si fue escrito por una persona o no? ¿En dónde queda el juicio literario si ahora todo estará puesto en duda por verificadores de este tipo? Me parece un poco absurdo tener que llegar a tomar esas medidas. ¿Quién tiene la certeza de que estos verificadores son 100% efectivos; quien tiene la certeza contraria? ¿Qué valor tiene el veredicto de un verificador digital?</p><p>En meses recientes se ha sabido de un buen manojo de libros, publicados en distintas editoriales alrededor del mundo, que están empleando la inteligencia artificial, en mayor o menor —o descarada— medida, para fines creativos y generalmente lucrativos, en inglés, en francés, en japonés, en español, y seguramente en muchos más idiomas. Pero esto no solamente sucede en la literatura, se extiende básicamente a todas las disciplinas, artísticas y no.</p><p>Leía recientemente en algún artículo periodístico que una buena mayoría de los libros autopublicados en Amazon suelen tener una gran cantidad de contenido escrito con inteligencia artificial, lo cual, tristemente, no me sorprende.</p><p>Noto con cierta gracia el que este asunto se esté convirtiendo en una muy buena riña en redes sociales. Tengo la impresión de que en el ámbito literario hay una enorme competencia por ver quién escribe más al natural. Ya no falta mucho para que a alguien se le ocurra hacer un performance escribiendo desnudo junto a un árbol y con un bolígrafo biodegradable o algo por el estilo —con la respectiva crítica de Avelina Lésper, naturalmente.</p><p>Se discute en redes quién es el bueno y quién es el malo en torno a este premio que ya está cancelando sus presentaciones. Escritores y escritoras por igual se empeñan en demostrar quién escribe con menos inteligencia artificial. También hay quienes dicen que su escritura nunca podrá ser imitada por tratarse de una lengua indígena.</p><p>Y hay quien hasta descalifica al jurado de dicho premio por supuestamente no darse cuenta de que el libro está escrito con inteligencia artificial, pero de nuevo, ¿qué certezas tenemos, si ésta conclusión está fundamentada en otra inteligencia artificial? El jurado no tiene culpa de no ser expertas en informática y tecnologías y demás triquiñuelas que realmente son muy recientes. ¿Ahora los jurados de concursos literarios deberán estar integrados por ingenieras en informática y mostrar acreditaciones suficientes como para ser testigos de trampas tecnológicas? Yo creo que las integrantes del jurado de este concurso del que se está hablando leyeron la obra partiendo del supuesto de que quienes participaron en dicho concurso aceptaban las reglas y condiciones del mismo, el cual incluye el no utilizar ni parcialmente la inteligencia artificial.</p><p>Repito, no pretendo ponerme ni de un lado ni del otro. La simple idea de hacerlo ya me parece de inicio un poco ridícula, ¿desde cuándo comenzó la literatura a medirse en parámetros de este calibre artificial? Me parece tristísimo.</p><p>Creo que el uso de la inteligencia artificial es producto de un mundo regido por el expreso consumismo, pero creo también que no siempre es así. Cuando pienso en el uso de esta herramienta recuerdo el comentario de una alumna que tuve el semestre pasado en la Universidad de Nueva York, quien, durante un debate que dirigí en el salón de clases sobre sus posturas en torno al uso de la inteligencia artificial —ella se encontraba en el equipo que estaba a favor del uso de esta herramienta—, y su comentario hasta la fecha me resulta igual de válido y continúa resonándome.</p><p>Su comentario fue algo así como —parafraseo—: “Yo estoy de acuerdo con que se use la inteligencia artificial, siempre y cuando haya una razón justificable para hacerlo. Por ejemplo, la falta de recursos económicos me parece una razón suficientemente justificable: hay quienes no cuentan con los recursos económicos para solventar una necesidad apremiante, emergente, una que incluso puede poner en riesgo la vida o la integridad de una o varias personas”.</p><p>Me parece completamente aceptable su comentario, y sin duda la respaldo. Hay situaciones de las que a veces no nos percatamos por contar con algún tipo de privilegio que nos polariza hacia el uso definitivo de esta herramienta: o sí o no. Pero su opinión me pareció profundamente valiosa por su empatía al expresar su punto de vista. Aunque en su opinión haya utilizado un asunto bastante subjetivo, como lo es “una razón justificable”, ¿qué tan justificable es una razón para alguien? Sin duda depende mucho de las circunstancias de quien se lo plantee.</p><p>Lo que puedo decir es que, al menos para cuestiones creativas, me parece incluso contraproducente. Cuando se utiliza para fines creativos generados como un producto final y definitivo y cuya creación a su vez se adjudica a una persona y no a la inteligencia artificial, es ahí cuando me parece profundamente tramposo, inválido y hueco. Enfocándolo hacia la literatura, a mi parecer es algo que no merece la pena ser leído porque, al menos a mí como lectora, me deja una sensación de vacío, de estar leyendo algo que nadie jamás escribió, que detrás de ese texto en particular no se tomó el tiempo de crearlo con sus propias manos, o al menos no a conciencia, y que tampoco hubo momentos de reflexión como los que se tiene al escribir una obra literaria, y tampoco hubo esos minutos dedicados a la reflexión, porque mejor se decidió emplear la tecnología para crear un producto final hecho básicamente en piloto automático.</p><p>Y lo que me parece muy desafortunado es también el que se confíe en el resultado que un verificador de uso de inteligencia artificial, entrenado con patrones digitales, se le esté dando un peso tan definitorio como lo puede ser la carrera de un escritor. Posibilidad de error, la hay. Posibilidad de acierto, también. Lo que sobra es sólo el juicio y la inteligencia humana.</p><p>En casos recientes se supo de un libro académico que —qué barbaridad—, se fue directito a la imprenta y así salió a la venta, con una frase que decía hasta abajo en una de sus páginas: “Si quieres ahora te lo separo en subtítulos más didácticos para tu libro…” ¡Ay ay AI IA! No queda más que imaginarse a los estudiosos autores pensando cómo plantear la pregunta para que les quedara más didáctico el asunto.</p><p>En contraparte, recientemente escuchaba una entrevista a Anne Carson, la más reciente Premio Nobel de Literatura que fue dada a conocer hace algunas semanas, escritora primordialmente de poesía, aunque también de ensayo. En dicha entrevista habló sobre el placer que le produce el escribir a mano, le encantaba y le encanta escribir a mano, pero ella padece de Parkinson, la enfermedad neurológica que produce temblor principalmente en las manos, su escritura, dice, se volvió vergonzosa para ella misma.</p><p>Mencionó que comenzó a tomar clases de box por recomendación de su médico, pues favorece el pulso de las personas con este padecimiento. Y mientras la escuchaba me sentí sumamente identificada cuando describía el placer de escribir a mano, de ver su caligrafía escrita con su mano a través de la tinta. Hay una satisfacción inmediata al momento de hacerlo que es inigualable, que no se puede comparar. Pienso en la idea de adorar escribir a mano y poco a poco dejar de reconocerse en su propia letra.</p><p>Y habrá a quien le parezca una absurdez, pero realmente al escribir a mano hay todo un proceso mental que sucede a nivel psicológico, neuronal y hasta emocional compacto ahí, en la escritura a mano. Me hace pensar no sólo en mi escritura sino también en la de gente que vivió en el pasado, especialmente en los escritores que escribían sus libros enteros a mano y luego los transcribían a máquina, como es el caso de tantos y tantos escritores que siguieron ese método durante el siglo pasado y todavía en éste. Pero también pienso en la escritura a mano de quienes dejaron registros escritos, listas de despensa, por ejemplo, entre otros escritos cotidianos. Recuerdo la escritura de mi mamá, de mi abuelita, son de las caligrafías más bonitas que he visto. Ambas me han hablado, en diferentes momentos, del placer y la satisfacción que a ellas también les produce el escribir a mano.</p><p>Al pensar en autores de mi interés que ya no viven, tampoco puedo dejar de sentir cierta frustración porque, de haber tenido en su momento herramientas más eficientes como una computadora, quizá los escritores del siglo pasado nos hubieran deleitado con muchos más libros de su autoría. Pero también creo que no fue necesario.</p><p>Quizá si hubieran vivido en nuestros tiempos no hubieran escrito las maravillas que escribieron, porque de lo que estamos seguros es que hoy la inteligencia humana está siendo arrebatada desfachatadamente, y carcomida, por quienes hacen uso de ella de formas lamentables disfrazadas de creativas. Y esa no necesariamente es culpa de la tecnología —esa seguirá avanzando por el resto de los días—, sino más bien de quien hace un uso con fines premeditadamente antiéticos, y habría que preguntarse si también se cae en un error al otorgarle el albedrío del juicio a un ente digital, inánime.</p><p>The post ¡Ay ay AI IA! appeared first on Pie de Página.</p>",
+      "url": "https://piedepagina.mx/ay-ay-ai-ia/",
+      "image": "https://piedepagina.mx/wp-content/uploads/2022/07/Evolet_columna_jardin_de_espejos.jpeg",
+      "publishedAt": "2026-10-25T06:08:14+00:00",
+      "sourceId": "piedepagina",
+      "sourceName": "Pie de Página",
+      "sourceType": "Derechos Humanos y Territorio",
+      "sourceSite": "https://piedepagina.mx",
       "region": "latam",
-      "country": "Colombia",
+      "country": "México",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 95,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "anfibia-e560be6a25",
@@ -5216,26 +5231,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "piedepagina-d037a929c9",
-      "title": "¡Ay ay AI IA!",
-      "summary": "Mientras cada día van saliendo más libros en que se detecta el uso de la inteligencia artificial, Anne Carson —la más reciente Premio Nobel de Literatura— hablaba en una entrevista sobre el placer que le produce el escribir a mano. Hay una satisfacción inmediata al momento de hacerlo que es inigualable, que no se puede comparar The...",
-      "content": "<p>Mientras cada día van saliendo más libros en que se detecta el uso de la inteligencia artificial, Anne Carson —la más reciente Premio Nobel de Literatura— hablaba en una entrevista sobre el placer que le produce el escribir a mano. Hay una satisfacción inmediata al momento de hacerlo que es inigualable, que no se puede comparar</p><p>Por Évolet Aceves / X: @EvoletAceves</p><p>¡Ay ay AI IA! Ahora hasta los premios literarios tienen sospechas del uso de inteligencia artificial. No voy a abogar ni en pro ni en contra de quien escribió dicho libro premiado recientemente, ni de la editorial ni del jurado. Tampoco voy a leer algo nada más para tratar de formarme un juicio para demostrar o tratar de probar o desaprobar lo que dice la inteligencia artificial. No es ni la primera vez ni será la última en que este tipo de controversias aparezcan. Y desgraciadamente cada vez se vuelven aún más comunes.</p><p>También me pregunto, ¿ahora habrá que confiar en verificadores cibernéticos para juzgar a los libros? ¿Habremos de estar pasando cada libro que leamos por verificadores y filtros digitales para ver si fue escrito por una persona o no? ¿En dónde queda el juicio literario si ahora todo estará puesto en duda por verificadores de este tipo? Me parece un poco absurdo tener que llegar a tomar esas medidas. ¿Quién tiene la certeza de que estos verificadores son 100% efectivos; quien tiene la certeza contraria? ¿Qué valor tiene el veredicto de un verificador digital?</p><p>En meses recientes se ha sabido de un buen manojo de libros, publicados en distintas editoriales alrededor del mundo, que están empleando la inteligencia artificial, en mayor o menor —o descarada— medida, para fines creativos y generalmente lucrativos, en inglés, en francés, en japonés, en español, y seguramente en muchos más idiomas. Pero esto no solamente sucede en la literatura, se extiende básicamente a todas las disciplinas, artísticas y no.</p><p>Leía recientemente en algún artículo periodístico que una buena mayoría de los libros autopublicados en Amazon suelen tener una gran cantidad de contenido escrito con inteligencia artificial, lo cual, tristemente, no me sorprende.</p><p>Noto con cierta gracia el que este asunto se esté convirtiendo en una muy buena riña en redes sociales. Tengo la impresión de que en el ámbito literario hay una enorme competencia por ver quién escribe más al natural. Ya no falta mucho para que a alguien se le ocurra hacer un performance escribiendo desnudo junto a un árbol y con un bolígrafo biodegradable o algo por el estilo —con la respectiva crítica de Avelina Lésper, naturalmente.</p><p>Se discute en redes quién es el bueno y quién es el malo en torno a este premio que ya está cancelando sus presentaciones. Escritores y escritoras por igual se empeñan en demostrar quién escribe con menos inteligencia artificial. También hay quienes dicen que su escritura nunca podrá ser imitada por tratarse de una lengua indígena.</p><p>Y hay quien hasta descalifica al jurado de dicho premio por supuestamente no darse cuenta de que el libro está escrito con inteligencia artificial, pero de nuevo, ¿qué certezas tenemos, si ésta conclusión está fundamentada en otra inteligencia artificial? El jurado no tiene culpa de no ser expertas en informática y tecnologías y demás triquiñuelas que realmente son muy recientes. ¿Ahora los jurados de concursos literarios deberán estar integrados por ingenieras en informática y mostrar acreditaciones suficientes como para ser testigos de trampas tecnológicas? Yo creo que las integrantes del jurado de este concurso del que se está hablando leyeron la obra partiendo del supuesto de que quienes participaron en dicho concurso aceptaban las reglas y condiciones del mismo, el cual incluye el no utilizar ni parcialmente la inteligencia artificial.</p><p>Repito, no pretendo ponerme ni de un lado ni del otro. La simple idea de hacerlo ya me parece de inicio un poco ridícula, ¿desde cuándo comenzó la literatura a medirse en parámetros de este calibre artificial? Me parece tristísimo.</p><p>Creo que el uso de la inteligencia artificial es producto de un mundo regido por el expreso consumismo, pero creo también que no siempre es así. Cuando pienso en el uso de esta herramienta recuerdo el comentario de una alumna que tuve el semestre pasado en la Universidad de Nueva York, quien, durante un debate que dirigí en el salón de clases sobre sus posturas en torno al uso de la inteligencia artificial —ella se encontraba en el equipo que estaba a favor del uso de esta herramienta—, y su comentario hasta la fecha me resulta igual de válido y continúa resonándome.</p><p>Su comentario fue algo así como —parafraseo—: “Yo estoy de acuerdo con que se use la inteligencia artificial, siempre y cuando haya una razón justificable para hacerlo. Por ejemplo, la falta de recursos económicos me parece una razón suficientemente justificable: hay quienes no cuentan con los recursos económicos para solventar una necesidad apremiante, emergente, una que incluso puede poner en riesgo la vida o la integridad de una o varias personas”.</p><p>Me parece completamente aceptable su comentario, y sin duda la respaldo. Hay situaciones de las que a veces no nos percatamos por contar con algún tipo de privilegio que nos polariza hacia el uso definitivo de esta herramienta: o sí o no. Pero su opinión me pareció profundamente valiosa por su empatía al expresar su punto de vista. Aunque en su opinión haya utilizado un asunto bastante subjetivo, como lo es “una razón justificable”, ¿qué tan justificable es una razón para alguien? Sin duda depende mucho de las circunstancias de quien se lo plantee.</p><p>Lo que puedo decir es que, al menos para cuestiones creativas, me parece incluso contraproducente. Cuando se utiliza para fines creativos generados como un producto final y definitivo y cuya creación a su vez se adjudica a una persona y no a la inteligencia artificial, es ahí cuando me parece profundamente tramposo, inválido y hueco. Enfocándolo hacia la literatura, a mi parecer es algo que no merece la pena ser leído porque, al menos a mí como lectora, me deja una sensación de vacío, de estar leyendo algo que nadie jamás escribió, que detrás de ese texto en particular no se tomó el tiempo de crearlo con sus propias manos, o al menos no a conciencia, y que tampoco hubo momentos de reflexión como los que se tiene al escribir una obra literaria, y tampoco hubo esos minutos dedicados a la reflexión, porque mejor se decidió emplear la tecnología para crear un producto final hecho básicamente en piloto automático.</p><p>Y lo que me parece muy desafortunado es también el que se confíe en el resultado que un verificador de uso de inteligencia artificial, entrenado con patrones digitales, se le esté dando un peso tan definitorio como lo puede ser la carrera de un escritor. Posibilidad de error, la hay. Posibilidad de acierto, también. Lo que sobra es sólo el juicio y la inteligencia humana.</p><p>En casos recientes se supo de un libro académico que —qué barbaridad—, se fue directito a la imprenta y así salió a la venta, con una frase que decía hasta abajo en una de sus páginas: “Si quieres ahora te lo separo en subtítulos más didácticos para tu libro…” ¡Ay ay AI IA! No queda más que imaginarse a los estudiosos autores pensando cómo plantear la pregunta para que les quedara más didáctico el asunto.</p><p>En contraparte, recientemente escuchaba una entrevista a Anne Carson, la más reciente Premio Nobel de Literatura que fue dada a conocer hace algunas semanas, escritora primordialmente de poesía, aunque también de ensayo. En dicha entrevista habló sobre el placer que le produce el escribir a mano, le encantaba y le encanta escribir a mano, pero ella padece de Parkinson, la enfermedad neurológica que produce temblor principalmente en las manos, su escritura, dice, se volvió vergonzosa para ella misma.</p><p>Mencionó que comenzó a tomar clases de box por recomendación de su médico, pues favorece el pulso de las personas con este padecimiento. Y mientras la escuchaba me sentí sumamente identificada cuando describía el placer de escribir a mano, de ver su caligrafía escrita con su mano a través de la tinta. Hay una satisfacción inmediata al momento de hacerlo que es inigualable, que no se puede comparar. Pienso en la idea de adorar escribir a mano y poco a poco dejar de reconocerse en su propia letra.</p><p>Y habrá a quien le parezca una absurdez, pero realmente al escribir a mano hay todo un proceso mental que sucede a nivel psicológico, neuronal y hasta emocional compacto ahí, en la escritura a mano. Me hace pensar no sólo en mi escritura sino también en la de gente que vivió en el pasado, especialmente en los escritores que escribían sus libros enteros a mano y luego los transcribían a máquina, como es el caso de tantos y tantos escritores que siguieron ese método durante el siglo pasado y todavía en éste. Pero también pienso en la escritura a mano de quienes dejaron registros escritos, listas de despensa, por ejemplo, entre otros escritos cotidianos. Recuerdo la escritura de mi mamá, de mi abuelita, son de las caligrafías más bonitas que he visto. Ambas me han hablado, en diferentes momentos, del placer y la satisfacción que a ellas también les produce el escribir a mano.</p><p>Al pensar en autores de mi interés que ya no viven, tampoco puedo dejar de sentir cierta frustración porque, de haber tenido en su momento herramientas más eficientes como una computadora, quizá los escritores del siglo pasado nos hubieran deleitado con muchos más libros de su autoría. Pero también creo que no fue necesario.</p><p>Quizá si hubieran vivido en nuestros tiempos no hubieran escrito las maravillas que escribieron, porque de lo que estamos seguros es que hoy la inteligencia humana está siendo arrebatada desfachatadamente, y carcomida, por quienes hacen uso de ella de formas lamentables disfrazadas de creativas. Y esa no necesariamente es culpa de la tecnología —esa seguirá avanzando por el resto de los días—, sino más bien de quien hace un uso con fines premeditadamente antiéticos, y habría que preguntarse si también se cae en un error al otorgarle el albedrío del juicio a un ente digital, inánime.</p><p>The post ¡Ay ay AI IA! appeared first on Pie de Página.</p>",
-      "url": "https://piedepagina.mx/ay-ay-ai-ia/",
-      "image": "https://piedepagina.mx/wp-content/uploads/2022/07/Evolet_columna_jardin_de_espejos.jpeg",
-      "publishedAt": "2026-10-25T06:08:14+00:00",
-      "sourceId": "piedepagina",
-      "sourceName": "Pie de Página",
-      "sourceType": "Derechos Humanos y Territorio",
-      "sourceSite": "https://piedepagina.mx",
-      "region": "latam",
-      "country": "México",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "vergara240-400847ebbb",
