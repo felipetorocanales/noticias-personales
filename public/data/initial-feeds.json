@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-05T22:16:14.388789+00:00",
+  "generatedAt": "2026-11-05T22:31:29.974654+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
-  "totalArticles": 206,
-  "totalBlockedFarandula": 3,
+  "totalArticles": 212,
+  "totalBlockedFarandula": 5,
   "blockedExamples": [
     {
       "title": "El escritoriazo de la ANFP",
@@ -12,14 +12,24 @@
       "reason": "fútbol"
     },
     {
+      "title": "[Radio en vivo🎙] La U empata con Antofagasta en su revancha por cuartos de Copa Chile",
+      "source": "Radio Cooperativa",
+      "reason": "copa chile"
+    },
+    {
+      "title": "Marsella logró su primer triunfo en la Europa League tras batir a Bayer Leverkusen",
+      "source": "Radio Cooperativa",
+      "reason": "europa league"
+    },
+    {
+      "title": "Goldberg describió una red de influencias de Felicevich y Cerda en la U",
+      "source": "Radio Cooperativa",
+      "reason": "universidad de chile"
+    },
+    {
       "title": "Con clásico de Colo Colo y la UC: La ANFP dio a conocer la programación de la fecha 28",
       "source": "Radio Cooperativa",
       "reason": "anfp"
-    },
-    {
-      "title": "[Radio en vivo🎙] La U recibe a Antofagasta en su revancha por cuartos de Copa Chile",
-      "source": "Radio Cooperativa",
-      "reason": "copa chile"
     }
   ],
   "sources": [
@@ -492,7 +502,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.6
+      "newestAgeHours": 4.9
     },
     {
       "id": "interferencia",
@@ -505,7 +515,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 13.3
+      "newestAgeHours": 13.5
     },
     {
       "id": "fastcheck",
@@ -518,7 +528,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.5
+      "newestAgeHours": 1.7
     },
     {
       "id": "radiouchile",
@@ -531,7 +541,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.6
     },
     {
       "id": "elmostrador",
@@ -544,7 +554,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.6
+      "newestAgeHours": 3.9
     },
     {
       "id": "eldesconcierto",
@@ -557,7 +567,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.9
+      "newestAgeHours": 4.2
     },
     {
       "id": "laderasur",
@@ -569,8 +579,8 @@
       "status": "ok",
       "count": 10,
       "blocked": 0,
-      "staleDropped": 5,
-      "newestAgeHours": 2.4
+      "staleDropped": 4,
+      "newestAgeHours": 2.6
     },
     {
       "id": "resumen",
@@ -583,7 +593,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 24.5
+      "newestAgeHours": 24.8
     },
     {
       "id": "elciudadano",
@@ -596,7 +606,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.2
     },
     {
       "id": "malaespina",
@@ -609,7 +619,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.3
+      "newestAgeHours": 4.5
     },
     {
       "id": "vergara240",
@@ -622,7 +632,7 @@
       "count": 1,
       "blocked": 0,
       "staleDropped": 17,
-      "newestAgeHours": 312.9
+      "newestAgeHours": 313.2
     },
     {
       "id": "terram",
@@ -635,7 +645,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 8.0
+      "newestAgeHours": 8.3
     },
     {
       "id": "timeline",
@@ -648,7 +658,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.8
+      "newestAgeHours": 1.0
     },
     {
       "id": "diariouach",
@@ -661,7 +671,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.8
+      "newestAgeHours": 1.0
     },
     {
       "id": "cooperativa",
@@ -672,9 +682,9 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 2,
+      "blocked": 4,
       "staleDropped": 0,
-      "newestAgeHours": 0.5
+      "newestAgeHours": 0.1
     },
     {
       "id": "elfaro",
@@ -700,7 +710,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 12.3
+      "newestAgeHours": 12.5
     },
     {
       "id": "lasillavacia",
@@ -713,7 +723,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 0.5
     },
     {
       "id": "ojopublico",
@@ -726,7 +736,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 1,
-      "newestAgeHours": 91.1
+      "newestAgeHours": 91.3
     },
     {
       "id": "cuestionpublica",
@@ -736,10 +746,10 @@
       "type": "Periodismo de Datos y Poder",
       "independent": true,
       "status": "ok",
-      "count": 0,
+      "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": null
+      "newestAgeHours": 44.7
     },
     {
       "id": "chequeado",
@@ -752,7 +762,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 146.5
+      "newestAgeHours": 146.7
     },
     {
       "id": "piedepagina",
@@ -765,7 +775,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 100.6
+      "newestAgeHours": 100.8
     },
     {
       "id": "cenital",
@@ -778,7 +788,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.8
+      "newestAgeHours": 1.0
     },
     {
       "id": "brecha",
@@ -791,7 +801,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 155.5
+      "newestAgeHours": 155.8
     },
     {
       "id": "jacobinlat",
@@ -804,7 +814,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.8
+      "newestAgeHours": 5.1
     },
     {
       "id": "ciclismo-chile",
@@ -817,7 +827,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.0
+      "newestAgeHours": 2.3
     },
     {
       "id": "ciclo21",
@@ -830,7 +840,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 12.3
+      "newestAgeHours": 12.5
     },
     {
       "id": "brujulabike",
@@ -843,7 +853,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.1
+      "newestAgeHours": 3.3
     },
     {
       "id": "esciclismo",
@@ -856,7 +866,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.6
+      "newestAgeHours": 0.8
     },
     {
       "id": "propublica",
@@ -869,7 +879,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.9
+      "newestAgeHours": 3.1
     },
     {
       "id": "bellingcat",
@@ -882,7 +892,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 12.5
+      "newestAgeHours": 12.7
     },
     {
       "id": "theintercept",
@@ -895,7 +905,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.8
+      "newestAgeHours": 1.0
     },
     {
       "id": "eldiarioes",
@@ -908,7 +918,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.4
+      "newestAgeHours": 1.6
     },
     {
       "id": "elsalto",
@@ -921,7 +931,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 9.2
+      "newestAgeHours": 9.4
     },
     {
       "id": "sinpermiso",
@@ -947,7 +957,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.8
+      "newestAgeHours": 0.3
     },
     {
       "id": "dw",
@@ -960,7 +970,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.9
+      "newestAgeHours": 1.2
     },
     {
       "id": "globalvoices",
@@ -973,10 +983,70 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 15.3
+      "newestAgeHours": 15.5
     }
   ],
   "articles": [
+    {
+      "id": "elciudadano-8d6878df1f",
+      "title": "Cartas al Director: La protección de la infancia y la confianza en la justicia",
+      "summary": "El Ciudadano Señor Director: El otro día caminaba a casa junto a mi hermana menor, de seis años, cuando nos topamos con dos desconocidos. Aunque no se apreciaran malas intenciones de su parte, sus sonrisas me hicieron desconfiar y acerqué a mi hermana a mi costado mientras apresuraba el paso. Tengo diecisiete años; esta no es la […]...",
+      "content": "<p>El otro día caminaba a casa junto a mi hermana menor, de seis años, cuando nos topamos con dos desconocidos. Aunque no se apreciaran malas intenciones de su parte, sus sonrisas me hicieron desconfiar y acerqué a mi hermana a mi costado mientras apresuraba el paso.</p><p>Tengo diecisiete años; esta no es la única situación de inseguridad que me ha tocado vivir por el miedo constante a ser violentada.</p><p>Y precisamente por ese miedo constante resulta aún más indignante enterarse de que se han otorgado 56 rebajas de condena a delincuentes sentenciados por abuso sexual y violación de menores.</p><p>Mientras miles de niñas, niños, adolescentes y mujeres viven con temor, el Estado parece enviar una señal de indulgencia hacia quienes destruyeron la seguridad y la infancia de sus víctimas.</p><p>Sé de muchos otros casos en donde miles de mujeres se sienten inseguras al salir a la calle, al dejar a sus hijos a cargo de terceros desconocidos o simplemente al confiar en que la justicia hará su trabajo. Por eso resulta imposible preguntarse qué mensaje entrega el Estado cuando se conocen decisiones como estas.</p><p>Durante años hemos escuchado consignas como “con nuestros niños y niñas no se juega”, pero esas palabras pierden fuerza cuando se adoptan medidas que benefician a quienes atentan contra ellos.</p><p>Si la principal responsabilidad del Gobierno es proteger a los más vulnerables, ¿cómo puede esperar la confianza de la ciudadanía cuando las condenas de abusadores y violadores de menores son rebajadas?</p><p>¿De qué protección hablamos, si incluso después de ser condenados reciben beneficios que las víctimas jamás podrán obtener para reparar el daño sufrido?</p><p>Porque cuando el Estado reduce las penas de quienes cometieron estos crímenes, no solo disminuye años de cárcel, también debilita la confianza de una sociedad que espera que, al menos en estos casos, la justicia esté del lado correcto.</p><p>La entrada Cartas al Director: La protección de la infancia y la confianza en la justicia se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/cartas-ciudadanas/cartas-al-director-la-proteccion-de-la-infancia-y-la-confianza-en-la-justicia/11/05/",
+      "image": "https://www.elciudadano.com/wp-content/uploads/2022/05/nina-escuela-chile-640x427.jpg",
+      "publishedAt": "2026-11-05T22:18:07+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "france24-ec99ac58ce",
+      "title": "Kabul, una crisis de agua potable que agrava la emergencia humanitaria en Afganistán",
+      "summary": "La escasez de agua potable agrava la crisis humanitaria en Kabul, donde las sequías recurrentes, el agotamiento de las reservas subterráneas y el crecimiento demográfico amenazan el acceso al agua de millones de personas. La emergencia se suma a una profunda crisis económica que golpea a Afganistán, donde cerca de 22 millones de...",
+      "content": "<p>La escasez de agua potable agrava la crisis humanitaria en Kabul, donde las sequías recurrentes, el agotamiento de las reservas subterráneas y el crecimiento demográfico amenazan el acceso al agua de millones de personas. La emergencia se suma a una profunda crisis económica que golpea a Afganistán, donde cerca de 22 millones de habitantes necesitan asistencia humanitaria para sobrevivir. Reportaje de Ondine de Gaulle para France 24.</p>",
+      "url": "https://www.france24.com/es/programas/corresponsales/20261105-kabul-una-crisis-de-agua-potable-que-agrava-la-emergencia-humanitaria-en-afganist%C3%A1n",
+      "image": "https://s.france24.com/media/display/21c53152-d964-11f1-a506-d18c5759e759/w:1024/p:16x9/capture-b25ea3e4.jpg",
+      "publishedAt": "2026-11-05T22:10:56+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 77,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-9914183a60",
+      "title": "Experta paraguaya: Con su renuncia, Peña busca tener fuero y protegerse",
+      "summary": "Sara Mabel Villalba, doctora en Procesos Políticos Contemporáneos, explicó en Cooperativa que la renuncia del presidente de Paraguay, Santiago Peña , responde a una estrategia jurídica para protegerse de las investigaciones tras el escandaloso colapso del Ueno Bank, que dejó congelados los fondos de tres millones de personas y a la...",
+      "content": "<p>Sara Mabel Villalba, doctora en Procesos Políticos Contemporáneos, explicó en Cooperativa que la renuncia del presidente de Paraguay, Santiago Peña, responde a una estrategia jurídica para protegerse de las investigaciones tras el escandaloso colapso del Ueno Bank, que dejó congelados los fondos de tres millones de personas y a la que supuestamente se transfirieron cuantiosas sumas de recursos públicos durante su administración.</p><p>En conversación con Lo Que Queda del Día, la investigadora del Conacyt sostuvo que, &quot;según la Constitución (de Paraguay), el presidente que termina el mandato completo o parte de él, si no es enjuiciado políticamente y encontrado culpable en ese juicio político, mantiene sus fueros, se convierte en senador vitalicio y tiene voz -pero no voto- en el Congreso&quot;.</p><p>&quot;Si se acepta la renuncia del presidente pero no hay un juicio político, entonces (Peña) tiene fuero. Es decir, queda con el mismo rango de un senador&quot;, precisó.</p><p>La experta paraguaya en sistemas electorales detalló que &quot;si no se hace un juicio político, luego se puede pedir el desafuero. Pero eso implica tener una mayoría de 45 senadores, y eso es lo que ahora mismo están tratando los opositores al Gobierno, pero por ahora no está claro si se van a conseguir los votos para ese para ese juicio&quot;.</p><p>Villalba explicó que Santiago Peña &quot;fue accionista del banco (que colapsó) y luego fue presidente. Además, él que fue vicepresidente del Banco Central del Paraguay, que es lo que permitió -de alguna manera- que este banco Banco Ueno siguiera operando a pesar de no estar calificado, a pesar de tener un monto de liquidez menor al que pide la ley&quot;.</p><p>&quot;Lo que hay es un fenómeno que se conoce como puertas giratorias, donde estas personas que han ocupado altos cargos en una entidad privada pasan a ocupar altos cargos en el sector público y, por tanto, llevan información cualificada y lo utilizan en beneficio propio&quot;, subrayó.</p><p>La especialista en política afirmó que se trata de &quot;uno de los métodos de captura del Estado que se estudia a nivel académico. Esa es una situación que se ha dado en este caso en Paraguay&quot;.</p><p>&quot;Además, no solamente ha estado involucrado Santiago Peña, sino también parte del directorio del Banco Central del Paraguay y los mismos aliados del (ahora) expresidente de la República Peña&quot;, concluyó.</p>",
+      "url": "https://www.cooperativa.cl/noticias/mundo/paraguay/experta-paraguaya-con-su-renuncia-pena-busca-tener-fuero-y-protegerse/2026-11-05/190606.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000000220261105190606.jpg",
+      "publishedAt": "2026-11-05T22:06:06+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 78,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
     {
       "id": "lasillavacia-cf6c5b41f0",
       "title": "“Demostraré mi inocencia”: Velasco tras quedar en libertad por caso Ungrd",
@@ -1358,23 +1428,23 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "cooperativa-456bc11f12",
-      "title": "Turista deberá pagar $436 mil a Bomberos por fumar en Parque Nacional Queulat",
-      "summary": "Un turista europeo deberá pagar cerca de 436 mil pesos a Bomberos y tendrá prohibido ingresar a parques nacionales mientras permanezca en Chile, luego de ser sorprendido fumando dentro del Parque Nacional Queulat , en la región de Aysén. El visitante fue detenido tras una denuncia realizada por guardaparques del recinto, quienes...",
-      "content": "<p>Un turista europeo deberá pagar cerca de 436 mil pesos a Bomberos y tendrá prohibido ingresar a parques nacionales mientras permanezca en Chile, luego de ser sorprendido fumando dentro del Parque Nacional Queulat, en la región de Aysén.</p><p>El visitante fue detenido tras una denuncia realizada por guardaparques del recinto, quienes alertaron a Carabineros sobre lo ocurrido. Personal policial de Puyuhuapi llegó hasta el lugar y concretó el procedimiento por una infracción a la Ley de Bosques.</p><p>El caso llegó hasta el Juzgado de Garantía de Cisnes, donde se realizó la audiencia de control de detención. Debido a que el imputado cumplía con los requisitos legales, se acordó una suspensión condicional del procedimiento.</p><p>La Fiscalía había solicitado inicialmente que el extranjero pagara un millón de pesos a Bomberos u otra institución de beneficencia, además de fijar un domicilio, abandonar el país en la fecha de su vuelo y no regresar durante un año.</p><p>Sin embargo, el tribunal estableció otras condiciones y fijó una donación de 400 euros (cerca de 436 mil pesos chilenos) a Bomberos, junto con la prohibición de ingresar a cualquier parque nacional del país mientras permanezca en territorio nacional.</p><p>La abogada del Ministerio Público, Marcela Valdés Parada, explicó que encender y fumar un cigarrillo en estos espacios constituye un delito contemplado en el artículo 22 bis de la Ley de Bosques.</p><p>&quot;Es importante que la comunidad sepa y entienda que es una conducta prohibida y que hoy día el legislador además ha sido muy duro al momento de sancionar este delito, toda vez que se entiende la gran repercusión que puede llegar a tener un incendio al interior de un parque nacional,&quot;, señaló la abogada, quien también advirtió sobre los daños irreversibles que pueden provocar los incendios forestales.</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/region-de-aysen/turista-debera-pagar-436-mil-a-bomberos-por-fumar-en-parque-nacional/2026-11-05/182602.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000000220261105182602.png",
-      "publishedAt": "2026-11-05T21:26:02+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
+      "id": "radiouchile-c4658b315f",
+      "title": "Secretos de La Araucanía: una feria que pone en valor los oficios y saberes de sus artesanos",
+      "summary": "La séptima edición de la feria reúne a 30 artesanas y artesanos en el Centro Cultural La Moneda, en un encuentro que pone en valor los oficios, saberes y tradiciones de la región. La entrada Secretos de La Araucanía: una feria que pone en valor los oficios y saberes de sus artesanos se publicó primero en Diario y Radio Universidad Chile .",
+      "content": "<p>La artesanía no comienza ni termina en el objeto. Detrás de cada pieza hay una historia familiar, conocimientos transmitidos entre generaciones y una relación particular con los materiales y los territorios. Esa mirada atraviesa la séptima edición de Secretos de La Araucanía: Artesanía por excelencia, encuentro que entre el 5 y el 8 de noviembre reúne a 30 artesanas y artesanos de la región en el Centro Cultural La Moneda.</p><p>Organizada por el Centro Cultural La Moneda, el Programa de Artesanía de la Facultad de Arquitectura, Artes y Diseño de la Universidad Católica de Temuco y el Ministerio de las Culturas, las Artes y el Patrimonio, la feria contempla exhibiciones y venta de piezas, demostraciones de oficios, microtalleres, presentaciones musicales y exhibiciones de microdocumentales.</p><p>La iniciativa busca generar un espacio de encuentro entre los creadores y el público, acercando a las personas a los procesos y saberes que sostienen estas prácticas. Así lo explicó Leslye Palacios, coordinadora del Programa de Artesanía de la UC Temuco, quien destacó la importancia de comprender esta actividad más allá de su dimensión comercial.</p><p>“Nosotros no podemos concebir la artesanía solo como un objeto. La artesanía tiene muchas aristas y, por lo tanto, siempre está presente el significado cultural, así como el lenguaje que existe a través de los materiales”, sostuvo.</p><p>“Hoy nuestro propio modelo económico también ha permeado la situación en las comunidades. El extractivismo y el monocultivo han provocado la pérdida de bosques y de agua, y hay materias primas para el uso artesanal que han ido desapareciendo”, señaló.</p><p>Frente a este escenario, Palacios destacó la capacidad de adaptación de quienes mantienen vivos estos conocimientos, buscando alternativas para continuar desarrollando sus oficios. “La artesanía también es un índice de lo que está ocurriendo en la sociedad y en la cultura. A raíz de esas problemáticas, es increíble cómo los artesanos se reinventan continuamente, buscando otras materias primas y formas de hablarnos, a través de sus artesanías, de lo que les está ocurriendo”, afirmó.</p><p>Esta perspectiva también se expresa en la propuesta de la feria, que este año reúne alrededor de nueve disciplinas, entre ellas textilería, orfebrería, cerámica, cestería, cantería, madera, cuero y trabajo en papel. Los expositores estarán distribuidos sin una separación por oficios, con el propósito de favorecer el encuentro entre distintas técnicas y búsquedas creativas.</p><p>Entre las novedades de esta edición destaca la incorporación de un artesano de la comuna de Gorbea que trabaja con papel, una materialidad que hasta ahora no había estado presente en el encuentro. Para la coordinadora, este tipo de acciones refleja precisamente el espíritu de Secretos de La Araucanía: la posibilidad de descubrir cada año nuevos exponentes, técnicas y formas de creación.</p><p>Otro de los aspectos que Palacios considera fundamentales es la posibilidad de establecer un vínculo directo entre quienes producen las piezas y quienes las adquieren. “Uno compra algo directamente al artesano, sin intermediarios. Entonces, él te puede contar exactamente cómo es el proceso para elaborar esa pieza, los materiales que utiliza, todo lo que eso involucra y también su historia familiar”, explicó.</p><p>En muchos casos, agregó, se trata de familias en las que distintas generaciones han continuado cultivando un mismo oficio. Una dimensión que la feria busca visibilizar también mediante las demostraciones y los microdocumentales dedicados a la región.</p><p>La iniciativa se vincula, además, con una trayectoria de cinco décadas del Programa de Artesanía de la UC Temuco. Según recordó Palacios, sus orígenes se remontan a la creación de talleres artesanales al interior de la universidad, impulsados ante la preocupación por la disminución de cultores, particularmente en el ámbito de la platería mapuche.</p><p>“Los jefes de taller eran artesanos, maestros artesanos que también pasaron a ser funcionarios de la universidad. Eso es muy valioso, pero es algo que el programa ya hacía hace 50 años”, destacó, relevando la importancia de reconocer los saberes tradicionales como conocimientos que también pueden formar parte de los espacios de formación académica.</p><p>La séptima edición de Secretos de La Araucanía se desarrolla entre el 5 y el 8 de noviembre, de 10:00 a 19:00 horas, en el Centro Cultural La Moneda. La entrada es liberada y la programación contempla actividades gratuitas, algunas de las cuales requieren inscripción previa.</p><p>La entrada Secretos de La Araucanía: una feria que pone en valor los oficios y saberes de sus artesanos se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/05/secretos-de-la-araucania-una-feria-que-pone-en-valor-los-oficios-y-saberes-de-sus-artesanos/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05181658/artesanias.png",
+      "publishedAt": "2026-11-05T21:24:10+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
       "region": "chile",
       "country": "Chile",
-      "independent": false,
-      "category": "Derechos Humanos y Ciudadanía",
+      "independent": true,
+      "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
+      "relevanceScore": 80,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1398,23 +1468,23 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "radiouchile-c4658b315f",
-      "title": "Secretos de La Araucanía: una feria que pone en valor los oficios y saberes de sus artesanos",
-      "summary": "La séptima edición de la feria reúne a 30 artesanas y artesanos en el Centro Cultural La Moneda, en un encuentro que pone en valor los oficios, saberes y tradiciones de la región. La entrada Secretos de La Araucanía: una feria que pone en valor los oficios y saberes de sus artesanos se publicó primero en Diario y Radio Universidad Chile .",
-      "content": "<p>La artesanía no comienza ni termina en el objeto. Detrás de cada pieza hay una historia familiar, conocimientos transmitidos entre generaciones y una relación particular con los materiales y los territorios. Esa mirada atraviesa la séptima edición de Secretos de La Araucanía: Artesanía por excelencia, encuentro que entre el 5 y el 8 de noviembre reúne a 30 artesanas y artesanos de la región en el Centro Cultural La Moneda.</p><p>Organizada por el Centro Cultural La Moneda, el Programa de Artesanía de la Facultad de Arquitectura, Artes y Diseño de la Universidad Católica de Temuco y el Ministerio de las Culturas, las Artes y el Patrimonio, la feria contempla exhibiciones y venta de piezas, demostraciones de oficios, microtalleres, presentaciones musicales y exhibiciones de microdocumentales.</p><p>La iniciativa busca generar un espacio de encuentro entre los creadores y el público, acercando a las personas a los procesos y saberes que sostienen estas prácticas. Así lo explicó Leslye Palacios, coordinadora del Programa de Artesanía de la UC Temuco, quien destacó la importancia de comprender esta actividad más allá de su dimensión comercial.</p><p>“Nosotros no podemos concebir la artesanía solo como un objeto. La artesanía tiene muchas aristas y, por lo tanto, siempre está presente el significado cultural, así como el lenguaje que existe a través de los materiales”, sostuvo.</p><p>“Hoy nuestro propio modelo económico también ha permeado la situación en las comunidades. El extractivismo y el monocultivo han provocado la pérdida de bosques y de agua, y hay materias primas para el uso artesanal que han ido desapareciendo”, señaló.</p><p>Frente a este escenario, Palacios destacó la capacidad de adaptación de quienes mantienen vivos estos conocimientos, buscando alternativas para continuar desarrollando sus oficios. “La artesanía también es un índice de lo que está ocurriendo en la sociedad y en la cultura. A raíz de esas problemáticas, es increíble cómo los artesanos se reinventan continuamente, buscando otras materias primas y formas de hablarnos, a través de sus artesanías, de lo que les está ocurriendo”, afirmó.</p><p>Esta perspectiva también se expresa en la propuesta de la feria, que este año reúne alrededor de nueve disciplinas, entre ellas textilería, orfebrería, cerámica, cestería, cantería, madera, cuero y trabajo en papel. Los expositores estarán distribuidos sin una separación por oficios, con el propósito de favorecer el encuentro entre distintas técnicas y búsquedas creativas.</p><p>Entre las novedades de esta edición destaca la incorporación de un artesano de la comuna de Gorbea que trabaja con papel, una materialidad que hasta ahora no había estado presente en el encuentro. Para la coordinadora, este tipo de acciones refleja precisamente el espíritu de Secretos de La Araucanía: la posibilidad de descubrir cada año nuevos exponentes, técnicas y formas de creación.</p><p>Otro de los aspectos que Palacios considera fundamentales es la posibilidad de establecer un vínculo directo entre quienes producen las piezas y quienes las adquieren. “Uno compra algo directamente al artesano, sin intermediarios. Entonces, él te puede contar exactamente cómo es el proceso para elaborar esa pieza, los materiales que utiliza, todo lo que eso involucra y también su historia familiar”, explicó.</p><p>En muchos casos, agregó, se trata de familias en las que distintas generaciones han continuado cultivando un mismo oficio. Una dimensión que la feria busca visibilizar también mediante las demostraciones y los microdocumentales dedicados a la región.</p><p>La iniciativa se vincula, además, con una trayectoria de cinco décadas del Programa de Artesanía de la UC Temuco. Según recordó Palacios, sus orígenes se remontan a la creación de talleres artesanales al interior de la universidad, impulsados ante la preocupación por la disminución de cultores, particularmente en el ámbito de la platería mapuche.</p><p>“Los jefes de taller eran artesanos, maestros artesanos que también pasaron a ser funcionarios de la universidad. Eso es muy valioso, pero es algo que el programa ya hacía hace 50 años”, destacó, relevando la importancia de reconocer los saberes tradicionales como conocimientos que también pueden formar parte de los espacios de formación académica.</p><p>La séptima edición de Secretos de La Araucanía se desarrolla entre el 5 y el 8 de noviembre, de 10:00 a 19:00 horas, en el Centro Cultural La Moneda. La entrada es liberada y la programación contempla actividades gratuitas, algunas de las cuales requieren inscripción previa.</p><p>La entrada Secretos de La Araucanía: una feria que pone en valor los oficios y saberes de sus artesanos se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/05/secretos-de-la-araucania-una-feria-que-pone-en-valor-los-oficios-y-saberes-de-sus-artesanos/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05181658/artesanias.png",
-      "publishedAt": "2026-11-05T21:24:10+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
+      "id": "dw-89e01de465",
+      "title": "Más de 600 mil personas se manifiestan en Francia por mejores salarios",
+      "summary": "La movilización, la mayor desde el inicio de las protestas en septiembre, reunió a cientos de miles de personas en todo el país. Los sindicatos reclaman aumentos salariales, justicia fiscal y mejores servicios públicos.",
+      "content": "",
+      "url": "https://www.dw.com/es/más-de-600-mil-personas-se-manifiestan-en-francia-por-mejores-salarios/a-79871134?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-11-05T21:21:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "country": "Alemania / Global",
+      "independent": false,
+      "category": "Economía y Sociedad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
+      "relevanceScore": 71,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1438,24 +1508,24 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "dw-89e01de465",
-      "title": "Más de 600 mil personas se manifiestan en Francia por mejores salarios",
-      "summary": "La movilización, la mayor desde el inicio de las protestas en septiembre, reunió a cientos de miles de personas en todo el país. Los sindicatos reclaman aumentos salariales, justicia fiscal y mejores servicios públicos.",
-      "content": "",
-      "url": "https://www.dw.com/es/más-de-600-mil-personas-se-manifiestan-en-francia-por-mejores-salarios/a-79871134?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-11-05T21:21:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "country": "Alemania / Global",
-      "independent": false,
+      "id": "elciudadano-78f3925702",
+      "title": "Farmacias Populares de Valparaíso congelan por 6 meses los precios de sus 20 medicamentos más vendidos",
+      "summary": "El Ciudadano Un apoyo directo al presupuesto familiar, especialmente para quienes deben destinar parte importante de sus ingresos a la compra de medicamentos, es el objetivo de la medida anunciada por la alcaldesa de Valparaíso, Camila Nieto, que permitirá congelar durante los próximos 6 meses los precios de los 20 medicamentos más...",
+      "content": "<p>Un apoyo directo al presupuesto familiar, especialmente para quienes deben destinar parte importante de sus ingresos a la compra de medicamentos, es el objetivo de la medida anunciada por la alcaldesa de Valparaíso, Camila Nieto, que permitirá congelar durante los próximos 6 meses los precios de los 20 medicamentos más vendidos en las Farmacias Populares de la comuna.</p><p>La iniciativa ya se encuentra en implementación y contempla fármacos utilizados para tratar distintas condiciones de salud, entre ellas hipertensión arterial, diabetes, prevención de trombosis, enfermedades cardiovasculares, depresión, trastornos del sueño, problemas gastrointestinales y agrandamiento de próstata, entre otras.</p><p>«Es muy importante cuidar a nuestros vecinos, sobre todo ante el contexto nacional, las decisiones de autoridades y recortes fiscales que también afectan la inversión pública, el empleo y también la posibilidad de que los porteños y porteñas lleguen a fin de mes; ante ese contexto, no tenemos que mirar para el lado, sino que, todo lo contrario, tenemos que buscar hacernos cargo con las herramientas que tenemos y aquí hay una acción concreta», declaró la jefa comunal.</p><p>En representación de los Consejos Locales de Salud de Valparaíso, la dirigenta Marlen Orrego, de Unco Salud, manifestó que «es un hecho complejo lo que estamos viviendo y, por tanto, entendemos que este apoyo que brinda la municipalidad será bastante auspicioso para poder acceder y tener un grado de equilibrio en el acceso a la salud acá en Valparaíso».</p><p>Asimismo, vecinas que habitualmente adquieren sus tratamientos en estos establecimientos destacaron el ahorro que representa esta alternativa.</p><p>Raquel Andaur comentó que «en los remedios que uso ahorro mucha plata, cuestan la mitad de lo que cuestan en las otras farmacias, conviene mucho. Estoy inscrita hace años en esta farmacia y me encanta».</p><p>En tanto, Adriana Mounier señaló que «tengo que comprar medicamentos muy caros, estoy inscrita acá y vengo siempre. Ahora con los precios que hay, está fabuloso».</p><p>Entre los 20 medicamentos incluidos en la iniciativa se encuentran Losartán de 50 mg, a $750; Paracetamol de 500 mg, a $600; Pregabalina de 75 mg, a $4.190; Amlodipino de 5 mg, a $900; Rivaroxabán de 20 mg, a $3.100; Metformina de 850 mg, a $1.200; Escitalopram de 10 mg, a $1.790, y Omeprazol de 20 mg, a $1.200.</p><p>El listado también considera medicamentos como Celecoxib, Tamsulosina, Bisoprolol, Diclofenaco, Zopiclona, Rosuvastatina, Atorvastatina, Tramadol/Paracetamol, Complejo Vitamínico B, Tamsulosina/Dutasterida y Oxibutinina, cuyos valores se mantendrán sin variaciones durante el período establecido.</p><p>La entrada Farmacias Populares de Valparaíso congelan por 6 meses los precios de sus 20 medicamentos más vendidos se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/chile/farmacias-populares-de-valparaiso-congelan-por-6-meses-los-precios-de-sus-20-medicamentos-mas-vendidos/11/05/",
+      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/Alcaldesa-de-Valparaiso-Camila-Nieto-noviembre-2026-640x426.jpeg",
+      "publishedAt": "2026-11-05T21:17:11+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
       "category": "Economía y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "diariouach-a0633a2d3d",
@@ -1476,26 +1546,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 68,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "elciudadano-78f3925702",
-      "title": "Farmacias Populares de Valparaíso congelan por 6 meses los precios de sus 20 medicamentos más vendidos",
-      "summary": "El Ciudadano Un apoyo directo al presupuesto familiar, especialmente para quienes deben destinar parte importante de sus ingresos a la compra de medicamentos, es el objetivo de la medida anunciada por la alcaldesa de Valparaíso, Camila Nieto, que permitirá congelar durante los próximos 6 meses los precios de los 20 medicamentos más...",
-      "content": "<p>Un apoyo directo al presupuesto familiar, especialmente para quienes deben destinar parte importante de sus ingresos a la compra de medicamentos, es el objetivo de la medida anunciada por la alcaldesa de Valparaíso, Camila Nieto, que permitirá congelar durante los próximos 6 meses los precios de los 20 medicamentos más vendidos en las Farmacias Populares de la comuna.</p><p>La iniciativa ya se encuentra en implementación y contempla fármacos utilizados para tratar distintas condiciones de salud, entre ellas hipertensión arterial, diabetes, prevención de trombosis, enfermedades cardiovasculares, depresión, trastornos del sueño, problemas gastrointestinales y agrandamiento de próstata, entre otras.</p><p>«Es muy importante cuidar a nuestros vecinos, sobre todo ante el contexto nacional, las decisiones de autoridades y recortes fiscales que también afectan la inversión pública, el empleo y también la posibilidad de que los porteños y porteñas lleguen a fin de mes; ante ese contexto, no tenemos que mirar para el lado, sino que, todo lo contrario, tenemos que buscar hacernos cargo con las herramientas que tenemos y aquí hay una acción concreta», declaró la jefa comunal.</p><p>En representación de los Consejos Locales de Salud de Valparaíso, la dirigenta Marlen Orrego, de Unco Salud, manifestó que «es un hecho complejo lo que estamos viviendo y, por tanto, entendemos que este apoyo que brinda la municipalidad será bastante auspicioso para poder acceder y tener un grado de equilibrio en el acceso a la salud acá en Valparaíso».</p><p>Asimismo, vecinas que habitualmente adquieren sus tratamientos en estos establecimientos destacaron el ahorro que representa esta alternativa.</p><p>Raquel Andaur comentó que «en los remedios que uso ahorro mucha plata, cuestan la mitad de lo que cuestan en las otras farmacias, conviene mucho. Estoy inscrita hace años en esta farmacia y me encanta».</p><p>En tanto, Adriana Mounier señaló que «tengo que comprar medicamentos muy caros, estoy inscrita acá y vengo siempre. Ahora con los precios que hay, está fabuloso».</p><p>Entre los 20 medicamentos incluidos en la iniciativa se encuentran Losartán de 50 mg, a $750; Paracetamol de 500 mg, a $600; Pregabalina de 75 mg, a $4.190; Amlodipino de 5 mg, a $900; Rivaroxabán de 20 mg, a $3.100; Metformina de 850 mg, a $1.200; Escitalopram de 10 mg, a $1.790, y Omeprazol de 20 mg, a $1.200.</p><p>El listado también considera medicamentos como Celecoxib, Tamsulosina, Bisoprolol, Diclofenaco, Zopiclona, Rosuvastatina, Atorvastatina, Tramadol/Paracetamol, Complejo Vitamínico B, Tamsulosina/Dutasterida y Oxibutinina, cuyos valores se mantendrán sin variaciones durante el período establecido.</p><p>La entrada Farmacias Populares de Valparaíso congelan por 6 meses los precios de sus 20 medicamentos más vendidos se publicó primero en El Ciudadano.</p>",
-      "url": "https://www.elciudadano.com/chile/farmacias-populares-de-valparaiso-congelan-por-6-meses-los-precios-de-sus-20-medicamentos-mas-vendidos/11/05/",
-      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/Alcaldesa-de-Valparaiso-Camila-Nieto-noviembre-2026-640x426.jpeg",
-      "publishedAt": "2026-11-05T21:17:11+00:00",
-      "sourceId": "elciudadano",
-      "sourceName": "El Ciudadano",
-      "sourceType": "Prensa Alternativa",
-      "sourceSite": "https://www.elciudadano.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "lasillavacia-8ab6052046",
@@ -1655,26 +1705,6 @@
       "category": "Investigación y Poder",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 78,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "elciudadano-6e1d51a213",
-      "title": "Techos solares: El potencial desaprovechado en Chile",
-      "summary": "El Ciudadano Por Benjamín Carvajal, director ejecutivo de Uno Punto Cinco ¿Su casa cumple las condiciones para poner un techo solar? Lo más probable es que sí. ¿Tiene uno? Lo más probable es que no. La razón: menos del 1% de las viviendas de nuestro país cuenta con esta tecnología. Ese fue el principal hallazgo de nuestro […] La...",
-      "content": "<p>Por Benjamín Carvajal, director ejecutivo de Uno Punto Cinco</p><p>¿Su casa cumple las condiciones para poner un techo solar? Lo más probable es que sí. ¿Tiene uno? Lo más probable es que no. La razón: menos del 1% de las viviendas de nuestro país cuenta con esta tecnología.</p><p>Ese fue el principal hallazgo de nuestro último informe “Estado de la Generación Distribuida para el Autoconsumo habitacional en Chile 2026”, que midió el avance de los techos solares en todas las regiones y determinó que el 62% de las casas tienen condiciones para instalar paneles, equivalentes a 4.760.000 viviendas, pero solo 32.853 cuentan con un sistema solar.</p><p>En el contexto actual, estas cifras merecen más atención que nunca.</p><p>Desde que se descolgaron las tarifas eléctricas, la cuenta de la luz acumula alzas cercanas al 80%, y en julio volvió a subir: 4,9% en promedio y 16% en Valdivia y Puerto Montt, lo que en la práctica se traduce en una nueva carga financiera para muchos hogares chilenos.</p><p>Un sistema solar residencial promedio, de 3,2 kW, genera cerca de 370 kWh al mes¹, cifra que sobrepasa el consumo de una familia promedio (entre 200 y 250 kWh, según la CNE²).</p><p>Por eso, poner paneles en el techo es lo más cercano a una solución que los proteja del próximo reajuste de la cuenta de la luz.</p><p>Los hallazgos de este informe brindan una oportunidad con nombre y dirección. Los resultados identificaron 37 comunas con alto potencial que suman 577.868 viviendas aptas, con una adopción casi nula de esta tecnología, y 17 de ellas concentran el 82% de las casas.</p><p>Destaca Biobío como la región con mayor potencial solar residencial, que aporta 15 de esas 37 comunas. En Lota hay 12.424 viviendas aptas y la tasa de instalación es de 0,02%. En Alto Biobío y Lonquimay no hay un solo techo solar registrado. Las comunas que durante décadas le dieron carbón al país hoy tienen sol, techos y propietarios, pero casi no tienen paneles.</p><p>La experiencia, en tanto, nos demuestra que esa brecha se puede cerrar. En Tocopilla, el programa Casa Solar Social del Gobierno Regional de Antofagasta instaló sistemas pequeños en hogares vulnerables, y hoy el 13,8% de las viviendas tiene paneles, más del triple que Colina.</p><p>El programa se propuso llegar a 1.500 hogares en cuatro comunas, y los registros muestran 1.510 instalaciones. Colina llegó por la vía privada, con sistemas grandes en hogares que pueden costearlos. Tocopilla demuestra que el Estado puede abrir esa misma puerta a quienes no pueden.</p><p>No hace falta inventar instrumentos nuevos: el programa Casa Solar y el subsidio DS 27 del Minvu se pueden orientar a las comunas prioritarias; se puede habilitar financiamiento que reparta el costo en el tiempo, como créditos blandos o pago asociado a la cuenta eléctrica, y los municipios pueden ayudar acercando la información y ofreciendo el acompañamiento técnico.</p><p>El momento de implementarlo es ahora, con el costo del combustible en montos récords y con el Presupuesto 2027 en discusión en el Congreso.</p><p>Un subsidio a la cuenta de la luz alivia un mes; un techo solar la alivia por 20 años, aumenta la resiliencia energética, reduce emisiones y lo más importante, les da a las familias ahorros económicos y autonomía durante los apagones.</p><p>Sobre todo, Chile no puede seguir perdiendo la oportunidad de aprovechar un recurso que abunda: el sol.</p><p>Presentaremos el informe completo en el encuentro “Chile País Solar: avances y futuro de los Techos Solares en Chile”, organizado por la ONG Uno Punto Cinco, ACESOL y el Centro de Energía de la Universidad de Chile, el jueves 12 de noviembre a las 18:00 horas en la Fundación Heinrich Böll (Av. Los Leones 877, Providencia).</p><p>Están invitados parlamentarios, gobiernos regionales, municipios y todos quienes creen que el sol de Chile también debería notarse en la cuenta de la luz.</p><p>La entrada Techos solares: El potencial desaprovechado en Chile se publicó primero en El Ciudadano.</p>",
-      "url": "https://www.elciudadano.com/chile/techos-solares-el-potencial-desaprovechado-en-chile/11/05/",
-      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/Benjamin-Carvajal-Ponce-portada-640x427.jpg",
-      "publishedAt": "2026-11-05T20:50:56+00:00",
-      "sourceId": "elciudadano",
-      "sourceName": "El Ciudadano",
-      "sourceType": "Prensa Alternativa",
-      "sourceSite": "https://www.elciudadano.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 72,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1916,26 +1946,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 92,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "france24-05da138da4",
-      "title": "Cuatro países rompen el consenso en la Cumbre XXX Iberoamericana de Madrid",
-      "summary": "En España finalizó la XXX Cumbre Iberoamericana con diferencias entre los líderes políticos de la región, divididos por sus orillas ideológicas: Argentina, Colombia, Costa Rica y Paraguay se desmarcaron del consenso en la Declaración de Madrid, en el párrafo que rechaza la coerción y la aplicación a los países de medidas contrarias al...",
-      "content": "<p>En España finalizó la XXX Cumbre Iberoamericana con diferencias entre los líderes políticos de la región, divididos por sus orillas ideológicas: Argentina, Colombia, Costa Rica y Paraguay se desmarcaron del consenso en la Declaración de Madrid, en el párrafo que rechaza la coerción y la aplicación a los países de medidas contrarias al derecho internacional y a la Carta de la ONU. Informe de nuestra corresponsal, Marina Colorado.</p>",
-      "url": "https://www.france24.com/es/video/20261105-cuatro-pa%C3%ADses-rompen-el-consenso-en-la-cumbre-xxx-iberoamericana-de-madrid",
-      "image": "https://s.france24.com/media/display/c021204c-d94e-11f1-bc2a-bf1914cabd52/w:1024/p:16x9/ES-20261105-110737-111139-CS.jpg",
-      "publishedAt": "2026-11-05T19:37:52+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 67,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "esciclismo-86e0088c77",
@@ -3998,24 +4008,24 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ciclismo-chile-392a215ef7",
-      "title": "“A 24 horas de comenzar la competencia no tenía bicicleta... Viajé de Madrid a Santiago y no llegó mi maleta”",
-      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>“A 24 horas de comenzar la competencia no tenía bicicleta... Viajé de Madrid a Santiago y no llegó mi maleta” AS Chile</p>",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdHl2Q00xV0IzZnpiU2kzRlphUU9nekV2NlVVQUFOT2pydm4xM1ZEUVIyQW9lR1l6UmdLb19TSTBFY1dXSXV5cldaRnRudWdVaEVrM0VUSzd0enloVXZ2bVJTMExWdmdUU0ZNUDA1YkFxbUY3LW56ZVNPbEJxM1VHYm1SbFp2V2xHTElLVEZkR0ZGM0JHVG9wTmNpeGRtcWUxeThLOVMtNlJYRUV4M2ZraWNLQWprT2llQ2N1TzVZUXNHdFlJYzVzc3k0d21BMDNRVFl6dFRBTHlBSzRpUm9WWtIB9AFBVV95cUxOZ0QzMWdoWjhqcEo1UmhiXzZYSjlMbzZrdUZNUVhocXFLMlpHSUhERmRzOHd5MEkzYlZaLWwyODJiNnljVTVHc19BcmN3UkJTbVpOaElFaTc5WWM1R3JWREpsc2FqcjV3TDBQRjRPQzNhSjd5SjhNV0J3SXcwa19Zbm1UdVVMQUJmenZmc0ViZzJfa3RrLTE1bVZtZWJDUmJyVnl5dXZwNTAtN0hiVWMyd01QTzBPWEJwZDU4cHpNUlYtZEZRSUJuQ2psRWZJYTZSaHBjWngzUWRybnVlUnVjSF83cldYZ05OelJnN0wyY1pwMUpS?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-03T23:55:55+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "country": "Chile",
+      "id": "cuestionpublica-baf579e11c",
+      "title": "El gobierno quiere hacernos retroceder como país: Norma Donato",
+      "summary": "Norma Donato, exdecana de la Facultad Seminario Andrés Bello, del Instituto Caro y Cuervo, analiza con Cuestión Pública lo que está pasando con esa entidad desde la llegada del gobierno de Abelardo de La Espriella. La entrada El gobierno quiere hacernos retroceder como país: Norma Donato se publicó primero en Cuestión Pública .",
+      "content": "<p>Norma Donato, exdecana de la Facultad Seminario Andrés Bello, del Instituto Caro y Cuervo, analiza con Cuestión Pública lo que está pasando con esa entidad desde la llegada del gobierno de Abelardo De la Espriella. Donato, le dijo a Cambio, que nombrar a Sergio Esteban Vélez como director de ese instituto «es una sentencia de muerte».</p><p>La entrada El gobierno quiere hacernos retroceder como país: Norma Donato se publicó primero en Cuestión Pública.</p>",
+      "url": "https://cuestionpublica.com/el-gobierno-quiere-hacernos-retroceder-como-pais-norma-donato/",
+      "image": "https://cuestionpublica.com/wp-content/uploads/2026/11/Cover-aguzate-Caro-y-Cuervo_11zon.jpg",
+      "publishedAt": "2026-11-04T01:51:40+00:00",
+      "sourceId": "cuestionpublica",
+      "sourceName": "Cuestión Pública",
+      "sourceType": "Periodismo de Datos y Poder",
+      "sourceSite": "https://cuestionpublica.com",
+      "region": "latam",
+      "country": "Colombia",
       "independent": true,
-      "category": "Ciclismo y Deporte",
+      "category": "Política y Actualidad",
       "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "elsalto-9f9dc5c713",
@@ -4036,6 +4046,26 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 68,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "ciclismo-chile-392a215ef7",
+      "title": "“A 24 horas de comenzar la competencia no tenía bicicleta... Viajé de Madrid a Santiago y no llegó mi maleta”",
+      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>“A 24 horas de comenzar la competencia no tenía bicicleta... Viajé de Madrid a Santiago y no llegó mi maleta” AS Chile</p>",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdHl2Q00xV0IzZnpiU2kzRlphUU9nekV2NlVVQUFOT2pydm4xM1ZEUVIyQW9lR1l6UmdLb19TSTBFY1dXSXV5cldaRnRudWdVaEVrM0VUSzd0enloVXZ2bVJTMExWdmdUU0ZNUDA1YkFxbUY3LW56ZVNPbEJxM1VHYm1SbFp2V2xHTElLVEZkR0ZGM0JHVG9wTmNpeGRtcWUxeThLOVMtNlJYRUV4M2ZraWNLQWprT2llQ2N1TzVZUXNHdFlJYzVzc3k0d21BMDNRVFl6dFRBTHlBSzRpUm9WWtIB9AFBVV95cUxOZ0QzMWdoWjhqcEo1UmhiXzZYSjlMbzZrdUZNUVhocXFLMlpHSUhERmRzOHd5MEkzYlZaLWwyODJiNnljVTVHc19BcmN3UkJTbVpOaElFaTc5WWM1R3JWREpsc2FqcjV3TDBQRjRPQzNhSjd5SjhNV0J3SXcwa19Zbm1UdVVMQUJmenZmc0ViZzJfa3RrLTE1bVZtZWJDUmJyVnl5dXZwNTAtN0hiVWMyd01QTzBPWEJwZDU4cHpNUlYtZEZRSUJuQ2psRWZJYTZSaHBjWngzUWRybnVlUnVjSF83cldYZ05OelJnN0wyY1pwMUpS?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-03T23:55:55+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "eldesconcierto-f876d886ef",
@@ -4303,7 +4333,7 @@
       "summary": "Al atardecer del lunes 26 de octubre, los vecinos de Anillaco vieron algo que no habían visto nunca: un grupo de soldados con uniformes camuflados y armas de guerra irrumpieron en el pueblo, se parapetaron en las esquinas de las casas y entre las coberturas de vegetación; al mismo tiempo, un helicóptero sobrevoló la zona ... Leer más...",
       "content": "<p>Al atardecer del lunes 26 de octubre, los vecinos de Anillaco vieron algo que no habían visto nunca: un grupo de soldados con uniformes camuflados y armas de guerra irrumpieron en el pueblo, se parapetaron en las esquinas de las casas y entre las coberturas de vegetación; al mismo tiempo, un helicóptero sobrevoló la zona urbana a muy baja altura para aterrizar entre ráfagas de viento y el estruendo rítmico de los rotores. Los vecinos miraron desorientados el simulacro de ataque y toma de posiciones tácticas del que nadie había dado aviso. Algunos registraron la escena con sus celulares y postearon videos que circularon en redes sociales durante la semana pasada, que luego fueron recogidos por medios locales pero que poco ruido hicieron en los medios nacionales. Eso fue lo que se vio del ejercicio militar Pegaso 6. Casi nadie vio todo lo demás. Durante siete días, entre el viernes 23 y el jueves 29 de octubre, cientos de uniformados de la IV Brigada Aerotransportada de Córdoba desarrollaron operaciones activas en un régimen continuo de veinticuatro horas, abarcando distintas fases de infiltración, marchas tácticas, lanzamientos de paracaidistas y maniobras de simulación de combate en sectores de montaña y en zonas pobladas del norte riojano y el sur de Catamarca. Estuvieron apoyados por logística aérea y terrestre que comprendió un avión C-130 Hércules, helicópteros, y convoyes de vehículos de transporte y exploración terrestre.</p><p>Los ejercicios a campo abierto y lejos de zonas pobladas no generaron impacto público, pero sí abrieron un nuevo frente de conflicto entre el gobierno nacional y la provincia de La Rioja a causa de esta “fase urbana” de entrenamiento castrense.</p><p>¿Qué significan estos ejercicios militares y sorpresivos en zonas pobladas? ¿Qué están planeando las Fuerzas Armadas que comanda Javier Milei? ¿Cómo se enmarcan estos movimientos en los intentos de reformar la Ley de Seguridad Interior y las resignificaciones que el gobierno busca imponer en torno a la elusiva figura jurídica del terrorismo, sus formas y alcances?</p><p>Existen dos versiones de lo que ocurrió por estas horas.</p><p>Un vocero de las fuerzas armadas oscureció más tratando de aclarar el tema en los medios de comunicación provinciales. El sargento Guillermo Álvarez, de Prensa del III Cuerpo, dijo que el ejercicio era parte de la planificación anual del Comando Conjunto, y los pedidos de autorización se habrían enviado en noviembre de 2025 al Poder Ejecutivo Nacional y al Ministerio de Seguridad provincial. Lo describió como un simulacro de combate urbano ante una hipotética invasión enemiga, con el objetivo de recuperar la localidad protegiendo a la población civil.</p><p>Esa información oficial indica que la respuesta de los vecinos “fue positiva” y que el año próximo habrá más ejercicios de este tipo en La Rioja. El secretario de Derechos Humanos de la provincia, Delfor Brizuela, dijo que los ejercicios fueron “formas veladas de amedrentamiento”.</p><p>Las dos versiones —la del gobierno provincial y la de las fuerzas armadas— reconocen que hubo aviso. Un comunicado oficial al que tuvo acceso Anfibia lo confirma. El 28 de septiembre, el comandante de la IV Brigada Aerotransportada, coronel Juan Carlos Cordini, le envió una nota al gobernador Ricardo Quintela con el cronograma de Pegaso 6. Anillaco figura mencionado allí varias veces: ejercicios el domingo y el lunes, un aerodesembarco en el aeródromo, una mesa de incorporación de soldados voluntarios y un desfile de despedida. Lo que la nota no dice es qué se iba a hacer. No hay una palabra sobre combate en zonas habitadas, ni sobre tropas armadas entre las casas, ni sobre la hipótesis de “invasión enemiga” que otro vocero esgrimió después. El objeto declarado de la nota fue “informar”, no solicitar. Un aviso que cumple con la forma pero recae en la opacidad por diseño.</p><p>El gobierno provincial puede haber recibido esa nota y no haberle dado relevancia. Para intendentes y gobernadores, la presencia del Ejército y sus maniobras implican consumo, comercio; poco importa si fuera para entrenamiento contrainsurgente o para liberar al mundo del hambre. La diferencia está en el detalle: qué se informó, cuándo, con qué precisión y si “avisar” equivale a “obtener autorización”. Una conversación implicaría que a uno que habla le interese si del otro lado hay una escucha atenta. En todo caso, desde el punto de vista institucional, no se trata de una mera cuestión de formas y de cortesía, sino de asegurarse de que vecinos y, sobre todo, las autoridades políticas y los funcionarios judiciales locales están o no informados de que habrá maniobras militares en su jurisdicción.</p><p>La Argentina construyó una distinción jurídica tajante entre defensa nacional y seguridad interior. La Ley de Defensa (1988) asigna a las Fuerzas Armadas las agresiones de origen externo. La Ley de Seguridad Interior (1992) deja el orden interno a las policías y fuerzas federales. Estos son los pilares de la arquitectura jurídica en las que deben operar las Fuerzas Armadas en tiempo de paz. Dentro del país pueden —y pasa a ser su obligación eventualmente— aportar apoyo logístico a pedido de un Comité de Crisis o, en casos extremos, como el estado de sitio. Varios países de la región y de Europa tienen arreglos parecidos, aunque los andinos son un caso aparte de continuum entre una esfera y la otra por su experiencia con insurgencias y narcotráfico.</p><p>El ejercicio de La Rioja no parece ser ilegal. La doctrina argentina sí contempla prepararse para combatir a una fuerza extranjera dentro del territorio nacional, y la versión oficial (recuperar una localidad ocupada por un invasor) encaja en esa lógica. Por lo poco que muestran los videos filtrados, se trató sobre todo de entrenamiento de desplazamiento táctico en espacio público.</p><p>El problema es que la frontera entre un uso y otro es ambigua. En la práctica, las técnicas de combate urbano en una localidad habitada (patrullar calles, controlar a la población, distinguir combatientes de civiles) se parecen mucho a las de los manuales de contrainsurgencia urbana. La diferencia entre “recuperar un pueblo ocupado por un ejército extranjero” y “operar en un pueblo contra un enemigo interno” está en la hipótesis declarada, no en lo que hacen los soldados en la calle. Por eso importa si las hipótesis que organizan el ejercicio son públicas y quién las formula.</p><p>Este episodio ocurre además en un contexto específico, que hay que saber leer. El Poder Ejecutivo presentó en agosto de 2024 un proyecto para reformar la Ley de Seguridad Interior y habilitar la intervención de las Fuerzas Armadas en tareas de seguridad interna, que aún no logró aprobar, pero con el que insiste. En diciembre de 2024 modificó el decreto reglamentario de la Ley de Defensa y amplió potencialmente el margen de acción de las Fuerzas Armadas en competencia con las facultades de los auxiliares de justicia. La ampliación del rol militar interno es una agenda explícita del gobierno nacional, y avanza más por decreto que por ley.</p><p>De todas formas, estas grandilocuencias punitivistas siguen siendo refugio de narrativas más emparentadas a la vieja propaganda que a reestructuraciones orgánicas y jurídicas radicales.</p><p>Por eso toda interpretación del cortocircuito riojano debe ser parte de un análisis realista: las FF.AA. no tienen medios, no cobran viáticos, tienen sueldos de miseria, y los militares están haciendo Uber para llegar a fin de mes. Cuidado con caer en la trampa en la que adora caer el progresismo: la de tomar al relato provocador de las fuerzas reaccionarias como si en efecto describiera transformaciones y capacidades reales de intervención del instrumento militar.</p><p>Si el gobierno quisiera forzar los límites de la Constitución Nacional y las leyes, podría hacerlo, como lo hace en la sensible área de Inteligencia o con las fuerzas de seguridad y policiales federales. Pero para ello necesita contar con la connivencia de funcionarios militares; y aquí no parece ser el caso, incluso a pesar de las sobreactuaciones infantiles que protagoniza el ministro de Defensa, Carlos Presti. Los militares aprendieron, más que los policías, que tarde o temprano serán chivos expiatorios de los mismos que los mandan al frente. Y que, en general, los que terminan presos por entusiasmarse en procedimientos reñidos con la legalidad, son ellos mismos, no sus mandantes.</p><p>Lo que sigue son cinco conjeturas. No hay información pública hasta ahora que permita confirmar ninguna, y conviene leerlas así.</p><p>1. ¿Descuido o búsqueda de impacto? Si hubo un objetivo deliberado en la producción de escándalo, el ejercicio militar pudo haber incluido medir el efecto sorpresa: cómo reacciona una población, o un sistema político doméstico, ante un despliegue sin aviso. En caso de no haber sido una maniobra deliberada, el episodio revelaría una planificación que no consideró el impacto potencial sobre los civiles. En cualquiera de los dos escenarios, lo que queda expuesto es la aplicación de doctrinas de empleo que no fueron hechas públicas.</p><p>2. Un mensaje trasandino. La provincia de La Rioja limita con Chile. Un ejercicio de “recuperación de localidad ante invasión” puede leerse en clave de disuasión regional, en perspectiva de los roces recientes por el apoyo logístico chileno a Malvinas y los entredichos por el canal de Magallanes. También podría ser un recurso de amedrentamiento a potenciales agentes chilenos en la población. Espías de esos que no existen pero que los hay, los hay. Aunque Anillaco esté a unos 200 km en línea recta de la frontera, con el cordón del Famatina en medio. Si hubo intención de enviar una señal, operó más en el plano simbólico que en el geográfico. Y si no la hubo, igual existe el riesgo de que se lea así del otro lado de la cordillera. Hasta aquí, los principales medios chilenos no parecen haberle dado mayor importancia.</p><p>3. Ensayar apoyo a la seguridad interior. Si el objetivo era medir reacciones, el ejercicio podría encajar en la doctrina legal que da por posible la intervención militar en entornos urbanos internos, como apoyo a las fuerzas de seguridad. Lo llamativo es que las fuerzas de seguridad no participaron de Pegaso 6. Eso deja abierta tanto una lectura de que se trató de un ejercicio puramente militar mal comunicado, al no tener más información para asegurar o descartar completamente la otra hipótesis más inquietante: una intencionalidad no declarada.</p><p>4. Una señal hacia el gobierno riojano. La relación del gobierno provincial con el gobierno central es abiertamente conflictiva. Además, Anillaco tiene una carga simbólica: es el pueblo natal de Carlos Menem. Un despliegue armado sin coordinación con la provincia puede leerse como una amenaza velada. Es la hipótesis más especulativa y la más difícil de sostener sin evidencia. Pero el desaire institucional existe más allá de la intención.</p><p>5. La normalización de la zona gris. Esta es quizás la lectura más sólida, porque no depende de adivinar intenciones. Cada episodio de este tipo que pasa sin consecuencias —y evidencia de cómo usa la fuerza y el poder punitivo del Estado un gobierno orgullosamente reaccionario— amplía un poco la frontera de lo aceptable. Ese es el sello de Patricia Bullrich, su escuela y su proyección. En tiempos de paz las FF.AA. se tienen que entrenar para la guerra. Pero lo que antes estaba claramente fuera del marco jurídico pasa a un espacio ambiguo y, con el tiempo, se vuelve tolerable para la opinión pública. El dato del vocero sobre la respuesta “sumamente positiva” de los vecinos y el anuncio de más ejercicios apuntan en esa dirección. Lo que se desgasta potencialmente en ese proceso no son solo derechos ciudadanos. También se erosiona la lógica republicana: el control civil y federal sobre el instrumento militar, y el principio de que su empleo se decide por ley y con información pública, no por hechos consumados.</p><p>Hay un antecedente que puede ligarse a este episodio y ocurrió en 2018, cuando el entonces presidente Mauricio Macri y la entonces ministra de Seguridad Patricia Bullrich, supervisaron in situ el avance y despliegue de quinientos soldados argentinos hacia la frontera con Bolivia en un operativo que fue presentado formalmente como un refuerzo para la lucha contra el narcotráfico y el contrabando. El despliegue se ejecutó apenas tres semanas después de que el gobierno aprobara tres decretos clave de la reforma militar: el Decreto 683/2018, que modificó la reglamentación de la Ley de Defensa Nacional para permitir la intervención de las Fuerzas Armadas ante amenazas no estatales (como el terrorismo o narcotráfico internacional),; el Decreto 684/2018, que adecuó las estructuras del Estado Mayor Conjunto y el esquema operativo para desplegar tropas en la vigilancia fronteriza (Operación Integración Norte); y el Decreto 703/2018, que aprobó una Directiva de Política de Defensa Nacional (DPDN) que redefinía la actuación militar, incorporando el patrullaje del del ciberespacio.</p><p>En 2018, la Asamblea Popular de la Puna denunció que esa militarización de la región respondía a un acuerdo de cooperación firmado en 2016 con la Guardia Nacional de Georgia (parte del Ejército de los Estados Unidos) para desplegar presencia armada y control diplomático en zonas ricas en recursos naturales clave como el litio.</p><p>Dos años después, el presidente Alberto Fernández anuló por decreto la reforma militar de Macri y restableció la doctrina del Decreto 727 firmado en 2006 por Néstor Kirchner, volviendo a restringir la actuación de las Fuerzas Armadas de forma estricta ante agresiones extranjeras. Como si fuera un partido de tenis que se juega en silencio, a fines de diciembre de 2024, Javier Milei volvió a derogar el decreto reglamentario reinstaurado en 2020 y firmó una nueva normativa, que abrió la posibilidad de que las Fuerzas Armadas actúen ante agresiones no estatales y asuman la protección de infraestructuras y objetivos de valor estratégico en el país.</p><p>Milei no se limitó a firmar decretos y tambíen habilitó ejercicios militares que generaron preguntas y polémicas, como la Operación Daga Atlántica, que se realizó entre abril y junio de este año en el Atlántico Sur, con 400 efectivos del Estado Mayor Conjunto y componentes del Comando Sur de Estados Unidos.</p><p>En julio, el canciller argentino Pablo Quirno tuvo una participación protagónica en la Reunión Ministerial sobre el Resurgimiento del Terrorismo Político, que encabezó el secretario de Estado, Marco Rubio, en Washington. La cumbre reunió a representantes de más de 60 países para coordinar acciones globales frente a las amenazas como el terrorismo de extrema izquierda y el islamismo. El encuentro se centró en fortalecer el intercambio transnacional de inteligencia, y la prevención de ataques Quirno fue el único representante extranjero que expuso durante el almuerzo oficial, donde ratificó el alineamiento estratégico del país con la agenda de la administración norteamericana y el compromiso en la cooperación de inteligencia y seguridad. La cumbre tendrá un segundo capítulo este mes en Alemania.</p><p>El ejercicio Pegaso 6 en la zona poblada de Anillaco no puede leerse como un acontecimiento aislado, sino en el hilo de las reformas militares que impulsan los gobiernos de derecha desde tiempos de Macri y donde las relaciones internacionales marcan una agenda política y militar clara, que va corriendo los límites de lo pensable y de lo posible.</p><p>La entrada Milei juega a los soldaditos se publicó primero en Revista Anfibia.</p>",
       "url": "https://www.revistaanfibia.com/milei-juega-a-los-soldaditos/",
-      "image": "https://www.revistaanfibia.com/wp-content/uploads/2026/11/Pegado_6_01_port.jpg",
+      "image": null,
       "publishedAt": "2026-11-02T13:33:07+00:00",
       "sourceId": "anfibia",
       "sourceName": "Revista Anfibia",
@@ -4678,6 +4708,26 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
+      "id": "cuestionpublica-5deed56d61",
+      "title": "¿El presidente humilla y degrada a algunos capturados? Análisis",
+      "summary": "Es cierto, los operativos en que Abelardo De la Espriella, presidente de Colombia, sale increpando a detenidos con palabras como “bandido” o “payaso”, antes de que sean legalizadas sus capturas, que haya un juicio y por lo tanto, una sentencia condenatoria en firme, nos hacen preguntarnos porque no se están dando todas las plenas...",
+      "content": "<p>Es cierto, los operativos en que Abelardo De la Espriella, presidente de Colombia, sale increpando a detenidos con palabras como “bandido” o “payaso”, antes de que sean legalizadas sus capturas, que haya un juicio y por lo tanto, una sentencia condenatoria en firme, nos hacen preguntarnos porque no se están dando todas las plenas garantías a estos detenidos.</p><p>La entrada ¿El presidente humilla y degrada a algunos capturados? Análisis se publicó primero en Cuestión Pública.</p>",
+      "url": "https://cuestionpublica.com/el-presidente-humilla-y-degrada-a-algunos-capturados-analisis/",
+      "image": "https://cuestionpublica.com/wp-content/uploads/2026/11/Cover-aguzate-capturas-Abelardo_11zon.jpeg",
+      "publishedAt": "2026-10-31T01:39:48+00:00",
+      "sourceId": "cuestionpublica",
+      "sourceName": "Cuestión Pública",
+      "sourceType": "Periodismo de Datos y Poder",
+      "sourceSite": "https://cuestionpublica.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "ciclismo-chile-a11749aea6",
       "title": "Más de 2.200 ciclistas participarán en Valdivia en la primera edición de L’Étape Chile by Tour de France",
       "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4698,6 +4748,26 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
+      "id": "cuestionpublica-61e28d591c",
+      "title": "La presidenta de la SAE fue abogada del Clan Char en un proceso penal que continúa abierto",
+      "summary": "Cuestión Pública encontró que, desde 2020, la actual presidenta de la SAE, Diana Bravo Vélez, fue la abogada de Alejandro Char en un proceso por fraude procesal y prevaricato que la Fiscalía ha intentado precluir tres veces este año. La entrada La presidenta de la SAE fue abogada del Clan Char en un proceso penal que continúa abierto...",
+      "content": "<p>Cuestión Pública encontró que, desde 2020, la actual presidenta de la SAE, Diana Bravo Vélez, fue la abogada de Alejandro Char en un proceso por fraude procesal y prevaricato que la Fiscalía ha intentado precluir tres veces este año.</p><p>La mujer que hoy administra los bienes incautados a los grupos al margen de la ley en Colombia fue la abogada de Alejandro Char, actual alcalde de Barranquilla y heredero del control del ‘Clan Char’, en un proceso penal que sigue abierto por medio de la firma De La Espriella Lawyers.</p><p>Diana Patricia Bravo Vélez llegó en agosto de 2026 a la presidencia de la Sociedad de Activos Especiales (SAE), nombrada por Abelardo De la Espriella, que hasta julio era su socio en De la Espriella Lawyers. En noviembre de 2020, Bravo firmó ante la Fiscalía de Barranquilla como «apoderada judicial del señor Alejandro Char Chaljub».</p><p>El expediente, con radicado 080016001257201600030, investiga a Char por fraude procesal y prevaricato en su primer periodo como alcalde de Barranquilla. Se trata de hechos que se remontan a 2008. Dieciocho años después, la Fiscalía lo mantiene activo y en indagación, aunque en 2026 pidió tres veces precluirlo. La última vez fue el 18 de junio, tres días antes de la segunda vuelta presidencial.</p><p>Mientras el expediente contra Alejandro Char dormía en la Fiscalía, la firma De La Espriella Lawyers que lo había defendido contrataba con su alcaldía. El 20 de febrero de 2026, 28 días después del contrato de $357 millones con la Alcaldía de Char, la Fiscalía pidió por primera vez precluir el proceso por atipicidad.</p><p>En un segundo intento, volvió a pedirlo el 15 de mayo, dos semanas antes de la primera vuelta presidencial. Ningún juez ha cerrado el caso.</p><p>El 7 de agosto, De la Espriella se posesionó como presidente y siete días después, el 14 de agosto, la Alcaldía de Barranquilla le adjudicó a la firma otro contrato directo, por $297,5 millones. El 19 de agosto, Diana Bravo, la abogada que sustituyó a De la Espriella durante el proceso penal contra Alejandro Char, fue nombrada presidenta de la Sociedad de Activos Especiales.</p><p>Antes de que Abelardo De la Espriella, el exsocio de Diana Bravo según su perfil de LinkedIn, entrara a la carrera presidencial, su firma ya contrataba recibiendo dineros públicos del Atlántico. Entre diciembre de 2024 y abril de 2025, De la Espriella Lawyers Enterprise firmó dos contratos por $642.896.000. El primero fue con la Gobernación del Atlántico, por $47,9 millones, en diciembre de 2024. El segundo, con la Alcaldía de Barranquilla de Alejandro Char, por $595 millones, el 11 de abril de 2025.</p><p>El comité del movimiento Defensores de la Patria, con el que De la Espriella se lanzó a la Presidencia, se inscribió el 16 de julio de 2025. Desde entonces, la firma sumó cuatro contratos más con las mismas dos entidades, por $854.500.000.</p><p>La Gobernación del Atlántico le adjudicó $100 millones en julio de 2025 y otros $100 millones en enero de 2026. La Alcaldía de Char le adjudicó $357 millones en enero de 2026, en plena campaña, y $297,5 millones el 14 de agosto de 2026, una semana después de la posesión presidencial. En total, la firma ha recibido $1.497.396.000 de ambas entidades desde diciembre de 2024, y el 57 % de ese dinero se contrató después de que su fundador se convirtiera en candidato.</p><p>Después de esta fecha, el SPOA no registra ninguna actividad investigativa hasta la primera solicitud de preclusión, en febrero de 2026. 23 ene2026ContratoAlcaldía de Barranquilla contrata a De la Espriella Lawyers$357.000.000Contrato CD-45-2026-5021, por contratación directa: defensa judicial y extrajudicial del Distrito de Barranquilla. Ver en SECOP 29 ene2026ContratoGobernación del Atlántico contrata a De la Espriella Lawyers$100.000.000Contrato 202602197, por contratación directa: apoyo a la Secretaría General en actuaciones jurídicas administrativas. Ver en SECOP 20 feb2026FiscalíaPrimera solicitud de preclusión por atipicidadEl SPOA registra una solicitud de preclusión por atipicidad del hecho investigado, es decir, por considerar que los hechos no constituyen delito. Llega 28 días después del contrato de $357 millones con la Alcaldía de Char. 15 may2026FiscalíaSegunda solicitud de preclusión por atipicidadSegunda anotación en el SPOA, dos semanas antes de la primera vuelta presidencial. 31 may2026PolíticaPrimera vuelta presidencialAbelardo de la Espriella, fundador de la firma, compite por la Presidencia con el movimiento Defensores de la Patria. 18 jun2026FiscalíaTercera solicitud de preclusión por atipicidadEs la última anotación del SPOA, tres días antes de la segunda vuelta presidencial (21 de junio). Ninguna decisión judicial aparece en el registro, y el caso sigue activo y en indagación. 7 ago2026PolíticaDe la Espriella se posesiona como presidenteEl abogado que fue apoderado de Alejandro Char llega a la Casa de Nariño. 14 ago2026ContratoAlcaldía de Barranquilla contrata de nuevo a la firma$297.500.000Contrato CD-45-2026-9146, por contratación directa, siete días después de la posesión presidencial: defensa judicial y extrajudicial del Distrito. Ver en SECOP 19 ago2026PolíticaDiana Bravo, exapoderada de Char, es nombrada presidenta de la SAEDe la Espriella la nombra con el Decreto 1255 de 2026. Bravo había recibido en 2020 la sustitución del poder de Char en este mismo proceso. Ver decreto Contratos de la firma en 2026$754.500.000 Valores reportados en SECOP. La coincidencia de fechas no implica una relación causal entre los contratos y las actuaciones judiciales. Cuestión Pública De ser abogada de clanes políticos a administrar bienes de grupos al margen de la ley Bravo fue fiscal antes de ser abogada de la firma. Entró a la Fiscalía en 2003 como investigadora judicial II en Cali y llegó a directora seccional de Fiscalías, primero en Valledupar y después en Barranquilla.</p><p>Antes había sido asesora jurídica del Ejército, abogada de control interno de la Alcaldía de Cali y abogada externa de la empresa Calitubos. Es especialista en Alta Gerencia y en Derecho Administrativo, y tiene una maestría en Administración (MBA).</p><p>En 2015 entró a De la Espriella Lawyers Enterprise como directora administrativa y jurídica. Fue socia de la firma hasta julio de 2026.</p><p>En la campaña presidencial formó parte del comité inscriptor del movimiento Defensores de la Patria, que recogió las firmas de la candidatura de De la Espriella. También manejó el dinero de la campaña.</p><p>El 19 de agosto de 2026, con el Decreto 1255, De la Espriella aceptó la renuncia de Amelia Pérez a la SAE y nombró a Bravo en su lugar.</p><p>Abelardo de la EspriellaPresidente SAEBienes incautados a gruposal margen de la ley De la EspriellaLawyers Enterprise Clan CharAlcaldía de Barranquilla Diana BravoPresidenta de la SAE Socia y tesorera Su abogada Apoyo electoral $1.249 M en contratos Predios del narcoparamilitar«Comandante Barbie» Con De la EspriellaFue su apoderada sustituta, su socia y la tesorera de su campaña. Hoy es su funcionaria. Con CharLo representó ante la Fiscalía de Barranquilla, la misma ciudad donde antes dirigió la seccional de Fiscalías. RAYA reporta que De la Espriella ha sido abogado de la familia Char y que Alejandro Char ha sido su principal cliente en ese clan (RAYA). Char con el gobiernoLa casa Char respaldó la candidatura de De la Espriella, y su aliada Elsa Noguera es ministra de Transporte (Cambio). Char con la firmaLa Alcaldía de Barranquilla le adjudicó a De la Espriella Lawyers tres contratos directos por $1.249,5 millones en 2025 y 2026. El último se firmó una semana después de la posesión presidencial. La SAE con el presidenteVorágine reportó que varios predios vecinos del terreno de De la Espriella en el Cesar, propiedad de alias Comandante Barbie o de sus familiares, estuvieron en poder de la SAE. Cuestión Pública Los documentos que incluyen a Alejandro Char El poder (agosto de 2020). En papel membretado de De la Espriella Lawyers Enterprise, Abelardo de la Espriella se dirige al fiscal 56 seccional de Patrimonio Económico de Barranquilla, Gustavo Orozco. Se presenta como apoderado de Alejandro Char Chaljub y sustituye ese poder a Diana Bravo, con facultades para recibir, desistir, transigir, conciliar y recurrir, entre otras funciones. En el asunto figuran el denunciante, Fabián Araujo Polo; el denunciado, Char; y el radicado 080016001257201600030.</p><p>La suplencia (noviembre de 2020). Bravo firma «en mi calidad de Apoderada Judicial del señor Alejandro Char Chaljub» y designa como apoderada suplente a otra abogada de la firma. Las dos usan correos del dominio lawyersenterprise.com.</p><p>El correo del fiscal (11 de noviembre de 2020). A las 10:33 a. m., Bravo radica la sustitución y la suplencia en un buzón de la Fiscalía. El mensaje se reenvía ese día a Gustavo Adolfo Orozco Pertuz. A las 5:27 p. m., Orozco responde a las dos abogadas: acusa recibo y les da su correo institucional y el de su asistente. Firma como F-56 Seccional, Unidad de Patrimonio Económico.</p><p>Orozco Pertuz es el fiscal que, según Araujo, nunca acusó a Char. RAYA lo describe como un fiscal conocido en Barranquilla por su cercanía a la familia Char. También reporta que paga una condena de tres años por prevaricato por omisión, confirmada por la Corte Suprema, en otro caso: el del ex rector de la Universidad Metropolitana, Jaller Raad. Según esa sentencia, retardó sin justificación las órdenes de trasladar aquel expediente a Bogotá (RAYA).</p><p>El caso que Bravo llevó por Char sigue abierto. Al 29 de octubre de 2026, el SPOA lo registra activo, en etapa de indagación y asignado a la Fiscalía 5 Seccional de la Dirección Especializada contra la Corrupción en Barranquilla. Los delitos registrados son fraude procesal (artículo 453 del Código Penal) y prevaricato por acción (artículo 413).</p><p>Los hechos datan del 8 de mayo de 2008, durante la primera alcaldía de Char. Ese día se firmó la escritura 740, con la que, según la denuncia de Araujo, Char declaró baldíos 38 hectáreas privadas de La Loma y las adjudicó al Distrito para el proyecto urbanístico que desarrolló Edubar. Araujo representa a las familias que reclaman esos predios (RAYA).</p><p>En 2026, la Fiscalía pidió tres veces la preclusión por atipicidad, es decir, alegando que los hechos no constituyen delito. La última solicitud es del 18 de junio, semanas después de la primera vuelta presidencial. La decisión le corresponde a un juez, y el caso sigue activo.</p><p>La Fiscalía usó la misma causal el 6 de julio de 2026 en el caso de Elsa Noguera sobre el POT de La Loma, un día antes de que se anunciara su llegada al gobierno, según RAYA.</p><p>Cuestión Pública, en aras de la transparencia y el equilibrio informativo, le envió preguntas a Diana Bravo el 30 de octubre sobre su representación de Alejandro Char y sus posibles conflictos de interés en la SAE. Al cierre de esta edición no se ha recibido respuesta alguna.</p><p>La entrada La presidenta de la SAE fue abogada del Clan Char en un proceso penal que continúa abierto se publicó primero en Cuestión Pública.</p>",
+      "url": "https://cuestionpublica.com/la-presidenta-de-la-sae-fue-abogada-del-clan-char-en-un-proceso-penal-que-continua-abierto/",
+      "image": "https://cuestionpublica.com/wp-content/uploads/2026/10/Cover-SAE_11zon.jpg",
+      "publishedAt": "2026-10-30T21:48:49+00:00",
+      "sourceId": "cuestionpublica",
+      "sourceName": "Cuestión Pública",
+      "sourceType": "Periodismo de Datos y Poder",
+      "sourceSite": "https://cuestionpublica.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "chequeado-66a9e4d8d9",
       "title": "Festival AM Clics: todos somos parte",
       "summary": "Nota publicada por Chequeado (Fact-Checking Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4716,6 +4786,26 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 80,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "cuestionpublica-8fbbebfa45",
+      "title": "El horror a plena vista",
+      "summary": "Hay delitos que ocurren a escondidas y hay delitos que, de alguna manera, hemos aprendido a esconder nosotros. La explotación sexual de niños, niñas y adolescentes pertenece a esa segunda categoría. La entrada El horror a plena vista se publicó primero en Cuestión Pública .",
+      "content": "<p>Hay delitos que ocurren a escondidas y hay delitos que, de alguna manera, hemos aprendido a esconder nosotros. La explotación sexual de niños, niñas y adolescentes pertenece a esa segunda categoría. No porque nadie sepa que existe, sino porque resulta más cómodo imaginar que sucede lejos, en lugares oscuros de internet, entre delincuentes anónimos, en algún rincón de la red al que una persona normal jamás llegaría. Aunque es una fantasía bastante tranquilizadora. También es falsa.</p><p>Las redes que encontramos funcionaban con una lógica casi empresarial. Una cuenta conduce a otra. Un espacio lleva a otro. Un grupo desaparece y poco después aparece uno nuevo. Un enlace es eliminado y otro ocupa su lugar. Algunas personas intentan captar usuarios, otras ofrecen material, otras cobran, otras amenazan. Y en medio de toda esa circulación hay algo que parece perderse deliberadamente, que detrás de cada archivo no hay un archivo, sino un niño. Parece una obviedad, pero quizá haga falta repetirla porque una de las formas más eficaces de deshumanizar a una víctima es convertirla en contenido.</p><p>Internet ha hecho algo particularmente perverso con esta violencia, la volvió reproducible. Un abuso puede ocurrir una vez, pero la imagen del abuso puede circular durante años. Una víctima puede haber salido de aquella situación y, sin embargo, aquello que le hicieron puede continuar pasando de una pantalla a otra. Se puede borrar una publicación, cerrar una cuenta, eliminar un enlace. Lo que no se puede hacer con la misma facilidad es borrar la circulación que ya ocurrió. La tecnología es extraordinariamente eficiente para multiplicar el daño y bastante menos eficiente para impedirlo.</p><p>Y aquí aparece Colombia. Un país que no puede decir que carece de leyes para enfrentar el problema. Existen normas que castigan la producción, distribución, comercialización, posesión y transmisión de material de explotación sexual de menores. En 2025 se aprobó además una ley destinada específicamente a promover entornos digitales seguros para niños y adolescentes, con obligaciones para el Estado, las familias y las empresas, y con la creación prevista de un sistema integral de monitoreo para detectar y prevenir riesgos como la explotación sexual en línea. Es decir, normas hay. Lo que la realidad obliga a preguntarnos es otra cosa, ¿qué tan rápido consiguen esas normas alcanzar un delito que cambia de forma cada vez que alguien intenta cerrarle una puerta?</p><p>Porque ahí está uno de los vacíos que más deberían preocuparnos. No necesariamente la ausencia absoluta de una norma, sino la distancia entre lo que la norma dice y lo que ocurre en la pantalla. El Congreso puede aprobar una ley, el Gobierno puede reglamentarla y las plataformas pueden anunciar mecanismos de protección. Pero mientras todos esos procesos ocurren, quienes producen, distribuyen o buscan este material pueden trasladarse a otro espacio, cambiar una palabra, crear otra cuenta o reconstruir una comunidad. El delito no necesita esperar una reglamentación. La burocracia sí.</p><p>Hay algo casi absurdo en esa desigualdad de velocidades. Una plataforma puede tardar segundos en recomendarle a una persona un video porque sabe qué le interesa, qué mira, cuánto tiempo permanece frente a la pantalla y qué probablemente verá después. Sin embargo, cuando se trata de detectar que detrás de una cuenta puede existir explotación sexual infantil, la respuesta parece necesitar denuncias, reportes, investigaciones, solicitudes de información y procedimientos que pueden atravesar distintas instituciones. La tecnología corre. La justicia camina.</p><p>Y entonces solemos hacer lo más sencillo, trasladar la responsabilidad a las familias. Hay que vigilar a los niños, decimos. Hay que revisarles el teléfono. Hay que enseñarles los peligros de internet. Hay que hablar con ellos. Todo eso es necesario, pero también es insuficiente. Porque resulta bastante cómodo pedirle a una madre o a un padre que controle cada rincón de internet mientras las empresas que construyeron esos espacios disponen de tecnologías capaces de conocer hasta nuestros hábitos de consumo más insignificantes. ¿De verdad la protección de un niño puede depender solamente de que su padre sepa qué aplicación está utilizando esa semana?</p><p>Los niños no construyeron estas plataformas. Tampoco diseñaron sus sistemas de recomendación, sus mecanismos de mensajería, sus herramientas de anonimato ni sus formas de moderación. Son los adultos quienes construimos este internet y quienes establecemos las reglas bajo las cuales funciona. Por eso resulta extraño que cada vez que aparece un nuevo riesgo digital la primera respuesta sea decirle al menor que tenga cuidado. Como si el niño fuera el responsable de sobrevivir en un territorio diseñado por adultos.</p><p>Lo más grave es que la explotación sexual infantil no existe solamente porque haya personas dispuestas a producirla. Existe porque hay personas dispuestas a consumirla. Hay una demanda. Hay dinero. Hay intercambio. Hay personas que pagan, personas que distribuyen, personas que buscan y personas que intentan conseguir nuevas víctimas. La pantalla permite que toda esa cadena pueda organizarse sin que sus integrantes tengan que encontrarse físicamente. Y esa distancia produce una ilusión particularmente peligrosa, la sensación de que lo que ocurre detrás de una pantalla no tiene una víctima delante.</p><p>Tiene una cara, aunque no la veamos. Tiene miedo, aunque no lo escuchemos. Tiene una familia, aunque no sepamos su nombre. Tiene una vida que continúa después de que alguien descarga, comparte o vende aquello que nunca debió convertirse en mercancía.</p><p>Quizá por eso resulta tan preocupante la manera en que estos comportamientos terminan normalizándose dentro de determinados espacios digitales. Primero se inventan palabras para no decir lo que realmente se está buscando. Después aparecen categorías para organizar aquello que no debería poder organizarse. Finalmente, el lenguaje consigue que una agresión parezca un producto. Y cuando la violencia empieza a parecer un producto, todo lo demás se vuelve más sencillo, ponerle precio, intercambiarla, almacenarla, venderla.</p><p>Ese es uno de los efectos más perversos de la pantalla, puede convertir una tragedia humana en un archivo sin rostro.</p><p>Por eso la discusión no puede limitarse a si una plataforma eliminó o no una publicación. Esa es una parte del problema, pero no todo el problema. La pregunta debería ser qué ocurre después. Qué pasa con quienes distribuyeron el contenido. Qué ocurre con quienes lo compraron. Cómo se identifica a quienes lo producen. Cómo se protege a las víctimas. Cómo se comparte información entre las instituciones. Cómo se actúa cuando las personas involucradas están en diferentes países. Cómo se persigue una red que puede cambiar de plataforma antes de que una investigación termine de identificarla.</p><p>Ahí es donde la discusión sobre los vacíos judiciales y digitales se vuelve realmente importante. No basta con tener un delito escrito en un código penal si la infraestructura del delito se transforma más rápido que la capacidad institucional para investigarlo. No basta con cerrar una cuenta si detrás de ella existen diez más. No basta con retirar un contenido si ya fue replicado. No basta con decir que hay mecanismos de denuncia si la víctima o su familia no saben dónde acudir o qué sucederá después de hacerlo.</p><p>Y tampoco basta con que cada nueva tragedia produzca una nueva promesa de regulación.</p><p>Colombia ha legislado. Ha creado obligaciones. Ha intentado fortalecer la protección digital de los menores. El problema es que una ley, por sí sola, no vigila una pantalla a las tres de la mañana. Una ley no identifica automáticamente a quien utiliza una identidad falsa para acercarse a un menor. Una ley no impide que un archivo vuelva a aparecer después de haber sido eliminado. Una ley tampoco consigue, por sí sola, que todas las instituciones trabajen con la misma información y a la misma velocidad.</p><p>Ese es el verdadero desafío, conseguir que la protección exista antes de la víctima y no únicamente después de ella.</p><p>Porque hasta ahora parece que tenemos una maquinaria diseñada para reaccionar. Alguien denuncia, entonces investigamos. Alguien descubre, entonces retiramos. Alguien es víctima, entonces buscamos al responsable. Y quizá deberíamos empezar a preguntarnos por qué aceptamos como normal que la protección llegue después del daño.</p><p>Mi investigación no descubrió todo. Ni siquiera estuvo cerca. Descubrió una pequeña muestra de un fenómeno que parece mucho más grande, una serie de puertas que conducían a otras puertas. Y eso debería ser suficiente para entender que el problema no desaparece cuando desaparece una cuenta. El problema existe mientras haya demanda, mientras haya personas dispuestas a pagar, mientras existan espacios que puedan utilizarse para captar víctimas y mientras la respuesta institucional llegue después de que el delito ya cambió de lugar.</p><p>Lo verdaderamente preocupante, entonces, no es que existan rincones oscuros en internet. Eso casi sería lo esperable. Lo preocupante es que algunos de esos rincones puedan abrirse en lugares que usamos todos los días y que, aun cuando son descubiertos, vuelvan a aparecer bajo otra forma.</p><p>Nos gusta decir que los niños son el futuro. Es una frase bonita, de esas que funcionan bien en discursos y campañas. Pero un niño no necesita ser el futuro para merecer protección. Necesita estar protegido ahora. En este momento. En la pantalla que tiene delante. En el teléfono que lleva en el bolsillo. En la plataforma que le promete entretenimiento. En el mensaje que recibe de alguien que no conoce.</p><p>Y ahí es donde la pregunta deja de ser tecnológica y se vuelve política, judicial y moral, si sabemos que estas redes existen, si sabemos cómo se desplazan y si sabemos que las víctimas son menores, ¿por qué seguimos llegando después?</p><p>Porque ese es el punto en el que esta historia deja de hablar solamente de internet y empieza a hablar de nosotros.</p><p>De un país que puede tener leyes y, aun así, tener víctimas. De plataformas que pueden tener reglas y, aun así, tener agujeros. De instituciones que pueden investigar y, aun así, llegar tarde. Y de una sociedad que dice proteger a los niños mientras todavía parece estar aprendiendo a protegerlos del mundo que nosotros mismos construimos para ellos.</p><p>El delito corre más rápido que la justicia. La pregunta, entonces, no debería ser si podemos alcanzarlo algún día. Debería ser por qué seguimos permitiéndole tanta ventaja.</p><p>*La Tribuna es el espacio de columnas de pensamiento de nuestros analistas y expertos en Cuestión Pública. Sus contenidos no comprometen al medio.</p><p>La entrada El horror a plena vista se publicó primero en Cuestión Pública.</p>",
+      "url": "https://cuestionpublica.com/el-horror-a-plena-vista/",
+      "image": "https://cuestionpublica.com/wp-content/uploads/2026/10/Maria-Navarro-2-e1793392576396.jpg",
+      "publishedAt": "2026-10-30T20:05:56+00:00",
+      "sourceId": "cuestionpublica",
+      "sourceName": "Cuestión Pública",
+      "sourceType": "Periodismo de Datos y Poder",
+      "sourceSite": "https://cuestionpublica.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "laderasur-22f30ef485",
@@ -4743,7 +4833,7 @@
       "summary": "Colaboraron en esta investigación Giselle Leclercq y un periodista cuya identidad mantenemos en reserva. “No queremos que nos persigan, ni que nos prendan, ni que nos discriminen, ni que nos maten, ni que nos curen, ni que nos analicen, ni que nos expliquen, ni que nos toleren, ni que nos comprendan: lo que queremos es ... Leer más La...",
       "content": "<p>Colaboraron en esta investigación Giselle Leclercq y un periodista cuya identidad mantenemos en reserva.</p><p>“No queremos que nos persigan, ni que nos prendan, ni que nos discriminen, ni que nos maten, ni que nos curen, ni que nos analicen, ni que nos expliquen, ni que nos toleren, ni que nos comprendan: lo que queremos es que nos deseen”</p><p>Se ponen de pie para hacer la fila en el pasillo abierto entre las sillas de plástico ordenadas una detrás de otra. Después de una brevísima procesión de diez personas, llega el turno de Julián para la ministración. El servidor, un muchacho joven que bastonea la ceremonia con el micrófono en la mano, se aproxima hasta quedar cara a cara con él. Se inclina suavemente hacia su oído derecho y apoya su mano libre, rutilante, en el hombro izquierdo de Julián, que cierra los ojos entregado. Es la imposición de manos. El servidor le susurra una oración personalizada:</p><p>— Oh padre poderoso, que tu fuerza rompa el quebranto.</p><p>Julián intenta renunciar al espíritu de la homosexualidad que lo agobia. Lo habita, lo ocupa. No sabe bien por qué, pero tiene claro que hay que expulsarlo.</p><p>Aquí las palabras importan mucho. Para Julián, muchos de los conceptos que escucha son nuevos. Más temprano, anotó en un chat consigo mismo en su celular:</p><p>-Restaurar es trabajarte para dejar entrar a Jesús y dejar de ser un quebrantado.</p><p>-Alabanza es el culto, la ceremonia en sí misma.</p><p>-Ministeriar es que te hagan el rezo en el oído e imposición de manos.</p><p>-Lesbianismo y homosexualidad son antidiseño. Estar solo o sola también es antidiseño. El anticristo es el máximo exponente del antidiseño. El diseño es la familia. El diseño original: mujer, varón. Hay formas de vencer al antidiseño.</p><p>Julián pagó $200.000 para atravesar esta experiencia de la que están participando 144 personas: el XIII Retiro de Restauración Emocional, Relacional, Sexual y Espiritual “UN BRAZO EXTENDIDO”. Tres jornadas de cultos diarios, charlas sobre distintos temas con pastores, exposiciones de participantes que comparten sus historias de vida de superación y dinámicas grupales de discusión que llaman plenarias.</p><p>Captura de la página web del Ministerio Mano Fuerte Brazo Extendido.</p><p>Esta es la noche de renuncias, el punto climático del line up del encuentro. A Julián le explicaron, más temprano, con un didáctico power point proyectado en una pantalla en este mismo salón, que este es el inicio de un proceso de restauración que tiene seis columnas: el grupo vivencial, el grupo de oración, el seguimiento pastoral, la iglesia, la sanidad interior y la terapia individual. Le prometieron restaurar esa programación que falló. Como si fuese posible promptear el deseo y la identidad de un humano.</p><p>Son las diez de la noche del sábado 10 de octubre de 2026 en la capilla del gigantesco predio del Patronato de la Infancia, en Benavídez, al norte del conurbano bonaerense. En la entrada puede leerse en latín: “Sinite parvulos venire ad me”. En castellano: “Dejad que los niños vengan a mí”. Durante cuatro décadas este lugar funcionó como un internado infantil. Hoy ya no hay niños pobres abandonados pero sí más de un centenar de jóvenes adultos que van a pasar el fin de semana encerrados y que dormirán en las mismas habitaciones que, antes, ocupaban las criaturas sin familias.</p><p>Foto institucional del Patronato de la Infancia en Benavidez.</p><p>Afuera, la estela de una tormenta acaricia con su humedad los pinos del patio. Adentro, una banda no deja de animar con música constante en vivo: un tecladista, una guitarra criolla, una batería y dos cantores acompañan el ritual. La melodía es envolvente, sale por dos parlantes enormes y marca un pulso, una frecuencia inexorable para quienes están ahí. Todo se mueve al ritmo de una coreografía inmersiva en loop constante. Los sonidos son celestiales y la letra es un mantra de fácil repetición. El público observa la ceremonia: algunas personas lo hacen sentadas, otras se abrazan, están las que quedaron jadeando después de la imposición de manos y alguna se está recuperando de un desmayo. Hay personas de distintas edades y lugares: una chica que viajó desde Rosario, un muchacho que vino desde el barrio de Flores, otro que vive en Palermo. Son trabajadores, algunos profesionales. Cada cual vino a renunciar a distintos espíritus del mal. Hay una lista de ellos: el temor y las emociones, la enfermedad, las mentiras y engaños, el anticristo, el desorden sexual, los vicios y las adicciones, la pobreza y el orgullo.</p><p>Una semana atrás, además de la transferencia, lo primero que hizo Julián para inscribirse a este retiro fue completar un formulario en línea y marcar con una X el tipo de problemática que lo llevó hasta aquí: AMSI (Atracción al mismo sexo indeseada) es la primera opción de la lista. Después le siguen: adicción sexual (hipersexualidad), adicción al juego, adicción a sustancias, abandonado/a, abandonó a alguien, abuso sexual recibido, abusé de alguien, alcoholismo, ansiedad, TOC, depresión, masturbación compulsiva, pornografía, obesidad, satanismo - ocultismo, abuso verbal de alguien. No hay jerarquías. Todas las problemáticas parecen poder abordarse igual.</p><p>Cuando llegó a Benavídez, Julián tuvo que completar un formulario similar y firmar: “Declaro que mi participación como asistente al Retiro de Restauración Espiritual, Emocional, Relacional y Sexual ‘UN BRAZO EXTENDIDO’ de los días 9 al 12 de Octubre 2026 realizado por el Ministerio Mano Fuerte Brazo Extendido ha sido en forma voluntaria, tras haberme contactado con el mismo para recibir ayuda, orientación o capacitación”. El vocabulario importa y que quede por escrito el consentimiento también. Además le pidieron que no cuente afuera lo que pasa adentro del retiro.</p><p>Pero Julián no se llama así. Ni cree en nada de lo que escucha los tres días que pasa encerrado en este culto evangélico pentecostal del que está participando por primera vez en su vida. Todo lo que lo rodea le parece una puesta en escena tan ficticia como el personaje que está interpretando. Es que, en realidad, él es periodista. Nadie lo sabe. Es un infiltrado con una misión: confirmar que las terapias de conversión siguen existiendo en Argentina. Para estar aquí dijo ser un joven preocupado y conflictuado porque se siente atraído por otro hombre. El periodista que interpreta a Julián es gay desde los 17. Hoy tiene 36. En su vida real nunca fue un problema el lugar donde coloca el deseo sino más bien todo lo contrario: decirlo fuerte y claro se convirtió en un escudo y en el hechizo que rompió todas las expectativas de género que pesaron sobre él de chico. No es religioso. Apenas está bautizado. De todos modos, cuando el servidor le impone su mano y él cierra los ojos, se quiebra. Su mejilla queda enlagrimada. El servidor lo abraza y respiran hondo los dos. Julián vuelve a su silla en un silencio introspectivo. Está conmovido. El periodista. Lo inefable que le parecía toda esta puesta en escena de repente le remite a algo profundo y bien concreto que no puede poner en palabras. Llora de verdad.</p><p>En el país que fue pionero en el mundo en legislar y reconocer la identidad de género y primero en tener una ley de matrimonio igualitario en toda América Latina y el Caribe, todavía persisten las mal llamadas “terapias de conversión”. En 2026 aún hay jóvenes que asisten a estos espacios religiosos y/o también a consultorios psicológicos donde les dicen que es posible modificar su orientación sexual, reacomodar su identidad o expresión de género. Hay muchos que sobrevivieron para contar sus experiencias y sus historias evidencian que quedan secuelas a largo plazo, no hay dispositivos especializados para acompañarlos y la falta de leyes específicas dificulta su prevención y sanción.</p><p>Pero además son una estafa, una especie de ponzi espiritual.</p><p>Quienes las ofrecen cobran por eso y prometen una solución para algo que no es una enfermedad. Un cambio que nunca llegará pero en el intento aíslan a la persona, la llenan de culpa. Con el tiempo, llegan la ansiedad y la depresión. Los organismos internacionales las llaman ECOSIEG: Esfuerzos para Corregir la Orientación Sexual e Identidad de Género. Las equiparan con formas de tortura. Son prácticas que no tienen sustento médico ni ético.</p><p>La lista de eufemismos bajo los que se han camuflado es amplia y va cambiando a lo largo del tiempo: esfuerzos de cambio de orientación sexual, terapia de reorientación, terapia reparativa, terapia de reintegración, terapia para curar gays, talleres, campamentos o retiros de “sanidad relacional, emocional y sexual”, “clínicas de salud emocional, vínculos y familias”, “sanidad interior”, “quebranto de género”, coaching o grupos espirituales de sanación. Los pastores de iglesias evangélicas pentecostales históricamente han sido los más hábiles para encontrar un rebranding que se va adaptando a las épocas. Son los que han desarrollado estos dispositivos masivos y sofisticados que siguen captando a jóvenes vulnerables.</p><p>—Padre, te entregamos todo lo que tienes y te rogamos que pongas el querer como el hacer en nosotros— dice el servidor casi al final de la noche de renuncias— para que podamos llegar a ser ese modelo en tus hijos, en que podamos ser esos hijos que soñaste y diseñaste en tu corazón. Te amamos. Te necesitamos, Señor. En el nombre de Jesús, amén. Amén.</p><p>—¿Vos hiciste Torre fuerte o vos estuviste en Fortaleza?—le pregunta un muchacho a otro en el desayuno al otro día mientras comparten café con leche y criollitos.</p><p>Julián anota. Este retiro no es el primer proceso que atraviesan.</p><p>En la jerga, Torre Fuerte es el nombre del programa virtual y presencial que ofrece el Ministerio Mano fuerte, brazo extendido, que organiza el retiro. Durante el año ofrece grupos orientados a batallas y luchas sexuales. Después está Fortaleza, grupos online enfocados en la sanidad de heridas emocionales. También Refugio Fuerte: grupos presenciales de acompañamiento en adicciones (sustancias o alcohol). Y por último, Voluntad Firme, grupos presenciales para personas, según el programa, que luchan contra la obesidad.</p><p>Captura del aviso en redeso socilales del retiro donde infiltramos a nuestro periodista.</p><p>No hace falta infiltrarse para conocer la oferta de estos talleres y espacios que está disponible en páginas de Internet y se promociona en las redes sociales de iglesias, pastores influencers, medios evangélicos pentecostales y ministerios.</p><p>Hace al menos trece años que el Ministerio de Mano Fuerte, Brazo Extendido, ministerio cristiano de restauración espiritual, emocional, relacional y sexual, organiza todos los años retiros como el que asistió Julián en Benavídez. Es una versión más accesible a la que ofrece el Ministerio de la Restauración, fundado por Mauricio Montion, cuyos retiros son en hoteles más lujosos que un exinternado y se pagan en dólares. Al menos desde 2020 que el Ministerio de la Restauración está bajo la mira: uno de los primeros en denunciarlos fue Gastón Onetto, de 42 años, que estuvo en sus retiros en 2005 e inició una demanda en el Colegio de Profesionales de la Psicología y en el INADI, con el patrocinio de la abogada María Laura Spina. Aunque no lograron una condena ya que la causa había prescripto, en 2022 el Colegio de Psicólogos de Argentina se pronunciara en contra de estas prácticas. Concluyó que “a estas terapias se las puede equiparar con métodos de tortura, violatorios de los derechos humanos. Quienes estuvieron expuestos a estas prácticas aberrantes han sido traumatizados, y subsumidos en padecimientos psíquicos”. En julio de este año Anfibia junto con Reportea.cl revelaron cómo este Ministerio continuaba operando en Chile y Argentina mediante una red vinculada a iglesias evangélicas con conexiones que llegaban hasta Estados Unidos. Se trata de una franquicia importada: de hecho antes el retiro se llamaba Aguas Vivas, en honor al programa Living Waters, de Desert Stream Ministries.</p><p>El Ministerio Mano Fuerte, Brazo Extendido es una especie de hermano menor y en términos de marketing, una segunda marca. Surgió en 2009 en el seno de la Iglesia Cristiana Evangélica de El Palomar, al oeste del conurbano. Funciona con talleres, charlas, programas virtuales, convocatorias que hace desde sus redes sociales y articula con otras iglesias evangélicas de distintos puntos del país. A sus actividades asisten principalmente personas del conurbano pero también jóvenes de distintos barrios de la Ciudad de Buenos Aires. El Ministerio tiene conexiones con iglesias porteñas, y también de las provincias de Misiones y Córdoba como parte de un mismo ecosistema. Por fuera del universo evangélico pentecostal Iglesia y ministerio parecieran sinónimos, pero responden a conceptos institucionales y funcionales distintos. La iglesia representa la congregación local, la comunidad visible de creyentes. Los Ministerios son organizaciones transversales con autonomía propia creadas para un propósito específico que trasciende a una sola iglesia local. El Ministerio Mano Fuerte, Brazo Extendido no tiene un espacio físico en sí, pero su fundador, el pastor Diego Sauan junto a su esposa Andrea, inauguró ya dos sedes de la Iglesia Senda de vida con un pie en Caseros, en 2020, y más tarde otra en Avellaneda. En el retiro en Benavídez contó que Senda compró una granja educativa en Pontevedra, donde quieren “invertir 26 millones” para hacer los retiros del Ministerio Mano Fuerte, Brazo Extendido ahí. Además, según dijo, están proyectando un hogar de ancianos en Caseros. Aclaró que la plata la hizo trabajando como psicólogo. Pero ni su nombre ni su matrícula figuran en el padrón de psicólogos de la provincia de Buenos Aires, donde dice que atiende.</p><p>Un dato no tan conocido sobre él es que: Sauan es funcionario público. Paradójicamente, en 2025 integrante del área de Identidad y Ciudadanía de la Defensoría del Pueblo de la Nación. En documentos oficiales que datan de octubre de este año aparece con licencia sin goce de sueldo.</p><p>Diego Sauan y su esposa Andrea, líderes de Mano Fuerte Brazo Extendido.</p><p>Diego Sauan se presenta como “ex gay”. Es un título que puede sonar gracioso, pero en el opresivo universo pentecostal se transforma en un testimonio esperanzador. Durante muchos años Sauan se paseó de iglesia en iglesia, de charla en charla, contando su historia. Como todo pastor pentecostal es un excelente narrador. Cada vez que tiene un micrófono en la mano crea climas y atmósferas, sin dejar de bajar línea. Sus exposiciones tienen plot twists y momentos dramáticos pero también apela al humor. Por momentos parece que está haciendo stand up. Sauan conoce al detalle la cocina de la comunicación: antes de reconvertirse en referente de la restauración, trabajó durante más de quince años como periodista y productor operativo en el informativo de Radio Rivadavia.</p><p>Según su relato, a los 5 años fue víctima de un abuso sexual y eso “determinó su condición sexual”. Dice, en uno de los videos en Youtube donde cuenta su historia como orador y en entrevistas que da a pastores del universo evangélico que tienen programas de televisión: “Eso quebrantó mi vida y me despertó situaciones que no me tenía que despertar”. No hace falta infiltrarse ni investigar demasiado para saber lo que piensa. Muchas de sus exposiciones están online.</p><p>De “exgay” pasó a tener una familia tradicional con dos hijos varones y una hija. Todo en su relato confirma su propia teoría sin ninguna base científica: “En mi caso, una mamá muy dura, un papá muy débil y un abuso a los cinco años sin tratar que me creó una hipersexualidad y que terminé teniendo relaciones con un pariente a los siete años. (...) Eso me llevó a una homosexualidad porque es lo único que conocí. (...) Es un aprendizaje. La sexualidad se aprende. Yo lo aprendí equivocadamente porque lo que nunca debí haber aprendido lo aprendí a través de un abuso. Y lo que nunca me debió haber pasado me pasó. Un primo se cruzó. Que vaya a saber lo que le pasó a él y me enseñó todo lo que no me debía enseñar”.</p><p>Captura del Instagram de Diego Sauan.</p><p>En una charla titulada “Sanidad sexual” en el Instituo Bíblico Río de La Plata en 2021, Sauan sentencia: “No hay homosexual que no haya sido abusado”. Lo escucha una audiencia muy joven. Sigue: “Esto parece ser una obviedad, pero por eso estamos abriendo iglesias para homosexuales, para que se sientan bien. Entonces le damos lo mismo que le dio el mundo. Amá al homosexual y abrazalo. Pero no ames y no abraces a la homosexualidad. Porque si vos lo aceptas tal como es y haciendo lo que hace el tipo nunca va a cambiar. (...) Sí, se puede dejar la homosexualidad, se puede dejar la homosexualidad”.</p><p>Anfibia se contactó con Diego Sauan por esta investigación. Respondió a nuestro llamado y nos dijo que prefería no hablar públicamente sobre este tema.</p><p>Sauan no solo predica en los altares; también coquetea con la arena partidaria. “De nada sirve orar como cristiano, pero votar como un ateo”, publicó en junio de 2023, previo a las elecciones presidenciales. En agosto de este año, compartió un video en Instagram contando que el intendente de Tres de Febrero, Rodrigo Aybar, fue a saludar a quienes repartían comida con el frío. Christian Witz, que se presenta en redes como “hijo del rey y coordinador del Partido Libertario de Morón” le respondió: “Tremenda labor un honor haber pertenecido al equipo ... DIOS LOS BENDIGA A TODOS”. Witz publicó, en junio de 2025, un video de Mano Fuerte Brazo extendido con su logo como historia de vida inspiracional.</p><p>El intercambio digital no es fortuito: Aybar forma parte del circuito político conservador que gravita en torno a la usina española Political Network for Values, el think tank global que articula a las bancadas ultraconservadoras y persigue a la diversidad. Fue panelista en el evento que la organización hizo en agosto en Ciudad de Buenos Aires.</p><p>En el departamento donde vive, al oeste del conurbano, Nicolás Bugnot tiene un teclado electrónico que es casi lo primero que recibe a un visitante. Le encanta la música y durante mucho tiempo lideró la alabanza en la iglesia evangélica pentecostal a la que iba con toda su familia. Eso es lo que más extraña de ese espacio que lo expulsó lentamente. Hoy tiene 36 años. Cuando tenía 18 quedó obnubilado por un hombre que visitó su iglesia. Creyó que le traía una solución a su conflicto interno, algo que nadie más sabía: se sentía atraído por otros varones. Ese hombre se presentaba como ex gay. Hablaba de restauración. Prometía la cura con dos años de programa. Ese hombre era Diego Sauan. Spoiler: Nicolás no se curó. No había nada que curar. Entre 2008 y 2015 estuvo bajo tratamiento entre la terapia individual con Sauan, sus grupos y los retiros del Ministerio Mano Fuerte, Brazo Extendido. Para él fueron tiempos de mucho esfuerzo físico, mental y económico. Cada peso que juntaba era para pagar el tratamiento que, le prometían, lo iba a sanar.</p><p>Cuenta Nicolás: “Yo hacía lo que me decían para dejar de ser homosexual. Me quería curar a mi mismo. Cuando me creció la barba, me felicitaron. Me decían que lo que yo sentía era antinatural, que estaba fallado y que tenía que volver a lo que debía ser. Lo recuerdo como una tortura. Tiempos muy oscuros. Recuerdo estar en crisis desde los 14 años, cuando me dí cuenta de que me gustaban los chicos. Para una persona creyente es muy difícil que te confronten con la palabra de Dios y ellos hacen una interpretación de ciertos tramos de la Biblia que es sesgada para hacerte creer que es un pecado. Crecí en un entorno que iba a la iglesia, mi papá, mis hermanos, pero también mis tíos y primos. No solo es tu entorno o tu familia la que te juzga, es Dios. Si encima te dicen que también te niega, todo es angustia”.</p><p>En los encuentros individuales el foco estaba puesto en hurgar en la posibilidad de un abuso sexual. Sauan intentaba encontrar “explicaciones” a la homosexualidad de Nicolás en un supuesto abuso que nunca sucedió. En los espacios grupales la dinámica era similar a Alcohólicos Anónimos. Les sugerían material bibliográfico, importado de norteamérica, que figura en la web Exodus, de Desert Stream (“El Río”, “Aguas Vivas”).</p><p>De acuerdo con el testimonio de Nicolás, parte de las instrucciones que les daban a los muchachos para abandonar lo gay, como si eso fuese posible, era: no escuchar determinada música; no mover las manos; engrosar la voz; dejar crecer su barba, no ver pornografía; cruzar las piernas en L y no en X, salir con mujeres, tener sexo con mujeres. Al quinto año de tratamiento uno de los líderes de grupo le dijo a Nicolás que “no se estaba esforzando lo suficiente”. Y ese fue el detonante para salir.</p><p>Nicolás conoce desde adentro los retiros porque durante un tiempo él fue parte de los servidores que animaban los cultos y las actividades: “Siempre las reuniones tienen una parte en la que se canta. Le dan mucha importancia porque claramente usan la música como otro instrumento de manipulación y de desensibilización fuerte”, explica.</p><p>El retiro es un plan intensivo una vez al año. Parte de su dinámica es escuchar testimonios de ex-quebrantados: historias en primera persona de aquellos que, en sus términos, se curaron. Por ejemplo, el primer día del retiro en Benavidez, Julián escuchó el testimonio de L.. Contó que había sufrido abusos durante su infancia. También dijo que contrajo VIH mientras trabajaba en un hospital y que, de acuerdo con su versión, no le reconocieron esa situación en el ámbito laboral. Durante su exposición mencionó experiencias sexuales con hombres y explicó que llegó a identificarse como bisexual. También relató que había atravesado dos intentos de suicidio y que posteriormente se acercó a la Iglesia, donde comenzó un proceso que describió dentro del marco de la restauración.</p><p>Otro de los testimonios lo dio N., un chico de 26 años de Caseros. Durante su intervención, contó que entre los 18 y los 24 años había vivido como un hombre gay. Según explicó, llegó a la iglesia por medio de su mejor amiga y que a partir de ahí inició un proceso de restauración. Nicolás relató que siempre había deseado formar una familia y que terminó construyendo esa vida junto a esa amiga, con quien tuvo dos hijas. También expresó que todavía experimentaba pensamientos que describió como vinculados con la homosexualidad y aún recordaba imágenes pornográficas que, según sus palabras, le habían quedado grabadas.</p><p>Durante la exposición, Sauan tomó su historia como ejemplo para transmitir la posibilidad de construir un proyecto familiar a través de la restauración. Llama la atención la obsesión con la pornografía y la masturbación. La ciudadanía ideal, de diseño, que intenta moldear este Ministerio canaliza la energía sexual en la reproducción, en tanto actividad sexual útil. Todo lo que está por fuera de esto es un vicio y un problema. Las historias que se comparten tienen guiones muy similares donde distintos malestares, dolores y desgracias se acumulan uno encima del otro, hasta encontrar en la iglesia y la unión heterosexual el giro que sus vidas necesitaban para ser felices.</p><p>Para que existiera el Ministerio de Mano Fuerte, Brazo Extendido antes hubo otros espacios. Hay un linaje y un entramado que insiste en perseguir a la diversidad. Este espacio tiene una continuidad y relación con los actores que, al menos, las últimas dos décadas se opusieron a las leyes que ampliaron derechos y reconocieron a la diversidad como el matrimonio igualitario y la ley de identidad de género.</p><p>Cada vez que cuenta su historia en entrevistas públicas o charlas, Sauan nombra a Mabel Guzzo Borghetti y se emociona. Ella fue su mentora. Era una psicóloga evangélica del Hospital Alvarez conocida por ser parte de ese lobby anti LGBTIQ. En 1994 Guzzo Borghetti fundó Retorno a la Vida (Movimiento Cristiano de Ayuda para la Reorientación del Homosexual), que pertenecía a Acaps (Asociación. Cristiana Argentina de Profesionales de la Salud), entidad afiliada a Aciera (Asociación Cristiana de Iglesias Evangélicas). Sauan también es cercano a otra actriz de este lobby fundamentalista, Ana María Parini, del Foro de Bioética de Aciera. En algunas charlas ha mencionado que su Ministerio es asesor de la comisión de salud mental de esa organización que nuclea y representa a las iglesias evangélicas.</p><p>Captura del sitio de Mano Fuerte Brazo Extendido.</p><p>Esteban Borghetti, esposo de la “señora Mabel”, también es pastor evangélico. En 2004 habló en la legislatura porteña, cuando se intentaba aprobar un proyecto sobre educación sexual. “La homosexualidad está fuera del diseño que Dios le ha dado a la sexualidad” , dijo Borghetti sin rodeos.</p><p>Sauan y su Ministerio no son eslabones perdidos. La imposición heterosexual y la normativización no es algo que ocurra en las iglesias sueltas o en retiros una vez al año. La integración de los datos de la Segunda Encuesta Nacional sobre Creencias y Actitudes Religiosas en Argentina (CEIL-CONICET) con los estudios del Observatorio de la Deuda Social Argentina (EDSA-UCA) permite trazar un mapa muy claro sobre cómo se entrelazan las creencias espirituales, la diversificación religiosa y las realidades socioeconómicas del país. En Argentina el 15,3% de la población dijo ser evangélica, de las cuales el 13% son pentecostales. Si cruzamos datos hay aproximadamente 3 millones de personas que asisten semanalmente a cultos pentecostales.</p><p>En 2024 la Asociación de Familias Diversas de la Argentina presentó el informe: El camuflaje del odio en Argentina. Experiencias y opiniones sobre “prácticas de conversión” en Argentina a personas LGBTIQ”. Con la ayuda de Andrea Rivas, titular de esta organización y de Hugo Rabbia, parte del equipo que hizo el Primer Relevamiento Nacional de Condiciones de Vida de la Diversidad Sexual y Genérica en la Argentina, abrimos un correo con la posibilidad de escuchar más relatos. Nos contestaron alrededor de 40 personas. Historias de cristianos católicos, testigos de Jehová, una chica a la que un psicólogo la hizo ir con pollera y la manoseó en su consultorio y también varias historias que conducían a templos evangélicos pentecostales. Muchas de estas personas contaban por primera vez lo que habían pasado.</p><p>Entre los testimonios está el relato de Fedra, una mujer trans de 36 años que hoy vive en el barrio porteño de Almagro. Ella no se acercó a ningún terapeuta ni a una pastor ni fue a un retiro, pero la influencia de la iglesia evangélica pentecostal la alcanzó en su propia casa a través de su madre. Una mañana, cuando tenía 16 años, descubrió que estaba siendo víctima de inútiles intentos de exorcismos. Su mamá intentaba curarla con rituales en los que ponía objetos bajo el colchón: “Primero huelo como un olor, ese olor que tiene el agua bendita. Y después empecé a encontrar abajo de mi cama papelitos humedecidos. No había uno, eran seis, diez, quince, veinticinco papelitos con rezos que eran exorcismos. La encaré a mi madre y le dije señora usted está loca, me quiere exorcizar. Yo me fui de mi casa pero hasta el día de hoy ella sigue haciendo exorcismos. A algunas personas les impone las manos y empieza a decirles que se vaya el demonio de sus vidas”.</p><p>Como en muchos otros temas vinculados a las trayectorias vitales de gays, lesbianas y personas trans, todavía faltan estadísticas oficiales que pongan la lupa sobre sus vidas para tomar dimensión del impacto de estas prácticas. En el Primer Relevamiento Nacional de Condiciones de Vida de la Diversidad Sexual y Genérica en la Argentina, entre el 10% y el 15% de las personas encuestadas manifestaron haber sido sometidas o expuestas a algún tipo de presión o intento sistemático para modificar, reprimir o &quot;curar&quot; su orientación sexual o identidad de género a lo largo de su vida. Respondieron esa encuesta 25.000 personas. Los cálculos señalan que al menos 3.500 sobrevivieron a terapias de conversión en Argentina.</p><p>El reporte de la Asociación de Familias Diversas de la Argentina reveló que más de la mitad de las personas que pasaron por un tratamiento sufrieron depresiones graves. La gran mayoría de estas experiencias de ECOSIEG ocurrieron durante la infancia, adolescencia y juventud temprana. Entre los 10 y 21 años. Son los momentos de mayor dependencia familiar y social. Cuatro de cada diez en algún momento tuvieron ideas suicidas.</p><p>Pablo Ignacio Echeverría forma parte de esa estadística. Sobrevivió y decidió rebautizarse a sí mismo como Pholo. Hoy tiene 35 años y vive en Gualeguaychú, Entre Ríos. Entre sus 21 y 25 años Pholo fue sometido por su familia a un tratamiento psicológico que se convirtió en una tortura.</p><p>Todavía hay días que a Pholo le cuesta levantarse. Le duele todo el cuerpo. Siente un cansancio extremo. Hace poco se hizo un estudio de fibromialgia. Le dio todo bien. El médico le dijo que estaba pasando por un momento de estrés. Y él no tuvo ganas de contarle que lo peor ya pasó. Que los recuerdos de esa época opaca vuelven a su memoria en forma de dolor en la mano o de llanto incontrolable: —Todo esto por ser gay—dice ahora por videollamada, una década después. Tiene apretado en su mano un rosario que lo acompañará toda la conversación.</p><p>Todo comenzó después de que una vecina fisgona le contara a su madre que lo había visto en la intimidad con otro muchacho. Su salida del clóset fue un outing. Su madre lo increpó:</p><p>Él se lo confirmó con serenidad creyendo que no iba a pasar nada malo, que lo iban a comprender.</p><p>—Vos estás mal, vas a terminar en una zanja— le dijo su padre cuando se enteró —Va a aparecer una cura en algún momento. Si otras personas pudieron, vos vas a poder. Esto lo vamos a solucionar.</p><p>Esa misma noche su padre se contactó con Antonio Puga, un psicólogo y numerario del Opus Dei que solía ir a la casa de la familia de Pholo.</p><p>—Vengo de una familia muy conservadora, en la que se hacían reuniones. del Opus— explica Pholo —Se leía la Biblia. A mí me parecía lindo porque creía que ayudaban a la gente.</p><p>Un numerario es un miembro célibe de la Prelatura Personal del Opus Dei que asume un compromiso de entrega total a la institución y a su misión apostólica, vive bajo los votos o compromisos de castidad, pobreza y obediencia. Puga falleció en 2019 y lo despidió la cúpula del Opus con un aviso fúnebre en La Nación. Puga le recomendó a la familia de Pholo viajar a Buenos Aires y allí ponerse en contacto con la Fundación Arché. Que ellos podrían ayudarlos. Al día siguiente, Pholo se subió a un auto con su madre y su padre y emprendieron el camino hasta el centro porteño.</p><p>—Si mamá y papá piensan que esto se puede solucionar un hijo piensa lo mismo. Mamá y papá no creo que vayan a hacerme nada malo—recuerda Pholo que pensó en ese entonces.</p><p>No hubo retiros, ni exorcismos, ni gritos, ni golpes, ni un encierro forzado con barrotes o candados, ni electroshock. Bajo la fuerza de la presión familiar, Pholo firmó un papel que hasta el día de hoy no sabe qué decía. Un poco porque confiaba en su familia, otro poco porque no hubo tiempo ni lugar y mucho porque estaba conflictuado por no poder ser y decir lo que sentía con su familia. Todo fue veloz y sin posibilidad de escuchar qué quería él. Primero lo sometieron a una Cámara Gesell y luego a una entrevista individual con un terapeuta que le advirtió:</p><p>—Si vos querés que esto no continúe, vas a tener que decirle la verdad a tus padres. Que les estás mintiendo.</p><p>—No tenía conciencia de mi libertad— dice Pholo diez años después —Era un sometimiento total. O sea, no. No es como que nunca hubiera tenido opción. No tenía opción de nada.</p><p>Aunque ya era un adulto, le sacaron su teléfono y lo aislaron de sus amigos y de otros afectos. Le quitaron toda posibilidad de pedir ayuda. Arrancaron la puerta en su habitación para quitarle la intimidad, como parte del supuesto tratamiento que su familia pagaba todos los meses.</p><p>Cada semana, entre 2012 y 2015, Pholo se subía a un micro desde su Gualeguaychú natal y se bajaba en la terminal de Retiro para ir a Fundación Arché, en pleno centro porteño. Un lugar en el que le prometían ayuda, acompañamiento, contención y una solución. También tenía encuentros virtuales con su terapeuta, Marcos Ballester Molina, que entre 2006 y 2018 trabajó en Arché y hoy se desempeña como psicólogo clínico virtual . La familia de Pholo, por su parte, recibía acompañamiento de otra psicóloga, Marcela Bonadeo.</p><p>El psicólogo Marcos Ballester Molina, que trabajó en Fundación Arché</p><p>Fundación Arché es una organización civil creada en 1976, durante la última dictadura militar, que cuenta con un centro de asistencia psicológica llamado CASA, Centro Asistencial Arché, ubicado en Rodríguez Peña 778/780, en pleno Recoleta, a pocas cuadras del Teatro Colón, de los Tribunales, del vibrante centro porteño. Según su página web, ofrece “un servicio desde una psicología que venía siendo reflexionada desde la fe”. Cuentan con un Programa de Acompañamiento a la Familia (DOMUS).</p><p>El fundador de Arché fue Juan Alberto Fariña Videla, psicólogo nacionalista y responsable de una revista especializada. Durante mucho tiempo lideró espacios en el que se producía bibliografía y pensamiento alrededor de la homosexualidad como patología. Además de asistencia es un espacio de formación de terapeutas vinculados con la Universidad del Salvador, la Universidad FASTA y la Universidad Católica.</p><p>Una paradoja: en el mismo edificio de Fundación Arché hoy funciona el Centro Jurídico Derecho a la Identidad del gobierno de la Ciudad. La institución se lo alquila al gobierno de Jorge Macri. Firmó un convenio desde diciembre de 2025 hasta noviembre de 2028, para instalar el Servicio Social Zonal N.º 2 y el Centro Jurídico Social Derecho a la Identidad. El canon del primer año es de $22,8 millones, en 12 cuotas mensuales de $1,9 millones, con opción de prorrogar el contrato hasta tres años más.</p><p>En Arché trabajan con psicólogos, orientadoras familiares, psicopedagogas, mediadores y psiquiatras. Además de su sede porteña, desde 2002, tienen trabajo territorial en Lanús, al sur del conurbano bonaerense y convenios con ese municipio.</p><p>El detonante que tuvo Pholo para escapar de aquel lugar fue un encuentro en el que su psicólogo lo trató explícitamente de enfermo. Le dijo que lo que tenía él era una patología.</p><p>—Y yo le dije ¿Por qué si yo siento amor por otro hombre? Porque vos decís que es una patología— cuenta Pholo. Ahí terminó la sesión.</p><p>Pholo volvió a la casa familiar devastado. No había nadie y pensó en lo peor: colgó una soga en una de las vigas del techo del galpón. Se quedó mirándola fija durante media hora hasta que agarró un bolso y se fue. No tenía a dónde.</p><p>—Me enseñaron a odiarme—dice Pholo—Pasé por situaciones y lugares que no tendría que haber pasado por ese odio.</p><p>Vivió mucho tiempo escapando: durmió en la calle, pidió comida, buscó trabajo. Su familia, mientras tanto, lo perseguía con la policía con un supuesto diagnóstico en su poder. Consultada para esta investigación la vicepresidenta actual de la organización, Maria Fernanda Palacios, prefirió no hablar y sólo aclarar que el psicólogo que trató a Pholo ya no trabaja ahí.</p><p>De a poco Pholo fue rearmando su vida. Hoy estudia para ser abogado. Lo hace a distancia en la Universidad Siglo XXI. Desde 2024 participa en los corsos barriales que se organizan en su ciudad, al margen de los carnavales. Este último verano fue reconocido con el premio Rony, un galardón que le dan a quien mejor representa el valor de la diversidad en la celebración popular. Es en honor a Rony Galante, una mujer trans a la que encontraron muerta en Gualeguaychú en 2009 y su crimen quedó impune. También ganó un premio de literatura local por un poema que escribió: “Manual de la compostura y la materia”Lo escribió pensando en las telas del carnaval.</p><p>Para tratar de terminar de comprender y darle sentido a su pasado, Pholo está tratando de tener acceso a su historia clínica. Primero hizo el pedido formal a Arché a través de correos y whatsapps. Pero nunca le contestaron. Ahora está por la ruta institucional. Quiere saber cuál fue el diagnóstico que le hicieron en la Fundación Arché y en qué consistió el tratamiento al que lo sometieron:</p><p>—Junto con la Defensoría LGBT de la Defensoría del Pueblo de Ciudad de Buenos Aires estoy reclamando que se me entregue toda información mía de ese lugar, toda la existente, desde mi historia clínica, lo que ellos tienen, mi legajo y los informes entregados a terceros. Porque esto fue acompañamiento familiar, pero cuando a mí me hicieron firmar el consentimiento de ese acompañamiento familiar fue forzado, yo no quería firmar y me obligaron.</p><p>A Pholo lo ampara la ley del paciente, entre otras legislaciones, pero tiene en contra el paso del tiempo. Mientras, todavía no hay leyes específicas, ni dispositivos de acompañamiento puntuales, tampoco hay profesionales capacitados especialmente pero cada vez hay más sobrevivientes que están dando testimonio con el objetivo de que ninguna otra persona pase por lo mismo. Hasta hace poco eran unos pocos los que se animaban a sacar el secreto de los consultorios o los templos.</p><p>Lucas Mendos fue de esos pocos. Cuando tenía 23 años, entre 2006 y 2007, después de haber revelado su orientación sexual a su familia, a Lucas lo llevaron al psicólogo social que le prometió “rectificarlo”. Ese terapeuta se llama Julio César Labaké y continúa trabajando hoy, dos décadas después. Es autor de varios libros, da clases y ofrece charlas. No existen denuncias judiciales ni sanciones éticas en los registros públicos del Colegio de Psicólogos contra él. Lucas no llegó a hacer una presentación formal en la justicia. Es un patrón que se repite: sólo el 8,44% de las personas sobrevivientes denunció o intentó denunciar, según los datos de la Asociación de Familias Diversas.</p><p>Sin embargo, Lucas hizo pública su historia, se recibió de abogado y se volvió un especialista en el tema. En 2020 lideró el estudio jurídico mundial “Poniéndole límites al engaño. Estudio jurídico mundial sobre la regulación legal de las mal llamadas “terapias de conversión”, de ILGA Mundo.</p><p>—La evidencia que tenemos acerca de los daños que genera esto es exponer a niños, niñas y adolescentes a que los hagan pelota— explica Lucas Mendos —Eso lisa y llanamente hablando para destruirles la autoestima. Esto lleva a ideación suicida y muchas veces a cometer suicidio. Los estados de todas las latitudes debieran crear conciencia, informar de toda esa evidencia que existe e informar sobre la inefectividad., Muchas de las organizaciones que ofrecen estas terapias se escudan en el consentimiento que otorgan las personas adultas. En muchas entrevistas públicas, Diego Sauan se defiende con un latiguillo: “Nosotros no obligamos a nadie”. Mendos insiste:</p><p>—Te vas a embarcar en un proceso que lo más probable es que no rinda los frutos que te están prometiendo que va a rendir. Muchos países han recorrido este camino advirtiendo que esto podría cuadrar dentro de la ley de fraude. No va a ocurrir lo que te dicen que va a ocurrir y además te va a dañar, te va a generar un daño que no sabemos si va a ser irreversible, porque va a costar años tratar de desandar todo este proceso de limar y erosionar tu autoestima, de cuestionar tus elecciones de vida, de estar sujeto a normas sociales.</p><p>Mendos pone reparos y alumbra la figura del adulto joven vulnerable en donde el consentimiento a veces es un paraguas frágil:</p><p>—Son personas adultas, jóvenes o que están sometidas a un proceso de presión fuertísima por parte de la familia de su entorno. El Estado no puede permitir que esto se ofrezca incluso a personas adultas. Esto pasa en España, por ejemplo.</p><p>En Argentina todavía no hay una legislación específica sobre el tema. Estas prácticas están prohibidas de manera indirecta por la Ley de Salud Mental, de 2010. En su artículo 3, dice: “En ningún caso puede hacerse diagnóstico en el campo de la salud mental sobre la base exclusiva de elección o identidad sexual”. Además, existe un marco normativo para que se respeten los derechos de todas las personas más allá de su orientación, como la ley de Identidad de Género o la de Matrimonio Igualitario. Y, por su parte, la Ley 23.592 Actos discriminatorios permite reclamar judicialmente que se deje sin efecto un acto discriminatorio y que se repare el daño.</p><p>En 2011 la Legislatura de la Ciudad de Buenos Aires se adhirió a la Campaña Internacional “Curas que Matan” del Comité Día Internacional contra la Homofobia y la Transfobia (IDAHOT). Fue la única jurisdicción capaz de declarar que las “terapias de conversión” están prohibidas bajo la ley antidiscriminatoria local. Está ampliamente documentado que en la provincia de Córdoba estas terapias siguen ocurriendo, como evidenció la investigación reciente sobre el Ministerio de la Restauración y que incluso adoptan formas más brutales y lesivas.</p><p>Más allá de la Argentina también ocurren: en Ecuador hay testimonios que dan cuenta de secuestros impulsados por familiares para someter a las personas. El panorama en cuanto a respuestas estatales es diverso: México dio un paso al frente en 2024 y decidió prohibirlas explícitamente. Los últimos datos oficiales que había antes de la prohibición eran abrumadores: 1 de cada 10 personas LGBTTTIQ+ fueron obligadas por sus padres a acudir con un psicólogo o autoridad religiosa con el fin de “corregirlas”. En números absolutos son 318.791 personas que pasaron por esto.</p><p>La Comisión Interamericana de Derechos Humanos (CIDH) en estos momentos está elaborando un informe temático sobre las prácticas de conversión y su impacto en los derechos humanos de las personas LGBTI en las Américas.</p><p>Que este tipo de tratamientos sigan existiendo puede resultar desolador, pero también hay personas que vienen trabajando por visibilizar que esto sucede y empujar marcos jurídicos. Los sobrevivientes no se salvaron únicamente a ellos. Siguiendo el linaje de las luchas por los derechos humanos y la diversidad, están construyendo espacios que son trinchera de nuevas luchas y haciendo del trauma individual conciencia colectiva.</p><p>Nicolás Bugnot, que pasó por el Ministerio Mano Fuerte, Brazo Extendido, y Pholo que estuvo en tratamiento en Fundación Arché, se juntaron con otros sobrevivientes y armaron Nada que curar. Es una red de acompañamiento amorosa integrada por un grupo de muchachos de entre veintipico y cuarenta y pico de distintos puntos del país y con diferentes recorridos. Todos pasaron por algún tipo de terapia de conversión en algún momento de sus vidas. Lanzaron una página web donde ofrecen a las víctimas testimonios, material para repensar la fe sin culpa, un directorio de profesionales de la salud amables y comunidades cristianas que no discriminan. Nada que curar es, además, una trinchera desde donde los sobrevivientes empujan la batalla legislativa.</p><p>Desde agosto de este año, en la legislatura de la Ciudad de Buenos Aires hay un proyecto de ley impulsado por el diputado Emmanuel Ferrario que busca prevenir, sancionar y reparar estas prácticas:</p><p>—Nadie debería sentir que está mal ser quien es, o amar a quien ama— dice Ferrario —Todas estas supuestas terapias son una tortura y una estafa, sin ninguna base científica. No hay nada que corregir, porque ser gay, lesbiana, bisexual o trans no es una enfermedad ni mucho menos algo que está mal. La comunidad LGBT+ lamentablemente está acostumbrada a vivir ocultándose, o sufriendo en el silencio, por prejuicios y disciminación. Eso hace que muchas personas caigan en estas mentiras, sin siquiera saber que lo que les pasó tiene nombre y es violencia.</p><p>El objetivo del proyecto presentado por Ferrario es que no queden grises ni ambigüedades con respecto a la prohibición de las mal llamadas “terapias de conversión” o Ecosieg. Aunque las leyes nacionales puedan servir de marco para su prohibición, está claro que no alcanzan:</p><p>—Hoy en Ciudad de Buenos Aires siguen ocurriendo estas prácticas nefastas— asegura Ferrario.</p><p>El diputado Esteban Paulon ya había presentado en 2024 otra iniciativa en la misma línea pero en el Congreso de la Nación:</p><p>—Sabemos que muchas veces en el ámbito de la salud mental se utilizan otras figuras para patologizar y justificar este tipo de terapias— cuenta Paulon —Por eso presentamos un proyecto específico que no modifica la ley vigente, pero crea una legislación definiendo primero lo que son estos esfuerzos para modificar la orientación sexual o la identidad de género de las personas. Lo tipifica y establece una serie de tipologías, penalizaciones y también acciones educativas porque es importante concientizar a la sociedad de que esto existe.</p><p>El escenario político no parece ser el más favorable para dar lugar a estos proyectos. No importa que las organizaciones religiosas sigan hablando de antidiseño. Por ahora, lo único que no tiene diseño aún es el futuro.</p><p>La entrada Putos antidiseño se publicó primero en Revista Anfibia.</p>",
       "url": "https://www.revistaanfibia.com/putos-antidiseno/",
-      "image": "https://www.revistaanfibia.com/wp-content/uploads/2026/10/Terapias-de-conversion_01_port.jpg",
+      "image": null,
       "publishedAt": "2026-10-30T11:35:00+00:00",
       "sourceId": "anfibia",
       "sourceName": "Revista Anfibia",
@@ -4898,6 +4988,46 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
+      "id": "cuestionpublica-8ac1b486b7",
+      "title": "Carlos Suárez: ¿el hombre que mueve los hilos del gobierno de Abelardo De la Espriella?",
+      "summary": "Carlos Suárez es hoy el presidente de la junta directiva de Ecopetrol, pero antes fue el estratega de la campaña electoral de Abelardo De La Espriella. La entrada Carlos Suárez: ¿el hombre que mueve los hilos del gobierno de Abelardo De la Espriella? se publicó primero en Cuestión Pública .",
+      "content": "<p>Carlos Suárez es hoy el presidente de la junta directiva de Ecopetrol, pero antes fue el estratega de la campaña electoral de Abelardo De La Espriella. ¿Cuál es su poder dentro del círculo del hoy presidente? Junto a nuestras invitadas analizamos a uno de los hombres que le habla al oído a Abelardo.</p><p>La entrada Carlos Suárez: ¿el hombre que mueve los hilos del gobierno de Abelardo De la Espriella? se publicó primero en Cuestión Pública.</p>",
+      "url": "https://cuestionpublica.com/carlos-suarez-el-hombre-que-mueve-los-hilos-del-gobierno-de-abelardo-de-la-espriella/",
+      "image": "https://cuestionpublica.com/wp-content/uploads/2026/11/Cover-aguzate-carlos-suarez_11zon.jpeg",
+      "publishedAt": "2026-10-30T01:14:13+00:00",
+      "sourceId": "cuestionpublica",
+      "sourceName": "Cuestión Pública",
+      "sourceType": "Periodismo de Datos y Poder",
+      "sourceSite": "https://cuestionpublica.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 95,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "brecha-41c86e98fe",
+      "title": "Sensiblemente",
+      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4Q2FKVVFYSE9UNGwzb05rSUUxbENIajVOZnhFcjFCcGw5Ym9sYkg2WHM0RVF1MUV2YjJhc2RZcHdkZ3h1a0wzcHN1SFM?oc=5",
+      "image": null,
+      "publishedAt": "2026-10-30T03:09:28+00:00",
+      "sourceId": "brecha",
+      "sourceName": "Semanario Brecha",
+      "sourceType": "Periodismo Indep. LatAm",
+      "sourceSite": "https://brecha.com.uy",
+      "region": "latam",
+      "country": "Uruguay",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
       "id": "bellingcat-c869b0dd18",
       "title": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
       "summary": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Become a member and support our work here. Imagery captured by the European Space Agency’s freely available Sentinel-2 and Sentinel-1 satellites appears to be delayed over Gaza and parts of the West Bank, a Bellingcat analysis has...",
@@ -4918,11 +5048,11 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-41c86e98fe",
-      "title": "Sensiblemente",
+      "id": "brecha-dac56e7645",
+      "title": "Hacedor de misterios",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4Q2FKVVFYSE9UNGwzb05rSUUxbENIajVOZnhFcjFCcGw5Ym9sYkg2WHM0RVF1MUV2YjJhc2RZcHdkZ3h1a0wzcHN1SFM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAySnVRZWhwcGtQaDJZN3RUYVFPS0ZIUUtwSFhHRGthNEdfQ0Y4R291VGM5c3NhMHhXdWRPcS1vUW1qVDNXN2lyYVJpUEVlS3dwVll4RTdn?oc=5",
       "image": null,
       "publishedAt": "2026-10-30T03:09:28+00:00",
       "sourceId": "brecha",
@@ -4958,24 +5088,24 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "brecha-dac56e7645",
-      "title": "Hacedor de misterios",
-      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAySnVRZWhwcGtQaDJZN3RUYVFPS0ZIUUtwSFhHRGthNEdfQ0Y4R291VGM5c3NhMHhXdWRPcS1vUW1qVDNXN2lyYVJpUEVlS3dwVll4RTdn?oc=5",
-      "image": null,
-      "publishedAt": "2026-10-30T03:09:28+00:00",
-      "sourceId": "brecha",
-      "sourceName": "Semanario Brecha",
-      "sourceType": "Periodismo Indep. LatAm",
-      "sourceSite": "https://brecha.com.uy",
+      "id": "cuestionpublica-d9aefc2bf8",
+      "title": "Diego Cadena y su nueva derrota: tenemos el fallo",
+      "summary": "La Sala de Casación Penal de la Corte Suprema de Justicia negó a la defensa del autodenomiado ‘abogánster’ la admisión del recurso de casación. Con este mecanismo extraordinario la defensa pretendía que se casara la condena y el abogado fuera declarado inocente. La entrada Diego Cadena y su nueva derrota: tenemos el fallo se publicó...",
+      "content": "<p>La Sala de Casación Penal de la Corte Suprema de Justicia negó a la defensa del autodenomiado ‘abogánster’ la admisión del recurso de casación. Con este mecanismo extraordinario la defensa pretendía que se casara la condena y el abogado fuera declarado inocente. Contra este fallo procede un mecanismo de insistencia.</p><p>Con esta decisión, la condena contra uno de los exabogados de Álvaro Uribe por el soborno a Juan Guillermo Monsalve, está a punto de quedar en firme. Queda pendiente que se resuelva en el alto tribunal la impugnación especial en el caso del exparamilitar Carlos Enrique Vélez, por el cual Cadena fue condenado en segunda instancia.</p><p>La entrada Diego Cadena y su nueva derrota: tenemos el fallo se publicó primero en Cuestión Pública.</p>",
+      "url": "https://cuestionpublica.com/diego-cadena-y-su-nueva-derrota-tenemos-el-fallo/",
+      "image": "https://cuestionpublica.com/wp-content/uploads/2026/10/Cover-aguzate-fallo-Cadena_11zon.jpeg",
+      "publishedAt": "2026-10-28T22:41:16+00:00",
+      "sourceId": "cuestionpublica",
+      "sourceName": "Cuestión Pública",
+      "sourceType": "Periodismo de Datos y Poder",
+      "sourceSite": "https://cuestionpublica.com",
       "region": "latam",
-      "country": "Uruguay",
+      "country": "Colombia",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "anfibia-ef26ac6af2",
@@ -5023,7 +5153,7 @@
       "summary": "Hay una foto reciente. Es del 9 de octubre de 2026. Muestra una reunión con una pantalla gigante en la que se proyecta una batalla construida con inteligencia artificial. La presenta Santiago Oría, director de Realizaciones Audiovisuales de la Presidencia. Los bandos están perfectamente definidos. Los periodistas ocupan la primera...",
       "content": "<p>Hay una foto reciente. Es del 9 de octubre de 2026. Muestra una reunión con una pantalla gigante en la que se proyecta una batalla construida con inteligencia artificial. La presenta Santiago Oría, director de Realizaciones Audiovisuales de la Presidencia. Los bandos están perfectamente definidos. Los periodistas ocupan la primera línea del ejército enemigo. Entre los micrófonos se reconocen los logos de TN y C5N, dos señales de noticias que pertenecen a grupos de comunicación con propietarios y líneas editoriales opuestas. La clasificación iguala periodistas, comentaristas y productores de contenidos. Son una identidad política única. Todos están del mismo lado. Los siguen, en la segunda fila, políticos opositores y, en la tercera, empresarios. Del otro lado, Javier Milei, su hermana Karina y los militantes de La Libertad Avanza. Atrás marcha “la gente de bien”. La imagen divide a la Argentina en dos bandos: las “Fuerzas de la Libertad” y el “Viejo Sistema”. No hay neutrales.</p><p>Quince días después, un nuevo episodio agravó la representación oficial sobre los periodistas: los insultos se transformaron en una incitación directa a la violencia por parte de la máxima autoridad del país. En una cena de recaudación de la Fundación Faro, en la que el cubierto costó 20.000 dólares por persona, Javier Milei propuso la hoguera para los periodistas que lo investigaron en el caso $LIBRA. Hasta ese momento, se había limitado a las agresiones verbales, que en esa semana, también habían llegado a periodistas en España. “El 95 por ciento de los periodistas argentinos son delincuentes”, había afirmado el presidente en más de una ocasión, sin pruebas que permitan sostener la acusación sobre casi toda una profesión. El porcentaje, de una precisión matemática incomprobable, busca un efecto político evidente: convertir a miles de personas que ejercen trabajos diferentes en un único adversario. Ya lo sabemos: #NOLSALP (no odiamos lo suficiente a los periodistas). Más exactamente, a los 10 mil periodistas que se calcula que hay en la Argentina. Todos en la misma bolsa.</p><p>Pero ¿cómo son los periodistas? Una encuesta nacional realizada entre mayo y septiembre de 2026 por Anfibia junto a la Defensoría del Pueblo de la Ciudad Autónoma de Buenos Aires, y procesada por el Laboratorio de Estudios sobre Democracia y Autoritarismos (LEDA) de la Universidad Nacional de San Martín, permite mirar detrás de esa representación y ver cuáles son las consecuencias de las agresiones.</p><p>El relevamiento reunió 905 respuestas válidas. El 43 por ciento sufrió violencia digital vinculada con su trabajo durante el último año. Y, entre el total de los periodistas incluidos en el modelo estadístico sobre autocensura, el 51,4 por ciento reconoció haber evitado investigar o publicar algún tema por temor a las consecuencias. El dato más inquietante que se desprende del análisis va más allá de la cantidad de periodistas atacados, un fenómeno que ya registraron otros estudios, sino en la alta proporción que admite haber dejado de hacer parte de su trabajo por ellas.</p><p>Los periodistas argentinos forman un grupo heterogéneo. Los hay con influencia y otros desconocidos; están los que trabajan en empresas poderosas o en medios pequeños; cerca de la mitad tiene alguna relación de dependencia, mientras otros facturan colaboraciones, trabajan por contrato o desarrollan proyectos independientes. La mayoría sufre también una crisis común a otras instituciones: la falta de credibilidad. La composición de la profesión está lejos de la fuerza organizada que aparece en la pantalla de Oría. Mientras el poder político representa a los periodistas como un ejército uniforme que actúa como principal actor contra el gobierno, la encuesta demuestra que, más que nunca, el riesgo de informar recae sobre quien firma la noticia.</p><p>Nunca hubo tantas posibilidades de publicar información y, al mismo tiempo, tantas dificultades para vivir de producirla. Un periodista puede trabajar para un portal de noticias, hacer una columna en una radio, participar de un streaming y publicar en sus propias redes. Es una “marca personal” caminante. También puede cobrar un sueldo, facturar por una colaboración y tener un proyecto independiente. Todo en la misma semana o incluso en el mismo día. La versatilidad y la hiperproductividad tienen una explicación menos atractiva: los salarios periodísticos no alcanzan y acumular trabajos se volvió, para muchos, una manera de llegar a fin de mes.</p><p>La encuesta de Anfibia y la Defensoría del Pueblo porteña pone números a esa realidad. El 61,7 por ciento de los periodistas tiene dos o más empleos o fuentes de ingresos periodísticos. De ellos, el 43,5 por ciento tienen tres o más. El 38,3 por ciento cuenta con una sola fuente de ingresos. El negocio de las noticias cambió, pero todavía no encontró cómo sostener a buena parte de quienes las producen.</p><p>El 49,2 por ciento informó que tiene alguna relación de dependencia con un medio. Pero las modalidades de contratación se superponen: el 29,4 por ciento trabaja de manera autónoma en proyectos propios, el 22,2 por ciento cobra por nota, fotografía o video y el 19,4 por ciento tiene contratos de locación de servicios. Un periodista puede ser empleado de una empresa y facturero de otras dos. Puede tener varios jefes. Y, cuando aparece un problema, esa multiplicación de empleadores también puede volver más difícil establecer quién se hace cargo de no dejar solo o sola al periodista.</p><p>La precariedad afecta al bolsillo y también modifica las posibilidades de hacer periodismo. Investigar requiere tiempo, recursos, fuentes y semanas de trabajo que no siempre terminan en una publicación. ¿Quién puede dedicarle un mes a una historia si necesita entregar notas todos los días para cobrar?</p><p>Una parte de ese trabajo se trasladó a las plataformas y a las cuentas personales. El 26,4 por ciento de los encuestados produce contenidos periodísticos en sus propias redes sociales y el 18 por ciento trabaja en canales de streaming. El 93 por ciento tiene cuentas con su nombre y, entre ellos, el 86,6 por ciento las usa para su trabajo. La identidad personal se convirtió también en una herramienta profesional: sirve para difundir investigaciones, conseguir fuentes, construir audiencias y buscar nuevas oportunidades laborales. A esas mismas cuentas llegan los ataques.</p><p>Se sabe, las redacciones tradicionales nunca estuvieron libres de presiones. El poder de turno también ejerció presión sobre los dueños de medios por el trabajo de sus periodistas a lo largo de la historia democrática reciente. Los propietarios y directivos podían decidir qué se investigaba, qué se publicaba e incluso qué convenía callar. Pero una empresa también podía ofrecer abogados, recursos, tiempo para investigar y respaldo frente a una amenaza.</p><p>La encuesta encontró que 389 periodistas, el 43 por ciento de quienes respondieron, sufrieron violencia digital vinculada con su trabajo durante el último año. Entre ellos, el 20,8 por ciento denunció hackeos o intentos de acceso a sus cuentas; el 14,9 por ciento recibió amenazas de violencia física y el 9,3 por ciento, amenazas de muerte. Frente a agresiones graves, apenas el 14,7 por ciento de los atacados recibió apoyo institucional formal del medio para el que trabajaba. El 53,2 por ciento no recibió ningún respaldo.</p><p>¿Qué hace un medio cuando amenazan de muerte a uno de sus periodistas o lo insultan hasta el agotamiento? ¿Tiene protocolos para actuar, asesoramiento jurídico, asistencia psicológica o medidas de seguridad digital? ¿Quién se ocupa si el ataque llega a las cuentas personales de un colaborador que factura por nota? ¿Y si trabaja para tres empresas diferentes? El acompañamiento puede quedar reducido al silencio de las empresas o a reacciones aisladas de organizaciones de periodistas, sindicatos de prensa y colegas. Del otro lado, en una clara asimetría, el poder estatal.</p><p>La falta de respaldo empieza mucho antes de la agresión. El menosprecio no es solo una cuestión de formas, también normaliza los ataques. La frase que se escucha en las entrevistas en profundidad es “hasta cuándo vamos a seguir fingiendo demencia”. Según los datos recolectados, el 42 por ciento afirma que ninguno de los medios donde trabaja cuenta con protocolos o recursos de apoyo ante la violencia digital. Otro 37,9 por ciento desconoce si existen estos procedimientos. Apenas el 5,9 por ciento asegura que todos sus medios disponen de esos mecanismos. ¿Qué protección puede esperar un periodista si la empresa para la que trabaja carece de un procedimiento para asistirlo o ni siquiera se lo comunicó? Finjamos demencia porque quizás ya estamos demasiado afectados.</p><p>Frente a situaciones como la quita de acreditaciones, las dificultades para acceder a fuentes públicas o el cierre de espacios de trabajos, los insultos y ataques en redes, los periodistas también respondieron sobre los posibles mecanismos que consideraban mejores para intervenir rápidamente. Entre las opciones más votadas aparecieron la intervención inmediata de sindicatos periodísticos y asociaciones profesionales y la posibilidad de una defensoría especializada en libertad de prensa. También la implementación de mecanismos rápidos e informales para reaccionar de manera colectiva; la adopción de medidas judiciales urgentes; la creación de un observatorio público con capacidad de denuncia inmediata y una mesa de respuesta entre medios y organizaciones de periodistas). La mayoría de las opciones votadas apuntan a una necesidad concreta: contar con instituciones y organizaciones que puedan actuar de inmediato cuando se obstaculiza el trabajo periodístico y evitar que cada periodista tenga que resolver el problema por su cuenta.</p><p>Mujeres y varones reciben ataques digitales en proporciones prácticamente iguales: el 43,6 por ciento de las mujeres y el 42,1 por ciento de los varones declaró haber sufrido violencia digital durante el último año. Tampoco aparecen grandes diferencias en los tipos de agresiones recibidas. Los insultos, por ejemplo, alcanzaron al 89,7 por ciento de las mujeres atacadas y al 89,5 por ciento de los varones. Lo que sí cambia, según las entrevistas en profundidad, son las agresiones de tono sexual contra las mujeres.</p><p>La diferencia también aparece en las consecuencias. Entre quienes sufrieron violencia digital, el 35 por ciento de los varones dijo que los ataques no habían afectado en absoluto su salud mental. Entre las mujeres, esa respuesta cayó al 16,8 por ciento. En cambio, el 50,8 por ciento de las mujeres ubicó el impacto en los tres niveles más altos de una escala de cinco, frente al 35,5 por ciento de los varones.</p><p>La exposición pública introduce otra diferencia. Entre los periodistas que ponen la cara y la voz para informar, el 71,4 por ciento declaró haber sufrido ataques digitales. Entre quienes se dedican principalmente a producir contenidos, la proporción fue del 35,3 por ciento.</p><p>También importa sobre qué se informa. Cuando se les preguntó qué temas suelen desencadenar violencia digital, el 51,5 por ciento de los encuestados señaló las cuestiones de género entre los tres principales. El 43,2 por ciento mencionó las opiniones críticas del Gobierno, el 39,7 por ciento la corrupción y el 32,6 por ciento los derechos humanos.</p><p>Según el modelo estadístico, los periodistas que sufren la violencia de forma sistemática tienen 7,6 veces más posibilidades de autorrestringirse que quienes no la sufrieron. Y, aunque mujeres y varones sufren violencia digital en proporciones similares, el modelo también muestra otra diferencia: entre las mujeres, la relación entre haber evitado investigar o publicar y no haberlo hecho es casi el doble que entre los varones, considerando los demás factores analizados. Además, el 61,6 por ciento de las mujeres considera que la autocensura aumentó mucho en los últimos tres años, frente al 48,6 por ciento de los varones.</p><p>¿Quién tiene espalda para bancar lo que viene después de una investigación? Un periodista que necesita varios empleos para sostenerse, y depende de contratos temporales o carece de respaldo institucional, seguramente enfrenta esa decisión con recursos limitados.</p><p>Las respuestas de la encuesta y las entrevistas en profundidad realizadas por Anfibia durante 2026 permiten pensar en una reconfiguración de la censura. El poder puede influir sobre lo que se publica sin necesidad de impedir directamente la circulación de una noticia. A veces alcanza con que un periodista calcule las consecuencias de investigar y decida que es mejor no meterse en un tema. La encuesta no permite saber cuáles fueron las historias abandonadas durante el año, las que nunca llegaron a publicarse. Pero sí muestra que una proporción considerable de quienes respondieron modificó su trabajo por temor.</p><p>En la diapositiva de Oría, los periodistas aparecen organizados como un ejército enemigo. La imagen les atribuye una fuerza y una capacidad de acción colectiva que contrasta con las condiciones en las que trabajan. Pero la representación tiene otra consecuencia: si los periodistas son parte de una guerra contra el Gobierno, cualquier investigación incómoda puede ser presentada como una operación política. La discusión se desplaza entonces, en las redes y también desde cuentas oficiales, de lo que una noticia revela hacia las supuestas intenciones de quien la publica. Importa menos qué se descubrió que quién se atrevió a contarlo. El poder político, con todos sus recursos, se presenta como víctima de quienes tienen la tarea de investigarlo.</p><p>La encuesta muestra el otro lado de esa escena. Muchos periodistas enfrentan individualmente los riesgos de su trabajo y más de la mitad de los incluidos en el análisis sobre autocensura reconoce haber evitado investigar o publicar por temor a las consecuencias. Es probable que nunca sepamos qué historias quedaron en el camino. Y ese es, quizás, el efecto más difícil de medir de las agresiones a la prensa. Una de las funciones del periodismo es garantizar que los ciudadanos tengan buena información. Si antes de hacer las preguntas para investigar al poder se debe calcular cuáles serán las consecuencias de encontrar las respuestas, el periodismo se debilita y con el la democracia.</p><p>La entrada ¿Qué son los periodistas? se publicó primero en Revista Anfibia.</p>",
       "url": "https://www.revistaanfibia.com/que-son-los-periodistas/",
-      "image": "https://www.revistaanfibia.com/wp-content/uploads/2026/10/Encuesta-periodismo_port_01.jpg",
+      "image": null,
       "publishedAt": "2026-10-27T10:00:00+00:00",
       "sourceId": "anfibia",
       "sourceName": "Revista Anfibia",
@@ -5063,7 +5193,7 @@
       "summary": "Foto: Prensa PT Afuá, el municipio que anticipó la tendencia Afuá es un municipio de la isla de Marajó, en la desembocadura del Amazonas (estado de Pará). Tiene 37.765 habitantes según el Censo 2022, pero solo 12 mil viven en la ciudad (el resto vive en la ribera y se mueve en barco). Le dicen ... Leer más La entrada Aún estoy aquí se...",
       "content": "<p>Afuá es un municipio de la isla de Marajó, en la desembocadura del Amazonas (estado de Pará). Tiene 37.765 habitantes según el Censo 2022, pero solo 12 mil viven en la ciudad (el resto vive en la ribera y se mueve en barco). Le dicen la Veneza Marajoara porque está construida sobre el agua, entre ríos e igarapés, con casas y calles de madera montadas sobre palafitos a un metro y pico del río, que sube y baja con la marea todos los días. Es también la ciudad con la flota de vehículos más chica de Brasil (14, según los registros del Senatran de este año), porque los autos y las motos están prohibidos en la zona urbana. La prohibición viene de comienzos de los 2000 y la razón fue práctica, porque las calles de madera no aguantaban el peso de las motos (desde 2022 la fija una ley municipal). Así que en Afuá todo se mueve a pedal. Hay bicitáxis (un invento local de 1995, cuando un vecino unió dos bicicletas para pasear a los chicos, y en los que hasta las novias van a la iglesia), la policía patrulla en bicicleta y hasta la ambulancia es una &quot;bicilância&quot;, un cuadriciclo con camilla.</p><p>¿Y qué tiene que ver todo esto con la elección? A las 17:07, antes de que el conteo se congelara, el primer municipio con casi la mitad de sus secciones contadas (45%) fue Afuá. Ahí Lula sacaba 71,4% de los votos válidos, cuando en la primera vuelta había sacado 63,5% (y Flávio 31,6%). Lo adelantamos en redes y en la transmisión en vivo que hicimos en Cenital como una primera señal de que el viento venía a favor de Lula. Esas primeras urnas ya anticipaban parte de lo que se venía. Con todo contado, el corrimiento en Afuá fue menor del que sugerían a las 17:07 (Lula terminó con 67,3% y la diferencia se movió 2,7 puntos hacia él), pero la dirección que mostraban fue la que terminó dándose en casi todo Brasil.</p><p>Cada flecha en la imagen de abajo es un municipio. Las rojas apuntan a la izquierda y marcan dónde la diferencia se corrió hacia Lula respecto de la primera vuelta; las azules apuntan a la derecha y marcan corrimientos hacia Flávio Bolsonaro. El largo indica cuántos puntos cambió la diferencia entre los dos. En total, 5.389 municipios se movieron hacia Lula y 182 hacia Flávio.</p><p>Con el 100% escrutado, Lula obtuvo el 51,8% de los votos válidos y Flávio Bolsonaro el 48,2%. La diferencia es de 4,4 millones de votos sobre un total de 124 millones, el doble de los 2,1 millones con los que Lula le había ganado a Jair Bolsonaro en 2022. Así, Lula será presidente de Brasil por cuarta vez (gobernó entre 2003 y 2010 y desde 2023), y es el primero en ganar cuatro elecciones presidenciales. Hace tres semanas el panorama era el inverso. En la primera vuelta, Flávio había sacado 47,0% contra 45,2% de Lula, y escribimos acá que era la primera vez desde 1989 que Lula llegaba a un balotaje desde atrás (aquella vez perdió con Fernando Collor). Entre una vuelta y otra, Lula sumó 10,4 millones de votos y Flávio 3,7 millones.</p><p>Lo que pasó el domingo no tiene antecedentes en Brasil. Desde que existe el balotaje, en 1989, el que ganó la primera vuelta ganó siempre la segunda, incluso cuando el balotaje terminó muy parejo, como en 2014 (Dilma Rousseff le ganó a Aécio Neves por 3,3 puntos) o en 2022 (Lula a Jair Bolsonaro, por 1,8). Eso sí, ninguna primera vuelta había sido tan pareja como la de este año, porque la ventaja más chica hasta ahora había sido la de Lula en 2022, de 5,2 puntos. En el resto de América Latina, en cambio, la remontada ha sido bastante más común. En 22 de los 62 balotajes presidenciales desde 1990, el segundo de la primera vuelta terminó ganando, y entre los casos recientes están Mauricio Macri en 2015 y Javier Milei en 2023 en Argentina, Gabriel Boric en 2021 y José Antonio Kast en 2025 en Chile y Luis Lacalle Pou en 2019 en Uruguay. En este sentido, Brasil se volvió un poco más latinoamericano. La de Lula, además, fue una remontada de las más chicas en distancia de partida (casi todas las de la región arrancaron más de dos puntos atrás), aunque Flávio venía de sacar el mejor resultado de un rival del PT en primera vuelta desde 1998. El siguiente gráfico pone cada balotaje de la región según la ventaja con la que el primero salió de la primera vuelta y la que tuvo en la segunda (como todos los gráficos de El Atlas, es interactivo y descargable).</p><p>En la primera vuelta, casi todo Brasil se había corrido hacia Flávio respecto de 2022. En el balotaje, el &quot;swing&quot; fue igual de extendido, pero en la dirección contraria. Respecto de hace tres semanas, la diferencia se movió hacia Lula en el 97% de los municipios, y Lula mejoró en los 27 estados. Para comparar parejo hay que mirar su porcentaje sobre los votos de los dos finalistas, porque en la primera vuelta había otros candidatos (sobre el total de votos válidos, Lula sube en todos lados casi por arrastre). Medido así, subió desde 1,2 puntos en Piauí (donde ya sacaba 75%) hasta 4,3 en Río de Janeiro, el estado donde más creció, y 3,8 en São Paulo. Flávio había ganado unos 2.900 municipios en la primera vuelta, y 211 de ellos pasaron a Lula en el balotaje. El camino inverso lo hizo uno solo. A escala de estado, el único que cambió de ganador fue Minas Gerais, que había votado a Flávio en la primera vuelta (48,2% contra 43,3%) y le dio a Lula el 50,4% en el balotaje.</p><p>En la primera vuelta, el tamaño del municipio explicaba cerca del 40% de las diferencias en el cambio del voto frente a 2022 (Lula había caído mucho más en los pueblos chicos que en las grandes ciudades). En el balotaje, el cambio fue mucho más parejo. Si se agrupan los municipios por ingreso por persona, por la proporción de hogares que cobran el Bolsa Família (la transferencia mensual del Estado a las familias de menores ingresos) o por el peso de los evangélicos, la diferencia se corrió hacia Lula entre 4 y 6 puntos en casi todos los grupos, cerca del promedio de 5,3. Hay apenas dos matices. En el quintil de municipios más ricos el corrimiento fue algo menor (3,9 puntos), porque ahí Flávio también creció (3 puntos, contra una leve caída en los más pobres), y en los municipios de menos de 10.000 electores fue de 4 puntos, contra casi 6 en las ciudades de más de 200.000. Así, se consolidó lo que ya se veía en la primera vuelta, cuando Lula había resistido mucho mejor en las grandes ciudades que en los pequeños municipios (esto, como veremos luego, es uno de los cambios más grandes en la geografía del voto frente a 2022). Vale una advertencia: son comparaciones entre municipios, no entre personas, y para saber quién cambió su voto hacen falta encuestas.</p><p>La remontada no se explica solo por los votantes de los demás candidatos. Entre una vuelta y otra cambió también quién votó y cómo. La participación subió de 79,1% a 81,0% del padrón (casi 3 millones de personas más), algo poco habitual en Brasil (en 2022 había pasado de 79,1% a 79,4%). El voto en blanco y nulo bajó de 4,8% a 3,2% de los que votaron, con 1,8 millones de votos menos. El aumento de la participación fue mayor en el Sudeste (2,4 puntos), el Sur (2,3) y el Nordeste (1,9). El Norte fue la excepción, con una caída de casi 2 puntos. El día de la elección, además, las dos campañas pidieron extender la votación, la de Lula por la falta de colectivos en Salvador y otras ciudades de Bahía y la de Flávio por las lluvias en municipios del Sur y de São Paulo, y el ministro Cristiano Zanin, del Supremo, la prorrogó hasta las 19 en las secciones que seguían abiertas. Cuánto de la mayor participación se debe a eso y cuánto a la movilización de cada campaña es algo que los datos agregados no permiten separar.</p><p>La cuenta gruesa ya dice bastante. En la primera vuelta, los demás candidatos sumaron 9,3 millones de votos (Augusto Cury, 3,4 millones; Renan Santos, 2,7; Ronaldo Caiado, 2,6; Romeu Zema, 0,3). A eso hay que sumarle los 1,8 millones de votos en blanco y nulos que ya no estuvieron y los 3 millones de personas que se sumaron a votar. En total, unos 14 millones de votos nuevos para los dos finalistas, de los que Lula se quedó con 10,4 millones, casi tres de cada cuatro. Hace tres semanas calculábamos que a Lula le alcanzaba con el 62% de los votos de los demás si votaban las mismas personas. Sacó bastante más que eso, aunque esta cuenta no dice de dónde vino cada voto.</p><p>Para ir más allá hay que mirar urna por urna. Cada sección electoral vota en la misma urna en las dos vueltas, con casi los mismos electores, así que comparando cada sección consigo misma se puede estimar a dónde fue cada grupo. Lo hizo en vivo, durante la noche, el sitio e26.pm.radio.am, con 357 mil boletines de urna. Según esa estimación, los votantes de Cury se inclinaron por Lula (54% contra 34%), los de Renan Santos se repartieron casi por mitades y los de Caiado fueron algo más a Flávio (50% contra 46%), igual que los pocos de Zema. Sumados, los votantes de los demás candidatos le dejaron a Lula apenas 0,6 millones de votos de diferencia.</p><p>El grueso de la remontada vino de otro lado. Los que en la primera vuelta habían votado en blanco o anulado (6 millones) se volcaron a Lula (78% y 58%, respectivamente), y entre los que no habían ido a votar y esta vez fueron, Lula sacó el doble que Flávio. Esos tres grupos le dejaron a Lula 4,3 millones de diferencia. Buena parte del resto se explica por las diferencias en la fidelidad: según la misma estimación el 100% de los votantes de Lula lo volvió a votar, contra el 98% de los de Flávio. Estos datos deben tomarse en cuenta más como estimaciones que como un conteo fiel de lo que hizo cada votante.</p><p>Comparado con el balotaje de 2022, el resultado nacional cambió poco (Lula pasó de 50,9% a 51,8%), pero la geografía cambió bastante más. Lula ganó en menos municipios que hace cuatro años (2.875 contra 3.123), porque 278 que lo habían votado en 2022 eligieron a Flávio, y solo 31 hicieron el camino inverso. Aun así, sacó más votos, porque mejoró donde vive más gente. En las ciudades de más de un millón de electores, su porcentaje subió 3,1 puntos respecto de 2022, mientras que en los municipios de menos de 10.000 cayó 2,9. Con la educación pasa algo parecido (subió 2,8 puntos en el quintil de municipios con más universitarios y cayó 1,6 en el de menos) y con el agro sucede lo contrario (cayó 2,5 puntos donde más pesa el campo). A escala de estado, Amapá pasó a Lula y Tocantins a Flávio. Las mejoras más grandes frente a 2022 estuvieron en el Distrito Federal (4,5 puntos), Amapá (4,3) y Río de Janeiro (3,4); las caídas, en Tocantins (2,8), Maranhão (1,6) y Rio Grande do Sul (1,5). Dicho de otro modo, el Lula de 2026 es más urbano y algo menos rural que el de 2022.</p><p>Minas Gerais volvió a funcionar como termómetro. En el balotaje le dio a Lula el 50,4%, apenas por debajo del 51,8% nacional, y así se mantuvo una racha que ya es famosa en Brasil. Desde 1989, el candidato más votado en Minas fue el más votado en el país en los 18 turnos presidenciales, incluidas las dos vueltas de este año, en las que el estado cambió de ganador junto con el país. Minas tiene el 10% del padrón y una mezcla de regiones que se parece bastante a la del país (un norte pobre y cercano al Nordeste, un sur y un Triângulo más ricos y agropecuarios y una capital grande), lo que ayuda a entender por qué suele quedar tan cerca del promedio.</p><p>En la primera vuelta escribimos que el Nordeste ya no alcanzaba. El balotaje lo desmintió. La ventaja de Lula en la región pasó de 11,1 a 13,7 millones de votos, más que en 2022 (12,6 millones), en buena medida porque ahí la participación subió a 83,5%, la más alta del país. Al mismo tiempo, la desventaja en el Sudeste se achicó a la mitad (de 5,7 a 2,8 millones), mientras que la del Sur y la del Centro-Oeste casi no cambiaron. El Norte terminó empatado (Lula ganó la región por 1.079 votos) y en el exterior Lula ganó por 29 mil. La suma da los 4,4 millones de diferencia nacional.</p><p>El conteo también fue distinto al de 2022. Aquella vez, Jair Bolsonaro estuvo adelante hasta que se contó el 68% de las secciones, y Lula recién lo pasó a las 18:43. Este domingo, en cambio, el TSE empezó a publicar a las 17:06, se frenó al minuto por la prórroga de la votación y recién retomó pasadas las 19. Lula arrancó arriba, Flávio pasó adelante cuando se llevaba contado el 14% (a las 19:45) y llegó a sacarle un punto, y Lula volvió a pasarlo con el 47% contado, a las 20:24. A partir de ahí, su ventaja creció con cada tanda de urnas hasta el 3,6 final, que se completó pasadas las 23.</p><p>La entrada Aún estoy aquí se publicó primero en Revista Anfibia.</p>",
       "url": "https://www.revistaanfibia.com/aun-estoy-aqui-lula-da-silva-balotaje-remontada-historica/",
-      "image": "https://www.revistaanfibia.com/wp-content/uploads/2026/10/Portada-Lula.jpg",
+      "image": null,
       "publishedAt": "2026-10-26T11:58:22+00:00",
       "sourceId": "anfibia",
       "sourceName": "Revista Anfibia",
