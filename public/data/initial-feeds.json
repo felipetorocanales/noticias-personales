@@ -1,15 +1,20 @@
 {
-  "generatedAt": "2026-11-06T15:46:10.248147+00:00",
+  "generatedAt": "2026-11-06T16:01:26.183381+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
   "totalArticles": 213,
-  "totalBlockedFarandula": 6,
+  "totalBlockedFarandula": 4,
   "blockedExamples": [
     {
       "title": "El escritoriazo de la ANFP",
       "source": "Interferencia",
       "reason": "fútbol"
+    },
+    {
+      "title": "Dávinson Sánchez encabeza nómina de Colombia para enfrentar a Chile",
+      "source": "Radio Cooperativa",
+      "reason": "fifa"
     },
     {
       "title": "DT de Elche alabó el trabajo de Pellegrini: Betis es un equipo completo y me gusta lo que hace",
@@ -20,21 +25,6 @@
       "title": "Bernardo Silva será el nuevo capitán de Portugal tras el retiro de Cristiano Ronaldo",
       "source": "Radio Cooperativa",
       "reason": "mediocampista"
-    },
-    {
-      "title": "Sesión inédita: Directorio de la ANFP se reunió en \"Pinto Durán\" tras la clausura de Quilín",
-      "source": "Radio Cooperativa",
-      "reason": "fútbol"
-    },
-    {
-      "title": "Fallecimiento de Jesús de Miguel: Juez se declaró incompetente para aplazar la jornada",
-      "source": "Radio Cooperativa",
-      "reason": "fútbol"
-    },
-    {
-      "title": "DT de Portugal se desligó del retiro de Cristiano Ronaldo: \"No me siento culpable de nada\"",
-      "source": "Radio Cooperativa",
-      "reason": "dt de"
     }
   ],
   "sources": [
@@ -507,7 +497,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 16.7
+      "newestAgeHours": 17.0
     },
     {
       "id": "interferencia",
@@ -520,7 +510,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 7.0
     },
     {
       "id": "fastcheck",
@@ -533,7 +523,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.0
+      "newestAgeHours": 1.2
     },
     {
       "id": "radiouchile",
@@ -546,7 +536,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.7
+      "newestAgeHours": 0.2
     },
     {
       "id": "elmostrador",
@@ -559,7 +549,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 16.0
+      "newestAgeHours": 16.3
     },
     {
       "id": "eldesconcierto",
@@ -572,7 +562,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 18.4
+      "newestAgeHours": 18.6
     },
     {
       "id": "laderasur",
@@ -585,7 +575,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 3,
-      "newestAgeHours": 19.8
+      "newestAgeHours": 20.1
     },
     {
       "id": "resumen",
@@ -598,7 +588,7 @@
       "count": 2,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 7.3
+      "newestAgeHours": 7.5
     },
     {
       "id": "elciudadano",
@@ -611,7 +601,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.5
+      "newestAgeHours": 0.0
     },
     {
       "id": "malaespina",
@@ -624,7 +614,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.7
+      "newestAgeHours": 0.9
     },
     {
       "id": "vergara240",
@@ -637,7 +627,7 @@
       "count": 1,
       "blocked": 0,
       "staleDropped": 17,
-      "newestAgeHours": 330.4
+      "newestAgeHours": 330.7
     },
     {
       "id": "terram",
@@ -650,7 +640,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.2
+      "newestAgeHours": 1.4
     },
     {
       "id": "timeline",
@@ -663,7 +653,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.0
+      "newestAgeHours": 1.2
     },
     {
       "id": "diariouach",
@@ -676,7 +666,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.3
+      "newestAgeHours": 1.5
     },
     {
       "id": "cooperativa",
@@ -687,9 +677,9 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 5,
+      "blocked": 3,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.1
     },
     {
       "id": "elfaro",
@@ -715,7 +705,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.8
+      "newestAgeHours": 6.0
     },
     {
       "id": "lasillavacia",
@@ -728,7 +718,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.8
+      "newestAgeHours": 0.2
     },
     {
       "id": "ojopublico",
@@ -741,7 +731,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 1,
-      "newestAgeHours": 108.6
+      "newestAgeHours": 108.8
     },
     {
       "id": "cuestionpublica",
@@ -754,7 +744,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 12.2
+      "newestAgeHours": 12.5
     },
     {
       "id": "chequeado",
@@ -767,7 +757,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 164.0
+      "newestAgeHours": 164.2
     },
     {
       "id": "piedepagina",
@@ -780,7 +770,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 118.1
+      "newestAgeHours": 118.3
     },
     {
       "id": "cenital",
@@ -793,7 +783,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.3
+      "newestAgeHours": 3.5
     },
     {
       "id": "brecha",
@@ -806,7 +796,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.3
+      "newestAgeHours": 5.8
     },
     {
       "id": "jacobinlat",
@@ -819,7 +809,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.8
+      "newestAgeHours": 3.0
     },
     {
       "id": "ciclismo-chile",
@@ -832,7 +822,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 19.5
+      "newestAgeHours": 19.8
     },
     {
       "id": "ciclo21",
@@ -845,7 +835,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.0
+      "newestAgeHours": 2.2
     },
     {
       "id": "brujulabike",
@@ -858,7 +848,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.6
+      "newestAgeHours": 2.8
     },
     {
       "id": "esciclismo",
@@ -871,7 +861,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": -0.9
+      "newestAgeHours": -0.7
     },
     {
       "id": "propublica",
@@ -884,7 +874,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.8
+      "newestAgeHours": 5.0
     },
     {
       "id": "bellingcat",
@@ -897,7 +887,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 30.0
+      "newestAgeHours": 30.2
     },
     {
       "id": "theintercept",
@@ -910,7 +900,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.8
+      "newestAgeHours": 5.0
     },
     {
       "id": "eldiarioes",
@@ -923,7 +913,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.8
+      "newestAgeHours": 6.1
     },
     {
       "id": "elsalto",
@@ -936,7 +926,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.7
+      "newestAgeHours": 10.9
     },
     {
       "id": "sinpermiso",
@@ -962,7 +952,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.7
+      "newestAgeHours": 0.1
     },
     {
       "id": "dw",
@@ -975,7 +965,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.1
+      "newestAgeHours": 1.4
     },
     {
       "id": "globalvoices",
@@ -988,7 +978,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 8.8
+      "newestAgeHours": 9.0
     }
   ],
   "articles": [
@@ -1013,24 +1003,24 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "interferencia-15d16f57dc",
-      "title": "Condenado a expulsión por tráfico que recibió rebaja de condena de Rabat fue detenido otra vez por tráfico",
-      "summary": "Seis meses después de recibir su rebaja de condena firmada, sin oposición, por el ministro de Justicia, Fernando Rabat, el venezolano Edixon Escobar García volvió a ser detenido por tráfico de drogas. El 30 de octubre, el Juzgado de Garantía de Arica decretó su prisión preventiva junto a un ciudadano colombiano. Tal como informó...",
-      "content": "<p>Seis meses después de recibir su rebaja de condena firmada, sin oposición, por el ministro de Justicia, Fernando Rabat, el venezolano Edixon Escobar García volvió a ser detenido por tráfico de drogas. El 30 de octubre, el Juzgado de Garantía de Arica decretó su prisión preventiva junto a un ciudadano colombiano.</p><p>Tal como informó Interferencia anteriormente, Escobar García cumplía en la cárcel de Acha, Región de Arica y Parinacota, una condena de cinco años por tráfico ilícito de drogas. Había sido detenido el 2 de agosto de 2020 junto a otros cuatro sujetos que ingresaban por la frontera con Perú a través de un paso no habilitado con 25,5 kilos de cannabis y dos kilos de clorhidrato de cocaína.</p><p>Si bien el Tribunal Oral en lo Penal de Arica lo condenó a cinco años de presidio, inicialmente sustituyó la pena por la expulsión del país, con prohibición de regresar por 10 años. Si volvía antes, debía cumplir la pena en la cárcel.</p><p>En septiembre de 2021 la Intendencia de Arica solicitó ampliar el plazo, porque la Policía de Investigaciones (PDI) no había podido ejecutar la expulsión, acusando que en esa época no existían vuelos entre Chile y Venezuela, debido a la pandemia. El tribunal amplió el plazo en 60 días, con los condenados bajo custodia de Gendarmería.</p><p>Sin embargo, luego de la ampliación, la carpeta judicial revisada por este medio no consigna qué ocurrió después de la extensión del plazo si la expulsión se materializó ni cómo terminó la custodia, que según el cómputo de Gendarmería se extendió hasta comienzos de noviembre de 2021.</p><p>Lo que sí consta es que en 2023 Escobar García caminaba nuevamente libre en Chile.</p><p>En enero de 2023, Edixon Escobar García fue detenido y formalizado por el homicidio de Eduard Serrano Pérez, ocurrido el 7 de octubre de 2022 en la calle Carlos Pezoa Véliz, en Arica, y por ocultación de identidad.</p><p>Ese mismo día, el tribunal revocó la pena sustitutiva de expulsión y ordenó su ingreso a la cárcel para cumplir los cinco años.</p><p>Debido a falta de pruebas, en mayo de 2025 el tribunal sobreseyó a Escobar a petición de la Fiscalía. El Ministerio Público argumentó que no contaba con “prueba directa ni científica”. Sus dos testigos clave no estaban disponibles: uno era una mujer “no habida” y el otro un prófugo vinculado al Tren del Coro.</p><p>En la cárcel, Escobar García estuvo lejos de cumplir con los requisitos mínimos de buena conducta.</p><p>En abril de 2025, se le negó la libertad condicional, pues la Comisión consideró factores de riesgo de reincidencia por los que “el postulante no podrá, en este proceso, reinsertarse adecuadamente en la sociedad”. En julio del mismo año, Gendarmería sancionó a Escobar con privación de visitas, junto a otros siete internos, por “alboroto, destrozos y diversos desórdenes colectivos”. El juzgado autorizó la sanción por “haber infringido gravemente y en forma reiterada el Reglamento de Establecimientos Penitenciarios”.</p><p>A pesar de estos antecedentes, el 23 de abril de este año, el ministro Fernando Rabat firmó el decreto que le rebajó seis meses de condena. Como todos los decretos revisados por este medio, sostiene que “este Ministerio no está habilitado para denegar el beneficio de reducción de condena fundado en la gravedad del delito y el bien jurídico protegido” y que “la jurisprudencia (...) ha resuelto que esta Cartera de Estado está obligada a dictar el decreto correspondiente, si de acuerdo a los términos de la Ley son satisfechos los requisitos ahí establecidos”.</p><p>El decreto firmado por Rabat figura con distribución hacia Gendarmería, la Seremi de Justicia y el Registro Civil, pero no ofició a la PDI ni al Servicio Nacional de Migraciones (SERMIG), los organismos encargados de las expulsiones.</p><p>Según los decretos revisados por Interferencia, el Ministerio de Justicia recién comenzó a incluir a la PDI y a SERMIG en la distribución de las rebajas a extranjeros a partir de junio.</p>",
-      "url": "https://interferencia.cl/%3Ca%20href%3D%22/articulos/condenado-expulsion-por-trafico-que-recibio-rebaja-de-condena-de-rabat-fue-detenido-otra%22%3ECondenado%20a%20expulsi%C3%B3n%20por%20tr%C3%A1fico%20que%20recibi%C3%B3%20rebaja%20de%20condena%20de%20Rabat%20fue%20detenido%20otra%20vez%20por%20tr%C3%A1fico%3C/a%3E",
+      "id": "elciudadano-e5b7f78470",
+      "title": "(VIDEO) Oficio de parlamentarios de oposición sobre migración y rebajas de penas en La Moneda",
+      "summary": "El Ciudadano Parlamentarios de oposición realizaron un oficio dirigido al Servicio Nacional de Migraciones, PDI y la Subsecretaría del Interior con el fin de investigar la situación migratoria de extranjeros condenados por delitos de drogas que han recibido rebajas en sus penas. La iniciativa se centra en esclarecer posibles...",
+      "content": "<p>Parlamentarios de oposición realizaron un oficio dirigido al Servicio Nacional de Migraciones, PDI y la Subsecretaría del Interior con el fin de investigar la situación migratoria de extranjeros condenados por delitos de drogas que han recibido rebajas en sus penas. La iniciativa se centra en esclarecer posibles irregularidades y busca promover la transparencia en los procesos judiciales de migrantes involucrados en actividades delictivas.</p><p>La entrada (VIDEO) Oficio de parlamentarios de oposición sobre migración y rebajas de penas en La Moneda se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/reels/video-oficio-de-parlamentarios-de-oposicion-sobre-migracion-y-rebajas-de-penas-en-la-moneda/11/06/",
       "image": null,
-      "publishedAt": "2026-11-06T15:34:40+00:00",
-      "sourceId": "interferencia",
-      "sourceName": "Interferencia",
-      "sourceType": "Investigación y Poder",
-      "sourceSite": "https://interferencia.cl",
+      "publishedAt": "2026-11-06T16:00:10+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "alta",
-      "relevanceScore": 92,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "esciclismo-21e763bb90",
@@ -1053,6 +1043,106 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
+      "id": "france24-2b569c9a1d",
+      "title": "Directo París y el programa presidencial de Mélenchon, líder de Francia Insumisa",
+      "summary": "Este 6 de noviembre, el partido francés de izquierda radical Francia Insumisa, liderado por Jean-Luc Mélenchon, publicó su programa presidencial de cara a las precampañas para las elecciones presidenciales de 2027. Entre las más de 1.000 propuestas presentadas, el líder político da prioridad a la ecología, además de la revalorización...",
+      "content": "<p>Este 6 de noviembre, el partido francés de izquierda radical Francia Insumisa, liderado por Jean-Luc Mélenchon, publicó su programa presidencial de cara a las precampañas para las elecciones presidenciales de 2027. Entre las más de 1.000 propuestas presentadas, el líder político da prioridad a la ecología, además de la revalorización del salario mínimo. Nuestra periodista, Erika Olavarría, nos habló sobre el tema. También nos contó sobre la nueva convocatoria de manifestaciones.</p>",
+      "url": "https://www.france24.com/es/video/20261106-directo-par%C3%ADs-y-el-programa-presidencial-de-m%C3%A9lenchon-l%C3%ADder-de-francia-insumisa",
+      "image": "https://s.france24.com/media/display/ff0bf016-d9f8-11f1-bd9a-1beafce15fea/w:1024/p:16x9/ES-20261106-072537-073002-CS.jpg",
+      "publishedAt": "2026-11-06T15:58:10+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Medioambiente y Territorio",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "radiouchile-222a97fd18",
+      "title": "Fiscal Valencia advierte sobre Presupuesto 2027: “Estos recortes significan más posibilidad de impunidad a los delincuentes”",
+      "summary": "El jefe del Ministerio Público calificó la propuesta de Hacienda como un “retroceso” y explicó que la eliminación de la partida de la Fiscalía Supraterritorial aplaza la llegada de dos tercios de los nuevos persecutores hasta diciembre de 2027. La entrada Fiscal Valencia advierte sobre Presupuesto 2027: “Estos recortes significan más...",
+      "content": "<p>El fiscal nacional, Ángel Valencia, fijó este viernes una dura postura frente al avance de la discusión de la Ley de Presupuesto 2027 en la partida asignada al Ministerio Público. La autoridad catalogó la propuesta del Ejecutivo como un “retroceso” que pone en riesgo el combate a la delincuencia y la impunidad en el país.</p><p>El malestar surge luego de que la Subcomisión Mixta de Presupuesto aprobara eliminar la partida 2 correspondiente a la recién creada Fiscalía Supraterritorial, con el fin de traspasar esos fondos al programa general de la institución, además de aplazar la incorporación de los nuevos persecutores.</p><p>En entrevista con Radio Universo, Valencia detalló los efectos de esta medida: “Se pretende por parte de Hacienda que dos tercios de los fiscales de la Supraterritorial entren recién en diciembre del próximo año. En los hechos, significa que una gradualidad de dos años se transforma en una de tres. En lugar de avanzar, estamos pendientes de contener de nuevo otro retroceso”.</p><p>El líder del Ministerio Público argumentó que la cantidad actual de persecutores es insuficiente para enfrentar la alta demanda del sistema penal, y reveló que durante este 2026 la carga de trabajo superó los dos millones de denuncias.</p><p>“El aumento de fiscales previsto en cuatro años no alcanza a cubrir ese incremento de causas (…) Vamos a llegar al final del periodo a mil fiscales. Pero si esos mil entraran hoy, la carga por profesional apenas equivaldría a la que teníamos en 2022. Lo único que estamos haciendo es reducir el retroceso, y esa gradualidad la dilatan en vez de anticiparla”, lamentó.</p><p>En esa misma línea, Valencia fue enfático en proyectar las graves consecuencias que generará la falta de personal en la tramitación de juicios y la persecución de delitos complejos. “En términos sencillos, con menos fiscales, si quisiéramos ir con más causas por delitos sexuales graves a juicio oral, tengo que ir a procedimiento abreviado; tengo que pedir penas más bajas porque no tengo suficientes fiscales. Es así: menos recursos es impunidad”, enfatizó.</p><p>“Estos recortes significan más posibilidad de impunidad a los delincuentes”, declaró, y apuntó que “la gradualidad que ha propuesto Hacienda es un retroceso. En lugar de avanzar, como veníamos, resulta que ahora retrocedemos”.</p><p>Valencia también explicó que “aunque se considera la Ley de Presupuesto esta ampliación en número, en cantidad de personas, se pretende que en el caso de la Supraterritorial, en lugar de entrar en enero o en abril, dos tercios de esos nuevos fiscales entraría en diciembre“. Y agregó: “En los hechos significa que una gradualidad de dos años que acabas de aprobar recién, la transformas en una gradualidad de tres. Entonces, en lugar de avanzar, estamos tratando de contener de nuevo otro retroceso“.</p><p>“Hemos estado conversando con Hacienda y esperamos, tal como ellos han planteado, que estas diferencias respecto a la forma como se implementa esa gradualidad prevista en la ley, que pudiera repararse y contar con los fiscales que necesitamos en los lugares donde estamos con necesidades de personal. Estamos retrocediendo. Lo único que estamos haciendo es reducir el retroceso. Esta gradualidad que estaba prevista, además la dilatan. Es difícil de entender“, subrayó.</p><p>Además, el fiscal nacional hizo un llamado al Ministerio de Hacienda para subsanar estas diferencias durante el trámite legislativo, y recordó que en los últimos tres años la institución ha logrado “reducir la brecha de impunidad” gracias al uso eficiente de los recursos asignados.</p><p>La entrada Fiscal Valencia advierte sobre Presupuesto 2027: “Estos recortes significan más posibilidad de impunidad a los delincuentes” se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/06/fiscal-valencia-advierte-sobre-presupuesto-2027-estos-recortes-significan-mas-posibilidad-de-impunidad-a-los-delincuentes/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/06124605/angel-valencia.jpg",
+      "publishedAt": "2026-11-06T15:50:46+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 98,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "france24-a19cb7f760",
+      "title": "Denuncias contra Petro por contratos a cambio de favores sexuales: ¿qué se sabe en Colombia?",
+      "summary": "Deicy Jiménez, exfuncionaria del Gobierno de Colombia, denunció al expresidente Gustavo Petro por presunta prostitución a cambio de favores políticos y contratos públicos. Jiménez lo acusa de ofrecerle a ella y a más de una treintena de mujeres contratos públicos a cambio de intercambios sexuales. Petro ha negado las denuncias. En el...",
+      "content": "<p>Deicy Jiménez, exfuncionaria del Gobierno de Colombia, denunció al expresidente Gustavo Petro por presunta prostitución a cambio de favores políticos y contratos públicos. Jiménez lo acusa de ofrecerle a ella y a más de una treintena de mujeres contratos públicos a cambio de intercambios sexuales. Petro ha negado las denuncias. En el #Invitad@DelDíaF24 hablamos con Catalina Ruiz Navarro, analista, periodista y directora del medio de comunicación feminista Volcánicas, quien nos contó más sobre el caso y analizó las posibles implicaciones.</p>",
+      "url": "https://www.france24.com/es/video/20261106-denuncias-contra-petro-por-contratos-a-cambio-de-favores-sexuales-qu%C3%A9-se-sabe-en-colombia",
+      "image": "https://s.france24.com/media/display/47d4c9f4-d9f8-11f1-b5d6-695cb59fade5/w:1024/p:16x9/ES-20261106-071617-072522-CS.jpg",
+      "publishedAt": "2026-11-06T15:57:41+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 81,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "lasillavacia-173e2196da",
+      "title": "Fundación de la primera dama tendrá 48 horas para rendir cuentas",
+      "summary": "La orden viene de una tutela presentada por el senador Alejandro Ocampo, del Pacto. En un primer informe señaló que ha recaudado $54 millones en donaciones. The post Fundación de la primera dama tendrá 48 horas para rendir cuentas appeared first on La Silla Vacía .",
+      "content": "<p>El Juzgado 126 Penal Municipal de Bogotá le ordenó a la Fundación Colombia Luz y Sonrisas explicar, en un plazo de 48 horas tras la notificación de la sentencia, el manejo de las donaciones para atender a las víctimas del terremoto.</p><p>Según el fallo, que conoció la Agencia AFP, la fundación de la primera dama, Ana Lucía Pineda, deberá detallar “de manera clara, precisa, congruente” lo que ha hecho con las donaciones que “recibió, administró, canalizó o distribuyó”.</p><p>La orden viene de una tutela presentada por el senador Alejandro Ocampo, del Pacto Histórico. “Ahora vamos a saber dónde está la plata”, dijo en un video en su cuenta de X. Ocampo llevaba desde agosto pidiendo información, desde derechos de petición y acciones de tutela, para que se explicara el monto y el manejo de la plata.</p><p>La fundación ya presentó un primer informe. Va desde el 7 de julio –el día en que se fundó– a hoy, 16 de octubre, y señala que ha recaudado $54.589.523.791 en donaciones, todas provenientes del sector privado. La Dian confirmó días atrás que la fundación podía recibir esos aportes.</p><p>El 81% de estos aportes corresponden a la Familia Gilinski. Según el informe, las donaciones están destinadas para la reconstrucción de tres colegios y tres centros de salud en Cali.</p><p>Jaime, el patriarca de esa casa, es el empresario más rico de Colombia y es uno de los cacaos que ayudarán en la reconstrucción. Su hijo, Gabriel, es el dueño de la Revista Semana, que hizo abierta campaña por Abelardo de la Espriella.</p><p>La fundación divide su gestión en dos fases.</p><p>Las quejas sobre la rapidez para atender la emergencia están creciendo. La Silla lo comprobó con testimonios en Pereira y Quibdó, dos de las ciudades más afectadas por el terremoto.</p><p>El dinero recaudado por la primera dama se ha convertido en una controversia que toca al círculo presidencial, y ha puesto a Pineda bajo el escrutinio público. No solo por su probidad, que hasta ahora ha sido atacada sin pruebas, sino por su capacidad para ejecutar enormes recursos sin experiencia previa y grandes expectativas.</p><p>Sepa más. En esta historia les dejamos preguntas y respuestas sobre la fundación de la primera dama para el terremoto. Y aquí un episodio de Huevos Revueltos con Política donde revisamos lo que se sabe y lo que no del fondo de la primera dama:</p><p>The post Fundación de la primera dama tendrá 48 horas para rendir cuentas appeared first on La Silla Vacía.</p>",
+      "url": "https://www.lasillavacia.com/en-vivo/fundacion-de-la-primera-dama-tendra-48-horas-para-rendir-cuentas/",
+      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/Abelardo-de-la-Espriella-Ana-Lucia-Pineda.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
+      "publishedAt": "2026-11-06T15:47:32+00:00",
+      "sourceId": "lasillavacia",
+      "sourceName": "La Silla Vacía",
+      "sourceType": "Poder y Política",
+      "sourceSite": "https://www.lasillavacia.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 92,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-e0fb370f3f",
+      "title": "Festival de música infantil anuncia shows gratuitos: Ciudades y fechas confirmadas",
+      "summary": "El FestiCRIN 2026 (Festival Nacional de Música para la Infancia) anunció los shows gratuitos que ofrecerá en diversas ciudades de Chile entre el 7 de noviembre y el 12 de diciembre . Todo comenzará este sábado 7 de noviembre a las 14:30 horas en el Museo Artequín de Viña del Mar con la primera fecha de FestiCRIN. Allí agrupaciones...",
+      "content": "<p>El FestiCRIN 2026 (Festival Nacional de Música para la Infancia) anunció los shows gratuitos que ofrecerá en diversas ciudades de Chile entre el 7 de noviembre y el 12 de diciembre.</p><p>Todo comenzará este sábado 7 de noviembre a las 14:30 horas en el Museo Artequín de Viña del Mar con la primera fecha de FestiCRIN. Allí agrupaciones infantiles como Los Patapelá, Volantín, Zapatito Cochinito, Banda Porota e Hilda Cristy y los sombreros animarán la jornada.</p><p>&quot;Queremos que FestiCRIN no solo sea un escenario para la música nacional, sino un espacio fundamental para la promoción de los derechos de las niñas y niños y un punto de encuentro para las familias&quot;, destacó Daniela Guzmán, Directora ejecutiva de CRIN Chile.</p><p>Estas son las cinco fechas gratuitas de FestiCRIN para fines de 2026:</p><p>Una publicación compartida por Creadores Infantiles de Chile (@crinchile)</p>",
+      "url": "https://www.cooperativa.cl/noticias/magazine/musica/shows-en-vivo/festival-de-musica-infantil-anuncia-shows-gratuitos-ciudades-y-fechas/2026-11-06/124127.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106124127.jpg",
+      "publishedAt": "2026-11-06T15:41:27+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Cultura y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "elciudadano-ee8ef53477",
       "title": "(VIDEO) ¿Es sostenible la permanencia del ministro de Justicia?",
       "summary": "El Ciudadano La entrada (VIDEO) ¿Es sostenible la permanencia del ministro de Justicia? se publicó primero en El Ciudadano .",
@@ -1068,6 +1158,86 @@
       "country": "Chile",
       "independent": true,
       "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "cooperativa-092e541dfd",
+      "title": "Ortiz antes de duelo clave con Ñublense: Aún no tenemos nada que celebrar",
+      "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://www.cooperativa.cl/noticias/deportes/futbol/colo-colo/ortiz-antes-de-duelo-clave-con-nublense-aun-no-tenemos-nada-que-celebrar/2026-11-06/122954.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000001220261106122954.jpg",
+      "publishedAt": "2026-11-06T15:29:54+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 72,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "elciudadano-7602531883",
+      "title": "¿Y las platas de los trabajadores?: 11 senadores exigen aclarar si las AFP tienen fondos expuestos a crisis bancaria en Paraguay",
+      "summary": "El Ciudadano “Además del desastre que dejaron las AFP y que se está investigando por parte de la Superintendencia de Pensiones, hemos pedido que la Superintendencia nos informe qué es lo que está pasando con los fondos de trabajadores chilenos en Paraguay”, señaló el senador Iván Flores. La entrada ¿Y las platas de los trabajadores?:...",
+      "content": "<p>Un grupo de 11 senadores exigen que la Superintendencia de Pensiones aclare si las Administradoras de Fondos de Pensiones (AFP) mantienen recursos previsionales expuestos a la crisis bancaria que estalló en Paraguay y si existe algún riesgo para los ahorros de los trabajadores chilenos.</p><p>Mediante un oficio dirigido a la presidenta del Senado, Paulina Núñez, los parlamentarios Yasna Provoste, Iván Flores y Francisco Huenchumilla (DC); Claudia Pascual, Daniel Núñez y Karol Cariola (PC); Beatriz Sánchez y Diego Ibáñez (FA); las independientes Fabiola Campillai y Alejandra Sepúlveda, y Esteban Velásquez (FRVS) solicitaron que se requiera información al superintendente de Pensiones, Joaquín Cortez Huerta, sobre si las AFP tienen recursos invertidos en Ueno Bank, intervenido el pasado 3 de noviembre por el Banco Central de Paraguay por problemas de solvencia.</p><p>Ueno Bank comenzó a operar en noviembre de 2023 y que, producto de una agresiva estrategia digital, logró convertirse en una de las principales entidades financieras de Paraguay hasta llegar a contar en 2026 con 2,9 millones de clientes, casi la mitad de los 6,5 millones habitantes del país suramericano.</p><p>Este Banco no solo administra los ahorros privados de millones de paraguayos: también gestiona el 9% de los fondos del Instituto de Previsión Social (IPS), que está a cargo de las pensiones de 32.000 jubilados del país y parte de los fondos de la Administración Nacional de Electricidad (Ande) y de la Represa Binacional de Itaipú, una de las mayores empresas productoras de energía del planeta.</p><p>Sin embargo, el Banco Central de Paraguay ordenó su intervención y disolución luego de comprobar que su índice de solvencia cayó por debajo del 50% del mínimo requerido, afectando a sus clientes y pensionados.</p><p>Esto a su vez gatilló una crisis de gobernabilidad, por la que el presidente Santiago Peña, quien intentó dejar el poder, enfrenta un juicio político.</p><p>La acusación presentada por un bloque de 35 diputados atribuye a Peña, entre otras cosas, un presunto conflicto de intereses por su participación en Ueno Holding, el nombramiento de Carlos Carvallo —exdirectivo del la entidad financiera— al frente del Banco Central de Paraguay y haber permitido una concentración irregular de fondos previsionales del IPS en el banco.</p><p>Ante este complicado escenario, el senador Iván Flores (DC) vinculó la solicitud con los cuestionamientos que enfrentan las AFP en Chile por la pérdida de valorización de US$7.700 millones en contratos derivados vinculados a tasas de interés estadounidenses.</p><p>Esta situación generó un impacto superior a los US$11.000 millones en los ahorros previsionales. El Fondo E, considerado el más conservador del sistema y que reúne a cerca de 770 mil afiliados— de los cuales más de 60 mil superan los 60 años—, acumuló una caída real de 10,39% entre enero y septiembre de 2026, el segundo peor desempeño desde que se tienen registros, mientras que el Fondo D registró una merma de 6,38% en el mismo período.</p><p>“Además del desastre que dejaron las AFP y que se está investigando por parte de la Superintendencia de Pensiones, nosotros, los senadores de la bancada unida, hemos pedido (…) que la Superintendencia nos informe qué es lo que está pasando con los fondos de trabajadores chilenos en Paraguay”, señaló Flores.</p><p>Para el parlamentario se requiere saber si existen inversiones de las administradoras chilenas que puedan verse afectadas con la criris financiera paraguaya.</p><p>“Lo estamos pidiendo con premura”, enfatizó en declaraciones recogidas por El Mostrador.</p><p>El requerimiento de los senadores incluye a las inversiones directas como indirectas en Ueno Bank, su matriz Ueno Holding, el Grupo Vázquez y otras sociedades vinculadas. También piden verificar si las administradoras poseen activos en bonos soberanos, instituciones financieras, corporaciones o fondos de inversión paraguayos.</p><p>De manera puntual, los parlamentarios demandaron precisar las sumas comprometidas, herramientas financieras, AFP involucradas y la clasificación por tipo de fondo, extendiendo la consulta a las operaciones ejecutadas entre 2023 y 2026.</p><p>Del mismo modo, requirieron evaluar si la intervención bancaria causó pérdidas, desvalorización de activos o riesgos en las pensiones chilenas, especificando si la Superintendencia ha implementado acciones de fiscalización especiales.</p><p>A la fecha, no se reportan antecedentes de inversiones afectadas ni perjuicios para los afiliados chileno; no obstante, el propósito de los legisladores es que el ente regulador esclarezca dicha situación.</p><p>Dentro del documento, los senadores dejaron en claro que “la protección de los fondos de pensiones exige una supervisión preventiva”, particularmente ante escenarios de insolvencia financiera e incertidumbre institucional en plaza extranjeras.</p><p>En consecuencia, instaron a remitir la información a la brevedad, amparándose en el artículo 9 de la Ley Orgánica Constitucional del Congreso Nacional.</p><p>La entrada ¿Y las platas de los trabajadores?: 11 senadores exigen aclarar si las AFP tienen fondos expuestos a crisis bancaria en Paraguay se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/politica/y-las-platas-de-los-trabajadores-11-senadores-exigen-aclarar-si-las-afp-tienen-fondos-expuestos-a-crisis-bancaria-en-paraguay/11/06/",
+      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/AFP_superintendencia-e1793977453532-640x393.jpg",
+      "publishedAt": "2026-11-06T15:08:34+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-1863154f6c",
+      "title": "Confirman nueva serie de \"Stranger Things\": Será una precuela",
+      "summary": "Tras el final de la historia de \"Eleven\" y compañía, Netflix seguirá explorando el universo de la exitosa \"Stranger Things\" con una nueva serie titulada \"Otros mundos: Una aventura de Stranger Things\" (\"Other Worlds: A Stranger Things Adventure\") . Este spin-off será una precuela ambientada en la década de 1950 , mucho antes de los...",
+      "content": "<p>Tras el final de la historia de &quot;Eleven&quot; y compañía, Netflix seguirá explorando el universo de la exitosa &quot;Stranger Things&quot; con una nueva serie titulada &quot;Otros mundos: Una aventura de Stranger Things&quot; (&quot;Other Worlds: A Stranger Things Adventure&quot;).</p><p>Este spin-off será una precuela ambientada en la década de 1950, mucho antes de los sucesos de la serie original, trasladando la historia hasta el ficticio pueblo de Marion, en Nevada.</p><p>&quot;Antes de Hawkins, estaba Marion&quot;, señaló el primer adelanto, tanteando un extraño suceso que ocurre en aquella nueva locación en abril de 1995.</p><p>Los hermanos Duffer, creadores de &quot;Stranger Things&quot;, crearon &quot;Otros Mundos&quot; junto a Kate Trefry, guionista de la serie original y también escritora de la obra teatral &quot;The First Shadow&quot;, que se centra en los orígenes de &quot;Henry Creel&quot;, mejor conocido como &quot;Vecna&quot;.</p><p>Trefry también será la showrunner de esta precuela, que tendrá su rodaje en Nuevo México.</p><p>&quot;Otros mundos: Una aventura de Stranger Things&quot; recién se estrenará en Netflix durante el 2028.</p>",
+      "url": "https://www.cooperativa.cl/noticias/magazine/streaming/confirman-nueva-serie-de-stranger-things-sera-una-precuela/2026-11-06/122248.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106122248.jpg",
+      "publishedAt": "2026-11-06T15:22:48+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 72,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "elciudadano-a3bc61cecf",
+      "title": "Josefina Espejo y Lxs Mirrors presentan en vivo su disco Madre Negra en Sala Master",
+      "summary": "El Ciudadano Un recorrido por las doce canciones de Madre Negra, sin alterar su orden ni interrumpir el relato musical que las conecta. Esa será la propuesta de Josefina Espejo y Lxs Mirrors para su presentación del viernes 20 de noviembre en Sala Master, donde el grupo dará vida al álbum completo por primera vez desde su […] La...",
+      "content": "<p>Un recorrido por las doce canciones de Madre Negra, sin alterar su orden ni interrumpir el relato musical que las conecta. Esa será la propuesta de Josefina Espejo y Lxs Mirrors para su presentación del viernes 20 de noviembre en Sala Master, donde el grupo dará vida al álbum completo por primera vez desde su lanzamiento digital.</p><p>La actuación tendrá nuevos arreglos y una puesta en escena diseñada para trasladar al directo los matices y atmósferas del disco. Publicado hace un año, el trabajo cruza rock alternativo, folk y psicodelia en composiciones que alternan momentos de fragilidad, intensidad y exploración sonora.</p><p>«Con este disco buscamos explorar nuevas formas de hacer las cosas como banda, apostando por un proceso creativo más orgánico y honesto. Este concierto es una forma de honrar todo ese recorrido y llevarlo a su expresión más completa», señala la agrupación, formada en 2020. Sus integrantes Enzo Nitor, Vicente Soler, Sebastián Quinteros, Maximiliano Díaz y Josefina Espejo serán parte de una presentación que consideran la más importante de su trayectoria hasta ahora.</p><p>La jornada comenzará con Komorebi Dúo, proyecto invitado cuya presencia responde, según explica Josefina Espejo, a «una sensibilidad compartida que trasciende los géneros musicales». La conexión entre ambas propuestas está en la introspección, la melancolía y la capacidad de transformar emociones difíciles en experiencias liberadoras.</p><p>• Concierto lanzamiento de Josefina Espejo y Lxs Mirrors, invitados Komorebi Dúo. Viernes 20 de noviembre de 2026, a las 19:00 horas. Sala Master de Radio Universidad de Chile, Miguel Claro 509, Providencia, Santiago. Entradas en Portaldisc.com.</p><p>Foto encabezado: Midori Tsunekawa. Gracias.</p><p>La entrada Josefina Espejo y Lxs Mirrors presentan en vivo su disco Madre Negra en Sala Master se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/arte-cultura/josefina-espejo-y-lxs-mirrors-presentan-en-vivo-su-disco-madre-negra-en-sala-master/11/06/",
+      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/JOSE-2-640x345.jpg",
+      "publishedAt": "2026-11-06T15:08:10+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Cultura y Sociedad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 80,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
@@ -1093,23 +1263,23 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elciudadano-7602531883",
-      "title": "¿Y las platas de los trabajadores?: 11 senadores exigen aclarar si las AFP tienen fondos expuestos a crisis bancaria en Paraguay",
-      "summary": "El Ciudadano “Además del desastre que dejaron las AFP y que se está investigando por parte de la Superintendencia de Pensiones, hemos pedido que la Superintendencia nos informe qué es lo que está pasando con los fondos de trabajadores chilenos en Paraguay”, señaló el senador Iván Flores. La entrada ¿Y las platas de los trabajadores?:...",
-      "content": "<p>Un grupo de 11 senadores exigen que la Superintendencia de Pensiones aclare si las Administradoras de Fondos de Pensiones (AFP) mantienen recursos previsionales expuestos a la crisis bancaria que estalló en Paraguay y si existe algún riesgo para los ahorros de los trabajadores chilenos.</p><p>Mediante un oficio dirigido a la presidenta del Senado, Paulina Núñez, los parlamentarios Yasna Provoste, Iván Flores y Francisco Huenchumilla (DC); Claudia Pascual, Daniel Núñez y Karol Cariola (PC); Beatriz Sánchez y Diego Ibáñez (FA); las independientes Fabiola Campillai y Alejandra Sepúlveda, y Esteban Velásquez (FRVS) solicitaron que se requiera información al superintendente de Pensiones, Joaquín Cortez Huerta, sobre si las AFP tienen recursos invertidos en Ueno Bank, intervenido el pasado 3 de noviembre por el Banco Central de Paraguay por problemas de solvencia.</p><p>Ueno Bank comenzó a operar en noviembre de 2023 y que, producto de una agresiva estrategia digital, logró convertirse en una de las principales entidades financieras de Paraguay hasta llegar a contar en 2026 con 2,9 millones de clientes, casi la mitad de los 6,5 millones habitantes del país suramericano.</p><p>Este Banco no solo administra los ahorros privados de millones de paraguayos: también gestiona el 9% de los fondos del Instituto de Previsión Social (IPS), que está a cargo de las pensiones de 32.000 jubilados del país y parte de los fondos de la Administración Nacional de Electricidad (Ande) y de la Represa Binacional de Itaipú, una de las mayores empresas productoras de energía del planeta.</p><p>Sin embargo, el Banco Central de Paraguay ordenó su intervención y disolución luego de comprobar que su índice de solvencia cayó por debajo del 50% del mínimo requerido, afectando a sus clientes y pensionados.</p><p>Esto a su vez gatilló una crisis de gobernabilidad, por la que el presidente Santiago Peña, quien intentó dejar el poder, enfrenta un juicio político.</p><p>La acusación presentada por un bloque de 35 diputados atribuye a Peña, entre otras cosas, un presunto conflicto de intereses por su participación en Ueno Holding, el nombramiento de Carlos Carvallo —exdirectivo del la entidad financiera— al frente del Banco Central de Paraguay y haber permitido una concentración irregular de fondos previsionales del IPS en el banco.</p><p>Ante este complicado escenario, el senador Iván Flores (DC) vinculó la solicitud con los cuestionamientos que enfrentan las AFP en Chile por la pérdida de valorización de US$7.700 millones en contratos derivados vinculados a tasas de interés estadounidenses.</p><p>Esta situación generó un impacto superior a los US$11.000 millones en los ahorros previsionales. El Fondo E, considerado el más conservador del sistema y que reúne a cerca de 770 mil afiliados— de los cuales más de 60 mil superan los 60 años—, acumuló una caída real de 10,39% entre enero y septiembre de 2026, el segundo peor desempeño desde que se tienen registros, mientras que el Fondo D registró una merma de 6,38% en el mismo período.</p><p>“Además del desastre que dejaron las AFP y que se está investigando por parte de la Superintendencia de Pensiones, nosotros, los senadores de la bancada unida, hemos pedido (…) que la Superintendencia nos informe qué es lo que está pasando con los fondos de trabajadores chilenos en Paraguay”, señaló Flores.</p><p>Para el parlamentario se requiere saber si existen inversiones de las administradoras chilenas que puedan verse afectadas con la criris financiera paraguaya.</p><p>“Lo estamos pidiendo con premura”, enfatizó en declaraciones recogidas por El Mostrador.</p><p>El requerimiento de los senadores incluye a las inversiones directas como indirectas en Ueno Bank, su matriz Ueno Holding, el Grupo Vázquez y otras sociedades vinculadas. También piden verificar si las administradoras poseen activos en bonos soberanos, instituciones financieras, corporaciones o fondos de inversión paraguayos.</p><p>De manera puntual, los parlamentarios demandaron precisar las sumas comprometidas, herramientas financieras, AFP involucradas y la clasificación por tipo de fondo, extendiendo la consulta a las operaciones ejecutadas entre 2023 y 2026.</p><p>Del mismo modo, requirieron evaluar si la intervención bancaria causó pérdidas, desvalorización de activos o riesgos en las pensiones chilenas, especificando si la Superintendencia ha implementado acciones de fiscalización especiales.</p><p>A la fecha, no se reportan antecedentes de inversiones afectadas ni perjuicios para los afiliados chileno; no obstante, el propósito de los legisladores es que el ente regulador esclarezca dicha situación.</p><p>Dentro del documento, los senadores dejaron en claro que “la protección de los fondos de pensiones exige una supervisión preventiva”, particularmente ante escenarios de insolvencia financiera e incertidumbre institucional en plaza extranjeras.</p><p>En consecuencia, instaron a remitir la información a la brevedad, amparándose en el artículo 9 de la Ley Orgánica Constitucional del Congreso Nacional.</p><p>La entrada ¿Y las platas de los trabajadores?: 11 senadores exigen aclarar si las AFP tienen fondos expuestos a crisis bancaria en Paraguay se publicó primero en El Ciudadano.</p>",
-      "url": "https://www.elciudadano.com/politica/y-las-platas-de-los-trabajadores-11-senadores-exigen-aclarar-si-las-afp-tienen-fondos-expuestos-a-crisis-bancaria-en-paraguay/11/06/",
-      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/AFP_superintendencia-e1793977453532-640x393.jpg",
-      "publishedAt": "2026-11-06T15:08:34+00:00",
-      "sourceId": "elciudadano",
-      "sourceName": "El Ciudadano",
-      "sourceType": "Prensa Alternativa",
-      "sourceSite": "https://www.elciudadano.com",
+      "id": "malaespina-ca167a2260",
+      "title": "Presupuesto 2027: Comisión Mixta rechaza recursos de Educación y Ciencia, además de otros servicios públicos",
+      "summary": "Síntesis Contexto: La Comisión Especial Mixta despachó el Presupuesto 2027 a la Cámara, pero rechazó las partidas completas de Educación y Ciencia, además de recursos de otros ministerios. ¿Qué otros recursos fueron rechazados? Entre ellos figuran Atención Primaria de Salud, Senapred, Aduanas y Patrimonio Cultural. Los...",
+      "content": "<p>Contexto: La Comisión Especial Mixta despachó el Presupuesto 2027 a la Cámara, pero rechazó las partidas completas de Educación y Ciencia, además de recursos de otros ministerios.</p><p>¿Qué otros recursos fueron rechazados? Entre ellos figuran Atención Primaria de Salud, Senapred, Aduanas y Patrimonio Cultural. Los cuestionamientos apuntaron al financiamiento de consultorios y a recortes presupuestarios en distintos servicios públicos.</p><p>La entrada Presupuesto 2027: Comisión Mixta rechaza recursos de Educación y Ciencia, además de otros servicios públicos se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/politica/2026/11/06/presupuesto-2027-comision-mixta-rechaza-recursos-de-educacion-y-ciencia-ademas-de-otros-servicios-publicos/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Copia-de-Portadas-chequeos-3.webp",
+      "publishedAt": "2026-11-06T15:05:34+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Economía y Sociedad",
+      "category": "Política y Actualidad",
       "relevanceTier": "alta",
-      "relevanceScore": 94,
+      "relevanceScore": 87,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1133,33 +1303,13 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elciudadano-a3bc61cecf",
-      "title": "Josefina Espejo y Lxs Mirrors presentan en vivo su disco Madre Negra en Sala Master",
-      "summary": "El Ciudadano Un recorrido por las doce canciones de Madre Negra, sin alterar su orden ni interrumpir el relato musical que las conecta. Esa será la propuesta de Josefina Espejo y Lxs Mirrors para su presentación del viernes 20 de noviembre en Sala Master, donde el grupo dará vida al álbum completo por primera vez desde su […] La...",
-      "content": "<p>Un recorrido por las doce canciones de Madre Negra, sin alterar su orden ni interrumpir el relato musical que las conecta. Esa será la propuesta de Josefina Espejo y Lxs Mirrors para su presentación del viernes 20 de noviembre en Sala Master, donde el grupo dará vida al álbum completo por primera vez desde su lanzamiento digital.</p><p>La actuación tendrá nuevos arreglos y una puesta en escena diseñada para trasladar al directo los matices y atmósferas del disco. Publicado hace un año, el trabajo cruza rock alternativo, folk y psicodelia en composiciones que alternan momentos de fragilidad, intensidad y exploración sonora.</p><p>«Con este disco buscamos explorar nuevas formas de hacer las cosas como banda, apostando por un proceso creativo más orgánico y honesto. Este concierto es una forma de honrar todo ese recorrido y llevarlo a su expresión más completa», señala la agrupación, formada en 2020. Sus integrantes Enzo Nitor, Vicente Soler, Sebastián Quinteros, Maximiliano Díaz y Josefina Espejo serán parte de una presentación que consideran la más importante de su trayectoria hasta ahora.</p><p>La jornada comenzará con Komorebi Dúo, proyecto invitado cuya presencia responde, según explica Josefina Espejo, a «una sensibilidad compartida que trasciende los géneros musicales». La conexión entre ambas propuestas está en la introspección, la melancolía y la capacidad de transformar emociones difíciles en experiencias liberadoras.</p><p>• Concierto lanzamiento de Josefina Espejo y Lxs Mirrors, invitados Komorebi Dúo. Viernes 20 de noviembre de 2026, a las 19:00 horas. Sala Master de Radio Universidad de Chile, Miguel Claro 509, Providencia, Santiago. Entradas en Portaldisc.com.</p><p>Foto encabezado: Midori Tsunekawa. Gracias.</p><p>La entrada Josefina Espejo y Lxs Mirrors presentan en vivo su disco Madre Negra en Sala Master se publicó primero en El Ciudadano.</p>",
-      "url": "https://www.elciudadano.com/arte-cultura/josefina-espejo-y-lxs-mirrors-presentan-en-vivo-su-disco-madre-negra-en-sala-master/11/06/",
-      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/JOSE-2-640x345.jpg",
-      "publishedAt": "2026-11-06T15:08:10+00:00",
-      "sourceId": "elciudadano",
-      "sourceName": "El Ciudadano",
-      "sourceType": "Prensa Alternativa",
-      "sourceSite": "https://www.elciudadano.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Cultura y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "malaespina-ca167a2260",
-      "title": "Presupuesto 2027: Comisión Mixta rechaza recursos de Educación y Ciencia, además de otros servicios públicos",
-      "summary": "Síntesis Contexto: La Comisión Especial Mixta despachó el Presupuesto 2027 a la Cámara, pero rechazó las partidas completas de Educación y Ciencia, además de recursos de otros ministerios. ¿Qué otros recursos fueron rechazados? Entre ellos figuran Atención Primaria de Salud, Senapred, Aduanas y Patrimonio Cultural. Los...",
-      "content": "<p>Contexto: La Comisión Especial Mixta despachó el Presupuesto 2027 a la Cámara, pero rechazó las partidas completas de Educación y Ciencia, además de recursos de otros ministerios.</p><p>¿Qué otros recursos fueron rechazados? Entre ellos figuran Atención Primaria de Salud, Senapred, Aduanas y Patrimonio Cultural. Los cuestionamientos apuntaron al financiamiento de consultorios y a recortes presupuestarios en distintos servicios públicos.</p><p>La entrada Presupuesto 2027: Comisión Mixta rechaza recursos de Educación y Ciencia, además de otros servicios públicos se publicó primero en Mala Espina.</p>",
-      "url": "https://www.malaespinacheck.cl/politica/2026/11/06/presupuesto-2027-comision-mixta-rechaza-recursos-de-educacion-y-ciencia-ademas-de-otros-servicios-publicos/",
-      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Copia-de-Portadas-chequeos-3.webp",
-      "publishedAt": "2026-11-06T15:05:34+00:00",
+      "id": "malaespina-38fb28675a",
+      "title": "Ueno Bank: el banco que precipitó la renuncia de Santiago Peña fue sponsor del evento que premió a Cerimedo en EE.UU.",
+      "summary": "Síntesis ¿Contexto?: El político paraguayo renunció a la presidencia en medio de la crisis desatada por la quiebra del banco digital, que dejó a millones de personas sin acceso a sus ahorros. Peña fue accionista de Ueno Bank hasta 2025. ¿Qué pasó? La entidad bancaria fue sponsor, en febrero de este año, de la Hispanic Prosperity Gala...",
+      "content": "<p>¿Contexto?: El político paraguayo renunció a la presidencia en medio de la crisis desatada por la quiebra del banco digital, que dejó a millones de personas sin acceso a sus ahorros. Peña fue accionista de Ueno Bank hasta 2025.</p><p>¿Qué pasó? La entidad bancaria fue sponsor, en febrero de este año, de la Hispanic Prosperity Gala en Mar-a-Lago, Estados Unidos, donde premiaron al consultor argentino. El periodista español Javier Negre, dueño de La Derecha Diario, fue uno de los organizadores del evento.</p><p>La entrada Ueno Bank: el banco que precipitó la renuncia de Santiago Peña fue sponsor del evento que premió a Cerimedo en EE.UU. se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/06/ueno-bank-el-banco-que-precipito-la-renuncia-de-santiago-pena-fue-sponsor-del-evento-que-premio-a-cerimedo-en-ee-uu/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Ueno-Bank_-el-banco-que-precipito-la-renuncia-de-Santiago-Pena-fue-sponsor-del-evento-que-premio-a-Cerimedo-en-EE.UU_.webp",
+      "publishedAt": "2026-11-06T15:04:40+00:00",
       "sourceId": "malaespina",
       "sourceName": "Mala Espina Check",
       "sourceType": "Fact-Checking / Política",
@@ -1167,9 +1317,29 @@
       "region": "chile",
       "country": "Chile",
       "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-35ef73ea2b",
+      "title": "Cristián Monckeberg: \"Como está diseñado hoy, el Segundo Piso no debería existir\"",
+      "summary": "El extimonel RN Cristián Monckeberg lanzó en El Primer Café una dura crítica al funcionamiento del grupo que trabaja en La Moneda asesorando al Presidente José Antonio Kast , liderado por los republicanos Alejandro Irarrázaval y Cristián Valenzuela . Ante la severa y prolongada crisis que protagoniza el ministro de Justicia, Fernando...",
+      "content": "<p>El extimonel RN Cristián Monckeberg lanzó en El Primer Café una dura crítica al funcionamiento del grupo que trabaja en La Moneda asesorando al Presidente José Antonio Kast, liderado por los republicanos Alejandro Irarrázaval y Cristián Valenzuela.</p><p>Ante la severa y prolongada crisis que protagoniza el ministro de Justicia, Fernando Rabat, Monckeberg señaló en Cooperativa: &quot;Yo veo clarísimo que es importante ir haciendo un ajuste en el diseño político de la estructura de Gobierno&quot;.</p><p>Éste debe incluir, a nivel de ministros, un &quot;equilibrio entre política y técnicos&quot;; entre los partidos del oficialismo &quot;apostar a construir una coalición a mediano plazo&quot;, y en cuando al Segundo Piso, una franca corrección de labores, opinó.</p><p>&quot;Yo a Alejandro (Irarrázaval) no lo conozco, pero creo que el Segundo Piso, como está diseñado hoy día, no debería existir&quot;, señaló Monckeberg en El Primer Café.</p><p>Si bien &quot;es necesario que el Presidente tenga asesores, (...) el Segundo Piso, como está pensado hoy día (en la Administración Kast), no está cumpliendo su función, porque es un gabinete paralelo y con tendencias (internas en pugna). Eso no está bien pensado, no está bien diseñado&quot;, remarcó.</p><p>&quot;Yo creo que de todas maneras tiene que existir un rol de asesores del Presidente, pero no pueden ser un contrapeso de los ministros. (Por el contrario) tiene que haber un gabinete empoderado, (...) entonces hay que redefinir ese aspecto, que va más allá de Alejandro, a quien no conozco, por tanto, no me atrevo a evaluar ni a decir si lo está haciendo bien o mal&quot;, explicó.</p><p>Lo concreto, consideró el también exconstituyente, es que en la definición de tareas &quot;está mal pelado el chancho desde su inicio&quot;, y &quot;hay que ajustar ese rol&quot;, para que los miembros del Segundo Piso se enfoquen estrictamente en la &quot;asesoría al Presidente para la buena conducción, para guiar, para tomar decisiones correctas&quot;.</p><p>&quot;Es un problema de rol más que de personas&quot;, resumió Cristián Monckeberg, que recordó como ejemplo del mal diseño inicial que &quot;en una primera etapa el jefe del Segundo Piso estaba yendo a los comités políticos, y eso es raro&quot;.</p><p>El expresidente de la DC Ignacio Walker opinó que, en el caso Rabat, &quot;el Gobierno no quiere ver el elefante en la habitación, que todos estamos viendo: la crisis política y la falta de conducción política es real&quot;.</p><p>Y agregó que agrava el problema &quot;el rol del Segundo Piso (que) es patético&quot;.</p><p>&quot;O sea, ahora &#x27;hay tendencias&#x27; (en disputa) en el Segundo piso, como quedó de manifiesto en el tema del Escudo de las Américas; hay interferencias con ministros&quot;, criticó.</p><p>Contestó Benjamín Moreno, jefe de la bancada de diputados del Partido Republicano: &quot;Es una exageración lo que dice Ignacio de que aquí no hay nadie que vea el el problema político&quot;.</p><p>&quot;El Presidente optó claramente por respaldar al ministro en una situación política compleja y optó también por tratar de solucionar el tema de la raíz, el tema del fondo. Decir que nadie lo ve o que nadie está entendiendo a todas luces es una exageración&quot;, señaló.</p><p>Sin embargo, respecto al asunto Segundo Piso, señaó que &quot;evidentemente puede ser (cierto) que esto (el problema) sea un tema de diseño&quot;.</p><p>&quot;Yo soy de la idea de que para que los cargos funcionen, depende mucho de la persona, pero también depende del diseño estructural&quot;. En esa línea, recordó haber apoyado él en su momento la idea de tener a Claudio Alvarado como biministro de Interior y de Vocería.</p><p>Dado que Interior &quot;canaliza mucha información, desde ese nodo es capaz de comunicar mucho hacia afuera... ¿Tiene sentido estructuralmente? Sí. ¿Podría ser distinto? No me voy a meter ahí&quot;.</p><p>Moreno sí consideró &quot;discutible&quot; tener a Segundo Piso como estructura paralela de coordinación política, cuando dicha labor corresponde a la señalada cartera: &quot;Hay una discusión que se puede dar sobre eso, (pero) no (hay que poner el foco) sobre las personas&quot;.</p><p>&quot;Yo conozco a Alejandro y encuentro que es un tipo muy bueno, le tengo mucho cariño. Es un gran tipo Alejandro, con muchas cualidades muy positivas para un Gobierno, pero el diseño es otra cosa. Cuando tú tienes dos nodos que tienen que recoger información desde los ministerios o hacer seguimiento, probablemente vas a tener un problema a la hora de centralizar de forma integral. Entonces, yo creo que lo que abre Cristián (Monckeberg) es una discusión bastante interesante&quot; para considerar, sentenció.</p>",
+      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/cristian-monckeberg-como-esta-disenado-hoy-el-segundo-piso-no-deberia/2026-11-06/120551.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000320261106120551.jpg",
+      "publishedAt": "2026-11-06T15:05:51+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
-      "relevanceScore": 87,
+      "relevanceScore": 86,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1191,26 +1361,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 71,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "malaespina-38fb28675a",
-      "title": "Ueno Bank: el banco que precipitó la renuncia de Santiago Peña fue sponsor del evento que premió a Cerimedo en EE.UU.",
-      "summary": "Síntesis ¿Contexto?: El político paraguayo renunció a la presidencia en medio de la crisis desatada por la quiebra del banco digital, que dejó a millones de personas sin acceso a sus ahorros. Peña fue accionista de Ueno Bank hasta 2025. ¿Qué pasó? La entidad bancaria fue sponsor, en febrero de este año, de la Hispanic Prosperity Gala...",
-      "content": "<p>¿Contexto?: El político paraguayo renunció a la presidencia en medio de la crisis desatada por la quiebra del banco digital, que dejó a millones de personas sin acceso a sus ahorros. Peña fue accionista de Ueno Bank hasta 2025.</p><p>¿Qué pasó? La entidad bancaria fue sponsor, en febrero de este año, de la Hispanic Prosperity Gala en Mar-a-Lago, Estados Unidos, donde premiaron al consultor argentino. El periodista español Javier Negre, dueño de La Derecha Diario, fue uno de los organizadores del evento.</p><p>La entrada Ueno Bank: el banco que precipitó la renuncia de Santiago Peña fue sponsor del evento que premió a Cerimedo en EE.UU. se publicó primero en Mala Espina.</p>",
-      "url": "https://www.malaespinacheck.cl/mundo/2026/11/06/ueno-bank-el-banco-que-precipito-la-renuncia-de-santiago-pena-fue-sponsor-del-evento-que-premio-a-cerimedo-en-ee-uu/",
-      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Ueno-Bank_-el-banco-que-precipito-la-renuncia-de-Santiago-Pena-fue-sponsor-del-evento-que-premio-a-Cerimedo-en-EE.UU_.webp",
-      "publishedAt": "2026-11-06T15:04:40+00:00",
-      "sourceId": "malaespina",
-      "sourceName": "Mala Espina Check",
-      "sourceType": "Fact-Checking / Política",
-      "sourceSite": "https://malaespinacheck.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "radiouchile-a9ed04e553",
@@ -1251,66 +1401,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 87,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "france24-41a3c7feb4",
-      "title": "Peña pide prórroga de 72 horas para preparar su defensa ante juicio político en Paraguay",
-      "summary": "Santiago Peña, el presidente renunciante de Paraguay, solicitó una prórroga al Congreso para responder a las acusaciones vinculadas con la grave crisis financiera y el colapso de Ueno Bank, una entidad bancaria relacionada con su entorno y de la cual fue accionista. Peña argumentó que fue notificado apenas el día anterior y que el...",
-      "content": "<p>Santiago Peña, el presidente renunciante de Paraguay, solicitó una prórroga al Congreso para responder a las acusaciones vinculadas con la grave crisis financiera y el colapso de Ueno Bank, una entidad bancaria relacionada con su entorno y de la cual fue accionista. Peña argumentó que fue notificado apenas el día anterior y que el plazo no garantiza el debido proceso. El Congreso evalúa el pedido en medio de un clima de tensión. Informe de nuestra corresponsal, Flavia Borja.</p>",
-      "url": "https://www.france24.com/es/video/20261106-pe%C3%B1a-pide-pr%C3%B3rroga-de-72-horas-para-preparar-su-defensa-ante-juicio-pol%C3%ADtico-en-paraguay",
-      "image": "https://s.france24.com/media/display/870d183a-d9f1-11f1-912e-1beafce15fea/w:1024/p:16x9/ES-20261106-080257-080705-CS.jpg",
-      "publishedAt": "2026-11-06T14:55:09+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 82,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "cooperativa-50d54996b1",
-      "title": "Las Condes recibirá una competencia gratuita de motociclismo extremo con 16 pilotos",
-      "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes El motociclismo extremo llegará a las calles de Santiago el próximo miércoles 11 de noviembre con Red Bull Los Andes City Race , competencia que reunirá a 16 pilotos en la intersección de Isidora Goyenechea con Magdalena, en Las Condes. La actividad se desarrollará entre las...",
-      "content": "<p>El motociclismo extremo llegará a las calles de Santiago el próximo miércoles 11 de noviembre con Red Bull Los Andes City Race, competencia que reunirá a 16 pilotos en la intersección de Isidora Goyenechea con Magdalena, en Las Condes. La actividad se desarrollará entre las 19:00 y las 22:00 horas, con entrada gratuita.</p><p>Entre los protagonistas estarán el sudafricano Wade Young, el sueco Eddie Karlsson y los chilenos Benjamín y Camilo Herrera. Karlsson buscará repetir el triunfo que consiguió en 2024, cuando derrotó a Camilo Herrera en la final.</p><p>Los pilotos competirán en duelos directos sobre dos carriles paralelos, donde deberán superar obstáculos de neumáticos gigantes, troncos y rampas.</p><p>El evento será la antesala de la décima edición de Red Bull Los Andes, programada para el sábado 14 de noviembre en Nido de Cóndores.</p>",
-      "url": "https://www.cooperativa.cl/noticias/deportes/motociclismo/pilotos/las-condes-recibira-una-competencia-gratuita-de-motociclismo-extremo-con/2026-11-06/115456.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106115456.jpg",
-      "publishedAt": "2026-11-06T14:54:56+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 72,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "france24-1ad41ed07b",
-      "title": "El Senado paraguayo rechaza por amplia mayoría el pedido de prórroga de Santiago Peña",
-      "summary": "Nota publicada por France 24 Español (Medio Público Internacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261106-paraguay-santiago-pe%C3%B1a-pide-una-pr%C3%B3rroga-para-defenderse-del-juicio-pol%C3%ADtico",
-      "image": null,
-      "publishedAt": "2026-11-06T14:52:28+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 72,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "fastcheck-712846d391",
@@ -1373,23 +1463,23 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-6ce6fae634",
-      "title": "Funcionarios exigen mayor seguridad en los Cesfam de Bajos de Mena",
-      "summary": "Funcionarios de salud de Puente Alto se movilizaron este viernes hacia el Ministerio de Seguridad Pública para exigir mayores medidas de protección en los Centros de Salud Familiar (Cesfam) de Bajos de Mena. La protesta, que reunió a cerca de 300 funcionarios, se produjo tras una serie de hechos de violencia registrados en distintos...",
-      "content": "<p>Funcionarios de salud de Puente Alto se movilizaron este viernes hacia el Ministerio de Seguridad Pública para exigir mayores medidas de protección en los Centros de Salud Familiar (Cesfam) de Bajos de Mena.</p><p>La protesta, que reunió a cerca de 300 funcionarios, se produjo tras una serie de hechos de violencia registrados en distintos recintos asistenciales, y que han generado preocupación por la seguridad de los trabajadores y pacientes.</p><p>Los trabajadores, apoyados por la Confederación Nacional de Funcionarios de Salud Municipalizada (Confusam), el alcalde de Puente Alto, Matías Toledo, y el gobernador metropolitano, Claudio Orrego, buscan entregar una carta al ministro de Seguridad, Martín Arrau, para exigir un compromiso escrito que permita establecer los puntos fijos de vigilancia de Carabineros en dos Cesfam del sector.</p><p>El ministro no se encontraba en las dependencias de la cartera, por lo que el delegado presidencial metropolitano, Germán Codina, recibirá al alcalde Toledo para abordar las demandas de seguridad.</p><p>Ante la llegada de los manifestantes, Carabineros dispuso un perímetro de seguridad en la Plaza de la Constitución, además de interrumpir el tránsito vehicular en el sector de Teatinos con Agustinas.</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/policial/funcionarios-exigen-mayor-seguridad-en-los-cesfam-de-bajos-de-mena/2026-11-06/114053.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106114053.jpg",
-      "publishedAt": "2026-11-06T14:40:53+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
+      "id": "dw-beec7dc6c6",
+      "title": "El Stuttgart de Hoeness: goles y talento en busca de regularidad",
+      "summary": "Capaz de vencer al Leverkusen y perder ante el colista, el Stuttgart vive entre dos extremos. Demirovic aporta los goles, pero la regularidad sigue siendo una asignatura pendiente para el equipo de Sebastian Hoeness.",
+      "content": "<p>Ir al menú principalIr a más sitios de DWDestacadosMidterms en EE. UU.ParaguayÚltimos audiosÚltimos videosTV en vivoPublicidadhttps://p.dw.com/p/5P92WAgregar DW en GooglePublicidadEl Stuttgart parece vivir dos temporadas al mismo tiempo. En la Liga de Campeones mantiene opciones de alcanzar las eliminatorias, mientras que en la Bundesliga todavía busca la regularidad necesaria para acercarse a los puestos europeos. Los goles de Ermedin Demirovic, la aparición de nuevos talentos y dos recientes victorias en las competiciones nacionales ofrecen motivos para el optimismo. Sin embargo, la derrota ante el Galatasaray ha vuelto a recordar que al equipo de Sebastian Hoeness todavía le cuesta mantener su mejor versión.</p><p>Después de ocho jornadas, los suabos ocupan la undécima posición liguera, con nueve puntos, tres victorias y cinco derrotas. En la Champions son decimocuartos, con siete puntos en cuatro encuentros. Aunque ambas competiciones tienen formatos diferentes, los promedios reflejan un contraste evidente.</p><p>&quot;En la Bundesliga no estamos ahora donde queremos estar&quot;, reconoció Hoeness tras la derrota por 2-3 ante el Borussia Mönchengladbach, en declaraciones recogidas por la web oficial del club. Una frase que resume las luces y sombras de un equipo capaz de imponerse al Bayer Leverkusen con una actuación eficaz y colectiva, de avanzar a octavos de final de la Copa de Alemania -aunque tuviera que esperar hasta el último minuto para superar al recién ascendido Paderborn- y de caer frente al colista en poco más de una semana.</p><p>Lo que todavía no ha conseguido el Stuttgart es sumar puntos en dos jornadas consecutivas de Bundesliga, una asignatura pendiente que intentará superar frente al equipo del momento, el Werder Bremen.</p><p>Entre tantos altibajos, el delantero bosnio Ermedin Demirovic continúa siendo una de las grandes referencias del Stuttgart. Suma cinco goles en Bundesliga y cuatro en Champions, nueve de los 21 tantos anotados por su equipo entre ambas competiciones. El atacante, además, disputó su partido oficial número cien con la camiseta suaba precisamente el día en que consiguió su segundo doblete consecutivo, en la victoria frente al Leverkusen. El bosnio reconoció después del encuentro que ni siquiera sabía que estaba alcanzando ese registro.</p><p>Desde su llegada en 2024, acumula 41 goles y once asistencias en 101 encuentros oficiales con la camiseta suaba, unas cifras que reflejan su peso en el ataque del Stuttgart y que han despertado el interés de otros clubes.</p><p>Entre ellos destaca el Galatasaray, su último rival en la Liga de Campeones, que ya intentó ficharlo durante el pasado verano. Sin embargo, Demirovic decidió permanecer en tierras alemanas. Por ahora no hay negociaciones abiertas ni una salida acordada, aunque el interés del conjunto de Estambul evidencia el atractivo de un futbolista que se ha convertido en una de las principales referencias ofensivas del equipo.</p><p>Por otro lado, ni siquiera sus cifras han evitado las críticas. Después de desperdiciar varias ocasiones claras frente al Paderborn, Demirovic recibió numerosos reproches en redes sociales. Una situación que Johann Schicklinski, periodista del medio alemán Sportschau, considera injusta.</p><p>&quot;Demirovic aporta un enorme valor añadido al VfB Stuttgart. Es cierto que no es un virtuoso de la técnica, pero sí un delantero incansable. Un futbolista que se deja la piel por su equipo, que busca los duelos individuales, genera espacios y trabaja sin descanso&quot;, escribió el periodista en un artículo de opinión publicado el pasado 3 de noviembre.</p><p>Schicklinski recuperó además unas palabras pronunciadas por Hoeness hace aproximadamente medio año, cuando el entrenador comparó la entrega del delantero con la de un &quot;jabalí&quot;.</p><p>&quot;Me parece muy acertada esa comparación con un jabalí. Demirovic es un luchador intrépido, un jugador incansable que pelea cada balón, que tiene olfato para detectar situaciones prometedoras y que se gana sus oportunidades a base de esfuerzo&quot;, añadió el redactor.</p><p>Como ejemplo de esa intensidad, Schicklinski recordó lo ocurrido en Leverkusen. Apenas un segundo después del pitido inicial, el bosnio cometió una falta sobre el futbolista argentino Facundo Medina, marcando así el tono de un encuentro que se caracterizaría por su intensidad. &quot;Todos los equipos necesitan futbolistas así&quot;, sentenció Schicklinski.</p><p>Ante su próximo rival liguero, el Werder Bremen, Demirovic tendrá además la oportunidad de disipar las críticas e igualar un registro histórico. Si vuelve a marcar al menos dos goles, alcanzará la hazaña de Serhou Guirassy, quien en septiembre de 2023 consiguió marcar dos dobletes y un hat-trick en tres jornadas consecutivas con el Stuttgart.</p><p>La irregularidad del equipo de Hoeness resulta todavía más llamativa por la calidad de una plantilla que continúa desarrollando futbolistas de proyección internacional. El jueves 5 de noviembre, el seleccionador alemán Jürgen Klopp convocó a Maximilian Mittelstädt y Finn Jeltsch para los próximos encuentros de la Nations League frente a Serbia y Países Bajos.</p><p>Aunque ninguno de los dos defensores se formó en la cantera del Stuttgart -Mittelstädt llegó procedente del Hertha Berlín en 2023 y Jeltsch, del Núremberg en 2025-, ambos representan la capacidad del club para captar y potenciar talento. Mittelstädt se ha consolidado como una pieza importante del equipo, mientras que Jeltsch continúa progresando y aspira a debutar con la selección absoluta.</p><p>A ellos se suma ahora Yanik Spalt, una de las grandes promesas del conjunto suabo. Según informaciones de varios medios alemanes, la directiva del Stuttgat planea iniciar conversaciones para ampliar su contrato más allá de junio de 2028.</p><p>El centrocampista austríaco, de apenas 19 años, sorprendió con su actuación frente al Galatasaray, pese a la derrota por 2-0 en Estambul, y sus compañeros no tardaron en elogiarlo. Desde Sky Sport, Deniz Undavdestacó la seguridad mostrada por el joven en un escenario de máxima exigencia.</p><p>Con estos ingredientes, el equipo de Hoeness tiene una máxima clara: trasladar sus buenas actuaciones a la Bundesliga, pues los suabos han perdido los tres encuentros ligueros disputados inmediatamente después de jugar la Champions. La &quot;tendencia&quot; podría romperse este sábado frente al Werder Bremen.</p>",
+      "url": "https://www.dw.com/es/el-stuttgart-de-hoeness-goles-y-talento-en-busca-de-regularidad/a-79874632?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": "https://static.dw.com/image/70928836_6.jpg",
+      "publishedAt": "2026-11-06T14:40:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "country": "Alemania / Global",
       "independent": false,
-      "category": "Derechos Humanos y Ciudadanía",
+      "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 81,
+      "relevanceScore": 71,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1413,46 +1503,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "dw-beec7dc6c6",
-      "title": "El Stuttgart de Hoeness: goles y talento en busca de regularidad",
-      "summary": "Capaz de vencer al Leverkusen y perder ante el colista, el Stuttgart vive entre dos extremos. Demirovic aporta los goles, pero la regularidad sigue siendo una asignatura pendiente para el equipo de Sebastian Hoeness.",
-      "content": "<p>Ir al menú principalIr a más sitios de DWDestacadosMidterms en EE. UU.ParaguayÚltimos audiosÚltimos videosTV en vivoPublicidadhttps://p.dw.com/p/5P92WAgregar DW en GooglePublicidadEl Stuttgart parece vivir dos temporadas al mismo tiempo. En la Liga de Campeones mantiene opciones de alcanzar las eliminatorias, mientras que en la Bundesliga todavía busca la regularidad necesaria para acercarse a los puestos europeos. Los goles de Ermedin Demirovic, la aparición de nuevos talentos y dos recientes victorias en las competiciones nacionales ofrecen motivos para el optimismo. Sin embargo, la derrota ante el Galatasaray ha vuelto a recordar que al equipo de Sebastian Hoeness todavía le cuesta mantener su mejor versión.</p><p>Después de ocho jornadas, los suabos ocupan la undécima posición liguera, con nueve puntos, tres victorias y cinco derrotas. En la Champions son decimocuartos, con siete puntos en cuatro encuentros. Aunque ambas competiciones tienen formatos diferentes, los promedios reflejan un contraste evidente.</p><p>&quot;En la Bundesliga no estamos ahora donde queremos estar&quot;, reconoció Hoeness tras la derrota por 2-3 ante el Borussia Mönchengladbach, en declaraciones recogidas por la web oficial del club. Una frase que resume las luces y sombras de un equipo capaz de imponerse al Bayer Leverkusen con una actuación eficaz y colectiva, de avanzar a octavos de final de la Copa de Alemania -aunque tuviera que esperar hasta el último minuto para superar al recién ascendido Paderborn- y de caer frente al colista en poco más de una semana.</p><p>Lo que todavía no ha conseguido el Stuttgart es sumar puntos en dos jornadas consecutivas de Bundesliga, una asignatura pendiente que intentará superar frente al equipo del momento, el Werder Bremen.</p><p>Entre tantos altibajos, el delantero bosnio Ermedin Demirovic continúa siendo una de las grandes referencias del Stuttgart. Suma cinco goles en Bundesliga y cuatro en Champions, nueve de los 21 tantos anotados por su equipo entre ambas competiciones. El atacante, además, disputó su partido oficial número cien con la camiseta suaba precisamente el día en que consiguió su segundo doblete consecutivo, en la victoria frente al Leverkusen. El bosnio reconoció después del encuentro que ni siquiera sabía que estaba alcanzando ese registro.</p><p>Desde su llegada en 2024, acumula 41 goles y once asistencias en 101 encuentros oficiales con la camiseta suaba, unas cifras que reflejan su peso en el ataque del Stuttgart y que han despertado el interés de otros clubes.</p><p>Entre ellos destaca el Galatasaray, su último rival en la Liga de Campeones, que ya intentó ficharlo durante el pasado verano. Sin embargo, Demirovic decidió permanecer en tierras alemanas. Por ahora no hay negociaciones abiertas ni una salida acordada, aunque el interés del conjunto de Estambul evidencia el atractivo de un futbolista que se ha convertido en una de las principales referencias ofensivas del equipo.</p><p>Por otro lado, ni siquiera sus cifras han evitado las críticas. Después de desperdiciar varias ocasiones claras frente al Paderborn, Demirovic recibió numerosos reproches en redes sociales. Una situación que Johann Schicklinski, periodista del medio alemán Sportschau, considera injusta.</p><p>&quot;Demirovic aporta un enorme valor añadido al VfB Stuttgart. Es cierto que no es un virtuoso de la técnica, pero sí un delantero incansable. Un futbolista que se deja la piel por su equipo, que busca los duelos individuales, genera espacios y trabaja sin descanso&quot;, escribió el periodista en un artículo de opinión publicado el pasado 3 de noviembre.</p><p>Schicklinski recuperó además unas palabras pronunciadas por Hoeness hace aproximadamente medio año, cuando el entrenador comparó la entrega del delantero con la de un &quot;jabalí&quot;.</p><p>&quot;Me parece muy acertada esa comparación con un jabalí. Demirovic es un luchador intrépido, un jugador incansable que pelea cada balón, que tiene olfato para detectar situaciones prometedoras y que se gana sus oportunidades a base de esfuerzo&quot;, añadió el redactor.</p><p>Como ejemplo de esa intensidad, Schicklinski recordó lo ocurrido en Leverkusen. Apenas un segundo después del pitido inicial, el bosnio cometió una falta sobre el futbolista argentino Facundo Medina, marcando así el tono de un encuentro que se caracterizaría por su intensidad. &quot;Todos los equipos necesitan futbolistas así&quot;, sentenció Schicklinski.</p><p>Ante su próximo rival liguero, el Werder Bremen, Demirovic tendrá además la oportunidad de disipar las críticas e igualar un registro histórico. Si vuelve a marcar al menos dos goles, alcanzará la hazaña de Serhou Guirassy, quien en septiembre de 2023 consiguió marcar dos dobletes y un hat-trick en tres jornadas consecutivas con el Stuttgart.</p><p>La irregularidad del equipo de Hoeness resulta todavía más llamativa por la calidad de una plantilla que continúa desarrollando futbolistas de proyección internacional. El jueves 5 de noviembre, el seleccionador alemán Jürgen Klopp convocó a Maximilian Mittelstädt y Finn Jeltsch para los próximos encuentros de la Nations League frente a Serbia y Países Bajos.</p><p>Aunque ninguno de los dos defensores se formó en la cantera del Stuttgart -Mittelstädt llegó procedente del Hertha Berlín en 2023 y Jeltsch, del Núremberg en 2025-, ambos representan la capacidad del club para captar y potenciar talento. Mittelstädt se ha consolidado como una pieza importante del equipo, mientras que Jeltsch continúa progresando y aspira a debutar con la selección absoluta.</p><p>A ellos se suma ahora Yanik Spalt, una de las grandes promesas del conjunto suabo. Según informaciones de varios medios alemanes, la directiva del Stuttgat planea iniciar conversaciones para ampliar su contrato más allá de junio de 2028.</p><p>El centrocampista austríaco, de apenas 19 años, sorprendió con su actuación frente al Galatasaray, pese a la derrota por 2-0 en Estambul, y sus compañeros no tardaron en elogiarlo. Desde Sky Sport, Deniz Undavdestacó la seguridad mostrada por el joven en un escenario de máxima exigencia.</p><p>Con estos ingredientes, el equipo de Hoeness tiene una máxima clara: trasladar sus buenas actuaciones a la Bundesliga, pues los suabos han perdido los tres encuentros ligueros disputados inmediatamente después de jugar la Champions. La &quot;tendencia&quot; podría romperse este sábado frente al Werder Bremen.</p>",
-      "url": "https://www.dw.com/es/el-stuttgart-de-hoeness-goles-y-talento-en-busca-de-regularidad/a-79874632?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": "https://static.dw.com/image/70928836_6.jpg",
-      "publishedAt": "2026-11-06T14:40:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "country": "Alemania / Global",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "cooperativa-17f4d9898e",
-      "title": "Ignacio Walker: \"Tal vez se está desgranando el choclo de la ultraderecha internacional\"",
-      "summary": "El exministro de Relaciones Exteriores Ignacio Walker advirtió en El Primer Café que una seguidilla de eventos internacionales acaecidos durante los últimos meses parece estar dando cuenta de una pérdida de poder de la ultraderecha que había logrado hacerse hegemónica en la última década. Al analizar la crisis que el jueves llevó a la...",
-      "content": "<p>El exministro de Relaciones Exteriores Ignacio Walker advirtió en El Primer Café que una seguidilla de eventos internacionales acaecidos durante los últimos meses parece estar dando cuenta de una pérdida de poder de la ultraderecha que había logrado hacerse hegemónica en la última década.</p><p>Al analizar la crisis que el jueves llevó a la renuncia del presidente Santiago Peña, el excanciller recordó que &quot;en todos los estudios de las últimas décadas, Paraguay ha aparecido -por lejos- como el Estado más corrupto de América Latina. En los últimos 20 años Venezuela entró a disputarle (la triste posición) con la dictadura corrupta de Nicolás Maduro, pero Paraguay siempre ha sido un país que encabeza los estudios sobre corrupción en América Latina&quot;.</p><p>&quot;Santiago Peña -que renunció, pero todavía no se le acepta la renuncia y enfrenta un juicio político- hizo (en su dimisión) un discurso sobrio, interesante, en favor de la estabilidad democrática, pero evidentemente hay aquí un trasfondo de corrupción, de conflicto de interés, de falta de división entre lo público y lo privado&quot;, analizó el expresidente de la DC, hoy independiente.</p><p>Hecha esa primera aproximación, &quot;yo quiero ir más allá de Paraguay y sugerir lo siguiente: tal vez estemos empezando a presenciar que se está desgranando el choclo de la ultraderecha internacional&quot;, señaló Walker.</p><p>El abogado planteó que &quot;esto partió en abril, con la derrota de Viktor Orbán en Hungría, después de 16 años en el poder con el partido Fidesz. ¿Acusado de qué? De corrupción. Ahí asume Péter Magyar, que cree en la Unión Europea, en la democracia liberal, (luego de que) Viktor Orbán fue el estandarte de la democracia iliberal&quot;.</p><p>&quot;Hace dos semanas, Lula derrota a Flávio Bolsonaro, a Jair Bolsonaro y a la familia Bolsonaro, y recordemos que Jair Bolsonaro está cumpliendo una pena de 27 años de presidio por intento de golpe de Estado. La semana pasada perdieron los ultraderechistas nacionalistas en Serbia frente a a la lista de los estudiantes&quot;, y a ello se sumó, el martes, &quot;la derrota estrepitosa de Trump y el trumpismo&quot; en Estados Unidos.</p><p>&quot;Yo no quiero sacar cuentas alegres, aunque estoy feliz, créanme, por la elección de Estados Unidos; no puedo más de felicidad&quot;, señaló Walker, que describió a Trump como &quot;una pesadilla no solo en Estados Unidos, (sino también) en el mundo&quot;.</p><p>&quot;Santiago Peña es parte de esta ultraderecha internacional. Entonces, dejo planteada esa idea: más allá de Paraguay, más allá de Brasil, más allá de Estados Unidos, más allá de Hungría, más allá de Serbia, tal vez se esté desgranando el choclo de la ultraderecha internacional, que es y ha sido durante los últimos 15 años la principal amenaza contra la democracia constitucional, contra la democracia liberal en el mundo. (El retroceso) lo estamos viendo en todos estos ejemplos... son demasiados casos en cuatro meses&quot; como para que no estén implicando nada, argumentó.</p><p>El fenómeno es también relevante para nuestro país, pues &quot;José Antonio Kast y el Partido Republicano (también) son parte de la ultraderecha internacional&quot;, aunque &quot;no (lo es) necesariamente el Gobierno, porque ahí está Chile Vamos, la &#x27;derechita cobarde&#x27;, como la llamó el Partido Republicano&quot;, apuntó el exlíder falangista.</p>",
-      "url": "https://www.cooperativa.cl/noticias/mundo/ee-uu/donald-trump/ignacio-walker-tal-vez-se-esta-desgranando-el-choclo-de-la/2026-11-06/113614.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106113614.jpg",
-      "publishedAt": "2026-11-06T14:36:14+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 81,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "terram-58d5f4e533",
       "title": "[Biobiochile.cl] Hasta 5 metros cúbicos de relaves llegaron al Río Blanco: Codelco asegura que no hay alteraciones",
       "summary": "Codelco confirmó que entre 1 y 5 metros cúbicos de relaves llegaron al río Blanco, en Valparaíso, tras obstruirse una canaleta por la caída de un objeto arrastrado por un deslizamiento de nieve. La minera detuvo la planta y el transporte de relaves. Análisis encargados a una entidad fiscalizadora no detectaron alteraciones...",
@@ -1471,26 +1521,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "cooperativa-b33231932c",
-      "title": "Caso Rabat: Oposición exige aclarar estatus migratorio de narcos beneficiados",
-      "summary": "Diputados de oposición llegaron este viernes hasta La Moneda y oficiaron al subsecretario del Interior, Máximo Pavez , para solicitar información sobre la situación migratoria de los extranjeros condenados por delitos de drogas que recibieron rebajas de sus penas mediante decretos firmados por el ministro de Justicia, Fernando Rabat ....",
-      "content": "<p>Diputados de oposición llegaron este viernes hasta La Moneda y oficiaron al subsecretario del Interior, Máximo Pavez, para solicitar información sobre la situación migratoria de los extranjeros condenados por delitos de drogas que recibieron rebajas de sus penas mediante decretos firmados por el ministro de Justicia, Fernando Rabat.</p><p>Los parlamentarios buscan establecer si los beneficiados tenían órdenes de expulsión, si permanecen actualmente en Chile y qué medidas han adoptado las autoridades para concretar su salida del país.</p><p>La solicitud fue presentada por los diputados Juan Santana y César Valenzuela, del Partido Socialista; Consuelo Veloso, del Frente Amplio; y Marcos Barraza, del Partido Comunista.</p><p>&quot;Queremos saber, a través de este oficio —y la pregunta hacia el Gobierno es muy sencilla—, si es que realizaron los actos administrativos necesarios para concretar estas expulsiones por parte del Ministerio del Interior, a través del Servicio Nacional de Migraciones&quot;, explicó Santana.</p><p>&quot;Estamos hablando de un Gobierno que llegó al poder anunciando medidas en materia de seguridad y lo único que hemos conocido durante estos siete meses es que esas cifras no solamente no han cambiado y estamos hablando ahora de personas que fueron (liberadas pese a estar) condenadas por tráfico de drogas. Este es el Gobierno de la seguridad&quot;, cuestionó el socialista.</p><p>La controversia por las rebajas de condenas continúa tensionando al Gobierno y al oficialismo, justo cuando el Presidente José Antonio Kast regresó a Chile tras su gira por Europa.</p><p>El Mandatario retomó sus actividades en La Moneda y encabezará durante esta jornada, a las 13:30 horas, una nueva reunión del comité político, en medio de las presiones del propio oficialismo para remover a Rabat.</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/caso-rabat-oposicion-exige-aclarar-estatus-migratorio-de-narcos/2026-11-06/113129.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106113129.jpg",
-      "publishedAt": "2026-11-06T14:31:29+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 81,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "diariouach-fac9501e6e",
@@ -1773,24 +1803,24 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "elciudadano-a2ac79d0f1",
-      "title": "Jubilados exigen recuperar sus fondos en Paraguay: Peña intenta dejar el poder, pero el juicio político sigue adelante",
-      "summary": "El Ciudadano En medio de la crisis política y financiera que sacude a Paraguay, Santiago Peña deberá comparecer para presentar su defensa ante el Senado; mientras los jubilados amenazan con salir a la calle si no recuperan sus fondos; y casi 3 millones de clientes de Ueno Bank siguen con sus ahorros congelados. La entrada Jubilados...",
-      "content": "<p>La crisis política que se desató en Paraguay tras la intervención de Ueno Bank sigue en aumento, ya que mientras los jubilados exigen recuperas sus fondos, el presidente Santiago Peña, quien intentó dejar el poder, deberá enfrentar un juicio político del que dependerá que acabe con fueros o ante la Fiscalía, que ya lo investiga.</p><p>El escándalo estalló luego de que del Banco Central de Paraguay ordenara la intervención y disolución de la entidad financiera, luego de que su índice de solvencia cayera por debajo del 50% del mínimo requerido.</p><p>Los 2,9 millones de clientes del banco, casi la mitad de los habitantes del país suramericano quedaron con sus ahorros congelados, mientras las aplicaciones y las tarjetas dejaron de funcionar.</p><p>Además, Ueno Bank gestiona el 9% de los fondos del Instituto de Previsión Social (IPS), la entidad a cargo de las pensiones de 32.000 jubilados del país y parte de los fondos de la Administración Nacional de Electricidad (Ande) y de la Represa Binacional de Itaipú, una de las mayores empresas productoras de energía del planeta.</p><p>La intervención de Ueno Bank causó un efecto político en la administración de Peña, ya que fue socio empresarial del banco hasta marzo de 2025,fecha en la que decidió vender sus acciones por más de 6 mil millones de guaraníes. Posteriormente, en octubre de este año, un reportaje de ABC reveló que una empresa en la que el mandatario fue accionista hasta marzo de este año todavía facturaba millones de guaraníes a Ueno Bank por servicios de marketing.</p><p>Ante el impacto de la crisis financiera, un bloque de 35 diputados de la oposición presentaron ante el Parlamento un pedido de juicio político para destituir tanto a Peña como a su vicepresidente Pedro Alliana por «mal desempeño de funciones, delitos cometidos en el ejercicio del cargo o delitos comunes»</p><p>El documento presentado por los parlamentarios se estructura en cinco ejes centrales:</p><p>En primer lugar plantea un conflicto de intereses y cuestiona los vínculos comerciales y societarios del mandatario con directivos de la entidad financiera y la eliminación de barreras legales entre la función pública y el sector privado.</p><p>También apunta a una manipulación regulatoria y desvío de los fondos jubilatorios del IPS que facilitaron la colocación masiva de recursos previsionales en Ueno Bank.</p><p>El otro eje se vincula con el sobrepaso de límites crediticios en Ueno Bank y un encubrimiento institucional del Banco Central de Paraguay.</p><p>El documento plantea un presunto incremento patrimonial ilícito de Peña derivado de las operaciones comerciales y financieras bajo sospecha y el daño generado en la credibilidad bancaria y la desestabilización financiera causada por Ueno Bank</p><p>A la par, el fiscal general, Emiliano Rolón, abrió una investigación contra el mandatario y la encargó a tres fiscales de la unidad anticorrupción.</p><p>Ante la crisis, Santiago Peña anunció su renuncia a la Presidencia, pidiendo disculpas al pueblo paraguayo y afirmando que este es «uno de los momentos más difíciles» que le ha tocado vivir.</p><p>«Si en algún momento he fallado, nunca fue mi intención defraudar la confianza que depositaron en mí (…) Estoy convencido de que ningún cargo puede estar por encima del bienestar del Paraguay» señaló en un video compartido en sus redes sociales.</p><p>Sin embargo en Paraguay, la renuncia del presidente no surte efecto por sí sola. El artículo 202 de la Constitución atribuye al Congreso la facultad de «aceptar o rechazar la renuncia del Presidente de la República«, y para aprobarla se requiere la mayoría simple de las dos cámaras reunidas.</p><p>En la sesión bicameral extraordinaria, los legisladores oficialistas abandonaron el hemiciclo al comprobar que no tenían los votos para aceptar la renuncia y la sesión se quedó sin quórum, lo que impidió que se completara la votación y se levantara la sesión.</p><p>Acto seguido, Peña publicó un comunicado anunciando que se presentará a ejercer su defensa ante el Parlamento.</p><p>Por su parte, el titular de la Cámara de Diputados, Raúl Latorre, confirmó que el proceso contra el mandatario sigue su curso formal con la intervención de los fiscales acusadores de la Cámara Baja</p><p>‘Lo que va a acontecer a continuación es que se va a dar continuidad al proceso del juicio político del presidente de la República, Santiago Peña, que tuvo inicio en la Cámara de Diputados. El siguiente estadio es su juzgamiento en la Cámara de Senadores, que va a tener la participación de los diputados seleccionados para el efecto en condición de fiscales acusadores’, dijo en declaraciones recogidas por el portal paraguayo ABC.</p><p>Tras la formulación de los cargos por parte de los fiscales acusadores quedó establecido que Peña, deberá comparecer a ejercer su derecho a la defensa ante la Cámara Alta este viernes 6 de noviembre.</p><p>Mientras se define el futuro político y judicial de Santiago Peña, desde la Alianza de Gremios y Asociaciones de Jubilados y Pensionados del Instituto de Previsión Social (IPS) exigieron al Banco Central del Paraguay (BCP) adoptar las medidas correctivas necesarias ante la crisis de Ueno Bank y priorizar la recuperación de los recursos del Fondo de Jubilaciones comprometidos en la entidad intervenida.</p><p>Desde la agrupación también exigieron que se establezcan responsabilidades políticas del Gobierno de Peña, y se apliquen las sanciones previstas en la Constitución Nacional y las leyes penales pertinentes.</p><p>«Entre sus principales exigencias, la Alianza plantea la sustitución y/o sanción del actual presidente y de los miembros del Consejo de Administración del IPS, así como de anteriores autoridades, por lo que considera negligencia en la protección de los recursos del Fondo de Jubilaciones», consignó el portal Última Hora.</p><p>Para la Alianza es imprescindible que el BCP garantice la devolución de los recursos del IPS comprometidos en la entidad bancaria, tanto en dólares como en guaraníes.</p><p>A la par, señalaron que el IPS debe defender los intereses de los jubilados y garantizar el pago oportuno de los futuros haberes jubilatorios y del Beneficio Adicional Anual (aguinaldo) correspondiente a este año.</p><p>Desde el gremio advirtieron que si no obtienen respuestas emprenderán acciones de calle, movilizaciones y otras medidas de fuerzas.</p><p>La entrada Jubilados exigen recuperar sus fondos en Paraguay: Peña intenta dejar el poder, pero el juicio político sigue adelante se publicó primero en El Ciudadano.</p>",
-      "url": "https://www.elciudadano.com/latinoamerica/jubilados-exigen-recuperar-sus-fondos-en-paraguay-pena-intenta-dejar-el-poder-pero-el-juicio-politico-sigue-adelante/11/06/",
-      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/Pena_juicio-e1793972383761-640x341.jpg",
-      "publishedAt": "2026-11-06T13:34:59+00:00",
-      "sourceId": "elciudadano",
-      "sourceName": "El Ciudadano",
-      "sourceType": "Prensa Alternativa",
-      "sourceSite": "https://www.elciudadano.com",
+      "id": "radiouchile-3218b783a4",
+      "title": "“Hablar de morir para aprender a vivir”: Radio Universidad de Chile estrena podcast sobre cuidados paliativos y fin de vida",
+      "summary": "A través del radioteatro y de historias inspiradas en experiencias reales, «Historias que abrazan» busca abrir una conversación sobre la muerte, el acompañamiento y las decisiones al final de la vida. La entrada “Hablar de morir para aprender a vivir”: Radio Universidad de Chile estrena podcast sobre cuidados paliativos y fin de vida...",
+      "content": "<p>Hablar de la muerte no suele ser sencillo. Aunque constituye una de las pocas certezas que compartimos como seres humanos, sigue siendo un tema que muchas veces se evita, incluso cuando forma parte de la experiencia de quienes atraviesan una enfermedad o acompañan a sus seres queridos durante el final de la vida. Con el propósito de abrir esa conversación, Radio Universidad de Chile estrenó “Historias que abrazan”, un podcast que aborda los cuidados paliativos a través de relatos sonoros y experiencias inspiradas en situaciones reales.</p><p>La iniciativa fue desarrollada por un equipo de profesionales de la Universidad de Chile y del Instituto Nacional del Cáncer, y cuenta con la participación de las enfermeras Claudia Collado, académica de la Casa de Estudios, y Marcela Barrera, integrante del área de Cuidados Paliativos del recinto hospitalario.</p><p>El proyecto surgió a partir de las conversaciones entre ambas profesionales, inicialmente en torno a la investigación doctoral de Collado sobre la muerte y las voluntades anticipadas. Lo que comenzó como un intercambio académico terminó convirtiéndose en una propuesta de divulgación que busca acercar estas reflexiones a la ciudadanía.</p><p>“Como nos encontrábamos súper entretenidas, dijimos: ‘Hagamos un podcast&#x27;”, recordó Barrera sobre los primeros encuentros. Posteriormente, se incorporaron las enfermeras Marlena Ayala y Daniela Quesada, además de profesionales de otras disciplinas que contribuyeron a dar forma al proyecto.</p><p>Para Collado, una de las principales dificultades sigue siendo la resistencia social a hablar sobre la muerte, en parte vinculada a los avances médicos y a una cultura que ha puesto históricamente el acento en prolongar la vida y encontrar tratamientos curativos.</p><p>“El foco ha estado en prolongar la vida, en encontrar la curación“, explicó. Sin embargo, a partir de su experiencia investigativa, también pudo reconocer que existen personas dispuestas a acercarse a estas conversaciones, siempre que encuentren espacios y recursos que les permitan hacerlo a su propio ritmo.</p><p>En ese sentido, destacó el potencial de los formatos digitales para facilitar ese encuentro: “Cuando existe un recurso disponible como un podcast, donde la gente puede voluntariamente acceder, sin presión, también puede escoger cuándo se siente preparada para acercarse”. Una posibilidad que, a su juicio, representa también “un tremendo aporte a los procesos de duelo“.</p><p>A diferencia de un espacio de conversación tradicional, “Historias que abrazan” adopta el formato de radioteatro. Cada episodio presenta un relato central, acompañado por una narración que invita a reflexionar sobre las distintas dimensiones del final de la vida.</p><p>La construcción de estas historias estuvo a cargo del guionista Tomás Enrique, a partir de los testimonios y experiencias compartidas por las profesionales de cuidados paliativos. El proyecto contó, además, con la colaboración del Departamento de Teatro de la Universidad de Chile.</p><p>“Él empezó a construir estos relatos ficticios, pero que están basados en partes de historias que han sido reales”, explicó Barrera. La intención es que cada capítulo permita reconocer situaciones, tensiones y preguntas que atraviesan tanto a pacientes como a sus familias.</p><p>El primer episodio, titulado “La conspiración del silencio”, aborda la historia de Hilda, una mujer con cáncer gástrico avanzado cuyo entorno familiar decide ocultarle el diagnóstico para protegerla. A través de este relato, el podcast problematiza las consecuencias de una decisión que, aunque motivada por el cariño, puede terminar impidiendo que una persona conozca su situación y exprese sus propios deseos.</p><p>Sobre este punto, Collado destacó la importancia de construir relaciones significativas entre los equipos de salud, los pacientes y sus familias. “El acompañamiento y el entrenamiento que tengan los equipos de salud es vital”, sostuvo, enfatizando que existen distintas formas de comunicar un diagnóstico y acompañar a quienes lo reciben.</p><p>“Hay formas y formas de hacerlo. Y hay formas y formas de acompañar”, agregó, en referencia también a la necesidad de respetar el derecho de las personas a recibir información sobre su estado de salud.</p><p>El segundo capítulo, “No todo dolor es físico”, profundiza en el concepto de dolor total, una perspectiva central en los cuidados paliativos que comprende no solo las dimensiones físicas de una enfermedad, sino también sus implicancias psicológicas, sociales y espirituales.</p><p>“Estamos acostumbrados a poner el dolor solo en lo físico“, explicó Barrera. Sin embargo, precisó que el acompañamiento requiere una mirada integral: “No solo nos preocupamos de la parte física del enfermo, de que esté con sus tratamientos analgésicos, sino que también estar presentes en la parte psicológica, el acompañamiento social y el acompañamiento espiritual”.</p><p>La conversación también permitió abordar los avances que ha experimentado el país en esta materia. Mientras los cuidados paliativos oncológicos cuentan con cobertura GES, desde 2021 Chile dispone de una Ley de Cuidados Paliativos Universales, destinada a ampliar esta atención a personas con enfermedades graves o terminales no oncológicas.</p><p>Barrera, quien participó en el trabajo legislativo que permitió su promulgación, recordó que el país cuenta con equipos especializados que llevan décadas desarrollando esta labor. No obstante, advirtió que la implementación de la cobertura universal requiere un proceso progresivo y recursos para garantizar su funcionamiento a nivel nacional.</p><p>“Tenemos una base bastante sólida de los equipos que ya llevan muchísimos años trabajando en cuidados paliativos”, señaló. A su juicio, uno de los desafíos es avanzar hacia un modelo de atención común: “Tenemos que aplicar el mismo modelo de atención que ocupamos en el oncológico también en los cuidados paliativos universales”.</p><p>Para ambas profesionales, acercar estos conocimientos a la ciudadanía también constituye una tarea fundamental. Más allá de la atención clínica, consideran necesario promover conversaciones anticipadas sobre las preferencias, los deseos y las decisiones que cada persona quisiera tomar al final de su vida.</p><p>“Si bien puede ser difícil y nadie dice que con lo que nosotros hacemos vamos a aliviar totalmente el sufrimiento, sí hay sufrimiento evitable”, planteó Collado.</p><p>Una reflexión que Barrera sintetizó en la frase que acompaña al proyecto: “Hablar de morir para aprender a vivir”. “Reflexionar sobre nuestra propia vida, sobre cómo queremos morir y cómo queremos ser cuidados, nos va a ayudar a pensar cómo queremos relacionarnos, cómo queremos vivir nuestra vida y darle valor a las cosas que realmente lo tienen”, concluyó.</p><p>El podcast “Historias que abrazan” se transmite todos los viernes, hasta el 4 de diciembre, a las 16:00 horas, a través de las plataformas de Radio Universidad de Chile. Sus episodios también se encuentran disponibles en Spotify, bajo el mismo nombre.</p><p>La entrada “Hablar de morir para aprender a vivir”: Radio Universidad de Chile estrena podcast sobre cuidados paliativos y fin de vida se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/06/hablar-de-morir-para-aprender-a-vivir-radio-universidad-de-chile-estrena-podcast-sobre-cuidados-paliativos-y-fin-de-vida/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/06084128/cuidados-paleativos.png",
+      "publishedAt": "2026-11-06T13:28:47+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "ciclo21-c082b06a9a",
@@ -1813,13 +1843,13 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-3218b783a4",
-      "title": "“Hablar de morir para aprender a vivir”: Radio Universidad de Chile estrena podcast sobre cuidados paliativos y fin de vida",
-      "summary": "A través del radioteatro y de historias inspiradas en experiencias reales, «Historias que abrazan» busca abrir una conversación sobre la muerte, el acompañamiento y las decisiones al final de la vida. La entrada “Hablar de morir para aprender a vivir”: Radio Universidad de Chile estrena podcast sobre cuidados paliativos y fin de vida...",
-      "content": "<p>Hablar de la muerte no suele ser sencillo. Aunque constituye una de las pocas certezas que compartimos como seres humanos, sigue siendo un tema que muchas veces se evita, incluso cuando forma parte de la experiencia de quienes atraviesan una enfermedad o acompañan a sus seres queridos durante el final de la vida. Con el propósito de abrir esa conversación, Radio Universidad de Chile estrenó “Historias que abrazan”, un podcast que aborda los cuidados paliativos a través de relatos sonoros y experiencias inspiradas en situaciones reales.</p><p>La iniciativa fue desarrollada por un equipo de profesionales de la Universidad de Chile y del Instituto Nacional del Cáncer, y cuenta con la participación de las enfermeras Claudia Collado, académica de la Casa de Estudios, y Marcela Barrera, integrante del área de Cuidados Paliativos del recinto hospitalario.</p><p>El proyecto surgió a partir de las conversaciones entre ambas profesionales, inicialmente en torno a la investigación doctoral de Collado sobre la muerte y las voluntades anticipadas. Lo que comenzó como un intercambio académico terminó convirtiéndose en una propuesta de divulgación que busca acercar estas reflexiones a la ciudadanía.</p><p>“Como nos encontrábamos súper entretenidas, dijimos: ‘Hagamos un podcast&#x27;”, recordó Barrera sobre los primeros encuentros. Posteriormente, se incorporaron las enfermeras Marlena Ayala y Daniela Quesada, además de profesionales de otras disciplinas que contribuyeron a dar forma al proyecto.</p><p>Para Collado, una de las principales dificultades sigue siendo la resistencia social a hablar sobre la muerte, en parte vinculada a los avances médicos y a una cultura que ha puesto históricamente el acento en prolongar la vida y encontrar tratamientos curativos.</p><p>“El foco ha estado en prolongar la vida, en encontrar la curación“, explicó. Sin embargo, a partir de su experiencia investigativa, también pudo reconocer que existen personas dispuestas a acercarse a estas conversaciones, siempre que encuentren espacios y recursos que les permitan hacerlo a su propio ritmo.</p><p>En ese sentido, destacó el potencial de los formatos digitales para facilitar ese encuentro: “Cuando existe un recurso disponible como un podcast, donde la gente puede voluntariamente acceder, sin presión, también puede escoger cuándo se siente preparada para acercarse”. Una posibilidad que, a su juicio, representa también “un tremendo aporte a los procesos de duelo“.</p><p>A diferencia de un espacio de conversación tradicional, “Historias que abrazan” adopta el formato de radioteatro. Cada episodio presenta un relato central, acompañado por una narración que invita a reflexionar sobre las distintas dimensiones del final de la vida.</p><p>La construcción de estas historias estuvo a cargo del guionista Tomás Enrique, a partir de los testimonios y experiencias compartidas por las profesionales de cuidados paliativos. El proyecto contó, además, con la colaboración del Departamento de Teatro de la Universidad de Chile.</p><p>“Él empezó a construir estos relatos ficticios, pero que están basados en partes de historias que han sido reales”, explicó Barrera. La intención es que cada capítulo permita reconocer situaciones, tensiones y preguntas que atraviesan tanto a pacientes como a sus familias.</p><p>El primer episodio, titulado “La conspiración del silencio”, aborda la historia de Hilda, una mujer con cáncer gástrico avanzado cuyo entorno familiar decide ocultarle el diagnóstico para protegerla. A través de este relato, el podcast problematiza las consecuencias de una decisión que, aunque motivada por el cariño, puede terminar impidiendo que una persona conozca su situación y exprese sus propios deseos.</p><p>Sobre este punto, Collado destacó la importancia de construir relaciones significativas entre los equipos de salud, los pacientes y sus familias. “El acompañamiento y el entrenamiento que tengan los equipos de salud es vital”, sostuvo, enfatizando que existen distintas formas de comunicar un diagnóstico y acompañar a quienes lo reciben.</p><p>“Hay formas y formas de hacerlo. Y hay formas y formas de acompañar”, agregó, en referencia también a la necesidad de respetar el derecho de las personas a recibir información sobre su estado de salud.</p><p>El segundo capítulo, “No todo dolor es físico”, profundiza en el concepto de dolor total, una perspectiva central en los cuidados paliativos que comprende no solo las dimensiones físicas de una enfermedad, sino también sus implicancias psicológicas, sociales y espirituales.</p><p>“Estamos acostumbrados a poner el dolor solo en lo físico“, explicó Barrera. Sin embargo, precisó que el acompañamiento requiere una mirada integral: “No solo nos preocupamos de la parte física del enfermo, de que esté con sus tratamientos analgésicos, sino que también estar presentes en la parte psicológica, el acompañamiento social y el acompañamiento espiritual”.</p><p>La conversación también permitió abordar los avances que ha experimentado el país en esta materia. Mientras los cuidados paliativos oncológicos cuentan con cobertura GES, desde 2021 Chile dispone de una Ley de Cuidados Paliativos Universales, destinada a ampliar esta atención a personas con enfermedades graves o terminales no oncológicas.</p><p>Barrera, quien participó en el trabajo legislativo que permitió su promulgación, recordó que el país cuenta con equipos especializados que llevan décadas desarrollando esta labor. No obstante, advirtió que la implementación de la cobertura universal requiere un proceso progresivo y recursos para garantizar su funcionamiento a nivel nacional.</p><p>“Tenemos una base bastante sólida de los equipos que ya llevan muchísimos años trabajando en cuidados paliativos”, señaló. A su juicio, uno de los desafíos es avanzar hacia un modelo de atención común: “Tenemos que aplicar el mismo modelo de atención que ocupamos en el oncológico también en los cuidados paliativos universales”.</p><p>Para ambas profesionales, acercar estos conocimientos a la ciudadanía también constituye una tarea fundamental. Más allá de la atención clínica, consideran necesario promover conversaciones anticipadas sobre las preferencias, los deseos y las decisiones que cada persona quisiera tomar al final de su vida.</p><p>“Si bien puede ser difícil y nadie dice que con lo que nosotros hacemos vamos a aliviar totalmente el sufrimiento, sí hay sufrimiento evitable”, planteó Collado.</p><p>Una reflexión que Barrera sintetizó en la frase que acompaña al proyecto: “Hablar de morir para aprender a vivir”. “Reflexionar sobre nuestra propia vida, sobre cómo queremos morir y cómo queremos ser cuidados, nos va a ayudar a pensar cómo queremos relacionarnos, cómo queremos vivir nuestra vida y darle valor a las cosas que realmente lo tienen”, concluyó.</p><p>El podcast “Historias que abrazan” se transmite todos los viernes, hasta el 4 de diciembre, a las 16:00 horas, a través de las plataformas de Radio Universidad de Chile. Sus episodios también se encuentran disponibles en Spotify, bajo el mismo nombre.</p><p>La entrada “Hablar de morir para aprender a vivir”: Radio Universidad de Chile estrena podcast sobre cuidados paliativos y fin de vida se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/06/hablar-de-morir-para-aprender-a-vivir-radio-universidad-de-chile-estrena-podcast-sobre-cuidados-paliativos-y-fin-de-vida/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/06084128/cuidados-paleativos.png",
-      "publishedAt": "2026-11-06T13:28:47+00:00",
+      "id": "radiouchile-3416d8674a",
+      "title": "Trump amenaza con nuevos ataques contra Irán y advierte que el país necesitará 25 años para reconstruirse",
+      "summary": "El mandatario estadounidense aseguró que pronto decidirá si intensifica la ofensiva contra Teherán. Además, defendió el bloqueo naval y sostuvo que su país mantiene el control del estratégico estrecho de Ormuz. La entrada Trump amenaza con nuevos ataques contra Irán y advierte que el país necesitará 25 años para reconstruirse se...",
+      "content": "<p>El presidente de Estados Unidos, Donald Trump, volvió a amenazar con intensificar la ofensiva contra Irán. Además aseguró que el país necesitará al menos 25 años para reconstruirse tras los ataques lanzados por Washington e Israel en febrero pasado.</p><p>Desde la Casa Blanca, el mandatario afirmó que pronto decidirá si ordena nuevas operaciones militares para terminar de destruir las capacidades iraníes. “Preferiría no destruir el resto del país, si fuera posible, pero quizás tenga que hacerlo. Pronto lo sabrán”, anticipó Trump ante los periodistas en el Despacho Oval, luego de reunirse con sus asesores de seguridad nacional.</p><p>El jefe de Estado agregó que su administración debe resolver si avanza más allá de las operaciones realizadas hasta ahora para garantizar que Irán no vuelva a representar una amenaza. Trump también defendió la estrategia de Washington y aseguró que la situación actual equivale prácticamente a una ocupación, debido al control que, según afirmó, mantiene Estados Unidos sobre el estrecho de Ormuz.</p><p>Las declaraciones se producen en medio de la incertidumbre sobre el futuro del conflicto y las posibilidades de alcanzar un acuerdo sobre el programa nuclear iraní.</p><p>Según reportes, ambas partes estarían evaluando propuestas transmitidas por mediadores de Qatar, aunque las conversaciones continúan entrampadas por las condiciones exigidas por Teherán, entre ellas el levantamiento de sanciones, el término del bloqueo naval y garantías de que no habrá nuevos ataques.</p><p>En paralelo, Trump enfrenta las consecuencias políticas de la guerra luego de la derrota republicana en las elecciones legislativas de medio mandato del pasado 3 de noviembre. El mandatario reconoció que el conflicto contribuyó al alza de los precios de los combustibles y perjudicó electoralmente a su partido, aunque insistió en que volvería a tomar la decisión de intervenir militarmente para impedir que Irán desarrolle armas nucleares.</p><p>La entrada Trump amenaza con nuevos ataques contra Irán y advierte que el país necesitará 25 años para reconstruirse se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/06/trump-amenaza-con-nuevos-ataques-contra-iran-y-advierte-que-el-pais-necesitara-25-anos-para-reconstruirse/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/23182519/donald-trump.png",
+      "publishedAt": "2026-11-06T13:27:58+00:00",
       "sourceId": "radiouchile",
       "sourceName": "Radio U. de Chile",
       "sourceType": "Universitario / Pluralista",
@@ -1827,10 +1857,10 @@
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "alta",
+      "relevanceScore": 88,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "timeline-dfe23c9437",
@@ -1851,26 +1881,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 78,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "radiouchile-3416d8674a",
-      "title": "Trump amenaza con nuevos ataques contra Irán y advierte que el país necesitará 25 años para reconstruirse",
-      "summary": "El mandatario estadounidense aseguró que pronto decidirá si intensifica la ofensiva contra Teherán. Además, defendió el bloqueo naval y sostuvo que su país mantiene el control del estratégico estrecho de Ormuz. La entrada Trump amenaza con nuevos ataques contra Irán y advierte que el país necesitará 25 años para reconstruirse se...",
-      "content": "<p>El presidente de Estados Unidos, Donald Trump, volvió a amenazar con intensificar la ofensiva contra Irán. Además aseguró que el país necesitará al menos 25 años para reconstruirse tras los ataques lanzados por Washington e Israel en febrero pasado.</p><p>Desde la Casa Blanca, el mandatario afirmó que pronto decidirá si ordena nuevas operaciones militares para terminar de destruir las capacidades iraníes. “Preferiría no destruir el resto del país, si fuera posible, pero quizás tenga que hacerlo. Pronto lo sabrán”, anticipó Trump ante los periodistas en el Despacho Oval, luego de reunirse con sus asesores de seguridad nacional.</p><p>El jefe de Estado agregó que su administración debe resolver si avanza más allá de las operaciones realizadas hasta ahora para garantizar que Irán no vuelva a representar una amenaza. Trump también defendió la estrategia de Washington y aseguró que la situación actual equivale prácticamente a una ocupación, debido al control que, según afirmó, mantiene Estados Unidos sobre el estrecho de Ormuz.</p><p>Las declaraciones se producen en medio de la incertidumbre sobre el futuro del conflicto y las posibilidades de alcanzar un acuerdo sobre el programa nuclear iraní.</p><p>Según reportes, ambas partes estarían evaluando propuestas transmitidas por mediadores de Qatar, aunque las conversaciones continúan entrampadas por las condiciones exigidas por Teherán, entre ellas el levantamiento de sanciones, el término del bloqueo naval y garantías de que no habrá nuevos ataques.</p><p>En paralelo, Trump enfrenta las consecuencias políticas de la guerra luego de la derrota republicana en las elecciones legislativas de medio mandato del pasado 3 de noviembre. El mandatario reconoció que el conflicto contribuyó al alza de los precios de los combustibles y perjudicó electoralmente a su partido, aunque insistió en que volvería a tomar la decisión de intervenir militarmente para impedir que Irán desarrolle armas nucleares.</p><p>La entrada Trump amenaza con nuevos ataques contra Irán y advierte que el país necesitará 25 años para reconstruirse se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/06/trump-amenaza-con-nuevos-ataques-contra-iran-y-advierte-que-el-pais-necesitara-25-anos-para-reconstruirse/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/23182519/donald-trump.png",
-      "publishedAt": "2026-11-06T13:27:58+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 88,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "brujulabike-584721ec02",
@@ -2233,23 +2243,23 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "lasillavacia-6b44ae85ec",
-      "title": "Ley de rescate: la comida pagará el costo del ajuste fiscal",
-      "summary": "El proyecto de Ley de Rescate Económico elimina exenciones del IVA a insumos y alimentos, un ajuste que encarecerá la producción nacional y la canasta familiar The post Ley de rescate: la comida pagará el costo del ajuste fiscal appeared first on La Silla Vacía .",
-      "content": "<p>El gobierno de Abelardo de la Espriella radicó en la Cámara de Representantes la Ley de Rescate Económico. El proyecto del gobierno modifica el IVA de insumos, servicios agropecuarios y alimentos. Sus consecuencias dependerán de quién pueda recuperar los impuestos y de cuánto termine pagando el consumidor.</p><p>Lo primero que debe señalarse es que la misma coincide con las apreciaciones del Fondo Monetario Internacional (FMI) expresadas en las políticas de ajuste fiscal recomendadas por dicho organismo que supervisa periódicamente las finanzas públicas, la deuda y la evolución económica de Colombia.</p><p>En su informe de 2025, el FMI recomendó un ajuste equivalente al 3,2% del PIB entre 2026 y 2028, mediante el aumento del recaudo tributario, la reducción de exenciones del IVA, la racionalización del gasto público y de los subsidios, y medidas para estabilizar la deuda. El pasado 2 de noviembre, el organismo respaldó públicamente la orientación fiscal del proyecto presentado por el gobierno.</p><p>La pregunta que se debe formular por lo tanto es ¿quién pagará la implementación de las políticas fiscales indicadas en el proyecto y cómo afectará la producción de alimentos? La respuesta exige examinar tres aspectos fundamentales: los mayores impuestos sobre los insumos, los servicios necesarios para producir y los alimentos que llegan a la mesa de los consumidores.</p><p>El proyecto, de ser aprobado, aumenta el recaudo del IVA en tres asuntos claves de la producción de alimentos. El primero es que acaba con las exenciones y exclusiones del IVA sobre fertilizantes, semillas, agroquímicos y maquinaria agrícola. El segundo es que grava con IVA del 19% los servicios prestados por terceros para la producción de alimentos. Y el tercero es la eliminación de las exenciones en la producción de los alimentos para animales.</p><p>Aunque se dice que algunos de esos rubros serán recuperables lo cierto es que no será así para todos los sectores que participan de la producción agropecuaria. Miles de pequeños y medianos productores no tendrán como recuperarlo por múltiples factores, que inciden en el mecanismo de devolución de los mismos, ligados a la informalidad del sector.</p><p>Los principales productos afectados están ligados a la dieta básica de los colombianos. Nuevos costos que asumirán los consumidores al aumentar los costos de producirlos para los campesinos y los empresarios agrícolas del país. Tendrán IVA del 19%, Frutas frescas: banano, aguacate, mango, cítricos. Hortalizas: Tomate, cebolla, zanahoria, lechuga. Cacao en grano. Pasarán del 5% de IVA al 19% azúcar, aceites vegetales crudos y chocolate de mesa. El café perdería la exención que tiene el café verde y la tarifa reducida que disfruta el tostado.</p><p>En cuanto al arroz, existe una contradicción en el texto del proyecto que parece incluirlo en dos categorías tributarias diferentes: una como excluido del IVA y otra con una tarifa diferencial. Aunque en ninguno de los dos casos se cobra IVA sobre la venta, la diferencia es importante: el producto exento puede permitir recuperar impuestos pagados en su producción y transformación, mientras que el excluido generalmente no lo permite. De lo que resuelva el Legislativo dependerá de que la afectación se dé sobre los consumidores.</p><p>Con los nuevos precios que tendrán los alimentos millones de colombianos se verán obligados a dejar de consumir o mermar el consumo de algunos alimentos o destinar más de sus magros ingresos para poderlos comprar. Y los agricultores verán reducida la demanda y por lo tanto mermarán también sus ingresos y la producción de ellos.</p><p>En cuanto a los productos importados, tanto materias primas como alimentos procesados, estos también estarán sujetos al IVA que corresponda en Colombia, pero continuarán gozando de la eliminación de los aranceles y, comparados con los nuevos costos de producirlos, se ampliará la ventaja que tienen frente a la producción nacional. Lo que acorta, aún más, la ya poca rentabilidad que obtienen los productores agropecuarios de muchos alimentos que todavía produce el país.</p><p>En conclusión, si los nuevos impuestos sobre insumos y servicios se convierten en mayores costos efectivos para los productores nacionales, mientras sus competidores extranjeros pueden recuperar esos gravámenes o enfrentan menores cargas, se ampliará la ventaja de las importaciones frente a la producción colombiana, reduciendo aún más la rentabilidad de numerosos agricultores.</p><p>El gobierno afirma que, a través de la creación de EfectIVA, realizará la devolución del IVA a los sectores más empobrecidos de la sociedad colombiana, pero un análisis de la realidad permite concluir que:</p><p>En conclusión, es evidente que el aumento del IVA a los insumos agropecuarios y los servicios que prestan a los agricultores terceras personas ligadas a la producción conducirán al encarecimiento de los alimentos en una elevada proporción. Y lo será no solo para los alimentos que pasarán de exentos y excluidos a tarifa plena del 19%, sino para todos los alimentos por la inclusión del IVA a los insumos y a los servicios necesarios para producir todos los alimentos.</p><p>Lo que esperan millones de colombianos es que el Congreso de la República no apruebe el IVA a los asuntos relacionados con la alimentación y que la solución a la grave crisis fiscal, que tiene origen en la abultada deuda externa adquirida en los últimos cuatro gobiernos, se descargue sobre los sectores con gran capacidad económica y no sobre los más débiles.</p><p>El IVA es un impuesto indirecto que golpea inmisericordemente a los sectores populares y las capas medias y por tanto no debería aplicarse a los artículos y bienes de primera necesidad. Tampoco debería caer sobre las capas medias de la población, entre ellas millones de familias ligadas al sector agropecuario, el aumento o pago de impuesto a la renta del 9%.</p><p>Esta Ley rescatará, en parte, al país del déficit fiscal, pero sometiendo a la mayoría de la población a peores condiciones de vida y trabajo. Habrá más hambre y miseria para millones de colombianos mientras transfiere mayor riqueza a través del descuento del impuesto de renta a los grandes conglomerados económicos del país.</p><p>The post Ley de rescate: la comida pagará el costo del ajuste fiscal appeared first on La Silla Vacía.</p>",
-      "url": "https://www.lasillavacia.com/red-de-expertos/red-rural/ley-de-rescate-la-comida-pagara-el-costo-del-ajuste-fiscal/",
-      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/08/oscar_gutierrez.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
-      "publishedAt": "2026-11-06T12:00:00+00:00",
-      "sourceId": "lasillavacia",
-      "sourceName": "La Silla Vacía",
-      "sourceType": "Poder y Política",
-      "sourceSite": "https://www.lasillavacia.com",
-      "region": "latam",
-      "country": "Colombia",
+      "id": "radiouchile-e58b751d6b",
+      "title": "Tensión en Paraguay en horas previas a votación para destituir a presidente Peña",
+      "summary": "Mientras tanto, en las inmediaciones del edificio legislativo en Asunción, miles de manifestantes y ahorristas afectados por la quiebra de liquidez de Ueno Bank mantuvieron una vigilia a la espera del desenlace del juicio parlamentario. La entrada Tensión en Paraguay en horas previas a votación para destituir a presidente Peña se...",
+      "content": "<p>El presidente de Paraguay, Santiago Peña, anunció que comparecerá hoy ante el Senado para ejercer formalmente su derecho a la defensa en el juicio político abierto en su contra por el escándalo financiero de Ueno Bank.</p><p>Mientras tanto, en las inmediaciones del edificio legislativo en Asunción, miles de manifestantes y ahorristas afectados por la quiebra de liquidez de Ueno Bank mantuvieron una vigilia a la espera del desenlace del juicio parlamentario.</p><p>Cerca de tres millones de ahorrantes -la mitad de la población del país- no pueden retirar sus dineros, muchos de ellos destinados a sus jubilaciones, después de que el martes el Banco Central de Paraguay intervino el Ueno Bank por falta de liquidez. El presidente Peña estuvo involucrado con los controladores de Ueno e, incluso, defendió su desempeño antes de la crisis.</p><p>La primera sesión del proceso en el Senado concluyó al final de la tarde del jueves y el mandatario ha quedado citado para reanudar el proceso este viernes a las 10:00 horas (local). Mientras tanto, la vocería del Ejecutivo ha desmentido las informaciones sobre una supuesta huida del país.</p><p>“Ante la continuidad del juicio político, me presentaré y ejerceré mi derecho a la defensa. Lo haré con argumentos y pruebas, con respeto a la Constitución y a las instituciones de la República”, ha manifestado Peña en redes, asegurando que asumirá el trámite no por “orgullo personal”, sino por la responsabilidad de “rendir cuentas y dar explicaciones frente al pueblo paraguayo”.</p><p>Asimismo, ha garantizado su plena colaboración con la Justicia para esclarecer responsabilidades en el descalabro bancario y ha remarcado que el pago a los ahorristas afectados no puede quedar en el aire.</p><p>En paralelo, el portavoz de la Presidencia, Guillermo Grance, ha ofrecido una rueda de prensa para desmentir los rumores de fuga hacia Argentina tras el estancamiento de su dimisión en el Parlamento.</p><p>“El presidente está en el país, se encuentra en la capital y va a cumplir con su deber constitucional de defenderse en tiempo y forma”, ha aseverado Grance, haciendo un llamamiento a la calma social y garantizando que el Ejecutivo continúa funcionando con normalidad.</p><p>Si Peña termina siendo destituido -para lo cual se requiere el respaldo de 30 de los 45 senadores-, perdería la inmunidad y su condición de senador vitalicio, y la Jefatura del Estado recaería de forma inmediata en el vicepresidente de la República, Pedro Alliana, quien asumiría el cargo tras jurar ante el Parlamento en virtud del orden de prelación constitucional.</p><p>La entrada Tensión en Paraguay en horas previas a votación para destituir a presidente Peña se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/06/tension-en-paraguay-en-horas-previas-a-votacion-para-destituir-a-presidente-pena/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/06084453/santiago-pena.jpg",
+      "publishedAt": "2026-11-06T11:47:22+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
-      "category": "Economía y Sociedad",
+      "category": "Política y Actualidad",
       "relevanceTier": "alta",
-      "relevanceScore": 87,
+      "relevanceScore": 89,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2271,46 +2281,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "radiouchile-e58b751d6b",
-      "title": "Tensión en Paraguay en horas previas a votación para destituir a presidente Peña",
-      "summary": "Mientras tanto, en las inmediaciones del edificio legislativo en Asunción, miles de manifestantes y ahorristas afectados por la quiebra de liquidez de Ueno Bank mantuvieron una vigilia a la espera del desenlace del juicio parlamentario. La entrada Tensión en Paraguay en horas previas a votación para destituir a presidente Peña se...",
-      "content": "<p>El presidente de Paraguay, Santiago Peña, anunció que comparecerá hoy ante el Senado para ejercer formalmente su derecho a la defensa en el juicio político abierto en su contra por el escándalo financiero de Ueno Bank.</p><p>Mientras tanto, en las inmediaciones del edificio legislativo en Asunción, miles de manifestantes y ahorristas afectados por la quiebra de liquidez de Ueno Bank mantuvieron una vigilia a la espera del desenlace del juicio parlamentario.</p><p>Cerca de tres millones de ahorrantes -la mitad de la población del país- no pueden retirar sus dineros, muchos de ellos destinados a sus jubilaciones, después de que el martes el Banco Central de Paraguay intervino el Ueno Bank por falta de liquidez. El presidente Peña estuvo involucrado con los controladores de Ueno e, incluso, defendió su desempeño antes de la crisis.</p><p>La primera sesión del proceso en el Senado concluyó al final de la tarde del jueves y el mandatario ha quedado citado para reanudar el proceso este viernes a las 10:00 horas (local). Mientras tanto, la vocería del Ejecutivo ha desmentido las informaciones sobre una supuesta huida del país.</p><p>“Ante la continuidad del juicio político, me presentaré y ejerceré mi derecho a la defensa. Lo haré con argumentos y pruebas, con respeto a la Constitución y a las instituciones de la República”, ha manifestado Peña en redes, asegurando que asumirá el trámite no por “orgullo personal”, sino por la responsabilidad de “rendir cuentas y dar explicaciones frente al pueblo paraguayo”.</p><p>Asimismo, ha garantizado su plena colaboración con la Justicia para esclarecer responsabilidades en el descalabro bancario y ha remarcado que el pago a los ahorristas afectados no puede quedar en el aire.</p><p>En paralelo, el portavoz de la Presidencia, Guillermo Grance, ha ofrecido una rueda de prensa para desmentir los rumores de fuga hacia Argentina tras el estancamiento de su dimisión en el Parlamento.</p><p>“El presidente está en el país, se encuentra en la capital y va a cumplir con su deber constitucional de defenderse en tiempo y forma”, ha aseverado Grance, haciendo un llamamiento a la calma social y garantizando que el Ejecutivo continúa funcionando con normalidad.</p><p>Si Peña termina siendo destituido -para lo cual se requiere el respaldo de 30 de los 45 senadores-, perdería la inmunidad y su condición de senador vitalicio, y la Jefatura del Estado recaería de forma inmediata en el vicepresidente de la República, Pedro Alliana, quien asumiría el cargo tras jurar ante el Parlamento en virtud del orden de prelación constitucional.</p><p>La entrada Tensión en Paraguay en horas previas a votación para destituir a presidente Peña se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/06/tension-en-paraguay-en-horas-previas-a-votacion-para-destituir-a-presidente-pena/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/06084453/santiago-pena.jpg",
-      "publishedAt": "2026-11-06T11:47:22+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 89,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "brecha-c0d8bbd186",
-      "title": "Una lotería",
-      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzYkJSZ2JLcVRIc0gtdTI0SnBuclBCWVh5WjFXdmJaRU5ZNEpwUFlNVkV4dmF3NjZ0WTlpZVZqVXRvS25rS1p2V2pR?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-06T11:30:39+00:00",
-      "sourceId": "brecha",
-      "sourceName": "Semanario Brecha",
-      "sourceType": "Periodismo Indep. LatAm",
-      "sourceSite": "https://brecha.com.uy",
-      "region": "latam",
-      "country": "Uruguay",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "radiouchile-c5286fa624",
@@ -2573,24 +2543,24 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-f4c2fd95b0",
-      "title": "Txejo Ortega (ESK): “El sindicalismo que se limita a los centros de trabajo es un sindicalismo miope”",
-      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Txejo Ortega (ESK): “El sindicalismo que se limita a los centros de trabajo es un sindicalismo miope” El Salto</p>",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONXRfdUVHTVFhdVgzWTc4NzIwNFdNWVZMVmlocmtjanBuUjZCQk11emRPVjZUdzBITjRMYUxjNjg4MFpLb3RYZHdfSVEwZU9kY2Y4QTU3amd6WjNsaTlCT0FBeUpXemdSQTA4QzVmYzdwTnNBb3BlVC13MWFXZE0tdUN6T1ZJRXFjNFR4Tzl3?oc=5",
+      "id": "brecha-bbcbf0594c",
+      "title": "Adriana Calcanhotto Archivos",
+      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJamdNcnF3QzNjQWhlVGJsbGtWdS10eE5lRlVBT1YyM25OV05iWEtDRkZSYy1ON2FtaGFmNk9hb09laHBtUFhsaWNla2N0VU13OHhaX2x6RUhDUQ?oc=5",
       "image": null,
-      "publishedAt": "2026-11-06T05:05:00+00:00",
-      "sourceId": "elsalto",
-      "sourceName": "El Salto Diario",
-      "sourceType": "Cooperativa Independiente",
-      "sourceSite": "https://www.elsaltodiario.com",
-      "region": "mundo",
-      "country": "España",
+      "publishedAt": "2026-11-06T06:14:13+00:00",
+      "sourceId": "brecha",
+      "sourceName": "Semanario Brecha",
+      "sourceType": "Periodismo Indep. LatAm",
+      "sourceSite": "https://brecha.com.uy",
+      "region": "latam",
+      "country": "Uruguay",
       "independent": true,
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 68,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "relevanceScore": 78,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "globalvoices-f425068e29",
@@ -2611,6 +2581,26 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 70,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "elsalto-f4c2fd95b0",
+      "title": "Txejo Ortega (ESK): “El sindicalismo que se limita a los centros de trabajo es un sindicalismo miope”",
+      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Txejo Ortega (ESK): “El sindicalismo que se limita a los centros de trabajo es un sindicalismo miope” El Salto</p>",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONXRfdUVHTVFhdVgzWTc4NzIwNFdNWVZMVmlocmtjanBuUjZCQk11emRPVjZUdzBITjRMYUxjNjg4MFpLb3RYZHdfSVEwZU9kY2Y4QTU3amd6WjNsaTlCT0FBeUpXemdSQTA4QzVmYzdwTnNBb3BlVC13MWFXZE0tdUN6T1ZJRXFjNFR4Tzl3?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-06T05:05:00+00:00",
+      "sourceId": "elsalto",
+      "sourceName": "El Salto Diario",
+      "sourceType": "Cooperativa Independiente",
+      "sourceSite": "https://www.elsaltodiario.com",
+      "region": "mundo",
+      "country": "España",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 68,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "brecha-957ad4f1ab",
@@ -2830,26 +2820,6 @@
       "category": "Geopolítica y Mundo",
       "relevanceTier": "alta",
       "relevanceScore": 91,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "radiouchile-25d51b12aa",
-      "title": "Cambio de gabinete divide al oficialismo: parlamentarios insisten en la necesidad de un reajuste pese a la negativa del Presidente",
-      "summary": "Mientras que el mandatario descartó modificaciones en su equipo ministerial, desde Chile Vamos surgieron cuestionamientos a la conducción política del Gobierno y llamados a reforzar los equipos de La Moneda. La entrada Cambio de gabinete divide al oficialismo: parlamentarios insisten en la necesidad de un reajuste pese a la negativa...",
-      "content": "<p>El Presidente José Antonio Kast descartó nuevamente un cambio de gabinete, en medio de las versiones que apuntan a una eventual reestructuración de los equipos ministeriales y del Segundo Piso de La Moneda. Sin embargo, sus declaraciones no han logrado despejar las diferencias al interior del oficialismo, donde parlamentarios de Chile Vamos han insistido en la necesidad de fortalecer la conducción política del Ejecutivo.</p><p>Los cuestionamientos se producen tras la controversia por los decretos que permitieron rebajas de condena a personas privadas de libertad, entre ellas algunas condenadas por delitos sexuales contra menores de edad y violaciones a los derechos humanos. Una situación que puso en el centro del debate al ministro de Justicia, Fernando Rabat, y que abrió una discusión más amplia sobre el funcionamiento de los equipos políticos del Gobierno.</p><p>En su regreso al país, el mandatario descartó que esté evaluando modificaciones en su gabinete y recordó que la decisión sobre la continuidad de los ministros corresponde exclusivamente a la Presidencia, y no a los partidos que integran la coalición oficialista.</p><p>“Lo descarté ayer, lo sigo descartando y no sé por qué se genera tanta controversia. A los ministros los convoca el Presidente y les pide dejar de participar, en caso de que corresponda. Eso le corresponde al mismo Presidente, no a las distintas colectividades políticas”, sostuvo.</p><p>En esa línea, Kast agradeció el respaldo de las colectividades que forman parte de su administración y reiteró que no contempla una modificación ministerial. Asimismo, adelantó que sostendría reuniones con los dirigentes de los partidos oficialistas.</p><p>“Por lo tanto, no veo que venga a ser un tema de cambio de gabinete. Como les digo, lo señalé ayer y lo vuelvo a señalar: no hay cambio de gabinete. Voy a reunirme con los partidos y con los líderes de las distintas colectividades. Lo he hecho hasta ahora de manera permanente”, afirmó.</p><p>Pese a la postura presidencial, desde Renovación Nacional han surgido voces que consideran necesario introducir cambios en la conducción política del Ejecutivo. El diputado Diego Schalper planteó que la crisis en Justicia dejó en evidencia dificultades que exceden la situación particular del ministro Rabat y que requieren una revisión más profunda de los equipos de Gobierno.</p><p>El parlamentario valoró que la discusión al interior del oficialismo haya avanzado hacia la posibilidad de realizar modificaciones, aunque reconoció que la decisión sobre los tiempos y las personas que podrían asumir nuevas responsabilidades corresponde al mandatario.</p><p>“Yo me alegro porque estas cosas son así. Me alegro de que ya estemos discutiendo el cuándo, porque quiere decir que la conversación evolucionó. Es decir, más o menos todos los actores relevantes han ido tomando conciencia de que necesitamos un cambio“, señaló.</p><p>Schalper también se defendió de las críticas que han surgido desde Chile Vamos y cuestionó que la lealtad hacia el Gobierno sea entendida como una obligación de respaldar todas sus decisiones. “Algunos confunden lealtad con obsecuencia”, planteó el diputado, quien ha insistido en la necesidad de reforzar tanto el gabinete como el Segundo Piso con mayor experiencia política.</p><p>Desde la UDI, en tanto, el secretario general de la colectividad, Juan Antonio Coloma, defendió la posición del partido frente a la ofensiva opositora contra el titular de Justicia. El dirigente acusó a la oposición de utilizar la controversia con fines político-electorales y sostuvo que la prioridad debe estar puesta en corregir los vacíos legales que permitieron estas rebajas de condena.</p><p>“Estamos frente a una acusación que la oposición actual, lamentablemente, ha utilizado para sacar un rédito político. No hay otra forma de explicar por qué pasan las semanas y no presentan la acusación constitucional”, afirmó.</p><p>Coloma agregó que la UDI comparte el dolor de las víctimas y que busca avanzar en una legislación que impida que agresores sexuales de menores de edad puedan acceder a beneficios de este tipo. Sin embargo, descartó respaldar una eventual acusación constitucional contra Rabat, al considerar que responde a motivaciones políticas.</p><p>Una postura que también fue expresada por la diputada Constanza Hube, quien sostuvo que la Comisión Política de la UDI definió como posición oficial que una eventual acusación constitucional contra el ministro no tendría mérito. La parlamentaria distinguió entre reconocer los errores cometidos en la gestión del caso y respaldar una ofensiva constitucional contra una autoridad.</p><p>En la misma línea, el diputado de Evópoli, Tomás Kast, defendió el trabajo que está impulsando el titular de Justicia para modificar el marco legal y evitar que situaciones similares vuelvan a ocurrir. El parlamentario destacó la convocatoria a una mesa de trabajo enfocada en las víctimas y en una agenda de iniciativas legislativas.</p><p>“Creo que el ministro Rabat está asumiendo el desafío de poder modificar este vacío legal y en eso estamos enfocados. De hecho, nos convocó a una mesa de trabajo para centrarnos en las víctimas, en el marco de una larga agenda legislativa que contempla distintas iniciativas”, indicó.</p><p>Las diferencias también se han expresado en torno al funcionamiento del equipo más cercano al mandatario. El senador independiente Rojo Edwards cuestionó el protagonismo de asesores del Segundo Piso y apuntó a una falta de criterio político en la toma de decisiones, que, a su juicio, está perjudicando al sector y al propio Presidente.</p><p>“Si nosotros no cambiamos el sistema de toma de decisiones y les permitimos tanto protagonismo a personas que no tienen criterio político, algunas de ellas ni siquiera las hemos visto nunca antes y, sin embargo, toman decisiones, hoy día nos tienen en una dificultad muy grande”, sostuvo.</p><p>Así, mientras La Moneda insiste en descartar una reestructuración inmediata, las distintas colectividades oficialistas mantienen posiciones divergentes sobre el rumbo que debe tomar la administración. Una discusión que tendrá un nuevo capítulo en el comité político de este viernes, instancia en la que Kast adelantó que comunicará a los partidos las decisiones adoptadas tras su gira por Europa.</p><p>La entrada Cambio de gabinete divide al oficialismo: parlamentarios insisten en la necesidad de un reajuste pese a la negativa del Presidente se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/05/cambio-de-gabinete-divide-al-oficialismo-parlamentarios-insisten-en-la-necesidad-de-un-reajuste-pese-a-la-negativa-del-presidente/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05171632/kast.jpg",
-      "publishedAt": "2026-11-05T21:53:34+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 98,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -4853,24 +4823,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ojopublico-6aa2e3bc3f",
-      "title": "La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima",
-      "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima Ojo-Público</p>",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMmNSMnRpeWZkbllCUUF0dEZoOW5XX1l0MEh1TzRheC1JazkwWEFjSU1lbVJ2Ui0zSm9IdmhPX3J0YjFubS1EMzlPdVRDNEhBb29FZ0dNcU80MkVlZHRVa2R4OWdrR1k1cXcwNnlIQ0pWTVQ4amRUcmhJQ3JQREI5c0U4N1hXdDMtaFdxSWgtaldxajNScHo1d0tsSFo?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-01T05:00:00+00:00",
-      "sourceId": "ojopublico",
-      "sourceName": "Ojo Público",
-      "sourceType": "Investigación y Amazonía",
-      "sourceSite": "https://ojo-publico.com",
-      "region": "latam",
-      "country": "Perú",
+      "id": "interferencia-4cfcf1f76c",
+      "title": "Identifican en la Patagonia un fiordo sin oxígeno y rico en sulfuro con condiciones similares al océano antiguo",
+      "summary": "El contenido de este artículo ha sido realizado por la Universidad de Concepción y su publicación forma parte de un acuerdo entre Interferencia y dicha casa de estudios. El estero de Quitralco es un fiordo que se extiende desde el canal Moraleda, en el suroeste, hasta la falla Liquiñe-Ofqui, en el noroeste. Fue declarado Santuario de...",
+      "content": "<p>El contenido de este artículo ha sido realizado por la Universidad de Concepción y su publicación forma parte de un acuerdo entre Interferencia y dicha casa de estudios.</p><p>Según cuenta el investigador del Centro i~mar, académico de la Universidad de Los Lagos y líder de la investigación, Iván Pérez-Santos, un ambiente euxínico se caracteriza por dos cosas: la carencia de oxígeno (anoxia) y la presencia de sulfuro de hidrógeno (H2S). La gran pregunta que se planteó el estudio fue cuál era el origen de dichas condiciones en el fiordo Quitralco: ¿humano o natural? Según los resultados, estaríamos ante lo segundo, descartando el efecto antropogénico como desencadenante.</p><p>¿Cuál es la causa y cómo se determinó?</p><p>“Lo notorio de este lugar es que tiene mucha influencia de fluidos hidrotermales o de origen volcánico, los cuales transportan compuestos reducidos como el sulfuro de hidrógeno hacia las aguas profundas del fiordo que, al reaccionar con el oxígeno del agua, lo agotan, contribuyendo así con la anoxia y euxinia de sus aguas”, explicó Pérez-Santos, quien también es investigador asociado de COPAS Coastal, quien agregó que esto favorece formas de vida que no dependen del oxígeno para sobrevivir.</p><p>En su lugar, los análisis microbianos detectaron microorganismos con un metabolismo principalmente relacionado con el ciclo del azufre, según contó Marcelo Gutiérrez, investigador del Centro COPAS Coastal. Sin embargo, la relevancia de este estudio no recae únicamente en la calidad euxínica del fiordo Quitralco, sino también en la cantidad de sulfuro de hidrógeno presente en sus aguas.</p><p>“Detectamos concentraciones altísimas en la cuenca anóxica profunda que alcanzaron un máximo de 112,9 µM a los 150 metros de profundidad”, afirmó Gerdhard Jessen,académico de la Universidad Austral de Chile e investigador asociado de COPAS Coastal.</p><p>¿Lo peculiar? En sus palabras: “estos valores superan a los reportados en otros sistemas euxínicos globales y responden a una combinación de lo que parecen ser aportes de geofluidos”, los cuales estarían asociados a la zona de falla Liquiñe-Ofqui y al complejo volcánico Mate Grande. Este flujo continuo de sulfuro de hidrógeno tendría un impacto directo en la composición de la materia orgánica, en particular en los pigmentos fotosintéticos, haciéndola menos susceptible a la degradación por los microorganismos en un proceso denominado “sulfurización de la materia orgánica”, como se ha observado en el Mar Negro.</p><p>Asimismo, a partir de los 100 metros de profundidad, el equipo científico observó un nivel máximo de fluorescencia producto de la acumulación de materia orgánica disuelta. Según explicó la investigadora de los centros CIEP y COPAS Coastal, Paulina Montero, esto se debe a que la composición de la materia orgánica en este ambiente euxínico hace que los microorganismos la consuman a un ritmo más lento y, por lo tanto, se acumule. La colaboración con CIEP fue crucial en esta etapa del estudio, ya que utilizaron un espectrofluorómetro adquirido por el centro tras una adjudicación Fondequip, que les permitió identificar el origen de dicha materia orgánica disuelta; proveniente tanto de fuentes alóctonas (derivada, por ejemplo, de plantas terrestres), como autóctonas (producción fitoplanctónica in situ).</p><p>Todas estas características, sumadas a la baja circulación del fiordo, lo convierten en un “pedazo del océano antiguo” que fue ampliamente euxínico en ciertos periodos de la Tierra. “Desde la perspectiva de la historia del planeta, este tipo de ambientes puede ser considerado una representación de condiciones que predominaron en el océano primitivo y su estudio ayuda a entender cómo evolucionó la vida bajo estas condiciones”, señaló Gutiérrez al respecto.</p><p>En ese sentido, estos resultados sirven como un recordatorio de que los indicadores normalmente asociados con la vida sólo representan la normalidad actual, ya que las condiciones ambientales de la “normalidad antigua” hacían la vida como la conocemos prácticamente imposible.</p><p>Con eso dicho, las aguas sin oxígeno del planeta han sido denominadas durante años “zonas muertas”; sin embargo, Iván Pérez-Santos señala que este estudio pone sobre la mesa que jamás estuvieron muertas.</p><p>“Todavía no hay nada que tenga cero oxígeno, se pensaba que sí, pero era porque no teníamos instrumentos lo suficientemente sensibles”, afirmó.</p><p>En este aspecto, la colaboración científica que hizo posible esta investigación de cinco años –abarcando un total de 17 afiliaciones en 4 países– fue crucial. Gracias al apoyo brindado por el Instituto Milenio de Oceanografía (IMO) y especialmente su director y académico de la Universidad de Concepción Osvaldo Ulloa; quien no solo apoyó en el enfoque metodológico con la experiencia de este equipo de trabajo en la Zona de Mínimo Oxígeno (ZMO), sino también en su colaboración con la University of Southern Denmark. Esta entidad facilitó un nuevo equipo que mide oxígeno por debajo del micromol por litro. Un umbral que, hasta ahora, no era posible detectar con la tecnología disponible.</p><p>Por la parte del manejo medioambiental, la investigadora Montero señaló que conocer cómo funcionan los fiordos –que viene a ser el interés de fondo– faculta a la ciencia para informar y asesorar a distintos estamentos en el manejo de estos ecosistemas. En el caso del fiordo Quitralco, caracterizarlo como euxínico permite señalar que “tenemos definida una condición para esta área, por lo tanto, no se pueden agregar más variables/actividades que disminuyan el oxígeno”.</p><p>Por lo tanto, no se trata sólo de identificar el primer fiordo euxínico de la Patagonia chilena, sino de lo que este conocimiento aporta a la conservación del santuario natural y a mantener una actividad acuícola respetuosa con el medio ambiente.</p>",
+      "url": "https://interferencia.cl/%3Ca%20href%3D%22/articulos/identifican-en-la-patagonia-un-fiordo-sin-oxigeno-y-rico-en-sulfuro-con-condiciones%22%3EIdentifican%20en%20la%20Patagonia%20un%20fiordo%20sin%20ox%C3%ADgeno%20y%20rico%20en%20sulfuro%20con%20condiciones%20similares%20al%20oc%C3%A9ano%20antiguo%3C/a%3E",
+      "image": "https://interferencia.cl/sites/default/files/styles/article/public/identifican_en_la_patagonia_un_fiordo_sin_oxigeno_y_rico_en_sulfuro_con_condiciones_similares_al_oceano_antiguo.jpg?itok=r-6Ye8SH&amp;c=a229416e793ad3f393c719b04b3b0257",
+      "publishedAt": "2026-11-01T09:00:00+00:00",
+      "sourceId": "interferencia",
+      "sourceName": "Interferencia",
+      "sourceType": "Investigación y Poder",
+      "sourceSite": "https://interferencia.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 91,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 77,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "piedepagina-ae0ea2ee7f",
@@ -4893,11 +4863,11 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ojopublico-e3d4ecfa02",
-      "title": "De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes",
+      "id": "ojopublico-6aa2e3bc3f",
+      "title": "La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima",
       "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes Ojo-Público</p>",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVl9tSkFLaWl0VHFoalZwT2lvSTlmd2pCWUgyZFJSZG54Qy0zNXIxTDhXejFRdXlVSFdQNTdmX2hxZ3Q4Q2VkNy00Rk1pRS0tcmdXVTRGbUJIZjBjZ09paXlMZFg4THg1MjZ3bTVyZUVnUjdpS0lZUlRIZXlveDdGdHZ1bW1obkpoZV9GNWZFakQ?oc=5",
+      "content": "<p>La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima Ojo-Público</p>",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMmNSMnRpeWZkbllCUUF0dEZoOW5XX1l0MEh1TzRheC1JazkwWEFjSU1lbVJ2Ui0zSm9IdmhPX3J0YjFubS1EMzlPdVRDNEhBb29FZ0dNcU80MkVlZHRVa2R4OWdrR1k1cXcwNnlIQ0pWTVQ4amRUcmhJQ3JQREI5c0U4N1hXdDMtaFdxSWgtaldxajNScHo1d0tsSFo?oc=5",
       "image": null,
       "publishedAt": "2026-11-01T05:00:00+00:00",
       "sourceId": "ojopublico",
@@ -4930,6 +4900,26 @@
       "category": "Economía y Sociedad",
       "relevanceTier": "alta",
       "relevanceScore": 89,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "ojopublico-e3d4ecfa02",
+      "title": "De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes",
+      "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes Ojo-Público</p>",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVl9tSkFLaWl0VHFoalZwT2lvSTlmd2pCWUgyZFJSZG54Qy0zNXIxTDhXejFRdXlVSFdQNTdmX2hxZ3Q4Q2VkNy00Rk1pRS0tcmdXVTRGbUJIZjBjZ09paXlMZFg4THg1MjZ3bTVyZUVnUjdpS0lZUlRIZXlveDdGdHZ1bW1obkpoZV9GNWZFakQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-01T05:00:00+00:00",
+      "sourceId": "ojopublico",
+      "sourceName": "Ojo Público",
+      "sourceType": "Investigación y Amazonía",
+      "sourceSite": "https://ojo-publico.com",
+      "region": "latam",
+      "country": "Perú",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 91,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
