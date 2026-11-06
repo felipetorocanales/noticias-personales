@@ -1,14 +1,19 @@
 {
-  "generatedAt": "2026-11-06T01:31:23.889628+00:00",
+  "generatedAt": "2026-11-06T01:48:37.379247+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
-  "totalArticles": 213,
-  "totalBlockedFarandula": 11,
+  "totalArticles": 214,
+  "totalBlockedFarandula": 10,
   "blockedExamples": [
     {
       "title": "El escritoriazo de la ANFP",
       "source": "Interferencia",
+      "reason": "fútbol"
+    },
+    {
+      "title": "Con duelos claves en simultáneo: La programación de la fecha 27 de la Liga de Primera",
+      "source": "Radio Cooperativa",
       "reason": "fútbol"
     },
     {
@@ -48,16 +53,6 @@
     },
     {
       "title": "[VIDEO] Agustín Arce remató de primera y firmó el tercero de la U contra Antofagasta",
-      "source": "Radio Cooperativa",
-      "reason": "copa chile"
-    },
-    {
-      "title": "[VIDEO] Rivero repitió e igualó para la U la serie ante Antofagasta en la Copa Chile",
-      "source": "Radio Cooperativa",
-      "reason": "copa chile"
-    },
-    {
-      "title": "Cecilia Pérez y la continuidad de Gago en la U: No es una decisión que me toque determinar",
       "source": "Radio Cooperativa",
       "reason": "copa chile"
     }
@@ -532,7 +527,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.5
+      "newestAgeHours": 2.8
     },
     {
       "id": "interferencia",
@@ -545,7 +540,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 16.5
+      "newestAgeHours": 16.8
     },
     {
       "id": "fastcheck",
@@ -558,7 +553,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.7
+      "newestAgeHours": 5.0
     },
     {
       "id": "radiouchile",
@@ -571,7 +566,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.6
+      "newestAgeHours": 3.9
     },
     {
       "id": "elmostrador",
@@ -584,7 +579,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.9
+      "newestAgeHours": 7.2
     },
     {
       "id": "eldesconcierto",
@@ -597,7 +592,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.1
+      "newestAgeHours": 4.4
     },
     {
       "id": "laderasur",
@@ -610,7 +605,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 4,
-      "newestAgeHours": 5.6
+      "newestAgeHours": 5.9
     },
     {
       "id": "resumen",
@@ -623,7 +618,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 27.8
+      "newestAgeHours": 28.1
     },
     {
       "id": "elciudadano",
@@ -636,7 +631,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.5
+      "newestAgeHours": 0.1
     },
     {
       "id": "malaespina",
@@ -649,7 +644,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 7.5
+      "newestAgeHours": 7.8
     },
     {
       "id": "vergara240",
@@ -662,7 +657,7 @@
       "count": 1,
       "blocked": 0,
       "staleDropped": 17,
-      "newestAgeHours": 316.2
+      "newestAgeHours": 316.5
     },
     {
       "id": "terram",
@@ -675,7 +670,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 11.3
+      "newestAgeHours": 11.6
     },
     {
       "id": "timeline",
@@ -688,7 +683,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.0
+      "newestAgeHours": 4.3
     },
     {
       "id": "diariouach",
@@ -701,7 +696,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.0
+      "newestAgeHours": 4.3
     },
     {
       "id": "cooperativa",
@@ -711,10 +706,10 @@
       "type": "Radio Informativa Nacional",
       "independent": false,
       "status": "ok",
-      "count": 5,
-      "blocked": 10,
+      "count": 6,
+      "blocked": 9,
       "staleDropped": 0,
-      "newestAgeHours": 0.1
+      "newestAgeHours": 0.4
     },
     {
       "id": "elfaro",
@@ -740,7 +735,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 15.5
+      "newestAgeHours": 15.8
     },
     {
       "id": "lasillavacia",
@@ -753,7 +748,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.4
+      "newestAgeHours": 1.7
     },
     {
       "id": "ojopublico",
@@ -766,7 +761,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 1,
-      "newestAgeHours": 94.3
+      "newestAgeHours": 94.6
     },
     {
       "id": "cuestionpublica",
@@ -779,7 +774,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 47.7
+      "newestAgeHours": 47.9
     },
     {
       "id": "chequeado",
@@ -792,7 +787,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 149.7
+      "newestAgeHours": 150.0
     },
     {
       "id": "piedepagina",
@@ -805,7 +800,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 103.8
+      "newestAgeHours": 104.1
     },
     {
       "id": "cenital",
@@ -818,7 +813,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.0
+      "newestAgeHours": 4.3
     },
     {
       "id": "brecha",
@@ -831,7 +826,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 158.8
+      "newestAgeHours": 159.1
     },
     {
       "id": "jacobinlat",
@@ -844,7 +839,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 8.1
+      "newestAgeHours": 8.4
     },
     {
       "id": "ciclismo-chile",
@@ -857,7 +852,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.3
+      "newestAgeHours": 5.6
     },
     {
       "id": "ciclo21",
@@ -870,7 +865,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 15.5
+      "newestAgeHours": 15.8
     },
     {
       "id": "brujulabike",
@@ -883,7 +878,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.3
+      "newestAgeHours": 6.6
     },
     {
       "id": "esciclismo",
@@ -896,7 +891,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.8
+      "newestAgeHours": 4.1
     },
     {
       "id": "propublica",
@@ -909,7 +904,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.1
+      "newestAgeHours": 6.4
     },
     {
       "id": "bellingcat",
@@ -922,7 +917,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 15.7
+      "newestAgeHours": 16.0
     },
     {
       "id": "theintercept",
@@ -935,7 +930,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.0
+      "newestAgeHours": 4.3
     },
     {
       "id": "eldiarioes",
@@ -948,7 +943,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.6
+      "newestAgeHours": 4.9
     },
     {
       "id": "elsalto",
@@ -961,7 +956,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 12.4
+      "newestAgeHours": 12.7
     },
     {
       "id": "sinpermiso",
@@ -987,7 +982,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.6
     },
     {
       "id": "dw",
@@ -1000,7 +995,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.7
+      "newestAgeHours": 0.9
     },
     {
       "id": "globalvoices",
@@ -1013,10 +1008,30 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.5
+      "newestAgeHours": 0.8
     }
   ],
   "articles": [
+    {
+      "id": "elciudadano-8915632dd7",
+      "title": "Estados Unidos nunca ha sido aliado de Chile (V)",
+      "summary": "El Ciudadano Por Felipe Portales La humillación efectuada por Estados Unidos a Chile en 1892 por el asunto del Baltimore no terminó con las reparaciones convenidas en favor de los marinos afectados. Además, ambos países acordaron ese año el establecimiento de un juzgado arbitral (con un representante de cada parte, más un tercero de...",
+      "content": "<p>La humillación efectuada por Estados Unidos a Chile en 1892 por el asunto del Baltimore no terminó con las reparaciones convenidas en favor de los marinos afectados. Además, ambos países acordaron ese año el establecimiento de un juzgado arbitral (con un representante de cada parte, más un tercero de consenso, y subsidiariamente por Suiza), durante seis meses, “para fallar los reclamos que ciudadanos de cualquiera de los dos países formulasen contra el gobierno del otro, y que hallaran su origen en actos de autoridades civiles o militares”.</p><p>Notablemente, dicho juzgado rechazó el único caso demandado contra Estados Unidos; y aceptó seis de las veinticuatro demandas efectuadas contra Chile, significando aquellas el pago de 240 mil dólares (Ver Gonzalo Vial – Historia de Chile (1891-1973), Volumen II, Triunfo y decadencia de la oligarquía (1891-1920); Editorial Santillana, Santiago, 1983; p. 172).</p><p>Además, como lo ha señalado el historiador estadounidense Fredrick Pike, lo del Baltimore no fue simplemente un episodio desafortunado, ya que con él</p><p>“Estados Unidos estaba anunciando a América Latina que el Coloso era ahora el director supremo de todos los asuntos hemisféricos. En verdad, la conducta de Washington en el asunto del Baltimore parece haber sido un preanuncio de la nota de 1895 sobre la controversia de límites de Venezuela (con el Reino Unido por su colonia de Guyana) en la que el secretario de Estado Richard Olney informaba al ministro del Exterior británico Lord Salisbury, que la voluntad de Estados Unidos era ahora la ley en el hemisferio americano” (Chile and the United States 1880-1962. The emergence of Chile’s Social Crisis and the Challenge to United States Diplomacy; University of Notre Dame, 1963; p. 82).</p><p>Y como dicho pronunciamiento provocó una irritación general en América Latina, Estados Unidos buscó disiparla por medio de consultas privadas con los embajadores latinoamericanos en Washington ¡excluyendo sólo al chileno!</p><p>Comentando aquella significativa omisión el representante (embajador) chileno en Estados Unidos, Domingo Gana, le comunicó a nuestra cancillería que</p><p>“el Secretario de Estado manifestó en estos días, confidencialmente a uno de mis colegas, que el único país de América con cuyas simpatías no era seguro contar en estas circunstancias, era el nuestro” (Vial; p. 174).</p><p>Otro asunto relevante en que empresas estadounidenses doblegaron al gobierno chileno, luego del asunto del Baltimore, fue respecto de un contrato entre el gobierno de Balmaceda y la sociedad North and South American Construction Co. cuyo objeto</p><p>“era un vasto tendido de ferrocarriles. Un supuesto incumplimiento yanki derivó en que Balmaceda anulara el contrato (…) Los norteamericanos habían renunciado solemnemente a la protección de su país. Pero, como el gobierno chileno anulase también un tribunal de árbitros que establecía el convenio, aquellos sintieron renacer su derecho para invocar esa protección”.</p><p>Incluso concurrieron ante el juzgado arbitral ya mencionado de 1892:</p><p>“El gobierno chileno sostuvo ser incompetente el juzgado arbitral, tesis, sin embargo, rechazada por la mayoría de éste. Pero el fondo del asunto quedó sin fallar; habían expirado los seis meses referidos. Finalmente, el año 1896, se transigió el cobro, pagando nuestro Fisco 150.000 dólares” (Ibid.; p. 172).</p><p>Todo lo anterior profundizó la desconfianza y aversión chilena a Estados Unidos. Así, el principal diario del Santiago de la época, El Ferrocarril, concluyó el 25 de marzo de 1892 que</p><p>“la consideración y respeto de las grandes potencias a las naciones sudamericanas, debemos por nuestra parte buscarla también en una política previsora de confraternidad entre nosotros mismos, desde que por la fuerza misma de las cosas, nuestro interés común está indicándonos que podemos obtener unidos la respetabilidad que no alcanzamos aisladamente”.</p><p>Desgraciadamente, la incapacidad y falta de visión de la dirigencia chilena para establecer acuerdos de paz duraderos con Perú y Bolivia -luego del triunfo en la Guerra del Pacífico– no sólo impidieron aquello dejándonos más expuestos a las políticas hegemónicas de Estados Unidos, sino que además fortalecieron a Argentina en desmedro de Chile.</p><p>Incluso, durante dicha guerra, en noviembre de 1882, el enviado argentino a Estados Unidos, Luis Domínguez, expresaba en sus palabras de presentación:</p><p>“Mi Gobierno y mi país tienen grande interés en mantener con los Estados Unidos y su gobierno las más estrechas y amistosas relaciones. Creo que hemos dado a este país la mayor prueba de respeto y admiración tomando por modelo sus instituciones políticas, y valiéndonos de sus propios comentadores para comprenderlas bien y ponerlas en ejercicio (…) Mi Gobierno ha prestado siempre la más deferente atención, en las crisis políticas por que ha pasado, a los consejos imparciales de esta gran República, y estará siempre pronto a concurrir con él para que la paz y la justicia sean la base permanente del bienestar de todas las naciones de América”.</p><p>Comentando estas palabras, el representante chileno en Washington, Joaquín Godoy, señalaba a nuestra cancillería que</p><p>“como lo han estilado en los últimos tiempos ciertos representantes diplomáticos de algunos Estados de Centro América, el Argentino tributa exorbitantes testimonios de sumisión de parte de su Gobierno y solicita la intervención de este en los asuntos que conciernen a los demás países del continente” (Archivo del Ministerio de Relaciones Exteriores, 15-11- 1882).</p><p>Y mientras se desarrollaba el conflicto del Baltimore, al mismo tiempo que el ministro de Relaciones Exteriores argentino, Estanislao Zeballos, hacía llegar sus muestras de simpatía y solidaridad hacia Chile,</p><p>“paralela y secretamente (…) el mismo Zeballos había corrido tras Norteamérica (sic) ofreciéndole los espontáneos pero no desinteresados servicios argentinos en el conflicto con Chile”.</p><p>“el embajador argentino ante la Casa Blanca se acercó a Blaine (Secretario de Estado) para decirle que, si estallara la guerra chileno-norteamericana, Argentina podría ayudar con carbón para la flota yanki y, aún, permitir que eventuales ejércitos estadounidenses cruzaran territorio trasandino y nos atacaran… Blaine inquirió el precio. Respuesta del embajador: ‘Pediremos la parte austral de Chile’. La noticia se difundió a los medios diplomáticos de Washington. El ministro chileno la comunicó inmediatamente. Igual hizo el enviado brasileño con su cancillería; esta ‘filtró’ la información hacia el embajador chileno en Río, quien, por supuesto, también la participó rápidamente” (Vial; op. cit.; p. 175).</p><p>A su vez, Blaine –en enero de 1892-</p><p>“le manifestó al ministro brasileño en Washington contar con la ayuda argentina y peruana ‘para introducir (aquí) sus tropas y alimentarlas’. En cambio, Perú recuperaría Tacna y Arica, y Argentina obtendría ´la posesión de toda la Patagonia’. Una vez más, Brasil deslizó esta noticia a la diplomacia chilena” (Ibid.; p. 176).</p><p>Todo lo anterior llevó a Gonzalo Vial a estimar que</p><p>“la idea de un ´cuadrillazo’ de los vecinos con cooperación yanqui fue probablemente, y como ya lo anticipábamos, motivo muy importante para que capitulásemos ante el ultimátum harrisoniano” (Ibid.).</p><p>Las expresiones emitidas en esta sección son de exclusiva responsabilidad de su autor(a) y no representan necesariamente las opiniones de El Ciudadano. Sigue leyendo:</p><p>La entrada Estados Unidos nunca ha sido aliado de Chile (V) se publicó primero en El Ciudadano.</p>",
+      "url": "https://www.elciudadano.com/chile/estados-unidos-nunca-ha-sido-aliado-de-chile-v/11/05/",
+      "image": "https://www.elciudadano.com/wp-content/uploads/2026/11/baltimore_caricatura-623x480.jpg",
+      "publishedAt": "2026-11-06T01:43:35+00:00",
+      "sourceId": "elciudadano",
+      "sourceName": "El Ciudadano",
+      "sourceType": "Prensa Alternativa",
+      "sourceSite": "https://www.elciudadano.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
     {
       "id": "cooperativa-a50cab9c47",
       "title": "Francisca Valenzuela será presentadora en los Latin Grammy 2026",
@@ -1558,46 +1573,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elciudadano-8d6878df1f",
-      "title": "Cartas al Director: La protección de la infancia y la confianza en la justicia",
-      "summary": "El Ciudadano Señor Director: El otro día caminaba a casa junto a mi hermana menor, de seis años, cuando nos topamos con dos desconocidos. Aunque no se apreciaran malas intenciones de su parte, sus sonrisas me hicieron desconfiar y acerqué a mi hermana a mi costado mientras apresuraba el paso. Tengo diecisiete años; esta no es la […]...",
-      "content": "<p>El otro día caminaba a casa junto a mi hermana menor, de seis años, cuando nos topamos con dos desconocidos. Aunque no se apreciaran malas intenciones de su parte, sus sonrisas me hicieron desconfiar y acerqué a mi hermana a mi costado mientras apresuraba el paso.</p><p>Tengo diecisiete años; esta no es la única situación de inseguridad que me ha tocado vivir por el miedo constante a ser violentada.</p><p>Y precisamente por ese miedo constante resulta aún más indignante enterarse de que se han otorgado 56 rebajas de condena a delincuentes sentenciados por abuso sexual y violación de menores.</p><p>Mientras miles de niñas, niños, adolescentes y mujeres viven con temor, el Estado parece enviar una señal de indulgencia hacia quienes destruyeron la seguridad y la infancia de sus víctimas.</p><p>Sé de muchos otros casos en donde miles de mujeres se sienten inseguras al salir a la calle, al dejar a sus hijos a cargo de terceros desconocidos o simplemente al confiar en que la justicia hará su trabajo. Por eso resulta imposible preguntarse qué mensaje entrega el Estado cuando se conocen decisiones como estas.</p><p>Durante años hemos escuchado consignas como “con nuestros niños y niñas no se juega”, pero esas palabras pierden fuerza cuando se adoptan medidas que benefician a quienes atentan contra ellos.</p><p>Si la principal responsabilidad del Gobierno es proteger a los más vulnerables, ¿cómo puede esperar la confianza de la ciudadanía cuando las condenas de abusadores y violadores de menores son rebajadas?</p><p>¿De qué protección hablamos, si incluso después de ser condenados reciben beneficios que las víctimas jamás podrán obtener para reparar el daño sufrido?</p><p>Porque cuando el Estado reduce las penas de quienes cometieron estos crímenes, no solo disminuye años de cárcel, también debilita la confianza de una sociedad que espera que, al menos en estos casos, la justicia esté del lado correcto.</p><p>La entrada Cartas al Director: La protección de la infancia y la confianza en la justicia se publicó primero en El Ciudadano.</p>",
-      "url": "https://www.elciudadano.com/cartas-ciudadanas/cartas-al-director-la-proteccion-de-la-infancia-y-la-confianza-en-la-justicia/11/05/",
-      "image": "https://www.elciudadano.com/wp-content/uploads/2022/05/nina-escuela-chile-640x427.jpg",
-      "publishedAt": "2026-11-05T22:18:07+00:00",
-      "sourceId": "elciudadano",
-      "sourceName": "El Ciudadano",
-      "sourceType": "Prensa Alternativa",
-      "sourceSite": "https://www.elciudadano.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "radiouchile-d7fe9272aa",
-      "title": "Confusam valora rechazo a la propuesta de per cápita basal y presiona al Ejecutivo por un incremento real de $1.000",
-      "summary": "El gremio de la salud municipal acusó que los $630 anunciados por el Gobierno corresponden a la incorporación de cuatro programas ya existentes, por lo que el aumento efectivo del financiamiento a la atención primaria es de $0. La entrada Confusam valora rechazo a la propuesta de per cápita basal y presiona al Ejecutivo por un...",
-      "content": "<p>La Confederación Nacional de Funcionarios de Salud Municipalizada (Confusam) valoró el rechazo parlamentario a la propuesta del Gobierno sobre el valor del per cápita basal para 2027.</p><p>A través de un comunicado de prensa, la organización del sector salud vio con buenos ojos el rechazo de dicho ítem del Presupuesto 2027 debido a que en la propuesta del Gobierno “se mantenía congelado el monto por tercer año consecutivo”.</p><p>“Ahora, el Ejecutivo deberá proponer un aumento real para financiar la atención primaria y las necesidades de nuestros establecimientos y de millones de usuarios y usuarias del país”, expusieron en su declaración.</p><p>Para la Confusam, “la decisión de rechazar por parte de la Comisión Especial Mixta de Presupuesto, reafirma lo que nuestra organización ha sostenido con claridad: los $630 anunciados por el Gobierno, no representan un aumento real del financiamiento basal de la APS, sino que corresponden a la incorporación de cuatro programas ya existentes y a recursos asociados a la ampliación de su cobertura. En consecuencia, el incremento efectivo del per cápita basal es de $0″.</p><p>“Esperamos que el Gobierno recoja esta señal y, en la siguiente etapa de la tramitación presupuestaria, presente una propuesta que contemple recursos nuevos y suficientes para avanzar en el cierre de la brecha histórica de financiamiento. Reiteramos nuestra demanda de incremento real de a lo menos $1.000 pesos del valor per cápita basal”, subrayaron en la misiva.</p><p>Destacaron que “las y los usuarios de la salud pública merecen una Atención Primaria fortalecida, con mejores condiciones de atención, prestaciones oportunas y equipos de salud con los recursos necesarios para cumplir su labor”.</p><p>Asimismo, enfatizaron que “más y mejor financiamiento para la salud pública es posible”, por lo que seguirán “defendiendo esta demanda con unidad, convicción y responsabilidad, porque fortalecer la Atención Primaria es invertir en la salud y dignidad de nuestro pueblo”.</p><p>La entrada Confusam valora rechazo a la propuesta de per cápita basal y presiona al Ejecutivo por un incremento real de $1.000 se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/05/confusam-valora-rechazo-a-la-propuesta-de-per-capita-basal-y-presiona-al-ejecutivo-por-un-incremento-real-de-1-000/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05173334/confusam.png",
-      "publishedAt": "2026-11-05T21:51:44+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 93,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "esciclismo-b93753312b",
       "title": "Joran Wyseure gana el Superprestige nocturno de Middelkerke por delante de Vanthourenhout",
       "summary": "Joran Wyseure se ha impuesto este jueves en la segunda prueba del Superprestige 2026-2027 de ciclocross, disputada bajo iluminación artificial en Middelkerke. El corredor del...",
@@ -1618,13 +1593,13 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-70bf5dc5c9",
-      "title": "Acusación constitucional contra Rabat: oposición adelanta argumentos pero aún no define fecha de presentación",
-      "summary": "El exministro de Justicia, Jaime Gajardo, mencionó tres elementos que podrían ser incluidos en el libelo; entre ellos, la incorrecta aplicación de la ley que impide entregar rebajas de condena a sentenciados por delitos sexuales contra menores. La entrada Acusación constitucional contra Rabat: oposición adelanta argumentos pero aún no...",
-      "content": "<p>La acusación constitucional que la oposición está impulsando en contra del ministro de Justicia, Fernando Rabat, va tomando forma. Este jueves, presidentes y jefes de bancada del bloque se reunieron con los abogados de los partidos y adelantaron algunos de los argumentos que utilizarán para acusar al secretario de Estado. Sin embargo, evitaron entregar un plazo definido para la presentación libelo.</p><p>La reunión de la oposición se dio el mismo día en que se abrió una nueva arista en el caso de la rebaja de condenas. De acuerdo al medio Interferencia, el Ministerio de Justicia benefició a un total 115 extranjeros condenados por delitos de drogas.</p><p>La cita también ocurrió poco después de un segundo emplazamiento del Presidente José Antonio Kast, quien en el marco del balance final de su gira europea, volvió a instar a la oposición a presentar cuanto antes el libelo.</p><p>“Que presenten la acusación constitucional. Llevamos una semana y media, dos semanas, entre que van a presentar la acusación, que no la van a presentar. Bueno, si están con dudas de cuántos votos tienen, preséntenla, pero no alarguemos un tema que causa un dolor enorme a las personas. Se dice que se defiende a las víctimas y cada día que se alarga esto se revictimiza a las personas que fueron objetos de abusos”, sostuvo el Mandatario.</p><p>Requerido sobre los plazos que maneja la oposición, el diputado y jefe de bancada del Partido Socialista (PS), Raúl Leiva, afirmó que se está trabajando “de manera sostenida y responsable”. “La vamos a presentar y ustedes se van a enterar cuando la anunciemos públicamente, todas las bancadas de la oposición, de manera coordinada”, expresó.</p><p>En esa misma línea, Leiva aseguró que “hay muchos aspectos jurídicos que dilucidar y que los hemos reafirmado. Tenemos la convicción, no solo política y ética, sino que jurídica, de que aquí hay una transgresión clara a la ley y a la Constitución”.</p><p>Los líderes de la oposición aclararon que no esperarán a contar con los decretos de rebaja de condena, que beneficiaron a 56 sentenciados por delitos sexuales contra menores; pese a que, desde el sector, se había señalado que tener esos documentos era “fundamental” para la acusación constitucional.</p><p>La diputada y presidenta del Frente Amplio (FA), Gael Yeomans, indicó que seguirán insistiendo para contar con los decretos, pero que su falta de entrega no impedirá la presentación del libelo.</p><p>“En los próximos días vamos a presentar la acusación. Lo que ya tenemos de información, que son los decretos que nos han dado a conocer los informes que ha entregado la prensa, ya son suficientes para el contenido que llevamos hasta ahora”, dijo.</p><p>“Nosotros vamos a insistir, lógicamente, en que se transparenten todos los decretos, pero lo que hemos recolectado hasta ahora es parte de la acusación constitucional y le da sustento jurídico-político a su presentación”, recalcó.</p><p>A la reunión con los presidentes de partido y jefes de bancada asistieron los abogados y abogadas Patricia Muñoz, Williams García, José Antonio Ramírez, Gabriel Osorio, Constanza Tobar, Francisco Bustos y Jaime Gajardo. Este último, adelantó los argumentos que estarán presentes en la acusación que, se supone, tendrá tres o cuatro capítulos.</p><p>El ex ministro de Justicia detalló que el primero de ellos tiene que ver con que, al otorgar rebajas de condena, el ministro Fernando Rabat no aplicó correctamente la ley de 2022, que excluyó del beneficio a sentenciados por delitos sexuales contra menores.</p><p>“La Constitución Política de la República, en el artículo 52 número 2, establece que un ministro de Estado tiene que responder en el caso de que infrinja la Constitución, la ley o deje sin ejecutar esta última”, sostuvo.</p><p>A lo anterior, agregó que también se incumplieron tratados internacionales, tanto aquellos que versan sobre la protección de los derechos de la niñez como los relacionados con los crímenes de lesa humanidad.</p><p>“En esa materia la contradicción es evidente, porque la jurisprudencia de los últimos cuatro años ha sido que ese tipo de criminales no puede acceder a beneficios de rebajas de condena. Sin embargo, el Gobierno les ha otorgado de manera directa y administrativa, rebajas de condena”, indicó.</p><p>Finalmente, el militante del Partido Comunista (PC) apuntó a que el “Gobierno ha entregado información errónea a la Cámara de Diputados, y eso puede constituir una falta a la probidad”.</p><p>“El Gobierno no le puede entregar información errónea a la Cámara de Diputados, bajo ninguna circunstancia, y menos cuando está ejerciendo su labor fiscalizadora. Eso también, como país, lo tenemos que cautelar”, añadió.</p><p>La entrada Acusación constitucional contra Rabat: oposición adelanta argumentos pero aún no define fecha de presentación se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/05/acusacion-constitucional-contra-rabat-oposicion-adelanta-argumentos-pero-aun-no-define-fecha-de-presentacion/",
-      "image": "https://uchile-media-storage.nyc3.cdn.digitaloceanspaces.com/2026/06/fernando-rabat.jpg",
-      "publishedAt": "2026-11-05T21:35:12+00:00",
+      "id": "radiouchile-d7fe9272aa",
+      "title": "Confusam valora rechazo a la propuesta de per cápita basal y presiona al Ejecutivo por un incremento real de $1.000",
+      "summary": "El gremio de la salud municipal acusó que los $630 anunciados por el Gobierno corresponden a la incorporación de cuatro programas ya existentes, por lo que el aumento efectivo del financiamiento a la atención primaria es de $0. La entrada Confusam valora rechazo a la propuesta de per cápita basal y presiona al Ejecutivo por un...",
+      "content": "<p>La Confederación Nacional de Funcionarios de Salud Municipalizada (Confusam) valoró el rechazo parlamentario a la propuesta del Gobierno sobre el valor del per cápita basal para 2027.</p><p>A través de un comunicado de prensa, la organización del sector salud vio con buenos ojos el rechazo de dicho ítem del Presupuesto 2027 debido a que en la propuesta del Gobierno “se mantenía congelado el monto por tercer año consecutivo”.</p><p>“Ahora, el Ejecutivo deberá proponer un aumento real para financiar la atención primaria y las necesidades de nuestros establecimientos y de millones de usuarios y usuarias del país”, expusieron en su declaración.</p><p>Para la Confusam, “la decisión de rechazar por parte de la Comisión Especial Mixta de Presupuesto, reafirma lo que nuestra organización ha sostenido con claridad: los $630 anunciados por el Gobierno, no representan un aumento real del financiamiento basal de la APS, sino que corresponden a la incorporación de cuatro programas ya existentes y a recursos asociados a la ampliación de su cobertura. En consecuencia, el incremento efectivo del per cápita basal es de $0″.</p><p>“Esperamos que el Gobierno recoja esta señal y, en la siguiente etapa de la tramitación presupuestaria, presente una propuesta que contemple recursos nuevos y suficientes para avanzar en el cierre de la brecha histórica de financiamiento. Reiteramos nuestra demanda de incremento real de a lo menos $1.000 pesos del valor per cápita basal”, subrayaron en la misiva.</p><p>Destacaron que “las y los usuarios de la salud pública merecen una Atención Primaria fortalecida, con mejores condiciones de atención, prestaciones oportunas y equipos de salud con los recursos necesarios para cumplir su labor”.</p><p>Asimismo, enfatizaron que “más y mejor financiamiento para la salud pública es posible”, por lo que seguirán “defendiendo esta demanda con unidad, convicción y responsabilidad, porque fortalecer la Atención Primaria es invertir en la salud y dignidad de nuestro pueblo”.</p><p>La entrada Confusam valora rechazo a la propuesta de per cápita basal y presiona al Ejecutivo por un incremento real de $1.000 se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/05/confusam-valora-rechazo-a-la-propuesta-de-per-capita-basal-y-presiona-al-ejecutivo-por-un-incremento-real-de-1-000/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05173334/confusam.png",
+      "publishedAt": "2026-11-05T21:51:44+00:00",
       "sourceId": "radiouchile",
       "sourceName": "Radio U. de Chile",
       "sourceType": "Universitario / Pluralista",
@@ -1632,7 +1607,7 @@
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
+      "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 93,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
@@ -1658,13 +1633,13 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "radiouchile-9db7c1a6c4",
-      "title": "Representante de la OPS/OMS en Chile: “Los gobiernos tienen que reflexionar sobre la importancia de la inversión en ciencia”",
-      "summary": "En conversación con Lo Público en Salud, el doctor Giovanni Escalante se refirió a la campaña \"Juntos por la Ciencia y la Salud\", que, justamente, apunta a la comprensión de la ciencia como herramienta transformadora de vidas. La entrada Representante de la OPS/OMS en Chile: “Los gobiernos tienen que reflexionar sobre la importancia...",
-      "content": "<p>El doctor Giovanni Escalante, representante de la OPS/OMS en Chile, se refirió al lanzamiento de la campaña “Juntos por la Ciencia y la Salud”, que se realizará el próximo 10 de noviembre, en una ceremonia en la Universidad Católica.</p><p>En conversación con el programa de Radio Universidad de Chile, Lo Público en Salud, el doctor recordó que la Organización Panamericana de la Salud, OPS, “es un organismo de cooperación internacional multilateral”, en que “el secretariado, que somos nosotros, el equipo de asesores, de expertos, acompañamos las decisiones de los estados miembro. ¿Y por qué eso es importante? Porque al final nos otorgan un rol clave en velar por la salud pública de las Américas”.</p><p>Respecto a la campaña impulsada por la OPS y la Organización Mundial de la Salud, destacó que su objetivo es lograr una comprensión de la ciencia como herramienta para la transformación de vidas.</p><p>“Es cómo vamos a acelerar que el conocimiento científico genere tecnologías apropiadas a los contextos siempre desafiantes de América Latina, pero, además, produzca un cambio efectivo en la salud y el bienestar de toda la población, y con una noción de equidad. Ahí está el desafío y la oportunidad que tenemos”, sostuvo.</p><p>En esa línea, Escalante apuntó a que “los gobiernos tienen que reflexionar realmente sobre la importancia de la inversión en ciencia, en tecnología, que es un brazo fundamental para lograr inversiones sostenibles y para lograr retornos sociales”.</p><p>“Si no existe esta incubadora, este desarrollo de investigaciones prioritarias para un determinado país, no puede haber tampoco transformación productiva y tampoco podría haber una mejor noción de salud y bienestar. Invertir en salud e invertir en bienestar va a generar mejor productividad, mejor rentabilidad, no solamente económica sino también social”, remarcó.</p><p>El representante de la OPS/OMS en Chile además abordó el trabajo que desarrollan con sus centros colaboradores. En Chile, existen siete centros de ese tipo, dos de ellos dependientes de la Facultad de Medicina de la Universidad de Chile: el Centro de Desarrollo de la Partería en América Latina y el Caribe, y el Centro Colaborador para el Desarrollo de Servicios, Capacitación e Investigación en el Área de la Salud Mental.</p><p>Escalante explicó que se trata de “instituciones que han tenido un prestigio en desarrollar algún elemento fundamental para la ciencia, para la salud pública, que tienen un aporte muy concreto. Puede ser en salud digital, puede ser en salud indígena, en derechos humanos, en bioética, etcétera. Son campos muy importantes de la salud pública y que acompañamos durante largo tiempo, normalmente más de dos años, en una asociación con la Organización Panamericana de la Salud y luego pasan por una certificación a través de nuestros equipos y se constituyen como centros de excelencia”.</p><p>“Son centros que van a contribuir, justamente, al fortalecimiento de la salud pública en cada uno de los países, pero también con una perspectiva global”, remarcó.</p><p>La entrada Representante de la OPS/OMS en Chile: “Los gobiernos tienen que reflexionar sobre la importancia de la inversión en ciencia” se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/05/representante-de-la-ops-oms-en-chile-los-gobiernos-tienen-que-reflexionar-sobre-la-importancia-de-la-inversion-en-ciencia/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05103206/dr-escalante-0-e1793885564471.jpeg",
-      "publishedAt": "2026-11-05T21:29:31+00:00",
+      "id": "radiouchile-70bf5dc5c9",
+      "title": "Acusación constitucional contra Rabat: oposición adelanta argumentos pero aún no define fecha de presentación",
+      "summary": "El exministro de Justicia, Jaime Gajardo, mencionó tres elementos que podrían ser incluidos en el libelo; entre ellos, la incorrecta aplicación de la ley que impide entregar rebajas de condena a sentenciados por delitos sexuales contra menores. La entrada Acusación constitucional contra Rabat: oposición adelanta argumentos pero aún no...",
+      "content": "<p>La acusación constitucional que la oposición está impulsando en contra del ministro de Justicia, Fernando Rabat, va tomando forma. Este jueves, presidentes y jefes de bancada del bloque se reunieron con los abogados de los partidos y adelantaron algunos de los argumentos que utilizarán para acusar al secretario de Estado. Sin embargo, evitaron entregar un plazo definido para la presentación libelo.</p><p>La reunión de la oposición se dio el mismo día en que se abrió una nueva arista en el caso de la rebaja de condenas. De acuerdo al medio Interferencia, el Ministerio de Justicia benefició a un total 115 extranjeros condenados por delitos de drogas.</p><p>La cita también ocurrió poco después de un segundo emplazamiento del Presidente José Antonio Kast, quien en el marco del balance final de su gira europea, volvió a instar a la oposición a presentar cuanto antes el libelo.</p><p>“Que presenten la acusación constitucional. Llevamos una semana y media, dos semanas, entre que van a presentar la acusación, que no la van a presentar. Bueno, si están con dudas de cuántos votos tienen, preséntenla, pero no alarguemos un tema que causa un dolor enorme a las personas. Se dice que se defiende a las víctimas y cada día que se alarga esto se revictimiza a las personas que fueron objetos de abusos”, sostuvo el Mandatario.</p><p>Requerido sobre los plazos que maneja la oposición, el diputado y jefe de bancada del Partido Socialista (PS), Raúl Leiva, afirmó que se está trabajando “de manera sostenida y responsable”. “La vamos a presentar y ustedes se van a enterar cuando la anunciemos públicamente, todas las bancadas de la oposición, de manera coordinada”, expresó.</p><p>En esa misma línea, Leiva aseguró que “hay muchos aspectos jurídicos que dilucidar y que los hemos reafirmado. Tenemos la convicción, no solo política y ética, sino que jurídica, de que aquí hay una transgresión clara a la ley y a la Constitución”.</p><p>Los líderes de la oposición aclararon que no esperarán a contar con los decretos de rebaja de condena, que beneficiaron a 56 sentenciados por delitos sexuales contra menores; pese a que, desde el sector, se había señalado que tener esos documentos era “fundamental” para la acusación constitucional.</p><p>La diputada y presidenta del Frente Amplio (FA), Gael Yeomans, indicó que seguirán insistiendo para contar con los decretos, pero que su falta de entrega no impedirá la presentación del libelo.</p><p>“En los próximos días vamos a presentar la acusación. Lo que ya tenemos de información, que son los decretos que nos han dado a conocer los informes que ha entregado la prensa, ya son suficientes para el contenido que llevamos hasta ahora”, dijo.</p><p>“Nosotros vamos a insistir, lógicamente, en que se transparenten todos los decretos, pero lo que hemos recolectado hasta ahora es parte de la acusación constitucional y le da sustento jurídico-político a su presentación”, recalcó.</p><p>A la reunión con los presidentes de partido y jefes de bancada asistieron los abogados y abogadas Patricia Muñoz, Williams García, José Antonio Ramírez, Gabriel Osorio, Constanza Tobar, Francisco Bustos y Jaime Gajardo. Este último, adelantó los argumentos que estarán presentes en la acusación que, se supone, tendrá tres o cuatro capítulos.</p><p>El ex ministro de Justicia detalló que el primero de ellos tiene que ver con que, al otorgar rebajas de condena, el ministro Fernando Rabat no aplicó correctamente la ley de 2022, que excluyó del beneficio a sentenciados por delitos sexuales contra menores.</p><p>“La Constitución Política de la República, en el artículo 52 número 2, establece que un ministro de Estado tiene que responder en el caso de que infrinja la Constitución, la ley o deje sin ejecutar esta última”, sostuvo.</p><p>A lo anterior, agregó que también se incumplieron tratados internacionales, tanto aquellos que versan sobre la protección de los derechos de la niñez como los relacionados con los crímenes de lesa humanidad.</p><p>“En esa materia la contradicción es evidente, porque la jurisprudencia de los últimos cuatro años ha sido que ese tipo de criminales no puede acceder a beneficios de rebajas de condena. Sin embargo, el Gobierno les ha otorgado de manera directa y administrativa, rebajas de condena”, indicó.</p><p>Finalmente, el militante del Partido Comunista (PC) apuntó a que el “Gobierno ha entregado información errónea a la Cámara de Diputados, y eso puede constituir una falta a la probidad”.</p><p>“El Gobierno no le puede entregar información errónea a la Cámara de Diputados, bajo ninguna circunstancia, y menos cuando está ejerciendo su labor fiscalizadora. Eso también, como país, lo tenemos que cautelar”, añadió.</p><p>La entrada Acusación constitucional contra Rabat: oposición adelanta argumentos pero aún no define fecha de presentación se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/05/acusacion-constitucional-contra-rabat-oposicion-adelanta-argumentos-pero-aun-no-define-fecha-de-presentacion/",
+      "image": "https://uchile-media-storage.nyc3.cdn.digitaloceanspaces.com/2026/06/fernando-rabat.jpg",
+      "publishedAt": "2026-11-05T21:35:12+00:00",
       "sourceId": "radiouchile",
       "sourceName": "Radio U. de Chile",
       "sourceType": "Universitario / Pluralista",
@@ -1672,9 +1647,9 @@
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Ciencia, Salud y Futuro",
+      "category": "Derechos Humanos y Ciudadanía",
       "relevanceTier": "alta",
-      "relevanceScore": 89,
+      "relevanceScore": 93,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1698,24 +1673,24 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "timeline-4bdb303e59",
-      "title": "Último registro lo ubica en Playa Amarilla: Familia busca intensamente a adulto mayor de 83 años que fue detective en Caracas",
-      "summary": "Las cámaras de una máquina de la línea 102 muestran los últimos momentos conocidos de Simón Chirinos, adulto mayor de 83 años, de quien su familia perdió todo rastro la tarde del miércoles 3 de noviembre en Playa Amarilla, en el extremo sur de Antofagasta. Su hija, Yeirama Chirinos (44), detalló que ese mismo día […] La entrada Último...",
-      "content": "<p>Las cámaras de una máquina de la línea 102 muestran los últimos momentos conocidos de Simón Chirinos, adulto mayor de 83 años, de quien su familia perdió todo rastro la tarde del miércoles 3 de noviembre en Playa Amarilla, en el extremo sur de Antofagasta. Su hija, Yeirama Chirinos (44), detalló que ese mismo día colocaron la denuncia en la policía y explicó que es la primera vez que pierden el contacto con su padre.</p><p>Según el relato de Yeirama, su padre salió cerca de las 18.45 horas desde el Mercado Central, en calle Ossa, con dirección a su domicilio en el sector Llacolén. Chirinos abordó la línea 102 cargando una bolsa de género negra con compras; sin embargo, no bajó en su destino habitual y continuó hasta Playa Amarilla, donde descendió a las 19.23 horas.</p><p>A pesar de su edad, la familia aclaró que Simón no padece enfermedades neurológicas o demencia senil, aunque no descartan que haya sufrido un episodio de desorientación en el trayecto. El adulto mayor sí padece un cáncer pulmonar bajo tratamiento controlado y al momento de su desaparición no portaba teléfono celular ni tarjetas bancarias, movilizándose únicamente con dinero en efectivo.</p><p>LLEGÓ A ANTOFAGASTA PARA VIVIR CON SU HIJA</p><p>Hace tres años, Simón llegó a la ciudad junto a su esposa para vivir con su hija, todos son venezolanos. En Iquique reside su otro hijo, quien viajó de inmediato a Antofagasta al enterarse de lo ocurrido. En Chile tiene cuatro nietos, con edades entre los 10 y 16 años (Iquique), más uno de 16 y otro de 12, a este último, siempre lo buscaba en el colegio en pleno centro de la comuna.</p><p>“Él es jubilado y fue unos 30 años detective de policía en Caracas. Salía todo el tiempo, porque buscaba a su nieto en el colegio. De hecho, ese día lo buscó, lo llevó a casa y a la media hora salió a hacer esta diligencia, que imagino era comprar algunas cosas. Era algo que siempre lo hacía y en esta oportunidad lo malo fue que dejó su celular, algo que tampoco era infrecuente, a veces se le quedaba el teléfono”, indicó Yeirama.</p><p>Su hija mencionó que nunca se había perdido. En julio de este año sufrió un accidente al caer cerca del colegio de su nieto, aunque el portero del establecimiento avisó a la familia.</p><p>“En otras oportunidades había llegado un poco más tarde y le decía que no podía llegar en la oscuridad. Una vez apareció cerca de las nueve y estuvimos preocupados. Por eso a las diez de la noche fuimos a la comisaría”, explicó la hija.</p><p>Yeirama precisó que llegando a Coloso hay unos stands de comida rápida, donde recibieron información de que, al día siguiente, a las 11 de la mañana, lo vieron caminando hacia el sector norte.</p><p>Este jueves en la tarde hablaron con una persona que siempre camina en esa zona y dijo que vio a su papá a las ocho de la noche el día de la desaparición en frente de la playa del Camarón Grill, mucho más al norte de Playa Amarilla, datos que no cuadran.</p><p>“Hoy (jueves) sí he visto mayor despliegue, están los Bomberos que fueron con la Armada en la parte marítima. Como familia estamos buscando todo el día, vamos a la PDI, a todos lados. Hay varios grupos de ayuda, gente de la que estamos ampliamente agradecidos, que ha recorrido con nosotros. Tenemos muchos amigos y familiares que se han desplegado tanto por el sector centro, obviamente el área sur ha sido más explorada, Coloso, Playa Amarilla y Huáscar, pero vale la pena ampliar un poco más el perímetro de búsqueda”, manifestó Yeirama.</p><p>La hija de Simón cree que, si bien su padre no tiene demencia, al tratarse de un abuelito de edad avanzada puede padecer un síndrome confusional agudo, desorientarse de manera aguda. “Entonces para mí, se desorientó”, indicó Chirinos.</p><p>Cualquier información sobre el paradero de Simón Chirinos puede canalizarse a través de Carabineros, la PDI, o contactar a la familia en el teléfono +56989861985.</p><p>La entrada Último registro lo ubica en Playa Amarilla: Familia busca intensamente a adulto mayor de 83 años que fue detective en Caracas se publicó primero en Timeline.cl.</p>",
-      "url": "https://www.timeline.cl/ultimo-registro-lo-ubica-en-playa-amarilla-familia-busca-intensamente-a-adulto-mayor-de-83-anos-que-fue-detective-en-caracas/",
-      "image": "https://www.timeline.cl/wp-content/uploads/2026/11/perdido.jpg",
-      "publishedAt": "2026-11-05T21:28:23+00:00",
-      "sourceId": "timeline",
-      "sourceName": "Timeline Antofagasta",
-      "sourceType": "Regional Independiente (Norte)",
-      "sourceSite": "https://timeline.cl",
+      "id": "radiouchile-9db7c1a6c4",
+      "title": "Representante de la OPS/OMS en Chile: “Los gobiernos tienen que reflexionar sobre la importancia de la inversión en ciencia”",
+      "summary": "En conversación con Lo Público en Salud, el doctor Giovanni Escalante se refirió a la campaña \"Juntos por la Ciencia y la Salud\", que, justamente, apunta a la comprensión de la ciencia como herramienta transformadora de vidas. La entrada Representante de la OPS/OMS en Chile: “Los gobiernos tienen que reflexionar sobre la importancia...",
+      "content": "<p>El doctor Giovanni Escalante, representante de la OPS/OMS en Chile, se refirió al lanzamiento de la campaña “Juntos por la Ciencia y la Salud”, que se realizará el próximo 10 de noviembre, en una ceremonia en la Universidad Católica.</p><p>En conversación con el programa de Radio Universidad de Chile, Lo Público en Salud, el doctor recordó que la Organización Panamericana de la Salud, OPS, “es un organismo de cooperación internacional multilateral”, en que “el secretariado, que somos nosotros, el equipo de asesores, de expertos, acompañamos las decisiones de los estados miembro. ¿Y por qué eso es importante? Porque al final nos otorgan un rol clave en velar por la salud pública de las Américas”.</p><p>Respecto a la campaña impulsada por la OPS y la Organización Mundial de la Salud, destacó que su objetivo es lograr una comprensión de la ciencia como herramienta para la transformación de vidas.</p><p>“Es cómo vamos a acelerar que el conocimiento científico genere tecnologías apropiadas a los contextos siempre desafiantes de América Latina, pero, además, produzca un cambio efectivo en la salud y el bienestar de toda la población, y con una noción de equidad. Ahí está el desafío y la oportunidad que tenemos”, sostuvo.</p><p>En esa línea, Escalante apuntó a que “los gobiernos tienen que reflexionar realmente sobre la importancia de la inversión en ciencia, en tecnología, que es un brazo fundamental para lograr inversiones sostenibles y para lograr retornos sociales”.</p><p>“Si no existe esta incubadora, este desarrollo de investigaciones prioritarias para un determinado país, no puede haber tampoco transformación productiva y tampoco podría haber una mejor noción de salud y bienestar. Invertir en salud e invertir en bienestar va a generar mejor productividad, mejor rentabilidad, no solamente económica sino también social”, remarcó.</p><p>El representante de la OPS/OMS en Chile además abordó el trabajo que desarrollan con sus centros colaboradores. En Chile, existen siete centros de ese tipo, dos de ellos dependientes de la Facultad de Medicina de la Universidad de Chile: el Centro de Desarrollo de la Partería en América Latina y el Caribe, y el Centro Colaborador para el Desarrollo de Servicios, Capacitación e Investigación en el Área de la Salud Mental.</p><p>Escalante explicó que se trata de “instituciones que han tenido un prestigio en desarrollar algún elemento fundamental para la ciencia, para la salud pública, que tienen un aporte muy concreto. Puede ser en salud digital, puede ser en salud indígena, en derechos humanos, en bioética, etcétera. Son campos muy importantes de la salud pública y que acompañamos durante largo tiempo, normalmente más de dos años, en una asociación con la Organización Panamericana de la Salud y luego pasan por una certificación a través de nuestros equipos y se constituyen como centros de excelencia”.</p><p>“Son centros que van a contribuir, justamente, al fortalecimiento de la salud pública en cada uno de los países, pero también con una perspectiva global”, remarcó.</p><p>La entrada Representante de la OPS/OMS en Chile: “Los gobiernos tienen que reflexionar sobre la importancia de la inversión en ciencia” se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/05/representante-de-la-ops-oms-en-chile-los-gobiernos-tienen-que-reflexionar-sobre-la-importancia-de-la-inversion-en-ciencia/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/05103206/dr-escalante-0-e1793885564471.jpeg",
+      "publishedAt": "2026-11-05T21:29:31+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 74,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 89,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "diariouach-a9ee86a839",
@@ -1735,6 +1710,26 @@
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 68,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "timeline-4bdb303e59",
+      "title": "Último registro lo ubica en Playa Amarilla: Familia busca intensamente a adulto mayor de 83 años que fue detective en Caracas",
+      "summary": "Las cámaras de una máquina de la línea 102 muestran los últimos momentos conocidos de Simón Chirinos, adulto mayor de 83 años, de quien su familia perdió todo rastro la tarde del miércoles 3 de noviembre en Playa Amarilla, en el extremo sur de Antofagasta. Su hija, Yeirama Chirinos (44), detalló que ese mismo día […] La entrada Último...",
+      "content": "<p>Las cámaras de una máquina de la línea 102 muestran los últimos momentos conocidos de Simón Chirinos, adulto mayor de 83 años, de quien su familia perdió todo rastro la tarde del miércoles 3 de noviembre en Playa Amarilla, en el extremo sur de Antofagasta. Su hija, Yeirama Chirinos (44), detalló que ese mismo día colocaron la denuncia en la policía y explicó que es la primera vez que pierden el contacto con su padre.</p><p>Según el relato de Yeirama, su padre salió cerca de las 18.45 horas desde el Mercado Central, en calle Ossa, con dirección a su domicilio en el sector Llacolén. Chirinos abordó la línea 102 cargando una bolsa de género negra con compras; sin embargo, no bajó en su destino habitual y continuó hasta Playa Amarilla, donde descendió a las 19.23 horas.</p><p>A pesar de su edad, la familia aclaró que Simón no padece enfermedades neurológicas o demencia senil, aunque no descartan que haya sufrido un episodio de desorientación en el trayecto. El adulto mayor sí padece un cáncer pulmonar bajo tratamiento controlado y al momento de su desaparición no portaba teléfono celular ni tarjetas bancarias, movilizándose únicamente con dinero en efectivo.</p><p>LLEGÓ A ANTOFAGASTA PARA VIVIR CON SU HIJA</p><p>Hace tres años, Simón llegó a la ciudad junto a su esposa para vivir con su hija, todos son venezolanos. En Iquique reside su otro hijo, quien viajó de inmediato a Antofagasta al enterarse de lo ocurrido. En Chile tiene cuatro nietos, con edades entre los 10 y 16 años (Iquique), más uno de 16 y otro de 12, a este último, siempre lo buscaba en el colegio en pleno centro de la comuna.</p><p>“Él es jubilado y fue unos 30 años detective de policía en Caracas. Salía todo el tiempo, porque buscaba a su nieto en el colegio. De hecho, ese día lo buscó, lo llevó a casa y a la media hora salió a hacer esta diligencia, que imagino era comprar algunas cosas. Era algo que siempre lo hacía y en esta oportunidad lo malo fue que dejó su celular, algo que tampoco era infrecuente, a veces se le quedaba el teléfono”, indicó Yeirama.</p><p>Su hija mencionó que nunca se había perdido. En julio de este año sufrió un accidente al caer cerca del colegio de su nieto, aunque el portero del establecimiento avisó a la familia.</p><p>“En otras oportunidades había llegado un poco más tarde y le decía que no podía llegar en la oscuridad. Una vez apareció cerca de las nueve y estuvimos preocupados. Por eso a las diez de la noche fuimos a la comisaría”, explicó la hija.</p><p>Yeirama precisó que llegando a Coloso hay unos stands de comida rápida, donde recibieron información de que, al día siguiente, a las 11 de la mañana, lo vieron caminando hacia el sector norte.</p><p>Este jueves en la tarde hablaron con una persona que siempre camina en esa zona y dijo que vio a su papá a las ocho de la noche el día de la desaparición en frente de la playa del Camarón Grill, mucho más al norte de Playa Amarilla, datos que no cuadran.</p><p>“Hoy (jueves) sí he visto mayor despliegue, están los Bomberos que fueron con la Armada en la parte marítima. Como familia estamos buscando todo el día, vamos a la PDI, a todos lados. Hay varios grupos de ayuda, gente de la que estamos ampliamente agradecidos, que ha recorrido con nosotros. Tenemos muchos amigos y familiares que se han desplegado tanto por el sector centro, obviamente el área sur ha sido más explorada, Coloso, Playa Amarilla y Huáscar, pero vale la pena ampliar un poco más el perímetro de búsqueda”, manifestó Yeirama.</p><p>La hija de Simón cree que, si bien su padre no tiene demencia, al tratarse de un abuelito de edad avanzada puede padecer un síndrome confusional agudo, desorientarse de manera aguda. “Entonces para mí, se desorientó”, indicó Chirinos.</p><p>Cualquier información sobre el paradero de Simón Chirinos puede canalizarse a través de Carabineros, la PDI, o contactar a la familia en el teléfono +56989861985.</p><p>La entrada Último registro lo ubica en Playa Amarilla: Familia busca intensamente a adulto mayor de 83 años que fue detective en Caracas se publicó primero en Timeline.cl.</p>",
+      "url": "https://www.timeline.cl/ultimo-registro-lo-ubica-en-playa-amarilla-familia-busca-intensamente-a-adulto-mayor-de-83-anos-que-fue-detective-en-caracas/",
+      "image": "https://www.timeline.cl/wp-content/uploads/2026/11/perdido.jpg",
+      "publishedAt": "2026-11-05T21:28:23+00:00",
+      "sourceId": "timeline",
+      "sourceName": "Timeline Antofagasta",
+      "sourceType": "Regional Independiente (Norte)",
+      "sourceSite": "https://timeline.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 74,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
@@ -2796,6 +2791,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 99,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-c7bd533133",
+      "title": "Con duelos en simultáneo: Así se transmitirá la fecha 27 de la Liga de Primera por televisión",
+      "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes La definición de la Liga de Primera entra en su fase más apasionante con la disputa de la fecha 27, jornada de alto impacto que contará con la cobertura completa de TNT Sports y la plataforma HBO Max, llevando en vivo las resoluciones por el título, la clasificación a copas...",
+      "content": "<p>La definición de la Liga de Primera entra en su fase más apasionante con la disputa de la fecha 27, jornada de alto impacto que contará con la cobertura completa de TNT Sports y la plataforma HBO Max, llevando en vivo las resoluciones por el título, la clasificación a copas internacionales y la dramática lucha por la permanencia.</p><p>El plato fuerte de la fecha se vivirá este domingo 8 de noviembre a las 15:00 horas con una vibrante definición en paralelo: Colo Colo visitará a Ñublense en Chillán con la primera opción matemática de sellar su estrella 35, mientras que su escolta, Universidad de Chile, recibirá a Cobresal en El Teniente de Rancagua con la obligación de ganar para extender la ilusión.</p><p>En la misma jornada dominical, el mediodía (12:30 horas) estará marcado por la pelea continental con el choque entre Universidad Católica y Deportes Limache, en simultáneo con el enfrentamiento de Audax Italiano ante Coquimbo Unido. Más tarde, la parte baja de la tabla arderá con los duelos entre Unión La Calera vs. Huachipato y Universidad de Concepción frente a O&#x27;Higgins.</p><p>La cartelera de transmisiones de la fecha 27</p>",
+      "url": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/con-duelos-en-simultaneo-asi-se-transmitira-la-fecha-27-de-la-liga-de/2026-11-05/111516.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000000220261105111516.jpg",
+      "publishedAt": "2026-11-05T14:15:16+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 72,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "terram-9bed3ca20a",
