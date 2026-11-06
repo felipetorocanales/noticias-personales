@@ -1,15 +1,20 @@
 {
-  "generatedAt": "2026-11-06T17:16:11.808564+00:00",
+  "generatedAt": "2026-11-06T17:31:36.888290+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
   "totalArticles": 213,
-  "totalBlockedFarandula": 3,
+  "totalBlockedFarandula": 5,
   "blockedExamples": [
     {
       "title": "El escritoriazo de la ANFP",
       "source": "Interferencia",
       "reason": "fútbol"
+    },
+    {
+      "title": "El editorial de Sebastián Esnaola: El regreso goleador de Rivero es tarde, pero útil en esta recta final",
+      "source": "Radio Cooperativa",
+      "reason": "goleador"
     },
     {
       "title": "Arbitro informó expulsión de pasapelotas en goleada de la U a Antofagasta",
@@ -20,6 +25,11 @@
       "title": "Ortiz sobre su continuidad: \"La prioridad es de Colo Colo, soy un hombre de palabra\"",
       "source": "Radio Cooperativa",
       "reason": "colo colo"
+    },
+    {
+      "title": "Niclas Füllkrug, el goleador que volvió a encontrar la felicidad en Bremen",
+      "source": "DW Español",
+      "reason": "goleador"
     }
   ],
   "sources": [
@@ -492,7 +502,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 18.2
+      "newestAgeHours": 18.5
     },
     {
       "id": "interferencia",
@@ -505,7 +515,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 8.3
+      "newestAgeHours": 1.9
     },
     {
       "id": "fastcheck",
@@ -518,7 +528,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.5
+      "newestAgeHours": 2.7
     },
     {
       "id": "radiouchile",
@@ -544,7 +554,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.3
+      "newestAgeHours": 2.6
     },
     {
       "id": "eldesconcierto",
@@ -557,7 +567,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 19.9
+      "newestAgeHours": 20.1
     },
     {
       "id": "laderasur",
@@ -570,7 +580,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 3,
-      "newestAgeHours": 21.3
+      "newestAgeHours": 21.6
     },
     {
       "id": "resumen",
@@ -583,7 +593,7 @@
       "count": 2,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 8.8
+      "newestAgeHours": 9.0
     },
     {
       "id": "elciudadano",
@@ -596,7 +606,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 0.5
     },
     {
       "id": "malaespina",
@@ -609,7 +619,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.8
+      "newestAgeHours": 1.1
     },
     {
       "id": "vergara240",
@@ -622,7 +632,7 @@
       "count": 1,
       "blocked": 0,
       "staleDropped": 17,
-      "newestAgeHours": 331.9
+      "newestAgeHours": 332.2
     },
     {
       "id": "terram",
@@ -635,7 +645,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.7
+      "newestAgeHours": 2.9
     },
     {
       "id": "timeline",
@@ -648,7 +658,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.6
     },
     {
       "id": "diariouach",
@@ -661,7 +671,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.8
+      "newestAgeHours": 0.1
     },
     {
       "id": "cooperativa",
@@ -672,9 +682,9 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 2,
+      "blocked": 3,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.1
     },
     {
       "id": "elfaro",
@@ -700,7 +710,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 7.3
+      "newestAgeHours": 7.5
     },
     {
       "id": "lasillavacia",
@@ -713,7 +723,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.1
+      "newestAgeHours": 0.2
     },
     {
       "id": "ojopublico",
@@ -726,7 +736,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 1,
-      "newestAgeHours": 110.1
+      "newestAgeHours": 110.3
     },
     {
       "id": "cuestionpublica",
@@ -739,7 +749,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 13.7
+      "newestAgeHours": 14.0
     },
     {
       "id": "chequeado",
@@ -752,7 +762,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 165.5
+      "newestAgeHours": 165.7
     },
     {
       "id": "piedepagina",
@@ -765,7 +775,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 119.6
+      "newestAgeHours": 119.8
     },
     {
       "id": "cenital",
@@ -778,7 +788,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.1
+      "newestAgeHours": 1.3
     },
     {
       "id": "brecha",
@@ -791,7 +801,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.8
+      "newestAgeHours": 6.0
     },
     {
       "id": "jacobinlat",
@@ -804,7 +814,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.3
+      "newestAgeHours": 4.5
     },
     {
       "id": "ciclismo-chile",
@@ -817,7 +827,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 21.0
+      "newestAgeHours": 21.3
     },
     {
       "id": "ciclo21",
@@ -830,7 +840,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.5
+      "newestAgeHours": 3.7
     },
     {
       "id": "brujulabike",
@@ -843,7 +853,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.1
+      "newestAgeHours": 4.3
     },
     {
       "id": "esciclismo",
@@ -856,7 +866,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": -0.2
+      "newestAgeHours": 0.1
     },
     {
       "id": "propublica",
@@ -869,7 +879,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.3
+      "newestAgeHours": 6.5
     },
     {
       "id": "bellingcat",
@@ -882,7 +892,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 31.5
+      "newestAgeHours": 31.8
     },
     {
       "id": "theintercept",
@@ -895,7 +905,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 0.4
     },
     {
       "id": "eldiarioes",
@@ -908,7 +918,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.4
+      "newestAgeHours": 1.6
     },
     {
       "id": "elsalto",
@@ -921,7 +931,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 12.2
+      "newestAgeHours": 12.4
     },
     {
       "id": "sinpermiso",
@@ -947,7 +957,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 0.4
     },
     {
       "id": "dw",
@@ -958,7 +968,7 @@
       "independent": false,
       "status": "ok",
       "count": 3,
-      "blocked": 0,
+      "blocked": 1,
       "staleDropped": 0,
       "newestAgeHours": 0.2
     },
@@ -973,7 +983,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.3
+      "newestAgeHours": 10.5
     }
   ],
   "articles": [
@@ -996,6 +1006,86 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 82,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "diariouach-5582fb6d28",
+      "title": "Estudiantes de la Universidad Virginia Tech realizan jornada de Turismo Regenerativo con limpieza en las playas del Lago Elizalde de la Región de Aysén",
+      "summary": "Bajo la premisa de cuidar y poner en valor el entorno geográfico que los…",
+      "content": "<p>Bajo la premisa de cuidar y poner en valor el entorno geográfico que los acoge durante su estadía en la Región de Aysén, la delegación de estudiantes de la Universidad Virginia Tech participó en una actividad de cuidado del medio ambiente en el sector de Lago Elizalde. El grupo de jóvenes norteamericanos, que desarrolla actualmente un intercambio académico en el Campus Patagonia, se trasladó hasta este lago de gran afluencia de visitantes en temporada estival, con el propósito de ejecutar una jornada de Turismo Regenerativo.</p><p>Conscientes del impacto del ser humano en los ecosistemas frágiles de la Patagonia y con el deseo de contribuir a la preservación del paisaje local, los alumnos internacionales se desplegaron por las arenas del sector provistos de guantes y bolsas de recolección. Durante varias horas, la comitiva concentró sus esfuerzos en una la limpieza de la playa del lago, logrando retirar diversos residuos plásticos y desechos abandonados en el perímetro del agua.</p><p>Deporte, comunidad y conciencia ambiental</p><p>Tras finalizar las labores de saneamiento ambiental, que permitieron devolver la pureza al entorno del sector, la jornada dio paso a un momento recreativo y de integración. Los estudiantes universitarios cerraron la jornada voluntaria con un entretenido partido de fútbol playa, instancia que dio espacio a risas, competencia sana y camaradería en plena arena.</p><p>Esta iniciativa de turismo situado y regenerativo forma parte del programa de vinculación e internacionalización que promueve la Universidad en sus sedes y Campus. A través de este tipo de actividades con sentido ecológico, nuestra casa de estudios superiores no solo fomenta el desarrollo de competencias científicas en las aulas y laboratorios, sino que incentiva a las delegaciones extranjeras a transformarse en agentes activos de cambio y resguardo de la biodiversidad de la Región de Aysén.</p>",
+      "url": "https://diario.uach.cl/estudiantes-de-la-universidad-virginia-tech-realizan-jornada-de-turismo-regenerativo-con-limpieza-en-las-playas-del-lago-elizalde-de-la-region-de-aysen/",
+      "image": "https://diario.uach.cl/wp-content/uploads/2026/11/futbol-playa-VT2.jpeg",
+      "publishedAt": "2026-11-06T17:23:25+00:00",
+      "sourceId": "diariouach",
+      "sourceName": "Diario UACh (Valdivia)",
+      "sourceType": "Regional / Ciencia (Sur)",
+      "sourceSite": "https://diario.uach.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 72,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "lasillavacia-5896d1ea1e",
+      "title": "Sancionada Rtvc por emitir contenido sexual durante gerencia de Morris",
+      "summary": "La multa es de unos $76,2 millones de pesos por no avisar correctamente que una película, proyectada en franja familiar, venía con ese contenido. The post Sancionada Rtvc por emitir contenido sexual durante gerencia de Morris appeared first on La Silla Vacía .",
+      "content": "<p>La Sesión de la Comisión de Contenidos Audiovisuales de la Comisión de Regulación de Comunicaciones (CRC) ratificó una sanción a Rtvc por emitir en la franja familiar la película “Aquarius”, del director brasileño Kleber Mendoça Filho, que contiene material sexual.</p><p>La proyección ocurrió el 8 de febrero de 2025 durante la anterior administración del sistema de medios públicos, a cargo del exconcejal Hollman Morris.</p><p>La multa equivale a 53,5 salarios mínimos de 2025. Unos $76.157.250. Concretamente, se debe a que el aviso previo a la proyección de la película aseguraba que no contenía material con connotación sexual explícita. Emitir esas imágenes es incompatible con los límites de programación para la audiencia infantil y juvenil, señaló la CRC.</p><p>“Las audiencias tienen derecho a recibir información clara sobre los contenidos que se transmiten y a que se respeten los horarios de protección”, continuó la entidad. La CRC afirmó que la decisión “no cuestiona el valor artístico o cultural de la película ni tiene que ver con una censura, sino con las condiciones en las que fue transmitida y a la información entregada previamente a los televidentes”.</p><p>La nueva administración de Rtvc le cae a la anterior. Llamó a la multa “una irresponsabilidad que desconoció la protección de las audiencias” y sostuvo que la dirección que la precedió “desconoció las salvaguardas legales” que buscan que los niños, niñas y adolescentes queden expuestos a “contenidos inadecuados y que permiten a padres y cuidadores tomar decisiones informadas”.</p><p>“Reels, fotos, más influencers”: el nuevo Rtvc. El presidente Abelardo de la Espriella presentó la semana pasada la nueva gerencia del sistema y denunció un posible sobrecosto de operaciones por más de 19 mil millones de pesos. En paralelo, Carlos Suárez, presidente de la Junta de Ecopetrol, explicó a medios e influenciadores aliados su concepto de lo que será el nuevo sistema de medios públicos.</p><p>Con el medio digital Meridiano Regional, Suárez habló de la inclusión de nuevas voces en el sistema de medios públicos. “Hoy nos vamos a comunicar a través de las pantallas de los celulares. Hoy es la comunicación digital, reels, fotos, más influencers porque ustedes son la nueva comunicación”.</p><p>También dijo que la batalla cultural se debe emprender desde los medios como dejar la vergüenza y hablar de Dios, valores, empresa, generación de riqueza y buscar un mundo mejor para nuestros hijos. “Ahora a través de las pantallas de Rtvc tenemos la libertad de hacerlo”, señaló.</p><p>The post Sancionada Rtvc por emitir contenido sexual durante gerencia de Morris appeared first on La Silla Vacía.</p>",
+      "url": "https://www.lasillavacia.com/en-vivo/sancionada-rtvc-por-emitir-contenido-sexual-durante-gerencia-de-morris/",
+      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Rtvc_Nuevo-1.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
+      "publishedAt": "2026-11-06T17:21:49+00:00",
+      "sourceId": "lasillavacia",
+      "sourceName": "La Silla Vacía",
+      "sourceType": "Poder y Política",
+      "sourceSite": "https://www.lasillavacia.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Cultura y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 87,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "diariouach-08bdf84cab",
+      "title": "Académica de Enfermería UACh participó en encuentro panamericano de investigación en Brasil",
+      "summary": "La Dra. Jenifer Villa, académica de la Escuela de Enfermería de la Universidad Austral…",
+      "content": "",
+      "url": "https://diario.uach.cl/academica-de-enfermeria-uach-participo-en-encuentro-panamericano-de-investigacion-en-brasil/",
+      "image": "https://diario.uach.cl/wp-content/uploads/2026/11/JVILLA-1.jpeg",
+      "publishedAt": "2026-11-06T17:21:38+00:00",
+      "sourceId": "diariouach",
+      "sourceName": "Diario UACh (Valdivia)",
+      "sourceType": "Regional / Ciencia (Sur)",
+      "sourceSite": "https://diario.uach.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 77,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "radiouchile-f6f5e488be",
+      "title": "Muere Sebastián Lelio, el cineasta que le dio a Chile su primer Óscar por mejor película internacional",
+      "summary": "El director de cine chileno de 52 años estuvo detrás de \"Gloria\" y \"Una mujer fantástica\". Al momento de su muerte, se encontraba en pleno rodaje de “Poeta chileno”, basada en la novela homónima de Alejandro Zambra. La entrada Muere Sebastián Lelio, el cineasta que le dio a Chile su primer Óscar por mejor película internacional se...",
+      "content": "<p>El cineasta chileno Sebastián Lelio falleció este viernes a los 52 años en su domicilio en Las Condes, según confirmaron fuentes cercanas a CNN Chile. Nacido el 8 de marzo de 1974 en Mendoza, Argentina, y criado en Chile, Lelio se consolidó como uno de los realizadores nacionales de mayor proyección internacional del país.</p><p>Inició su carrera cinematográfica con “La sagrada familia” (2006) y continuó con “Navidad” (2009), El año del tigre (2011) y Gloria (2013), filme protagonizado por Paulina García que obtuvo importantes reconocimientos internacionales, entre ellos el Oso de Plata a la mejor actriz en el Festival de Berlín.</p><p>La consagración de Lelio llegó con “Una mujer fantástica” (2017), protagonizada por Daniela Vega, cinta que aborda la discriminación y la lucha por la dignidad de una mujer trans y que en 2018 se convirtió en el primer largometraje chileno en obtener el Óscar a la mejor película internacional.</p><p>Su filmografía también incluye las producciones internacionales “Disobedience” (2017), con Rachel Weisz y Rachel McAdams; “Gloria Bell” (2018), protagonizada por Julianne Moore; y “El prodigio” (2022), con Florence Pugh. En 2025 estrenó “La ola”, un musical inspirado en las movilizaciones feministas que tuvieron lugar en las universidades chilenas durante 2018.</p><p>Al momento de su muerte, el director se encontraba en pleno rodaje de la película “Poeta chileno”, basada en la novela homónima del escritor Alejandro Zambra.</p><p>La entrada Muere Sebastián Lelio, el cineasta que le dio a Chile su primer Óscar por mejor película internacional se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/06/muere-sebastian-lelio-el-cineasta-que-le-dio-a-chile-su-primer-oscar-por-mejor-pelicula-internacional/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/06141110/sebastian-lelio.jpg",
+      "publishedAt": "2026-11-06T17:16:44+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Cultura y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 88,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "lasillavacia-d821d24306",
@@ -1160,8 +1250,8 @@
     {
       "id": "cooperativa-8574c7bcc8",
       "title": "Muere el cineasta y ganador del Oscar Sebastián Lelio a los 52 años",
-      "summary": "Este viernes el cineasta chileno Sebastián Lelio falleció a los 52 años en su residencia de la ciudad de Santiago. En 2018 Lelio se convirtió en el primer cineasta chileno en ganar un Oscar por un largometraje gracias al triunfo de su película \"Una mujer fantástica\" en 2018. Actualmente el director se encontraba trabajando en una...",
-      "content": "<p>Este viernes el cineasta chileno Sebastián Lelio falleció a los 52 años en su residencia de la ciudad de Santiago.</p><p>En 2018 Lelio se convirtió en el primer cineasta chileno en ganar un Oscar por un largometraje gracias al triunfo de su película &quot;Una mujer fantástica&quot; en 2018.</p><p>Actualmente el director se encontraba trabajando en una adaptación cinematográfica de la novela &quot;Poeta chileno&quot; de Alejandro Zambra.</p>",
+      "summary": "Este viernes el cineasta chileno Sebastián Lelio falleció a los 52 años en su residencia de la ciudad de Santiago. En 2018 Lelio se convirtió en el primer cineasta chileno en ganar un Oscar por un largometraje gracias al triunfo de su película \"Una mujer fantástica\" en 2018. La cinta también consiguió galardones en Berlín, San...",
+      "content": "<p>Este viernes el cineasta chileno Sebastián Lelio falleció a los 52 años en su residencia de la ciudad de Santiago.</p><p>En 2018 Lelio se convirtió en el primer cineasta chileno en ganar un Oscar por un largometraje gracias al triunfo de su película &quot;Una mujer fantástica&quot; en 2018. La cinta también consiguió galardones en Berlín, San Sebastián, los Goya y los Independent Spirit, entre otros.</p><p>Debutó en la pantalla grande como codirector en la película &quot;Fragmentos urbanos&quot; de 2002, pero su primer trabajo en solitario fue &quot;La Sagrada Familia&quot; de 2006.</p><p>Su primer gran triunfo internacional llegó con &quot;Gloria&quot; (2013), cinta con la que conquistó el Festival de Cine de Berlín y que le otorgó a su protagonista, Paulina García, el Oso de Plata a Mejor Actriz. La historia fue readaptada al inglés con un elenco conformado por Julianne Moore y bajo la dirección del propio Lelio.</p><p>Actualmente el director se encontraba trabajando en una adaptación cinematográfica de la novela &quot;Poeta chileno&quot; de Alejandro Zambra.</p>",
       "url": "https://www.cooperativa.cl/noticias/magazine/cine/muere-el-cineasta-y-ganador-del-oscar-sebastian-lelio-a-los-52-anos/2026-11-06/135706.html",
       "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106135706.jpg",
       "publishedAt": "2026-11-06T16:57:06+00:00",
@@ -1598,6 +1688,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "interferencia-15d16f57dc",
+      "title": "Condenado a expulsión por tráfico que recibió rebaja de condena de Rabat fue detenido otra vez por tráfico",
+      "summary": "Seis meses después de recibir su rebaja de condena firmada, sin oposición, por el ministro de Justicia, Fernando Rabat, el venezolano Edixon Escobar García volvió a ser detenido por tráfico de drogas. El 30 de octubre, el Juzgado de Garantía de Arica decretó su prisión preventiva junto a un ciudadano colombiano. Tal como informó...",
+      "content": "<p>Seis meses después de recibir su rebaja de condena firmada, sin oposición, por el ministro de Justicia, Fernando Rabat, el venezolano Edixon Escobar García volvió a ser detenido por tráfico de drogas. El 30 de octubre, el Juzgado de Garantía de Arica decretó su prisión preventiva junto a un ciudadano colombiano.</p><p>Tal como informó Interferencia anteriormente, Escobar García cumplía en la cárcel de Acha, Región de Arica y Parinacota, una condena de cinco años por tráfico ilícito de drogas. Había sido detenido el 2 de agosto de 2020 junto a otros cuatro sujetos que ingresaban por la frontera con Perú a través de un paso no habilitado con 25,5 kilos de cannabis y dos kilos de clorhidrato de cocaína.</p><p>Si bien el Tribunal Oral en lo Penal de Arica lo condenó a cinco años de presidio, inicialmente sustituyó la pena por la expulsión del país, con prohibición de regresar por 10 años. Si volvía antes, debía cumplir la pena en la cárcel.</p><p>En septiembre de 2021 la Intendencia de Arica solicitó ampliar el plazo, porque la Policía de Investigaciones (PDI) no había podido ejecutar la expulsión, acusando que en esa época no existían vuelos entre Chile y Venezuela, debido a la pandemia. El tribunal amplió el plazo en 60 días, con los condenados bajo custodia de Gendarmería.</p><p>Sin embargo, la carpeta judicial revisada por este medio no consigna si la expulsión se materializó ni cómo terminó la custodia que, según el cómputo de Gendarmería, se extendió hasta comienzos de noviembre de 2021.</p><p>Lo que sí consta es que en 2023 Escobar García caminaba nuevamente libre en Chile.</p><p>Revisa la cobertura de Interferencia• Hasta con una tonelada de droga: los decretos de Rabat que rebajaron condenas a narcos detenidos en la frontera• Rabat suma el narcotráfico a sus frentes abiertos: 115 rebajas a extranjeros condenados por drogas y un Presidente que insiste en sostenerlo• No los expulsaron: los decretos de Rabat que dejaron en libertad a banda de extorsionadores que decían ser del Tren de Aragua</p><p>En enero de 2023, Edixon Escobar García fue detenido y formalizado por el homicidio de Eduard Serrano Pérez, ocurrido el 7 de octubre de 2022 en la calle Carlos Pezoa Véliz, en Arica, y por ocultación de identidad.</p><p>Ese mismo día, el tribunal revocó la pena sustitutiva de expulsión y ordenó su ingreso a la cárcel para cumplir los cinco años.</p><p>Debido a falta de pruebas, en mayo de 2025 el tribunal sobreseyó a Escobar a petición de la Fiscalía. El Ministerio Público argumentó que no contaba con “prueba directa ni científica”. Sus dos testigos clave no estaban disponibles: uno era una mujer “no habida” y el otro un prófugo vinculado al Tren del Coro.</p><p>En la cárcel, Escobar García estuvo lejos de cumplir con los requisitos mínimos de buena conducta.</p><p>En abril de 2025, se le negó la libertad condicional, pues la Comisión consideró factores de riesgo de reincidencia por los que “el postulante no podrá, en este proceso, reinsertarse adecuadamente en la sociedad”. En julio del mismo año, Gendarmería sancionó a Escobar con privación de visitas, junto a otros siete internos, por “alboroto, destrozos y diversos desórdenes colectivos”. El juzgado autorizó la sanción por “haber infringido gravemente y en forma reiterada el Reglamento de Establecimientos Penitenciarios”.</p><p>A pesar de estos antecedentes, el 23 de abril de este año, el ministro Fernando Rabat firmó el decreto que le rebajó seis meses de condena. Como todos los decretos revisados por este medio, sostiene que “este Ministerio no está habilitado para denegar el beneficio de reducción de condena fundado en la gravedad del delito y el bien jurídico protegido” y que “la jurisprudencia (...) ha resuelto que esta Cartera de Estado está obligada a dictar el decreto correspondiente, si de acuerdo a los términos de la Ley son satisfechos los requisitos ahí establecidos”.</p><p>El decreto firmado por Rabat figura con distribución hacia Gendarmería, la Seremi de Justicia y el Registro Civil, pero no ofició a la PDI ni al Servicio Nacional de Migraciones (SERMIG), los organismos encargados de las expulsiones.</p><p>Según los decretos revisados por Interferencia, el Ministerio de Justicia recién comenzó a incluir a la PDI y a SERMIG en la distribución de las rebajas a extranjeros a partir de junio.</p><p>Tras la publicación que dio a conocer las rebajas a narcos detenidos en la frontera, el diputado Jorge Díaz Ibarra (DC) del Distrito N° 1 de la Región de Arica y Parinacota realizó una publicación en su cuenta de X donde se refería al caso del que trata este artículo y emplazaba al ministro Rabat. Consultado por este medio, Díaz expresó que “conocemos nuevos antecedentes que agravan aún más la situación del ministro de Justicia, Rabat, y también del seremi de Justicia de Arica y Parinacota, Matías Andrade. Esto porque no solamente las rebajas de condena han beneficiado a violadores, pederastas y pedófilos, sino que también han beneficiado a personas que han sido condenadas por la Ley 20.000, que han sido condenadas por narcotráfico, que están vinculadas a bandas de crimen organizado internacionales”.</p><p>“Se conoció que en Arica y Parinacota también se rebajó la condena y se dejó en libertad a un extranjero que ingresó por pasos irregulares al país y que además fue condenado por los delitos de narcotráfico. Esta situación se agrava muchísimo más, porque la promesa del Presidente de la República era que esto se iba a acabar con un plan implacable y que además los delincuentes iban a estar en la cárcel. Pero esta decisión que ha tomado el ministro ha hecho absolutamente lo contrario. Le ha abierto las puertas de la cárcel a los delincuentes que han cometido este tipo de delitos, que para la región son bastante graves, como el narcotráfico”, apuntó.</p><p>Junto a ello, dijo que “es más, este delincuente, al que se le rebajó la condena y que además tuvo la posibilidad de que la condena se le permutara por expulsión, no fue expulsado del país y reincidió. Es uno de los casos de personas que el ministro Rabat y el seremi de Justicia, Matías Andrade, dejaron en libertad y que hoy son reincidentes: volvieron a cometer este tipo de delitos y hoy día están en la cárcel nuevamente”.</p><p>“Aquí quien falló fue el ministro, fue el Ministerio de Justicia, porque las policías hicieron su trabajo, el Ministerio Público y la Fiscalía lo mismo, los tribunales también, y ellos lo dejaron en libertad antes de tiempo. Esto es inaceptable en una región como Arica y Parinacota, que es una región extrema, una región frontera. Se están construyendo zanjas por parte del Gobierno, pero esto no ha tenido hoy día ningún tipo de repercusión. Y por eso es urgente que el ministro dé un paso al costado, el seremi de Justicia de Arica también; si no, tendrá que contestar todas estas situaciones en la acusación constitucional”.</p><p>Por su parte, en una declaración enviada a este medio, el diputado Luis Malla (PL), del mismo distrito, expresó “¡Mientras Kast montaba el show de la zanja en Arica, por detrás firmaban decretos que beneficiaban a narcos! ¡Qué falta de respeto a nuestra región, una región fronteriza, donde las familias viven aterrorizadas por el narcotráfico! Parece que este Gobierno vive en Narnia. ¿Con qué cara le vienen a hablar de seguridad a Arica si después benefician a los mismos narcos que envenenan nuestros barrios y a nuestros jóvenes? ¡La zanja era para las cámaras y para vender humo pero los beneficios para los narcos eran la prioridad de este gobierno! ¡Dejen de burlarse de los ariqueños y de los chilenos!”.</p><p>Revisa la cobertura de Interferencia• Rabat suma el narcotráfico a sus frentes abiertos: 115 rebajas a extranjeros condenados por drogas y un Presidente que insiste en sostenerlo 6 nov• Hasta con una tonelada de droga: los decretos de Rabat que rebajaron condenas a narcos detenidos en la frontera 5 nov• El condenado de Punta Arenas que salió libre con una rebaja de pena y llevó la polémica de los decretos a Magallanes 4 nov• Valparaíso: la región donde se votaría la AC contra Rabat es la que suma más rebajas de condena 3 nov• No los expulsaron: los decretos de Rabat que dejaron en libertad a banda de extorsionadores que decían ser del Tren de Aragua• Rabat aprobó rebajas de condena que sus oficinas regionales habían objetado• Los decretos que desmienten la &quot;doctrina Rabat&quot;: negó rebajas de condena a violadores de niños hasta mayo 26 oct• De la pelea pública entre la derecha al silencio de Kast: los coletazos tras los decretos que todavía mantienen a Rabat y Silva en sus cargos 25 oct• Con las firmas de Rabat y Silva: los decretos que dejaron en libertad a un violador de un niño de 10 años y a un abusador de una menor de 16 con discapacidad intelectual 23 oct• Corte Suprema y UDI quitan piso a gobierno de Kast por rebajas de condenas a pederastas y violadores de DDHH 23 oct• Rabat culpa a la Suprema por 56 decretos que rebajaron condena a pederastas 22 oct• Ministerio de Justicia y DDHH otorgó 56 rebajas de condena a delincuentes sentenciados por abuso sexual y violación de menores 21 octVer todo el caso →</p>",
+      "url": "https://interferencia.cl/%3Ca%20href%3D%22/articulos/condenado-expulsion-por-trafico-que-recibio-rebaja-de-condena-de-rabat-fue-detenido-otra%22%3ECondenado%20a%20expulsi%C3%B3n%20por%20tr%C3%A1fico%20que%20recibi%C3%B3%20rebaja%20de%20condena%20de%20Rabat%20fue%20detenido%20otra%20vez%20por%20tr%C3%A1fico%3C/a%3E",
+      "image": "https://interferencia.cl/sites/default/files/styles/article/public/portada-rabat-7.jpg.jpeg?itok=KMGU_azl&amp;c=f4c394e36e114165375e5b2bf4df96aa",
+      "publishedAt": "2026-11-06T15:34:40+00:00",
+      "sourceId": "interferencia",
+      "sourceName": "Interferencia",
+      "sourceType": "Investigación y Poder",
+      "sourceSite": "https://interferencia.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "alta",
+      "relevanceScore": 92,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "elciudadano-ee8ef53477",
       "title": "(VIDEO) ¿Es sostenible la permanencia del ministro de Justicia?",
       "summary": "El Ciudadano La entrada (VIDEO) ¿Es sostenible la permanencia del ministro de Justicia? se publicó primero en El Ciudadano .",
@@ -1721,7 +1831,7 @@
       "id": "lasillavacia-579f4b5017",
       "title": "Congresistas de Cambio Radical cuestionan liderazgo de Enrique Vargas",
       "summary": "En una carta pidieron revisar la estructura de la dirección del partido. Congresistas consultados por RCN dicen estar molestos por el liderazgo de Vargas. The post Congresistas de Cambio Radical cuestionan liderazgo de Enrique Vargas appeared first on La Silla Vacía .",
-      "content": "<p>Congresistas de Cambio Radical enviaron una carta a la secretaría de su partido para solicitar la convocatoria a una reunión de bancada para hacer una “deliberación y definición del rumbo institucional y político” de la colectividad.</p><p>La misiva, que reveló el Termómetro Político de Noticias RCN, la dirigen a Enrique Vargas Lleras y a Fuad Char Abdala, quienes quedaron como codirectores de Cambio Radical tras la muerte de Germán Vargas Lleras (qepd).</p><p>Los firmantes, entre charistas y vargaslleristas. Entre ellos están Carlos Cuenca, del ala vargasllerista del partido, y Welfran Mendoza o Estefanel Gutiérrez, del ala de la casa Char. También la firman José Luis Abdala, Nataly Vélez, Julio César Triana, Eimi Suárez, Jhon Edgar Pérez, Leonardo Ramírez, Hernando González, Samir Radi y Jorge Méndez.</p><p>“La unidad de un partido no se construye aplazando las conversaciones difíciles, sino propiciándolas con respeto, reglas claras y voluntad de construir consenso”, escriben en la carta.</p><p>Piden reunirse para revisar la dirección, donde hay inconformidad sobre Vargas. “Su modelo de liderazgo y la metodología democrática para definirlo, de manera que respondan a las necesidades actuales de la colectividad y a los retos políticos que afrontamos”, dice la carta.</p><p>Según fuentes del partido consultadas por Noticias RCN, hay molestia con la dirección de Enrique Vargas, hermano de Germán, por sus decisiones y omisiones. Varios congresistas creen que Clemencia Vargas, hija del exvicepresidente Germán Vargas, debería tener más espacio en Cambio, y que se ha aplazado la decisión de su entrada al comité central del partido.</p><p>La tensión llega en la antesala a las regionales de 2027. Los congresistas quieren convocar una convención del partido próximamente para escoger candidatos para las elecciones del próximo año, donde se deciden los puestos para las Alcaldías, Gobernaciones, Asambleas, Concejos.</p><p>Dentro del sonajero ya están, dicen, el exministro Luis Felipe Henao y los exsenadores Germán Varón Cotrino y Juan Carlos Restrepo.</p><p>Sepa más. Sobre la carrera política en las elecciones regionales de 2027, les recomiendo este episodio de La Siguiente Movida:</p><p>The post Congresistas de Cambio Radical cuestionan liderazgo de Enrique Vargas appeared first on La Silla Vacía.</p>",
+      "content": "<p>Congresistas de Cambio Radical enviaron una carta a la secretaría de su partido para solicitar la convocatoria a una reunión de bancada para hacer una “deliberación y definición del rumbo institucional y político” de la colectividad.</p><p>La misiva, que reveló el Termómetro Político de Noticias RCN, la dirigen a Enrique Vargas Lleras y a Fuad Char Abdala, quienes quedaron como codirectores de Cambio Radical tras la muerte de Germán Vargas Lleras (qepd).</p><p>Los firmantes, entre charistas y vargaslleristas. Entre ellos están Carlos Cuenca, del ala vargasllerista del partido, y Welfran Mendoza o Estefanel Gutiérrez, del ala de la casa Char. También la firman José Luis Abdala, Nataly Vélez, Julio César Triana, Eimy Suárez, Jhon Edgar Pérez, Leonardo Ramírez, Hernando González, Samir Radi y Jorge Méndez.</p><p>“La unidad de un partido no se construye aplazando las conversaciones difíciles, sino propiciándolas con respeto, reglas claras y voluntad de construir consenso”, escriben en la carta.</p><p>Piden reunirse para revisar la dirección, donde hay inconformidad sobre Vargas. “Su modelo de liderazgo y la metodología democrática para definirlo, de manera que respondan a las necesidades actuales de la colectividad y a los retos políticos que afrontamos”, dice la carta.</p><p>Según fuentes del partido consultadas por Noticias RCN, hay molestia con la dirección de Enrique Vargas, hermano de Germán, por sus decisiones y omisiones. Varios congresistas creen que Clemencia Vargas, hija del exvicepresidente Germán Vargas, debería tener más espacio en Cambio, y que se ha aplazado la decisión de su entrada al comité central del partido.</p><p>La tensión llega en la antesala a las regionales de 2027. Los congresistas quieren convocar una convención del partido próximamente para escoger candidatos para las elecciones del próximo año, donde se deciden los puestos para las Alcaldías, Gobernaciones, Asambleas, Concejos.</p><p>Dentro del sonajero ya están, dicen, el exministro Luis Felipe Henao y los exsenadores Germán Varón Cotrino y Juan Carlos Restrepo.</p><p>Sepa más. Sobre la carrera política en las elecciones regionales de 2027, les recomiendo este episodio de La Siguiente Movida:</p><p>The post Congresistas de Cambio Radical cuestionan liderazgo de Enrique Vargas appeared first on La Silla Vacía.</p>",
       "url": "https://www.lasillavacia.com/en-vivo/congresistas-de-cambio-radical-cuestionan-liderazgo-de-enrique-vargas/",
       "image": "https://www.lasillavacia.com/wp-content/uploads/2026/11/6bysdbmi5hc.jpg",
       "publishedAt": "2026-11-06T14:56:30+00:00",
@@ -2178,24 +2288,24 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "lasillavacia-afbfe70d09",
-      "title": "Pizarro dice que conoció a Deicy Jiménez. No aclaró si estuvo en su UTL",
-      "summary": "La exsenadora dice que la conoció “como una contratista de la Vicepresidencia del Senado” y que jamás supo de “relación íntima con el presidente”. The post Pizarro dice que conoció a Deicy Jiménez. No aclaró si estuvo en su UTL appeared first on La Silla Vacía .",
-      "content": "<p>La exsenadora María José Pizarro rompió su silencio sobre Deicy Jiménez, quien acusó al expresidente Gustavo Petro de pagarle servicios sexuales con contratos, algunos en la Unidad de Trabajo Legislativo (UTL) de la entonces congresista, según afirmó.</p><p>Pizarro dijo que la conoció durante el tiempo que fue vicepresidenta del Senado, entre 2023 y 2024, pero no aclaró si fue contratada como parte de su equipo. Según dijo, fue “como una contratista de la Vicepresidencia” que cumplió con sus labores, y que jamás supo “de relación íntima con el presidente”.</p><p>También empezó a poner una distancia con Petro: que su relación con él es política y que “jamás he tenido conocimiento de su vida privada”.</p><p>Los contratos de Jiménez. Los registros públicos muestran que tuvo contratos desde 2023, cuatro años después de la fecha en que dice haber conocido a Petro. Semana, donde Jiménez hizo su primera denuncia contra el expresidente, publicó un pantallazo con contratos con el Congreso que datan de 2021 y 2022. Jiménez dijo que le pagaron con una posición en la UTL de Pizarro.</p><p>En ese sentido, la Sala de Instrucción de la Corte Suprema de Justicia ordenó una inspección en la Secretaría del Senado para recabar información sobre los contratos que obtuvo Jiménez en el Congreso.</p><p>Estos son los contratos que aparecen en Función Pública y que verificó La Silla Vacía:</p><p>Hay nuevas pruebas: un supuesto chat entre Petro y Angie Rodríguez. Medios como Noticias Caracol y Semana revelaron lo que sería un chat de Signal —un servicio de mensajería instantánea privado— entre el entonces presidente Petro y la que fue su directora de Presidencia, Angie Rodríguez. Allí, el entonces mandatario habría pedido que mantuvieran el contrato de Jiménez en el Ministerio del Interior.</p><p>Petro habría enviado dos mensajes: uno con la que sería la hoja de vida de Deicy Jiménez y otro que dice: “Esta persona necesita que laantegnan allí en el contrato mi interior (sic)”.</p><p>Jiménez ya se presentó ante la Fiscalía. La diligencia tomó 15 horas y 45 minutos, según dijo en una de sus historias de Instagram. Jiménez pidió que no se desviara el tema hacia la vida privada de Petro, sino que se trataba “de una red de la que decidí no hacer parte y de una verdad que merece ser denunciada”.</p><p>El Pacto Histórico guarda silencio. Hasta ahora, no ha habido un pronunciamiento público por parte del partido político del expresidente, que tras las primeras denuncias de Jiménez cerró filas con él. En redes sociales se ha defendido su intimidad y Petro señala un posible complot para desviar la atención en su vida privada y no en temas del gobierno. Mientras, feministas piden abrir la discusión hacia Petro y no confundir responsabilizarse con guardar silencio.</p><p>Sepa más. Sobre el tema, les recomiendo leer:</p><p>The post Pizarro dice que conoció a Deicy Jiménez. No aclaró si estuvo en su UTL appeared first on La Silla Vacía.</p>",
-      "url": "https://www.lasillavacia.com/en-vivo/pizarro-dice-que-conocio-a-deicy-jimenez-no-aclaro-si-estuvo-en-su-utl/",
-      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Chat_diciembre_Deicy.jpeg?resize=150%2C150&quality=80&strip=all&ssl=1",
-      "publishedAt": "2026-11-06T13:00:27+00:00",
-      "sourceId": "lasillavacia",
-      "sourceName": "La Silla Vacía",
-      "sourceType": "Poder y Política",
-      "sourceSite": "https://www.lasillavacia.com",
+      "id": "jacobinlat-f8769a43b0",
+      "title": "La biblioteca argentina del marxismo",
+      "summary": "Antes de 1976, el lector argentino tenía a mano más ediciones marxistas que en cualquier otro lugar de América Latina. Horacio Tarcus reconstruye ese proceso y la forma en que la dictadura de 1976 intentó destruirlo. La entrada La biblioteca argentina del marxismo se publicó primero en Jacobin Revista .",
+      "content": "<p>Antes de 1976, el lector argentino tenía a mano más ediciones marxistas que en cualquier otro lugar de América Latina. Horacio Tarcus reconstruye ese proceso y la forma en que la dictadura de 1976 intentó destruirlo.</p><p>La entrada La biblioteca argentina del marxismo se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/la-biblioteca-argentina-del-marxismo/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/lomos.jpg",
+      "publishedAt": "2026-11-06T12:59:22+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
       "region": "latam",
-      "country": "Colombia",
+      "country": "Latinoamérica",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 97,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "brujulabike-424d81fe0a",
@@ -2216,26 +2326,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 94,
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
-      "id": "jacobinlat-f8769a43b0",
-      "title": "La biblioteca argentina del marxismo",
-      "summary": "Antes de 1976, el lector argentino tenía a mano más ediciones marxistas que en cualquier otro lugar de América Latina. Horacio Tarcus reconstruye ese proceso y la forma en que la dictadura de 1976 intentó destruirlo. La entrada La biblioteca argentina del marxismo se publicó primero en Jacobin Revista .",
-      "content": "<p>Antes de 1976, el lector argentino tenía a mano más ediciones marxistas que en cualquier otro lugar de América Latina. Horacio Tarcus reconstruye ese proceso y la forma en que la dictadura de 1976 intentó destruirlo.</p><p>La entrada La biblioteca argentina del marxismo se publicó primero en Jacobin Revista.</p>",
-      "url": "https://jacobinlat.com/2026/11/la-biblioteca-argentina-del-marxismo/",
-      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/lomos.jpg",
-      "publishedAt": "2026-11-06T12:59:22+00:00",
-      "sourceId": "jacobinlat",
-      "sourceName": "Jacobin América Latina",
-      "sourceType": "Análisis Latinoamericano",
-      "sourceSite": "https://jacobinlat.com",
-      "region": "latam",
-      "country": "Latinoamérica",
-      "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "timeline-163187c3a4",
@@ -2398,24 +2488,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-e58b751d6b",
-      "title": "Tensión en Paraguay en horas previas a votación para destituir a presidente Peña",
-      "summary": "Mientras tanto, en las inmediaciones del edificio legislativo en Asunción, miles de manifestantes y ahorristas afectados por la quiebra de liquidez de Ueno Bank mantuvieron una vigilia a la espera del desenlace del juicio parlamentario. La entrada Tensión en Paraguay en horas previas a votación para destituir a presidente Peña se...",
-      "content": "<p>El presidente de Paraguay, Santiago Peña, anunció que comparecerá hoy ante el Senado para ejercer formalmente su derecho a la defensa en el juicio político abierto en su contra por el escándalo financiero de Ueno Bank.</p><p>Mientras tanto, en las inmediaciones del edificio legislativo en Asunción, miles de manifestantes y ahorristas afectados por la quiebra de liquidez de Ueno Bank mantuvieron una vigilia a la espera del desenlace del juicio parlamentario.</p><p>Cerca de tres millones de ahorrantes -la mitad de la población del país- no pueden retirar sus dineros, muchos de ellos destinados a sus jubilaciones, después de que el martes el Banco Central de Paraguay intervino el Ueno Bank por falta de liquidez. El presidente Peña estuvo involucrado con los controladores de Ueno e, incluso, defendió su desempeño antes de la crisis.</p><p>La primera sesión del proceso en el Senado concluyó al final de la tarde del jueves y el mandatario ha quedado citado para reanudar el proceso este viernes a las 10:00 horas (local). Mientras tanto, la vocería del Ejecutivo ha desmentido las informaciones sobre una supuesta huida del país.</p><p>“Ante la continuidad del juicio político, me presentaré y ejerceré mi derecho a la defensa. Lo haré con argumentos y pruebas, con respeto a la Constitución y a las instituciones de la República”, ha manifestado Peña en redes, asegurando que asumirá el trámite no por “orgullo personal”, sino por la responsabilidad de “rendir cuentas y dar explicaciones frente al pueblo paraguayo”.</p><p>Asimismo, ha garantizado su plena colaboración con la Justicia para esclarecer responsabilidades en el descalabro bancario y ha remarcado que el pago a los ahorristas afectados no puede quedar en el aire.</p><p>En paralelo, el portavoz de la Presidencia, Guillermo Grance, ha ofrecido una rueda de prensa para desmentir los rumores de fuga hacia Argentina tras el estancamiento de su dimisión en el Parlamento.</p><p>“El presidente está en el país, se encuentra en la capital y va a cumplir con su deber constitucional de defenderse en tiempo y forma”, ha aseverado Grance, haciendo un llamamiento a la calma social y garantizando que el Ejecutivo continúa funcionando con normalidad.</p><p>Si Peña termina siendo destituido -para lo cual se requiere el respaldo de 30 de los 45 senadores-, perdería la inmunidad y su condición de senador vitalicio, y la Jefatura del Estado recaería de forma inmediata en el vicepresidente de la República, Pedro Alliana, quien asumiría el cargo tras jurar ante el Parlamento en virtud del orden de prelación constitucional.</p><p>La entrada Tensión en Paraguay en horas previas a votación para destituir a presidente Peña se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/06/tension-en-paraguay-en-horas-previas-a-votacion-para-destituir-a-presidente-pena/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/06084453/santiago-pena.jpg",
-      "publishedAt": "2026-11-06T11:47:22+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
+      "id": "brecha-c0d8bbd186",
+      "title": "Una lotería",
+      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzYkJSZ2JLcVRIc0gtdTI0SnBuclBCWVh5WjFXdmJaRU5ZNEpwUFlNVkV4dmF3NjZ0WTlpZVZqVXRvS25rS1p2V2pR?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-06T11:30:39+00:00",
+      "sourceId": "brecha",
+      "sourceName": "Semanario Brecha",
+      "sourceType": "Periodismo Indep. LatAm",
+      "sourceSite": "https://brecha.com.uy",
+      "region": "latam",
+      "country": "Uruguay",
       "independent": true,
       "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 89,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "malaespina-c3583ae0c5",
@@ -2438,24 +2528,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-c0d8bbd186",
-      "title": "Una lotería",
-      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzYkJSZ2JLcVRIc0gtdTI0SnBuclBCWVh5WjFXdmJaRU5ZNEpwUFlNVkV4dmF3NjZ0WTlpZVZqVXRvS25rS1p2V2pR?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-06T11:30:39+00:00",
-      "sourceId": "brecha",
-      "sourceName": "Semanario Brecha",
-      "sourceType": "Periodismo Indep. LatAm",
-      "sourceSite": "https://brecha.com.uy",
+      "id": "cenital-8b5d223388",
+      "title": "Comienza en Uruguay la visita histórica del papa",
+      "summary": "León XIV llegará a aeroparque el domingo y tendrá ese día actividades protocolares con funcionarios de los tres poderes.",
+      "content": "<p>León XIV aterriza el domingo en CABA. Qué pasa con los feriados. Hay Marcha del Orgullo. Emergencia en Entre Ríos. El riesgo país llega a 927 puntos. Renunció el presidente de Paraguay. Tornados en el sur de Brasil.</p><p>El papa llega al Aeroparque Jorge Newbery el domingo a las 16.30 y ahí lo recibirá Javier Milei. Está calculado que a las 17 (¿llegará a horario?) visite el Monumento a San Martín en la plaza que lleva el nombre del libertador.</p><p>Después, León XIV tendrá una ceremonia de bienvenida en Casa Rosada y una reunión privada con el presidente. A las 18.30, legisladores, diplomáticos y autoridades de los tres poderes del Estado tendrán un encuentro con el papa en el Palacio Libertad. Desde ahí, a las 19, habrá cadena nacional.</p><p>Hay cambios en el transporte público y en los aeropuertos por temas de seguridad y también para que el público tenga acceso aunque no sean días hábiles. La última vez que un pontífice estuvo en territorio argentino fue en abril de 1987, cuando Juan Pablo II recorrió diez ciudades en seis días. Esta vez, se espera que se movilicen por el país cerca de siete millones de personas.</p><p>Vendrá desde Uruguay (a donde llega hoy) y luego se irá a Perú, donde fue misionero y obispo. Robert Francis Prevost es el primer papa nacido en Estados Unidos y también es ciudadano peruano. De paso: toda mi gratitud a los que detectaron que le cambié el nombre ayer al papa y le metí el del Rey Sol.</p><p>El lunes 9 de noviembre será feriado nacional para que cualquiera pueda viajar a participar del acto porteño, si quisiera, y para que no haya en las calles demasiado movimiento por fuera de los planes papales.</p><p>El martes 10 es feriado porteño y cordobés. No es día no laborable, no es optativo: es feriado. Se llama «feriado exclusivo» porque es sólo en estas dos jurisdicciones. Eso mismo pasa el miércoles 11 pero sólo en la provincia de Buenos Aires.</p><p>Si tu jefe no te cree, mostrale que las medidas quedaron establecidas mediante el Decreto de Necesidad y Urgencia 1103/2026, publicado en el Boletín Oficial el 28 de septiembre para facilitar operativos de seguridad y organización y que es donde se declara la visita del papa como un hecho de interés nacional.</p><p>Mañana tendrá lugar la 35° Marcha del Orgullo, donde millones de personas de la comunidad LGBTQ+ salen a las calles para reivindicarse, en un marco de apoyo y celebración. Pero este año la movilización estará atravesada por el ataque transfóbico contra trabajadoras sexuales en los Lagos de Palermo el lunes a la madrugada.</p><p>La convocatoria porteña comenzará a las 10 en 9 de Julio y Avenida de Mayo, con uno de los dos escenarios con espectáculos musicales. Hacia los laterales, entre la avenida Belgrano y la calle Sarmiento, estará el Paseo de la Diversidad con artistas, feriantes y emprendedores. Ahí se dará el show de La Joaqui.</p><p>Cerca de las 16, la movilización avanzará hacia el Congreso. A las 18, la fiesta va a terminar con la presentación de María Becerra en el segundo escenario.</p><p>El gobernador de Entre Ríos, Rogelio Frigerio, firmó un decreto declarando el estado de desastre o emergencia agropecuaria en la provincia, retroactivo al 1 de agosto y hasta julio del año que viene. Se estima que las inundaciones por el fenómeno de El Niño afectaron más de la mitad de la capacidad productiva de la zona.</p><p>¿Qué significa? Que a algunos productores se les dará ventajas y facilidades impositivas. Frigerio le pidió a su ministro de Producción, Guillermo Bernaudo, que tramite ante funcionarios nacionales que también se declare la emergencia a nivel país.</p><p>El riesgo país continúa con su tendencia al alza y se dispara a los 927 puntos básicos, el mayor valor en más de un año, en medio de una jornada negativa para los bonos soberanos y las acciones argentinas tras las elecciones legislativas en Estados Unidos.</p><p>El indicador del JP Morgan creció 75 puntos respecto a los 852 en los que finalizó el miércoles. O sea, acumula una suba del 17,8% esta semana. Si miramos el acumulado del año, la suba alcanza el 62,4%.</p><p>Como te detalló Pedro Greco en #AntesDeMañana, el presidente de Paraguay, Santiago Peña, presentó su renuncia en medio de la crisis política y financiera que atraviesa el país por la intervención de Ueno Bank, una de las principales entidades bancarias, que dejó a más de tres millones de clientes (medio país) sin acceso a sus ahorros, incluso jugadores de la selección local. La Cámara Alta debe definir si acepta la renuncia o avanza con el juicio político, en medio de protestas en las calles de Asunción. Ayer, el oficialismo no dio quórum.</p><p>¿Cuál es la diferencia? Al renunciar, mantiene sus fueros. La legisladora paraguaya Johana Ortega le pidió información a la presidencia del Congreso sobre una presunta huida de Peña hacia la Argentina, aunque eso fue desmentido por ambos países. Peña había asumido en el cargo en agosto de 2023.</p><p>“Quiero pedir disculpas al pueblo si en algún momento fallé. Nunca fue mi intención defraudar la confianza que depositaron en mí”, dijo en un video a través de redes sociales. Antes de la dimisión, la Cámara de Diputados ya había aprobado por unanimidad el juicio político en su contra, por eso resta el Senado. Sobre eso también posteó el mandatario.</p><p>¿Por qué Peña tiene vinculación directa con esta crisis financiera? Hay sospechas de que haya habido conflictos de intereses entre el Poder Ejecutivo y empresas vinculadas al mandatario. Legisladores de la oposición sostienen que la administración de Peña impulsó regulaciones que beneficiaron a Ueno Bank, que además era una empresa en la que tenía acciones incluso durante su presidencia.</p><p>Coletazo: hay unos 900 trabajadores de la empresa en Argentina y no saben cuál es hoy su situación laboral.</p><p>Al menos dos personas murieron y miles sufrieron daños por tornados y fuertes temporales en el estado de Santa Catarina, Brasil, con ráfagas de viento de hasta 131 kilómetros por hora.</p><p>Lo informó Defensa Civil, que detalló que un hombre murió electrocutado tras la caída de un cable de alta tensión en el municipio de Xanxerê y un joven de 20 años falleció en Rio Negrinho al desplomarse la estructura de una gasolinera.</p>",
+      "url": "https://cenital.com/comienza-en-uruguay-la-visita-historica-del-papa/",
+      "image": "https://cenital.com/wp-content/uploads/2026/11/AP26296338367590-1200x799.jpg",
+      "publishedAt": "2026-11-06T11:15:00+00:00",
+      "sourceId": "cenital",
+      "sourceName": "Cenital",
+      "sourceType": "Análisis y Geopolítica",
+      "sourceSite": "https://cenital.com",
       "region": "latam",
-      "country": "Uruguay",
+      "country": "Argentina",
       "independent": true,
       "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+      "relevanceTier": "alta",
+      "relevanceScore": 83,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "malaespina-5838fc8834",
@@ -2475,26 +2565,6 @@
       "category": "Geopolítica y Mundo",
       "relevanceTier": "alta",
       "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "cenital-8b5d223388",
-      "title": "Comienza en Uruguay la visita histórica del papa",
-      "summary": "León XIV llegará a aeroparque el domingo y tendrá ese día actividades protocolares con funcionarios de los tres poderes.",
-      "content": "<p>León XIV aterriza el domingo en CABA. Qué pasa con los feriados. Hay Marcha del Orgullo. Emergencia en Entre Ríos. El riesgo país llega a 927 puntos. Renunció el presidente de Paraguay. Tornados en el sur de Brasil.</p><p>El papa llega al Aeroparque Jorge Newbery el domingo a las 16.30 y ahí lo recibirá Javier Milei. Está calculado que a las 17 (¿llegará a horario?) visite el Monumento a San Martín en la plaza que lleva el nombre del libertador.</p><p>Después, León XIV tendrá una ceremonia de bienvenida en Casa Rosada y una reunión privada con el presidente. A las 18.30, legisladores, diplomáticos y autoridades de los tres poderes del Estado tendrán un encuentro con el papa en el Palacio Libertad. Desde ahí, a las 19, habrá cadena nacional.</p><p>Hay cambios en el transporte público y en los aeropuertos por temas de seguridad y también para que el público tenga acceso aunque no sean días hábiles. La última vez que un pontífice estuvo en territorio argentino fue en abril de 1987, cuando Juan Pablo II recorrió diez ciudades en seis días. Esta vez, se espera que se movilicen por el país cerca de siete millones de personas.</p><p>Vendrá desde Uruguay (a donde llega hoy) y luego se irá a Perú, donde fue misionero y obispo. Robert Francis Prevost es el primer papa nacido en Estados Unidos y también es ciudadano peruano. De paso: toda mi gratitud a los que detectaron que le cambié el nombre ayer al papa y le metí el del Rey Sol.</p><p>El lunes 9 de noviembre será feriado nacional para que cualquiera pueda viajar a participar del acto porteño, si quisiera, y para que no haya en las calles demasiado movimiento por fuera de los planes papales.</p><p>El martes 10 es feriado porteño y cordobés. No es día no laborable, no es optativo: es feriado. Se llama «feriado exclusivo» porque es sólo en estas dos jurisdicciones. Eso mismo pasa el miércoles 11 pero sólo en la provincia de Buenos Aires.</p><p>Si tu jefe no te cree, mostrale que las medidas quedaron establecidas mediante el Decreto de Necesidad y Urgencia 1103/2026, publicado en el Boletín Oficial el 28 de septiembre para facilitar operativos de seguridad y organización y que es donde se declara la visita del papa como un hecho de interés nacional.</p><p>Mañana tendrá lugar la 35° Marcha del Orgullo, donde millones de personas de la comunidad LGBTQ+ salen a las calles para reivindicarse, en un marco de apoyo y celebración. Pero este año la movilización estará atravesada por el ataque transfóbico contra trabajadoras sexuales en los Lagos de Palermo el lunes a la madrugada.</p><p>La convocatoria porteña comenzará a las 10 en 9 de Julio y Avenida de Mayo, con uno de los dos escenarios con espectáculos musicales. Hacia los laterales, entre la avenida Belgrano y la calle Sarmiento, estará el Paseo de la Diversidad con artistas, feriantes y emprendedores. Ahí se dará el show de La Joaqui.</p><p>Cerca de las 16, la movilización avanzará hacia el Congreso. A las 18, la fiesta va a terminar con la presentación de María Becerra en el segundo escenario.</p><p>El gobernador de Entre Ríos, Rogelio Frigerio, firmó un decreto declarando el estado de desastre o emergencia agropecuaria en la provincia, retroactivo al 1 de agosto y hasta julio del año que viene. Se estima que las inundaciones por el fenómeno de El Niño afectaron más de la mitad de la capacidad productiva de la zona.</p><p>¿Qué significa? Que a algunos productores se les dará ventajas y facilidades impositivas. Frigerio le pidió a su ministro de Producción, Guillermo Bernaudo, que tramite ante funcionarios nacionales que también se declare la emergencia a nivel país.</p><p>El riesgo país continúa con su tendencia al alza y se dispara a los 927 puntos básicos, el mayor valor en más de un año, en medio de una jornada negativa para los bonos soberanos y las acciones argentinas tras las elecciones legislativas en Estados Unidos.</p><p>El indicador del JP Morgan creció 75 puntos respecto a los 852 en los que finalizó el miércoles. O sea, acumula una suba del 17,8% esta semana. Si miramos el acumulado del año, la suba alcanza el 62,4%.</p><p>Como te detalló Pedro Greco en #AntesDeMañana, el presidente de Paraguay, Santiago Peña, presentó su renuncia en medio de la crisis política y financiera que atraviesa el país por la intervención de Ueno Bank, una de las principales entidades bancarias, que dejó a más de tres millones de clientes (medio país) sin acceso a sus ahorros, incluso jugadores de la selección local. La Cámara Alta debe definir si acepta la renuncia o avanza con el juicio político, en medio de protestas en las calles de Asunción. Ayer, el oficialismo no dio quórum.</p><p>¿Cuál es la diferencia? Al renunciar, mantiene sus fueros. La legisladora paraguaya Johana Ortega le pidió información a la presidencia del Congreso sobre una presunta huida de Peña hacia la Argentina, aunque eso fue desmentido por ambos países. Peña había asumido en el cargo en agosto de 2023.</p><p>“Quiero pedir disculpas al pueblo si en algún momento fallé. Nunca fue mi intención defraudar la confianza que depositaron en mí”, dijo en un video a través de redes sociales. Antes de la dimisión, la Cámara de Diputados ya había aprobado por unanimidad el juicio político en su contra, por eso resta el Senado. Sobre eso también posteó el mandatario.</p><p>¿Por qué Peña tiene vinculación directa con esta crisis financiera? Hay sospechas de que haya habido conflictos de intereses entre el Poder Ejecutivo y empresas vinculadas al mandatario. Legisladores de la oposición sostienen que la administración de Peña impulsó regulaciones que beneficiaron a Ueno Bank, que además era una empresa en la que tenía acciones incluso durante su presidencia.</p><p>Coletazo: hay unos 900 trabajadores de la empresa en Argentina y no saben cuál es hoy su situación laboral.</p><p>Al menos dos personas murieron y miles sufrieron daños por tornados y fuertes temporales en el estado de Santa Catarina, Brasil, con ráfagas de viento de hasta 131 kilómetros por hora.</p><p>Lo informó Defensa Civil, que detalló que un hombre murió electrocutado tras la caída de un cable de alta tensión en el municipio de Xanxerê y un joven de 20 años falleció en Rio Negrinho al desplomarse la estructura de una gasolinera.</p>",
-      "url": "https://cenital.com/comienza-en-uruguay-la-visita-historica-del-papa/",
-      "image": "https://cenital.com/wp-content/uploads/2026/11/AP26296338367590-1200x799.jpg",
-      "publishedAt": "2026-11-06T11:15:00+00:00",
-      "sourceId": "cenital",
-      "sourceName": "Cenital",
-      "sourceType": "Análisis y Geopolítica",
-      "sourceSite": "https://cenital.com",
-      "region": "latam",
-      "country": "Argentina",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 83,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2655,6 +2725,26 @@
       "category": "Derechos Humanos y Ciudadanía",
       "relevanceTier": "alta",
       "relevanceScore": 99,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "elmostrador-49cc571a40",
+      "title": "Luis Gnecco aterriza como agregado cultural de Kast en la embajada chilena en Londres",
+      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Luis Gnecco aterriza como agregado cultural de Kast en la embajada chilena en Londres El Mostrador</p>",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWHZpYkFEWWg2dUJCRFdMcHdBVnpKUlpORGt4VzEtcXBPM0RhVk4yVmJQYmtDRTcySF9zaXk2dXdiTlpuV2VTUGhRMl9vakdBRl8xS01lRjVhOHkxNTNPcFVfX2l4ZjNkOUJpNnA5STBMRVNaMmRyU3dwczNibTZiN2FyY1Z2blZ4aVl3ZkZHVzBtdTd2RGxhcXg0SUVJVUVQeWk5Zm53SWtTNF96RUkwV2E2dDJ4SXN5S3hVSXNhUmdaeDl0V1dKX3lLWVV2QmI4Z3lTMQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-06T08:08:57+00:00",
+      "sourceId": "elmostrador",
+      "sourceName": "El Mostrador",
+      "sourceType": "Digital Independiente",
+      "sourceSite": "https://www.elmostrador.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3158,26 +3248,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-faf0792e8a",
-      "title": "Una Escuela, dos territorios: el nacimiento de Derecho UACh en Puerto Montt",
-      "summary": "La historia, el crecimiento y los desafíos de la Escuela de Derecho de la…",
-      "content": "<p>La historia, el crecimiento y los desafíos de la Escuela de Derecho de la Universidad Austral de Chile en Puerto Montt fueron los ejes de una nueva edición de Pluviómetro Legal, espacio de conversación junto a los conductores Jordi Delgado y Pablo Soto, académicos de la Facultad de Ciencias Jurídicas y Sociales y transmitido por Radio UACh.</p><p>En esta oportunidad, el programa contó con la participación de la profesora Daniela Accatino, exdecana de la Facultad y actual directora de la Revista de Derecho (Valdivia), y de la profesora María Paz Gatica, directora del Instituto de Ciencias Jurídicas de Puerto Montt, quienes compartieron sus experiencias y reflexiones sobre el desarrollo de este proyecto académico.</p><p>La conversación permitió reconstruir los principales hitos de la creación de la segunda Escuela de Derecho de la Facultad, desde sus primeras etapas de instalación hasta su actual proceso de consolidación, destacando el trabajo conjunto entre ambas sedes y la importancia de fortalecer la formación jurídica en la Región de Los Lagos.</p><p>Un proyecto académico con visión de futuro</p><p>La profesora Daniela Accatino, quien participó en el proceso de creación de la Escuela de Derecho de Puerto Montt desde su etapa inicial, recordó que el proyecto respondió tanto al interés de la comunidad regional por contar con una carrera de Derecho como a una estrategia de crecimiento y fortalecimiento institucional de la Facultad.</p><p>“Para nosotros era muy importante realmente garantizar que las dos carreras fueran espejo; es decir, que la calidad de la formación que se impartiera, que la estructura de la malla fuera la misma”, señaló.</p><p>La académica explicó que la coordinación entre ambas escuelas fue concebida como un elemento estructural del proyecto, promoviendo la participación de sus equipos académicos en las distintas dimensiones de la vida universitaria, desde la docencia de pregrado hasta la investigación y el desarrollo de programas de posgrado.</p><p>Asimismo, relevó la estrecha relación entre la creación de la Escuela de Puerto Montt y el desarrollo del Doctorado en Derecho UACh, iniciativas que comenzaron a gestarse en un mismo periodo y que contribuyeron al fortalecimiento de la planta académica de la Facultad. “Creo que hay un vínculo muy estrecho entre el Doctorado en Derecho UACh y el proyecto de Escuela Puerto Montt”, afirmó.</p><p>En tanto, desde su experiencia como directora del Instituto de Ciencias Jurídicas de Puerto Montt, María Paz Gatica destacó el carácter integrado del proyecto académico y la estrecha relación que existe entre ambas escuelas.</p><p>La académica, quien se incorporó cuando los primeros estudiantes cursaban tercer año, explicó que la instalación de la Escuela en Puerto Montt no significó comenzar desde cero, sino integrarse a un proyecto académico consolidado, con una estructura curricular compartida y una permanente coordinación con Valdivia.</p><p>“Uno llega y lo primero que te das cuenta es que estás en conexión permanente con la Escuela en Valdivia. Entonces, no es que tengas que montar el proyecto de la nada, sino que te toca construir un ala de un proyecto que ya existe”, sostuvo.</p><p>Uno de los aspectos que Gatica destacó con especial emoción fue el acompañamiento cercano a las y los estudiantes durante su trayectoria formativa, particularmente en el proceso de convertirse en abogados y abogadas. “Cuando juraron los primeros abogados, yo sentía que estaban jurando mis hijos prácticamente. Los vimos crecer, les tomamos el examen de grado”, recordó.</p><p>La directora del Instituto también valoró que algunos de los primeros egresados de Puerto Montt estén comenzando a regresar a la Escuela, incorporándose a actividades académicas y dando sus primeros pasos en la docencia.</p><p>A su juicio, este proceso constituye una señal del desarrollo de una comunidad universitaria que comienza a proyectarse más allá de la formación de pregrado, fortaleciendo sus vínculos y su sentido de pertenencia.</p><p>En esa misma línea, destacó iniciativas estudiantiles y académicas que contribuyen a generar una identidad propia, entre ellas la conformación de grupos de discusión, actividades extracurriculares y la banda musical integrada por integrantes de la comunidad universitaria. “Es una excusa para generar pertenencia y creo que esa pertenencia por la banda y por otras vías se ha ido generando”, señaló la académica.</p><p>La relación con el entorno profesional y jurídico de la región de Los Lagos fue otro de los temas abordados durante el programa.</p><p>María Paz Gatica destacó el vínculo con el Colegio de Abogados, la participación de profesionales del ejercicio jurídico en la docencia y la colaboración con integrantes del Poder Judicial y de distintas instituciones de la administración del Estado.</p><p>Asimismo, valoró el interés de profesionales de la zona por incorporarse a la Escuela, lo que se refleja en las postulaciones a los concursos de docencia. “Eso muestra que se está instalando en el medio también, no solamente a nivel académico, sino que también a nivel profesional”, afirmó.</p><p>No obstante, ambas académicas coincidieron en que el fortalecimiento de la planta académica constituye uno de los principales desafíos para la consolidación del proyecto.</p><p>Daniela Accatino sostuvo que resulta fundamental ampliar el núcleo de profesores y profesoras de jornada completa, quienes cumplen funciones esenciales en docencia, investigación y gestión académica.</p><p>“Necesitamos muy fuertemente reforzar el núcleo de profesores a tiempo completo”, indicó, agregando que el equilibrio entre académicos de jornada completa y profesionales que aportan desde el ejercicio de la profesión es clave para el éxito del proyecto.</p>",
-      "url": "https://diario.uach.cl/una-escuela-dos-territorios-el-nacimiento-de-derecho-uach-en-puerto-montt/",
-      "image": "https://diario.uach.cl/wp-content/uploads/2026/11/pluviometropuerto51126.jpg",
-      "publishedAt": "2026-11-05T21:26:23+00:00",
-      "sourceId": "diariouach",
-      "sourceName": "Diario UACh (Valdivia)",
-      "sourceType": "Regional / Ciencia (Sur)",
-      "sourceSite": "https://diario.uach.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 72,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "ciclismo-chile-a37bd36664",
       "title": "“Sientes que llegaste al fin del mundo, pero no, estás en Chile; esto es un espectáculo, volveré sí o sí”",
       "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -3196,26 +3266,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 94,
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
-      "id": "diariouach-f475bb71cf",
-      "title": "Abiertas postulaciones al Concurso Ciencia y Tecnología Oceánica, Asignación Rápida 2026 de ANID",
-      "summary": "La Vicerrectoría de Investigación, Desarrollo y Creación Artística informa que se encuentra abierto el…",
-      "content": "<p>La Vicerrectoría de Investigación, Desarrollo y Creación Artística informa que se encuentra abierto el concurso Ciencia y Tecnología Oceánica, Asignación Rápida 2026 de la Agencia Nacional de Investigación y Desarrollo (ANID).</p><p>El objetivo de esta iniciativa es desarrollar, validar experimentalmente y transferir bases técnicas, en un plazo de 12 meses, que permitan iniciar la implementación de soluciones de I+D aplicada a nivel regional/local, aprovechando capacidades, series de datos e infraestructuras preexistentes del país, orientadas a la consolidación de la observación oceanográfica y la modelación predictiva con datos abiertos, o bien a tecnologías y procesos de emisiones marinas negativas de carbono y descarbonización costera; fortaleciendo la resiliencia socioecológica, la acción climática y la transferencia efectiva hacia actores públicos y productivos del litoral chileno.</p><p>El plazo de postulación vence el 27 de noviembre.</p><p>Pese a sus excepcionales atributos oceanográficos, Chile enfrenta dos brechas científico-técnicas prioritarias que limitan la resiliencia socioecológica de sus costas y condicionan el desarrollo de la economía azul: la fragmentación de la observación oceanográfica in situ, y la necesidad de validación experimental de tecnologías y procesos de emisiones marinas negativas de carbono.</p><p>En este concurso existirán las siguientes líneas temáticas: Brechas en observación in situ y oportunidades en modelación predictiva con datos abiertos; y Tecnologías y procesos de emisiones marinas negativas de carbono (ej. mCDR) y descarbonización costera</p><p>Podrá postular como Institución Beneficiaria toda Persona Jurídica Nacional, pública o privada, sin fines de lucro, que tenga como objeto el desarrollo de labores de ciencia e investigación científica y tecnológica y/o de innovación, como universidad acreditada institucionalmente, instituto de investigación, instituto tecnológico público, centro de investigación, corporación, fundación, centro de formación técnica (CFT) o instituto profesional (IP) con acreditación institucional.</p><p>Ver bases, formularios y documentos requeridos aquí</p>",
-      "url": "https://diario.uach.cl/abiertas-postulaciones-al-concurso-ciencia-y-tecnologia-oceanica-asignacion-rapida-2026-de-anid/",
-      "image": "https://diario.uach.cl/wp-content/uploads/2026/11/20240128_151231-720x380-1.jpg",
-      "publishedAt": "2026-11-05T21:25:40+00:00",
-      "sourceId": "diariouach",
-      "sourceName": "Diario UACh (Valdivia)",
-      "sourceType": "Regional / Ciencia (Sur)",
-      "sourceSite": "https://diario.uach.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 73,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "laderasur-2acd858e32",
@@ -3578,13 +3628,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "elmostrador-67add339f5",
-      "title": "Astrónoma chilena descubre 52 galaxias lejanas al detectar enormes reservas de gas frío",
+      "id": "elmostrador-b242fab15e",
+      "title": "Jordán y por qué Rabat no entrega decretos: “Lo ponen en una posición de acusabilidad altísima”",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Astrónoma chilena descubre 52 galaxias lejanas al detectar enormes reservas de gas frío El Mostrador</p>",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN1J0a1lwY0dsMlNQRG5MTjZUaENpZVNMTGtfOFpnVzhLZG9uSFFORHhtOHljRE5NTExpT1pSZlpZUVdYRzljcW5VMEU3eUxtX0ZZQ0JxekthRHNwdVZvM01jdUYtYjRDRm9Yb2JQeFVOeVh6WHBrWnoxaFJTNU1WZnNvb3B5TVZSbE93V041N2tIRUZ4Z0JUbDNFNnBWVzZQQTV3Y2N4UGtHbU1hTjJyQUxocURyT00wTFZIWWk0SWNpOXFHdDM1LUNmU3BQOWZuNFhCd3B5RVNRaExFeXJLVHdLNFU?oc=5",
+      "content": "<p>Jordán y por qué Rabat no entrega decretos: “Lo ponen en una posición de acusabilidad altísima” El Mostrador</p>",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZjBRQU5ZQWtkV3FQTnd3Z0FUQXV3RFdOVG9XdF9YV3RpaUx1VWI3OHBiZ1R5aEF5ZlRjYjVWelEycHg1cG1kaEVSOUVCSlJ4WnhuQkJlVGFDc0g1NkZ0dlFSMjhoTUUwZ0lLRms1RmNibHFEOGpQYldxZUptYUZOMDFyam84S3JHTlVTRWRLZzZYR042QVlyS0FwbVN6M3d5TnBWVnJmckZsSHRaS3BVQUo0VWZKV05iZkc5NWFsankzYkk4T3d4UWVobjYyOTZwSUhVZW9oRk5xZ0d1dUE?oc=5",
       "image": null,
-      "publishedAt": "2026-11-05T15:30:39+00:00",
+      "publishedAt": "2026-11-05T15:19:57+00:00",
       "sourceId": "elmostrador",
       "sourceName": "El Mostrador",
       "sourceType": "Digital Independiente",
@@ -3615,26 +3665,6 @@
       "category": "Investigación y Poder",
       "relevanceTier": "alta",
       "relevanceScore": 96,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "elmostrador-b242fab15e",
-      "title": "Jordán y por qué Rabat no entrega decretos: “Lo ponen en una posición de acusabilidad altísima”",
-      "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Jordán y por qué Rabat no entrega decretos: “Lo ponen en una posición de acusabilidad altísima” El Mostrador</p>",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZjBRQU5ZQWtkV3FQTnd3Z0FUQXV3RFdOVG9XdF9YV3RpaUx1VWI3OHBiZ1R5aEF5ZlRjYjVWelEycHg1cG1kaEVSOUVCSlJ4WnhuQkJlVGFDc0g1NkZ0dlFSMjhoTUUwZ0lLRms1RmNibHFEOGpQYldxZUptYUZOMDFyam84S3JHTlVTRWRLZzZYR042QVlyS0FwbVN6M3d5TnBWVnJmckZsSHRaS3BVQUo0VWZKV05iZkc5NWFsankzYkk4T3d4UWVobjYyOTZwSUhVZW9oRk5xZ0d1dUE?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-05T15:19:57+00:00",
-      "sourceId": "elmostrador",
-      "sourceName": "El Mostrador",
-      "sourceType": "Digital Independiente",
-      "sourceSite": "https://www.elmostrador.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -4838,24 +4868,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "interferencia-4cfcf1f76c",
-      "title": "Identifican en la Patagonia un fiordo sin oxígeno y rico en sulfuro con condiciones similares al océano antiguo",
-      "summary": "El contenido de este artículo ha sido realizado por la Universidad de Concepción y su publicación forma parte de un acuerdo entre Interferencia y dicha casa de estudios. El estero de Quitralco es un fiordo que se extiende desde el canal Moraleda, en el suroeste, hasta la falla Liquiñe-Ofqui, en el noroeste. Fue declarado Santuario de...",
-      "content": "<p>El contenido de este artículo ha sido realizado por la Universidad de Concepción y su publicación forma parte de un acuerdo entre Interferencia y dicha casa de estudios.</p><p>Según cuenta el investigador del Centro i~mar, académico de la Universidad de Los Lagos y líder de la investigación, Iván Pérez-Santos, un ambiente euxínico se caracteriza por dos cosas: la carencia de oxígeno (anoxia) y la presencia de sulfuro de hidrógeno (H2S). La gran pregunta que se planteó el estudio fue cuál era el origen de dichas condiciones en el fiordo Quitralco: ¿humano o natural? Según los resultados, estaríamos ante lo segundo, descartando el efecto antropogénico como desencadenante.</p><p>¿Cuál es la causa y cómo se determinó?</p><p>“Lo notorio de este lugar es que tiene mucha influencia de fluidos hidrotermales o de origen volcánico, los cuales transportan compuestos reducidos como el sulfuro de hidrógeno hacia las aguas profundas del fiordo que, al reaccionar con el oxígeno del agua, lo agotan, contribuyendo así con la anoxia y euxinia de sus aguas”, explicó Pérez-Santos, quien también es investigador asociado de COPAS Coastal, quien agregó que esto favorece formas de vida que no dependen del oxígeno para sobrevivir.</p><p>En su lugar, los análisis microbianos detectaron microorganismos con un metabolismo principalmente relacionado con el ciclo del azufre, según contó Marcelo Gutiérrez, investigador del Centro COPAS Coastal. Sin embargo, la relevancia de este estudio no recae únicamente en la calidad euxínica del fiordo Quitralco, sino también en la cantidad de sulfuro de hidrógeno presente en sus aguas.</p><p>“Detectamos concentraciones altísimas en la cuenca anóxica profunda que alcanzaron un máximo de 112,9 µM a los 150 metros de profundidad”, afirmó Gerdhard Jessen,académico de la Universidad Austral de Chile e investigador asociado de COPAS Coastal.</p><p>¿Lo peculiar? En sus palabras: “estos valores superan a los reportados en otros sistemas euxínicos globales y responden a una combinación de lo que parecen ser aportes de geofluidos”, los cuales estarían asociados a la zona de falla Liquiñe-Ofqui y al complejo volcánico Mate Grande. Este flujo continuo de sulfuro de hidrógeno tendría un impacto directo en la composición de la materia orgánica, en particular en los pigmentos fotosintéticos, haciéndola menos susceptible a la degradación por los microorganismos en un proceso denominado “sulfurización de la materia orgánica”, como se ha observado en el Mar Negro.</p><p>Asimismo, a partir de los 100 metros de profundidad, el equipo científico observó un nivel máximo de fluorescencia producto de la acumulación de materia orgánica disuelta. Según explicó la investigadora de los centros CIEP y COPAS Coastal, Paulina Montero, esto se debe a que la composición de la materia orgánica en este ambiente euxínico hace que los microorganismos la consuman a un ritmo más lento y, por lo tanto, se acumule. La colaboración con CIEP fue crucial en esta etapa del estudio, ya que utilizaron un espectrofluorómetro adquirido por el centro tras una adjudicación Fondequip, que les permitió identificar el origen de dicha materia orgánica disuelta; proveniente tanto de fuentes alóctonas (derivada, por ejemplo, de plantas terrestres), como autóctonas (producción fitoplanctónica in situ).</p><p>Todas estas características, sumadas a la baja circulación del fiordo, lo convierten en un “pedazo del océano antiguo” que fue ampliamente euxínico en ciertos periodos de la Tierra. “Desde la perspectiva de la historia del planeta, este tipo de ambientes puede ser considerado una representación de condiciones que predominaron en el océano primitivo y su estudio ayuda a entender cómo evolucionó la vida bajo estas condiciones”, señaló Gutiérrez al respecto.</p><p>En ese sentido, estos resultados sirven como un recordatorio de que los indicadores normalmente asociados con la vida sólo representan la normalidad actual, ya que las condiciones ambientales de la “normalidad antigua” hacían la vida como la conocemos prácticamente imposible.</p><p>Con eso dicho, las aguas sin oxígeno del planeta han sido denominadas durante años “zonas muertas”; sin embargo, Iván Pérez-Santos señala que este estudio pone sobre la mesa que jamás estuvieron muertas.</p><p>“Todavía no hay nada que tenga cero oxígeno, se pensaba que sí, pero era porque no teníamos instrumentos lo suficientemente sensibles”, afirmó.</p><p>En este aspecto, la colaboración científica que hizo posible esta investigación de cinco años –abarcando un total de 17 afiliaciones en 4 países– fue crucial. Gracias al apoyo brindado por el Instituto Milenio de Oceanografía (IMO) y especialmente su director y académico de la Universidad de Concepción Osvaldo Ulloa; quien no solo apoyó en el enfoque metodológico con la experiencia de este equipo de trabajo en la Zona de Mínimo Oxígeno (ZMO), sino también en su colaboración con la University of Southern Denmark. Esta entidad facilitó un nuevo equipo que mide oxígeno por debajo del micromol por litro. Un umbral que, hasta ahora, no era posible detectar con la tecnología disponible.</p><p>Por la parte del manejo medioambiental, la investigadora Montero señaló que conocer cómo funcionan los fiordos –que viene a ser el interés de fondo– faculta a la ciencia para informar y asesorar a distintos estamentos en el manejo de estos ecosistemas. En el caso del fiordo Quitralco, caracterizarlo como euxínico permite señalar que “tenemos definida una condición para esta área, por lo tanto, no se pueden agregar más variables/actividades que disminuyan el oxígeno”.</p><p>Por lo tanto, no se trata sólo de identificar el primer fiordo euxínico de la Patagonia chilena, sino de lo que este conocimiento aporta a la conservación del santuario natural y a mantener una actividad acuícola respetuosa con el medio ambiente.</p>",
-      "url": "https://interferencia.cl/%3Ca%20href%3D%22/articulos/identifican-en-la-patagonia-un-fiordo-sin-oxigeno-y-rico-en-sulfuro-con-condiciones%22%3EIdentifican%20en%20la%20Patagonia%20un%20fiordo%20sin%20ox%C3%ADgeno%20y%20rico%20en%20sulfuro%20con%20condiciones%20similares%20al%20oc%C3%A9ano%20antiguo%3C/a%3E",
-      "image": "https://interferencia.cl/sites/default/files/styles/article/public/identifican_en_la_patagonia_un_fiordo_sin_oxigeno_y_rico_en_sulfuro_con_condiciones_similares_al_oceano_antiguo.jpg?itok=r-6Ye8SH&amp;c=a229416e793ad3f393c719b04b3b0257",
-      "publishedAt": "2026-11-01T09:00:00+00:00",
-      "sourceId": "interferencia",
-      "sourceName": "Interferencia",
-      "sourceType": "Investigación y Poder",
-      "sourceSite": "https://interferencia.cl",
-      "region": "chile",
-      "country": "Chile",
+      "id": "ojopublico-6aa2e3bc3f",
+      "title": "La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima",
+      "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima Ojo-Público</p>",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMmNSMnRpeWZkbllCUUF0dEZoOW5XX1l0MEh1TzRheC1JazkwWEFjSU1lbVJ2Ui0zSm9IdmhPX3J0YjFubS1EMzlPdVRDNEhBb29FZ0dNcU80MkVlZHRVa2R4OWdrR1k1cXcwNnlIQ0pWTVQ4amRUcmhJQ3JQREI5c0U4N1hXdDMtaFdxSWgtaldxajNScHo1d0tsSFo?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-01T05:00:00+00:00",
+      "sourceId": "ojopublico",
+      "sourceName": "Ojo Público",
+      "sourceType": "Investigación y Amazonía",
+      "sourceSite": "https://ojo-publico.com",
+      "region": "latam",
+      "country": "Perú",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 77,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 91,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "piedepagina-ae0ea2ee7f",
@@ -4878,11 +4908,11 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ojopublico-6aa2e3bc3f",
-      "title": "La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima",
+      "id": "ojopublico-e3d4ecfa02",
+      "title": "De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes",
       "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima Ojo-Público</p>",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMmNSMnRpeWZkbllCUUF0dEZoOW5XX1l0MEh1TzRheC1JazkwWEFjSU1lbVJ2Ui0zSm9IdmhPX3J0YjFubS1EMzlPdVRDNEhBb29FZ0dNcU80MkVlZHRVa2R4OWdrR1k1cXcwNnlIQ0pWTVQ4amRUcmhJQ3JQREI5c0U4N1hXdDMtaFdxSWgtaldxajNScHo1d0tsSFo?oc=5",
+      "content": "<p>De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes Ojo-Público</p>",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVl9tSkFLaWl0VHFoalZwT2lvSTlmd2pCWUgyZFJSZG54Qy0zNXIxTDhXejFRdXlVSFdQNTdmX2hxZ3Q4Q2VkNy00Rk1pRS0tcmdXVTRGbUJIZjBjZ09paXlMZFg4THg1MjZ3bTVyZUVnUjdpS0lZUlRIZXlveDdGdHZ1bW1obkpoZV9GNWZFakQ?oc=5",
       "image": null,
       "publishedAt": "2026-11-01T05:00:00+00:00",
       "sourceId": "ojopublico",
@@ -4915,26 +4945,6 @@
       "category": "Economía y Sociedad",
       "relevanceTier": "alta",
       "relevanceScore": 89,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "ojopublico-e3d4ecfa02",
-      "title": "De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes",
-      "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes Ojo-Público</p>",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVl9tSkFLaWl0VHFoalZwT2lvSTlmd2pCWUgyZFJSZG54Qy0zNXIxTDhXejFRdXlVSFdQNTdmX2hxZ3Q4Q2VkNy00Rk1pRS0tcmdXVTRGbUJIZjBjZ09paXlMZFg4THg1MjZ3bTVyZUVnUjdpS0lZUlRIZXlveDdGdHZ1bW1obkpoZV9GNWZFakQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-01T05:00:00+00:00",
-      "sourceId": "ojopublico",
-      "sourceName": "Ojo Público",
-      "sourceType": "Investigación y Amazonía",
-      "sourceSite": "https://ojo-publico.com",
-      "region": "latam",
-      "country": "Perú",
-      "independent": true,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 91,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -5083,7 +5093,7 @@
       "summary": "Colaboraron en esta investigación Giselle Leclercq y un periodista cuya identidad mantenemos en reserva. “No queremos que nos persigan, ni que nos prendan, ni que nos discriminen, ni que nos maten, ni que nos curen, ni que nos analicen, ni que nos expliquen, ni que nos toleren, ni que nos comprendan: lo que queremos es ... Leer más La...",
       "content": "<p>Colaboraron en esta investigación Giselle Leclercq y un periodista cuya identidad mantenemos en reserva.</p><p>“No queremos que nos persigan, ni que nos prendan, ni que nos discriminen, ni que nos maten, ni que nos curen, ni que nos analicen, ni que nos expliquen, ni que nos toleren, ni que nos comprendan: lo que queremos es que nos deseen”</p><p>Se ponen de pie para hacer la fila en el pasillo abierto entre las sillas de plástico ordenadas una detrás de otra. Después de una brevísima procesión de diez personas, llega el turno de Julián para la ministración. El servidor, un muchacho joven que bastonea la ceremonia con el micrófono en la mano, se aproxima hasta quedar cara a cara con él. Se inclina suavemente hacia su oído derecho y apoya su mano libre, rutilante, en el hombro izquierdo de Julián, que cierra los ojos entregado. Es la imposición de manos. El servidor le susurra una oración personalizada:</p><p>— Oh padre poderoso, que tu fuerza rompa el quebranto.</p><p>Julián intenta renunciar al espíritu de la homosexualidad que lo agobia. Lo habita, lo ocupa. No sabe bien por qué, pero tiene claro que hay que expulsarlo.</p><p>Aquí las palabras importan mucho. Para Julián, muchos de los conceptos que escucha son nuevos. Más temprano, anotó en un chat consigo mismo en su celular:</p><p>-Restaurar es trabajarte para dejar entrar a Jesús y dejar de ser un quebrantado.</p><p>-Alabanza es el culto, la ceremonia en sí misma.</p><p>-Ministeriar es que te hagan el rezo en el oído e imposición de manos.</p><p>-Lesbianismo y homosexualidad son antidiseño. Estar solo o sola también es antidiseño. El anticristo es el máximo exponente del antidiseño. El diseño es la familia. El diseño original: mujer, varón. Hay formas de vencer al antidiseño.</p><p>Julián pagó $200.000 para atravesar esta experiencia de la que están participando 144 personas: el XIII Retiro de Restauración Emocional, Relacional, Sexual y Espiritual “UN BRAZO EXTENDIDO”. Tres jornadas de cultos diarios, charlas sobre distintos temas con pastores, exposiciones de participantes que comparten sus historias de vida de superación y dinámicas grupales de discusión que llaman plenarias.</p><p>Captura de la página web del Ministerio Mano Fuerte Brazo Extendido.</p><p>Esta es la noche de renuncias, el punto climático del line up del encuentro. A Julián le explicaron, más temprano, con un didáctico power point proyectado en una pantalla en este mismo salón, que este es el inicio de un proceso de restauración que tiene seis columnas: el grupo vivencial, el grupo de oración, el seguimiento pastoral, la iglesia, la sanidad interior y la terapia individual. Le prometieron restaurar esa programación que falló. Como si fuese posible promptear el deseo y la identidad de un humano.</p><p>Son las diez de la noche del sábado 10 de octubre de 2026 en la capilla del gigantesco predio del Patronato de la Infancia, en Benavídez, al norte del conurbano bonaerense. En la entrada puede leerse en latín: “Sinite parvulos venire ad me”. En castellano: “Dejad que los niños vengan a mí”. Durante cuatro décadas este lugar funcionó como un internado infantil. Hoy ya no hay niños pobres abandonados pero sí más de un centenar de jóvenes adultos que van a pasar el fin de semana encerrados y que dormirán en las mismas habitaciones que, antes, ocupaban las criaturas sin familias.</p><p>Foto institucional del Patronato de la Infancia en Benavidez.</p><p>Afuera, la estela de una tormenta acaricia con su humedad los pinos del patio. Adentro, una banda no deja de animar con música constante en vivo: un tecladista, una guitarra criolla, una batería y dos cantores acompañan el ritual. La melodía es envolvente, sale por dos parlantes enormes y marca un pulso, una frecuencia inexorable para quienes están ahí. Todo se mueve al ritmo de una coreografía inmersiva en loop constante. Los sonidos son celestiales y la letra es un mantra de fácil repetición. El público observa la ceremonia: algunas personas lo hacen sentadas, otras se abrazan, están las que quedaron jadeando después de la imposición de manos y alguna se está recuperando de un desmayo. Hay personas de distintas edades y lugares: una chica que viajó desde Rosario, un muchacho que vino desde el barrio de Flores, otro que vive en Palermo. Son trabajadores, algunos profesionales. Cada cual vino a renunciar a distintos espíritus del mal. Hay una lista de ellos: el temor y las emociones, la enfermedad, las mentiras y engaños, el anticristo, el desorden sexual, los vicios y las adicciones, la pobreza y el orgullo.</p><p>Una semana atrás, además de la transferencia, lo primero que hizo Julián para inscribirse a este retiro fue completar un formulario en línea y marcar con una X el tipo de problemática que lo llevó hasta aquí: AMSI (Atracción al mismo sexo indeseada) es la primera opción de la lista. Después le siguen: adicción sexual (hipersexualidad), adicción al juego, adicción a sustancias, abandonado/a, abandonó a alguien, abuso sexual recibido, abusé de alguien, alcoholismo, ansiedad, TOC, depresión, masturbación compulsiva, pornografía, obesidad, satanismo - ocultismo, abuso verbal de alguien. No hay jerarquías. Todas las problemáticas parecen poder abordarse igual.</p><p>Cuando llegó a Benavídez, Julián tuvo que completar un formulario similar y firmar: “Declaro que mi participación como asistente al Retiro de Restauración Espiritual, Emocional, Relacional y Sexual ‘UN BRAZO EXTENDIDO’ de los días 9 al 12 de Octubre 2026 realizado por el Ministerio Mano Fuerte Brazo Extendido ha sido en forma voluntaria, tras haberme contactado con el mismo para recibir ayuda, orientación o capacitación”. El vocabulario importa y que quede por escrito el consentimiento también. Además le pidieron que no cuente afuera lo que pasa adentro del retiro.</p><p>Pero Julián no se llama así. Ni cree en nada de lo que escucha los tres días que pasa encerrado en este culto evangélico pentecostal del que está participando por primera vez en su vida. Todo lo que lo rodea le parece una puesta en escena tan ficticia como el personaje que está interpretando. Es que, en realidad, él es periodista. Nadie lo sabe. Es un infiltrado con una misión: confirmar que las terapias de conversión siguen existiendo en Argentina. Para estar aquí dijo ser un joven preocupado y conflictuado porque se siente atraído por otro hombre. El periodista que interpreta a Julián es gay desde los 17. Hoy tiene 36. En su vida real nunca fue un problema el lugar donde coloca el deseo sino más bien todo lo contrario: decirlo fuerte y claro se convirtió en un escudo y en el hechizo que rompió todas las expectativas de género que pesaron sobre él de chico. No es religioso. Apenas está bautizado. De todos modos, cuando el servidor le impone su mano y él cierra los ojos, se quiebra. Su mejilla queda enlagrimada. El servidor lo abraza y respiran hondo los dos. Julián vuelve a su silla en un silencio introspectivo. Está conmovido. El periodista. Lo inefable que le parecía toda esta puesta en escena de repente le remite a algo profundo y bien concreto que no puede poner en palabras. Llora de verdad.</p><p>En el país que fue pionero en el mundo en legislar y reconocer la identidad de género y primero en tener una ley de matrimonio igualitario en toda América Latina y el Caribe, todavía persisten las mal llamadas “terapias de conversión”. En 2026 aún hay jóvenes que asisten a estos espacios religiosos y/o también a consultorios psicológicos donde les dicen que es posible modificar su orientación sexual, reacomodar su identidad o expresión de género. Hay muchos que sobrevivieron para contar sus experiencias y sus historias evidencian que quedan secuelas a largo plazo, no hay dispositivos especializados para acompañarlos y la falta de leyes específicas dificulta su prevención y sanción.</p><p>Pero además son una estafa, una especie de ponzi espiritual.</p><p>Quienes las ofrecen cobran por eso y prometen una solución para algo que no es una enfermedad. Un cambio que nunca llegará pero en el intento aíslan a la persona, la llenan de culpa. Con el tiempo, llegan la ansiedad y la depresión. Los organismos internacionales las llaman ECOSIEG: Esfuerzos para Corregir la Orientación Sexual e Identidad de Género. Las equiparan con formas de tortura. Son prácticas que no tienen sustento médico ni ético.</p><p>La lista de eufemismos bajo los que se han camuflado es amplia y va cambiando a lo largo del tiempo: esfuerzos de cambio de orientación sexual, terapia de reorientación, terapia reparativa, terapia de reintegración, terapia para curar gays, talleres, campamentos o retiros de “sanidad relacional, emocional y sexual”, “clínicas de salud emocional, vínculos y familias”, “sanidad interior”, “quebranto de género”, coaching o grupos espirituales de sanación. Los pastores de iglesias evangélicas pentecostales históricamente han sido los más hábiles para encontrar un rebranding que se va adaptando a las épocas. Son los que han desarrollado estos dispositivos masivos y sofisticados que siguen captando a jóvenes vulnerables.</p><p>—Padre, te entregamos todo lo que tienes y te rogamos que pongas el querer como el hacer en nosotros— dice el servidor casi al final de la noche de renuncias— para que podamos llegar a ser ese modelo en tus hijos, en que podamos ser esos hijos que soñaste y diseñaste en tu corazón. Te amamos. Te necesitamos, Señor. En el nombre de Jesús, amén. Amén.</p><p>—¿Vos hiciste Torre fuerte o vos estuviste en Fortaleza?—le pregunta un muchacho a otro en el desayuno al otro día mientras comparten café con leche y criollitos.</p><p>Julián anota. Este retiro no es el primer proceso que atraviesan.</p><p>En la jerga, Torre Fuerte es el nombre del programa virtual y presencial que ofrece el Ministerio Mano fuerte, brazo extendido, que organiza el retiro. Durante el año ofrece grupos orientados a batallas y luchas sexuales. Después está Fortaleza, grupos online enfocados en la sanidad de heridas emocionales. También Refugio Fuerte: grupos presenciales de acompañamiento en adicciones (sustancias o alcohol). Y por último, Voluntad Firme, grupos presenciales para personas, según el programa, que luchan contra la obesidad.</p><p>Captura del aviso en redeso socilales del retiro donde infiltramos a nuestro periodista.</p><p>No hace falta infiltrarse para conocer la oferta de estos talleres y espacios que está disponible en páginas de Internet y se promociona en las redes sociales de iglesias, pastores influencers, medios evangélicos pentecostales y ministerios.</p><p>Hace al menos trece años que el Ministerio de Mano Fuerte, Brazo Extendido, ministerio cristiano de restauración espiritual, emocional, relacional y sexual, organiza todos los años retiros como el que asistió Julián en Benavídez. Es una versión más accesible a la que ofrece el Ministerio de la Restauración, fundado por Mauricio Montion, cuyos retiros son en hoteles más lujosos que un exinternado y se pagan en dólares. Al menos desde 2020 que el Ministerio de la Restauración está bajo la mira: uno de los primeros en denunciarlos fue Gastón Onetto, de 42 años, que estuvo en sus retiros en 2005 e inició una demanda en el Colegio de Profesionales de la Psicología y en el INADI, con el patrocinio de la abogada María Laura Spina. Aunque no lograron una condena ya que la causa había prescripto, en 2022 el Colegio de Psicólogos de Argentina se pronunciara en contra de estas prácticas. Concluyó que “a estas terapias se las puede equiparar con métodos de tortura, violatorios de los derechos humanos. Quienes estuvieron expuestos a estas prácticas aberrantes han sido traumatizados, y subsumidos en padecimientos psíquicos”. En julio de este año Anfibia junto con Reportea.cl revelaron cómo este Ministerio continuaba operando en Chile y Argentina mediante una red vinculada a iglesias evangélicas con conexiones que llegaban hasta Estados Unidos. Se trata de una franquicia importada: de hecho antes el retiro se llamaba Aguas Vivas, en honor al programa Living Waters, de Desert Stream Ministries.</p><p>El Ministerio Mano Fuerte, Brazo Extendido es una especie de hermano menor y en términos de marketing, una segunda marca. Surgió en 2009 en el seno de la Iglesia Cristiana Evangélica de El Palomar, al oeste del conurbano. Funciona con talleres, charlas, programas virtuales, convocatorias que hace desde sus redes sociales y articula con otras iglesias evangélicas de distintos puntos del país. A sus actividades asisten principalmente personas del conurbano pero también jóvenes de distintos barrios de la Ciudad de Buenos Aires. El Ministerio tiene conexiones con iglesias porteñas, y también de las provincias de Misiones y Córdoba como parte de un mismo ecosistema. Por fuera del universo evangélico pentecostal Iglesia y ministerio parecieran sinónimos, pero responden a conceptos institucionales y funcionales distintos. La iglesia representa la congregación local, la comunidad visible de creyentes. Los Ministerios son organizaciones transversales con autonomía propia creadas para un propósito específico que trasciende a una sola iglesia local. El Ministerio Mano Fuerte, Brazo Extendido no tiene un espacio físico en sí, pero su fundador, el pastor Diego Sauan junto a su esposa Andrea, inauguró ya dos sedes de la Iglesia Senda de vida con un pie en Caseros, en 2020, y más tarde otra en Avellaneda. En el retiro en Benavídez contó que Senda compró una granja educativa en Pontevedra, donde quieren “invertir 26 millones” para hacer los retiros del Ministerio Mano Fuerte, Brazo Extendido ahí. Además, según dijo, están proyectando un hogar de ancianos en Caseros. Aclaró que la plata la hizo trabajando como psicólogo. Pero ni su nombre ni su matrícula figuran en el padrón de psicólogos de la provincia de Buenos Aires, donde dice que atiende.</p><p>Un dato no tan conocido sobre él es que: Sauan es funcionario público. Paradójicamente, en 2025 integrante del área de Identidad y Ciudadanía de la Defensoría del Pueblo de la Nación. En documentos oficiales que datan de octubre de este año aparece con licencia sin goce de sueldo.</p><p>Diego Sauan y su esposa Andrea, líderes de Mano Fuerte Brazo Extendido.</p><p>Diego Sauan se presenta como “ex gay”. Es un título que puede sonar gracioso, pero en el opresivo universo pentecostal se transforma en un testimonio esperanzador. Durante muchos años Sauan se paseó de iglesia en iglesia, de charla en charla, contando su historia. Como todo pastor pentecostal es un excelente narrador. Cada vez que tiene un micrófono en la mano crea climas y atmósferas, sin dejar de bajar línea. Sus exposiciones tienen plot twists y momentos dramáticos pero también apela al humor. Por momentos parece que está haciendo stand up. Sauan conoce al detalle la cocina de la comunicación: antes de reconvertirse en referente de la restauración, trabajó durante más de quince años como periodista y productor operativo en el informativo de Radio Rivadavia.</p><p>Según su relato, a los 5 años fue víctima de un abuso sexual y eso “determinó su condición sexual”. Dice, en uno de los videos en Youtube donde cuenta su historia como orador y en entrevistas que da a pastores del universo evangélico que tienen programas de televisión: “Eso quebrantó mi vida y me despertó situaciones que no me tenía que despertar”. No hace falta infiltrarse ni investigar demasiado para saber lo que piensa. Muchas de sus exposiciones están online.</p><p>De “exgay” pasó a tener una familia tradicional con dos hijos varones y una hija. Todo en su relato confirma su propia teoría sin ninguna base científica: “En mi caso, una mamá muy dura, un papá muy débil y un abuso a los cinco años sin tratar que me creó una hipersexualidad y que terminé teniendo relaciones con un pariente a los siete años. (...) Eso me llevó a una homosexualidad porque es lo único que conocí. (...) Es un aprendizaje. La sexualidad se aprende. Yo lo aprendí equivocadamente porque lo que nunca debí haber aprendido lo aprendí a través de un abuso. Y lo que nunca me debió haber pasado me pasó. Un primo se cruzó. Que vaya a saber lo que le pasó a él y me enseñó todo lo que no me debía enseñar”.</p><p>Captura del Instagram de Diego Sauan.</p><p>En una charla titulada “Sanidad sexual” en el Instituo Bíblico Río de La Plata en 2021, Sauan sentencia: “No hay homosexual que no haya sido abusado”. Lo escucha una audiencia muy joven. Sigue: “Esto parece ser una obviedad, pero por eso estamos abriendo iglesias para homosexuales, para que se sientan bien. Entonces le damos lo mismo que le dio el mundo. Amá al homosexual y abrazalo. Pero no ames y no abraces a la homosexualidad. Porque si vos lo aceptas tal como es y haciendo lo que hace el tipo nunca va a cambiar. (...) Sí, se puede dejar la homosexualidad, se puede dejar la homosexualidad”.</p><p>Anfibia se contactó con Diego Sauan por esta investigación. Respondió a nuestro llamado y nos dijo que prefería no hablar públicamente sobre este tema.</p><p>Sauan no solo predica en los altares; también coquetea con la arena partidaria. “De nada sirve orar como cristiano, pero votar como un ateo”, publicó en junio de 2023, previo a las elecciones presidenciales. En agosto de este año, compartió un video en Instagram contando que el intendente de Tres de Febrero, Rodrigo Aybar, fue a saludar a quienes repartían comida con el frío. Christian Witz, que se presenta en redes como “hijo del rey y coordinador del Partido Libertario de Morón” le respondió: “Tremenda labor un honor haber pertenecido al equipo ... DIOS LOS BENDIGA A TODOS”. Witz publicó, en junio de 2025, un video de Mano Fuerte Brazo extendido con su logo como historia de vida inspiracional.</p><p>El intercambio digital no es fortuito: Aybar forma parte del circuito político conservador que gravita en torno a la usina española Political Network for Values, el think tank global que articula a las bancadas ultraconservadoras y persigue a la diversidad. Fue panelista en el evento que la organización hizo en agosto en Ciudad de Buenos Aires.</p><p>En el departamento donde vive, al oeste del conurbano, Nicolás Bugnot tiene un teclado electrónico que es casi lo primero que recibe a un visitante. Le encanta la música y durante mucho tiempo lideró la alabanza en la iglesia evangélica pentecostal a la que iba con toda su familia. Eso es lo que más extraña de ese espacio que lo expulsó lentamente. Hoy tiene 36 años. Cuando tenía 18 quedó obnubilado por un hombre que visitó su iglesia. Creyó que le traía una solución a su conflicto interno, algo que nadie más sabía: se sentía atraído por otros varones. Ese hombre se presentaba como ex gay. Hablaba de restauración. Prometía la cura con dos años de programa. Ese hombre era Diego Sauan. Spoiler: Nicolás no se curó. No había nada que curar. Entre 2008 y 2015 estuvo bajo tratamiento entre la terapia individual con Sauan, sus grupos y los retiros del Ministerio Mano Fuerte, Brazo Extendido. Para él fueron tiempos de mucho esfuerzo físico, mental y económico. Cada peso que juntaba era para pagar el tratamiento que, le prometían, lo iba a sanar.</p><p>Cuenta Nicolás: “Yo hacía lo que me decían para dejar de ser homosexual. Me quería curar a mi mismo. Cuando me creció la barba, me felicitaron. Me decían que lo que yo sentía era antinatural, que estaba fallado y que tenía que volver a lo que debía ser. Lo recuerdo como una tortura. Tiempos muy oscuros. Recuerdo estar en crisis desde los 14 años, cuando me dí cuenta de que me gustaban los chicos. Para una persona creyente es muy difícil que te confronten con la palabra de Dios y ellos hacen una interpretación de ciertos tramos de la Biblia que es sesgada para hacerte creer que es un pecado. Crecí en un entorno que iba a la iglesia, mi papá, mis hermanos, pero también mis tíos y primos. No solo es tu entorno o tu familia la que te juzga, es Dios. Si encima te dicen que también te niega, todo es angustia”.</p><p>En los encuentros individuales el foco estaba puesto en hurgar en la posibilidad de un abuso sexual. Sauan intentaba encontrar “explicaciones” a la homosexualidad de Nicolás en un supuesto abuso que nunca sucedió. En los espacios grupales la dinámica era similar a Alcohólicos Anónimos. Les sugerían material bibliográfico, importado de norteamérica, que figura en la web Exodus, de Desert Stream (“El Río”, “Aguas Vivas”).</p><p>De acuerdo con el testimonio de Nicolás, parte de las instrucciones que les daban a los muchachos para abandonar lo gay, como si eso fuese posible, era: no escuchar determinada música; no mover las manos; engrosar la voz; dejar crecer su barba, no ver pornografía; cruzar las piernas en L y no en X, salir con mujeres, tener sexo con mujeres. Al quinto año de tratamiento uno de los líderes de grupo le dijo a Nicolás que “no se estaba esforzando lo suficiente”. Y ese fue el detonante para salir.</p><p>Nicolás conoce desde adentro los retiros porque durante un tiempo él fue parte de los servidores que animaban los cultos y las actividades: “Siempre las reuniones tienen una parte en la que se canta. Le dan mucha importancia porque claramente usan la música como otro instrumento de manipulación y de desensibilización fuerte”, explica.</p><p>El retiro es un plan intensivo una vez al año. Parte de su dinámica es escuchar testimonios de ex-quebrantados: historias en primera persona de aquellos que, en sus términos, se curaron. Por ejemplo, el primer día del retiro en Benavidez, Julián escuchó el testimonio de L.. Contó que había sufrido abusos durante su infancia. También dijo que contrajo VIH mientras trabajaba en un hospital y que, de acuerdo con su versión, no le reconocieron esa situación en el ámbito laboral. Durante su exposición mencionó experiencias sexuales con hombres y explicó que llegó a identificarse como bisexual. También relató que había atravesado dos intentos de suicidio y que posteriormente se acercó a la Iglesia, donde comenzó un proceso que describió dentro del marco de la restauración.</p><p>Otro de los testimonios lo dio N., un chico de 26 años de Caseros. Durante su intervención, contó que entre los 18 y los 24 años había vivido como un hombre gay. Según explicó, llegó a la iglesia por medio de su mejor amiga y que a partir de ahí inició un proceso de restauración. Nicolás relató que siempre había deseado formar una familia y que terminó construyendo esa vida junto a esa amiga, con quien tuvo dos hijas. También expresó que todavía experimentaba pensamientos que describió como vinculados con la homosexualidad y aún recordaba imágenes pornográficas que, según sus palabras, le habían quedado grabadas.</p><p>Durante la exposición, Sauan tomó su historia como ejemplo para transmitir la posibilidad de construir un proyecto familiar a través de la restauración. Llama la atención la obsesión con la pornografía y la masturbación. La ciudadanía ideal, de diseño, que intenta moldear este Ministerio canaliza la energía sexual en la reproducción, en tanto actividad sexual útil. Todo lo que está por fuera de esto es un vicio y un problema. Las historias que se comparten tienen guiones muy similares donde distintos malestares, dolores y desgracias se acumulan uno encima del otro, hasta encontrar en la iglesia y la unión heterosexual el giro que sus vidas necesitaban para ser felices.</p><p>Para que existiera el Ministerio de Mano Fuerte, Brazo Extendido antes hubo otros espacios. Hay un linaje y un entramado que insiste en perseguir a la diversidad. Este espacio tiene una continuidad y relación con los actores que, al menos, las últimas dos décadas se opusieron a las leyes que ampliaron derechos y reconocieron a la diversidad como el matrimonio igualitario y la ley de identidad de género.</p><p>Cada vez que cuenta su historia en entrevistas públicas o charlas, Sauan nombra a Mabel Guzzo Borghetti y se emociona. Ella fue su mentora. Era una psicóloga evangélica del Hospital Alvarez conocida por ser parte de ese lobby anti LGBTIQ. En 1994 Guzzo Borghetti fundó Retorno a la Vida (Movimiento Cristiano de Ayuda para la Reorientación del Homosexual), que pertenecía a Acaps (Asociación. Cristiana Argentina de Profesionales de la Salud), entidad afiliada a Aciera (Asociación Cristiana de Iglesias Evangélicas). Sauan también es cercano a otra actriz de este lobby fundamentalista, Ana María Parini, del Foro de Bioética de Aciera. En algunas charlas ha mencionado que su Ministerio es asesor de la comisión de salud mental de esa organización que nuclea y representa a las iglesias evangélicas.</p><p>Captura del sitio de Mano Fuerte Brazo Extendido.</p><p>Esteban Borghetti, esposo de la “señora Mabel”, también es pastor evangélico. En 2004 habló en la legislatura porteña, cuando se intentaba aprobar un proyecto sobre educación sexual. “La homosexualidad está fuera del diseño que Dios le ha dado a la sexualidad” , dijo Borghetti sin rodeos.</p><p>Sauan y su Ministerio no son eslabones perdidos. La imposición heterosexual y la normativización no es algo que ocurra en las iglesias sueltas o en retiros una vez al año. La integración de los datos de la Segunda Encuesta Nacional sobre Creencias y Actitudes Religiosas en Argentina (CEIL-CONICET) con los estudios del Observatorio de la Deuda Social Argentina (EDSA-UCA) permite trazar un mapa muy claro sobre cómo se entrelazan las creencias espirituales, la diversificación religiosa y las realidades socioeconómicas del país. En Argentina el 15,3% de la población dijo ser evangélica, de las cuales el 13% son pentecostales. Si cruzamos datos hay aproximadamente 3 millones de personas que asisten semanalmente a cultos pentecostales.</p><p>En 2024 la Asociación de Familias Diversas de la Argentina presentó el informe: El camuflaje del odio en Argentina. Experiencias y opiniones sobre “prácticas de conversión” en Argentina a personas LGBTIQ”. Con la ayuda de Andrea Rivas, titular de esta organización y de Hugo Rabbia, parte del equipo que hizo el Primer Relevamiento Nacional de Condiciones de Vida de la Diversidad Sexual y Genérica en la Argentina, abrimos un correo con la posibilidad de escuchar más relatos. Nos contestaron alrededor de 40 personas. Historias de cristianos católicos, testigos de Jehová, una chica a la que un psicólogo la hizo ir con pollera y la manoseó en su consultorio y también varias historias que conducían a templos evangélicos pentecostales. Muchas de estas personas contaban por primera vez lo que habían pasado.</p><p>Entre los testimonios está el relato de Fedra, una mujer trans de 36 años que hoy vive en el barrio porteño de Almagro. Ella no se acercó a ningún terapeuta ni a una pastor ni fue a un retiro, pero la influencia de la iglesia evangélica pentecostal la alcanzó en su propia casa a través de su madre. Una mañana, cuando tenía 16 años, descubrió que estaba siendo víctima de inútiles intentos de exorcismos. Su mamá intentaba curarla con rituales en los que ponía objetos bajo el colchón: “Primero huelo como un olor, ese olor que tiene el agua bendita. Y después empecé a encontrar abajo de mi cama papelitos humedecidos. No había uno, eran seis, diez, quince, veinticinco papelitos con rezos que eran exorcismos. La encaré a mi madre y le dije señora usted está loca, me quiere exorcizar. Yo me fui de mi casa pero hasta el día de hoy ella sigue haciendo exorcismos. A algunas personas les impone las manos y empieza a decirles que se vaya el demonio de sus vidas”.</p><p>Como en muchos otros temas vinculados a las trayectorias vitales de gays, lesbianas y personas trans, todavía faltan estadísticas oficiales que pongan la lupa sobre sus vidas para tomar dimensión del impacto de estas prácticas. En el Primer Relevamiento Nacional de Condiciones de Vida de la Diversidad Sexual y Genérica en la Argentina, entre el 10% y el 15% de las personas encuestadas manifestaron haber sido sometidas o expuestas a algún tipo de presión o intento sistemático para modificar, reprimir o &quot;curar&quot; su orientación sexual o identidad de género a lo largo de su vida. Respondieron esa encuesta 25.000 personas. Los cálculos señalan que al menos 3.500 sobrevivieron a terapias de conversión en Argentina.</p><p>El reporte de la Asociación de Familias Diversas de la Argentina reveló que más de la mitad de las personas que pasaron por un tratamiento sufrieron depresiones graves. La gran mayoría de estas experiencias de ECOSIEG ocurrieron durante la infancia, adolescencia y juventud temprana. Entre los 10 y 21 años. Son los momentos de mayor dependencia familiar y social. Cuatro de cada diez en algún momento tuvieron ideas suicidas.</p><p>Pablo Ignacio Echeverría forma parte de esa estadística. Sobrevivió y decidió rebautizarse a sí mismo como Pholo. Hoy tiene 35 años y vive en Gualeguaychú, Entre Ríos. Entre sus 21 y 25 años Pholo fue sometido por su familia a un tratamiento psicológico que se convirtió en una tortura.</p><p>Todavía hay días que a Pholo le cuesta levantarse. Le duele todo el cuerpo. Siente un cansancio extremo. Hace poco se hizo un estudio de fibromialgia. Le dio todo bien. El médico le dijo que estaba pasando por un momento de estrés. Y él no tuvo ganas de contarle que lo peor ya pasó. Que los recuerdos de esa época opaca vuelven a su memoria en forma de dolor en la mano o de llanto incontrolable: —Todo esto por ser gay—dice ahora por videollamada, una década después. Tiene apretado en su mano un rosario que lo acompañará toda la conversación.</p><p>Todo comenzó después de que una vecina fisgona le contara a su madre que lo había visto en la intimidad con otro muchacho. Su salida del clóset fue un outing. Su madre lo increpó:</p><p>Él se lo confirmó con serenidad creyendo que no iba a pasar nada malo, que lo iban a comprender.</p><p>—Vos estás mal, vas a terminar en una zanja— le dijo su padre cuando se enteró —Va a aparecer una cura en algún momento. Si otras personas pudieron, vos vas a poder. Esto lo vamos a solucionar.</p><p>Esa misma noche su padre se contactó con Antonio Puga, un psicólogo y numerario del Opus Dei que solía ir a la casa de la familia de Pholo.</p><p>—Vengo de una familia muy conservadora, en la que se hacían reuniones. del Opus— explica Pholo —Se leía la Biblia. A mí me parecía lindo porque creía que ayudaban a la gente.</p><p>Un numerario es un miembro célibe de la Prelatura Personal del Opus Dei que asume un compromiso de entrega total a la institución y a su misión apostólica, vive bajo los votos o compromisos de castidad, pobreza y obediencia. Puga falleció en 2019 y lo despidió la cúpula del Opus con un aviso fúnebre en La Nación. Puga le recomendó a la familia de Pholo viajar a Buenos Aires y allí ponerse en contacto con la Fundación Arché. Que ellos podrían ayudarlos. Al día siguiente, Pholo se subió a un auto con su madre y su padre y emprendieron el camino hasta el centro porteño.</p><p>—Si mamá y papá piensan que esto se puede solucionar un hijo piensa lo mismo. Mamá y papá no creo que vayan a hacerme nada malo—recuerda Pholo que pensó en ese entonces.</p><p>No hubo retiros, ni exorcismos, ni gritos, ni golpes, ni un encierro forzado con barrotes o candados, ni electroshock. Bajo la fuerza de la presión familiar, Pholo firmó un papel que hasta el día de hoy no sabe qué decía. Un poco porque confiaba en su familia, otro poco porque no hubo tiempo ni lugar y mucho porque estaba conflictuado por no poder ser y decir lo que sentía con su familia. Todo fue veloz y sin posibilidad de escuchar qué quería él. Primero lo sometieron a una Cámara Gesell y luego a una entrevista individual con un terapeuta que le advirtió:</p><p>—Si vos querés que esto no continúe, vas a tener que decirle la verdad a tus padres. Que les estás mintiendo.</p><p>—No tenía conciencia de mi libertad— dice Pholo diez años después —Era un sometimiento total. O sea, no. No es como que nunca hubiera tenido opción. No tenía opción de nada.</p><p>Aunque ya era un adulto, le sacaron su teléfono y lo aislaron de sus amigos y de otros afectos. Le quitaron toda posibilidad de pedir ayuda. Arrancaron la puerta en su habitación para quitarle la intimidad, como parte del supuesto tratamiento que su familia pagaba todos los meses.</p><p>Cada semana, entre 2012 y 2015, Pholo se subía a un micro desde su Gualeguaychú natal y se bajaba en la terminal de Retiro para ir a Fundación Arché, en pleno centro porteño. Un lugar en el que le prometían ayuda, acompañamiento, contención y una solución. También tenía encuentros virtuales con su terapeuta, Marcos Ballester Molina, que entre 2006 y 2018 trabajó en Arché y hoy se desempeña como psicólogo clínico virtual . La familia de Pholo, por su parte, recibía acompañamiento de otra psicóloga, Marcela Bonadeo.</p><p>El psicólogo Marcos Ballester Molina, que trabajó en Fundación Arché</p><p>Fundación Arché es una organización civil creada en 1976, durante la última dictadura militar, que cuenta con un centro de asistencia psicológica llamado CASA, Centro Asistencial Arché, ubicado en Rodríguez Peña 778/780, en pleno Recoleta, a pocas cuadras del Teatro Colón, de los Tribunales, del vibrante centro porteño. Según su página web, ofrece “un servicio desde una psicología que venía siendo reflexionada desde la fe”. Cuentan con un Programa de Acompañamiento a la Familia (DOMUS).</p><p>El fundador de Arché fue Juan Alberto Fariña Videla, psicólogo nacionalista y responsable de una revista especializada. Durante mucho tiempo lideró espacios en el que se producía bibliografía y pensamiento alrededor de la homosexualidad como patología. Además de asistencia es un espacio de formación de terapeutas vinculados con la Universidad del Salvador, la Universidad FASTA y la Universidad Católica.</p><p>Una paradoja: en el mismo edificio de Fundación Arché hoy funciona el Centro Jurídico Derecho a la Identidad del gobierno de la Ciudad. La institución se lo alquila al gobierno de Jorge Macri. Firmó un convenio desde diciembre de 2025 hasta noviembre de 2028, para instalar el Servicio Social Zonal N.º 2 y el Centro Jurídico Social Derecho a la Identidad. El canon del primer año es de $22,8 millones, en 12 cuotas mensuales de $1,9 millones, con opción de prorrogar el contrato hasta tres años más.</p><p>En Arché trabajan con psicólogos, orientadoras familiares, psicopedagogas, mediadores y psiquiatras. Además de su sede porteña, desde 2002, tienen trabajo territorial en Lanús, al sur del conurbano bonaerense y convenios con ese municipio.</p><p>El detonante que tuvo Pholo para escapar de aquel lugar fue un encuentro en el que su psicólogo lo trató explícitamente de enfermo. Le dijo que lo que tenía él era una patología.</p><p>—Y yo le dije ¿Por qué si yo siento amor por otro hombre? Porque vos decís que es una patología— cuenta Pholo. Ahí terminó la sesión.</p><p>Pholo volvió a la casa familiar devastado. No había nadie y pensó en lo peor: colgó una soga en una de las vigas del techo del galpón. Se quedó mirándola fija durante media hora hasta que agarró un bolso y se fue. No tenía a dónde.</p><p>—Me enseñaron a odiarme—dice Pholo—Pasé por situaciones y lugares que no tendría que haber pasado por ese odio.</p><p>Vivió mucho tiempo escapando: durmió en la calle, pidió comida, buscó trabajo. Su familia, mientras tanto, lo perseguía con la policía con un supuesto diagnóstico en su poder. Consultada para esta investigación la vicepresidenta actual de la organización, Maria Fernanda Palacios, prefirió no hablar y sólo aclarar que el psicólogo que trató a Pholo ya no trabaja ahí.</p><p>De a poco Pholo fue rearmando su vida. Hoy estudia para ser abogado. Lo hace a distancia en la Universidad Siglo XXI. Desde 2024 participa en los corsos barriales que se organizan en su ciudad, al margen de los carnavales. Este último verano fue reconocido con el premio Rony, un galardón que le dan a quien mejor representa el valor de la diversidad en la celebración popular. Es en honor a Rony Galante, una mujer trans a la que encontraron muerta en Gualeguaychú en 2009 y su crimen quedó impune. También ganó un premio de literatura local por un poema que escribió: “Manual de la compostura y la materia”Lo escribió pensando en las telas del carnaval.</p><p>Para tratar de terminar de comprender y darle sentido a su pasado, Pholo está tratando de tener acceso a su historia clínica. Primero hizo el pedido formal a Arché a través de correos y whatsapps. Pero nunca le contestaron. Ahora está por la ruta institucional. Quiere saber cuál fue el diagnóstico que le hicieron en la Fundación Arché y en qué consistió el tratamiento al que lo sometieron:</p><p>—Junto con la Defensoría LGBT de la Defensoría del Pueblo de Ciudad de Buenos Aires estoy reclamando que se me entregue toda información mía de ese lugar, toda la existente, desde mi historia clínica, lo que ellos tienen, mi legajo y los informes entregados a terceros. Porque esto fue acompañamiento familiar, pero cuando a mí me hicieron firmar el consentimiento de ese acompañamiento familiar fue forzado, yo no quería firmar y me obligaron.</p><p>A Pholo lo ampara la ley del paciente, entre otras legislaciones, pero tiene en contra el paso del tiempo. Mientras, todavía no hay leyes específicas, ni dispositivos de acompañamiento puntuales, tampoco hay profesionales capacitados especialmente pero cada vez hay más sobrevivientes que están dando testimonio con el objetivo de que ninguna otra persona pase por lo mismo. Hasta hace poco eran unos pocos los que se animaban a sacar el secreto de los consultorios o los templos.</p><p>Lucas Mendos fue de esos pocos. Cuando tenía 23 años, entre 2006 y 2007, después de haber revelado su orientación sexual a su familia, a Lucas lo llevaron al psicólogo social que le prometió “rectificarlo”. Ese terapeuta se llama Julio César Labaké y continúa trabajando hoy, dos décadas después. Es autor de varios libros, da clases y ofrece charlas. No existen denuncias judiciales ni sanciones éticas en los registros públicos del Colegio de Psicólogos contra él. Lucas no llegó a hacer una presentación formal en la justicia. Es un patrón que se repite: sólo el 8,44% de las personas sobrevivientes denunció o intentó denunciar, según los datos de la Asociación de Familias Diversas.</p><p>Sin embargo, Lucas hizo pública su historia, se recibió de abogado y se volvió un especialista en el tema. En 2020 lideró el estudio jurídico mundial “Poniéndole límites al engaño. Estudio jurídico mundial sobre la regulación legal de las mal llamadas “terapias de conversión”, de ILGA Mundo.</p><p>—La evidencia que tenemos acerca de los daños que genera esto es exponer a niños, niñas y adolescentes a que los hagan pelota— explica Lucas Mendos —Eso lisa y llanamente hablando para destruirles la autoestima. Esto lleva a ideación suicida y muchas veces a cometer suicidio. Los estados de todas las latitudes debieran crear conciencia, informar de toda esa evidencia que existe e informar sobre la inefectividad., Muchas de las organizaciones que ofrecen estas terapias se escudan en el consentimiento que otorgan las personas adultas. En muchas entrevistas públicas, Diego Sauan se defiende con un latiguillo: “Nosotros no obligamos a nadie”. Mendos insiste:</p><p>—Te vas a embarcar en un proceso que lo más probable es que no rinda los frutos que te están prometiendo que va a rendir. Muchos países han recorrido este camino advirtiendo que esto podría cuadrar dentro de la ley de fraude. No va a ocurrir lo que te dicen que va a ocurrir y además te va a dañar, te va a generar un daño que no sabemos si va a ser irreversible, porque va a costar años tratar de desandar todo este proceso de limar y erosionar tu autoestima, de cuestionar tus elecciones de vida, de estar sujeto a normas sociales.</p><p>Mendos pone reparos y alumbra la figura del adulto joven vulnerable en donde el consentimiento a veces es un paraguas frágil:</p><p>—Son personas adultas, jóvenes o que están sometidas a un proceso de presión fuertísima por parte de la familia de su entorno. El Estado no puede permitir que esto se ofrezca incluso a personas adultas. Esto pasa en España, por ejemplo.</p><p>En Argentina todavía no hay una legislación específica sobre el tema. Estas prácticas están prohibidas de manera indirecta por la Ley de Salud Mental, de 2010. En su artículo 3, dice: “En ningún caso puede hacerse diagnóstico en el campo de la salud mental sobre la base exclusiva de elección o identidad sexual”. Además, existe un marco normativo para que se respeten los derechos de todas las personas más allá de su orientación, como la ley de Identidad de Género o la de Matrimonio Igualitario. Y, por su parte, la Ley 23.592 Actos discriminatorios permite reclamar judicialmente que se deje sin efecto un acto discriminatorio y que se repare el daño.</p><p>En 2011 la Legislatura de la Ciudad de Buenos Aires se adhirió a la Campaña Internacional “Curas que Matan” del Comité Día Internacional contra la Homofobia y la Transfobia (IDAHOT). Fue la única jurisdicción capaz de declarar que las “terapias de conversión” están prohibidas bajo la ley antidiscriminatoria local. Está ampliamente documentado que en la provincia de Córdoba estas terapias siguen ocurriendo, como evidenció la investigación reciente sobre el Ministerio de la Restauración y que incluso adoptan formas más brutales y lesivas.</p><p>Más allá de la Argentina también ocurren: en Ecuador hay testimonios que dan cuenta de secuestros impulsados por familiares para someter a las personas. El panorama en cuanto a respuestas estatales es diverso: México dio un paso al frente en 2024 y decidió prohibirlas explícitamente. Los últimos datos oficiales que había antes de la prohibición eran abrumadores: 1 de cada 10 personas LGBTTTIQ+ fueron obligadas por sus padres a acudir con un psicólogo o autoridad religiosa con el fin de “corregirlas”. En números absolutos son 318.791 personas que pasaron por esto.</p><p>La Comisión Interamericana de Derechos Humanos (CIDH) en estos momentos está elaborando un informe temático sobre las prácticas de conversión y su impacto en los derechos humanos de las personas LGBTI en las Américas.</p><p>Que este tipo de tratamientos sigan existiendo puede resultar desolador, pero también hay personas que vienen trabajando por visibilizar que esto sucede y empujar marcos jurídicos. Los sobrevivientes no se salvaron únicamente a ellos. Siguiendo el linaje de las luchas por los derechos humanos y la diversidad, están construyendo espacios que son trinchera de nuevas luchas y haciendo del trauma individual conciencia colectiva.</p><p>Nicolás Bugnot, que pasó por el Ministerio Mano Fuerte, Brazo Extendido, y Pholo que estuvo en tratamiento en Fundación Arché, se juntaron con otros sobrevivientes y armaron Nada que curar. Es una red de acompañamiento amorosa integrada por un grupo de muchachos de entre veintipico y cuarenta y pico de distintos puntos del país y con diferentes recorridos. Todos pasaron por algún tipo de terapia de conversión en algún momento de sus vidas. Lanzaron una página web donde ofrecen a las víctimas testimonios, material para repensar la fe sin culpa, un directorio de profesionales de la salud amables y comunidades cristianas que no discriminan. Nada que curar es, además, una trinchera desde donde los sobrevivientes empujan la batalla legislativa.</p><p>Desde agosto de este año, en la legislatura de la Ciudad de Buenos Aires hay un proyecto de ley impulsado por el diputado Emmanuel Ferrario que busca prevenir, sancionar y reparar estas prácticas:</p><p>—Nadie debería sentir que está mal ser quien es, o amar a quien ama— dice Ferrario —Todas estas supuestas terapias son una tortura y una estafa, sin ninguna base científica. No hay nada que corregir, porque ser gay, lesbiana, bisexual o trans no es una enfermedad ni mucho menos algo que está mal. La comunidad LGBT+ lamentablemente está acostumbrada a vivir ocultándose, o sufriendo en el silencio, por prejuicios y disciminación. Eso hace que muchas personas caigan en estas mentiras, sin siquiera saber que lo que les pasó tiene nombre y es violencia.</p><p>El objetivo del proyecto presentado por Ferrario es que no queden grises ni ambigüedades con respecto a la prohibición de las mal llamadas “terapias de conversión” o Ecosieg. Aunque las leyes nacionales puedan servir de marco para su prohibición, está claro que no alcanzan:</p><p>—Hoy en Ciudad de Buenos Aires siguen ocurriendo estas prácticas nefastas— asegura Ferrario.</p><p>El diputado Esteban Paulon ya había presentado en 2024 otra iniciativa en la misma línea pero en el Congreso de la Nación:</p><p>—Sabemos que muchas veces en el ámbito de la salud mental se utilizan otras figuras para patologizar y justificar este tipo de terapias— cuenta Paulon —Por eso presentamos un proyecto específico que no modifica la ley vigente, pero crea una legislación definiendo primero lo que son estos esfuerzos para modificar la orientación sexual o la identidad de género de las personas. Lo tipifica y establece una serie de tipologías, penalizaciones y también acciones educativas porque es importante concientizar a la sociedad de que esto existe.</p><p>El escenario político no parece ser el más favorable para dar lugar a estos proyectos. No importa que las organizaciones religiosas sigan hablando de antidiseño. Por ahora, lo único que no tiene diseño aún es el futuro.</p><p>La entrada Putos antidiseño se publicó primero en Revista Anfibia.</p>",
       "url": "https://www.revistaanfibia.com/putos-antidiseno/",
-      "image": null,
+      "image": "https://www.revistaanfibia.com/wp-content/uploads/2026/10/Terapias-de-conversion_01_port.jpg",
       "publishedAt": "2026-10-30T11:35:00+00:00",
       "sourceId": "anfibia",
       "sourceName": "Revista Anfibia",
@@ -5183,7 +5193,7 @@
       "summary": "Hay una foto reciente. Es del 9 de octubre de 2026. Muestra una reunión con una pantalla gigante en la que se proyecta una batalla construida con inteligencia artificial. La presenta Santiago Oría, director de Realizaciones Audiovisuales de la Presidencia. Los bandos están perfectamente definidos. Los periodistas ocupan la primera...",
       "content": "<p>Hay una foto reciente. Es del 9 de octubre de 2026. Muestra una reunión con una pantalla gigante en la que se proyecta una batalla construida con inteligencia artificial. La presenta Santiago Oría, director de Realizaciones Audiovisuales de la Presidencia. Los bandos están perfectamente definidos. Los periodistas ocupan la primera línea del ejército enemigo. Entre los micrófonos se reconocen los logos de TN y C5N, dos señales de noticias que pertenecen a grupos de comunicación con propietarios y líneas editoriales opuestas. La clasificación iguala periodistas, comentaristas y productores de contenidos. Son una identidad política única. Todos están del mismo lado. Los siguen, en la segunda fila, políticos opositores y, en la tercera, empresarios. Del otro lado, Javier Milei, su hermana Karina y los militantes de La Libertad Avanza. Atrás marcha “la gente de bien”. La imagen divide a la Argentina en dos bandos: las “Fuerzas de la Libertad” y el “Viejo Sistema”. No hay neutrales.</p><p>Quince días después, un nuevo episodio agravó la representación oficial sobre los periodistas: los insultos se transformaron en una incitación directa a la violencia por parte de la máxima autoridad del país. En una cena de recaudación de la Fundación Faro, en la que el cubierto costó 20.000 dólares por persona, Javier Milei propuso la hoguera para los periodistas que lo investigaron en el caso $LIBRA. Hasta ese momento, se había limitado a las agresiones verbales, que en esa semana, también habían llegado a periodistas en España. “El 95 por ciento de los periodistas argentinos son delincuentes”, había afirmado el presidente en más de una ocasión, sin pruebas que permitan sostener la acusación sobre casi toda una profesión. El porcentaje, de una precisión matemática incomprobable, busca un efecto político evidente: convertir a miles de personas que ejercen trabajos diferentes en un único adversario. Ya lo sabemos: #NOLSALP (no odiamos lo suficiente a los periodistas). Más exactamente, a los 10 mil periodistas que se calcula que hay en la Argentina. Todos en la misma bolsa.</p><p>Pero ¿cómo son los periodistas? Una encuesta nacional realizada entre mayo y septiembre de 2026 por Anfibia junto a la Defensoría del Pueblo de la Ciudad Autónoma de Buenos Aires, y procesada por el Laboratorio de Estudios sobre Democracia y Autoritarismos (LEDA) de la Universidad Nacional de San Martín, permite mirar detrás de esa representación y ver cuáles son las consecuencias de las agresiones.</p><p>El relevamiento reunió 905 respuestas válidas. El 43 por ciento sufrió violencia digital vinculada con su trabajo durante el último año. Y, entre el total de los periodistas incluidos en el modelo estadístico sobre autocensura, el 51,4 por ciento reconoció haber evitado investigar o publicar algún tema por temor a las consecuencias. El dato más inquietante que se desprende del análisis va más allá de la cantidad de periodistas atacados, un fenómeno que ya registraron otros estudios, sino en la alta proporción que admite haber dejado de hacer parte de su trabajo por ellas.</p><p>Los periodistas argentinos forman un grupo heterogéneo. Los hay con influencia y otros desconocidos; están los que trabajan en empresas poderosas o en medios pequeños; cerca de la mitad tiene alguna relación de dependencia, mientras otros facturan colaboraciones, trabajan por contrato o desarrollan proyectos independientes. La mayoría sufre también una crisis común a otras instituciones: la falta de credibilidad. La composición de la profesión está lejos de la fuerza organizada que aparece en la pantalla de Oría. Mientras el poder político representa a los periodistas como un ejército uniforme que actúa como principal actor contra el gobierno, la encuesta demuestra que, más que nunca, el riesgo de informar recae sobre quien firma la noticia.</p><p>Nunca hubo tantas posibilidades de publicar información y, al mismo tiempo, tantas dificultades para vivir de producirla. Un periodista puede trabajar para un portal de noticias, hacer una columna en una radio, participar de un streaming y publicar en sus propias redes. Es una “marca personal” caminante. También puede cobrar un sueldo, facturar por una colaboración y tener un proyecto independiente. Todo en la misma semana o incluso en el mismo día. La versatilidad y la hiperproductividad tienen una explicación menos atractiva: los salarios periodísticos no alcanzan y acumular trabajos se volvió, para muchos, una manera de llegar a fin de mes.</p><p>La encuesta de Anfibia y la Defensoría del Pueblo porteña pone números a esa realidad. El 61,7 por ciento de los periodistas tiene dos o más empleos o fuentes de ingresos periodísticos. De ellos, el 43,5 por ciento tienen tres o más. El 38,3 por ciento cuenta con una sola fuente de ingresos. El negocio de las noticias cambió, pero todavía no encontró cómo sostener a buena parte de quienes las producen.</p><p>El 49,2 por ciento informó que tiene alguna relación de dependencia con un medio. Pero las modalidades de contratación se superponen: el 29,4 por ciento trabaja de manera autónoma en proyectos propios, el 22,2 por ciento cobra por nota, fotografía o video y el 19,4 por ciento tiene contratos de locación de servicios. Un periodista puede ser empleado de una empresa y facturero de otras dos. Puede tener varios jefes. Y, cuando aparece un problema, esa multiplicación de empleadores también puede volver más difícil establecer quién se hace cargo de no dejar solo o sola al periodista.</p><p>La precariedad afecta al bolsillo y también modifica las posibilidades de hacer periodismo. Investigar requiere tiempo, recursos, fuentes y semanas de trabajo que no siempre terminan en una publicación. ¿Quién puede dedicarle un mes a una historia si necesita entregar notas todos los días para cobrar?</p><p>Una parte de ese trabajo se trasladó a las plataformas y a las cuentas personales. El 26,4 por ciento de los encuestados produce contenidos periodísticos en sus propias redes sociales y el 18 por ciento trabaja en canales de streaming. El 93 por ciento tiene cuentas con su nombre y, entre ellos, el 86,6 por ciento las usa para su trabajo. La identidad personal se convirtió también en una herramienta profesional: sirve para difundir investigaciones, conseguir fuentes, construir audiencias y buscar nuevas oportunidades laborales. A esas mismas cuentas llegan los ataques.</p><p>Se sabe, las redacciones tradicionales nunca estuvieron libres de presiones. El poder de turno también ejerció presión sobre los dueños de medios por el trabajo de sus periodistas a lo largo de la historia democrática reciente. Los propietarios y directivos podían decidir qué se investigaba, qué se publicaba e incluso qué convenía callar. Pero una empresa también podía ofrecer abogados, recursos, tiempo para investigar y respaldo frente a una amenaza.</p><p>La encuesta encontró que 389 periodistas, el 43 por ciento de quienes respondieron, sufrieron violencia digital vinculada con su trabajo durante el último año. Entre ellos, el 20,8 por ciento denunció hackeos o intentos de acceso a sus cuentas; el 14,9 por ciento recibió amenazas de violencia física y el 9,3 por ciento, amenazas de muerte. Frente a agresiones graves, apenas el 14,7 por ciento de los atacados recibió apoyo institucional formal del medio para el que trabajaba. El 53,2 por ciento no recibió ningún respaldo.</p><p>¿Qué hace un medio cuando amenazan de muerte a uno de sus periodistas o lo insultan hasta el agotamiento? ¿Tiene protocolos para actuar, asesoramiento jurídico, asistencia psicológica o medidas de seguridad digital? ¿Quién se ocupa si el ataque llega a las cuentas personales de un colaborador que factura por nota? ¿Y si trabaja para tres empresas diferentes? El acompañamiento puede quedar reducido al silencio de las empresas o a reacciones aisladas de organizaciones de periodistas, sindicatos de prensa y colegas. Del otro lado, en una clara asimetría, el poder estatal.</p><p>La falta de respaldo empieza mucho antes de la agresión. El menosprecio no es solo una cuestión de formas, también normaliza los ataques. La frase que se escucha en las entrevistas en profundidad es “hasta cuándo vamos a seguir fingiendo demencia”. Según los datos recolectados, el 42 por ciento afirma que ninguno de los medios donde trabaja cuenta con protocolos o recursos de apoyo ante la violencia digital. Otro 37,9 por ciento desconoce si existen estos procedimientos. Apenas el 5,9 por ciento asegura que todos sus medios disponen de esos mecanismos. ¿Qué protección puede esperar un periodista si la empresa para la que trabaja carece de un procedimiento para asistirlo o ni siquiera se lo comunicó? Finjamos demencia porque quizás ya estamos demasiado afectados.</p><p>Frente a situaciones como la quita de acreditaciones, las dificultades para acceder a fuentes públicas o el cierre de espacios de trabajos, los insultos y ataques en redes, los periodistas también respondieron sobre los posibles mecanismos que consideraban mejores para intervenir rápidamente. Entre las opciones más votadas aparecieron la intervención inmediata de sindicatos periodísticos y asociaciones profesionales y la posibilidad de una defensoría especializada en libertad de prensa. También la implementación de mecanismos rápidos e informales para reaccionar de manera colectiva; la adopción de medidas judiciales urgentes; la creación de un observatorio público con capacidad de denuncia inmediata y una mesa de respuesta entre medios y organizaciones de periodistas). La mayoría de las opciones votadas apuntan a una necesidad concreta: contar con instituciones y organizaciones que puedan actuar de inmediato cuando se obstaculiza el trabajo periodístico y evitar que cada periodista tenga que resolver el problema por su cuenta.</p><p>Mujeres y varones reciben ataques digitales en proporciones prácticamente iguales: el 43,6 por ciento de las mujeres y el 42,1 por ciento de los varones declaró haber sufrido violencia digital durante el último año. Tampoco aparecen grandes diferencias en los tipos de agresiones recibidas. Los insultos, por ejemplo, alcanzaron al 89,7 por ciento de las mujeres atacadas y al 89,5 por ciento de los varones. Lo que sí cambia, según las entrevistas en profundidad, son las agresiones de tono sexual contra las mujeres.</p><p>La diferencia también aparece en las consecuencias. Entre quienes sufrieron violencia digital, el 35 por ciento de los varones dijo que los ataques no habían afectado en absoluto su salud mental. Entre las mujeres, esa respuesta cayó al 16,8 por ciento. En cambio, el 50,8 por ciento de las mujeres ubicó el impacto en los tres niveles más altos de una escala de cinco, frente al 35,5 por ciento de los varones.</p><p>La exposición pública introduce otra diferencia. Entre los periodistas que ponen la cara y la voz para informar, el 71,4 por ciento declaró haber sufrido ataques digitales. Entre quienes se dedican principalmente a producir contenidos, la proporción fue del 35,3 por ciento.</p><p>También importa sobre qué se informa. Cuando se les preguntó qué temas suelen desencadenar violencia digital, el 51,5 por ciento de los encuestados señaló las cuestiones de género entre los tres principales. El 43,2 por ciento mencionó las opiniones críticas del Gobierno, el 39,7 por ciento la corrupción y el 32,6 por ciento los derechos humanos.</p><p>Según el modelo estadístico, los periodistas que sufren la violencia de forma sistemática tienen 7,6 veces más posibilidades de autorrestringirse que quienes no la sufrieron. Y, aunque mujeres y varones sufren violencia digital en proporciones similares, el modelo también muestra otra diferencia: entre las mujeres, la relación entre haber evitado investigar o publicar y no haberlo hecho es casi el doble que entre los varones, considerando los demás factores analizados. Además, el 61,6 por ciento de las mujeres considera que la autocensura aumentó mucho en los últimos tres años, frente al 48,6 por ciento de los varones.</p><p>¿Quién tiene espalda para bancar lo que viene después de una investigación? Un periodista que necesita varios empleos para sostenerse, y depende de contratos temporales o carece de respaldo institucional, seguramente enfrenta esa decisión con recursos limitados.</p><p>Las respuestas de la encuesta y las entrevistas en profundidad realizadas por Anfibia durante 2026 permiten pensar en una reconfiguración de la censura. El poder puede influir sobre lo que se publica sin necesidad de impedir directamente la circulación de una noticia. A veces alcanza con que un periodista calcule las consecuencias de investigar y decida que es mejor no meterse en un tema. La encuesta no permite saber cuáles fueron las historias abandonadas durante el año, las que nunca llegaron a publicarse. Pero sí muestra que una proporción considerable de quienes respondieron modificó su trabajo por temor.</p><p>En la diapositiva de Oría, los periodistas aparecen organizados como un ejército enemigo. La imagen les atribuye una fuerza y una capacidad de acción colectiva que contrasta con las condiciones en las que trabajan. Pero la representación tiene otra consecuencia: si los periodistas son parte de una guerra contra el Gobierno, cualquier investigación incómoda puede ser presentada como una operación política. La discusión se desplaza entonces, en las redes y también desde cuentas oficiales, de lo que una noticia revela hacia las supuestas intenciones de quien la publica. Importa menos qué se descubrió que quién se atrevió a contarlo. El poder político, con todos sus recursos, se presenta como víctima de quienes tienen la tarea de investigarlo.</p><p>La encuesta muestra el otro lado de esa escena. Muchos periodistas enfrentan individualmente los riesgos de su trabajo y más de la mitad de los incluidos en el análisis sobre autocensura reconoce haber evitado investigar o publicar por temor a las consecuencias. Es probable que nunca sepamos qué historias quedaron en el camino. Y ese es, quizás, el efecto más difícil de medir de las agresiones a la prensa. Una de las funciones del periodismo es garantizar que los ciudadanos tengan buena información. Si antes de hacer las preguntas para investigar al poder se debe calcular cuáles serán las consecuencias de encontrar las respuestas, el periodismo se debilita y con el la democracia.</p><p>La entrada ¿Qué son los periodistas? se publicó primero en Revista Anfibia.</p>",
       "url": "https://www.revistaanfibia.com/que-son-los-periodistas/",
-      "image": null,
+      "image": "https://www.revistaanfibia.com/wp-content/uploads/2026/10/Encuesta-periodismo_port_01.jpg",
       "publishedAt": "2026-10-27T10:00:00+00:00",
       "sourceId": "anfibia",
       "sourceName": "Revista Anfibia",
