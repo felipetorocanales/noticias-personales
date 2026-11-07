@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-07T22:46:01.545986+00:00",
+  "generatedAt": "2026-11-07T23:01:07.032789+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
-  "totalArticles": 213,
-  "totalBlockedFarandula": 9,
+  "totalArticles": 212,
+  "totalBlockedFarandula": 12,
   "blockedExamples": [
     {
       "title": "El escritoriazo de la ANFP",
@@ -17,6 +17,21 @@
       "reason": "copa chile"
     },
     {
+      "title": "[VIDEO] Insólito: Hinchas y jugadores de Rosario pensaron que eran campeones",
+      "source": "Radio Cooperativa",
+      "reason": "fútbol"
+    },
+    {
+      "title": "Boca ganó con el último aliento y se coronó campeón",
+      "source": "Radio Cooperativa",
+      "reason": "boca juniors"
+    },
+    {
+      "title": "Deportes Concepción tumbó a Everton y apretó la lucha por entrar a Copa Sudamericana",
+      "source": "Radio Cooperativa",
+      "reason": "copa sudamericana"
+    },
+    {
       "title": "[ESTADÍSTICAS] La tabla de posiciones de la Liga de Primera en la fecha 27",
       "source": "Radio Cooperativa",
       "reason": "colo colo"
@@ -25,6 +40,11 @@
       "title": "Real Madrid venció a Valencia y alcanzó a Barcelona en la cima de La Liga de España",
       "source": "Radio Cooperativa",
       "reason": "real madrid"
+    },
+    {
+      "title": "Liga femenina: La UC doblegó en el clásico a la U y se acercó a la final",
+      "source": "Radio Cooperativa",
+      "reason": "universidad de chile"
     },
     {
       "title": "[VIDEO] Gonzalo Tapia anotó para el empate parcial de Columbus Crew ante Chicago Fire",
@@ -45,11 +65,6 @@
       "title": "Colo Colo cumplirá sueño de Maxi, niño que emocionó en la Teletón",
       "source": "Radio Cooperativa",
       "reason": "colo colo"
-    },
-    {
-      "title": "Los Cóndores cayeron ante Portugal en Lisboa y siguen sin vencer al conjunto europeo",
-      "source": "Radio Cooperativa",
-      "reason": "selección chilena"
     }
   ],
   "sources": [
@@ -522,7 +537,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.7
     },
     {
       "id": "interferencia",
@@ -535,7 +550,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 13.8
+      "newestAgeHours": 14.0
     },
     {
       "id": "fastcheck",
@@ -548,7 +563,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 25.9
+      "newestAgeHours": 26.2
     },
     {
       "id": "radiouchile",
@@ -561,7 +576,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.7
+      "newestAgeHours": 1.9
     },
     {
       "id": "elmostrador",
@@ -574,7 +589,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.7
+      "newestAgeHours": 2.0
     },
     {
       "id": "eldesconcierto",
@@ -587,7 +602,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 9.6
+      "newestAgeHours": 9.9
     },
     {
       "id": "laderasur",
@@ -599,8 +614,8 @@
       "status": "ok",
       "count": 10,
       "blocked": 0,
-      "staleDropped": 4,
-      "newestAgeHours": 26.0
+      "staleDropped": 3,
+      "newestAgeHours": 26.2
     },
     {
       "id": "resumen",
@@ -613,7 +628,7 @@
       "count": 2,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 38.3
+      "newestAgeHours": 38.5
     },
     {
       "id": "elciudadano",
@@ -626,7 +641,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.3
+      "newestAgeHours": 3.6
     },
     {
       "id": "malaespina",
@@ -639,7 +654,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.8
+      "newestAgeHours": 11.0
     },
     {
       "id": "vergara240",
@@ -665,7 +680,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 32.2
+      "newestAgeHours": 32.4
     },
     {
       "id": "timeline",
@@ -678,7 +693,7 @@
       "count": 8,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 24.0
+      "newestAgeHours": 24.3
     },
     {
       "id": "diariouach",
@@ -691,7 +706,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 28.5
+      "newestAgeHours": 28.7
     },
     {
       "id": "cooperativa",
@@ -701,10 +716,10 @@
       "type": "Radio Informativa Nacional",
       "independent": false,
       "status": "ok",
-      "count": 6,
-      "blocked": 7,
+      "count": 5,
+      "blocked": 10,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.1
     },
     {
       "id": "elfaro",
@@ -730,7 +745,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 36.8
+      "newestAgeHours": 37.0
     },
     {
       "id": "lasillavacia",
@@ -743,7 +758,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.6
     },
     {
       "id": "ojopublico",
@@ -756,7 +771,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 156.1
+      "newestAgeHours": 156.4
     },
     {
       "id": "cuestionpublica",
@@ -769,7 +784,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 27.6
+      "newestAgeHours": 27.8
     },
     {
       "id": "chequeado",
@@ -782,7 +797,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 195.0
+      "newestAgeHours": 195.2
     },
     {
       "id": "piedepagina",
@@ -795,7 +810,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 149.1
+      "newestAgeHours": 149.3
     },
     {
       "id": "cenital",
@@ -808,7 +823,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.3
+      "newestAgeHours": 10.5
     },
     {
       "id": "brecha",
@@ -821,7 +836,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 36.5
+      "newestAgeHours": 36.8
     },
     {
       "id": "jacobinlat",
@@ -834,7 +849,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 12.4
+      "newestAgeHours": 12.6
     },
     {
       "id": "ciclismo-chile",
@@ -847,7 +862,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 9.0
+      "newestAgeHours": 9.2
     },
     {
       "id": "ciclo21",
@@ -860,7 +875,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.2
+      "newestAgeHours": 3.5
     },
     {
       "id": "brujulabike",
@@ -873,7 +888,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.6
+      "newestAgeHours": 2.8
     },
     {
       "id": "esciclismo",
@@ -886,7 +901,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": -0.3
+      "newestAgeHours": -0.0
     },
     {
       "id": "propublica",
@@ -899,7 +914,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 11.8
+      "newestAgeHours": 12.0
     },
     {
       "id": "bellingcat",
@@ -912,7 +927,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 61.0
+      "newestAgeHours": 61.2
     },
     {
       "id": "theintercept",
@@ -925,7 +940,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 11.8
+      "newestAgeHours": 12.0
     },
     {
       "id": "eldiarioes",
@@ -938,7 +953,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.9
+      "newestAgeHours": 3.2
     },
     {
       "id": "elsalto",
@@ -951,7 +966,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 58.1
+      "newestAgeHours": 58.4
     },
     {
       "id": "sinpermiso",
@@ -977,7 +992,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.0
+      "newestAgeHours": 0.3
     },
     {
       "id": "dw",
@@ -990,7 +1005,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.4
+      "newestAgeHours": 0.5
     },
     {
       "id": "globalvoices",
@@ -1003,7 +1018,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 15.8
+      "newestAgeHours": 16.0
     }
   ],
   "articles": [
@@ -1065,6 +1080,26 @@
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 82,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "dw-3469308b5d",
+      "title": "Polonia: hallan tres cuerpos en casa del presunto tirador de Cracovia",
+      "summary": "El primer ministro de Polonia, Donald Tusk, señaló que se trata de dos mujeres y un hombre, posiblemente familiares cercanos del sospechoso, que se encuentra detenido.",
+      "content": "<p>Ir al menú principalIr a más sitios de DWDestacadosMuro de BerlínLeón XIV en SudaméricaParaguayÚltimos audiosÚltimos videosTV en vivoPublicidadhttps://p.dw.com/p/5PCejAgregar DW en GooglePublicidadLa policía de Polonia halló la noche de este sábado (07.11.2026) tres cuerpos en la vivienda del hombre detenido como presunto autor de un tiroteo que la tarde de esta misma jornada dejó seis personas fallecidas y 16 heridas en la Plaza Mayor de Cracovia, la segunda ciudad más grande del país.</p><p>El primer ministro, Donald Tusk, dijo en una conferencia de prensa que las víctimas encontradas en la casa del sospechoso son presuntamente familiares cercanos de este. La Policía confirmó que en Ostrowiec Świętokrzyski, una ciudad ubicada en la provincia de Santa Cruz, &quot;en el domicilio del hombre detenido en Cracovia, se encontraron los cuerpos de tres personas: dos mujeres y un hombre&quot;.</p><p>Las autoridades sospechaban que podría haber artefactos explosivos en la casa del sospechoso, ubicada a unos 200 kilómetros de Cracovia. Sin embargo, hallaron los cuerpos. Tusk subrayó que la policía, los organismos de seguridad y la fiscalía harán todo lo que esté a su alcance para revelar lo antes posible información sobre los motivos del tirador.</p><p>De acuerdo con el ministro del Interior, Marcin Kierwinski, el atacante es un hombre de nacionalidad polaca de 25 años fascinado con ideas de extrema derecha, aunque esto debía ser investigado más a fondo, indicó. El sujeto poseía licencia legal de armas y carecía de antecedentes policiales.</p><p>Varios de los heridos alcanzados por los disparos de este hombre, que vestía un uniforme militar al momento de realizar su ataque y contaba con más municiones, se encuentran en condición crítica, entre ellos un agente que recibió tres impactos de bala. Se cree que al menos uno de los fallecidos es extranjero, y cinco de los heridos también son personas de otros países, una de ellas de Portugal.</p>",
+      "url": "https://www.dw.com/es/polonia-hallan-tres-cuerpos-en-casa-del-presunto-tirador-de-cracovia/a-79888533?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": "https://static.dw.com/image/79887547_6.jpg",
+      "publishedAt": "2026-11-07T22:32:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "country": "Alemania / Global",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1248,11 +1283,11 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "lasillavacia-938bf7f13a",
-      "title": "Tres soldados muertos y ocho heridos por ataque con drones en Bolívar",
-      "summary": "Fue contra el cantón militar Santa Rosa, en sur del departamento. En la zona delinque el Clan del Golfo y el ELN. The post Tres soldados muertos y ocho heridos por ataque con drones en Bolívar appeared first on La Silla Vacía .",
-      "content": "<p>Sobre el mediodía de hoy, el cantón militar de Santa Rosa, al sur de Bolívar, fue objeto de un ataque con drones que, según el Ejército, dejó tres soldados muertos y ocho más heridos.</p><p>Acaban de atacar con drones el batallón de Santa Rosa del sur de Bolivar. Varios soldados heridos que están siendo evacuados. En la zona delinque el ELN y el Clan del golfo. https://t.co/KtUi7za3Cx</p><p>Los explosivos impactaron el rancho de tropa en la hora del almuerzo. Según reporta El Tiempo, hay 16 personas heridas.</p><p>“He ordenado a nuestra Fuerza Pública intensificar las operaciones para identificar, perseguir y capturar a los responsables de este ataque, golpear sus estructuras criminales y recuperar el control de los territorios donde pretenden imponer el miedo y la violencia”, trinó el presidente Abelardo de la Espriella al condenar el ataque.</p><p>El Ejército denunció que el ataque “constituye una grave vulneración de los Derechos Humanos y del Derecho Internacional Humanitario”.</p><p>Uso de drones: la nueva arma de guerra. Los drones comerciales adaptados con explosivos se han vuelto una táctica común entre los grupos armados en el país, especialmente en el suroccidente, pero en los últimos años su uso se expande al norte, como hoy.</p><p>Sobre el tema puede leer este reportaje y escuchar este episodio de Huevos Revueltos con Política:</p>",
-      "url": "https://www.lasillavacia.com/en-vivo/tres-soldados-muertos-y-ocho-heridos-por-ataque-con-drones-en-bolivar/",
+      "id": "lasillavacia-8c5395bd17",
+      "title": "Tres soldados muertos y 47 heridos por ataque con drones en Bolívar",
+      "summary": "Fue contra el cantón militar Santa Rosa, en sur del departamento. En la zona delinque el Clan del Golfo y el ELN. The post Tres soldados muertos y 47 heridos por ataque con drones en Bolívar appeared first on La Silla Vacía .",
+      "content": "<p>Sobre el mediodía de hoy, el cantón militar de Santa Rosa, al sur de Bolívar, fue objeto de un ataque con drones que, según el Ejército, dejó tres soldados muertos y 46 personas heridos.</p><p>Acaban de atacar con drones el batallón de Santa Rosa del sur de Bolivar. Varios soldados heridos que están siendo evacuados. En la zona delinque el ELN y el Clan del golfo. https://t.co/KtUi7za3Cx</p><p>Los explosivos impactaron el rancho de tropa en la hora del almuerzo. Según reportó el Ejército en la noche, 16 personas están recibiendo atención médica.</p><p>“He ordenado a nuestra Fuerza Pública intensificar las operaciones para identificar, perseguir y capturar a los responsables de este ataque, golpear sus estructuras criminales y recuperar el control de los territorios donde pretenden imponer el miedo y la violencia”, trinó el presidente Abelardo de la Espriella al condenar el ataque.</p><p>El Ejército denunció que el ataque “constituye una grave vulneración de los Derechos Humanos y del Derecho Internacional Humanitario”.</p><p>Uso de drones: la nueva arma de guerra. Los drones comerciales adaptados con explosivos se han vuelto una táctica común entre los grupos armados en el país, especialmente en el suroccidente, pero en los últimos años su uso se expande al norte, como hoy.</p><p>Sobre el tema puede leer este reportaje y escuchar este episodio de Huevos Revueltos con Política:</p>",
+      "url": "https://www.lasillavacia.com/en-vivo/tres-soldados-muertos-y-47-heridos-por-ataque-con-drones-en-bolivar/",
       "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/ataquesantarosa-1.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
       "publishedAt": "2026-11-07T21:15:54+00:00",
       "sourceId": "lasillavacia",
@@ -1326,26 +1361,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 96,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "cooperativa-9310ed95ec",
-      "title": "A prisión dos sujetos vinculados a cuatro homicidios en Coquimbo y La Serena",
-      "summary": "La Corte de Apelaciones de La Serena ordenó la prisión preventiva de dos imputados por cuatro homicidios cometidos entre agosto y septiembre en las comunas de La Serena y Coquimbo, en la Región de Coquimbo. En un fallo unánime, la Segunda Sala del tribunal de alzada revocó la resolución del Juzgado de Garantía de Coquimbo, que rechazó...",
-      "content": "<p>La Corte de Apelaciones de La Serena ordenó la prisión preventiva de dos imputados por cuatro homicidios cometidos entre agosto y septiembre en las comunas de La Serena y Coquimbo, en la Región de Coquimbo.</p><p>En un fallo unánime, la Segunda Sala del tribunal de alzada revocó la resolución del Juzgado de Garantía de Coquimbo, que rechazó la medida cautelar, y dispuso el ingreso de ambos imputados, identificados con las iniciales Y.J.S. y A.G.C.R., al Complejo Penitenciario de Huachalalume.</p><p>La decisión se fundamentó en que la libertad de los acusados constituye un peligro para la seguridad de la sociedad.</p><p>Ambos son investigados por los delitos de asociación criminal, cuatro homicidios calificados, un homicidio frustrado, robo con violencia e intimidación, porte ilegal de armas y municiones.</p><p>De acuerdo con el Ministerio Público, los imputados habrían integrado, al menos desde agosto de 2026, una asociación criminal dedicada a cometer robos violentos y homicidios con armas de fuego, que operaba de manera coordinada, con funciones definidas, vehículos de apoyo y lugares de resguardo.</p><p>El primero de los hechos investigados ocurrió durante la madrugada del 21 de agosto en la quebrada Benavente, en Coquimbo, donde se registraron dos ataques con disparos desde la vía pública. Una adulta mayor de 86 años resultó gravemente herida al interior de su vivienda y, horas después, un peatón murió tras ser alcanzado por los disparos.</p><p>Al día siguiente, miembros de la organización habrían ingresado encapuchados y armados a una vivienda del sector Punta Mira Norte, donde dieron muerte a la segunda víctima, además de sustrer dinero y un teléfono.</p><p>Días después, en Peñuelas, sujetos con el rostro cubierto irrumpieron en otro domicilio, amenazaron a sus ocupantes con armas de fuego y sustrajeron diversas especies de valor.</p><p>La investigación también vincula a los imputados con un tercer homicidio ocurrido el 27 de agosto en la villa Portugal, tras el cual los involucrados habrían escapado en vehículos de apoyo hacia un lugar de resguardo en el sector El Sauce.</p><p>El cuarto crimen se registró el 7 de septiembre en la caleta San Pedro de La Serena, donde los integrantes del grupo habrían ingresado violentamente a una vivienda, intimidado a sus ocupantes y asesinado a una persona durante un robo.</p><p>Finalmente, el pasado 3 de noviembre, personal de la Policía de Investigaciones (PDI) sorprendió a ambos imputados en posesión de cargadores de armas de fuego, municiones convencionales, munición de guerra y drogas.</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/policial/a-prision-dos-sujetos-vinculados-a-cuatro-homicidios-en-coquimbo-y-la/2026-11-07/171753.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261107/imag/foto_0000000220261107171753.jpg",
-      "publishedAt": "2026-11-07T20:17:53+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 72,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "brujulabike-66cc9a0ecd",
@@ -1746,26 +1761,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 94,
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
-    },
-    {
-      "id": "dw-b4e19769e8",
-      "title": "Siria desmiente envío de tropas a Yemen para luchar contra los hutíes",
-      "summary": "Fuentes yemeníes aseguraron que ya había cientos de soldados sirios sobre el terreno. Damasco dijo que tales informaciones “carecen de fundamento”.",
-      "content": "",
-      "url": "https://www.dw.com/es/siria-desmiente-envío-de-tropas-a-yemen-para-luchar-contra-los-hutíes/a-79887515?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-11-07T17:33:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "country": "Alemania / Global",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "elciudadano-6f10a72d33",
