@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-07T11:46:25.049752+00:00",
+  "generatedAt": "2026-11-07T12:01:14.841741+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
-  "totalArticles": 198,
-  "totalBlockedFarandula": 2,
+  "totalArticles": 212,
+  "totalBlockedFarandula": 4,
   "blockedExamples": [
     {
       "title": "El escritoriazo de la ANFP",
@@ -15,6 +15,16 @@
       "title": "Deportes Antofagasta se derrumbó ante La U y quedó eliminado de Copa Chile",
       "source": "Timeline Antofagasta",
       "reason": "copa chile"
+    },
+    {
+      "title": "Zamorano, Bravo, \"Matigol\" y más: ¿Qué famosos jugarán fútbol en la Teletón 2026?",
+      "source": "Radio Cooperativa",
+      "reason": "fútbol"
+    },
+    {
+      "title": "En busca del título: La previa de la crucial visita de Colo Colo a Ñublense",
+      "source": "Radio Cooperativa",
+      "reason": "colo colo"
     }
   ],
   "sources": [
@@ -487,7 +497,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 11.3
+      "newestAgeHours": 11.6
     },
     {
       "id": "interferencia",
@@ -500,7 +510,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 2.8
+      "newestAgeHours": 3.0
     },
     {
       "id": "fastcheck",
@@ -513,7 +523,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 14.9
+      "newestAgeHours": 15.2
     },
     {
       "id": "radiouchile",
@@ -526,7 +536,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 14.2
+      "newestAgeHours": 14.4
     },
     {
       "id": "elmostrador",
@@ -539,7 +549,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 12.1
+      "newestAgeHours": 12.3
     },
     {
       "id": "eldesconcierto",
@@ -552,7 +562,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 14.5
+      "newestAgeHours": 14.7
     },
     {
       "id": "laderasur",
@@ -565,7 +575,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 3,
-      "newestAgeHours": 15.0
+      "newestAgeHours": 15.2
     },
     {
       "id": "resumen",
@@ -578,7 +588,7 @@
       "count": 2,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 27.3
+      "newestAgeHours": 27.5
     },
     {
       "id": "elciudadano",
@@ -591,20 +601,20 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.9
+      "newestAgeHours": 1.1
     },
     {
       "id": "malaespina",
       "name": "Mala Espina Check",
       "region": "chile",
+      "country": "Chile",
       "type": "Fact-Checking / Política",
       "independent": true,
-      "status": "error",
-      "error": "HTTP Error 415: Unsupported Media Type",
-      "count": 0,
+      "status": "ok",
+      "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": null
+      "newestAgeHours": 0.0
     },
     {
       "id": "vergara240",
@@ -630,7 +640,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 21.2
+      "newestAgeHours": 21.4
     },
     {
       "id": "timeline",
@@ -643,7 +653,7 @@
       "count": 8,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 13.0
+      "newestAgeHours": 13.3
     },
     {
       "id": "diariouach",
@@ -656,7 +666,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 17.5
+      "newestAgeHours": 17.7
     },
     {
       "id": "cooperativa",
@@ -667,7 +677,7 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 0,
+      "blocked": 2,
       "staleDropped": 0,
       "newestAgeHours": 0.2
     },
@@ -695,7 +705,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 25.8
+      "newestAgeHours": 26.0
     },
     {
       "id": "lasillavacia",
@@ -708,7 +718,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.7
+      "newestAgeHours": 6.9
     },
     {
       "id": "ojopublico",
@@ -721,7 +731,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 128.6
+      "newestAgeHours": 128.8
     },
     {
       "id": "cuestionpublica",
@@ -734,7 +744,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 16.6
+      "newestAgeHours": 16.8
     },
     {
       "id": "chequeado",
@@ -747,7 +757,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 184.0
+      "newestAgeHours": 184.2
     },
     {
       "id": "piedepagina",
@@ -760,7 +770,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 138.1
+      "newestAgeHours": 138.3
     },
     {
       "id": "cenital",
@@ -773,7 +783,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 14.3
+      "newestAgeHours": 14.5
     },
     {
       "id": "brecha",
@@ -786,20 +796,20 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 25.5
+      "newestAgeHours": 25.8
     },
     {
       "id": "jacobinlat",
       "name": "Jacobin América Latina",
       "region": "latam",
+      "country": "Latinoamérica",
       "type": "Análisis Latinoamericano",
       "independent": true,
-      "status": "error",
-      "error": "HTTP Error 415: Unsupported Media Type",
-      "count": 0,
+      "status": "ok",
+      "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": null
+      "newestAgeHours": 1.6
     },
     {
       "id": "ciclismo-chile",
@@ -812,7 +822,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 16.6
+      "newestAgeHours": 16.8
     },
     {
       "id": "ciclo21",
@@ -825,7 +835,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.8
+      "newestAgeHours": 3.0
     },
     {
       "id": "brujulabike",
@@ -838,7 +848,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.6
+      "newestAgeHours": 1.8
     },
     {
       "id": "esciclismo",
@@ -851,7 +861,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.7
+      "newestAgeHours": 3.0
     },
     {
       "id": "propublica",
@@ -864,7 +874,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.8
+      "newestAgeHours": 1.0
     },
     {
       "id": "bellingcat",
@@ -877,7 +887,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 50.0
+      "newestAgeHours": 50.2
     },
     {
       "id": "theintercept",
@@ -890,7 +900,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.8
+      "newestAgeHours": 1.0
     },
     {
       "id": "eldiarioes",
@@ -903,7 +913,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.9
+      "newestAgeHours": 4.1
     },
     {
       "id": "elsalto",
@@ -916,7 +926,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 77.9
+      "newestAgeHours": 78.2
     },
     {
       "id": "sinpermiso",
@@ -942,7 +952,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 8.6
+      "newestAgeHours": 8.9
     },
     {
       "id": "dw",
@@ -955,7 +965,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.3
     },
     {
       "id": "globalvoices",
@@ -968,10 +978,70 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.8
+      "newestAgeHours": 5.0
     }
   ],
   "articles": [
+    {
+      "id": "malaespina-d2df195e34",
+      "title": "Es falso que Donald Trump dejó de seguir a Javier Milei en Instagram",
+      "summary": "Síntesis ¿Qué circula? Tras las midterms en Estados Unidos y el resultado adverso para Donald Trump, comenzó a circular en redes que el presidente estadounidense habría dejado de seguir a Javier Milei en Instagram. ¿Cómo lo calificamos? Consideramos que el contenido viral es falso. ¿Cómo lo sabemos? La herramienta socialblade.com...",
+      "content": "<p>¿Qué circula? Tras las midterms en Estados Unidos y el resultado adverso para Donald Trump, comenzó a circular en redes que el presidente estadounidense habría dejado de seguir a Javier Milei en Instagram.</p><p>¿Cómo lo calificamos? Consideramos que el contenido viral es falso.</p><p>¿Cómo lo sabemos? La herramienta socialblade.com muestra que Trump solo sigue a 47 personas desde 2020, y entre ellas nunca estuvo el presidente argentino.</p><p>La entrada Es falso que Donald Trump dejó de seguir a Javier Milei en Instagram se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/07/es-falso-que-donald-trump-dejo-de-seguir-a-javier-milei-en-instagram/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-Es-falso-que-Donald-Trump-dejo-de-seguir-a-Javier-Milei-en-Instagram.webp",
+      "publishedAt": "2026-11-07T12:00:00+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "dw-3afb4a1687",
+      "title": "Piratas informáticos atacan al ministro de Relaciones Exteriores de Italia",
+      "summary": "Según Tajani, los cibercriminales \"están dispuestos a pagar para obtener más detalles\" sobre él y su familia. \"Mi reacción es muy simple: no me dejaré intimidar de ninguna manera\", aseguró.",
+      "content": "",
+      "url": "https://www.dw.com/es/piratas-informáticos-atacan-al-ministro-de-relaciones-exteriores-de-italia/a-79884576?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-11-07T11:42:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "country": "Alemania / Global",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "malaespina-4dab03904a",
+      "title": "Donald Trump no publicó que “habrá consecuencias” tras victoria demócrata en las elecciones de medio término",
+      "summary": "Síntesis ¿Qué circula? Tras las midterms en Estados Unidos, se viralizó la captura de un mensaje atribuido al presidente estadounidense. Supuestamente, habría anunciado en Truth Social la cancelación de algunas promesas y alertado que \"habrá consecuencias\" por haberle \"fallado\". ¿Cómo lo calificamos? Consideramos que el contenido...",
+      "content": "<p>¿Qué circula? Tras las midterms en Estados Unidos, se viralizó la captura de un mensaje atribuido al presidente estadounidense. Supuestamente, habría anunciado en Truth Social la cancelación de algunas promesas y alertado que &quot;habrá consecuencias&quot; por haberle &quot;fallado&quot;.</p><p>¿Cómo lo calificamos? Consideramos que el contenido viral es falso.</p><p>¿Cómo lo sabemos? No existen registros que permitan respaldar la publicación del mensaje viral, el cual tampoco se encuentra en un archivo que incluye posteos eliminados.</p><p>La entrada Donald Trump no publicó que “habrá consecuencias” tras victoria demócrata en las elecciones de medio término se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/07/donald-trump-no-publico-que-habra-consecuencias-tras-victoria-democrata-en-las-elecciones-de-medio-termino/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-Donald-Trump-no-publico-que-habra-consecuencias-tras-victoria-democrata-en-las-elecciones-de-medio-termino.webp",
+      "publishedAt": "2026-11-07T12:00:00+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
     {
       "id": "cooperativa-6f411339e0",
       "title": "Daniela Vega escribió sentido mensaje de despedida para Sebastián Lelio: \"Te amo\"",
@@ -990,6 +1060,46 @@
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "malaespina-c001014fce",
+      "title": "Esta imagen de disturbios en una sede de Ueno Bank en Paraguay fue alterada con IA",
+      "summary": "Síntesis ¿Qué pasó? En redes sociales circuló una imagen que muestra supuestos saqueos y destrozos en una sucursal de Ueno Bank en Paraguay. ¿Cómo lo calificamos? Consideramos que se trata de publicaciones falsas. ¿Cómo lo sabemos? La fotografía fue alterada con inteligencia artificial: el registro original muestra una escena sin...",
+      "content": "<p>¿Qué pasó? En redes sociales circuló una imagen que muestra supuestos saqueos y destrozos en una sucursal de Ueno Bank en Paraguay.</p><p>¿Cómo lo calificamos? Consideramos que se trata de publicaciones falsas.</p><p>¿Cómo lo sabemos? La fotografía fue alterada con inteligencia artificial: el registro original muestra una escena sin disturbios ni destrozos. Además, Verify AI detectó una marca de agua SynthID y Sightengine arrojó un 99% de probabilidades de manipulación con IA.</p><p>La entrada Esta imagen de disturbios en una sede de Ueno Bank en Paraguay fue alterada con IA se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/07/esta-imagen-de-disturbios-en-una-sede-de-ueno-bank-en-paraguay-fue-alterada-con-ia/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-Manifestacion-Ueno-Bank.webp",
+      "publishedAt": "2026-11-07T12:00:00+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 81,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "cooperativa-cc4e17b794",
+      "title": "Detienen a dos hermanos acusados de apuñalar a un hombre en San Bernardo",
+      "summary": "Dos hermanos con antecedentes policiales fueron detenidos por Carabineros tras apuñalar a un hombre y dejarlo en riesgo vital en medio de una presunta riña en la comuna de San Bernardo. Los hechos ocurrieron en la calle Manuel de Solís, donde los imputados -de 28 y 31 años- propinaron una serie de heridas cortopunzantes a la víctima,...",
+      "content": "<p>Dos hermanos con antecedentes policiales fueron detenidos por Carabineros tras apuñalar a un hombre y dejarlo en riesgo vital en medio de una presunta riña en la comuna de San Bernardo.</p><p>Los hechos ocurrieron en la calle Manuel de Solís, donde los imputados -de 28 y 31 años- propinaron una serie de heridas cortopunzantes a la víctima, también de 31.</p><p>Posteriormente, el afectado fue trasladado al Hospital El Pino, donde se mantiene en condición crítica.</p><p>La Fiscalía y el OS9 de Carabineros desarrollaron diligencias para encontrar a los atacantes, que fueron identificados mientras salían de y entraban a un inmueble ubicado en calle Carlos Condell, según captaron cámaras de seguridad.</p><p>Supuestamente, los sujetos llegaron a la vivienda luego de atacar a la víctima, por lo que, tras una orden de entrada y registro, Carabineros los detuvo en flagrancia e incautó el arma involucrada y prendas que daban cuenta del delito.</p><p>Los hermanos &quot;serán puestos a disposición del Juzgado de Garantía de San Bernardo esta jornada como autores de homicidio en grado de desarrollo frustrado&quot;, dijo el persecutor de la Fiscalía de Flagrancia Occidente, Felipe Chandía.</p>",
+      "url": "https://www.cooperativa.cl/noticias/pais/policial/detienen-a-dos-hermanos-acusados-de-apunalar-a-un-hombre-en-san-bernardo/2026-11-07/082510.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261107/imag/foto_0000000220261107082510.png",
+      "publishedAt": "2026-11-07T11:25:10+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 72,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1133,24 +1243,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brujulabike-0ab1e9d676",
-      "title": "Gama Orbea Oiz 2027 desde 3.799 €: todos los modelos, montajes y precios",
-      "summary": "La nueva Orbea Oiz 2027 evoluciona con un cuadro rediseñado, geometría moderna, suspensión de 120 mm y versiones OMX y OMR para todos los niveles.",
-      "content": "<p>Tras dejarse ver por los circuitos de la Copa del Mundo, Orbea ha presentó la nueva generación de la Oiz, una bicicleta que mantiene su ADN pero que evoluciona con un cuadro completamente nuevo. La marca vasca define esta nueva Orbea Oiz 2027 como el resultado de tres años de desarrollo donde el objetivo era aumentar rendimiento global sin comprometer el peso ni la eficiencia.</p><p>La nueva Oiz llega con un cuadro completamente rediseñado, una suspensión revisada, una geometría actualizada y numerosos cambios estructurales destinados a mejorar la rigidez, la precisión de conducción y la capacidad en los circuitos más técnicos de la Copa del Mundo.</p><p>&lt;iframe src=&quot;https://www.youtube.com/embed/YZixhWSMtQ0?si=PLRiROe09B0VtUDh&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</p><p>Aunque visualmente mantiene una silueta reconocible, la nueva Oiz es una bicicleta completamente nueva.</p><p>El desarrollo se ha centrado en encontrar el equilibrio entre dos factores que habitualmente entran en conflicto: aumentar la rigidez estructural y mantener un peso competitivo. Para lograrlo se han rediseñado todas las zonas críticas del cuadro utilizando extensos análisis por elementos finitos (FEA), optimizando tanto las formas como los procesos de fabricación.</p><p>Uno de los cambios más importantes aparece en la zona del pedalier. Gracias a la optimización de los procesos de laminado y unión del carbono, Orbea asegura haber reducido material en esta área manteniendo los niveles de resistencia y rigidez estructural.</p><p>También es completamente nueva la bieleta de suspensión. Ahora está fabricada en aluminio forjado en lugar de carbono y presenta vaciados estratégicos que les han permitido reducir su peso aproximadamente un 30%, según la marca, respecto a la generación anterior al tiempo que aumenta la rigidez del conjunto.</p><p>La estructura incorpora además un nuevo puente entre los tirantes para mantener el triángulo trasero alineado bajo carga y mejorar la precisión cuando la bicicleta recibe fuertes impactos o se somete a esfuerzos elevados.</p><p>Una de las soluciones estructurales más relevantes es el denominado Powerspine.</p><p>Se trata de una estructura que recorre la parte inferior del cuadro desde la dirección hasta el pedalier y cuya función es mejorar la transferencia de potencia. Según Orbea, esta zona resulta especialmente importante durante esfuerzos explosivos como aceleraciones, sprints o cambios de ritmo, donde cualquier pérdida de rigidez puede traducirse en pérdida de rendimiento.</p><p>El tubo superior también ha sido rediseñado con aletas estructurales que incrementan la resistencia torsional del conjunto, mientras que vainas y tirantes han sido optimizados para aumentar la estabilidad en zonas técnicas sin penalizar el peso final.</p><p>La nueva Oiz mantiene una configuración de 120 mm de recorrido tanto delante como detrás, una cifra que ya se ha convertido en un estándar para el XC de competición.</p><p>No obstante, Orbea ofrece la posibilidad de montar una horquilla de 130 mm para quienes busquen un comportamiento más cercano al downcountry o afronten recorridos especialmente técnicos.</p><p>La cinemática continúa utilizando una curva regresiva con un elevado soporte inicial. Esto permite reducir el hundimiento durante el pedaleo y limitar el balanceo de la suspensión cuando el amortiguador trabaja en posición abierta.</p><p>Para controlar la progresividad final del recorrido se emplea un amortiguador de pequeño volumen que ayuda a evitar topes bruscos sin sacrificar sensibilidad en la primera parte del recorrido.</p><p>Los cambios de geometría son relativamente contenidos sobre el papel.</p><p>Las vainas se reducen de 432 mm a 430 mm, favoreciendo una aceleración más rápida y una mayor reactividad.</p><p>El ángulo de dirección pasa de 67º a 66,8º, una cifra ligeramente más lanzada que mejora la estabilidad a alta velocidad y el control en descensos técnicos.</p><p>Por su parte, el tubo de sillín adopta una posición más vertical para colocar al ciclista más centrado sobre el eje de pedalier, mejorando la eficiencia y la tracción en subidas pronunciadas.</p><p>La geometría completa queda configurada con:</p><p>La nueva Oiz mantiene dos de las tecnologías más reconocibles de Orbea. La primera es I-Line, el sistema patentado que guía el cableado del bloqueo de suspensión a través del tubo superior hasta el amortiguador eliminando curvas cerradas y reduciendo la fricción del sistema.</p><p>La segunda es el conocido Squidlock, que integra el control de la tija telescópica y las tres posiciones de la suspensión mediante un mando compacto diseñado para accionarse sin retirar la mano del manillar.</p><p>La obsesión por la ligereza sigue siendo una prioridad en la nueva Oiz. El cuadro OMX, el carbono superior de Orbea, declara un peso de únicamente 1.700 gramos incluyendo el amortiguador y en talla M, una cifra que lo sitúa entre los cuadros dobles de XC más ligeros del mercado.</p><p>Sin embargo, Orbea insiste en que el objetivo principal no era lograr el cuadro más ligero posible, sino la bicicleta más rápida. Durante el desarrollo se probaron diferentes configuraciones de carbono y, según la marca, los corredores del Orbea FOX Factory Team prefirieron sistemáticamente la versión definitiva frente a otra aproximadamente 50 gramos más ligera porque ofrecía mejores sensaciones y un rendimiento superior.</p><p>Además de las mejoras de rendimiento, la nueva Oiz incorpora varias soluciones orientadas a la durabilidad y la funcionalidad. Entre ellas destacan:</p><p>La nueva gama Orbea Oiz 2027 se compone por 8 modelos divididos en torno a dos niveles de carbono. Por un lado, el exclusivo cuadro OMX, la versión más ligera y orientada a la competición, disponible en cuatro montajes que van desde la Oiz M-Pro (7.299 €) hasta la Oiz M-LTD (10.999 €). Por otro, el cuadro OMR, que mantiene la misma geometría y filosofía de rendimiento con un enfoque más accesible, dando forma a una gama de cuatro modelos con precios que arrancan en los 3.799 € de la Oiz M30 y alcanzan los 6.999 € de la Oiz M10 AXS.</p><p>* Cuadro: Oiz Carbon OMR * Transmisión: Shimano XT Di2 M8250 * Suspensiones: Fox 34 Float SL Factory + Fox Float SL Factory * Ruedas: Oquo MP30 Team * Precio: 5.999 €</p>",
-      "url": "https://www.brujulabike.com/orbea-oiz-2027-precios-modelos-caracteristicas/",
-      "image": "https://cdn.brujulabike.com/media/190550/conversions/oiz-beauty-3000-x-10003-620.jpg",
-      "publishedAt": "2026-11-07T10:11:00+00:00",
-      "sourceId": "brujulabike",
-      "sourceName": "Brújula Bike",
-      "sourceType": "MTB, Gravel y Competición",
-      "sourceSite": "https://brujulabike.com",
-      "region": "mundo",
-      "country": "España",
+      "id": "jacobinlat-ee9cf47bcc",
+      "title": "DSA evalúa una candidatura presidencial de AOC en 2028",
+      "summary": "Los miembros de los Socialistas Democráticos de Estados Unidos (DSA) están pensando seriamente en una campaña presidencial nacional de Alexandria Ocasio-Cortez en 2028 que llegaría a millones de trabajadores y tendría el potencial de transformar la política estadounidense. La entrada DSA evalúa una candidatura presidencial de AOC en...",
+      "content": "<p>Los miembros de los Socialistas Democráticos de Estados Unidos (DSA) están pensando seriamente en una campaña presidencial nacional de Alexandria Ocasio-Cortez en 2028 que llegaría a millones de trabajadores y tendría el potencial de transformar la política estadounidense.</p><p>La entrada DSA evalúa una candidatura presidencial de AOC en 2028 se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/dsa-evalua-una-candidatura-presidencial-de-aoc-en-2028/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/304435546798.jpg",
+      "publishedAt": "2026-11-07T10:22:44+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
       "independent": true,
-      "category": "Política y Actualidad",
+      "category": "Geopolítica y Mundo",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "relevanceScore": 80,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "elciudadano-bcfef949f9",
@@ -1173,13 +1283,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brujulabike-584721ec02",
-      "title": "Europeo de ciclocross 2026: favoritos, horarios y dónde ver las carreras en directo",
-      "summary": "El Europeo de ciclocross 2026 se disputa el 7 y 8 de noviembre en Zeddam. Consulta los favoritos, los horarios de las carreras y dónde verlo en directo.",
-      "content": "<p>El primer gran campeonato de la temporada de ciclocross se disputa este fin de semana, 7 y 8 de noviembre, en Zeddam (Países Bajos). Seis títulos europeos estarán en juego en un circuito que recupera parte de la historia del Mundial de 2006. Thibau Nys y Lucinda Brand parten como principales candidatos en las carreras élite, mientras que Felipe Orts liderará la participación española.</p><p>El Campeonato de Europa de ciclocross 2026 reúne este fin de semana a buena parte de los mejores especialistas del continente. Zeddam vuelve al primer plano internacional veinte años después de acoger un Mundial y lo hace con un escenario que promete carreras exigentes, aunque los principales atractivos estarán en la lucha por los títulos élite.</p><p>Bélgica llega con una selección masculina especialmente potente y varias alternativas para conseguir el oro, mientras que Países Bajos intentará aprovechar su condición de anfitrión. En la carrera femenina, las neerlandesas vuelven a presentar el bloque más fuerte, pero sus rivales internacionales han comenzado la temporada con resultados suficientes para pensar que el podio no tiene por qué ser exclusivamente naranja.</p><p>Zeddam presenta un recorrido de 2,97 kilómetros diseñado por el excampeón mundial Erwin Vervecken, precisamente el ganador del título absoluto en este mismo escenario hace veinte años.</p><p>La principal particularidad será una espectacular escalera de casi 100 peldaños única yreconstruida para la ocasión, que obligará a los corredores a realizar un importante esfuerzo a pie en cada vuelta. Sus 50 metros de longitud y 25 grados de inclinación podrían convertirse en un factor decisivo, especialmente durante la segunda mitad de las carreras.</p><p>El trazado también incluye sectores rápidos de pradera, cambios de desnivel y zonas técnicas, aunque la previsión de tiempo seco apunta a un circuito relativamente rápido. El frío, con temperaturas máximas cercanas a los 7 grados, será otro de los elementos que acompañarán a los participantes.</p><p>Thibau Nys llega como principal favorito al título masculino. El campeón belga comenzó su campaña de ciclocross con una contundente victoria en el Koppenbergcross y buscará recuperar la corona europea que conquistó en 2024. El pasado año se quedó a las puertas del oro, superado por Toon Aerts en un ajustadísimo desenlace.</p><p>Sin embargo, la selección belga tiene suficientes opciones para ganar incluso sin Nys. Michael Vanthourenhout, campeón europeo en 2022 y 2023, ha comenzado la temporada con tres victorias y también aparecen como candidatos Joran Wyseure, Niels Vandeputte y Gerben Kuypers.</p><p>La principal amenaza para Bélgica puede llegar desde el equipo anfitrión. El neerlandés Joris Nieuwenhuis ha preparado especialmente este campeonato, que se disputa a apenas 15 kilómetros de su casa, y Pim Ronhaar también ha demostrado que puede luchar por las medallas.</p><p>Entre los aspirantes de otras selecciones destacan el británico Cameron Mason y el español Felipe Orts, noveno en el Europeo de 2025 y uno de los corredores capaces de acercarse a los mejores cuando encuentra su ritmo de carrera.</p><p>Lucinda Brand es la gran referencia de la prueba femenina. La actual campeona del mundo ha comenzado la temporada con victorias en Dendermonde, Ardooie, Overijse y el Koppenbergcross. A sus 37 años, sigue mostrando un nivel que la convierte en la principal candidata al oro</p><p>Países Bajos también contará con Inge van der Heijden, defensora del título, y Aniek van Alphen, que está destacando por su regularidad. Ceylin del Carmen Alvarado y Fem van Empel completan un bloque neerlandés con varias corredoras capaces de ganar.</p><p>La oposición internacional estará encabezada por la luxemburguesa Marie Schreiber, una de las rivales más consistentes de Brand, y la italiana Sara Casasola, segunda en el reciente Koppenbergcross. Las francesas Amandine Fouquenet y Hélène Clauzel también llegan con posibilidades de disputar las medallas.</p><p>La selección española, dirigida por Javier Ruiz de Larrinaga, contará con 15 representantes repartidos entre las seis categorías.</p><p>Felipe Orts será la principal referencia del equipo nacional en la carrera masculina élite, acompañado por Raúl Mira. En la categoría femenina, Sofía Rodríguez y Lucía González serán las representantes españolas.</p><p>España también tendrá participación en las carreras sub-23 y júnior, con corredores como Martín Fernández, Unax Galán, Ana López o Mirari Gotxi.</p><p>La convocatoria completa de España para el Campeonato de Europa de ciclocross 2026 reúne a todos los participantes nacionales y sus respectivas categorías.</p><p>Las seis carreras se repartirán entre el sábado 7 y el domingo 8 de noviembre. Todos los horarios corresponden a la hora peninsular española.</p><p>Las dos carreras élite podrán seguirse en España a través de Eurosport 2 y HBO Max. La cobertura comenzará a las 14:50, diez minutos antes de las salidas previstas para las 15:00.</p><p>El Europeo será la primera oportunidad de la temporada para medir a buena parte de los mejores especialistas en una competición por selecciones nacionales, con un circuito que puede favorecer las carreras rápidas, pero en el que el desgaste acumulado de los obstáculos podría marcar las diferencias en la lucha por las medallas.</p>",
-      "url": "https://www.brujulabike.com/europeo-ciclocross-2026-favoritos-horarios-donde-ver/",
-      "image": "https://cdn.brujulabike.com/media/212726/conversions/892529140-1060151960405794-3789083673256197999-npng-620.jpg",
-      "publishedAt": "2026-11-07T09:11:00+00:00",
+      "id": "brujulabike-0ab1e9d676",
+      "title": "Gama Orbea Oiz 2027 desde 3.799 €: todos los modelos, montajes y precios",
+      "summary": "La nueva Orbea Oiz 2027 evoluciona con un cuadro rediseñado, geometría moderna, suspensión de 120 mm y versiones OMX y OMR para todos los niveles.",
+      "content": "<p>Tras dejarse ver por los circuitos de la Copa del Mundo, Orbea ha presentó la nueva generación de la Oiz, una bicicleta que mantiene su ADN pero que evoluciona con un cuadro completamente nuevo. La marca vasca define esta nueva Orbea Oiz 2027 como el resultado de tres años de desarrollo donde el objetivo era aumentar rendimiento global sin comprometer el peso ni la eficiencia.</p><p>La nueva Oiz llega con un cuadro completamente rediseñado, una suspensión revisada, una geometría actualizada y numerosos cambios estructurales destinados a mejorar la rigidez, la precisión de conducción y la capacidad en los circuitos más técnicos de la Copa del Mundo.</p><p>&lt;iframe src=&quot;https://www.youtube.com/embed/YZixhWSMtQ0?si=PLRiROe09B0VtUDh&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</p><p>Aunque visualmente mantiene una silueta reconocible, la nueva Oiz es una bicicleta completamente nueva.</p><p>El desarrollo se ha centrado en encontrar el equilibrio entre dos factores que habitualmente entran en conflicto: aumentar la rigidez estructural y mantener un peso competitivo. Para lograrlo se han rediseñado todas las zonas críticas del cuadro utilizando extensos análisis por elementos finitos (FEA), optimizando tanto las formas como los procesos de fabricación.</p><p>Uno de los cambios más importantes aparece en la zona del pedalier. Gracias a la optimización de los procesos de laminado y unión del carbono, Orbea asegura haber reducido material en esta área manteniendo los niveles de resistencia y rigidez estructural.</p><p>También es completamente nueva la bieleta de suspensión. Ahora está fabricada en aluminio forjado en lugar de carbono y presenta vaciados estratégicos que les han permitido reducir su peso aproximadamente un 30%, según la marca, respecto a la generación anterior al tiempo que aumenta la rigidez del conjunto.</p><p>La estructura incorpora además un nuevo puente entre los tirantes para mantener el triángulo trasero alineado bajo carga y mejorar la precisión cuando la bicicleta recibe fuertes impactos o se somete a esfuerzos elevados.</p><p>Una de las soluciones estructurales más relevantes es el denominado Powerspine.</p><p>Se trata de una estructura que recorre la parte inferior del cuadro desde la dirección hasta el pedalier y cuya función es mejorar la transferencia de potencia. Según Orbea, esta zona resulta especialmente importante durante esfuerzos explosivos como aceleraciones, sprints o cambios de ritmo, donde cualquier pérdida de rigidez puede traducirse en pérdida de rendimiento.</p><p>El tubo superior también ha sido rediseñado con aletas estructurales que incrementan la resistencia torsional del conjunto, mientras que vainas y tirantes han sido optimizados para aumentar la estabilidad en zonas técnicas sin penalizar el peso final.</p><p>La nueva Oiz mantiene una configuración de 120 mm de recorrido tanto delante como detrás, una cifra que ya se ha convertido en un estándar para el XC de competición.</p><p>No obstante, Orbea ofrece la posibilidad de montar una horquilla de 130 mm para quienes busquen un comportamiento más cercano al downcountry o afronten recorridos especialmente técnicos.</p><p>La cinemática continúa utilizando una curva regresiva con un elevado soporte inicial. Esto permite reducir el hundimiento durante el pedaleo y limitar el balanceo de la suspensión cuando el amortiguador trabaja en posición abierta.</p><p>Para controlar la progresividad final del recorrido se emplea un amortiguador de pequeño volumen que ayuda a evitar topes bruscos sin sacrificar sensibilidad en la primera parte del recorrido.</p><p>Los cambios de geometría son relativamente contenidos sobre el papel.</p><p>Las vainas se reducen de 432 mm a 430 mm, favoreciendo una aceleración más rápida y una mayor reactividad.</p><p>El ángulo de dirección pasa de 67º a 66,8º, una cifra ligeramente más lanzada que mejora la estabilidad a alta velocidad y el control en descensos técnicos.</p><p>Por su parte, el tubo de sillín adopta una posición más vertical para colocar al ciclista más centrado sobre el eje de pedalier, mejorando la eficiencia y la tracción en subidas pronunciadas.</p><p>La geometría completa queda configurada con:</p><p>La nueva Oiz mantiene dos de las tecnologías más reconocibles de Orbea. La primera es I-Line, el sistema patentado que guía el cableado del bloqueo de suspensión a través del tubo superior hasta el amortiguador eliminando curvas cerradas y reduciendo la fricción del sistema.</p><p>La segunda es el conocido Squidlock, que integra el control de la tija telescópica y las tres posiciones de la suspensión mediante un mando compacto diseñado para accionarse sin retirar la mano del manillar.</p><p>La obsesión por la ligereza sigue siendo una prioridad en la nueva Oiz. El cuadro OMX, el carbono superior de Orbea, declara un peso de únicamente 1.700 gramos incluyendo el amortiguador y en talla M, una cifra que lo sitúa entre los cuadros dobles de XC más ligeros del mercado.</p><p>Sin embargo, Orbea insiste en que el objetivo principal no era lograr el cuadro más ligero posible, sino la bicicleta más rápida. Durante el desarrollo se probaron diferentes configuraciones de carbono y, según la marca, los corredores del Orbea FOX Factory Team prefirieron sistemáticamente la versión definitiva frente a otra aproximadamente 50 gramos más ligera porque ofrecía mejores sensaciones y un rendimiento superior.</p><p>Además de las mejoras de rendimiento, la nueva Oiz incorpora varias soluciones orientadas a la durabilidad y la funcionalidad. Entre ellas destacan:</p><p>La nueva gama Orbea Oiz 2027 se compone por 8 modelos divididos en torno a dos niveles de carbono. Por un lado, el exclusivo cuadro OMX, la versión más ligera y orientada a la competición, disponible en cuatro montajes que van desde la Oiz M-Pro (7.299 €) hasta la Oiz M-LTD (10.999 €). Por otro, el cuadro OMR, que mantiene la misma geometría y filosofía de rendimiento con un enfoque más accesible, dando forma a una gama de cuatro modelos con precios que arrancan en los 3.799 € de la Oiz M30 y alcanzan los 6.999 € de la Oiz M10 AXS.</p><p>* Cuadro: Oiz Carbon OMR * Transmisión: Shimano XT Di2 M8250 * Suspensiones: Fox 34 Float SL Factory + Fox Float SL Factory * Ruedas: Oquo MP30 Team * Precio: 5.999 €</p>",
+      "url": "https://www.brujulabike.com/orbea-oiz-2027-precios-modelos-caracteristicas/",
+      "image": "https://cdn.brujulabike.com/media/190550/conversions/oiz-beauty-3000-x-10003-620.jpg",
+      "publishedAt": "2026-11-07T10:11:00+00:00",
       "sourceId": "brujulabike",
       "sourceName": "Brújula Bike",
       "sourceType": "MTB, Gravel y Competición",
@@ -1204,6 +1314,26 @@
       "sourceName": "EsCiclismo",
       "sourceType": "Ciclismo Global y Pruebas UCI",
       "sourceSite": "https://www.esciclismo.com",
+      "region": "mundo",
+      "country": "España",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "brujulabike-584721ec02",
+      "title": "Europeo de ciclocross 2026: favoritos, horarios y dónde ver las carreras en directo",
+      "summary": "El Europeo de ciclocross 2026 se disputa el 7 y 8 de noviembre en Zeddam. Consulta los favoritos, los horarios de las carreras y dónde verlo en directo.",
+      "content": "<p>El primer gran campeonato de la temporada de ciclocross se disputa este fin de semana, 7 y 8 de noviembre, en Zeddam (Países Bajos). Seis títulos europeos estarán en juego en un circuito que recupera parte de la historia del Mundial de 2006. Thibau Nys y Lucinda Brand parten como principales candidatos en las carreras élite, mientras que Felipe Orts liderará la participación española.</p><p>El Campeonato de Europa de ciclocross 2026 reúne este fin de semana a buena parte de los mejores especialistas del continente. Zeddam vuelve al primer plano internacional veinte años después de acoger un Mundial y lo hace con un escenario que promete carreras exigentes, aunque los principales atractivos estarán en la lucha por los títulos élite.</p><p>Bélgica llega con una selección masculina especialmente potente y varias alternativas para conseguir el oro, mientras que Países Bajos intentará aprovechar su condición de anfitrión. En la carrera femenina, las neerlandesas vuelven a presentar el bloque más fuerte, pero sus rivales internacionales han comenzado la temporada con resultados suficientes para pensar que el podio no tiene por qué ser exclusivamente naranja.</p><p>Zeddam presenta un recorrido de 2,97 kilómetros diseñado por el excampeón mundial Erwin Vervecken, precisamente el ganador del título absoluto en este mismo escenario hace veinte años.</p><p>La principal particularidad será una espectacular escalera de casi 100 peldaños única yreconstruida para la ocasión, que obligará a los corredores a realizar un importante esfuerzo a pie en cada vuelta. Sus 50 metros de longitud y 25 grados de inclinación podrían convertirse en un factor decisivo, especialmente durante la segunda mitad de las carreras.</p><p>El trazado también incluye sectores rápidos de pradera, cambios de desnivel y zonas técnicas, aunque la previsión de tiempo seco apunta a un circuito relativamente rápido. El frío, con temperaturas máximas cercanas a los 7 grados, será otro de los elementos que acompañarán a los participantes.</p><p>Thibau Nys llega como principal favorito al título masculino. El campeón belga comenzó su campaña de ciclocross con una contundente victoria en el Koppenbergcross y buscará recuperar la corona europea que conquistó en 2024. El pasado año se quedó a las puertas del oro, superado por Toon Aerts en un ajustadísimo desenlace.</p><p>Sin embargo, la selección belga tiene suficientes opciones para ganar incluso sin Nys. Michael Vanthourenhout, campeón europeo en 2022 y 2023, ha comenzado la temporada con tres victorias y también aparecen como candidatos Joran Wyseure, Niels Vandeputte y Gerben Kuypers.</p><p>La principal amenaza para Bélgica puede llegar desde el equipo anfitrión. El neerlandés Joris Nieuwenhuis ha preparado especialmente este campeonato, que se disputa a apenas 15 kilómetros de su casa, y Pim Ronhaar también ha demostrado que puede luchar por las medallas.</p><p>Entre los aspirantes de otras selecciones destacan el británico Cameron Mason y el español Felipe Orts, noveno en el Europeo de 2025 y uno de los corredores capaces de acercarse a los mejores cuando encuentra su ritmo de carrera.</p><p>Lucinda Brand es la gran referencia de la prueba femenina. La actual campeona del mundo ha comenzado la temporada con victorias en Dendermonde, Ardooie, Overijse y el Koppenbergcross. A sus 37 años, sigue mostrando un nivel que la convierte en la principal candidata al oro</p><p>Países Bajos también contará con Inge van der Heijden, defensora del título, y Aniek van Alphen, que está destacando por su regularidad. Ceylin del Carmen Alvarado y Fem van Empel completan un bloque neerlandés con varias corredoras capaces de ganar.</p><p>La oposición internacional estará encabezada por la luxemburguesa Marie Schreiber, una de las rivales más consistentes de Brand, y la italiana Sara Casasola, segunda en el reciente Koppenbergcross. Las francesas Amandine Fouquenet y Hélène Clauzel también llegan con posibilidades de disputar las medallas.</p><p>La selección española, dirigida por Javier Ruiz de Larrinaga, contará con 15 representantes repartidos entre las seis categorías.</p><p>Felipe Orts será la principal referencia del equipo nacional en la carrera masculina élite, acompañado por Raúl Mira. En la categoría femenina, Sofía Rodríguez y Lucía González serán las representantes españolas.</p><p>España también tendrá participación en las carreras sub-23 y júnior, con corredores como Martín Fernández, Unax Galán, Ana López o Mirari Gotxi.</p><p>La convocatoria completa de España para el Campeonato de Europa de ciclocross 2026 reúne a todos los participantes nacionales y sus respectivas categorías.</p><p>Las seis carreras se repartirán entre el sábado 7 y el domingo 8 de noviembre. Todos los horarios corresponden a la hora peninsular española.</p><p>Las dos carreras élite podrán seguirse en España a través de Eurosport 2 y HBO Max. La cobertura comenzará a las 14:50, diez minutos antes de las salidas previstas para las 15:00.</p><p>El Europeo será la primera oportunidad de la temporada para medir a buena parte de los mejores especialistas en una competición por selecciones nacionales, con un circuito que puede favorecer las carreras rápidas, pero en el que el desgaste acumulado de los obstáculos podría marcar las diferencias en la lucha por las medallas.</p>",
+      "url": "https://www.brujulabike.com/europeo-ciclocross-2026-favoritos-horarios-donde-ver/",
+      "image": "https://cdn.brujulabike.com/media/212726/conversions/892529140-1060151960405794-3789083673256197999-npng-620.jpg",
+      "publishedAt": "2026-11-07T09:11:00+00:00",
+      "sourceId": "brujulabike",
+      "sourceName": "Brújula Bike",
+      "sourceType": "MTB, Gravel y Competición",
+      "sourceSite": "https://brujulabike.com",
       "region": "mundo",
       "country": "España",
       "independent": true,
@@ -1533,26 +1663,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-af100f35f7",
-      "title": "Casa Blanca mantiene proyecto del arco del triunfo en Washington pese a revés judicial",
-      "summary": "La jueza Tanya Chutkan había bloqueado la construcción del monumento, mientras se revisan las impugnaciones sobre la legalidad de Trump.",
-      "content": "",
-      "url": "https://www.dw.com/es/casa-blanca-mantiene-proyecto-del-arco-del-triunfo-en-washington-pese-a-revés-judicial/a-79882868?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-11-07T00:55:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "country": "Alemania / Global",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "ciper-425b614888",
       "title": "Lo que calló Rabat",
       "summary": "La entrada Lo que calló Rabat se publicó primero en CIPER Chile .",
@@ -1733,24 +1843,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-5da6b56767",
-      "title": "La Serena y Palestino abren la fecha 27 con la mira puesta en copas internacionales",
-      "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes Deportes La Serena y Palestino serán los encargados de abrir los fuegos de la fecha 27 en la Liga de Primera, ya que ambos se verán las caras este sábado 7 de noviembre en el Estadio La Portada, a partir de las 15:00 horas (18:00 GMT). El elenco de colonia arriba a la cita en el...",
-      "content": "<p>Deportes La Serena y Palestino serán los encargados de abrir los fuegos de la fecha 27 en la Liga de Primera, ya que ambos se verán las caras este sábado 7 de noviembre en el Estadio La Portada, a partir de las 15:00 horas (18:00 GMT).</p><p>El elenco de colonia arriba a la cita en el sexto casillero con 38 unidades, cerrando los puestos de clasificación a la próxima Copa Sudamericana. Sin embargo, los &quot;árabes&quot; atraviesan un momento dubitativo tras sumar cuatro presentaciones consecutivas sin victorias, racha que acentuaron tras caer con a Deportes Concepción.</p><p>Por su parte, el cuadro &quot;papayero&quot; es undécimo con 34 puntos y tiene la opción de meterse en la discusión internacional si hace valer su localía. No obstante, los dirigidos por Felipe Gutiérrez vienen de igualar frente a Huachipato antes de enfrentar a un elenco que no vencen desde 2021, acumulando 6 partidos sin festejar ante el &quot;tino tino&quot;.</p><p>Con el arbitraje de José Cabero, todos los detalles de este choque los podrás seguir en Cooperativa.cl.</p>",
-      "url": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/la-serena-y-palestino-abren-la-fecha-27-con-la-mira-puesta-en-copas/2026-11-06/190235.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106190235.png",
-      "publishedAt": "2026-11-06T22:02:35+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
+      "id": "ciper-edfa447564",
+      "title": "El proyecto de reforma al INDH ante los estándares internacionales",
+      "summary": "La entrada El proyecto de reforma al INDH ante los estándares internacionales se publicó primero en CIPER Chile .",
+      "content": "<p>En tiempos de incertidumbre y fake news, el periodismo de CIPER es más necesario que nunca.</p><p>Tu aporte mensual nos permite seguir investigando</p><p>Por Lieta Vivaldi, Tomás Pascual y Leonel González Postigo</p><p>-- --&gt; --&gt; --&gt; --&gt; --&gt; --&gt; Los autores de esta columna advierten que el proyecto del gobierno para reformar el INDH invoca los Principios de París, pero va en sentido contrario a ellos: pone fin a los mandatos de los consejeros en funciones, entrega al Presidente la propuesta de todo el Consejo transitorio, elimina la facultad de querellarse por crímenes graves y recorta el presupuesto. Recuerdan que Chile respaldó en Ginebra, ese mismo mes, una resolución de Naciones Unidas que llama a fortalecer estas instituciones. Concluyen que “el Congreso puede corregir lo esencial sin invadir la iniciativa exclusiva del Ejecutivo, permitiendo que los mandatos vigentes expiren naturalmente, manteniendo la renovación por parcialidades y conservando a la Corte Suprema como tribunal de remoción”.</p><p>En diciembre de 1993, la Asamblea General de Naciones Unidas hizo suyos, en su resolución 48/134, los principios relativos al estatuto de las instituciones nacionales, conocidos como Principios de París. Desde entonces existe un estándar común sobre lo que debe ser una institución nacional de derechos humanos. Debe ser “competente en el ámbito de la promoción y protección de los derechos humanos”, con un mandato “el más amplio posible, claramente enunciado en un texto constitucional o legislativo”. Debe contar con un procedimiento de designación que garantice la “representación pluralista de las fuerzas sociales”, y con recursos propios “a fin de lograr la autonomía respecto del Estado”.</p><p>La Comisión de Derechos Humanos primero y el Consejo de Derechos Humanos después han reiterado y desarrollado ese estándar durante más de tres décadas. La última vez fue el 6 de octubre de 2026, con la resolución 63/25, adoptada sin votación y con Chile como miembro del Consejo. Esa resolución reafirma “la importancia de establecer instituciones nacionales independientes y pluralistas de derechos humanos que cumplan los Principios de París, y de fortalecer las existentes”. Trece días después, el gobierno ingresó el Mensaje N° 174-374, que reforma el INDH invocando esos mismos Principios. Pero su articulado borra de la Ley N° 20.405 la única norma que obliga al Instituto a ajustarse a los principios internacionales que rigen a estas instituciones. También suprime de su mandato los derechos “emanados de los principios generales del derecho, reconocidos por la comunidad internacional”. La resolución 63/25 alienta a los Estados a “mantener un marco legislativo o normativo que sea conforme con los Principios de París” (párr. 11). El Mensaje, en cambio, retira ese marco de la ley.</p><p>El punto más delicado es la independencia del órgano que dirige el Instituto. Los Principios exigen que el nombramiento se haga por acto oficial con un plazo determinado, porque la estabilidad del mandato es aquella “sin la cual no habrá una verdadera independencia”. La resolución 63/25 “destaca la importancia de la independencia financiera y administrativa y la estabilidad” de las instituciones nacionales (párr. 4). }</p><p>El Mensaje pone término de pleno derecho a los mandatos de los 11 consejeros en funciones, cualquiera sea el tiempo que les reste. Entrega además la dirección del Instituto, por dos años, a un Consejo de cinco miembros propuestos en nómina única por el Presidente de la República y aprobados por mayoría simple del Senado. En ese Consejo no participan la sociedad civil, la Cámara ni la academia, y será él quien dicte los estatutos que regularán la elección de sus sucesores. La exigencia de una “representación pluralista de las fuerzas sociales” queda suspendida justo cuando se rediseña la institución. En el régimen permanente, además, las organizaciones de derechos humanos dejan de elegir consejeros y pasan a proponer una nómina que el Presidente filtra o puede omitir. Y al eliminar la renovación por parcialidades, el Consejo completo se renovará cada cuatro años, al ritmo del ciclo presidencial.</p><p>El mandato de protección también se reduce. El Mensaje redefine al INDH como una institución “principalmente consultiva”. Para eso lee los Principios de París como si la expresión “a título consultivo” describiera la naturaleza de la institución. En realidad describe cómo presenta sus dictámenes y recomendaciones “al gobierno, al Parlamento y a cualquier otro órgano pertinente”. Los Principios la hacen competente en promoción y también en protección. La resolución 63/25 reafirma el papel de las instituciones nacionales para prevenir y remediar “las violaciones y abusos de los derechos humanos, ayudando a las víctimas a obtener reparación”. Además, “hace notar con satisfacción” las iniciativas de los Estados que les han dado mayor autonomía, “por ejemplo asignándoles una función de investigación o afianzándola” (párr. 4).</p><p>Sin embargo, el proyecto reemplaza el numeral 5 del artículo 3° de la Ley 20.405 y elimina la facultad del INDH de querellarse por tortura, desaparición forzada, crímenes de lesa humanidad, trata de personas y otros crímenes graves. Es cierto que los Principios de París no exigen facultades de litigio penal: la competencia para conocer «denuncias y demandas relativas a situaciones particulares» figura entre los principios complementarios, que son facultativos. Pero suprimir una atribución que el Instituto ya tiene va en sentido contrario al que el Consejo de Derechos Humanos ha alentado. A cambio, se le permite «denunciar», algo que cualquier persona puede hacer y que los funcionarios públicos ya están obligados a realizar. Como el Código Procesal Penal solo permite querellarse a los órganos públicos cuya ley orgánica lo autoriza expresamente, el resultado es simple: se excluye al INDH del proceso penal.</p><p>El propio gobierno reconoce lo que está en juego. En su Informe Financiero afirma que en 2025 cerca del 54% de las acciones judiciales del INDH fueron querellas, y con ese dato justifica reducir en un 70% la dotación de abogados de la unidad de protección. Ante la Comisión de Derechos Humanos de la Cámara de Diputadas y Diputados, el pasado 21 de octubre, el ministro de Justicia señaló que, de las 3.263 querellas presentadas por el INDH durante el estallido social, solo 68 habían tenido “algún destino”. Pero ese resultado refleja el desempeño de un sistema que cerró miles de causas por violencia institucional con archivos y decisiones de no perseverar. La escasa respuesta judicial frente a las denuncias contra agentes del Estado es una razón para fortalecer al querellante, no para suprimirlo.</p><p>La querella del INDH cumple, además, una función distinta de la que corresponde al Ministerio Público. La fiscalía actúa en nombre del interés general y según su propia política de persecución penal, que determina qué investigaciones impulsa y cuáles no. El querellante puede contrapesar esas decisiones: pedir diligencias, recurrir, oponerse al cierre de la causa y forzar la acusación cuando el fiscal decide no acusar. Ninguna de esas facultades corresponde a quien solo denuncia. Cuando quien está acusado es un agente del Estado, devolverle al Estado el monopolio de la acusación es suprimir un control externo muy valioso en el ámbito de la justicia penal.</p><p>En este sentido, el INDH representa intereses de comunidades concretas: comunidades mapuches, personas privadas de libertad, niños, niñas y adolescentes, manifestantes, entre otros. En muchos de estos casos el daño trasciende a la víctima individual y se vincula con prácticas institucionales. Su participación como querellante permite que esa dimensión colectiva tenga un lugar en el proceso penal. Eliminarla priva a estas víctimas de un respaldo institucional relevante y debilita una de las herramientas centrales de protección del Instituto.</p><p>Queda el financiamiento. Los Principios exigen “una infraestructura apropiada”, con créditos suficientes para personal e instalaciones propias, y prevén que la institución pueda establecer “secciones locales o regionales”. El Informe Financiero del Mensaje proyecta un menor gasto de cerca del 22,8% del presupuesto en régimen, con un 50% menos de dotación regional y un 70% menos de abogados de protección. Al mismo tiempo, agrega funciones nuevas sin costo asignado. La resolución 63/25 advierte que las instituciones nacionales no deben sufrir represalias o intimidación, “como presiones políticas, intimidaciones físicas, actos de acoso o limitaciones presupuestarias injustificables”. Precisa además que eso aplica a actividades “que pueden incluir ocuparse de casos individuales o denunciar violaciones graves o sistemáticas” (párr. 5), que es justamente lo que el recorte suprime.</p><p>El INDH requiere cambios. Es una institución que debe avanzar en transparencia, sobre todo en la forma en que se designa a sus consejeras y consejeros, y fortalecer su pluralismo, para que su Consejo refleje mejor la diversidad de la sociedad. Esos ajustes son necesarios para consolidar su legitimidad.</p><p>Existe ya un trabajo previo que orienta esos cambios. En junio de 2025, la Comisión Asesora para el Fortalecimiento del INDH, creada por la Ley de Presupuestos, entregó 44 recomendaciones, 42 de ellas aprobadas por unanimidad. Sus integrantes fueron designados por el Ejecutivo y por las comisiones de derechos humanos del Senado y de la Cámara; entre ellos había una excanciller de Gabriel Boric y una exsubsecretaria de Derechos Humanos de Sebastián Piñera. La Comisión escuchó a organismos internacionales, a funcionarias y funcionarios del Instituto, a centros universitarios y a más de quince organizaciones de la sociedad civil.</p><p>Lo que propuso fue reforzar la independencia del Consejo. Recomendó reducirlo a entre cinco y siete integrantes, con mayoría de personas provenientes de la sociedad civil y la academia, y eliminar a los consejeros que hoy nombra el Presidente de la República, porque su voto en el órgano rector no se condice con los estándares internacionales. Planteó también abrir el cupo académico a disciplinas distintas del derecho, incorporar criterios de género, de pertenencia a pueblos indígenas y regionales, exigir convocatorias públicas y requisitos verificables, y que el director ejecutivo se elija por Alta Dirección Pública. En cuanto a la querella, por siete votos contra uno, propuso ampliarla a toda grave violación de derechos humanos y facultar al Instituto para presentar amicus curiae.</p><p>El Mensaje recoge parte de esto, como un Consejo más pequeño y una dirección ejecutiva profesionalizada. En lo demás va en sentido contrario. El Presidente, que según la Comisión debía salir del Consejo, pasa a proponer a todos los miembros del Consejo transitorio y a filtrar las nóminas de las organizaciones de derechos humanos. Y la querella, que la Comisión quería fortalecer, desaparece. Reducir el número de consejeros no aporta nada al pluralismo si quien los elige es el gobierno.</p><p>Creemos que esta reforma no debería transformarse en una disputa entre gobiernos. Un órgano autónomo de derechos humanos sirve justamente porque fiscaliza al Estado con independencia de quién gobierne.</p><p>Una reforma así de la ley habilitante puede gatillar la revisión del Subcomité de Acreditación de la Alianza Global (GANHRI), que hoy reconoce al INDH en la categoría “A”. Y la propia resolución 63/25 recuerda que contar con instituciones conformes a los Principios de París es un indicador mundial del Objetivo de Desarrollo Sostenible 16. El Congreso puede corregir lo esencial sin invadir la iniciativa exclusiva del Ejecutivo, permitiendo que los mandatos vigentes expiren naturalmente, manteniendo la renovación por parcialidades y conservando a la Corte Suprema como tribunal de remoción. Para ello cuenta con el trabajo de la Comisión Asesora, que ya logró acuerdos entre personas de sectores muy distintos. Si no lo hace, Chile habrá respaldado en Ginebra, en octubre, exactamente lo que desmantela por ley ese mismo mes.</p><p>--&gt; --&gt; --&gt; --&gt; Rabat rechazó al menos nueve rebajas de penas y las disputó en tribunales: en seis los jueces le dieron la razón y no otorgaron el beneficioVER MÁS Fallos de cortes de apelaciones establecen que Rabat sí podía rechazar las rebajas de condenasVER MÁS Lo que calló RabatVER MÁS ¿Cómo se financia CIPER? Ver informes de ingresos ¿Cómo apoyar a CIPER? Conoce las opciones Principios de CIPER Lo que nos mueve Directorio Fundación CIPER Nuestro directorio Equipo CIPER Conócenos Investigaciones con impacto Revísalas Premios obtenidos Ver premios Libros CIPER Conócelos Enviar cartas y columnas Revisa las opciones</p>",
+      "url": "https://www.ciperchile.cl/2026/11/06/el-proyecto-de-reforma-al-indh-ante-los-estandares-internacionales/?utm_source=rss&utm_medium=rss&utm_campaign=el-proyecto-de-reforma-al-indh-ante-los-estandares-internacionales",
+      "image": "https://www.ciperchile.cl/wp-content/uploads/indh-2-e1624475809934.jpg",
+      "publishedAt": "2026-11-06T21:38:24+00:00",
+      "sourceId": "ciper",
+      "sourceName": "CIPER Chile",
+      "sourceType": "Investigación Independiente",
+      "sourceSite": "https://www.ciperchile.cl",
       "region": "chile",
       "country": "Chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 72,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 99,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "lasillavacia-9eea5f1346",
@@ -1770,26 +1880,6 @@
       "category": "Medioambiente y Territorio",
       "relevanceTier": "alta",
       "relevanceScore": 87,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "ciper-edfa447564",
-      "title": "El proyecto de reforma al INDH ante los estándares internacionales",
-      "summary": "La entrada El proyecto de reforma al INDH ante los estándares internacionales se publicó primero en CIPER Chile .",
-      "content": "<p>En tiempos de incertidumbre y fake news, el periodismo de CIPER es más necesario que nunca.</p><p>Tu aporte mensual nos permite seguir investigando</p><p>Por Lieta Vivaldi, Tomás Pascual y Leonel González Postigo</p><p>-- --&gt; --&gt; --&gt; --&gt; --&gt; --&gt; Los autores de esta columna advierten que el proyecto del gobierno para reformar el INDH invoca los Principios de París, pero va en sentido contrario a ellos: pone fin a los mandatos de los consejeros en funciones, entrega al Presidente la propuesta de todo el Consejo transitorio, elimina la facultad de querellarse por crímenes graves y recorta el presupuesto. Recuerdan que Chile respaldó en Ginebra, ese mismo mes, una resolución de Naciones Unidas que llama a fortalecer estas instituciones. Concluyen que “el Congreso puede corregir lo esencial sin invadir la iniciativa exclusiva del Ejecutivo, permitiendo que los mandatos vigentes expiren naturalmente, manteniendo la renovación por parcialidades y conservando a la Corte Suprema como tribunal de remoción”.</p><p>En diciembre de 1993, la Asamblea General de Naciones Unidas hizo suyos, en su resolución 48/134, los principios relativos al estatuto de las instituciones nacionales, conocidos como Principios de París. Desde entonces existe un estándar común sobre lo que debe ser una institución nacional de derechos humanos. Debe ser “competente en el ámbito de la promoción y protección de los derechos humanos”, con un mandato “el más amplio posible, claramente enunciado en un texto constitucional o legislativo”. Debe contar con un procedimiento de designación que garantice la “representación pluralista de las fuerzas sociales”, y con recursos propios “a fin de lograr la autonomía respecto del Estado”.</p><p>La Comisión de Derechos Humanos primero y el Consejo de Derechos Humanos después han reiterado y desarrollado ese estándar durante más de tres décadas. La última vez fue el 6 de octubre de 2026, con la resolución 63/25, adoptada sin votación y con Chile como miembro del Consejo. Esa resolución reafirma “la importancia de establecer instituciones nacionales independientes y pluralistas de derechos humanos que cumplan los Principios de París, y de fortalecer las existentes”. Trece días después, el gobierno ingresó el Mensaje N° 174-374, que reforma el INDH invocando esos mismos Principios. Pero su articulado borra de la Ley N° 20.405 la única norma que obliga al Instituto a ajustarse a los principios internacionales que rigen a estas instituciones. También suprime de su mandato los derechos “emanados de los principios generales del derecho, reconocidos por la comunidad internacional”. La resolución 63/25 alienta a los Estados a “mantener un marco legislativo o normativo que sea conforme con los Principios de París” (párr. 11). El Mensaje, en cambio, retira ese marco de la ley.</p><p>El punto más delicado es la independencia del órgano que dirige el Instituto. Los Principios exigen que el nombramiento se haga por acto oficial con un plazo determinado, porque la estabilidad del mandato es aquella “sin la cual no habrá una verdadera independencia”. La resolución 63/25 “destaca la importancia de la independencia financiera y administrativa y la estabilidad” de las instituciones nacionales (párr. 4). }</p><p>El Mensaje pone término de pleno derecho a los mandatos de los 11 consejeros en funciones, cualquiera sea el tiempo que les reste. Entrega además la dirección del Instituto, por dos años, a un Consejo de cinco miembros propuestos en nómina única por el Presidente de la República y aprobados por mayoría simple del Senado. En ese Consejo no participan la sociedad civil, la Cámara ni la academia, y será él quien dicte los estatutos que regularán la elección de sus sucesores. La exigencia de una “representación pluralista de las fuerzas sociales” queda suspendida justo cuando se rediseña la institución. En el régimen permanente, además, las organizaciones de derechos humanos dejan de elegir consejeros y pasan a proponer una nómina que el Presidente filtra o puede omitir. Y al eliminar la renovación por parcialidades, el Consejo completo se renovará cada cuatro años, al ritmo del ciclo presidencial.</p><p>El mandato de protección también se reduce. El Mensaje redefine al INDH como una institución “principalmente consultiva”. Para eso lee los Principios de París como si la expresión “a título consultivo” describiera la naturaleza de la institución. En realidad describe cómo presenta sus dictámenes y recomendaciones “al gobierno, al Parlamento y a cualquier otro órgano pertinente”. Los Principios la hacen competente en promoción y también en protección. La resolución 63/25 reafirma el papel de las instituciones nacionales para prevenir y remediar “las violaciones y abusos de los derechos humanos, ayudando a las víctimas a obtener reparación”. Además, “hace notar con satisfacción” las iniciativas de los Estados que les han dado mayor autonomía, “por ejemplo asignándoles una función de investigación o afianzándola” (párr. 4).</p><p>Sin embargo, el proyecto reemplaza el numeral 5 del artículo 3° de la Ley 20.405 y elimina la facultad del INDH de querellarse por tortura, desaparición forzada, crímenes de lesa humanidad, trata de personas y otros crímenes graves. Es cierto que los Principios de París no exigen facultades de litigio penal: la competencia para conocer «denuncias y demandas relativas a situaciones particulares» figura entre los principios complementarios, que son facultativos. Pero suprimir una atribución que el Instituto ya tiene va en sentido contrario al que el Consejo de Derechos Humanos ha alentado. A cambio, se le permite «denunciar», algo que cualquier persona puede hacer y que los funcionarios públicos ya están obligados a realizar. Como el Código Procesal Penal solo permite querellarse a los órganos públicos cuya ley orgánica lo autoriza expresamente, el resultado es simple: se excluye al INDH del proceso penal.</p><p>El propio gobierno reconoce lo que está en juego. En su Informe Financiero afirma que en 2025 cerca del 54% de las acciones judiciales del INDH fueron querellas, y con ese dato justifica reducir en un 70% la dotación de abogados de la unidad de protección. Ante la Comisión de Derechos Humanos de la Cámara de Diputadas y Diputados, el pasado 21 de octubre, el ministro de Justicia señaló que, de las 3.263 querellas presentadas por el INDH durante el estallido social, solo 68 habían tenido “algún destino”. Pero ese resultado refleja el desempeño de un sistema que cerró miles de causas por violencia institucional con archivos y decisiones de no perseverar. La escasa respuesta judicial frente a las denuncias contra agentes del Estado es una razón para fortalecer al querellante, no para suprimirlo.</p><p>La querella del INDH cumple, además, una función distinta de la que corresponde al Ministerio Público. La fiscalía actúa en nombre del interés general y según su propia política de persecución penal, que determina qué investigaciones impulsa y cuáles no. El querellante puede contrapesar esas decisiones: pedir diligencias, recurrir, oponerse al cierre de la causa y forzar la acusación cuando el fiscal decide no acusar. Ninguna de esas facultades corresponde a quien solo denuncia. Cuando quien está acusado es un agente del Estado, devolverle al Estado el monopolio de la acusación es suprimir un control externo muy valioso en el ámbito de la justicia penal.</p><p>En este sentido, el INDH representa intereses de comunidades concretas: comunidades mapuches, personas privadas de libertad, niños, niñas y adolescentes, manifestantes, entre otros. En muchos de estos casos el daño trasciende a la víctima individual y se vincula con prácticas institucionales. Su participación como querellante permite que esa dimensión colectiva tenga un lugar en el proceso penal. Eliminarla priva a estas víctimas de un respaldo institucional relevante y debilita una de las herramientas centrales de protección del Instituto.</p><p>Queda el financiamiento. Los Principios exigen “una infraestructura apropiada”, con créditos suficientes para personal e instalaciones propias, y prevén que la institución pueda establecer “secciones locales o regionales”. El Informe Financiero del Mensaje proyecta un menor gasto de cerca del 22,8% del presupuesto en régimen, con un 50% menos de dotación regional y un 70% menos de abogados de protección. Al mismo tiempo, agrega funciones nuevas sin costo asignado. La resolución 63/25 advierte que las instituciones nacionales no deben sufrir represalias o intimidación, “como presiones políticas, intimidaciones físicas, actos de acoso o limitaciones presupuestarias injustificables”. Precisa además que eso aplica a actividades “que pueden incluir ocuparse de casos individuales o denunciar violaciones graves o sistemáticas” (párr. 5), que es justamente lo que el recorte suprime.</p><p>El INDH requiere cambios. Es una institución que debe avanzar en transparencia, sobre todo en la forma en que se designa a sus consejeras y consejeros, y fortalecer su pluralismo, para que su Consejo refleje mejor la diversidad de la sociedad. Esos ajustes son necesarios para consolidar su legitimidad.</p><p>Existe ya un trabajo previo que orienta esos cambios. En junio de 2025, la Comisión Asesora para el Fortalecimiento del INDH, creada por la Ley de Presupuestos, entregó 44 recomendaciones, 42 de ellas aprobadas por unanimidad. Sus integrantes fueron designados por el Ejecutivo y por las comisiones de derechos humanos del Senado y de la Cámara; entre ellos había una excanciller de Gabriel Boric y una exsubsecretaria de Derechos Humanos de Sebastián Piñera. La Comisión escuchó a organismos internacionales, a funcionarias y funcionarios del Instituto, a centros universitarios y a más de quince organizaciones de la sociedad civil.</p><p>Lo que propuso fue reforzar la independencia del Consejo. Recomendó reducirlo a entre cinco y siete integrantes, con mayoría de personas provenientes de la sociedad civil y la academia, y eliminar a los consejeros que hoy nombra el Presidente de la República, porque su voto en el órgano rector no se condice con los estándares internacionales. Planteó también abrir el cupo académico a disciplinas distintas del derecho, incorporar criterios de género, de pertenencia a pueblos indígenas y regionales, exigir convocatorias públicas y requisitos verificables, y que el director ejecutivo se elija por Alta Dirección Pública. En cuanto a la querella, por siete votos contra uno, propuso ampliarla a toda grave violación de derechos humanos y facultar al Instituto para presentar amicus curiae.</p><p>El Mensaje recoge parte de esto, como un Consejo más pequeño y una dirección ejecutiva profesionalizada. En lo demás va en sentido contrario. El Presidente, que según la Comisión debía salir del Consejo, pasa a proponer a todos los miembros del Consejo transitorio y a filtrar las nóminas de las organizaciones de derechos humanos. Y la querella, que la Comisión quería fortalecer, desaparece. Reducir el número de consejeros no aporta nada al pluralismo si quien los elige es el gobierno.</p><p>Creemos que esta reforma no debería transformarse en una disputa entre gobiernos. Un órgano autónomo de derechos humanos sirve justamente porque fiscaliza al Estado con independencia de quién gobierne.</p><p>Una reforma así de la ley habilitante puede gatillar la revisión del Subcomité de Acreditación de la Alianza Global (GANHRI), que hoy reconoce al INDH en la categoría “A”. Y la propia resolución 63/25 recuerda que contar con instituciones conformes a los Principios de París es un indicador mundial del Objetivo de Desarrollo Sostenible 16. El Congreso puede corregir lo esencial sin invadir la iniciativa exclusiva del Ejecutivo, permitiendo que los mandatos vigentes expiren naturalmente, manteniendo la renovación por parcialidades y conservando a la Corte Suprema como tribunal de remoción. Para ello cuenta con el trabajo de la Comisión Asesora, que ya logró acuerdos entre personas de sectores muy distintos. Si no lo hace, Chile habrá respaldado en Ginebra, en octubre, exactamente lo que desmantela por ley ese mismo mes.</p><p>--&gt; --&gt; --&gt; --&gt; Rabat rechazó al menos nueve rebajas de penas y las disputó en tribunales: en seis los jueces le dieron la razón y no otorgaron el beneficioVER MÁS Fallos de cortes de apelaciones establecen que Rabat sí podía rechazar las rebajas de condenasVER MÁS Lo que calló RabatVER MÁS ¿Cómo se financia CIPER? Ver informes de ingresos ¿Cómo apoyar a CIPER? Conoce las opciones Principios de CIPER Lo que nos mueve Directorio Fundación CIPER Nuestro directorio Equipo CIPER Conócenos Investigaciones con impacto Revísalas Premios obtenidos Ver premios Libros CIPER Conócelos Enviar cartas y columnas Revisa las opciones</p>",
-      "url": "https://www.ciperchile.cl/2026/11/06/el-proyecto-de-reforma-al-indh-ante-los-estandares-internacionales/?utm_source=rss&utm_medium=rss&utm_campaign=el-proyecto-de-reforma-al-indh-ante-los-estandares-internacionales",
-      "image": "https://www.ciperchile.cl/wp-content/uploads/indh-2-e1624475809934.jpg",
-      "publishedAt": "2026-11-06T21:38:24+00:00",
-      "sourceId": "ciper",
-      "sourceName": "CIPER Chile",
-      "sourceType": "Investigación Independiente",
-      "sourceSite": "https://www.ciperchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 99,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2010,6 +2100,26 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 92,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "malaespina-e694907936",
+      "title": "Supuestas capturas de video que muestran a Petro con mujeres fueron generados con IA",
+      "summary": "Síntesis ¿Qué pasó? En redes sociales circula un collage que simula grabaciones de cámaras de seguridad y muestra a Gustavo Petro caminando por un pasillo y entrando a una habitación con distintas mujeres. Las publicaciones lo presentan como evidencia de supuestos encuentros íntimos del exmandatario. ¿Cómo lo calificamos? Consideramos...",
+      "content": "<p>¿Qué pasó? En redes sociales circula un collage que simula grabaciones de cámaras de seguridad y muestra a Gustavo Petro caminando por un pasillo y entrando a una habitación con distintas mujeres. Las publicaciones lo presentan como evidencia de supuestos encuentros íntimos del exmandatario.</p><p>¿Cómo lo calificamos? Consideramos que la información es falsa.</p><p>¿Cómo lo sabemos? Las imágenes repiten las mismas marcas de fecha y hora en escenas diferentes, presentan variaciones en el indicador de grabación y contienen anomalías en la apariencia de Petro y en la iluminación del lugar. El análisis del archivo detectó una marca de agua invisible de SynthID, tecnología de Google para identificar imágenes generadas o editadas con sus modelos de inteligencia artificial. Este resultado, junto con las inconsistencias visuales, permite concluir que el collage no corresponde a un registro real de cámaras de vigilancia. La entrada Supuestas capturas de video que muestran a Petro con mujeres fueron generados con IA se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/06/supuestas-capturas-de-video-que-muestran-a-petro-con-mujeres-fueron-generados-con-ia/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Supuestas-capturas-de-video-que-muestran-a-Petro-con-mujeres-fueron-generados-con-IA.webp",
+      "publishedAt": "2026-11-06T20:53:51+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Ciencia, Salud y Futuro",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2393,23 +2503,23 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "propublica-f38483b0fc",
-      "title": "On the Ground in the Final Days Before Trump’s Midterm Debacle",
-      "summary": "The post On the Ground in the Final Days Before Trump’s Midterm Debacle appeared first on ProPublica .",
-      "content": "<p>Jacob Hawk leaned over the plastic fencing to get Vivek Ramaswamy’s attention as the Republican candidate for Ohio governor moved down the line shaking hands at the Ohio University branch campus in Chillicothe, six days before the midterm elections. Hawk held onto Ramaswamy’s hand and started trying to tell him everything he was dealing with, everything he wanted the Republican candidates gathered there to help him with.</p><p>Hawk, 39, told him that he was a self-employed landscaper who was having a hard time with the high cost of fuel. He told him that he was raising three young kids from two different moms, mostly on his own. He told him of his worries for his 9-year-old son, who was autistic and underweight and suffered from a two-year delay in brain development.</p><p>Ramaswamy, a biotech billionaire, nodded and offered some token reassurance and moved down the line, toward the arena where he would soon be appearing with President Donald Trump and Sen. Jon Husted and the rest of the Republican slate in a state that Trump had won by 11 percentage points two years ago, and which the party had dominated during the era of Trump. I had been at many Republican events in the state over that time, including a rally in an airplane hangar outside Dayton in March 2016, where a giant crowd had roared as Trump’s jet had rolled into view and where he had declared that he had come to save Ohio. “Our jobs are being sucked away,” he said then. “It’s unbelievable what’s happening.”</p><p>This event was different. Ten years had passed, and gone was the fierce bravado of Trump the conquering hero, bristling with retribution and promises. This rally was populated largely by the same sort of voters who had been particularly drawn to Trump all along, working-class Midwesterners who had not been engaged in politics before he came on the scene. But there were fewer of them — the campaign had chosen an arena that held only 2,000 — and their devotion had been subsumed by uncertainty. They were still with Trump, but they weren’t sure how to reconcile their own difficulties with the fact that he was the president during this trying time.</p><p>Take gas prices, which “are beating the hell out of me,” Hawk told me. He was trying his best not to hold them against Trump and his decision to go to war against Iran, instead faulting Congress for limiting domestic oil drilling. “The president has to go find oil in another country because Congress won’t let him find it in our country,” he said, overlooking the fact that Trump’s party has controlled both houses of Congress during his second term.</p><p>Nearby, Debbie Shock, a 57-year-old mail carrier, blamed the high fuel costs on “the stock exchange, the markets — they’re the ones that control it.” “We have oil right here in the U.S.,” she said. “Why are we buying it from other countries to begin with?”</p><p>Shock fit a profile I had gotten to know well in 2016: an Obama-Trump voter. She was loyal to Trump — “I like the man. Nobody’s perfect, you know what I mean?” — and told me she would never go back to Democrats now. Why not? I asked. “They’re covering up the child molestation,” she said. What did she mean by that? “I’ve heard stories about the sex trafficking. The Clintons are involved in it, Disney World, you know, all that.”</p><p>It would be easy to ridicule such murky talk, yet it was not much less coherent than what soon emerged on the arena stage, which was streamed on a large screen for the few hundred of us who were out on the lawn outside the arena. Trump has never been known for structured oratory, but it is hard to overstate the extent to which his digressive style has advanced since 2016, and to convey how surreal it is to experience firsthand, as the reality of what presidential communication has come to in 2026.</p><p>The rally opened with the customary introductory video of late-era Trump, an explicitly messianic framing: “God said, ‘I need someone who will be strong and courageous,’” the voice-over intones. “So God made Trump.”</p><p>Thus introduced, Trump opened his remarks with a lengthy disquisition on Husted’s body, which had newly become part of his routine. “I looked at Jon and studied his physique,” he cooed, after referring to his recent comments on Husted’s “ass.” “I studied the feet, the legs, the shoulders. I tapped him on the shoulder, and it was like hitting a piece of steel.”</p><p>When a protester inside the arena started shouting something — those of us outside couldn’t hear what — and was removed, Trump bid him good riddance: “Now he goes home and his boyfriend gets upset with him.”</p><p>There were protesters outside, too, and things were starting to heat up between them and the supporters. “What are you talking about, ‘boyfriend?’” shouted one protester, a young man. “He was just talking about Jon Husted’s ass! That’s not gay??”</p><p>A supporter in front of me, a bearded man in his 50s, stewed as he watched the protesters. “You’re going to see someone dropping like a bad habit,” he growled, as he started to move toward them, before being held back by the woman who was with him.</p><p>A moment later, Trump had moved on to Jeffrey Epstein, saying that the Democrats had protected him for years. “I threw Jeffrey Epstein the hell out of Mar-a-Lago,” he declared. “I was the one who was totally exonerated from him. But they use it, because that’s what they do. They’re sick, weak people.”</p><p>This set off a new round of shouting outside, as cries of “pedophiles!” flew back and forth.</p><p>Suddenly, one Trump supporter near me rushed hard at a protester and knocked him to the ground, his head landing with such a thud on the blacktop that I initially thought it might be a suppressed gunshot. Dozens of officers swarmed to the spot. Cameras flashed.</p><p>A few moments later, a couple other protesters, also young men, began railing against the war against Iran. “We’re going to be the ones sent off to die for Israel,” one shouted. “‘America First,’ and you want me to die in the Middle East?”</p><p>Trump touched on the war — “they’re getting beaten very badly” — but spent far more time on his home renovations. “The White House has to be beautiful outside, it needs that exterior plaster. The bricks were falling, the stone was broken, the monuments were coming off, the beautiful windows were cracked, it looked terrible, and I fixed it very inexpensively, and now it’s more beautiful than ever,” he said. “And President Obama, who doesn’t understand cleanliness, who doesn’t understand broken cracked stone and sidewalks, who doesn’t understand that having asphalt going to your main entrance is not the right thing, we’d like to have granite and marble we’d like to have it look nice, you don’t use asphalt, you use asphalt for your streets. …”</p><p>On the ramble went. To the Haitians in nearby Springfield: “The town went from no crime to high crime,” but “they’re being moved out.” To a riff on Ramaswamy’s ad featuring his opponent Amy Acton’s mother calling her a liar, in apparent reference to Acton’s having accused her stepfather of raping her when she was 12, as he was subsequently charged with doing. The ad had met with widespread opprobrium, but Trump defended Ramaswamy. “The mother said that Amy Acton, the daughter, is a liar, that she is no good. … How the hell is that his problem?” To “O Canada, which has been ripping us off for years,” and Somalia, “which isn’t even a country,” and “transgender mutilization,” and his plan to rename the Strait of Hormuz for himself.</p><p>Finally, Trump ceded the stage to Husted and Ramaswamy. But by then, the lawn had emptied out as people drifted home, Jacob Hawk among them. A vendor was shouting out discount prices on his MAGA merchandise. “$10 special on hats! All the hats are $10! These are normally $25 hats. That’s a good hat for $10.”</p><p>The next day, the full Republican slate of statewide candidates appeared, sans Trump, at a small pep rally inside a former Delphi auto-parts factory in Vandalia, outside Dayton. It is an enormous building that employed more than 100 prior to its closing in 2009 and is now being used as a warehouse by a company that sells air conditioners, employing only 10 or so; Delphi announcements still remained on the bulletin boards, adding a ghostly feel.</p><p>The setting was an unintentional reminder of what Ohio has been through. Between 2000 and 2025, the state lost 300,000 manufacturing jobs, a devastation that had made it highly susceptible to Trump’s message in 2016. But Republicans have been in charge of the state since 2010, and so it was the task of the candidates gathered there, with an audience of just a few dozen, to cast the state as being on an upswing. Complicating this challenge is the fact that so much of the state’s recent growth has been concentrated in the Columbus area: countless data centers, defense contractor Anduril, a massive Intel plant under construction.</p><p>The bigger challenge, though, was the nationwide pall that hung over the event: the reality of stubbornly high inflation and high gas prices, the latter a direct consequence of Trump’s decision to go to war with Iran. He had stood against costly foreign entanglements when he ran in 2016, in opposition to his party’s recent record, and carried that same banner again in 2024. But another aspect of his political persona had prevailed: a heedless swagger that, in this case, had been fanned by Israeli Prime Minister Benjamin Netanyahu and Defense Secretary Pete Hegseth. It had led him into this drawn-out conflict that has already cost U.S. taxpayers more than $47 billion.</p><p>And it had left a long row of Republican candidates standing in this giant building stacked high with made-in-China air conditioners all but pleading the small assemblage to save them from the political climate. “You can’t give up,” Husted said. “This is a Republican state, and the only way Democrats can win is if Republicans don’t vote.”</p><p>Five days later, I was in York County, Pennsylvania, which Trump had won by 25 points in 2024, and which was home to one of four Republican-held House districts targeted by Democrats. I chose to go to a precinct on the outskirts of York, thinking it would offer a diverse cross-section, in between more Democratic York proper and more Republican rural areas. But over 90 minutes of conversations, I didn’t encounter a Republican voter until I was about to call it a day.</p><p>The first person I spoke with, Bill, a 52-year-old state government employee who asked that I not use his last name for fear of losing his job, had voted for Trump three times. He hardly considered himself MAGA but was drawn in 2016 to Trump’s “drain the swamp” rhetoric and his disavowal of the war in Iraq. He voted for him again in 2020 and 2024 because he didn’t think much of Joe Biden and Kamala Harris.</p><p>But on this day, Bill was coming to vote against his Republican representative, Scott Perry, because he was too “Trump adjacent.” Bill had finally had enough of Trump, especially when it came to all the revelations of self-dealing involving his family and cronies. “I will not be falling for him again,” he told me. “Drain the swamp, no wars. … It was all a lie.”</p><p>He said he couldn’t understand how Trump had gone from America First to seemingly letting the country’s foreign policy be dictated by Israel. He said that he was voting for the Democrats mainly just for the sake of “gridlock,” as deliberate blockage. “Someone’s got to stop this,” he said. “It’s getting out of control.”</p><p>Each Democratic voter I spoke with after that was coming with their own motivation for voting against the Republican slate, like the cast of “Murder on the Orient Express.”</p><p>For Annie (who also asked that I not use her last name), it was for Trump’s social-welfare cuts, which had cost her and her disabled husband $300 per month in SNAP benefits and nearly cost them their Medicaid coverage.</p><p>For Desiree Edmonds, an elementary school teacher, it was high inflation, which was translating into anxiety among the working-class children in her classroom.</p><p>For Mark Castillo, a 19-year-old ironworker, it was for the sky-high cost of diesel.</p><p>For Jacqueline Jimenez, a native Puerto Rican who worked as a home-health aide, it was for the excessive harshness of ICE arrests.</p><p>For Shiri Kramer, a warehouse worker, it was for the general meanness emanating from the administration, which made her think of her grandfather, a Jewish American who had extended mercy to German POWs during World War II. “My grandfather would be writhing right now,” she said. “Nothing happening in our country is OK.”</p><p>By night’s end, Republicans had lost this Pennsylvania district by 10 points, as well as the other three in the state and more than 40 nationwide. They had lost at least seven Senate seats, even in states where Democrats hadn’t prevailed in decades — Kansas, Texas, South Carolina. Incredibly, even Mississippi was on the verge. In Ohio, Republicans lost the race for Senate and governor — only one of the seven statewide candidates on stage at the warehouse emerged a victor — as well as two Republican-held House seats, a stark reversal in a state that had seemed to be trending away from Democrats for good. In all, Democrats flipped five governorships and up to 12 state legislative chambers. The Democratic popular-vote margin in congressional races nationwide was 13 percentage points — nearly double the Republican margin in their own wave years of 2010 and 1994, and approaching the scale of the historic Democratic rout in the post-Watergate election of 1974.</p><p>The particularly stunning loss of the South Carolina seat brought to mind a warning issued in May 2016 by Lindsey Graham, whose death this July left the seat vacant. “If we nominate Trump, we will get destroyed…….and we will deserve it,” Graham tweeted in 2016. For years, the Republican Party had avoided the catastrophic reckoning he warned of — through Trump’s narrow win in 2016, through the Jan. 6, 2021, assault on the Capitol, through Biden’s fateful insistence on running for reelection at age 81 in 2024. Along the way, much of the party, including Graham himself, had accommodated itself to Trump. One way of looking at the 2026 results was that the warning had finally come true. The reckoning had been delayed by a decade, but it had gathered more force over time, like a boulder rolling downhill.</p><p>There was a hint of such a reckoning in the words that Bill, the three-time Trump voter, left me with in York. After he returned from voting, he bade me farewell with a parting regret.</p><p>“You see what’s going on,” he said, “and you’re like, ‘What the hell did I do?’”</p><p>The post On the Ground in the Final Days Before Trump’s Midterm Debacle appeared first on ProPublica.</p>",
-      "url": "https://www.propublica.org/article/trump-movement-rally-voters-appeal",
-      "image": "https://www.propublica.org/wp-content/uploads/2017/01/alec-macgillis-1000x1000.jpg?w=70&amp;h=70&amp;crop=1",
-      "publishedAt": "2026-11-06T18:30:00+00:00",
-      "sourceId": "propublica",
-      "sourceName": "ProPublica",
-      "sourceType": "Investigación Sin Fines de Lucro",
-      "sourceSite": "https://www.propublica.org",
-      "region": "mundo",
-      "country": "EE.UU.",
+      "id": "malaespina-b1f25b400c",
+      "title": "Cuidado con esta página que suplanta a Carabineros de Chile y busca robar tus datos bancarios",
+      "summary": "Síntesis Contexto: El CSIRT Nacional alertó de una página que suplanta la identidad de Carabineros para obtener los datos bancarios de las personas al ofrecer un falso servicio de pago de multas de tránsito. ¿Cómo podemos evitar caer en la estafa? Carabineros confirmó a Mala Espina que no realiza este tipo de cobros. Utiliza...",
+      "content": "<p>Contexto: El CSIRT Nacional alertó de una página que suplanta la identidad de Carabineros para obtener los datos bancarios de las personas al ofrecer un falso servicio de pago de multas de tránsito.</p><p>¿Cómo podemos evitar caer en la estafa? Carabineros confirmó a Mala Espina que no realiza este tipo de cobros. Utiliza plataformas oficiales para consultar tus deudas y pagarlas (por ejemplo, consultando en tu municipalidad, Juzgado de Policía Local o solicitando un certificado de deuda en el Registro Civil).</p><p>La entrada Cuidado con esta página que suplanta a Carabineros de Chile y busca robar tus datos bancarios se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/pais/2026/11/06/cuidado-con-esta-pagina-que-suplanta-a-carabineros-de-chile-y-busca-robar-tus-datos-bancarios/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-Cuidado-con-esta-pagina-que-suplanta-a-Carabineros-de-Chile-y-busca-robar-tus-datos-bancarios.webp",
+      "publishedAt": "2026-11-06T18:33:29+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
-      "category": "Investigación y Poder",
+      "category": "Política y Actualidad",
       "relevanceTier": "alta",
-      "relevanceScore": 86,
+      "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2431,6 +2541,26 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 74,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "propublica-f38483b0fc",
+      "title": "On the Ground in the Final Days Before Trump’s Midterm Debacle",
+      "summary": "The post On the Ground in the Final Days Before Trump’s Midterm Debacle appeared first on ProPublica .",
+      "content": "<p>Jacob Hawk leaned over the plastic fencing to get Vivek Ramaswamy’s attention as the Republican candidate for Ohio governor moved down the line shaking hands at the Ohio University branch campus in Chillicothe, six days before the midterm elections. Hawk held onto Ramaswamy’s hand and started trying to tell him everything he was dealing with, everything he wanted the Republican candidates gathered there to help him with.</p><p>Hawk, 39, told him that he was a self-employed landscaper who was having a hard time with the high cost of fuel. He told him that he was raising three young kids from two different moms, mostly on his own. He told him of his worries for his 9-year-old son, who was autistic and underweight and suffered from a two-year delay in brain development.</p><p>Ramaswamy, a biotech billionaire, nodded and offered some token reassurance and moved down the line, toward the arena where he would soon be appearing with President Donald Trump and Sen. Jon Husted and the rest of the Republican slate in a state that Trump had won by 11 percentage points two years ago, and which the party had dominated during the era of Trump. I had been at many Republican events in the state over that time, including a rally in an airplane hangar outside Dayton in March 2016, where a giant crowd had roared as Trump’s jet had rolled into view and where he had declared that he had come to save Ohio. “Our jobs are being sucked away,” he said then. “It’s unbelievable what’s happening.”</p><p>This event was different. Ten years had passed, and gone was the fierce bravado of Trump the conquering hero, bristling with retribution and promises. This rally was populated largely by the same sort of voters who had been particularly drawn to Trump all along, working-class Midwesterners who had not been engaged in politics before he came on the scene. But there were fewer of them — the campaign had chosen an arena that held only 2,000 — and their devotion had been subsumed by uncertainty. They were still with Trump, but they weren’t sure how to reconcile their own difficulties with the fact that he was the president during this trying time.</p><p>Take gas prices, which “are beating the hell out of me,” Hawk told me. He was trying his best not to hold them against Trump and his decision to go to war against Iran, instead faulting Congress for limiting domestic oil drilling. “The president has to go find oil in another country because Congress won’t let him find it in our country,” he said, overlooking the fact that Trump’s party has controlled both houses of Congress during his second term.</p><p>Nearby, Debbie Shock, a 57-year-old mail carrier, blamed the high fuel costs on “the stock exchange, the markets — they’re the ones that control it.” “We have oil right here in the U.S.,” she said. “Why are we buying it from other countries to begin with?”</p><p>Shock fit a profile I had gotten to know well in 2016: an Obama-Trump voter. She was loyal to Trump — “I like the man. Nobody’s perfect, you know what I mean?” — and told me she would never go back to Democrats now. Why not? I asked. “They’re covering up the child molestation,” she said. What did she mean by that? “I’ve heard stories about the sex trafficking. The Clintons are involved in it, Disney World, you know, all that.”</p><p>It would be easy to ridicule such murky talk, yet it was not much less coherent than what soon emerged on the arena stage, which was streamed on a large screen for the few hundred of us who were out on the lawn outside the arena. Trump has never been known for structured oratory, but it is hard to overstate the extent to which his digressive style has advanced since 2016, and to convey how surreal it is to experience firsthand, as the reality of what presidential communication has come to in 2026.</p><p>The rally opened with the customary introductory video of late-era Trump, an explicitly messianic framing: “God said, ‘I need someone who will be strong and courageous,’” the voice-over intones. “So God made Trump.”</p><p>Thus introduced, Trump opened his remarks with a lengthy disquisition on Husted’s body, which had newly become part of his routine. “I looked at Jon and studied his physique,” he cooed, after referring to his recent comments on Husted’s “ass.” “I studied the feet, the legs, the shoulders. I tapped him on the shoulder, and it was like hitting a piece of steel.”</p><p>When a protester inside the arena started shouting something — those of us outside couldn’t hear what — and was removed, Trump bid him good riddance: “Now he goes home and his boyfriend gets upset with him.”</p><p>There were protesters outside, too, and things were starting to heat up between them and the supporters. “What are you talking about, ‘boyfriend?’” shouted one protester, a young man. “He was just talking about Jon Husted’s ass! That’s not gay??”</p><p>A supporter in front of me, a bearded man in his 50s, stewed as he watched the protesters. “You’re going to see someone dropping like a bad habit,” he growled, as he started to move toward them, before being held back by the woman who was with him.</p><p>A moment later, Trump had moved on to Jeffrey Epstein, saying that the Democrats had protected him for years. “I threw Jeffrey Epstein the hell out of Mar-a-Lago,” he declared. “I was the one who was totally exonerated from him. But they use it, because that’s what they do. They’re sick, weak people.”</p><p>This set off a new round of shouting outside, as cries of “pedophiles!” flew back and forth.</p><p>Suddenly, one Trump supporter near me rushed hard at a protester and knocked him to the ground, his head landing with such a thud on the blacktop that I initially thought it might be a suppressed gunshot. Dozens of officers swarmed to the spot. Cameras flashed.</p><p>A few moments later, a couple other protesters, also young men, began railing against the war against Iran. “We’re going to be the ones sent off to die for Israel,” one shouted. “‘America First,’ and you want me to die in the Middle East?”</p><p>Trump touched on the war — “they’re getting beaten very badly” — but spent far more time on his home renovations. “The White House has to be beautiful outside, it needs that exterior plaster. The bricks were falling, the stone was broken, the monuments were coming off, the beautiful windows were cracked, it looked terrible, and I fixed it very inexpensively, and now it’s more beautiful than ever,” he said. “And President Obama, who doesn’t understand cleanliness, who doesn’t understand broken cracked stone and sidewalks, who doesn’t understand that having asphalt going to your main entrance is not the right thing, we’d like to have granite and marble we’d like to have it look nice, you don’t use asphalt, you use asphalt for your streets. …”</p><p>On the ramble went. To the Haitians in nearby Springfield: “The town went from no crime to high crime,” but “they’re being moved out.” To a riff on Ramaswamy’s ad featuring his opponent Amy Acton’s mother calling her a liar, in apparent reference to Acton’s having accused her stepfather of raping her when she was 12, as he was subsequently charged with doing. The ad had met with widespread opprobrium, but Trump defended Ramaswamy. “The mother said that Amy Acton, the daughter, is a liar, that she is no good. … How the hell is that his problem?” To “O Canada, which has been ripping us off for years,” and Somalia, “which isn’t even a country,” and “transgender mutilization,” and his plan to rename the Strait of Hormuz for himself.</p><p>Finally, Trump ceded the stage to Husted and Ramaswamy. But by then, the lawn had emptied out as people drifted home, Jacob Hawk among them. A vendor was shouting out discount prices on his MAGA merchandise. “$10 special on hats! All the hats are $10! These are normally $25 hats. That’s a good hat for $10.”</p><p>The next day, the full Republican slate of statewide candidates appeared, sans Trump, at a small pep rally inside a former Delphi auto-parts factory in Vandalia, outside Dayton. It is an enormous building that employed more than 100 prior to its closing in 2009 and is now being used as a warehouse by a company that sells air conditioners, employing only 10 or so; Delphi announcements still remained on the bulletin boards, adding a ghostly feel.</p><p>The setting was an unintentional reminder of what Ohio has been through. Between 2000 and 2025, the state lost 300,000 manufacturing jobs, a devastation that had made it highly susceptible to Trump’s message in 2016. But Republicans have been in charge of the state since 2010, and so it was the task of the candidates gathered there, with an audience of just a few dozen, to cast the state as being on an upswing. Complicating this challenge is the fact that so much of the state’s recent growth has been concentrated in the Columbus area: countless data centers, defense contractor Anduril, a massive Intel plant under construction.</p><p>The bigger challenge, though, was the nationwide pall that hung over the event: the reality of stubbornly high inflation and high gas prices, the latter a direct consequence of Trump’s decision to go to war with Iran. He had stood against costly foreign entanglements when he ran in 2016, in opposition to his party’s recent record, and carried that same banner again in 2024. But another aspect of his political persona had prevailed: a heedless swagger that, in this case, had been fanned by Israeli Prime Minister Benjamin Netanyahu and Defense Secretary Pete Hegseth. It had led him into this drawn-out conflict that has already cost U.S. taxpayers more than $47 billion.</p><p>And it had left a long row of Republican candidates standing in this giant building stacked high with made-in-China air conditioners all but pleading the small assemblage to save them from the political climate. “You can’t give up,” Husted said. “This is a Republican state, and the only way Democrats can win is if Republicans don’t vote.”</p><p>Five days later, I was in York County, Pennsylvania, which Trump had won by 25 points in 2024, and which was home to one of four Republican-held House districts targeted by Democrats. I chose to go to a precinct on the outskirts of York, thinking it would offer a diverse cross-section, in between more Democratic York proper and more Republican rural areas. But over 90 minutes of conversations, I didn’t encounter a Republican voter until I was about to call it a day.</p><p>The first person I spoke with, Bill, a 52-year-old state government employee who asked that I not use his last name for fear of losing his job, had voted for Trump three times. He hardly considered himself MAGA but was drawn in 2016 to Trump’s “drain the swamp” rhetoric and his disavowal of the war in Iraq. He voted for him again in 2020 and 2024 because he didn’t think much of Joe Biden and Kamala Harris.</p><p>But on this day, Bill was coming to vote against his Republican representative, Scott Perry, because he was too “Trump adjacent.” Bill had finally had enough of Trump, especially when it came to all the revelations of self-dealing involving his family and cronies. “I will not be falling for him again,” he told me. “Drain the swamp, no wars. … It was all a lie.”</p><p>He said he couldn’t understand how Trump had gone from America First to seemingly letting the country’s foreign policy be dictated by Israel. He said that he was voting for the Democrats mainly just for the sake of “gridlock,” as deliberate blockage. “Someone’s got to stop this,” he said. “It’s getting out of control.”</p><p>Each Democratic voter I spoke with after that was coming with their own motivation for voting against the Republican slate, like the cast of “Murder on the Orient Express.”</p><p>For Annie (who also asked that I not use her last name), it was for Trump’s social-welfare cuts, which had cost her and her disabled husband $300 per month in SNAP benefits and nearly cost them their Medicaid coverage.</p><p>For Desiree Edmonds, an elementary school teacher, it was high inflation, which was translating into anxiety among the working-class children in her classroom.</p><p>For Mark Castillo, a 19-year-old ironworker, it was for the sky-high cost of diesel.</p><p>For Jacqueline Jimenez, a native Puerto Rican who worked as a home-health aide, it was for the excessive harshness of ICE arrests.</p><p>For Shiri Kramer, a warehouse worker, it was for the general meanness emanating from the administration, which made her think of her grandfather, a Jewish American who had extended mercy to German POWs during World War II. “My grandfather would be writhing right now,” she said. “Nothing happening in our country is OK.”</p><p>By night’s end, Republicans had lost this Pennsylvania district by 10 points, as well as the other three in the state and more than 40 nationwide. They had lost at least seven Senate seats, even in states where Democrats hadn’t prevailed in decades — Kansas, Texas, South Carolina. Incredibly, even Mississippi was on the verge. In Ohio, Republicans lost the race for Senate and governor — only one of the seven statewide candidates on stage at the warehouse emerged a victor — as well as two Republican-held House seats, a stark reversal in a state that had seemed to be trending away from Democrats for good. In all, Democrats flipped five governorships and up to 12 state legislative chambers. The Democratic popular-vote margin in congressional races nationwide was 13 percentage points — nearly double the Republican margin in their own wave years of 2010 and 1994, and approaching the scale of the historic Democratic rout in the post-Watergate election of 1974.</p><p>The particularly stunning loss of the South Carolina seat brought to mind a warning issued in May 2016 by Lindsey Graham, whose death this July left the seat vacant. “If we nominate Trump, we will get destroyed…….and we will deserve it,” Graham tweeted in 2016. For years, the Republican Party had avoided the catastrophic reckoning he warned of — through Trump’s narrow win in 2016, through the Jan. 6, 2021, assault on the Capitol, through Biden’s fateful insistence on running for reelection at age 81 in 2024. Along the way, much of the party, including Graham himself, had accommodated itself to Trump. One way of looking at the 2026 results was that the warning had finally come true. The reckoning had been delayed by a decade, but it had gathered more force over time, like a boulder rolling downhill.</p><p>There was a hint of such a reckoning in the words that Bill, the three-time Trump voter, left me with in York. After he returned from voting, he bade me farewell with a parting regret.</p><p>“You see what’s going on,” he said, “and you’re like, ‘What the hell did I do?’”</p><p>The post On the Ground in the Final Days Before Trump’s Midterm Debacle appeared first on ProPublica.</p>",
+      "url": "https://www.propublica.org/article/trump-movement-rally-voters-appeal",
+      "image": "https://www.propublica.org/wp-content/uploads/2017/01/alec-macgillis-1000x1000.jpg?w=70&amp;h=70&amp;crop=1",
+      "publishedAt": "2026-11-06T18:30:00+00:00",
+      "sourceId": "propublica",
+      "sourceName": "ProPublica",
+      "sourceType": "Investigación Sin Fines de Lucro",
+      "sourceSite": "https://www.propublica.org",
+      "region": "mundo",
+      "country": "EE.UU.",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "radiouchile-2d161150bb",
@@ -2713,6 +2843,26 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
+      "id": "malaespina-5796c801ca",
+      "title": "Cómo la caída del banco Ueno en Paraguay acabó con el gobierno del presidente Santiago Peña",
+      "summary": "El destape de una descomunal estafa financiera deja a millones de ciudadanos sin acceder a sus ahorros y al colorado Peña ante un juicio político para su destitución. La entrada Cómo la caída del banco Ueno en Paraguay acabó con el gobierno del presidente Santiago Peña se publicó primero en Mala Espina .",
+      "content": "<p>El destape de una descomunal estafa financiera deja a millones de ciudadanos sin acceder a sus ahorros y al colorado Peña ante un juicio político para su destitución.</p><p>La entrada Cómo la caída del banco Ueno en Paraguay acabó con el gobierno del presidente Santiago Peña se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/06/como-la-caida-del-banco-ueno-en-paraguay-acabo-con-el-gobierno-del-presidente-santiago-pena/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-Como-la-caida-del-banco-Ueno-en-Paraguay-acabo-con-el-gobierno-del-presidente-Santiago-Pena.webp",
+      "publishedAt": "2026-11-06T16:27:40+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 87,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "cenital-6f63ef16d0",
       "title": "El tablero internacional en jaque: El derrumbe de Trump, crisis en Paraguay, llega el papa León XIV",
       "summary": "El escenario exterior condiciona los planes de la Casa Rosada tras un revés en Washington, el colapso financiero de un socio regional clave y la inminente movilización religiosa en Buenos Aires.",
@@ -2753,6 +2903,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "malaespina-ca167a2260",
+      "title": "Presupuesto 2027: Comisión Mixta rechaza recursos de Educación y Ciencia, además de otros servicios públicos",
+      "summary": "Síntesis Contexto: La Comisión Especial Mixta despachó el Presupuesto 2027 a la Cámara, pero rechazó las partidas completas de Educación y Ciencia, además de recursos de otros ministerios. ¿Qué otros recursos fueron rechazados? Entre ellos figuran Atención Primaria de Salud, Senapred, Aduanas y Patrimonio Cultural. Los...",
+      "content": "<p>Contexto: La Comisión Especial Mixta despachó el Presupuesto 2027 a la Cámara, pero rechazó las partidas completas de Educación y Ciencia, además de recursos de otros ministerios.</p><p>¿Qué otros recursos fueron rechazados? Entre ellos figuran Atención Primaria de Salud, Senapred, Aduanas y Patrimonio Cultural. Los cuestionamientos apuntaron al financiamiento de consultorios y a recortes presupuestarios en distintos servicios públicos.</p><p>La entrada Presupuesto 2027: Comisión Mixta rechaza recursos de Educación y Ciencia, además de otros servicios públicos se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/politica/2026/11/06/presupuesto-2027-comision-mixta-rechaza-recursos-de-educacion-y-ciencia-ademas-de-otros-servicios-publicos/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Copia-de-Portadas-chequeos-3.webp",
+      "publishedAt": "2026-11-06T15:05:34+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 87,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "elmostrador-468952d1f7",
       "title": "“Menos recursos es impunidad”: Fiscal nacional Valencia criticó Presupuesto 2027 para su repartición",
       "summary": "Nota publicada por El Mostrador (Digital Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -2770,6 +2940,26 @@
       "category": "Economía y Sociedad",
       "relevanceTier": "alta",
       "relevanceScore": 91,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "malaespina-38fb28675a",
+      "title": "Ueno Bank: el banco que precipitó la renuncia de Santiago Peña fue sponsor del evento que premió a Cerimedo en EE.UU.",
+      "summary": "Síntesis ¿Contexto?: El político paraguayo renunció a la presidencia en medio de la crisis desatada por la quiebra del banco digital, que dejó a millones de personas sin acceso a sus ahorros. Peña fue accionista de Ueno Bank hasta 2025. ¿Qué pasó? La entidad bancaria fue sponsor, en febrero de este año, de la Hispanic Prosperity Gala...",
+      "content": "<p>¿Contexto?: El político paraguayo renunció a la presidencia en medio de la crisis desatada por la quiebra del banco digital, que dejó a millones de personas sin acceso a sus ahorros. Peña fue accionista de Ueno Bank hasta 2025.</p><p>¿Qué pasó? La entidad bancaria fue sponsor, en febrero de este año, de la Hispanic Prosperity Gala en Mar-a-Lago, Estados Unidos, donde premiaron al consultor argentino. El periodista español Javier Negre, dueño de La Derecha Diario, fue uno de los organizadores del evento.</p><p>La entrada Ueno Bank: el banco que precipitó la renuncia de Santiago Peña fue sponsor del evento que premió a Cerimedo en EE.UU. se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/06/ueno-bank-el-banco-que-precipito-la-renuncia-de-santiago-pena-fue-sponsor-del-evento-que-premio-a-cerimedo-en-ee-uu/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Ueno-Bank_-el-banco-que-precipito-la-renuncia-de-Santiago-Pena-fue-sponsor-del-evento-que-premio-a-Cerimedo-en-EE.UU_.webp",
+      "publishedAt": "2026-11-06T15:04:40+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2913,6 +3103,46 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "jacobinlat-f8769a43b0",
+      "title": "La biblioteca argentina del marxismo",
+      "summary": "Antes de 1976, el lector argentino tenía a mano más ediciones marxistas que en cualquier otro lugar de América Latina. Horacio Tarcus reconstruye ese proceso y la forma en que la dictadura de 1976 intentó destruirlo. La entrada La biblioteca argentina del marxismo se publicó primero en Jacobin Revista .",
+      "content": "<p>Antes de 1976, el lector argentino tenía a mano más ediciones marxistas que en cualquier otro lugar de América Latina. Horacio Tarcus reconstruye ese proceso y la forma en que la dictadura de 1976 intentó destruirlo.</p><p>La entrada La biblioteca argentina del marxismo se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/la-biblioteca-argentina-del-marxismo/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/lomos.jpg",
+      "publishedAt": "2026-11-06T12:59:22+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
+      "independent": true,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "terram-a1d3b25a8d",
+      "title": "[DW] Fuegos forestales y tsunamis unen a Europa y América Latina",
+      "summary": "La cooperación entre Europa y América Latina busca anticiparse a incendios, terremotos y tsunamis. Expertos reunidos en Bruselas y Madrid defienden que la preparación salva vidas. Fuente: DW, 5 de noviembre de 2026.",
+      "content": "<p>Los desastres naturales penden sobre América Latina y el Caribe. La comunidad internacional está dispuesta a colaborar y la región se levanta para formar redes de apoyo mutuo.</p><p>Pero hay que resaltar que los nuevos acuerdos se basan en viejas cooperaciones y en solidaridades compartidas entre ambos continentes. Esto ha quedado claro en dos encuentros internacionales de esta primera semana de noviembre de 2026, tanto en un foro en Bruselas como en en la Cumbre Iberoamericana en Madrid.</p><p>“Acabo de volver de tres semanas en la Patagonia. Para las comunidades Mapuche, Pemón y muchas otras, el fuego es una herramienta ancestral de gestión. Lo fue en el Mediterráneo; abogamos por su recuperación y por aprender de los errores cometidos en Europa”, dice a DW Jordie Vendrell, director general de la Fundación Pau Costa, centrada en prevención, gestión e investigación de incendios forestales, que trabaja en Colombia, Ecuador, Bolivia, Chile y Argentina.</p><p>“En Chile junto con la Corporación Nacional Forestal, comenzamos en 2021 un proyecto de tres años que gestionaba incendios forestales en espacios públicos. Los equipos los conformaron técnicos de varios países de América Latina y Europa, también Estados Unidos. Esto generó confianza entre los responsables de gestión de incendios que pudieron llamarse para solicitar su asistencia o ayuda internacional”, contó Vendrell en el Foro Europeo de Protección Civil que tuvo lugar esta semana en Bruselas.</p><p>En este encuentro internacional, organizado por ECHO, el departamento de Protección Civil y Operaciones de Ayuda Humanitaria de la Comisión Europea, se dieron cita las organizaciones que ponen las manos en el fuego a flamantes acuerdos como el de la Red Iberoamericana de Reducción del Riesgo de Desastres y Protección Civil (RGIR), firmado esta semana en Madrid.</p><p>“La solidaridad empieza antes de que los desastres ocurran”, repite una y otra vez Hadja Lahbib, comisaria europea de Preparación, Gestión de Crisis e Igualdad. La idea es que, en el renovado enfoque de la asistencia a desastres, el trabajo empieza antes. Por ejemplo, con el apoyo a sistemas de alerta temprana a inundaciones en Perú y Ecuador por el fenómeno de El Niño. Éste se agrava por el cambio climático, que conlleva tanto sequías e inundaciones como incendios forestales.</p><p>Más allá de la crisis climática, se sabe que la región de América Latina y el Caribe está en una zona de alto riesgo. Según información de ECHO, 15 millones de euros se destinaron este año a gestionar en 2026 la urgencia humanitaria posterior a los terremotos en Venezuela. Este país comparte con su entorno caribeño el riesgo de terremoto con efecto inundación de sus costas y tsunamis.</p><p>“Hay que tener presente que los terremotos son la causa, aproximadamente, del ochenta por ciento de los tsunamis”, explica a DW, por su parte, Ignacio Aguirre de la Universidad de Cantabria. Especialista en gestión sostenible de riesgos naturales, afirma que Chile es el país mejor preparado para gestionar los efectos de terremotos de gran magnitud.</p><p>No obstante, ¿qué significa estar preparado? Preparación: este es el concepto que recorre la actual oferta de ayuda a desastres europea como la nueva red de cooperación latinoamericana. Las organizaciones presentes en el foro de Bruselas saben nutrir de ejemplos un incipiente acuerdo.</p><p>“CoastWave, financiado por la Unión Europea y con sello de la UNESCO, certifica con el sello Tsunami-Save que las comunidades están preparadas”, dice Ignacio Aguirre. Al prolijo trabajo técnico de detección y mapeo de riesgos, sigue la sistematización concreta de vías y planes de evacuación. También la instrucción de las poblaciones.</p><p>“En Costa Rica y en El Salvador hay poblaciones que ya cuentan con el sello Tsunami-Ready”, informa el especialista de la Universidad de Cantabria. Otros proyectos en países como Guatemala, Honduras y República Dominicana, según información de la UNESCO, estarían en camino de obtener este sello internacional.</p><p>En este sentido va tanto la cooperación de la UE como la nueva red iberoamericana. No obstante, desde el fuego en el terreno, “es útil aumentar y compartir recursos y capacidades tecnológicas”, advierte Jordi Vendrell. No obstante, “es imprescindible equilibrar la inversión para generar la capacidad local de entender y predecir cómo y por qué un sistema puede colapsar. Y anticiparse a ello”, concluye.</p>",
+      "url": "https://www.terram.cl/dw-fuegos-forestales-y-tsunamis-unen-a-europa-y-america-latina/",
+      "image": "https://www.terram.cl/wp-content/uploads/2026/11/64620911_1006-1170x700.jpg",
+      "publishedAt": "2026-11-06T14:10:16+00:00",
+      "sourceId": "terram",
+      "sourceName": "Fundación Terram",
+      "sourceType": "Medioambiente y Territorio",
+      "sourceSite": "https://www.terram.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Medioambiente y Territorio",
+      "relevanceTier": "alta",
+      "relevanceScore": 83,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "fastcheck-53543f1a3a",
       "title": "Tomás Kast y su apuesta por rejuvenecer a la derecha en regiones",
       "summary": "Hijo de Miguel Kast, sobrino del presidente José Antonio Kast y hermano del exsenador Felipe Kast, Tomás es otro integrante de la familia que llegó al Congreso en marzo de este año, como diputado de Evópoli por el distrito 23. Además de su labor parlamentaria y su participación en el quehacer nacional, el legislador figura como...",
@@ -2933,13 +3163,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "terram-a1d3b25a8d",
-      "title": "[DW] Fuegos forestales y tsunamis unen a Europa y América Latina",
-      "summary": "La cooperación entre Europa y América Latina busca anticiparse a incendios, terremotos y tsunamis. Expertos reunidos en Bruselas y Madrid defienden que la preparación salva vidas. Fuente: DW, 5 de noviembre de 2026.",
-      "content": "<p>Los desastres naturales penden sobre América Latina y el Caribe. La comunidad internacional está dispuesta a colaborar y la región se levanta para formar redes de apoyo mutuo.</p><p>Pero hay que resaltar que los nuevos acuerdos se basan en viejas cooperaciones y en solidaridades compartidas entre ambos continentes. Esto ha quedado claro en dos encuentros internacionales de esta primera semana de noviembre de 2026, tanto en un foro en Bruselas como en en la Cumbre Iberoamericana en Madrid.</p><p>“Acabo de volver de tres semanas en la Patagonia. Para las comunidades Mapuche, Pemón y muchas otras, el fuego es una herramienta ancestral de gestión. Lo fue en el Mediterráneo; abogamos por su recuperación y por aprender de los errores cometidos en Europa”, dice a DW Jordie Vendrell, director general de la Fundación Pau Costa, centrada en prevención, gestión e investigación de incendios forestales, que trabaja en Colombia, Ecuador, Bolivia, Chile y Argentina.</p><p>“En Chile junto con la Corporación Nacional Forestal, comenzamos en 2021 un proyecto de tres años que gestionaba incendios forestales en espacios públicos. Los equipos los conformaron técnicos de varios países de América Latina y Europa, también Estados Unidos. Esto generó confianza entre los responsables de gestión de incendios que pudieron llamarse para solicitar su asistencia o ayuda internacional”, contó Vendrell en el Foro Europeo de Protección Civil que tuvo lugar esta semana en Bruselas.</p><p>En este encuentro internacional, organizado por ECHO, el departamento de Protección Civil y Operaciones de Ayuda Humanitaria de la Comisión Europea, se dieron cita las organizaciones que ponen las manos en el fuego a flamantes acuerdos como el de la Red Iberoamericana de Reducción del Riesgo de Desastres y Protección Civil (RGIR), firmado esta semana en Madrid.</p><p>“La solidaridad empieza antes de que los desastres ocurran”, repite una y otra vez Hadja Lahbib, comisaria europea de Preparación, Gestión de Crisis e Igualdad. La idea es que, en el renovado enfoque de la asistencia a desastres, el trabajo empieza antes. Por ejemplo, con el apoyo a sistemas de alerta temprana a inundaciones en Perú y Ecuador por el fenómeno de El Niño. Éste se agrava por el cambio climático, que conlleva tanto sequías e inundaciones como incendios forestales.</p><p>Más allá de la crisis climática, se sabe que la región de América Latina y el Caribe está en una zona de alto riesgo. Según información de ECHO, 15 millones de euros se destinaron este año a gestionar en 2026 la urgencia humanitaria posterior a los terremotos en Venezuela. Este país comparte con su entorno caribeño el riesgo de terremoto con efecto inundación de sus costas y tsunamis.</p><p>“Hay que tener presente que los terremotos son la causa, aproximadamente, del ochenta por ciento de los tsunamis”, explica a DW, por su parte, Ignacio Aguirre de la Universidad de Cantabria. Especialista en gestión sostenible de riesgos naturales, afirma que Chile es el país mejor preparado para gestionar los efectos de terremotos de gran magnitud.</p><p>No obstante, ¿qué significa estar preparado? Preparación: este es el concepto que recorre la actual oferta de ayuda a desastres europea como la nueva red de cooperación latinoamericana. Las organizaciones presentes en el foro de Bruselas saben nutrir de ejemplos un incipiente acuerdo.</p><p>“CoastWave, financiado por la Unión Europea y con sello de la UNESCO, certifica con el sello Tsunami-Save que las comunidades están preparadas”, dice Ignacio Aguirre. Al prolijo trabajo técnico de detección y mapeo de riesgos, sigue la sistematización concreta de vías y planes de evacuación. También la instrucción de las poblaciones.</p><p>“En Costa Rica y en El Salvador hay poblaciones que ya cuentan con el sello Tsunami-Ready”, informa el especialista de la Universidad de Cantabria. Otros proyectos en países como Guatemala, Honduras y República Dominicana, según información de la UNESCO, estarían en camino de obtener este sello internacional.</p><p>En este sentido va tanto la cooperación de la UE como la nueva red iberoamericana. No obstante, desde el fuego en el terreno, “es útil aumentar y compartir recursos y capacidades tecnológicas”, advierte Jordi Vendrell. No obstante, “es imprescindible equilibrar la inversión para generar la capacidad local de entender y predecir cómo y por qué un sistema puede colapsar. Y anticiparse a ello”, concluye.</p>",
-      "url": "https://www.terram.cl/dw-fuegos-forestales-y-tsunamis-unen-a-europa-y-america-latina/",
-      "image": "https://www.terram.cl/wp-content/uploads/2026/11/64620911_1006-1170x700.jpg",
-      "publishedAt": "2026-11-06T14:10:16+00:00",
+      "id": "terram-d11053f6d3",
+      "title": "[Diario Sostenible] Cancelan carrera solidaria de patitos en Frutillar tras polémica por riesgos ambientales",
+      "summary": "La decisión se toma luego de que diversas agrupaciones ciudadanas manifestaran reparos respecto al impacto del evento. Fuente: Diario Sostenible, 5 de noviembre de 2026.",
+      "content": "<p>Durante la tarde de este jueves 5 de noviembre, el alcalde de Frutillar, Javier Arismendi Valenzuela, informó, a través de una transmisión en vivo, la cancelación de la carrera de patitos de hule, luego de las diversas dudas y críticas que generó el anuncio de la actividad debido a sus posibles impactos ambientales en el lago Llanquihue.</p><p>La iniciativa solidaria estaba programada para el próximo 28 de noviembre en el sector del Muelle Costanera y había sido presentada bajo el nombre de “Frutillar hace historia”. Sin embargo, el anuncio generó diversas reacciones en la comunidad local y organizaciones ambientalistas de la región, como Defendamos La Patagonia, quienes advirtieron sobre la dificultad de recuperar la totalidad de los juguetes y los posibles riesgos al ecosistema.</p><p>Frente a ello la iniciativa será reemplazada por dos actividades durante el mismo día, con el fin de reunir fondos para la Unión Comunal de Adultos Mayores.</p><p>En la transmisión en vivo el alcalde de Frutillar aseguró que, si bien el evento se decidió cancelar, éste contaba con todas las medidas necesarias para realizarse y recuperar en totalidad los juguetes.</p><p>“Hemos escuchado a la comunidad y movimientos, por lo que tomamos la decisión de modificar la actividad. Esperamos que este impulso comunitario que vimos nos ayude a continuar cuidando el lago y que esté libre de salmoneras”, detalló la autoridad.</p><p>Asimismo, extendió una invitación a la organización Acción Animalista, que inicialmente estaba vinculada a la actividad, pero que posteriormente anunció su retiro en medio de la controversia, para que se reincorpore a la iniciativa solidaria y continúe contando con el apoyo de la organización.</p><p>En reemplazo de la carrera, se realizará, el 28 de noviembre, una rifa programada para las 15:00, que mantendrá los premios en dinero anunciados originalmente: $200 mil para el quinto lugar, $300 mil para el cuarto, $500 mil para el tercero, $1 millón para el segundo y $2 millones para el primer lugar.</p><p>Así también, se realizará la “Gran Corrida Amarilla por la Familia”, a las 10:00.</p>",
+      "url": "https://www.terram.cl/diario-sostenible-cancelan-carrera-solidaria-de-patitos-en-frutillar-tras-polemica-por-riesgos-ambientales/",
+      "image": "https://www.terram.cl/wp-content/uploads/2026/11/6aecc18e2dcc3_1200x719-1170x719.jpg",
+      "publishedAt": "2026-11-06T14:03:01+00:00",
       "sourceId": "terram",
       "sourceName": "Fundación Terram",
       "sourceType": "Medioambiente y Territorio",
@@ -2973,13 +3203,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "terram-d11053f6d3",
-      "title": "[Diario Sostenible] Cancelan carrera solidaria de patitos en Frutillar tras polémica por riesgos ambientales",
-      "summary": "La decisión se toma luego de que diversas agrupaciones ciudadanas manifestaran reparos respecto al impacto del evento. Fuente: Diario Sostenible, 5 de noviembre de 2026.",
-      "content": "<p>Durante la tarde de este jueves 5 de noviembre, el alcalde de Frutillar, Javier Arismendi Valenzuela, informó, a través de una transmisión en vivo, la cancelación de la carrera de patitos de hule, luego de las diversas dudas y críticas que generó el anuncio de la actividad debido a sus posibles impactos ambientales en el lago Llanquihue.</p><p>La iniciativa solidaria estaba programada para el próximo 28 de noviembre en el sector del Muelle Costanera y había sido presentada bajo el nombre de “Frutillar hace historia”. Sin embargo, el anuncio generó diversas reacciones en la comunidad local y organizaciones ambientalistas de la región, como Defendamos La Patagonia, quienes advirtieron sobre la dificultad de recuperar la totalidad de los juguetes y los posibles riesgos al ecosistema.</p><p>Frente a ello la iniciativa será reemplazada por dos actividades durante el mismo día, con el fin de reunir fondos para la Unión Comunal de Adultos Mayores.</p><p>En la transmisión en vivo el alcalde de Frutillar aseguró que, si bien el evento se decidió cancelar, éste contaba con todas las medidas necesarias para realizarse y recuperar en totalidad los juguetes.</p><p>“Hemos escuchado a la comunidad y movimientos, por lo que tomamos la decisión de modificar la actividad. Esperamos que este impulso comunitario que vimos nos ayude a continuar cuidando el lago y que esté libre de salmoneras”, detalló la autoridad.</p><p>Asimismo, extendió una invitación a la organización Acción Animalista, que inicialmente estaba vinculada a la actividad, pero que posteriormente anunció su retiro en medio de la controversia, para que se reincorpore a la iniciativa solidaria y continúe contando con el apoyo de la organización.</p><p>En reemplazo de la carrera, se realizará, el 28 de noviembre, una rifa programada para las 15:00, que mantendrá los premios en dinero anunciados originalmente: $200 mil para el quinto lugar, $300 mil para el cuarto, $500 mil para el tercero, $1 millón para el segundo y $2 millones para el primer lugar.</p><p>Así también, se realizará la “Gran Corrida Amarilla por la Familia”, a las 10:00.</p>",
-      "url": "https://www.terram.cl/diario-sostenible-cancelan-carrera-solidaria-de-patitos-en-frutillar-tras-polemica-por-riesgos-ambientales/",
-      "image": "https://www.terram.cl/wp-content/uploads/2026/11/6aecc18e2dcc3_1200x719-1170x719.jpg",
-      "publishedAt": "2026-11-06T14:03:01+00:00",
+      "id": "terram-687d20607a",
+      "title": "[Mongabay] El Niño golpea al bobo de Cocos: científicos encuentran polluelos débiles, esqueletos y menos nidos en Isla Pajarera, México",
+      "summary": "En Isla Pajarera, en el Pacífico mexicano, el registro de parejas de bobo de Cocos cayó de 9500 en 1975 a solo 220 en 2026. La reducción de las poblaciones se debe al aumento de la temperatura del mar, un fenómeno que este año se ha intensificado por las condiciones asociadas a El Niño. Fuente: Mongabay, 5 de noviembre de 2026.",
+      "content": "<p>En Isla Pajarera, frente a la costa de Jalisco, tres personas son necesarias para registrar los datos de un bobo de Cocos (Sula brewsteri) y recuperar el dispositivo GPS que esta ave lleva entre las plumas centrales de su cola. La estudiante de biología marina, Lilian Jazmín Oran Rosas, sostiene con sus manos a la hembra de color marrón y vientre blanco mientras el doctor en ciencias marinas, Salvador Hernández Vázquez, retira el dispositivo de menos de 20 gramos. Luego, el investigador busca un anillo en su pata y dicta la cifra que hay en él a Valeria Coronado Lerma, otra alumna de la misma licenciatura. Tras medir con una regla el pico y otras partes del cuerpo, el profesor extrae de la pata menos de un mililitro de sangre con una jeringa y mete al ave en una bolsa de tela para pesarla antes de liberarla.</p><p>Días después, el equipo de investigadores analiza los datos del GPS e identifica que el ave recorrió una distancia máxima de 140 kilómetros en busca de alimento (medidos en línea recta) y que tardó casi dos días en regresar. Los viajes habituales del bobo de Cocos en la isla, no obstante, alcanzan un máximo de 70 kilómetros, mientras que el tiempo que pasan fuera de sus nidos suele ser de un solo día. Esta diferencia demuestra que las aves están yendo más lejos y permanecen más tiempo fuera para encontrar comida. Se trata de un hallazgo importante para comprender las alteraciones que las condiciones del Océano Pacífico causan en esta especie este año.</p><p>«Si hay comida cerca van a hacer un viaje corto y rápido. Si no hay comida cerca, el viaje va a ser mucho más largo y, obviamente, el tiempo que tardan va a ser mayor», detalla Hernández Vázquez en entrevista para Mongabay Latam.</p><p>Las labores de monitoreo descritas ocurren en una de las tres islas donde un grupo de estudiantes, de la licenciatura en biología marina del Centro Universitario de la Costa Sur de la Universidad de Guadalajara, estudia aves. Los jóvenes están coordinados por Hernández Vázquez y el doctor en Ciencias en Ecología Marina, José Alfredo Castillo Guerrero. El primero se dedica a la investigación sobre estas especies desde hace 30 años y, desde hace 11, cuenta y registra de forma continua aves de la región como el bobo de Cocos, el rabijunco pico rojo (Phaethon aethereus) y el bobo de patas azules (Sula nebouxii). El monitoreo lo realizan en las islas Cocinas, Peña Blanca y Pajarera, todas en el Pacífico central mexicano y con grandes poblaciones de estas especies.</p><p>“Mi idea es tener un monitoreo a largo plazo de las colonias reproductivas para ver cómo cambian con el tiempo y evaluar su relación con el aumento en la temperatura del mar y el cambio climático. Esto nos permitirá identificar, a una escala más amplia, los posibles efectos de estos cambios sobre las colonias de aves”, cuenta Hernández Vázquez.</p><p>Mongabay Latam acompañó al investigador y las dos estudiantes en una salida de campo durante septiembre de 2026. Lo que encontraron es preocupante: una reducción drástica en la cantidad de nidos de bobo de Cocos, polluelos muy delgados, esqueletos en el suelo y una invasión avanzada de plantas exóticas que reducen el espacio donde las aves anidan.</p><p>La importancia de las aves marinas radica en el lugar que ocupan dentro de la cadena trófica. Al comer peces, como las sardinas y los peces voladores, contribuyen al equilibrio de sus poblaciones.</p><p>Además, sus excrementos contienen nutrientes que funcionan como fertilizantes. Cuando llueve, parte de estos llega al mar favoreciendo el crecimiento del fitoplancton, organismos microscópicos que sirven de alimento a otras especies. En las islas, el guano también enriquece el suelo y favorece el crecimiento de plantas, que a su vez sostienen a otros organismos como insectos o reptiles herbívoros y depredadores. Este aporte es importante porque las islas están aisladas del continente y no tienen tantas fuentes de nutrientes y materia orgánica.</p><p>“Si las aves marinas, como el bobo de Cocos, desaparecen, no solo perdemos una especie, también se podrían alterar las relaciones alimentarias y el equilibrio ecológico de las islas”, advierte Hernández Vázquez. Monitorear especies como los bobos y asegurar el buen estado de sus poblaciones es por ende fundamental para mantener la salud de los océanos.</p><p>Pajarera forma parte de las islas de la Bahía de Chamela que desde 2022 constituyen un Santuario en México, la primer área protegida decretada bajo esta categoría en el país. Para llegar hasta los bobos de Cocos que anidan en ella, los investigadores deben trepar las rocas hasta alcanzar una planicie donde crecen pastos y cactus columnares. Entre las piedras y la vegetación árida, se extiende la colonia que arma sus nidos con plantas secas sobre el suelo y, en cada uno, la hembra y el macho se turnan para incubar los huevos o cuidar a los polluelos.</p><p>Durante la temporada de reproducción de esta especie, los investigadores viajan a las islas cada 15 días porque la batería de los GPS que colocan en las aves solo dura 10. Para organizar el trabajo dividen la Isla Pajarera en parcelas — A, B y C—, y en cada una de ellas cuentan los nidos, los marcan con varillas metálicas numeradas, cuentan cuántos huevos y polluelos hay, colocan anillos a las aves, toman muestras de sangre y, en algunas ocasiones, recogen la comida que regurgitan para analizarla en el laboratorio y saber de qué se alimentan.</p><p>Lee más | Huracanes más intensos en el Pacífico y calma en el Atlántico: los efectos de El Niño que ya se sienten en los océanos</p><p>Cuando terminan el trabajo de campo y regresan a la universidad, los investigadores descargan y procesan los datos de los GPS para conocer los recorridos y el comportamiento de las aves. A la par, congelan las muestras de sangre y, cuando reúnen una cantidad suficiente, las envían al laboratorio para saber qué comen y si han estado expuestas a contaminantes.</p><p>Los resultados de estos trabajos de monitoreo, que durante una década han involucrado a alrededor de 100 estudiantes, la mayoría mujeres, han permitido desarrollar 30 proyectos de investigación. Entre ellos están el de la investigadora Guadalupe Atilano Guzmán, quien analizó muestras de sangre y encontró concentraciones detectables de mercurio en los bobos de Cocos de Isla Peña Blanca, y el de la estudiante de biología marina Ana Catalina López Córdoba, quien analizó datos de geolocalizadores para rastrear los desplazamientos de rabijuncos pico rojo durante su etapa no reproductiva.</p><p>Durante la visita en la que Mongabay Latam acompañó a los científicos, el equipo observó que la cantidad de nidos del bobo de Cocos había disminuido: en la primera parcela, por ejemplo, solo había cinco, cuando quince días antes se habían contado más de 20. “Este monitoreo fue uno de mis menos favoritos porque vi una reducción de nidos sorprendente. Sí, te da para abajo porque es algo que preocupa”, dice la estudiante Coronado Lerma.</p><p>El investigador Hernández Vázquez explica que la reducción de nidos puede entenderse en dos escalas: la local y la global. En la primera, las lluvias intensas de septiembre pudieron destruir los nidos y arrastrar los huevos. En la segunda, influyen los efectos de El Niño, un fenómeno recurrente que se caracteriza por el calentamiento de la superficie del Pacífico ecuatorial, que reduce la disponibilidad de alimento para el bobo de Cocos y que este 2026 está siendo particularmente intenso.</p><p>“El calentamiento del agua hace que las aves tengan que viajar más lejos para buscar comida, lo que implica dejar el nido expuesto durante más tiempo y eso también puede causar la destrucción de esos nidos por la depredación o por las lluvias”, comenta el profesor. En un nido de la parcela B, con un pollo de seis semanas, ninguno de los dos padres regresó durante los dos días de monitoreo.</p><p>Lee más | El océano se calienta cada vez más: en 2025 absorbió una cifra récord del calor generado por las actividades humanas</p><p>La disponibilidad de peces también se refleja en los huevos: la mayoría de los nidos sólo tiene uno este año. Cuando los recursos son limitados, las aves destinan menos energía a la reproducción y ponen un solo huevo; en cambio, cuando hay suficiente alimento, pueden poner dos. “El tamaño de puesta nos da una idea de cómo está el alimento y este año no todas las parejas anidaron porque valoran el costo-beneficio”, detalla Hernández Vázquez.</p><p>Además, en su visita más reciente a la isla Peña Blanca, el equipo encontró 10 aves muertas, tanto juveniles como adultas, a diferencia de otros años en los que no identificaron muertes.</p><p>A esto se suma que la rama de la cruz (Chromolaena odorata) y el zacate de Guinea (Urochloa maxima), dos plantas exóticas introducidas, han cubierto los espacios donde anida el bobo de Cocos en Isla Pajarera. El espacio disponible ha pasado de 14.4 hectáreas en 1975 a solo 1.2 hectáreas en 2015, de acuerdo con un artículo de Hernández Vázquez y Castillo Guerrero.</p><p>“Desde que comencé a visitar esta isla, hace ya varios años, he observado cómo algunas especies de plantas han invadido progresivamente las zonas de anidación. Las aves anidan generalmente en lugares despejados, sin vegetación. Ahora, lo que hemos visto es que estos pastos se establecen sobre las zonas de anidación”, comenta el profesor.</p><p>“Quizás en algunos años ya ni siquiera puedan anidar aquí en estas islas por la vegetación. Estaría muy bien que iniciaran un proyecto de control de especies invasoras en esas islas”, agrega la estudiante Oran Rosas.</p><p>Toda la información recopilada por los investigadores durante años de monitoreo ha permitido identificar una disminución en la población del bobo de Cocos en la isla Pajarera. En 1975, el ornitólogo Gonzalo Gaviño de la Torre registró 9524 nidos en el islote. Años después, Hernández Vázquez contabilizó 2178 y, en 2008, la cifra descendió a 1700. Para 2016, el registro fue de apenas 350 nidos. En 2026, el número máximo durante una visita fue de aproximadamente 220.</p><p>“Estas fluctuaciones pueden variar. Por ejemplo, si es un año atípico como ahora, [el número de nidos] baja aún más. He visto que en los últimos años [la cantidad de nidos] ha estado fluctuando entre no más de 500. Al final, esto está determinado por la disponibilidad del alimento y los efectos globales que se están dando. En Cocinas y Peña Blanca también ha habido un decremento considerable”, dice el especialista Hernández Vázquez.</p><p>El investigador agrega que el turismo también puede afectar. Recuerda que en una ocasión, en Isla Cocinas, la de más fácil acceso, subió un grupo de 30 personas. Algunos visitantes se adentraron entre las colonias para tomarse fotografías. “Las aves volaron y se fueron y vimos la depredación de huevos y pollos. A veces hay parejas tan sensibles que se van y no regresan en un buen rato. Los huevos al estar expuestos mucho tiempo al sol también pueden ser infértiles”, explica.</p><p>En las últimas décadas, también se han dado eventos que han disminuido la población de las colonias. En 2012, alrededor de 1900 bobos aparecieron entre muertos y moribundos en la isla Peña Blanca y en playas cercanas, muy delgados e incapaces de ponerse de pie. El investigador sospecha que la mortandad pudo estar relacionada con mareas rojas y la proliferación de microalgas que producen toxinas y afectan a las aves a través de los peces que consumen, aunque aclara que no hay certeza sobre la causa exacta.</p><p>De acuerdo con el investigador, uno de los principales problemas que provoca la disminución de las poblaciones de esta especie a nivel global es la escasez de alimento, relacionada con el aumento de la temperatura del mar provocado por el calentamiento global. Este año, esas condiciones se han intensificado por las condiciones asociadas al fenómeno de El Niño.</p><p>“Aunque no lo hemos evaluado, creemos que esto también ocurre en Cocinas y Peña Blanca”, comenta el especialista.</p><p>Determinar si las colonias podrán recuperarse frente al aumento de temperatura en el océano y a este fenómeno en particular es incierto, ya que sus efectos se manifiestan a una escala amplia y podrían reflejarse a largo plazo. En cambio, a nivel local, las condiciones varían de una isla a otra, por lo que cada colonia enfrenta amenazas particulares y requiere medidas de conservación específicas.</p><p>*Imagen principal: un macho de bobo de Cocos, distinguible por su cabeza blanca, permanece en el nido cuidando a su polluelo en Isla Pajarera. Foto: Mariana Recamier</p>",
+      "url": "https://www.terram.cl/mongabay-el-nino-golpea-al-bobo-de-cocos-cientificos-encuentran-polluelos-debiles-esqueletos-y-menos-nidos-en-isla-pajarera-mexico/",
+      "image": "https://www.terram.cl/wp-content/uploads/2026/11/PXL_20260914_160542976-1-1200x800-1-1170x752.jpg",
+      "publishedAt": "2026-11-06T13:52:13+00:00",
       "sourceId": "terram",
       "sourceName": "Fundación Terram",
       "sourceType": "Medioambiente y Territorio",
@@ -3008,26 +3238,6 @@
       "country": "Argentina",
       "independent": true,
       "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 83,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "terram-687d20607a",
-      "title": "[Mongabay] El Niño golpea al bobo de Cocos: científicos encuentran polluelos débiles, esqueletos y menos nidos en Isla Pajarera, México",
-      "summary": "En Isla Pajarera, en el Pacífico mexicano, el registro de parejas de bobo de Cocos cayó de 9500 en 1975 a solo 220 en 2026. La reducción de las poblaciones se debe al aumento de la temperatura del mar, un fenómeno que este año se ha intensificado por las condiciones asociadas a El Niño. Fuente: Mongabay, 5 de noviembre de 2026.",
-      "content": "<p>En Isla Pajarera, frente a la costa de Jalisco, tres personas son necesarias para registrar los datos de un bobo de Cocos (Sula brewsteri) y recuperar el dispositivo GPS que esta ave lleva entre las plumas centrales de su cola. La estudiante de biología marina, Lilian Jazmín Oran Rosas, sostiene con sus manos a la hembra de color marrón y vientre blanco mientras el doctor en ciencias marinas, Salvador Hernández Vázquez, retira el dispositivo de menos de 20 gramos. Luego, el investigador busca un anillo en su pata y dicta la cifra que hay en él a Valeria Coronado Lerma, otra alumna de la misma licenciatura. Tras medir con una regla el pico y otras partes del cuerpo, el profesor extrae de la pata menos de un mililitro de sangre con una jeringa y mete al ave en una bolsa de tela para pesarla antes de liberarla.</p><p>Días después, el equipo de investigadores analiza los datos del GPS e identifica que el ave recorrió una distancia máxima de 140 kilómetros en busca de alimento (medidos en línea recta) y que tardó casi dos días en regresar. Los viajes habituales del bobo de Cocos en la isla, no obstante, alcanzan un máximo de 70 kilómetros, mientras que el tiempo que pasan fuera de sus nidos suele ser de un solo día. Esta diferencia demuestra que las aves están yendo más lejos y permanecen más tiempo fuera para encontrar comida. Se trata de un hallazgo importante para comprender las alteraciones que las condiciones del Océano Pacífico causan en esta especie este año.</p><p>«Si hay comida cerca van a hacer un viaje corto y rápido. Si no hay comida cerca, el viaje va a ser mucho más largo y, obviamente, el tiempo que tardan va a ser mayor», detalla Hernández Vázquez en entrevista para Mongabay Latam.</p><p>Las labores de monitoreo descritas ocurren en una de las tres islas donde un grupo de estudiantes, de la licenciatura en biología marina del Centro Universitario de la Costa Sur de la Universidad de Guadalajara, estudia aves. Los jóvenes están coordinados por Hernández Vázquez y el doctor en Ciencias en Ecología Marina, José Alfredo Castillo Guerrero. El primero se dedica a la investigación sobre estas especies desde hace 30 años y, desde hace 11, cuenta y registra de forma continua aves de la región como el bobo de Cocos, el rabijunco pico rojo (Phaethon aethereus) y el bobo de patas azules (Sula nebouxii). El monitoreo lo realizan en las islas Cocinas, Peña Blanca y Pajarera, todas en el Pacífico central mexicano y con grandes poblaciones de estas especies.</p><p>“Mi idea es tener un monitoreo a largo plazo de las colonias reproductivas para ver cómo cambian con el tiempo y evaluar su relación con el aumento en la temperatura del mar y el cambio climático. Esto nos permitirá identificar, a una escala más amplia, los posibles efectos de estos cambios sobre las colonias de aves”, cuenta Hernández Vázquez.</p><p>Mongabay Latam acompañó al investigador y las dos estudiantes en una salida de campo durante septiembre de 2026. Lo que encontraron es preocupante: una reducción drástica en la cantidad de nidos de bobo de Cocos, polluelos muy delgados, esqueletos en el suelo y una invasión avanzada de plantas exóticas que reducen el espacio donde las aves anidan.</p><p>La importancia de las aves marinas radica en el lugar que ocupan dentro de la cadena trófica. Al comer peces, como las sardinas y los peces voladores, contribuyen al equilibrio de sus poblaciones.</p><p>Además, sus excrementos contienen nutrientes que funcionan como fertilizantes. Cuando llueve, parte de estos llega al mar favoreciendo el crecimiento del fitoplancton, organismos microscópicos que sirven de alimento a otras especies. En las islas, el guano también enriquece el suelo y favorece el crecimiento de plantas, que a su vez sostienen a otros organismos como insectos o reptiles herbívoros y depredadores. Este aporte es importante porque las islas están aisladas del continente y no tienen tantas fuentes de nutrientes y materia orgánica.</p><p>“Si las aves marinas, como el bobo de Cocos, desaparecen, no solo perdemos una especie, también se podrían alterar las relaciones alimentarias y el equilibrio ecológico de las islas”, advierte Hernández Vázquez. Monitorear especies como los bobos y asegurar el buen estado de sus poblaciones es por ende fundamental para mantener la salud de los océanos.</p><p>Pajarera forma parte de las islas de la Bahía de Chamela que desde 2022 constituyen un Santuario en México, la primer área protegida decretada bajo esta categoría en el país. Para llegar hasta los bobos de Cocos que anidan en ella, los investigadores deben trepar las rocas hasta alcanzar una planicie donde crecen pastos y cactus columnares. Entre las piedras y la vegetación árida, se extiende la colonia que arma sus nidos con plantas secas sobre el suelo y, en cada uno, la hembra y el macho se turnan para incubar los huevos o cuidar a los polluelos.</p><p>Durante la temporada de reproducción de esta especie, los investigadores viajan a las islas cada 15 días porque la batería de los GPS que colocan en las aves solo dura 10. Para organizar el trabajo dividen la Isla Pajarera en parcelas — A, B y C—, y en cada una de ellas cuentan los nidos, los marcan con varillas metálicas numeradas, cuentan cuántos huevos y polluelos hay, colocan anillos a las aves, toman muestras de sangre y, en algunas ocasiones, recogen la comida que regurgitan para analizarla en el laboratorio y saber de qué se alimentan.</p><p>Lee más | Huracanes más intensos en el Pacífico y calma en el Atlántico: los efectos de El Niño que ya se sienten en los océanos</p><p>Cuando terminan el trabajo de campo y regresan a la universidad, los investigadores descargan y procesan los datos de los GPS para conocer los recorridos y el comportamiento de las aves. A la par, congelan las muestras de sangre y, cuando reúnen una cantidad suficiente, las envían al laboratorio para saber qué comen y si han estado expuestas a contaminantes.</p><p>Los resultados de estos trabajos de monitoreo, que durante una década han involucrado a alrededor de 100 estudiantes, la mayoría mujeres, han permitido desarrollar 30 proyectos de investigación. Entre ellos están el de la investigadora Guadalupe Atilano Guzmán, quien analizó muestras de sangre y encontró concentraciones detectables de mercurio en los bobos de Cocos de Isla Peña Blanca, y el de la estudiante de biología marina Ana Catalina López Córdoba, quien analizó datos de geolocalizadores para rastrear los desplazamientos de rabijuncos pico rojo durante su etapa no reproductiva.</p><p>Durante la visita en la que Mongabay Latam acompañó a los científicos, el equipo observó que la cantidad de nidos del bobo de Cocos había disminuido: en la primera parcela, por ejemplo, solo había cinco, cuando quince días antes se habían contado más de 20. “Este monitoreo fue uno de mis menos favoritos porque vi una reducción de nidos sorprendente. Sí, te da para abajo porque es algo que preocupa”, dice la estudiante Coronado Lerma.</p><p>El investigador Hernández Vázquez explica que la reducción de nidos puede entenderse en dos escalas: la local y la global. En la primera, las lluvias intensas de septiembre pudieron destruir los nidos y arrastrar los huevos. En la segunda, influyen los efectos de El Niño, un fenómeno recurrente que se caracteriza por el calentamiento de la superficie del Pacífico ecuatorial, que reduce la disponibilidad de alimento para el bobo de Cocos y que este 2026 está siendo particularmente intenso.</p><p>“El calentamiento del agua hace que las aves tengan que viajar más lejos para buscar comida, lo que implica dejar el nido expuesto durante más tiempo y eso también puede causar la destrucción de esos nidos por la depredación o por las lluvias”, comenta el profesor. En un nido de la parcela B, con un pollo de seis semanas, ninguno de los dos padres regresó durante los dos días de monitoreo.</p><p>Lee más | El océano se calienta cada vez más: en 2025 absorbió una cifra récord del calor generado por las actividades humanas</p><p>La disponibilidad de peces también se refleja en los huevos: la mayoría de los nidos sólo tiene uno este año. Cuando los recursos son limitados, las aves destinan menos energía a la reproducción y ponen un solo huevo; en cambio, cuando hay suficiente alimento, pueden poner dos. “El tamaño de puesta nos da una idea de cómo está el alimento y este año no todas las parejas anidaron porque valoran el costo-beneficio”, detalla Hernández Vázquez.</p><p>Además, en su visita más reciente a la isla Peña Blanca, el equipo encontró 10 aves muertas, tanto juveniles como adultas, a diferencia de otros años en los que no identificaron muertes.</p><p>A esto se suma que la rama de la cruz (Chromolaena odorata) y el zacate de Guinea (Urochloa maxima), dos plantas exóticas introducidas, han cubierto los espacios donde anida el bobo de Cocos en Isla Pajarera. El espacio disponible ha pasado de 14.4 hectáreas en 1975 a solo 1.2 hectáreas en 2015, de acuerdo con un artículo de Hernández Vázquez y Castillo Guerrero.</p><p>“Desde que comencé a visitar esta isla, hace ya varios años, he observado cómo algunas especies de plantas han invadido progresivamente las zonas de anidación. Las aves anidan generalmente en lugares despejados, sin vegetación. Ahora, lo que hemos visto es que estos pastos se establecen sobre las zonas de anidación”, comenta el profesor.</p><p>“Quizás en algunos años ya ni siquiera puedan anidar aquí en estas islas por la vegetación. Estaría muy bien que iniciaran un proyecto de control de especies invasoras en esas islas”, agrega la estudiante Oran Rosas.</p><p>Toda la información recopilada por los investigadores durante años de monitoreo ha permitido identificar una disminución en la población del bobo de Cocos en la isla Pajarera. En 1975, el ornitólogo Gonzalo Gaviño de la Torre registró 9524 nidos en el islote. Años después, Hernández Vázquez contabilizó 2178 y, en 2008, la cifra descendió a 1700. Para 2016, el registro fue de apenas 350 nidos. En 2026, el número máximo durante una visita fue de aproximadamente 220.</p><p>“Estas fluctuaciones pueden variar. Por ejemplo, si es un año atípico como ahora, [el número de nidos] baja aún más. He visto que en los últimos años [la cantidad de nidos] ha estado fluctuando entre no más de 500. Al final, esto está determinado por la disponibilidad del alimento y los efectos globales que se están dando. En Cocinas y Peña Blanca también ha habido un decremento considerable”, dice el especialista Hernández Vázquez.</p><p>El investigador agrega que el turismo también puede afectar. Recuerda que en una ocasión, en Isla Cocinas, la de más fácil acceso, subió un grupo de 30 personas. Algunos visitantes se adentraron entre las colonias para tomarse fotografías. “Las aves volaron y se fueron y vimos la depredación de huevos y pollos. A veces hay parejas tan sensibles que se van y no regresan en un buen rato. Los huevos al estar expuestos mucho tiempo al sol también pueden ser infértiles”, explica.</p><p>En las últimas décadas, también se han dado eventos que han disminuido la población de las colonias. En 2012, alrededor de 1900 bobos aparecieron entre muertos y moribundos en la isla Peña Blanca y en playas cercanas, muy delgados e incapaces de ponerse de pie. El investigador sospecha que la mortandad pudo estar relacionada con mareas rojas y la proliferación de microalgas que producen toxinas y afectan a las aves a través de los peces que consumen, aunque aclara que no hay certeza sobre la causa exacta.</p><p>De acuerdo con el investigador, uno de los principales problemas que provoca la disminución de las poblaciones de esta especie a nivel global es la escasez de alimento, relacionada con el aumento de la temperatura del mar provocado por el calentamiento global. Este año, esas condiciones se han intensificado por las condiciones asociadas al fenómeno de El Niño.</p><p>“Aunque no lo hemos evaluado, creemos que esto también ocurre en Cocinas y Peña Blanca”, comenta el especialista.</p><p>Determinar si las colonias podrán recuperarse frente al aumento de temperatura en el océano y a este fenómeno en particular es incierto, ya que sus efectos se manifiestan a una escala amplia y podrían reflejarse a largo plazo. En cambio, a nivel local, las condiciones varían de una isla a otra, por lo que cada colonia enfrenta amenazas particulares y requiere medidas de conservación específicas.</p><p>*Imagen principal: un macho de bobo de Cocos, distinguible por su cabeza blanca, permanece en el nido cuidando a su polluelo en Isla Pajarera. Foto: Mariana Recamier</p>",
-      "url": "https://www.terram.cl/mongabay-el-nino-golpea-al-bobo-de-cocos-cientificos-encuentran-polluelos-debiles-esqueletos-y-menos-nidos-en-isla-pajarera-mexico/",
-      "image": "https://www.terram.cl/wp-content/uploads/2026/11/PXL_20260914_160542976-1-1200x800-1-1170x752.jpg",
-      "publishedAt": "2026-11-06T13:52:13+00:00",
-      "sourceId": "terram",
-      "sourceName": "Fundación Terram",
-      "sourceType": "Medioambiente y Territorio",
-      "sourceSite": "https://www.terram.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Medioambiente y Territorio",
       "relevanceTier": "alta",
       "relevanceScore": 83,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
@@ -3693,6 +3903,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "jacobinlat-81eef01124",
+      "title": "El socialismo también gana elecciones",
+      "summary": "Durante mucho tiempo, los votantes demócratas compartieron las propuestas de los socialistas, pero temían que sus candidaturas fueran un obstáculo para ganar elecciones. Los resultados del martes finalmente demostraron que estaban equivocados. La entrada El socialismo también gana elecciones se publicó primero en Jacobin Revista .",
+      "content": "<p>Durante mucho tiempo, los votantes demócratas compartieron las propuestas de los socialistas, pero temían que sus candidaturas fueran un obstáculo para ganar elecciones. Los resultados del martes finalmente demostraron que estaban equivocados.</p><p>La entrada El socialismo también gana elecciones se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/el-socialismo-tambien-gana-elecciones/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/909801273019.jpg",
+      "publishedAt": "2026-11-05T17:27:14+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
       "id": "fastcheck-c62e441c4c",
       "title": "Este joven de 14 años no fue liberado de una cámara de tortura en Ucrania",
       "summary": "Circula en X un video con el cual aseguran que se encontró a un joven de 14 años en una «cámara de tortura» en Ucrania. Fast Check califica esto como #Falso, ya que tras realizar una búsqueda inversa del video se encontraron reportes oficiales que desmienten la existencia de tal cámara y de que el joven hubiese estado dentro de ella....",
@@ -3993,6 +4223,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "jacobinlat-d950e110d3",
+      "title": "Mensaje desde Italia: «Bloqueemos todo»",
+      "summary": "Agricultores, camioneros, estudiantes y trabajadores portuarios paralizan Italia hace un mes. El movimiento, surgido en el sur en reacción al aumento del combustible, se masificó bajo un mismo reclamo: la crisis del costo de vida. La entrada Mensaje desde Italia: «Bloqueemos todo» se publicó primero en Jacobin Revista .",
+      "content": "<p>Agricultores, camioneros, estudiantes y trabajadores portuarios paralizan Italia hace un mes. El movimiento, surgido en el sur en reacción al aumento del combustible, se masificó bajo un mismo reclamo: la crisis del costo de vida.</p><p>La entrada Mensaje desde Italia: «Bloqueemos todo» se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/mensaje-desde-italia-bloqueen-todo/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/c058c98e-6998-46cb-b95c-103c23e30634.png",
+      "publishedAt": "2026-11-05T08:41:56+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 85,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
       "id": "laderasur-af6f19c62e",
       "title": "Un mapa de las mariposas mexicanas: algunas de las especies más vistosas del país",
       "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4151,6 +4401,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 96,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "jacobinlat-4c0eb7f523",
+      "title": "La era Trump está llegando a su fin",
+      "summary": "El balance de las elecciones intermedias en Estados Unidos es contundente: no hay dinero capaz de ocultar el hecho de que el dominio de Donald Trump está llegando a su fin y que la izquierda tiene mucho más margen para crecer. La entrada La era Trump está llegando a su fin se publicó primero en Jacobin Revista .",
+      "content": "<p>El balance de las elecciones intermedias en Estados Unidos es contundente: no hay dinero capaz de ocultar el hecho de que el dominio de Donald Trump está llegando a su fin y que la izquierda tiene mucho más margen para crecer.</p><p>La entrada La era Trump está llegando a su fin se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/la-era-trump-esta-llegando-a-su-fin/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/a53b1fbb-dc63-4a75-91e9-5dcbe4c765cf.png",
+      "publishedAt": "2026-11-04T14:59:44+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "laderasur-2d6c847c56",
@@ -4331,6 +4601,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 94,
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "jacobinlat-a7f607165a",
+      "title": "El trumpismo muestra signos de agotamiento",
+      "summary": "Las encuestas y los discursos de Donald Trump durante la campaña para las elecciones de medio término sugieren que el movimiento MAGA podría estar agotado y a punto de sufrir un duro golpe electoral. La entrada El trumpismo muestra signos de agotamiento se publicó primero en Jacobin Revista .",
+      "content": "<p>Las encuestas y los discursos de Donald Trump durante la campaña para las elecciones de medio término sugieren que el movimiento MAGA podría estar agotado y a punto de sufrir un duro golpe electoral.</p><p>La entrada El trumpismo muestra signos de agotamiento se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/el-trumpismo-muestra-signos-de-agotamiento/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/326395061230-2.jpg",
+      "publishedAt": "2026-11-03T21:59:31+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "anfibia-007acf1746",
