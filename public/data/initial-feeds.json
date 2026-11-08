@@ -1,15 +1,35 @@
 {
-  "generatedAt": "2026-11-08T20:01:14.628260+00:00",
+  "generatedAt": "2026-11-08T20:14:10.356517+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
-  "totalArticles": 213,
-  "totalBlockedFarandula": 8,
+  "totalArticles": 214,
+  "totalBlockedFarandula": 10,
   "blockedExamples": [
     {
       "title": "Deportes Antofagasta se derrumbó ante La U y quedó eliminado de Copa Chile",
       "source": "Timeline Antofagasta",
       "reason": "copa chile"
+    },
+    {
+      "title": "[En vivo] La U venció a Cobresal en El Teniente por la fecha 27 de la Liga de Primera",
+      "source": "Radio Cooperativa",
+      "reason": "universidad católica"
+    },
+    {
+      "title": "La U superó a Cobresal pero no pudo evitar el título de Colo Colo",
+      "source": "Radio Cooperativa",
+      "reason": "colo colo"
+    },
+    {
+      "title": "[ESTADISTICAS] La tabla de posiciones de la Liga de Primera en la fecha 27",
+      "source": "Radio Cooperativa",
+      "reason": "colo colo"
+    },
+    {
+      "title": "[Radio en vivo 🎙️] Colo Colo es campeón de la Liga de Primera",
+      "source": "Radio Cooperativa",
+      "reason": "colo colo"
     },
     {
       "title": "Con los partidos en desarrollo: Así está la tabla de la Liga de Primera",
@@ -25,16 +45,6 @@
       "title": "[VIDEO] Eduardo Vargas desperdició un penal ante Cobresal",
       "source": "Radio Cooperativa",
       "reason": "universidad de chile"
-    },
-    {
-      "title": "[Radio en vivo 🎙️] Colo Colo empata con Ñublense en busca de su estrella 35",
-      "source": "Radio Cooperativa",
-      "reason": "colo colo"
-    },
-    {
-      "title": "[En vivo] La U vence a Cobresal en El Teniente por la fecha 27 de la Liga de Primera",
-      "source": "Radio Cooperativa",
-      "reason": "universidad católica"
     },
     {
       "title": "Garnero advirtió a Colo Colo: Nuestro objetivo es sacar todos los puntos que quedan",
@@ -517,7 +527,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.4
+      "newestAgeHours": 4.6
     },
     {
       "id": "interferencia",
@@ -530,7 +540,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 11.0
+      "newestAgeHours": 11.2
     },
     {
       "id": "fastcheck",
@@ -543,7 +553,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 20.0
+      "newestAgeHours": 20.2
     },
     {
       "id": "radiouchile",
@@ -556,7 +566,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.3
+      "newestAgeHours": 5.5
     },
     {
       "id": "elmostrador",
@@ -569,7 +579,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.2
+      "newestAgeHours": 10.4
     },
     {
       "id": "eldesconcierto",
@@ -582,7 +592,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.0
+      "newestAgeHours": 10.2
     },
     {
       "id": "laderasur",
@@ -594,8 +604,8 @@
       "status": "ok",
       "count": 10,
       "blocked": 0,
-      "staleDropped": 7,
-      "newestAgeHours": 47.2
+      "staleDropped": 8,
+      "newestAgeHours": 47.4
     },
     {
       "id": "resumen",
@@ -608,7 +618,7 @@
       "count": 2,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.7
+      "newestAgeHours": 10.9
     },
     {
       "id": "elciudadano",
@@ -621,7 +631,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.1
+      "newestAgeHours": 1.3
     },
     {
       "id": "malaespina",
@@ -634,7 +644,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 8.0
+      "newestAgeHours": 8.2
     },
     {
       "id": "vergara240",
@@ -660,7 +670,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 53.4
+      "newestAgeHours": 53.7
     },
     {
       "id": "timeline",
@@ -673,7 +683,7 @@
       "count": 8,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 20.5
+      "newestAgeHours": 20.7
     },
     {
       "id": "diariouach",
@@ -686,7 +696,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 49.8
+      "newestAgeHours": 50.0
     },
     {
       "id": "cooperativa",
@@ -697,9 +707,9 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 6,
+      "blocked": 8,
       "staleDropped": 0,
-      "newestAgeHours": 0.1
+      "newestAgeHours": 0.3
     },
     {
       "id": "elfaro",
@@ -725,7 +735,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.0
+      "newestAgeHours": 10.2
     },
     {
       "id": "lasillavacia",
@@ -738,7 +748,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.8
+      "newestAgeHours": 2.0
     },
     {
       "id": "ojopublico",
@@ -748,10 +758,10 @@
       "type": "Investigación y Amazonía",
       "independent": true,
       "status": "ok",
-      "count": 2,
+      "count": 3,
       "blocked": 0,
       "staleDropped": 1,
-      "newestAgeHours": 2.7
+      "newestAgeHours": 3.0
     },
     {
       "id": "cuestionpublica",
@@ -764,7 +774,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 48.8
+      "newestAgeHours": 49.0
     },
     {
       "id": "chequeado",
@@ -777,7 +787,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 216.2
+      "newestAgeHours": 216.4
     },
     {
       "id": "piedepagina",
@@ -790,7 +800,7 @@
       "count": 6,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 10.0
+      "newestAgeHours": 10.2
     },
     {
       "id": "cenital",
@@ -803,7 +813,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 7.5
+      "newestAgeHours": 7.7
     },
     {
       "id": "brecha",
@@ -816,7 +826,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 57.8
+      "newestAgeHours": 58.0
     },
     {
       "id": "jacobinlat",
@@ -829,7 +839,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.1
+      "newestAgeHours": 4.4
     },
     {
       "id": "ciclismo-chile",
@@ -842,7 +852,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 30.2
+      "newestAgeHours": 30.5
     },
     {
       "id": "ciclo21",
@@ -855,7 +865,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.4
+      "newestAgeHours": 3.6
     },
     {
       "id": "brujulabike",
@@ -868,7 +878,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.8
+      "newestAgeHours": 6.0
     },
     {
       "id": "esciclismo",
@@ -881,7 +891,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.8
+      "newestAgeHours": 4.0
     },
     {
       "id": "propublica",
@@ -894,7 +904,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.0
+      "newestAgeHours": 10.2
     },
     {
       "id": "bellingcat",
@@ -907,7 +917,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 82.2
+      "newestAgeHours": 82.5
     },
     {
       "id": "theintercept",
@@ -920,7 +930,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 9.0
+      "newestAgeHours": 9.2
     },
     {
       "id": "eldiarioes",
@@ -933,7 +943,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.8
+      "newestAgeHours": 6.0
     },
     {
       "id": "elsalto",
@@ -946,7 +956,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 110.2
+      "newestAgeHours": 110.4
     },
     {
       "id": "sinpermiso",
@@ -972,7 +982,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.1
     },
     {
       "id": "dw",
@@ -985,7 +995,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.1
+      "newestAgeHours": 0.3
     },
     {
       "id": "globalvoices",
@@ -998,10 +1008,70 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 14.0
+      "newestAgeHours": 14.2
     }
   ],
   "articles": [
+    {
+      "id": "france24-33988fdf0a",
+      "title": "Fórmula 1: Norris triunfa en Sao Paulo y Mercedes gana el Mundial de constructores",
+      "summary": "Mercedes se consagró este domingo 8 de noviembre campeón mundial de constructores de Fórmula 1 por novena vez en su historia, tras el Gran Premio de São Paulo, en el que Lando Norris (McLaren) ganó por segundo año consecutivo. La escudería alemana, que no obtenía el título desde 2021, completó así el doblete de la temporada, una...",
+      "content": "<p>Mercedes se consagró este domingo 8 de noviembre campeón mundial de constructores de Fórmula 1 por novena vez en su historia, tras el Gran Premio de São Paulo, en el que Lando Norris (McLaren) ganó por segundo año consecutivo. La escudería alemana, que no obtenía el título desde 2021, completó así el doblete de la temporada, una semana después de que el italiano Kimi Antonelli se convirtiera en el campeón de pilotos más joven de la historia.</p>",
+      "url": "https://www.france24.com/es/deportes/20261108-f%C3%B3rmula-1-norris-triunfa-en-sao-paulo-y-mercedes-gana-el-mundial-de-constructores",
+      "image": "https://s.france24.com/media/display/620c7972-dba9-11f1-a760-1beafce15fea/w:1024/p:16x9/a12e32a89764baa14124898ff0af2f06ad916be9.jpg",
+      "publishedAt": "2026-11-08T20:08:18+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 67,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "dw-47eec8e5f0",
+      "title": "Rebeldes hutíes reivindican ataque a rascacielos de Aramco en Arabia Saudita",
+      "summary": "Los rebeldes de Yemen aseguraron también haber golpeado con misiles y drones instalaciones petroleras y el aeropuerto de la capital saudita.",
+      "content": "",
+      "url": "https://www.dw.com/es/rebeldes-hutíes-reivindican-ataque-a-rascacielos-de-aramco-en-arabia-saudita/a-79894137?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-11-08T19:54:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "country": "Alemania / Global",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "france24-ba1325c61e",
+      "title": "Colombia: ataques con drones y amenaza de atentados a tres meses del Gobierno De la Espriella",
+      "summary": "🇨🇴 Este fin de semana Colombia se ha visto sacudida por una serie de hechos violentos tres meses después de que Abelardo de la Espriella asumiera la Presidencia, entre ellos el ataque contra una base militar que dejó tres soldados muertos.",
+      "content": "",
+      "url": "https://www.france24.com/es/video/20261108-colombia-ataques-con-drones-y-amenaza-de-atentados-a-tres-meses-del-gobierno-de-la-espriella",
+      "image": "https://s.france24.com/media/display/ba60c5ec-db95-11f1-819f-bf1914cabd52/w:1024/p:16x9/Ataques-con-drones-y-amenaza-de-atentados-a-tres-meses-del-Gobierno-De-la-Espriella.png",
+      "publishedAt": "2026-11-08T20:05:48+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 76,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
     {
       "id": "cooperativa-90183973c5",
       "title": "El papa concluyó su viaje a Uruguay junto al presidente Yamandú Orsi",
@@ -1063,46 +1133,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "france24-d966e9fafc",
-      "title": "¿Qué está fallando?: la mala hora de la educación en Guatemala y Latinoamérica",
-      "summary": "En América Latina, sigue preocupando que Guatemala haya sido el país con el peor desempeño educativo de la región, de acuerdo con los resultados de las recientes pruebas PISA. Sin embargo, ninguno de los otros 12 países latinoamericanos que fueron evaluados tampoco sobresalió a nivel mundial, y sus estudiantes quedaron rezagados en...",
-      "content": "<p>En América Latina, sigue preocupando que Guatemala haya sido el país con el peor desempeño educativo de la región, de acuerdo con los resultados de las recientes pruebas PISA. Sin embargo, ninguno de los otros 12 países latinoamericanos que fueron evaluados tampoco sobresalió a nivel mundial, y sus estudiantes quedaron rezagados en ciencias, matemáticas y lectura frente a países de Asia y Europa.</p>",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261108-qu%C3%A9-est%C3%A1-fallando-la-mala-hora-de-la-educaci%C3%B3n-en-guatemala-y-latinoam%C3%A9rica",
-      "image": "https://s.france24.com/media/display/f53dfcca-db95-11f1-ba28-a575454bc579/w:1024/p:16x9/8023302530001w.jpg",
-      "publishedAt": "2026-11-08T19:12:16+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "cooperativa-706d921c00",
-      "title": "Alcalde mexicano fue secuestrado en una carretera en el norte del país",
-      "summary": "El alcalde de Río Bravo, Miguel Ángel Almaraz Maldonado, fue localizado con vida este domingo luego de haber sido secuestrado por hombres armados la tarde del sábado en una carretera del centro-norte de México, informaron las autoridades mexicanas. El secretario de Seguridad de México, Omar García Harfuch, informó de la localización...",
-      "content": "<p>El alcalde de Río Bravo, Miguel Ángel Almaraz Maldonado, fue localizado con vida este domingo luego de haber sido secuestrado por hombres armados la tarde del sábado en una carretera del centro-norte de México, informaron las autoridades mexicanas.</p><p>El secretario de Seguridad de México, Omar García Harfuch, informó de la localización del funcionario tras la activación de un operativo coordinado entre el Gobierno federal y los estados de Zacatecas, San Luis Potosí (centro-norte), Coahuila y Tamaulipas (norte).</p><p>&quot;El presidente municipal de Río Bravo, Tamaulipas, Miguel Ángel Almaraz Maldonado, quien se encontraba desaparecido, fue localizado&quot;, apuntó el funcionario en un mensaje en X.</p><p>En la publicación, García Harfuch compartió la fotografía del alcalde de Río Bravo, a bordo de un vehículo de las fuerzas de seguridad.</p><p>No obstante, el funcionario no compartió más detalles del lugar de la localización, la condición en la que fue encontrado el alcalde o si había más personas privadas de la libertad.</p><p>El presidente municipal de Río Bravo, Tamaulipas, Miguel Ángel Almaraz Maldonado, quien se encontraba desaparecido, fue localizado por el Gabinete de Seguridad del Gobierno de México @GabSeguridadMX en coordinación con autoridades de los gobiernos de Zacatecas, Coahuila, San Luis Potosí y Tamaulipas. Este resultado es producto del trabajo conjunto de @Defensamx1 @SEMAR_mx , @FGRMexico y @SSPCMexico , así como del intercambio de información y la coordinación operativa con las autoridades de las cuatro entidades. Agradecemos a los gobernadores de Zacatecas, David Monreal Ávila, @DavidMonrealA; de Coahuila, Manolo Jiménez Salinas, @manolojim; de San Luis Potosí, Ricardo Gallardo Cardona, @RGC_Mx; y de Tamaulipas, Américo Villarreal Anaya, @Dr_AVillarreal, por su apoyo y colaboración en las acciones de búsqueda y localización y su colaboración permanente, con el gabinete de seguridad que dirige la Presidenta @Claudiashein</p><p>Almaraz Maldonado, del opositor Partido Acción Nacional (PAN), gobierna este municipio del estado de Tamaulipas fronterizo con Estados Unidos.</p><p>El sábado viajaba junto a familiares e integrantes de su equipo hacia Real de Catorce, un destino turístico de San Luis Potosí, cuando fueron interceptados por hombres armados en la carretera San Tiburcio-Vanegas.</p><p>Según explicó el fiscal de Zacatecas, Cristian Paul Camacho, varios vehículos fueron interceptados en los límites entre Zacatecas y San Luis Potosí, donde algunas personas fueron abandonadas en plena carretera.</p><p>&quot;Ahí es donde es despojado por civiles armados y donde es privado de la libertad el alcalde&quot;, indicó Camacho.</p><p>La Secretaría de Seguridad y Protección Ciudadana de San Luis Potosí informó que los acompañantes del alcalde lograron llegar al municipio potosino de Cedral, donde denunciaron los hechos.</p><p>&quot;De acuerdo con el testimonio de una de las personas afectadas, fueron abandonadas sobre la carretera por lo que posteriormente solicitaron ayuda&quot;, apuntó la secretaría.</p><p>Tras recibir el reporte, la Guardia Civil, la policía estatal de San Luis Potosí, activó un operativo en la zona limítrofe con Zacatecas, en coordinación con las autoridades de ese estado.</p><p>El caso ocurre en un contexto de violencia persistente contra funcionarios en México, especialmente en el ámbito local.</p><p>En 2025, la organización Data Cívica documentó al menos 246 ataques contra funcionarios de gobierno o aspirantes a cargos judiciales, de los cuales 136 terminaron en asesinato.</p><p>Su monitoreo &#x27;Votar entre Balas&#x27; advierte además que casi el 80 % de las víctimas de violencia político-criminal se concentra en el nivel municipal, el más expuesto frente al control territorial del crimen organizado.</p><p>En el norte del país, en Tamaulipas, el delegado de la FGR Ernesto Vázquez Reyna fue asesinado en Reynosa en agosto de 2025 en un atentado con granadas y disparos. En Zacatecas, otro foco de violencia, autoridades reportaron en julio de 2026 el hallazgo de diez personas asesinadas en distintos municipios, entre ellas el exalcalde de Sombrerete, Ignacio Castrejón Valdez.</p>",
-      "url": "https://www.cooperativa.cl/noticias/mundo/mexico/alcalde-mexicano-fue-secuestrado-en-una-carretera-en-el-norte-del-pais/2026-11-08/162200.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108162200.jpeg",
-      "publishedAt": "2026-11-08T19:22:00+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 77,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "elciudadano-e91a83a483",
       "title": "«La muerte de este quique no puede quedar sin esclarecimiento»: Red de Humedales del Biobío exige responsabilidades tras fallecimiento de animal retirado por el SAG",
       "summary": "El Ciudadano Red de Humedales del Biobío exige investigar la muerte del quique, retirado por el SAG a la Fundación Ñacurutú Imagen portada. Puerto ONE La Red de Humedales del Biobío emitió una declaración pública en la que manifestó su «profunda tristeza y preocupación» ante el fallecimiento del quique (Galictis cuja) que fue retirado...",
@@ -1123,53 +1153,13 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-969fed269f",
-      "title": "La atleta Valentina Cancino accedió a la final de los 800 metros en Dakar",
-      "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes La mediofondista chilena Valentina Cancino clasificó a la definición de los 800 metros en los Juegos Olímpicos de la Juventud Dakar 2026 , luego de ser tercera en su heat de semifinales. La corredora nacional marcó un tiempo de 2'16\"01 en una serie que fue mucho más rápida que...",
-      "content": "<p>La mediofondista chilena Valentina Cancino clasificó a la definición de los 800 metros en los Juegos Olímpicos de la Juventud Dakar 2026, luego de ser tercera en su heat de semifinales.</p><p>La corredora nacional marcó un tiempo de 2&#x27;16&quot;01 en una serie que fue mucho más rápida que la primera. De esta manera, Valentina llegará con la tercer mejor marca a la definición de este lunes (14:10 de Chile).</p><p>&quot;Es una alegría poder estar en una final olímpica. Siempre ha sido mi sueño, desde chiquitita. Espero poder recuperarme para mañana. La clave será tener oxígeno en la primera vuelta y después rematar con todo. Ya estamos entre las 10 mejores del mundo, que era mi objetivo&quot;, valoró la promisoria atleta.</p><p>Por contraparte, desafortunadamente la velocista Roxana Ramírez fue descalificada por una partida falsa en los 100 metros planos.</p><p>Asimismo, el equipo femenino de básquetbol 3x3 cayó ante Senegal (13-11) en los cuartos de final del certamen.</p>",
-      "url": "https://www.cooperativa.cl/noticias/deportes/polideportivo/team-chile/la-atleta-valentina-cancino-accedio-a-la-final-de-los-800-metros-en-dakar/2026-11-08/155543.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108155543.jpg",
-      "publishedAt": "2026-11-08T18:55:43+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 72,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "france24-7d7b345f88",
-      "title": "Santiago Peña pasa su primera noche en prisión, mientras Paraguay busca salir de la crisis de Ueno Bank",
-      "summary": "El expresidente de Paraguay, Santiago Peña, permanece recluido en el Regimiento Escolta Presidencial (REP), bajo un régimen que, según la orden judicial, permite la \"libre comunicación\", con acceso a un teléfono móvil y a visitas. Por su parte, su sucesor Pedro Alliana reorganiza su gabinete en medio de la persistente preocupación y...",
-      "content": "<p>El expresidente de Paraguay, Santiago Peña, permanece recluido en el Regimiento Escolta Presidencial (REP), bajo un régimen que, según la orden judicial, permite la &quot;libre comunicación&quot;, con acceso a un teléfono móvil y a visitas. Por su parte, su sucesor Pedro Alliana reorganiza su gabinete en medio de la persistente preocupación y enojo de los clientes del Ueno Bank, que esperan la devolución de sus ahorros. La Iglesia y sectores del agro y el comercio exigieron acelerar los reintegros.</p>",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261108-santiago-pe%C3%B1a-pasa-su-primera-noche-en-prisi%C3%B3n-mientras-paraguay-busca-salir-de-la-crisis-de-ueno-bank",
-      "image": "https://s.france24.com/media/display/d8ed7316-dba4-11f1-8d69-bf1914cabd52/w:1024/p:16x9/000-D6G29KF.jpg",
-      "publishedAt": "2026-11-08T18:47:48+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 77,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "cooperativa-821488c0cc",
-      "title": "\"Voy a ser tu huésped por mucho tiempo\": El saludo de Santiago Peña al llegar a su lugar de reclusión",
-      "summary": "\"Voy a ser tu huésped por mucho tiempo\", así saludó Santiago Peña al comandante del Regimiento Guardia Presidencial, el coronel José Dayub , al llegar a la unidad militar donde el expresidente paraguayo, destituido y ahora investigado penalmente por el cierre del banco privado Ueno bank , cumple prisión preventiva. \"Cuando llegó, le...",
-      "content": "<p>&quot;Voy a ser tu huésped por mucho tiempo&quot;, así saludó Santiago Peña al comandante del Regimiento Guardia Presidencial, el coronel José Dayub, al llegar a la unidad militar donde el expresidente paraguayo, destituido y ahora investigado penalmente por el cierre del banco privado Ueno bank, cumple prisión preventiva.</p><p>&quot;Cuando llegó, le recibí y me dijo: Bueno, señor comandante, voy a ser tu huésped por mucho tiempo y me mostró una sonrisa&quot;, relató Dayub este domingo en una entrevista con la emisora paraguaya Radio Ñandutí.</p><p>El militar dijo que el expresidente, que fue trasladado hasta esa instalación militar por razones de seguridad, no está &quot;decaído, ni cosas así&quot;.</p><p>Peña, un economista de 47 años, terminó salpicado por la debacle de Ueno, que afectó a unos 2,94 millones de clientes, muchos de ellos ciudadanos de a pie, pero también instituciones públicas que trasladaron durante su gestión millonarios fondos hasta la intervención de la entidad financiera.</p><p>Además de que fue destituido por el Senado en un juicio político, el exmandatario deberá permanecer en prisión preventiva por orden de un juez que admitió una imputación en su contra por presunta lesión de confianza y administración en provecho propio en medio de la investigación sobre la crisis del banco.</p><p>Dayub indicó que Peña está recluido en una de las habitaciones para el personal militar del regimiento.</p><p>&quot;Es una habitación normal&quot;, aseguró el jefe castrense, quien detalló que en ese espacio tiene &quot;cosas básicas&quot; como una cama, un ropero, un ventilador, un aire acondicionado y un baño privado.</p><p>El Regimiento Guardia Presidencial cuenta con &quot;un sistema de seguridad perimetral permanente&quot;, agregó Dayub.</p><p>Al respecto, el ministro de Defensa, Óscar González, sostuvo en una conferencia de prensa que en el regimiento se está cumpliendo una orden judicial, e indicó que, por tanto, se ubicó al exjefe de Estado en &quot;una habitación común&quot; destinada al personal militar, tras aclarar que &quot;esa dependencia no es una cárcel&quot;.</p><p>Sobre la posibilidad de que Peña deba ser trasladado a una cárcel común, el ministro de Justicia, Rodrigo Nicora, explicó en la misma comparecencia que el sistema penitenciario está preparado para recibir &quot;a cualquier tipo de perfil de personas&quot; privadas de libertad.</p><p>En tal sentido, anticipó que se articularían &quot;las acciones necesarias para que la seguridad esté garantizada&quot;.</p><p>Este sábado, el juez penal de Garantías de Delitos Económicos Humberto Otazú, quien ordenó la prisión preventiva contra Peña, afirmó que no será trasladado a una cárcel común, tras argumentar que, como exmandatario, &quot;maneja demasiada información sensible&quot; en asuntos como el crimen organizado.</p><p>La imputación fiscal indica que el expresidente &quot;habría intervenido en circunstancias relacionadas con la colocación, renovación y permanencia de importantes sumas de dinero provenientes de entidades públicas y previsionales&quot; en ese banco.</p><p>Además, Peña, detalló la imputación de los fiscales, &quot;habría mantenido una relación económica y corporativa previa&quot; con Ueno holding, un grupo empresarial que incluye ese banco.</p><p>El Banco Central (BCP) ordenó el martes un proceso de resolución o cierre de Ueno tras detectar que su índice de solvencia había caído por debajo de la mitad del mínimo exigido.</p>",
-      "url": "https://www.cooperativa.cl/noticias/mundo/paraguay/voy-a-ser-tu-huesped-por-mucho-tiempo-el-saludo-de-santiago-pena-al/2026-11-08/153225.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000001420261108153225.jpg",
-      "publishedAt": "2026-11-08T18:32:25+00:00",
+      "id": "cooperativa-706d921c00",
+      "title": "Alcalde mexicano fue secuestrado en una carretera en el norte del país",
+      "summary": "El alcalde de Río Bravo, Miguel Ángel Almaraz Maldonado, fue localizado con vida este domingo luego de haber sido secuestrado por hombres armados la tarde del sábado en una carretera del centro-norte de México, informaron las autoridades mexicanas. El secretario de Seguridad de México, Omar García Harfuch, informó de la localización...",
+      "content": "<p>El alcalde de Río Bravo, Miguel Ángel Almaraz Maldonado, fue localizado con vida este domingo luego de haber sido secuestrado por hombres armados la tarde del sábado en una carretera del centro-norte de México, informaron las autoridades mexicanas.</p><p>El secretario de Seguridad de México, Omar García Harfuch, informó de la localización del funcionario tras la activación de un operativo coordinado entre el Gobierno federal y los estados de Zacatecas, San Luis Potosí (centro-norte), Coahuila y Tamaulipas (norte).</p><p>&quot;El presidente municipal de Río Bravo, Tamaulipas, Miguel Ángel Almaraz Maldonado, quien se encontraba desaparecido, fue localizado&quot;, apuntó el funcionario en un mensaje en X.</p><p>En la publicación, García Harfuch compartió la fotografía del alcalde de Río Bravo, a bordo de un vehículo de las fuerzas de seguridad.</p><p>No obstante, el funcionario no compartió más detalles del lugar de la localización, la condición en la que fue encontrado el alcalde o si había más personas privadas de la libertad.</p><p>El presidente municipal de Río Bravo, Tamaulipas, Miguel Ángel Almaraz Maldonado, quien se encontraba desaparecido, fue localizado por el Gabinete de Seguridad del Gobierno de México @GabSeguridadMX en coordinación con autoridades de los gobiernos de Zacatecas, Coahuila, San Luis Potosí y Tamaulipas. Este resultado es producto del trabajo conjunto de @Defensamx1 @SEMAR_mx , @FGRMexico y @SSPCMexico , así como del intercambio de información y la coordinación operativa con las autoridades de las cuatro entidades. Agradecemos a los gobernadores de Zacatecas, David Monreal Ávila, @DavidMonrealA; de Coahuila, Manolo Jiménez Salinas, @manolojim; de San Luis Potosí, Ricardo Gallardo Cardona, @RGC_Mx; y de Tamaulipas, Américo Villarreal Anaya, @Dr_AVillarreal, por su apoyo y colaboración en las acciones de búsqueda y localización y su colaboración permanente, con el gabinete de seguridad que dirige la Presidenta @Claudiashein</p><p>Almaraz Maldonado, del opositor Partido Acción Nacional (PAN), gobierna este municipio del estado de Tamaulipas fronterizo con Estados Unidos.</p><p>El sábado viajaba junto a familiares e integrantes de su equipo hacia Real de Catorce, un destino turístico de San Luis Potosí, cuando fueron interceptados por hombres armados en la carretera San Tiburcio-Vanegas.</p><p>Según explicó el fiscal de Zacatecas, Cristian Paul Camacho, varios vehículos fueron interceptados en los límites entre Zacatecas y San Luis Potosí, donde algunas personas fueron abandonadas en plena carretera.</p><p>&quot;Ahí es donde es despojado por civiles armados y donde es privado de la libertad el alcalde&quot;, indicó Camacho.</p><p>La Secretaría de Seguridad y Protección Ciudadana de San Luis Potosí informó que los acompañantes del alcalde lograron llegar al municipio potosino de Cedral, donde denunciaron los hechos.</p><p>&quot;De acuerdo con el testimonio de una de las personas afectadas, fueron abandonadas sobre la carretera por lo que posteriormente solicitaron ayuda&quot;, apuntó la secretaría.</p><p>Tras recibir el reporte, la Guardia Civil, la policía estatal de San Luis Potosí, activó un operativo en la zona limítrofe con Zacatecas, en coordinación con las autoridades de ese estado.</p><p>El caso ocurre en un contexto de violencia persistente contra funcionarios en México, especialmente en el ámbito local.</p><p>En 2025, la organización Data Cívica documentó al menos 246 ataques contra funcionarios de gobierno o aspirantes a cargos judiciales, de los cuales 136 terminaron en asesinato.</p><p>Su monitoreo &#x27;Votar entre Balas&#x27; advierte además que casi el 80 % de las víctimas de violencia político-criminal se concentra en el nivel municipal, el más expuesto frente al control territorial del crimen organizado.</p><p>En el norte del país, en Tamaulipas, el delegado de la FGR Ernesto Vázquez Reyna fue asesinado en Reynosa en agosto de 2025 en un atentado con granadas y disparos. En Zacatecas, otro foco de violencia, autoridades reportaron en julio de 2026 el hallazgo de diez personas asesinadas en distintos municipios, entre ellas el exalcalde de Sombrerete, Ignacio Castrejón Valdez.</p>",
+      "url": "https://www.cooperativa.cl/noticias/mundo/mexico/alcalde-mexicano-fue-secuestrado-en-una-carretera-en-el-norte-del-pais/2026-11-08/162200.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108162200.jpeg",
+      "publishedAt": "2026-11-08T19:22:00+00:00",
       "sourceId": "cooperativa",
       "sourceName": "Radio Cooperativa",
       "sourceType": "Radio Informativa Nacional",
@@ -1203,13 +1193,13 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "cooperativa-824db7031f",
-      "title": "Soto: Acusación contra Rabat está al 99% y tendrá votos oficialistas",
-      "summary": "El diputado Raúl Soto, presidente del PPD, aseguró que la acusación constitucional contra el ministro de Justicia, Francisco Rabat, se encuentra \"casi lista\" y contaría con votos oficialistas. En conversación con \"Estado Nacional\" de TVN , el parlamentario abordó la acción que prepara la oposición contra el secretario de Estado en...",
-      "content": "<p>El diputado Raúl Soto, presidente del PPD, aseguró que la acusación constitucional contra el ministro de Justicia, Francisco Rabat, se encuentra &quot;casi lista&quot; y contaría con votos oficialistas.</p><p>En conversación con &quot;Estado Nacional&quot; de TVN, el parlamentario abordó la acción que prepara la oposición contra el secretario de Estado en respuesta a la rebaja de penas a personas condenadas por abuso y violación contra menores de edad, narcotráficantes, asesinos y violadores de derechos humanos, decretos firmados por su cartera.</p><p>&quot;Está concluyendo el trabajo de redacción de la acusación constitucional. Diría que estamos en un 99% de avance y en los próximos días se va a concluir en un 100%; se van a hacer las revisiones y los retoques finales para poder presentarla en los próximos días&quot;, afirmó el diputado opositor.</p><p>Soto aseveró que el titular de Justicia &quot;tiene responsabilidad política, administrativa por la liberación de pedófilos, de violadores de derechos humanos, de narcotraficantes y criminales altamente peligrosos en nuestro país. Fue un cambio de criterio jurídico absolutamente equivocado y, además de eso, ha infringido leyes, la Constitución y tratados internacionales&quot;.</p><p>El parlamentario adelantó que la acción consiste en tres capítulos: &quot;Uno por la liberación de pedófilos, otro por la liberación y rebaja de condena de violadores de derechos humanos, y un tercero por faltas a la probidad&quot;.</p><p>&quot;El ministro ha actuado de mala fe, ha escondido información y derechamente ha mentido ante otro poder del Estado como el Congreso Nacional y ante toda la opinión pública&quot;, agregó el legislador.</p><p>El timonel PPD fue enfático en señalar que &quot;acá hay dos caminos: nos ponemos del lado de las víctimas, que son niños, niñas y adolescentes vulnerados en sus derechos, abusados, violados, y también de sus familias; o del lado de los victimarios, que son los abusadores, los violadores de esos niños, y de un gobierno indolente que sigue defendiendo lo indefendible&quot;.</p><p>En ese sentido, afirmó que &quot;van a estar todos los votos de la oposición, pero no me cabe ninguna duda que también van a existir votos del oficialismo, particularmente de Chile Vamos, y espero que tengamos los votos de la totalidad del PDG&quot;.</p><p>Soto sostuvo que la situación no solo generó una crisis política, sino también una &quot;crisis ética muy profunda, es una crisis moral que genera un quiebre con la sociedad chilena. Y esa desconfianza va a ser muy difícil de recuperarla si el Presidente Kast no asume su liderazgo y solicita la renuncia a su ministro (...) Por defenderlo, está poniendo en riesgo a todo su Gobierno&quot;.</p><p>En cuanto a la propuesta presentada por el Ejecutivo para derogar las rebajas de pena, el diputado manifestó la disponibilidad del sector para avanzar en ella. Sin embargo, planteó que &quot;quien debe liderar ese proceso no es el ministro Fernando Rabat. Él creó el problema, él generó esta crisis, no va a ser la persona que la va a solucionar&quot;.</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/soto-acusacion-contra-rabat-esta-al-99-y-tendra-votos-oficialistas/2026-11-08/152309.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000001420261108152309.jpg",
-      "publishedAt": "2026-11-08T18:23:09+00:00",
+      "id": "cooperativa-969fed269f",
+      "title": "La atleta Valentina Cancino accedió a la final de los 800 metros en Dakar",
+      "summary": "Súmate aquí al canal de WhatsApp de Cooperativa Deportes La mediofondista chilena Valentina Cancino clasificó a la definición de los 800 metros en los Juegos Olímpicos de la Juventud Dakar 2026 , luego de ser tercera en su heat de semifinales. La corredora nacional marcó un tiempo de 2'16\"01 en una serie que fue mucho más rápida que...",
+      "content": "<p>La mediofondista chilena Valentina Cancino clasificó a la definición de los 800 metros en los Juegos Olímpicos de la Juventud Dakar 2026, luego de ser tercera en su heat de semifinales.</p><p>La corredora nacional marcó un tiempo de 2&#x27;16&quot;01 en una serie que fue mucho más rápida que la primera. De esta manera, Valentina llegará con la tercer mejor marca a la definición de este lunes (14:10 de Chile).</p><p>&quot;Es una alegría poder estar en una final olímpica. Siempre ha sido mi sueño, desde chiquitita. Espero poder recuperarme para mañana. La clave será tener oxígeno en la primera vuelta y después rematar con todo. Ya estamos entre las 10 mejores del mundo, que era mi objetivo&quot;, valoró la promisoria atleta.</p><p>Por contraparte, desafortunadamente la velocista Roxana Ramírez fue descalificada por una partida falsa en los 100 metros planos.</p><p>Asimismo, el equipo femenino de básquetbol 3x3 cayó ante Senegal (13-11) en los cuartos de final del certamen.</p>",
+      "url": "https://www.cooperativa.cl/noticias/deportes/polideportivo/team-chile/la-atleta-valentina-cancino-accedio-a-la-final-de-los-800-metros-en-dakar/2026-11-08/155543.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108155543.jpg",
+      "publishedAt": "2026-11-08T18:55:43+00:00",
       "sourceId": "cooperativa",
       "sourceName": "Radio Cooperativa",
       "sourceType": "Radio Informativa Nacional",
@@ -1217,10 +1207,10 @@
       "region": "chile",
       "country": "Chile",
       "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 72,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "lasillavacia-58dd5b2a65",
@@ -1243,23 +1233,23 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-6e3a8d3fa1",
-      "title": "Siete muertos y 112 heridos en accidente de trenes en Egipto",
-      "summary": "Una máquina que viajaba a Fayum colisionó con los vagones traseros de un tren que se dirigía a Asuán. Las autoridades temen que el número de víctimas aumente.",
-      "content": "<p>Ir al menú principalIr a más sitios de DWDestacadosMuro de BerlínLeón XIV en SudaméricaParaguayÚltimos audiosÚltimos videosTV en vivoPublicidadhttps://p.dw.com/p/5PDr1Agregar DW en GooglePublicidadEl Ministerio de Salud de Egipto elevó a siete los muertos y a 112 los heridos en un accidente ferroviario ocurrido este domingo (08.11.2026) en la región de Al Ayat, en la provincia egipcia de Giza, a unos 59 kilómetros al sur de El Cairo, después de que dos trenes de pasajeros colisionaran y varios vagones descarrilaran. Las autoridades advirtieron que las cifras podrían aumentar pues las labores de rescate continúan.</p><p>El accidente se produjo en la carretera agrícola El Cairo-Asuán, cerca del cruce de Gerza, en el tramo ferroviario comprendido entre las estaciones de Kafr Ammar y Al Raqqa. De acuerdo con los últimos datos, 72 ambulancias participaron en las operaciones de transporte y evacuación de los heridos, de los cuales 72 fueron trasladados al Hospital Al Wasta, 33 al Hospital Al Ayyat y 7 al Hospital Atfih.</p><p>El Ministerio detalló que 45 heridos ya recibieron el alta, mientras que otros están recibiendo tratamiento para atender heridas de diversa consideración como &quot;contusiones y abrasiones en el tórax y las costillas, así como fracturas en extremidades, pelvis y vértebras, además de laceraciones en la cabeza y rostro&quot;.</p><p>La tragedia se produjo cuando el tren número 134, correspondiente al servicio &quot;Tahya Misr”, que cubría el trayecto entre Giza y Fayum, colisionó por atrás al tren número 2010, que realizaba el recorrido entre El Cairo y Asuán, detalló la compañía Ferrocarriles Nacionales de Egipto en un comunicado.</p><p>Efectivos de Protección Civil, equipos de emergencia ferroviaria y fuerzas de seguridad se desplazaron hasta el lugar del siniestro, que fue acordonado para facilitar las operaciones de rescate. Por su parte, la empresa ferroviaria envió grúas y equipos especializados para retirar los restos del accidente, desplazar los vagones afectados y restablecer la circulación ferroviaria en ambos sentidos de la línea El Cairo-Asuán.</p><p>El presidente Abdel Fatah al Sisi afirmó que seguía la situación &quot;con gran preocupación&quot; y ordenó una investigación urgente para &quot;exigir responsabilidades a cualquiera que haya incurrido en negligencia&quot;. Por ello, se anunció la apertura de indagaciones para determinar las causas del accidente, ocurrido en la misma zona donde hace más de dos décadas tuvo lugar el peor desastre ferroviario de la historia de Egipto.</p><p>En 2002, más de 370 personas murieron cuando un incendio arrasó un tren en el sur de El Cairo. En 2009, varios accidentes ferroviarios en la misma zona causaron decenas de víctimas.</p>",
-      "url": "https://www.dw.com/es/siete-muertos-y-112-heridos-en-accidente-de-trenes-en-egipto/a-79893139?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": "https://static.dw.com/image/79891981_6.jpg",
-      "publishedAt": "2026-11-08T17:55:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "country": "Alemania / Global",
+      "id": "cooperativa-821488c0cc",
+      "title": "\"Voy a ser tu huésped por mucho tiempo\": El saludo de Santiago Peña al llegar a su lugar de reclusión",
+      "summary": "\"Voy a ser tu huésped por mucho tiempo\", así saludó Santiago Peña al comandante del Regimiento Guardia Presidencial, el coronel José Dayub , al llegar a la unidad militar donde el expresidente paraguayo, destituido y ahora investigado penalmente por el cierre del banco privado Ueno bank , cumple prisión preventiva. \"Cuando llegó, le...",
+      "content": "<p>&quot;Voy a ser tu huésped por mucho tiempo&quot;, así saludó Santiago Peña al comandante del Regimiento Guardia Presidencial, el coronel José Dayub, al llegar a la unidad militar donde el expresidente paraguayo, destituido y ahora investigado penalmente por el cierre del banco privado Ueno bank, cumple prisión preventiva.</p><p>&quot;Cuando llegó, le recibí y me dijo: Bueno, señor comandante, voy a ser tu huésped por mucho tiempo y me mostró una sonrisa&quot;, relató Dayub este domingo en una entrevista con la emisora paraguaya Radio Ñandutí.</p><p>El militar dijo que el expresidente, que fue trasladado hasta esa instalación militar por razones de seguridad, no está &quot;decaído, ni cosas así&quot;.</p><p>Peña, un economista de 47 años, terminó salpicado por la debacle de Ueno, que afectó a unos 2,94 millones de clientes, muchos de ellos ciudadanos de a pie, pero también instituciones públicas que trasladaron durante su gestión millonarios fondos hasta la intervención de la entidad financiera.</p><p>Además de que fue destituido por el Senado en un juicio político, el exmandatario deberá permanecer en prisión preventiva por orden de un juez que admitió una imputación en su contra por presunta lesión de confianza y administración en provecho propio en medio de la investigación sobre la crisis del banco.</p><p>Dayub indicó que Peña está recluido en una de las habitaciones para el personal militar del regimiento.</p><p>&quot;Es una habitación normal&quot;, aseguró el jefe castrense, quien detalló que en ese espacio tiene &quot;cosas básicas&quot; como una cama, un ropero, un ventilador, un aire acondicionado y un baño privado.</p><p>El Regimiento Guardia Presidencial cuenta con &quot;un sistema de seguridad perimetral permanente&quot;, agregó Dayub.</p><p>Al respecto, el ministro de Defensa, Óscar González, sostuvo en una conferencia de prensa que en el regimiento se está cumpliendo una orden judicial, e indicó que, por tanto, se ubicó al exjefe de Estado en &quot;una habitación común&quot; destinada al personal militar, tras aclarar que &quot;esa dependencia no es una cárcel&quot;.</p><p>Sobre la posibilidad de que Peña deba ser trasladado a una cárcel común, el ministro de Justicia, Rodrigo Nicora, explicó en la misma comparecencia que el sistema penitenciario está preparado para recibir &quot;a cualquier tipo de perfil de personas&quot; privadas de libertad.</p><p>En tal sentido, anticipó que se articularían &quot;las acciones necesarias para que la seguridad esté garantizada&quot;.</p><p>Este sábado, el juez penal de Garantías de Delitos Económicos Humberto Otazú, quien ordenó la prisión preventiva contra Peña, afirmó que no será trasladado a una cárcel común, tras argumentar que, como exmandatario, &quot;maneja demasiada información sensible&quot; en asuntos como el crimen organizado.</p><p>La imputación fiscal indica que el expresidente &quot;habría intervenido en circunstancias relacionadas con la colocación, renovación y permanencia de importantes sumas de dinero provenientes de entidades públicas y previsionales&quot; en ese banco.</p><p>Además, Peña, detalló la imputación de los fiscales, &quot;habría mantenido una relación económica y corporativa previa&quot; con Ueno holding, un grupo empresarial que incluye ese banco.</p><p>El Banco Central (BCP) ordenó el martes un proceso de resolución o cierre de Ueno tras detectar que su índice de solvencia había caído por debajo de la mitad del mínimo exigido.</p>",
+      "url": "https://www.cooperativa.cl/noticias/mundo/paraguay/voy-a-ser-tu-huesped-por-mucho-tiempo-el-saludo-de-santiago-pena-al/2026-11-08/153225.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000001420261108153225.jpg",
+      "publishedAt": "2026-11-08T18:32:25+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": false,
-      "category": "Derechos Humanos y Ciudadanía",
+      "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
+      "relevanceScore": 77,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1281,6 +1271,46 @@
       "relevanceTier": "alta",
       "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "cooperativa-824db7031f",
+      "title": "Soto: Acusación contra Rabat está al 99% y tendrá votos oficialistas",
+      "summary": "El diputado Raúl Soto, presidente del PPD, aseguró que la acusación constitucional contra el ministro de Justicia, Francisco Rabat, se encuentra \"casi lista\" y contaría con votos oficialistas. En conversación con \"Estado Nacional\" de TVN , el parlamentario abordó la acción que prepara la oposición contra el secretario de Estado en...",
+      "content": "<p>El diputado Raúl Soto, presidente del PPD, aseguró que la acusación constitucional contra el ministro de Justicia, Francisco Rabat, se encuentra &quot;casi lista&quot; y contaría con votos oficialistas.</p><p>En conversación con &quot;Estado Nacional&quot; de TVN, el parlamentario abordó la acción que prepara la oposición contra el secretario de Estado en respuesta a la rebaja de penas a personas condenadas por abuso y violación contra menores de edad, narcotráficantes, asesinos y violadores de derechos humanos, decretos firmados por su cartera.</p><p>&quot;Está concluyendo el trabajo de redacción de la acusación constitucional. Diría que estamos en un 99% de avance y en los próximos días se va a concluir en un 100%; se van a hacer las revisiones y los retoques finales para poder presentarla en los próximos días&quot;, afirmó el diputado opositor.</p><p>Soto aseveró que el titular de Justicia &quot;tiene responsabilidad política, administrativa por la liberación de pedófilos, de violadores de derechos humanos, de narcotraficantes y criminales altamente peligrosos en nuestro país. Fue un cambio de criterio jurídico absolutamente equivocado y, además de eso, ha infringido leyes, la Constitución y tratados internacionales&quot;.</p><p>El parlamentario adelantó que la acción consiste en tres capítulos: &quot;Uno por la liberación de pedófilos, otro por la liberación y rebaja de condena de violadores de derechos humanos, y un tercero por faltas a la probidad&quot;.</p><p>&quot;El ministro ha actuado de mala fe, ha escondido información y derechamente ha mentido ante otro poder del Estado como el Congreso Nacional y ante toda la opinión pública&quot;, agregó el legislador.</p><p>El timonel PPD fue enfático en señalar que &quot;acá hay dos caminos: nos ponemos del lado de las víctimas, que son niños, niñas y adolescentes vulnerados en sus derechos, abusados, violados, y también de sus familias; o del lado de los victimarios, que son los abusadores, los violadores de esos niños, y de un gobierno indolente que sigue defendiendo lo indefendible&quot;.</p><p>En ese sentido, afirmó que &quot;van a estar todos los votos de la oposición, pero no me cabe ninguna duda que también van a existir votos del oficialismo, particularmente de Chile Vamos, y espero que tengamos los votos de la totalidad del PDG&quot;.</p><p>Soto sostuvo que la situación no solo generó una crisis política, sino también una &quot;crisis ética muy profunda, es una crisis moral que genera un quiebre con la sociedad chilena. Y esa desconfianza va a ser muy difícil de recuperarla si el Presidente Kast no asume su liderazgo y solicita la renuncia a su ministro (...) Por defenderlo, está poniendo en riesgo a todo su Gobierno&quot;.</p><p>En cuanto a la propuesta presentada por el Ejecutivo para derogar las rebajas de pena, el diputado manifestó la disponibilidad del sector para avanzar en ella. Sin embargo, planteó que &quot;quien debe liderar ese proceso no es el ministro Fernando Rabat. Él creó el problema, él generó esta crisis, no va a ser la persona que la va a solucionar&quot;.</p>",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/soto-acusacion-contra-rabat-esta-al-99-y-tendra-votos-oficialistas/2026-11-08/152309.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000001420261108152309.jpg",
+      "publishedAt": "2026-11-08T18:23:09+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "dw-6e3a8d3fa1",
+      "title": "Siete muertos y 112 heridos en accidente de trenes en Egipto",
+      "summary": "Una máquina que viajaba a Fayum colisionó con los vagones traseros de un tren que se dirigía a Asuán. Las autoridades temen que el número de víctimas aumente.",
+      "content": "<p>Ir al menú principalIr a más sitios de DWDestacadosMuro de BerlínLeón XIV en SudaméricaParaguayÚltimos audiosÚltimos videosTV en vivoPublicidadhttps://p.dw.com/p/5PDr1Agregar DW en GooglePublicidadEl Ministerio de Salud de Egipto elevó a siete los muertos y a 112 los heridos en un accidente ferroviario ocurrido este domingo (08.11.2026) en la región de Al Ayat, en la provincia egipcia de Giza, a unos 59 kilómetros al sur de El Cairo, después de que dos trenes de pasajeros colisionaran y varios vagones descarrilaran. Las autoridades advirtieron que las cifras podrían aumentar pues las labores de rescate continúan.</p><p>El accidente se produjo en la carretera agrícola El Cairo-Asuán, cerca del cruce de Gerza, en el tramo ferroviario comprendido entre las estaciones de Kafr Ammar y Al Raqqa. De acuerdo con los últimos datos, 72 ambulancias participaron en las operaciones de transporte y evacuación de los heridos, de los cuales 72 fueron trasladados al Hospital Al Wasta, 33 al Hospital Al Ayyat y 7 al Hospital Atfih.</p><p>El Ministerio detalló que 45 heridos ya recibieron el alta, mientras que otros están recibiendo tratamiento para atender heridas de diversa consideración como &quot;contusiones y abrasiones en el tórax y las costillas, así como fracturas en extremidades, pelvis y vértebras, además de laceraciones en la cabeza y rostro&quot;.</p><p>La tragedia se produjo cuando el tren número 134, correspondiente al servicio &quot;Tahya Misr”, que cubría el trayecto entre Giza y Fayum, colisionó por atrás al tren número 2010, que realizaba el recorrido entre El Cairo y Asuán, detalló la compañía Ferrocarriles Nacionales de Egipto en un comunicado.</p><p>Efectivos de Protección Civil, equipos de emergencia ferroviaria y fuerzas de seguridad se desplazaron hasta el lugar del siniestro, que fue acordonado para facilitar las operaciones de rescate. Por su parte, la empresa ferroviaria envió grúas y equipos especializados para retirar los restos del accidente, desplazar los vagones afectados y restablecer la circulación ferroviaria en ambos sentidos de la línea El Cairo-Asuán.</p><p>El presidente Abdel Fatah al Sisi afirmó que seguía la situación &quot;con gran preocupación&quot; y ordenó una investigación urgente para &quot;exigir responsabilidades a cualquiera que haya incurrido en negligencia&quot;. Por ello, se anunció la apertura de indagaciones para determinar las causas del accidente, ocurrido en la misma zona donde hace más de dos décadas tuvo lugar el peor desastre ferroviario de la historia de Egipto.</p><p>En 2002, más de 370 personas murieron cuando un incendio arrasó un tren en el sur de El Cairo. En 2009, varios accidentes ferroviarios en la misma zona causaron decenas de víctimas.</p>",
+      "url": "https://www.dw.com/es/siete-muertos-y-112-heridos-en-accidente-de-trenes-en-egipto/a-79893139?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": "https://static.dw.com/image/79891981_6.jpg",
+      "publishedAt": "2026-11-08T17:55:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "country": "Alemania / Global",
+      "independent": false,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "elciudadano-1ae88b2cee",
@@ -1563,24 +1593,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "dw-4ad54cfb9e",
-      "title": "Estados Unidos crea grupo de trabajo para bloquear rutas terrestres hacia Irán",
-      "summary": "El Comando Central estima que el bloqueo naval ha impedido exportaciones de petróleo iraní por un valor de más de 25.000 millones de dólares.",
-      "content": "",
-      "url": "https://www.dw.com/es/estados-unidos-crea-grupo-de-trabajo-para-bloquear-rutas-terrestres-hacia-irán/a-79891420?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-11-08T14:46:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "country": "Alemania / Global",
-      "independent": false,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "id": "radiouchile-185bd129f0",
+      "title": "Andrea Balladares advierte que crisis por ministro Rabat amenaza con “condicionar la gestión del Gobierno”",
+      "summary": "La presidenta de RN exigió corregir las falencias políticas del Ejecutivo y aseguró que los graves errores cometidos con las rebajas de condenas deben tener consecuencias asumiendo decisiones difíciles. La entrada Andrea Balladares advierte que crisis por ministro Rabat amenaza con “condicionar la gestión del Gobierno” se publicó...",
+      "content": "<p>La presidenta de Renovación Nacional (RN), Andrea Balladares, advirtió que la profunda crisis originada por las rebajas de condenas a agresores sexuales ha deteriorado la confianza ciudadana en la administración del Presidente José Antonio Kast. En entrevista con La Tercera, la senadora oficialista sinceró su preocupación por el impacto del conflicto que mantiene en el centro de los cuestionamientos al ministro de Justicia, Fernando Rabat.</p><p>“Esta controversia se está consumiendo buena parte de la discusión política y el riesgo no se limita a la caída de las encuestas, sino a que el deterioro de la confianza ciudadana termine condicionando la gestión del Gobierno”, advirtió la timonel de RN. En esa línea, remarcó la importancia de encontrar una salida que permita recuperar la iniciativa y cerrar el episodio, apuntando no solo a la tramitación de la ley Nunca Más, sino a corregir estructuralmente las causas que originaron el problema.</p><p>Al ser consultada sobre su respaldo a la decisión del jefe de Estado de mantener a Rabat en el gabinete, Balladares aclaró que dicha evaluación le corresponde exclusivamente al mandatario y que como coalición apoyan su determinación. Sin embargo, enfatizó que el propio Presidente reconoció un error político grave, el cual “ha dañado la confianza en el Gobierno, en sus equipos y en el sector, y además ha desviado el foco de la agenda”.</p><p>Frente a este escenario, la senadora evidenció que la crisis dejó al descubierto deficiencias comunicacionales en La Moneda. “Hemos planteado la necesidad de generar un nuevo diseño político que nos permita un sustento parlamentario”, sostuvo la parlamentaria, subrayando que quienes respaldan al Ejecutivo tienen la permanente obligación de evaluar las consecuencias de sus actos.</p><p>“Cuando se cometen errores de esta magnitud, esa responsabilidad también exige asumir sus consecuencias, incluso cuando ello supone tomar decisiones difíciles y anteponer el interés del país a cualquier consideración personal“, sentenció Balladares, en un claro mensaje a la conducción política oficialista.</p><p>La entrada Andrea Balladares advierte que crisis por ministro Rabat amenaza con “condicionar la gestión del Gobierno” se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/08/andrea-balladares-advierte-que-crisis-por-ministro-rabat-amenaza-con-condicionar-la-gestion-del-gobierno/",
+      "image": "https://uchile-media-storage.nyc3.cdn.digitaloceanspaces.com/2026/04/andrea-balladares.jpg",
+      "publishedAt": "2026-11-08T14:42:05+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 98,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "lasillavacia-656fe696c5",
@@ -1603,13 +1633,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "radiouchile-185bd129f0",
-      "title": "Andrea Balladares advierte que crisis por ministro Rabat amenaza con “condicionar la gestión del Gobierno”",
-      "summary": "La presidenta de RN exigió corregir las falencias políticas del Ejecutivo y aseguró que los graves errores cometidos con las rebajas de condenas deben tener consecuencias asumiendo decisiones difíciles. La entrada Andrea Balladares advierte que crisis por ministro Rabat amenaza con “condicionar la gestión del Gobierno” se publicó...",
-      "content": "<p>La presidenta de Renovación Nacional (RN), Andrea Balladares, advirtió que la profunda crisis originada por las rebajas de condenas a agresores sexuales ha deteriorado la confianza ciudadana en la administración del Presidente José Antonio Kast. En entrevista con La Tercera, la senadora oficialista sinceró su preocupación por el impacto del conflicto que mantiene en el centro de los cuestionamientos al ministro de Justicia, Fernando Rabat.</p><p>“Esta controversia se está consumiendo buena parte de la discusión política y el riesgo no se limita a la caída de las encuestas, sino a que el deterioro de la confianza ciudadana termine condicionando la gestión del Gobierno”, advirtió la timonel de RN. En esa línea, remarcó la importancia de encontrar una salida que permita recuperar la iniciativa y cerrar el episodio, apuntando no solo a la tramitación de la ley Nunca Más, sino a corregir estructuralmente las causas que originaron el problema.</p><p>Al ser consultada sobre su respaldo a la decisión del jefe de Estado de mantener a Rabat en el gabinete, Balladares aclaró que dicha evaluación le corresponde exclusivamente al mandatario y que como coalición apoyan su determinación. Sin embargo, enfatizó que el propio Presidente reconoció un error político grave, el cual “ha dañado la confianza en el Gobierno, en sus equipos y en el sector, y además ha desviado el foco de la agenda”.</p><p>Frente a este escenario, la senadora evidenció que la crisis dejó al descubierto deficiencias comunicacionales en La Moneda. “Hemos planteado la necesidad de generar un nuevo diseño político que nos permita un sustento parlamentario”, sostuvo la parlamentaria, subrayando que quienes respaldan al Ejecutivo tienen la permanente obligación de evaluar las consecuencias de sus actos.</p><p>“Cuando se cometen errores de esta magnitud, esa responsabilidad también exige asumir sus consecuencias, incluso cuando ello supone tomar decisiones difíciles y anteponer el interés del país a cualquier consideración personal“, sentenció Balladares, en un claro mensaje a la conducción política oficialista.</p><p>La entrada Andrea Balladares advierte que crisis por ministro Rabat amenaza con “condicionar la gestión del Gobierno” se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/08/andrea-balladares-advierte-que-crisis-por-ministro-rabat-amenaza-con-condicionar-la-gestion-del-gobierno/",
-      "image": "https://uchile-media-storage.nyc3.cdn.digitaloceanspaces.com/2026/04/andrea-balladares.jpg",
-      "publishedAt": "2026-11-08T14:42:05+00:00",
+      "id": "radiouchile-ff20e31198",
+      "title": "Álvaro Escobar, charanguista chileno: “Es el instrumento que nos vio nacer como músicos”",
+      "summary": "Recientemente, obtuvo el primer lugar en el Concurso Internacional de Intérpretes del Charango (Bolivia). \"Es alucinante\", recuerda el artista e integrante de \"Charango Proyect\", iniciativa que impulsa junto a Víctor Hugo Carmona D’Ottone. La entrada Álvaro Escobar, charanguista chileno: “Es el instrumento que nos vio nacer como...",
+      "content": "<p>El charanguista chileno Álvaro Escobar obtuvo el primer lugar en el Concurso Internacional de Intérpretes del Charango, realizado en la XLII Feria y Festival Nacional e Internacional del Charango de Aiquile (Bolivia).</p><p>Este resultado corona un año de preparación, estudio y aprendizaje antes de representar a Chile en uno de los encuentros internacionales más importantes dedicados al charango. “El conocimiento que se comparte se transforma en legado”, recuerda Escobar al mencionar uno de los “hitos” previo a su participación en la competencia. En El Alto, La Paz, compartió un único ensayo con el reconocido maestro boliviano Saúl Callejas Oropeza. Ambos interpretaron Velo de la novia, composición de Orlando Rojas.</p><p>El músico chileno se sumó al evento como parte de “Charango Proyect”, iniciativa que impulsa junto a Víctor Hugo Carmona D’Ottone, destacado luthier e investigador.</p><p>“Llegar a Aiquile ya es un gran logro. Y obtener el primer lugar en la categoría internacional lo encuentro maravilloso, alucinante. Me siento muy contento y , con esto, espero profesionalizar mi carrera como charanguista en mi país”, afirma a Diario y Radio Universidad de Chile.</p><p>Y agrega : “Quiero agradecer a toda la gente que entregó toda esa energía y todo su amor durante este proceso. Amigos, músicos, familia, pero muy especial a mi compañero Víctor Hugo que forma parte del proyecto. Gracias a él también esto pudo ser realidad”.</p><p>La historia de “Charango Proyect” empieza el año pasado. “Nos embarcamos en esta investigación de campo, principalmente, en los valles de Cochabamba y también en La Paz. Conversamos con distintos artesanos, constructores, intérpretes, profesores y cultores que mantienen viva estas tradiciones. Es muy importante porque es el instrumento que nos vio nacer como músicos”, destaca Álvaro Escobar.</p><p>El material recopilado contribuirá al desarrollo de «El Alma del Charango», proyecto documental que busca acercar al público los testimonios, conocimientos y experiencias de sus protagonistas, promoviendo el acceso a contenidos culturales y educativos.</p><p>Escobar hizo un repaso sobre su carrera. “PeñiMapu fue el primer grupo musical que integré con amigos de la comuna donde vivía. Después de 15 años volvimos a tocar juntos y comenzamos a producir las canciones que teníamos de adolescentes. También estoy participando en la Orquesta de Charangos de Chile que presentará su estreno durante los próximos días en Santiago”, menciona.</p><p>La Orquesta de Charangos de Chile reúne a músicos multiinstrumentistas, docentes universitarios, investigadores y compositores de vasta trayectoria en el circuito musical chileno e internacional. Y describen que el charango en Chile ha transitado desde su arraigo en la música de raíz folclórica y la Nueva Canción Chilena hacia un presente de exploración contemporánea y académica.</p><p>El estreno será el próximo miércoles 11 de noviembre de 2026, a las 19:00 horas, en la Sala Isidora Zegers de la Universidad de Chile que está ubicada en Compañía 1264.</p><p>De esta manera, luego de su regreso a Chile, Álvaro Escobar suma una serie de actividades. También compartió la invitación al V Encuentro de Charangos Bajo la Lluvia 2026 en Puerto Montt. El 23 de noviembre están programados dos “momentos imperdibles”. A las 11 horas, el lanzamiento y conversatorio de la revista “Vuelo de pájaros” en el Aula Magna de la Universidad de Los Lagos (sede Serena 77). Y a las 19:00 horas, el Gran Concierto de Cierre en el Teatro Diego Rivera (Quillota 116).</p><p>La entrada Álvaro Escobar, charanguista chileno: “Es el instrumento que nos vio nacer como músicos” se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/08/alvaro-escobar-charanguista-chileno-es-el-instrumento-que-nos-vio-nacer-como-musicos/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/08102819/charanguista-alvaro-escobar.jpeg",
+      "publishedAt": "2026-11-08T14:39:38+00:00",
       "sourceId": "radiouchile",
       "sourceName": "Radio U. de Chile",
       "sourceType": "Universitario / Pluralista",
@@ -1617,9 +1647,9 @@
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Política y Actualidad",
+      "category": "Geopolítica y Mundo",
       "relevanceTier": "alta",
-      "relevanceScore": 98,
+      "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1640,26 +1670,6 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 87,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "radiouchile-ff20e31198",
-      "title": "Álvaro Escobar, charanguista chileno: “Es el instrumento que nos vio nacer como músicos”",
-      "summary": "Recientemente, obtuvo el primer lugar en el Concurso Internacional de Intérpretes del Charango (Bolivia). \"Es alucinante\", recuerda el artista e integrante de \"Charango Proyect\", iniciativa que impulsa junto a Víctor Hugo Carmona D’Ottone. La entrada Álvaro Escobar, charanguista chileno: “Es el instrumento que nos vio nacer como...",
-      "content": "<p>El charanguista chileno Álvaro Escobar obtuvo el primer lugar en el Concurso Internacional de Intérpretes del Charango, realizado en la XLII Feria y Festival Nacional e Internacional del Charango de Aiquile (Bolivia).</p><p>Este resultado corona un año de preparación, estudio y aprendizaje antes de representar a Chile en uno de los encuentros internacionales más importantes dedicados al charango. “El conocimiento que se comparte se transforma en legado”, recuerda Escobar al mencionar uno de los “hitos” previo a su participación en la competencia. En El Alto, La Paz, compartió un único ensayo con el reconocido maestro boliviano Saúl Callejas Oropeza. Ambos interpretaron Velo de la novia, composición de Orlando Rojas.</p><p>El músico chileno se sumó al evento como parte de “Charango Proyect”, iniciativa que impulsa junto a Víctor Hugo Carmona D’Ottone, destacado luthier e investigador.</p><p>“Llegar a Aiquile ya es un gran logro. Y obtener el primer lugar en la categoría internacional lo encuentro maravilloso, alucinante. Me siento muy contento y , con esto, espero profesionalizar mi carrera como charanguista en mi país”, afirma a Diario y Radio Universidad de Chile.</p><p>Y agrega : “Quiero agradecer a toda la gente que entregó toda esa energía y todo su amor durante este proceso. Amigos, músicos, familia, pero muy especial a mi compañero Víctor Hugo que forma parte del proyecto. Gracias a él también esto pudo ser realidad”.</p><p>La historia de “Charango Proyect” empieza el año pasado. “Nos embarcamos en esta investigación de campo, principalmente, en los valles de Cochabamba y también en La Paz. Conversamos con distintos artesanos, constructores, intérpretes, profesores y cultores que mantienen viva estas tradiciones. Es muy importante porque es el instrumento que nos vio nacer como músicos”, destaca Álvaro Escobar.</p><p>El material recopilado contribuirá al desarrollo de «El Alma del Charango», proyecto documental que busca acercar al público los testimonios, conocimientos y experiencias de sus protagonistas, promoviendo el acceso a contenidos culturales y educativos.</p><p>Escobar hizo un repaso sobre su carrera. “PeñiMapu fue el primer grupo musical que integré con amigos de la comuna donde vivía. Después de 15 años volvimos a tocar juntos y comenzamos a producir las canciones que teníamos de adolescentes. También estoy participando en la Orquesta de Charangos de Chile que presentará su estreno durante los próximos días en Santiago”, menciona.</p><p>La Orquesta de Charangos de Chile reúne a músicos multiinstrumentistas, docentes universitarios, investigadores y compositores de vasta trayectoria en el circuito musical chileno e internacional. Y describen que el charango en Chile ha transitado desde su arraigo en la música de raíz folclórica y la Nueva Canción Chilena hacia un presente de exploración contemporánea y académica.</p><p>El estreno será el próximo miércoles 11 de noviembre de 2026, a las 19:00 horas, en la Sala Isidora Zegers de la Universidad de Chile que está ubicada en Compañía 1264.</p><p>De esta manera, luego de su regreso a Chile, Álvaro Escobar suma una serie de actividades. También compartió la invitación al V Encuentro de Charangos Bajo la Lluvia 2026 en Puerto Montt. El 23 de noviembre están programados dos “momentos imperdibles”. A las 11 horas, el lanzamiento y conversatorio de la revista “Vuelo de pájaros” en el Aula Magna de la Universidad de Los Lagos (sede Serena 77). Y a las 19:00 horas, el Gran Concierto de Cierre en el Teatro Diego Rivera (Quillota 116).</p><p>La entrada Álvaro Escobar, charanguista chileno: “Es el instrumento que nos vio nacer como músicos” se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/08/alvaro-escobar-charanguista-chileno-es-el-instrumento-que-nos-vio-nacer-como-musicos/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/08102819/charanguista-alvaro-escobar.jpeg",
-      "publishedAt": "2026-11-08T14:39:38+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "alta",
-      "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1880,6 +1890,26 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "ojopublico-cc0d551ca7",
+      "title": "- Ojo-Público",
+      "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY3J3TlByZTc3MUY3ZEl4bFZuamdTZTlLTDVLWThacVpfclNJWV9ER0h0dFVBcHJuRkp2MkpLLWo2bkxabXVUY1lWSUR1bnVtb2VKY0FXc0pQZWtadjcxUE1CVmIzS21ZVy1IQ05iYTJRLUZYYzkyeTJzYl8zdGhmZW1PV3VVUXNqdzdaNzhR?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-08T12:53:58+00:00",
+      "sourceId": "ojopublico",
+      "sourceName": "Ojo Público",
+      "sourceType": "Investigación y Amazonía",
+      "sourceSite": "https://ojo-publico.com",
+      "region": "latam",
+      "country": "Perú",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 91,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
