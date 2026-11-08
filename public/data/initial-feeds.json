@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-08T00:01:09.332554+00:00",
+  "generatedAt": "2026-11-08T00:16:15.415365+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
-  "totalArticles": 213,
-  "totalBlockedFarandula": 6,
+  "totalArticles": 215,
+  "totalBlockedFarandula": 9,
   "blockedExamples": [
     {
       "title": "El escritoriazo de la ANFP",
@@ -15,6 +15,21 @@
       "title": "Deportes Antofagasta se derrumbó ante La U y quedó eliminado de Copa Chile",
       "source": "Timeline Antofagasta",
       "reason": "copa chile"
+    },
+    {
+      "title": "Bochornosa pelea en camarines marcó el Valencia-Real Madrid",
+      "source": "Radio Cooperativa",
+      "reason": "real madrid"
+    },
+    {
+      "title": "[VIDEO] Colo Colo tuvo masivo apoyo al costado de la carretera rumbo a Chillán",
+      "source": "Radio Cooperativa",
+      "reason": "colo colo"
+    },
+    {
+      "title": "Alexis Sánchez vio acción en la derrota que dejó a CF Montreal como colista de la MLS",
+      "source": "Radio Cooperativa",
+      "reason": "alexis sánchez"
     },
     {
       "title": "Jugador de Valencia se enojó con entrevista en el entretiempo: Es una mierda",
@@ -507,7 +522,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.7
+      "newestAgeHours": 1.9
     },
     {
       "id": "interferencia",
@@ -520,7 +535,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 15.0
+      "newestAgeHours": 15.3
     },
     {
       "id": "fastcheck",
@@ -533,7 +548,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.0
+      "newestAgeHours": 0.3
     },
     {
       "id": "radiouchile",
@@ -546,7 +561,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.9
+      "newestAgeHours": 3.2
     },
     {
       "id": "elmostrador",
@@ -559,7 +574,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.0
+      "newestAgeHours": 3.3
     },
     {
       "id": "eldesconcierto",
@@ -572,7 +587,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.9
+      "newestAgeHours": 11.1
     },
     {
       "id": "laderasur",
@@ -584,8 +599,8 @@
       "status": "ok",
       "count": 10,
       "blocked": 0,
-      "staleDropped": 4,
-      "newestAgeHours": 27.2
+      "staleDropped": 3,
+      "newestAgeHours": 27.5
     },
     {
       "id": "resumen",
@@ -595,10 +610,10 @@
       "type": "Prensa Independiente Regional",
       "independent": true,
       "status": "ok",
-      "count": 2,
+      "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 39.5
+      "newestAgeHours": 39.8
     },
     {
       "id": "elciudadano",
@@ -611,7 +626,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.6
     },
     {
       "id": "malaespina",
@@ -624,7 +639,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 12.0
+      "newestAgeHours": 12.3
     },
     {
       "id": "vergara240",
@@ -650,7 +665,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 33.4
+      "newestAgeHours": 33.7
     },
     {
       "id": "timeline",
@@ -663,7 +678,7 @@
       "count": 8,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 0.5
+      "newestAgeHours": 0.7
     },
     {
       "id": "diariouach",
@@ -676,7 +691,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 29.7
+      "newestAgeHours": 30.0
     },
     {
       "id": "cooperativa",
@@ -687,9 +702,9 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 4,
+      "blocked": 7,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.1
     },
     {
       "id": "elfaro",
@@ -715,7 +730,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 38.0
+      "newestAgeHours": 38.3
     },
     {
       "id": "lasillavacia",
@@ -728,7 +743,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.6
+      "newestAgeHours": 1.8
     },
     {
       "id": "ojopublico",
@@ -741,7 +756,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 1,
-      "newestAgeHours": 157.4
+      "newestAgeHours": 157.6
     },
     {
       "id": "cuestionpublica",
@@ -754,7 +769,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 28.8
+      "newestAgeHours": 29.1
     },
     {
       "id": "chequeado",
@@ -767,7 +782,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 196.2
+      "newestAgeHours": 196.5
     },
     {
       "id": "piedepagina",
@@ -780,7 +795,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 150.3
+      "newestAgeHours": 150.6
     },
     {
       "id": "cenital",
@@ -793,7 +808,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 11.5
+      "newestAgeHours": 11.8
     },
     {
       "id": "brecha",
@@ -806,7 +821,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 37.8
+      "newestAgeHours": 38.0
     },
     {
       "id": "jacobinlat",
@@ -819,7 +834,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 13.6
+      "newestAgeHours": 13.9
     },
     {
       "id": "ciclismo-chile",
@@ -832,7 +847,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 10.2
+      "newestAgeHours": 10.5
     },
     {
       "id": "ciclo21",
@@ -845,7 +860,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.5
+      "newestAgeHours": 4.7
     },
     {
       "id": "brujulabike",
@@ -858,7 +873,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.8
+      "newestAgeHours": 4.1
     },
     {
       "id": "esciclismo",
@@ -871,7 +886,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.0
+      "newestAgeHours": 1.2
     },
     {
       "id": "propublica",
@@ -884,7 +899,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 13.0
+      "newestAgeHours": 13.3
     },
     {
       "id": "bellingcat",
@@ -897,7 +912,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 62.2
+      "newestAgeHours": 62.5
     },
     {
       "id": "theintercept",
@@ -910,7 +925,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 13.0
+      "newestAgeHours": 13.3
     },
     {
       "id": "eldiarioes",
@@ -923,7 +938,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.2
+      "newestAgeHours": 4.4
     },
     {
       "id": "elsalto",
@@ -936,7 +951,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 90.1
+      "newestAgeHours": 73.3
     },
     {
       "id": "sinpermiso",
@@ -962,7 +977,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.3
+      "newestAgeHours": 0.1
     },
     {
       "id": "dw",
@@ -975,7 +990,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.5
+      "newestAgeHours": 1.7
     },
     {
       "id": "globalvoices",
@@ -988,10 +1003,30 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 17.0
+      "newestAgeHours": 17.3
     }
   ],
   "articles": [
+    {
+      "id": "france24-9b294851dd",
+      "title": "“Estamos sin nada, esperando”: jubilados, futbolistas, extranjeros...la angustia de los ahorristas en Paraguay",
+      "summary": "Casi tres millones de paraguayos quedaron sin acceso a sus cuentas tras la intervención de Ueno Bank, que terminó con la destitución y la detención preventiva del ahora expresidente Santiago Peña. El Estado ya devolvió los depósitos a 1,2 millones de clientes, pero el resto no sabe qué va a pasar con su dinero. Pese a que el flamante...",
+      "content": "<p>Casi tres millones de paraguayos quedaron sin acceso a sus cuentas tras la intervención de Ueno Bank, que terminó con la destitución y la detención preventiva del ahora expresidente Santiago Peña. El Estado ya devolvió los depósitos a 1,2 millones de clientes, pero el resto no sabe qué va a pasar con su dinero. Pese a que el flamante mandatario, Pedro Alliana, prometió que compensará a todos los afectados, en las calles crece el reclamo contra toda la clase política.</p>",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261108-ueno-bank-estamos-sin-nada-esperando-jubilados-futbolistas-extranjeros-la-angustia-de-los-ahorristas-en-paraguay",
+      "image": "https://s.france24.com/media/display/5863b4ea-db08-11f1-9ab0-d18c5759e759/w:1024/p:16x9/2026-11-05T134127Z-1871827268-RC2NHOAWB19L-RTRMADP-3-PARAGUAY-POLITICS.jpg",
+      "publishedAt": "2026-11-08T00:07:49+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 72,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
     {
       "id": "fastcheck-cb76d1cba1",
       "title": "CDE se querella contra exaltos directivos de Vialidad Coquimbo por millonario fraude al fisco que supera los $774 millones",
@@ -1093,6 +1128,26 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
+      "id": "france24-cfec9a66b2",
+      "title": "Kiev bajo presión: nuevos ataques rusos golpean la infraestructura energética y zonas residenciales",
+      "summary": "Los recientes ataques rusos contra infraestructura energética en Ucrania han vuelto a poner en riesgo el suministro de electricidad, agua y calefacción cuando el país se prepara para el invierno. Según las autoridades ucranianas, los bombardeos alcanzaron instalaciones clave en la región de Kiev y también afectaron zonas...",
+      "content": "<p>Los recientes ataques rusos contra infraestructura energética en Ucrania han vuelto a poner en riesgo el suministro de electricidad, agua y calefacción cuando el país se prepara para el invierno. Según las autoridades ucranianas, los bombardeos alcanzaron instalaciones clave en la región de Kiev y también afectaron zonas residenciales, aumentando la preocupación de los civiles por su seguridad. Mientras tanto, en Zaporizhia, familiares y compañeros despidieron a seis policías fallecidos tras un ataque contra un punto de distribución de ayuda.</p>",
+      "url": "https://www.france24.com/es/video/20261107-kiev-bajo-presi%C3%B3n-nuevos-ataques-rusos-golpean-la-infraestructura-energ%C3%A9tica-y-zonas-residenciales",
+      "image": "https://s.france24.com/media/display/8bd8fb38-dafd-11f1-a477-bf1914cabd52/w:1024/p:16x9/ES-20261107-160620-160757-CS.jpg",
+      "publishedAt": "2026-11-07T23:04:27+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Medioambiente y Territorio",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 67,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "esciclismo-bb11d201d2",
       "title": "Listado oficial de ciclistas inscritos en el Tour de Okinawa 2026",
       "summary": "Éste es el listado oficial y definitivo de equipos y ciclistas -con sus dorsales- inscritos en la trigésimo quinta edición del Tour de Okinawa, prueba de un día del calendario...",
@@ -1113,6 +1168,26 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
+      "id": "france24-4871880db9",
+      "title": "¿Qué escenarios enfrenta Eisenkot para formar gobierno en Israel?",
+      "summary": "Tras las elecciones del 27 de octubre, que dejaron un Parlamento sin mayorías claras, el presidente israelí, Isaac Herzog, encargó a Gadi Eisenkot la tarea de intentar formar gobierno. El exjefe militar deberá ahora negociar con distintas fuerzas políticas para construir una coalición capaz de obtener el respaldo necesario en la...",
+      "content": "<p>Tras las elecciones del 27 de octubre, que dejaron un Parlamento sin mayorías claras, el presidente israelí, Isaac Herzog, encargó a Gadi Eisenkot la tarea de intentar formar gobierno. El exjefe militar deberá ahora negociar con distintas fuerzas políticas para construir una coalición capaz de obtener el respaldo necesario en la Knéset. ¿Qué escenarios enfrenta? Susana Mangana, analista política especializada en Oriente Medio y el mundo árabo-musulmán, aborda el tema en France 24.</p>",
+      "url": "https://www.france24.com/es/video/20261107-qu%C3%A9-escenarios-enfrenta-eisenkot-para-formar-gobierno-en-israel",
+      "image": "https://s.france24.com/media/display/0a983880-dafe-11f1-83f7-1beafce15fea/w:1024/p:16x9/ES-20261107-160826-161246-CS.jpg",
+      "publishedAt": "2026-11-07T23:01:45+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 81,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "cooperativa-ccd2d21fdb",
       "title": "Paraguay: A prisión preventiva Santiago Peña por el escándalo Ueno bank",
       "summary": "Un juez de Paraguay ordenó este sábado que el expresidente Santiago Peña permanezca bajo prisión preventiva , después de que la Fiscalía lo acusara formalmente de presunta lesión de confianza y administración en provecho propio dentro de la investigación por el cierre de Ueno bank . \" Este ciudadano debe estar bajo la figura de la...",
@@ -1131,26 +1206,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 87,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "france24-d152e54cd2",
-      "title": "Conmoción en Polonia: ¿qué se sabe del tiroteo mortal en la Plaza Mayor de Cracovia?",
-      "summary": "Al menos seis personas murieron y más de 15 resultaron heridas en un tiroteo ocurrido el sábado 7 de noviembre en la plaza principal del mercado de la ciudad sureña de Cracovia, informó la Policía. El primer ministro polaco, Donald Tusk, dijo que en la casa del sospechoso de cometer el ataque fueron hallados los cuerpos de dos mujeres...",
-      "content": "<p>Al menos seis personas murieron y más de 15 resultaron heridas en un tiroteo ocurrido el sábado 7 de noviembre en la plaza principal del mercado de la ciudad sureña de Cracovia, informó la Policía. El primer ministro polaco, Donald Tusk, dijo que en la casa del sospechoso de cometer el ataque fueron hallados los cuerpos de dos mujeres y un hombre, muy probablemente miembros de su familia.</p>",
-      "url": "https://www.france24.com/es/europa/20261107-conmoci%C3%B3n-en-polonia-qu%C3%A9-se-sabe-del-tiroteo-mortal-en-la-plaza-mayor-de-cracovia",
-      "image": "https://s.france24.com/media/display/3ab8f620-dadc-11f1-a73d-695cb59fade5/w:1024/p:16x9/2026-11-07T160116Z-533152461-UP1EMB71895L7-RTRMADP-3-POLAND-SHOOTING.jpg",
-      "publishedAt": "2026-11-07T22:43:44+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "esciclismo-d6943c8673",
@@ -1233,26 +1288,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "france24-07becd8a80",
-      "title": "Juez de Paraguay ordena prisión preventiva para el expresidente Santiago Peña",
-      "summary": "Un juez de Paraguay ordenó este sábado 7 de noviembre que el expresidente Santiago Peña permanezca bajo prisión preventiva, luego de que la Fiscalía lo acusara formalmente de presunta lesión de confianza y administración en provecho propio dentro de la investigación por el cierre del banco Ueno Bank.",
-      "content": "",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261107-juez-de-paraguay-ordena-prisi%C3%B3n-preventiva-para-el-expresidente-santiago-pe%C3%B1a-edit",
-      "image": "https://s.france24.com/media/display/5e6bc61e-d984-11f1-981a-1beafce15fea/w:1024/p:16x9/17c0d67119176a734848674d11d56a7526a521b9.jpg",
-      "publishedAt": "2026-11-07T21:47:56+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 82,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "lasillavacia-b1891e1641",
       "title": "Sin Abelardo, gobierno se reúne con congresistas para la tributaria",
       "summary": "La encabeza el vicepresidente y lo acompañan los ministros de Hacienda, Interior y Justicia. Trabajan en un texto para el primer debate. The post Sin Abelardo, gobierno se reúne con congresistas para la tributaria appeared first on La Silla Vacía .",
@@ -1260,46 +1295,6 @@
       "url": "https://www.lasillavacia.com/en-vivo/sin-abelardo-gobierno-se-reune-con-congresistas-para-la-tributaria/",
       "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/portadatributaria-1.jpg?resize=150%2C150&quality=80&strip=all&ssl=1",
       "publishedAt": "2026-11-07T21:42:18+00:00",
-      "sourceId": "lasillavacia",
-      "sourceName": "La Silla Vacía",
-      "sourceType": "Poder y Política",
-      "sourceSite": "https://www.lasillavacia.com",
-      "region": "latam",
-      "country": "Colombia",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 97,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "france24-2335daf2eb",
-      "title": "Protestas en Francia: se reduce la movilización, pero hay nuevo llamado a manifestaciones el martes",
-      "summary": "Entre 146.000 y 250.000 personas se manifestaron en Francia el sábado 7 de noviembre, frente a las 500.000 que lo hicieron en todo el país la semana anterior, para mantener la presión sobre el gobierno antes de una serie de reuniones con el Poder Ejecutivo el lunes. Una coalición de sindicatos que representa a organizaciones de...",
-      "content": "<p>Entre 146.000 y 250.000 personas se manifestaron en Francia el sábado 7 de noviembre, frente a las 500.000 que lo hicieron en todo el país la semana anterior, para mantener la presión sobre el gobierno antes de una serie de reuniones con el Poder Ejecutivo el lunes. Una coalición de sindicatos que representa a organizaciones de institutos, universidades y profesorado convocó otra jornada de huelgas y manifestaciones para el martes.</p>",
-      "url": "https://www.france24.com/es/francia/20261107-protestas-en-francia-se-reduce-la-movilizaci%C3%B3n-pero-hay-nuevo-llamado-a-manifestaciones-el-martes",
-      "image": "https://s.france24.com/media/display/e053888a-daef-11f1-aefc-695cb59fade5/w:1024/p:16x9/2026-11-07T161441Z-1720692226-RC24JOA3OWNK-RTRMADP-3-FRANCE-PROTEST.jpg",
-      "publishedAt": "2026-11-07T21:30:27+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "lasillavacia-70c7b9556c",
-      "title": "¿Petro puede ser objeto de una declaratoria de indignidad por el Congreso?",
-      "summary": "Juanita León y Héctor Riveros hablan de los escándalos del expresidente y de lo que podría venir en lo judicial y en lo político. The post ¿Petro puede ser objeto de una declaratoria de indignidad por el Congreso? appeared first on La Silla Vacía .",
-      "content": "<p>En este episodio de La Siguiente Movida, Juanita León y Héctor Riveros hablan de los escándalos que rodean al expresidente Gustavo Petro y de lo que podría venir en lo judicial y en lo político. Repasan el video publicado por Deicy Jiménez y las denuncias sobre presuntos contratos a cambio de favores sexuales, además de otros casos como el supuesto pacto de Valledupar, las decisiones que habrían favorecido a grupos criminales y la financiación de la campaña.</p><p>The post ¿Petro puede ser objeto de una declaratoria de indignidad por el Congreso? appeared first on La Silla Vacía.</p>",
-      "url": "https://www.lasillavacia.com/opinion/el-expediente-del-expresidente-petro/",
-      "image": "https://www.lasillavacia.com/wp-content/uploads/2026/11/slcohqx2rv4.jpg",
-      "publishedAt": "2026-11-07T21:30:00+00:00",
       "sourceId": "lasillavacia",
       "sourceName": "La Silla Vacía",
       "sourceType": "Poder y Política",
@@ -1333,13 +1328,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "lasillavacia-8c5395bd17",
-      "title": "Tres soldados muertos y 47 heridos por ataque con drones en Bolívar",
-      "summary": "Fue contra el cantón militar Santa Rosa, en sur del departamento. En la zona delinque el Clan del Golfo y el ELN. The post Tres soldados muertos y 47 heridos por ataque con drones en Bolívar appeared first on La Silla Vacía .",
-      "content": "<p>Sobre el mediodía de hoy, el cantón militar de Santa Rosa, al sur de Bolívar, fue objeto de un ataque con drones que, según el Ejército, dejó tres soldados muertos y 46 personas heridos.</p><p>Acaban de atacar con drones el batallón de Santa Rosa del sur de Bolivar. Varios soldados heridos que están siendo evacuados. En la zona delinque el ELN y el Clan del golfo. https://t.co/KtUi7za3Cx</p><p>Los explosivos impactaron el rancho de tropa en la hora del almuerzo. Según reportó el Ejército en la noche, 16 personas están recibiendo atención médica.</p><p>“He ordenado a nuestra Fuerza Pública intensificar las operaciones para identificar, perseguir y capturar a los responsables de este ataque, golpear sus estructuras criminales y recuperar el control de los territorios donde pretenden imponer el miedo y la violencia”, trinó el presidente Abelardo de la Espriella al condenar el ataque.</p><p>El Ejército denunció que el ataque “constituye una grave vulneración de los Derechos Humanos y del Derecho Internacional Humanitario”.</p><p>Uso de drones: la nueva arma de guerra. Los drones comerciales adaptados con explosivos se han vuelto una táctica común entre los grupos armados en el país, especialmente en el suroccidente, pero en los últimos años su uso se expande al norte, como hoy.</p><p>Sobre el tema puede leer este reportaje y escuchar este episodio de Huevos Revueltos con Política:</p>",
-      "url": "https://www.lasillavacia.com/en-vivo/tres-soldados-muertos-y-47-heridos-por-ataque-con-drones-en-bolivar/",
-      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/ataquesantarosa-1.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
-      "publishedAt": "2026-11-07T21:15:54+00:00",
+      "id": "lasillavacia-70c7b9556c",
+      "title": "¿Petro puede ser objeto de una declaratoria de indignidad por el Congreso?",
+      "summary": "Juanita León y Héctor Riveros hablan de los escándalos del expresidente y de lo que podría venir en lo judicial y en lo político. The post ¿Petro puede ser objeto de una declaratoria de indignidad por el Congreso? appeared first on La Silla Vacía .",
+      "content": "<p>En este episodio de La Siguiente Movida, Juanita León y Héctor Riveros hablan de los escándalos que rodean al expresidente Gustavo Petro y de lo que podría venir en lo judicial y en lo político. Repasan el video publicado por Deicy Jiménez y las denuncias sobre presuntos contratos a cambio de favores sexuales, además de otros casos como el supuesto pacto de Valledupar, las decisiones que habrían favorecido a grupos criminales y la financiación de la campaña.</p><p>The post ¿Petro puede ser objeto de una declaratoria de indignidad por el Congreso? appeared first on La Silla Vacía.</p>",
+      "url": "https://www.lasillavacia.com/opinion/el-expediente-del-expresidente-petro/",
+      "image": "https://www.lasillavacia.com/wp-content/uploads/2026/11/slcohqx2rv4.jpg",
+      "publishedAt": "2026-11-07T21:30:00+00:00",
       "sourceId": "lasillavacia",
       "sourceName": "La Silla Vacía",
       "sourceType": "Poder y Política",
@@ -1349,7 +1344,7 @@
       "independent": true,
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
-      "relevanceScore": 87,
+      "relevanceScore": 97,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1370,6 +1365,26 @@
       "category": "Geopolítica y Mundo",
       "relevanceTier": "alta",
       "relevanceScore": 91,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "lasillavacia-8c5395bd17",
+      "title": "Tres soldados muertos y 47 heridos por ataque con drones en Bolívar",
+      "summary": "Fue contra el cantón militar Santa Rosa, en sur del departamento. En la zona delinque el Clan del Golfo y el ELN. The post Tres soldados muertos y 47 heridos por ataque con drones en Bolívar appeared first on La Silla Vacía .",
+      "content": "<p>Sobre el mediodía de hoy, el cantón militar de Santa Rosa, al sur de Bolívar, fue objeto de un ataque con drones que, según el Ejército, dejó tres soldados muertos y 46 personas heridos.</p><p>Acaban de atacar con drones el batallón de Santa Rosa del sur de Bolivar. Varios soldados heridos que están siendo evacuados. En la zona delinque el ELN y el Clan del golfo. https://t.co/KtUi7za3Cx</p><p>Los explosivos impactaron el rancho de tropa en la hora del almuerzo. Según reportó el Ejército en la noche, 16 personas están recibiendo atención médica.</p><p>“He ordenado a nuestra Fuerza Pública intensificar las operaciones para identificar, perseguir y capturar a los responsables de este ataque, golpear sus estructuras criminales y recuperar el control de los territorios donde pretenden imponer el miedo y la violencia”, trinó el presidente Abelardo de la Espriella al condenar el ataque.</p><p>El Ejército denunció que el ataque “constituye una grave vulneración de los Derechos Humanos y del Derecho Internacional Humanitario”.</p><p>Uso de drones: la nueva arma de guerra. Los drones comerciales adaptados con explosivos se han vuelto una táctica común entre los grupos armados en el país, especialmente en el suroccidente, pero en los últimos años su uso se expande al norte, como hoy.</p><p>Sobre el tema puede leer este reportaje y escuchar este episodio de Huevos Revueltos con Política:</p>",
+      "url": "https://www.lasillavacia.com/en-vivo/tres-soldados-muertos-y-47-heridos-por-ataque-con-drones-en-bolivar/",
+      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/ataquesantarosa-1.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
+      "publishedAt": "2026-11-07T21:15:54+00:00",
+      "sourceId": "lasillavacia",
+      "sourceName": "La Silla Vacía",
+      "sourceType": "Poder y Política",
+      "sourceSite": "https://www.lasillavacia.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 87,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2478,7 +2493,7 @@
       "summary": "La Teletón 2026 dio el puntapié inicial de sus 27 horas de transmisión desde el Teatro Teletón, instancia en la que buscan recaudar $44.253.268.546. Iaan Calderón protagonizó la apertura de la Teletón La noche comenzó con un clip en el que el pequeño visita el año 2078 a través de un sueño. Posteriormente, apareció en el escenario...",
       "content": "<p>La Teletón 2026 dio el puntapié inicial de sus 27 horas de transmisión desde el Teatro Teletón, instancia en la que buscan recaudar $44.253.268.546.</p><p>La noche comenzó con un clip en el que el pequeño visita el año 2078 a través de un sueño. Posteriormente, apareció en el escenario junto al robot Six Seven, que también formaba parte del registro audiovisual, mientras un grupo de bailarines acompañaba la presentación.</p><p>Una publicación compartida por Cooperativa (@cooperativa)</p><p>Mario Kreutzberger, Don Francisco, tomó la palabra para dar la bienvenida a una nueva edición de la cruzada solidaria y expresar su deseo de llegar a la versión número 50.</p><p>Luego presentó a los animadores que &quot;toman la posta&quot; en esta nueva jornada, además de dar paso a los telefonistas que reciben los aportes de la ciudadanía.</p><p>❤️🇨🇱 Don Francisco es mucho más que el rostro de la Teletón. Es parte de la historia de Chile y símbolo de una cruzada solidaria que ha unido a generaciones. ¡Que la vida nos permita tenerlo muchos años más! #Teletón2026 #SumateALoQueNosUne https://t.co/OIt3W1dodZ</p><p>Durante los primeros momentos de la transmisión se conoció la primera historia de la noche y se anunció una donación de $60 millones realizada desde Pichidegua, en la Región de O&#x27;Higgins.</p><p>Posteriormente, la transmisión dio paso a conexiones con distintas regiones del país, donde periodistas informaron sobre el desarrollo de la jornada solidaria.</p><p>Tras los primeros momentos de la transmisión, el escenario recibió al grupo Pandora, que se sumó a la programación musical de la primera noche.</p><p>Durante su intervención en la primera noche de la Teletón 2026, el Presidente José Antonio Kast llamó a la unidad y destacó el trabajo de la cruzada solidaria, aunque también tuvo tiempo para bromear con el niño embajador, Ian Calderón, y protagonizar un distendido momento junto al payaso Pastelito.</p><p>Una publicación compartida por Cooperativa (@cooperativa)</p><p>A las 00:57 horas se dio a conocer el primer cómputo de la cruzada solidaria, que alcanzó los $5.380.927.234, equivalente al 12,16% de la meta de $44.253.268.546 fijada para esta edición.</p><p>Una publicación compartida por Cooperativa (@cooperativa)</p><p>A las 10:00 de este sábado la Teletón 2026 actualizó el monto recaudado a $7.825.743.820.</p><p>Durante la jornada se espera el desarrollo de múltiples actividades deportivas, artísticas y solidarias en beneficio de la campaña.</p><p>A las 20:43 horas, antes de que la transmisión se traslade al Estadio Nacional, la Teletón 2026 actualizó el mondo recaudado en la campaña que asciende a $21.493.010.747.</p>",
       "url": "https://www.cooperativa.cl/noticias/magazine/television/teleton/teleton-2026-los-mejores-momentos-de-la-cruzada-solidaria/2026-11-06/222206.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000001320261106222206.jpg",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000002420261106222206.jpg",
       "publishedAt": "2026-11-07T01:22:06+00:00",
       "sourceId": "cooperativa",
       "sourceName": "Radio Cooperativa",
@@ -3138,7 +3153,7 @@
       "summary": "El destape de una descomunal estafa financiera deja a millones de ciudadanos sin acceder a sus ahorros y al colorado Peña ante un juicio político para su destitución. La entrada Cómo la caída del banco Ueno en Paraguay acabó con el gobierno del presidente Santiago Peña se publicó primero en Mala Espina .",
       "content": "<p>El destape de una descomunal estafa financiera deja a millones de ciudadanos sin acceder a sus ahorros y al colorado Peña ante un juicio político para su destitución.</p><p>La entrada Cómo la caída del banco Ueno en Paraguay acabó con el gobierno del presidente Santiago Peña se publicó primero en Mala Espina.</p>",
       "url": "https://www.malaespinacheck.cl/mundo/2026/11/06/como-la-caida-del-banco-ueno-en-paraguay-acabo-con-el-gobierno-del-presidente-santiago-pena/",
-      "image": null,
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-Como-la-caida-del-banco-Ueno-en-Paraguay-acabo-con-el-gobierno-del-presidente-Santiago-Pena.webp",
       "publishedAt": "2026-11-06T16:27:40+00:00",
       "sourceId": "malaespina",
       "sourceName": "Mala Espina Check",
@@ -3238,7 +3253,7 @@
       "summary": "Síntesis Contexto: La Comisión Especial Mixta despachó el Presupuesto 2027 a la Cámara, pero rechazó las partidas completas de Educación y Ciencia, además de recursos de otros ministerios. ¿Qué otros recursos fueron rechazados? Entre ellos figuran Atención Primaria de Salud, Senapred, Aduanas y Patrimonio Cultural. Los...",
       "content": "<p>Contexto: La Comisión Especial Mixta despachó el Presupuesto 2027 a la Cámara, pero rechazó las partidas completas de Educación y Ciencia, además de recursos de otros ministerios.</p><p>¿Qué otros recursos fueron rechazados? Entre ellos figuran Atención Primaria de Salud, Senapred, Aduanas y Patrimonio Cultural. Los cuestionamientos apuntaron al financiamiento de consultorios y a recortes presupuestarios en distintos servicios públicos.</p><p>La entrada Presupuesto 2027: Comisión Mixta rechaza recursos de Educación y Ciencia, además de otros servicios públicos se publicó primero en Mala Espina.</p>",
       "url": "https://www.malaespinacheck.cl/politica/2026/11/06/presupuesto-2027-comision-mixta-rechaza-recursos-de-educacion-y-ciencia-ademas-de-otros-servicios-publicos/",
-      "image": null,
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Copia-de-Portadas-chequeos-3.webp",
       "publishedAt": "2026-11-06T15:05:34+00:00",
       "sourceId": "malaespina",
       "sourceName": "Mala Espina Check",
@@ -3278,7 +3293,7 @@
       "summary": "Síntesis ¿Contexto?: El político paraguayo renunció a la presidencia en medio de la crisis desatada por la quiebra del banco digital, que dejó a millones de personas sin acceso a sus ahorros. Peña fue accionista de Ueno Bank hasta 2025. ¿Qué pasó? La entidad bancaria fue sponsor, en febrero de este año, de la Hispanic Prosperity Gala...",
       "content": "<p>¿Contexto?: El político paraguayo renunció a la presidencia en medio de la crisis desatada por la quiebra del banco digital, que dejó a millones de personas sin acceso a sus ahorros. Peña fue accionista de Ueno Bank hasta 2025.</p><p>¿Qué pasó? La entidad bancaria fue sponsor, en febrero de este año, de la Hispanic Prosperity Gala en Mar-a-Lago, Estados Unidos, donde premiaron al consultor argentino. El periodista español Javier Negre, dueño de La Derecha Diario, fue uno de los organizadores del evento.</p><p>La entrada Ueno Bank: el banco que precipitó la renuncia de Santiago Peña fue sponsor del evento que premió a Cerimedo en EE.UU. se publicó primero en Mala Espina.</p>",
       "url": "https://www.malaespinacheck.cl/mundo/2026/11/06/ueno-bank-el-banco-que-precipito-la-renuncia-de-santiago-pena-fue-sponsor-del-evento-que-premio-a-cerimedo-en-ee-uu/",
-      "image": null,
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Ueno-Bank_-el-banco-que-precipito-la-renuncia-de-Santiago-Pena-fue-sponsor-del-evento-que-premio-a-Cerimedo-en-EE.UU_.webp",
       "publishedAt": "2026-11-06T15:04:40+00:00",
       "sourceId": "malaespina",
       "sourceName": "Mala Espina Check",
@@ -4453,6 +4468,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "elsalto-953c935b9a",
+      "title": "La huelga general une a sindicatos, estudiantes y chalecos amarillos contra Macron y el coste de la vida",
+      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>La huelga general une a sindicatos, estudiantes y chalecos amarillos contra Macron y el coste de la vida El Salto</p>",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeXJWR19Ld0JyRTc2OGNHejZ2TE8tQ0pxVXozT05BSFRwaV8tZWttUXh5WDZIWHBkNThRN2xsX0g1Q09tYnphREd6TW5tRG1DZ25zTzJuTmw1dTBybnB5cTlCcVYzQ0JKOHY3bi1JZjdSSS0zOFpOT2ZzX3FTNVJvYldSc0l4OGJ2R08tcjJNTU1Ib2pKbUlSQnR6OW5xVmZPdnpLbV9Xa1oxeWxoSWxkaXBjOEVneEU?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-04T23:01:00+00:00",
+      "sourceId": "elsalto",
+      "sourceName": "El Salto Diario",
+      "sourceType": "Cooperativa Independiente",
+      "sourceSite": "https://www.elsaltodiario.com",
+      "region": "mundo",
+      "country": "España",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 68,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "resumen-8f1216bf39",
       "title": "Resumen.cl",
       "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4773,26 +4808,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "elsalto-2a6b362ce2",
-      "title": "Los saqueos de Barcelona: el capitalismo libidinal en shock",
-      "summary": "Nota publicada por El Salto Diario (Cooperativa Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Los saqueos de Barcelona: el capitalismo libidinal en shock El Salto</p>",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdmlvbWt0TV9IMk50S1lTTU1kLXU5SWRnUldUX0JNWmFjenQ5Tl91V3lQREtUd1FvMnM2WHlzSzdxNE1pMFRqUEJUMVlQTU00Q01wcjhudGtNc2s0ZE5PWWVwX05rUmpaZUttT2szN1NOR0hsWGNuS3h4SGFzZWNOZnV3VDhCMnQzUXY3VU9DV1pIenc4UVhNN3VJZnVFVXdSMTJMNQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-03T07:10:00+00:00",
-      "sourceId": "elsalto",
-      "sourceName": "El Salto Diario",
-      "sourceType": "Cooperativa Independiente",
-      "sourceSite": "https://www.elsaltodiario.com",
-      "region": "mundo",
-      "country": "España",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 68,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "ciclismo-chile-cbc3cb376b",
       "title": "Con más de 1.400 ciclistas se realizará la octava edición del Grand Prix Lago Ranco",
       "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4853,6 +4868,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "resumen-8ac7bbe6d0",
+      "title": "Subempleo profesional: más de 1,2 millones de personas con estudios superiores trabajan en empleos no calificados",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Subempleo profesional: más de 1,2 millones de personas con estudios superiores trabajan en empleos no calificados Resumen.cl</p>",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ1RWTUVTOHpLWmtvcnlRVWU2bFlseXlJMzZFd0NSZ1lwenZJWWlqem9pQ002WjlCMlM1QnpVQ2hjR0dyQXN1NWNqY2kzTG1kT3VkeDFRd3VOR2RLTzJ4ODhNYzNBeXRPaG9rdlBUS2diWG1mRTFYNjlvYkZ4TVBnZ2RhNTFzeWt6b2pHX0VBTVZVYlNvNkQ3NnU4NkJwcmVlUDY1UllIck4wZVZxTkpKS3NncmFNeHQ5YThmd0lPZmxkN05JZUZyQUFCRG9aeFVzaGV5WDRVUQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-02T08:58:04+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 70,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
       "id": "ciclismo-chile-6a71cfa128",
       "title": "Más de $87 millones sin devolver: la historia detrás del fallido Giro de Rigo en Chile",
       "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4893,24 +4928,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ojopublico-8cb3b4fa6c",
-      "title": "El 64% de minerales críticos exportados por Perú, Colombia, Chile y Ecuador va a China",
-      "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>El 64% de minerales críticos exportados por Perú, Colombia, Chile y Ecuador va a China Ojo-Público</p>",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaC1uRDBxTWpFQV93VDVOcjkzeUE5VGMxN3N1Q3VTaUNVdkFyeDlzQW5zQjNqbXV3eTl1MjBtS1h4MEF6b2JsUENxS0lZMWYzSU5sWENBM1FzRDZHSGNhU3F1NjN6U0ZqVXp1YzJacVd3bFpXYnNjNW9sT3lCYlJuTU5tblFoUlo4NHpxTGphQzNzZw?oc=5",
+      "id": "resumen-05f928b3de",
+      "title": "La impunidad se profundiza en Chile",
+      "summary": "Nota publicada por Resumen.cl (Biobío) (Prensa Independiente Regional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4teHVTR3UxZml4LS01bm96eXVTUTV2ZlBFaGdWRTdibm11Y3BMYTdpXzBGQy1wTzF6Mi1uUHROdVMyMmxSSlRiRjlGU3NhOTV0ZWR3akZOSy14N3QxVF9DcTVTd180RS1wYmJpUHN5ckk?oc=5",
       "image": null,
-      "publishedAt": "2026-11-01T10:37:27+00:00",
-      "sourceId": "ojopublico",
-      "sourceName": "Ojo Público",
-      "sourceType": "Investigación y Amazonía",
-      "sourceSite": "https://ojo-publico.com",
-      "region": "latam",
-      "country": "Perú",
+      "publishedAt": "2026-11-01T16:18:03+00:00",
+      "sourceId": "resumen",
+      "sourceName": "Resumen.cl (Biobío)",
+      "sourceType": "Prensa Independiente Regional",
+      "sourceSite": "https://resumen.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 91,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 74,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "piedepagina-90f95b125c",
@@ -4933,13 +4968,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ojopublico-6aa2e3bc3f",
-      "title": "La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima",
+      "id": "ojopublico-8cb3b4fa6c",
+      "title": "El 64% de minerales críticos exportados por Perú, Colombia, Chile y Ecuador va a China",
       "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima Ojo-Público</p>",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMmNSMnRpeWZkbllCUUF0dEZoOW5XX1l0MEh1TzRheC1JazkwWEFjSU1lbVJ2Ui0zSm9IdmhPX3J0YjFubS1EMzlPdVRDNEhBb29FZ0dNcU80MkVlZHRVa2R4OWdrR1k1cXcwNnlIQ0pWTVQ4amRUcmhJQ3JQREI5c0U4N1hXdDMtaFdxSWgtaldxajNScHo1d0tsSFo?oc=5",
+      "content": "<p>El 64% de minerales críticos exportados por Perú, Colombia, Chile y Ecuador va a China Ojo-Público</p>",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaC1uRDBxTWpFQV93VDVOcjkzeUE5VGMxN3N1Q3VTaUNVdkFyeDlzQW5zQjNqbXV3eTl1MjBtS1h4MEF6b2JsUENxS0lZMWYzSU5sWENBM1FzRDZHSGNhU3F1NjN6U0ZqVXp1YzJacVd3bFpXYnNjNW9sT3lCYlJuTU5tblFoUlo4NHpxTGphQzNzZw?oc=5",
       "image": null,
-      "publishedAt": "2026-11-01T05:00:00+00:00",
+      "publishedAt": "2026-11-01T10:37:27+00:00",
       "sourceId": "ojopublico",
       "sourceName": "Ojo Público",
       "sourceType": "Investigación y Amazonía",
@@ -4973,11 +5008,11 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ojopublico-e3d4ecfa02",
-      "title": "De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes",
+      "id": "ojopublico-6aa2e3bc3f",
+      "title": "La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima",
       "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes Ojo-Público</p>",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVl9tSkFLaWl0VHFoalZwT2lvSTlmd2pCWUgyZFJSZG54Qy0zNXIxTDhXejFRdXlVSFdQNTdmX2hxZ3Q4Q2VkNy00Rk1pRS0tcmdXVTRGbUJIZjBjZ09paXlMZFg4THg1MjZ3bTVyZUVnUjdpS0lZUlRIZXlveDdGdHZ1bW1obkpoZV9GNWZFakQ?oc=5",
+      "content": "<p>La herencia de López Aliaga: el millonario gasto para mantener las vías de Rutas de Lima Ojo-Público</p>",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMmNSMnRpeWZkbllCUUF0dEZoOW5XX1l0MEh1TzRheC1JazkwWEFjSU1lbVJ2Ui0zSm9IdmhPX3J0YjFubS1EMzlPdVRDNEhBb29FZ0dNcU80MkVlZHRVa2R4OWdrR1k1cXcwNnlIQ0pWTVQ4amRUcmhJQ3JQREI5c0U4N1hXdDMtaFdxSWgtaldxajNScHo1d0tsSFo?oc=5",
       "image": null,
       "publishedAt": "2026-11-01T05:00:00+00:00",
       "sourceId": "ojopublico",
@@ -5013,24 +5048,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "ciclismo-chile-afae59b01f",
-      "title": "L’Étape Chile abre fuegos en Valdivia: el detalle de carrera que acerca experiencia de Tour de France",
-      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>L’Étape Chile abre fuegos en Valdivia: el detalle de carrera que acerca experiencia de Tour de France BioBioChile</p>",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNLVFOZ0dCNkVfclBIbGJDSlVpeDA1bHM4WnVmd1VldUZYUHNzV21QWDVmeWFTaEpJWkgtNzJtREhQQzRXd1c4cUlrbGFlTnlvVTB0U1ZxVXpuVU5Hems3OXRQX2ZqVGU4RV9XM3RuMm04dFZwd2g4YmtNRzNwbFVLMWNNRy1GX3dXS2hzeV92MnlXNmdIcTk1eEhKZkpOLTR5NWVrbmpvNUJwZV94M0ZDNm8xUmZqRlA0OEREN29aN3FNaDhpUHR6V3Y3a21pQnY2Y19XS1N0SklkdHppVzJ2Y2ZFc19jdzh1ZExlVzFJVFlva2V1LUZoNnFEN2RKTlExdC1tbg?oc=5",
+      "id": "ojopublico-e3d4ecfa02",
+      "title": "De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes",
+      "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>De Venezuela y Colombia al Perú: las rutas de la trata y la explotación sexual de migrantes Ojo-Público</p>",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVl9tSkFLaWl0VHFoalZwT2lvSTlmd2pCWUgyZFJSZG54Qy0zNXIxTDhXejFRdXlVSFdQNTdmX2hxZ3Q4Q2VkNy00Rk1pRS0tcmdXVTRGbUJIZjBjZ09paXlMZFg4THg1MjZ3bTVyZUVnUjdpS0lZUlRIZXlveDdGdHZ1bW1obkpoZV9GNWZFakQ?oc=5",
       "image": null,
-      "publishedAt": "2026-11-01T03:00:31+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "country": "Chile",
+      "publishedAt": "2026-11-01T05:00:00+00:00",
+      "sourceId": "ojopublico",
+      "sourceName": "Ojo Público",
+      "sourceType": "Investigación y Amazonía",
+      "sourceSite": "https://ojo-publico.com",
+      "region": "latam",
+      "country": "Perú",
       "independent": true,
-      "category": "Ciclismo y Deporte",
+      "category": "Investigación y Poder",
       "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+      "relevanceScore": 91,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "piedepagina-783519d6a1",
@@ -5051,6 +5086,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 89,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "ciclismo-chile-afae59b01f",
+      "title": "L’Étape Chile abre fuegos en Valdivia: el detalle de carrera que acerca experiencia de Tour de France",
+      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>L’Étape Chile abre fuegos en Valdivia: el detalle de carrera que acerca experiencia de Tour de France BioBioChile</p>",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNLVFOZ0dCNkVfclBIbGJDSlVpeDA1bHM4WnVmd1VldUZYUHNzV21QWDVmeWFTaEpJWkgtNzJtREhQQzRXd1c4cUlrbGFlTnlvVTB0U1ZxVXpuVU5Hems3OXRQX2ZqVGU4RV9XM3RuMm04dFZwd2g4YmtNRzNwbFVLMWNNRy1GX3dXS2hzeV92MnlXNmdIcTk1eEhKZkpOLTR5NWVrbmpvNUJwZV94M0ZDNm8xUmZqRlA0OEREN29aN3FNaDhpUHR6V3Y3a21pQnY2Y19XS1N0SklkdHppVzJ2Y2ZFc19jdzh1ZExlVzFJVFlva2V1LUZoNnFEN2RKTlExdC1tbg?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-01T03:00:31+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "cuestionpublica-5deed56d61",
