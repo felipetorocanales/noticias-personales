@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-10T16:46:30.930453+00:00",
+  "generatedAt": "2026-11-10T17:01:18.789074+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
-  "totalArticles": 203,
-  "totalBlockedFarandula": 5,
+  "totalArticles": 216,
+  "totalBlockedFarandula": 7,
   "blockedExamples": [
     {
       "title": "Colo-Colo y la soledad del poder",
@@ -15,6 +15,16 @@
       "title": "Flavio Salazar, vicepdte. del Senado Universitario: “Defender la U. de Chile es defender capacidades estratégicas para el desarrollo del país”",
       "source": "Radio U. de Chile",
       "reason": "universidad de chile"
+    },
+    {
+      "title": "Conmebol cerró filas con Infantino ante la posible candidatura de Wenger a la FIFA",
+      "source": "Radio Cooperativa",
+      "reason": "fútbol"
+    },
+    {
+      "title": "Cooperativa Deportes: Tras el título de Colo Colo, la Roja prepara amistosos con Colombia",
+      "source": "Radio Cooperativa",
+      "reason": "colo colo"
     },
     {
       "title": "[VIDEO] Marchant le ofreció cerveza a Leandro Hernández y así reaccionó",
@@ -502,7 +512,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 17.8
+      "newestAgeHours": 18.0
     },
     {
       "id": "interferencia",
@@ -515,7 +525,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 7.8
+      "newestAgeHours": 8.0
     },
     {
       "id": "fastcheck",
@@ -528,7 +538,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.7
+      "newestAgeHours": 0.9
     },
     {
       "id": "radiouchile",
@@ -541,7 +551,7 @@
       "count": 10,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 0.1
+      "newestAgeHours": 0.4
     },
     {
       "id": "elmostrador",
@@ -554,7 +564,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.1
+      "newestAgeHours": 2.4
     },
     {
       "id": "eldesconcierto",
@@ -567,7 +577,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 24.2
+      "newestAgeHours": 28.0
     },
     {
       "id": "laderasur",
@@ -580,7 +590,7 @@
       "count": 9,
       "blocked": 0,
       "staleDropped": 9,
-      "newestAgeHours": 18.6
+      "newestAgeHours": 18.9
     },
     {
       "id": "resumen",
@@ -593,7 +603,7 @@
       "count": 5,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.9
+      "newestAgeHours": 4.1
     },
     {
       "id": "elciudadano",
@@ -606,20 +616,20 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.6
+      "newestAgeHours": 0.9
     },
     {
       "id": "malaespina",
       "name": "Mala Espina Check",
       "region": "chile",
+      "country": "Chile",
       "type": "Fact-Checking / Política",
       "independent": true,
-      "status": "error",
-      "error": "HTTP Error 415: Unsupported Media Type",
-      "count": 0,
+      "status": "ok",
+      "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": null
+      "newestAgeHours": 1.1
     },
     {
       "id": "vergara240",
@@ -632,7 +642,7 @@
       "count": 1,
       "blocked": 0,
       "staleDropped": 17,
-      "newestAgeHours": 21.0
+      "newestAgeHours": 21.2
     },
     {
       "id": "terram",
@@ -645,7 +655,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.0
+      "newestAgeHours": 3.2
     },
     {
       "id": "timeline",
@@ -658,7 +668,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.7
     },
     {
       "id": "diariouach",
@@ -671,7 +681,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.8
+      "newestAgeHours": 2.1
     },
     {
       "id": "cooperativa",
@@ -682,9 +692,9 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 1,
+      "blocked": 3,
       "staleDropped": 0,
-      "newestAgeHours": 0.3
+      "newestAgeHours": 0.2
     },
     {
       "id": "elfaro",
@@ -710,7 +720,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 54.8
+      "newestAgeHours": 55.0
     },
     {
       "id": "lasillavacia",
@@ -733,10 +743,10 @@
       "type": "Investigación y Amazonía",
       "independent": true,
       "status": "ok",
-      "count": 4,
+      "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.1
+      "newestAgeHours": 24.7
     },
     {
       "id": "cuestionpublica",
@@ -749,7 +759,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 22.5
+      "newestAgeHours": 22.7
     },
     {
       "id": "chequeado",
@@ -762,7 +772,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 261.0
+      "newestAgeHours": 261.2
     },
     {
       "id": "piedepagina",
@@ -775,7 +785,7 @@
       "count": 6,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 54.7
+      "newestAgeHours": 55.0
     },
     {
       "id": "cenital",
@@ -788,7 +798,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.3
+      "newestAgeHours": 3.5
     },
     {
       "id": "brecha",
@@ -801,20 +811,20 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 88.2
+      "newestAgeHours": 88.5
     },
     {
       "id": "jacobinlat",
       "name": "Jacobin América Latina",
       "region": "latam",
+      "country": "Latinoamérica",
       "type": "Análisis Latinoamericano",
       "independent": true,
-      "status": "error",
-      "error": "HTTP Error 415: Unsupported Media Type",
-      "count": 0,
+      "status": "ok",
+      "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": null
+      "newestAgeHours": 10.1
     },
     {
       "id": "ciclismo-chile",
@@ -827,7 +837,7 @@
       "count": 8,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 3.8
+      "newestAgeHours": 4.0
     },
     {
       "id": "ciclo21",
@@ -840,7 +850,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 5.5
+      "newestAgeHours": 5.7
     },
     {
       "id": "brujulabike",
@@ -853,7 +863,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.6
+      "newestAgeHours": 1.8
     },
     {
       "id": "esciclismo",
@@ -866,7 +876,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.7
     },
     {
       "id": "propublica",
@@ -879,7 +889,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.8
+      "newestAgeHours": 7.0
     },
     {
       "id": "bellingcat",
@@ -892,7 +902,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 127.0
+      "newestAgeHours": 127.2
     },
     {
       "id": "theintercept",
@@ -905,7 +915,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 21.5
+      "newestAgeHours": 21.8
     },
     {
       "id": "eldiarioes",
@@ -918,7 +928,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.6
+      "newestAgeHours": 0.9
     },
     {
       "id": "elsalto",
@@ -931,7 +941,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 154.9
+      "newestAgeHours": 155.2
     },
     {
       "id": "sinpermiso",
@@ -957,7 +967,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.3
     },
     {
       "id": "dw",
@@ -970,7 +980,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.2
     },
     {
       "id": "globalvoices",
@@ -983,10 +993,70 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 9.8
+      "newestAgeHours": 10.0
     }
   ],
   "articles": [
+    {
+      "id": "lasillavacia-2a215bb812",
+      "title": "El de “Fico” para Medellín: Manuel Villa entra a la batalla de la derecha por la Alcaldía",
+      "summary": "El exsecretario renunció antes de inhabilitarse. Tuvo pantalla y pauta en redes de la Alcaldía. Entra a la plaza de contienda del uribismo y el abelardismo. The post El de “Fico” para Medellín: Manuel Villa entra a la batalla de la derecha por la Alcaldía appeared first on La Silla Vacía .",
+      "content": "<p>En su último mes como secretario de Seguridad de Medellín, Manuel Villa fue alcalde encargado durante una semana, hizo el saque inicial del clásico paisa ante un estadio lleno y apareció en 69 publicaciones del Instagram de la Alcaldía: una de cada cuatro de octubre. Renunció el 27 de octubre, cuatro días antes del límite legal: salió a tiempo para no inhabilitarse para lanzarse a la Alcaldía en 2027, con un gran trampolín.</p><p>La Alcaldía gastó $37 millones en anuncios de temas sociales, electorales o políticos, según la biblioteca de anuncios de Meta. Los de mayor gasto promocionaban anuncios que hizo con Villa. A esa vitrina se sumó la plata propia de Villa. Entre el 2 y el 31 de octubre, su página personal gastó $43 millones en 189 anuncios, un gesto temprano de precampaña. En ese periodo, fue el segundo mayor gasto en pauta política de todo el país en ese informe y el mayor gasto en Antioquia.</p><p>Villa no ha anunciado su aspiración oficialmente. Pero con el guiño de “Fico” al exsecretario, sus apariciones en redes o su encargo como alcalde, ya lo perfilan en el campo de batalla más álgido de la derecha en las elecciones regionales. El movimiento de “Fico”, Creemos, está en proceso de fusión con Defensores de La Patria, de De la Espriella, ya anunció que busca ganar espacio frente al Centro Democrático en las elecciones regionales.</p><p>La capital paisa será la joya de la corona en la batalla de la derecha, donde también se empiezan a dibujar los riesgos de dividir los votos de ese sector y dejar un espacio para candidaturas de centro o izquierda, como ocurrió con Daniel Quintero en 2019.</p><p>Villa nació en Medellín, es abogado de la Universidad Pontificia Bolivariana, especialista en Economía de los Andes y teniente de la reserva de la Policía. Fue secretario privado de Gutiérrez entre 2016 y 2019 y, en marzo de 2016, con 25 años, el alcalde encargado más joven en la historia de la ciudad. Luego dirigió Creemos y fundó la corporación Prooccidente.</p><p>En enero de 2024 volvió como secretario de Seguridad, una de las banderas del segundo gobierno de “Fico”, quien le atribuye “la tasa más baja de homicidios en los últimos 60 años”. En octubre, renunció y “Fico” le dio la despedida explicando que se iba a buscar “nuevos rumbos”. “Éxitos en todo, Manuel”, añadió.</p><p>Antes de irse, los medios oficiales de la ciudad le dieron un amplio despliegue. De las 278 publicaciones que hizo la Alcaldía de Medellín en octubre en su cuenta de Instagram, Villa aparece en 69. Es decir uno de cada cuatro videos, en una ciudad con 20 secretarías. En esos videos Villa aparece hablando sólo a cámara o en primer plano sin que la descripción lo nombre o lo etiquete.</p><p>Además, aparece en al menos unas 27 publicaciones sobre la emergencia por el desbordamiento de la quebrada La Iguaná, tras las lluvias del 9 de octubre: Villa aparece recorriendo los barrios afectados, entregando ayudas humanitarias y, el 21 de octubre, entregando kits escolares a niños de La Iguaná y en los posts de esa emergencia, la Alcaldía puso como coautoras, además de la cuenta de Villa, a la Secretaría de Seguridad o al Dagrd.</p><p>También aparece en dos publicaciones de los clásicos paisas, una del 15 de octubre, con la Secretaría de la Juventud y el Inder (El Instituto de Deportes de Medellín) como coautores, y el balance del clásico del 25, en el que sale con su esposa o en la entrega de carritos y uniformes a más de 100 vendedores de tinto del Parque Berrío, el 2 de octubre.</p><p>Carmen Herrera, secretaria de Comunicaciones de la Alcaldía, le dijo a La Silla que esa presencia se debe, ante todo, a que Villa era alcalde encargado. Aunque la mayoría de publicaciones no corresponden a la semana en la que fue alcalde encargado, del 5 al 12 de octubre.</p><p>“No existe una distribución de publicaciones basada en cifras de exposición ni en la participación equitativa de funcionarios, sino en la relevancia de la información”, dijo Herrera. Explicó que los temas se priorizan en un comité editorial.</p><p>En los videos que la Alcaldía pautó en Meta, Villa aparece en primer plano mientras se cuentan los avances en seguridad, la compra de equipos para la Policía o los operativos del último mes. Un solo anuncio de estos puede costar más de 1 millón de pesos: según los rangos que publica Meta. Como es la única red social que publica datos de publicidad política, el nivel de gasto público podría ser mayor en plataformas como Google o TikTok</p><p>La Silla Vacía también identificó una precampaña privada paralela de promoción de la candidatura o la imagen de Villa. Hay cinco cuentas de TikTok que publican contenido favorable a Villa: 67 videos sobre él, con más de 3,1 millones de reproducciones. No hay evidencia pública de quién las maneja ni de que estén coordinadas.</p><p>Dos nacieron para él en agosto, más de dos meses antes de su renuncia, y publicaron sobre Villa desde el primer día: fanmanuelvilla y CloseFManuelVilla, cuya foto de perfil es Villa abrazado con Fico. Esta última lo muestra con su esposa y sus hijas, juega con la idea de una “primera dama” y en un video escribe “Yo si lo quiero de alcalde”, con #campaña y #voto.</p><p>Las otras tres no fueron creadas para Villa, pero empezaron a hablar de él en los meses previos a su salida. Una es una cuenta personal, que publica recetas y planes; desde julio publica videos en los que etiqueta a Villa, le agradece por actividades de la Alcaldía o cuenta anuncios suyos, como el de una nueva comisaría de familia; suman más de 250 mil reproducciones.</p><p>Hincha Del Verde, una cuenta de un hincha de Atlético Nacional creada en julio de 2025, publicó su primer video sobre Villa el 6 de octubre, en la semana en que era alcalde encargado; desde entonces lleva siete, con más de 330 mil reproducciones, algunos con las etiquetas de Fico y de la Alcaldía y Colombiaenvivo, que se presenta como un “medio informativo creado con IA” y que empezaron a hablar de él en los meses previos a su salida.</p><p>Villa no contestó preguntas de La Silla Vacía.</p><p>En Creemos, el único precandidato declarado es el concejal Andrés Tobón, secretario de Seguridad en la primera alcaldía de “Fico” y el concejal más votado de Medellín en 2023 (43.064 votos). “En este momento al parecer solamente hay, pues oficialmente mi precandidatura”, dijo a La Silla Vacía.</p><p>Sobre Villa agrega: “A mí me encantaría que Manuel hiciera parte de esto, yo tengo la sensación de que sí lo quiere, pero pues que sea él el que lo anuncie oficialmente”. Creemos, dijo, que escogerá un candidato único el próximo año, y Gutiérrez, al menos en lo que explica Tobón, no se ha decantado por alguna candidatura: “El alcalde no participa en política”, dice.</p><p>En todo caso, “Fico” ya tiene un antecedente. En su primera alcaldía, Santiago Gómez Barrera, cercano a él desde sus inicios en política, fue su secretario de gobierno, considerado el segundo al mando de la administración, y, como Villa, alcalde encargado más de una vez.</p><p>Gómez también tuvo vitrina: aparecía en ruedas de prensa, solo o junto a Fico. Renunció en octubre de 2018 para aspirar a sucederlo y en 2019 hizo campaña como “el de Fico”, como decían sus vallas. Con Villa, ese patrón parece repetirse. Una fuente cercana al alcalde, que pidió reserva de su identidad, aseguró que Gutiérrez y Villa ya conversaron y que el exsecretario es, en efecto, el candidato de Fico.</p><p>El Centro Democrático aún no ha definido nada. Históricamente no ha sido fuerte para elegir alcalde en Medellín. Espera definir sus candidaturas en las convenciones y directorios del partido el otro año, pero incluso figuras como Andrés “El Gury” Rodríguez siguen quieto a la espera de lo que defina Uribe. Pero aún si no pone candidato propio, su apoyo será clave en un campo de contienda con otras figuras de derecha y centro.</p><p>Suena Sebastián López, exconcejal del Centro Democrático. Renunció en mayo y quedó “a disposición” del partido. Pero una fuente cercana a López asegura que él no va a buscar el aval del partido y que en cambio irá por firmas.</p><p>Y por fuera de la derecha suenan el exgobernador y exalcalde Aníbal Gaviria, el exrepresentante Daniel Carvalho o el concejal José Luis Marín “Aquinoticias”, a quienes una derecha dividida podría abrirles la puerta.</p><p>El 2019 resuena en la memoria. La derecha que llegó dividida y ganó Daniel Quintero: Gómez, el de “Fico”, sacó 95.163 votos y Alfredo Ramos, del Centro Democrático, 235.105. Juntos sumaron unos 27 mil más que Daniel Quintero, que ganó con 303.420, es decir, con solo el 38% de los votos.</p><p>Damián Pérez, concejal de Creemos, comparte ese temor. Sin Gutiérrez, que “jaló una votación histórica”, no ve a nadie que pueda “jalar tantos votos”. Para él, “la izquierda en Medellín ha venido creciendo” y sería “muy peligroso” que la centroderecha llegara dividida. Por eso ve “necesaria” una alianza del Centro Democrático, el Partido Conservador, Defensores de la Patria y Salvación Nacional, aunque Creemos aún no tiene postura oficial.</p><p>Pero, como dice Carlos Suárez, el estratega del presidente y de Defensores que ha llamado “dinosaurio” a Uribe, las elecciones del 2027 serán una extensión de la batalla cultural: “El 2027 será muy importante. Estamos a un año de las elecciones regionales y ahí tenemos que demostrar en las urnas que el país realmente puede cambiar”.</p><p>The post El de “Fico” para Medellín: Manuel Villa entra a la batalla de la derecha por la Alcaldía appeared first on La Silla Vacía.</p>",
+      "url": "https://www.lasillavacia.com/silla-nacional/el-de-fico-para-medellin-manuel-villa-entra-a-la-batalla-de-la-derecha-por-la-alcaldia/",
+      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Fico_Villa.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
+      "publishedAt": "2026-11-10T16:54:01+00:00",
+      "sourceId": "lasillavacia",
+      "sourceName": "La Silla Vacía",
+      "sourceType": "Poder y Política",
+      "sourceSite": "https://www.lasillavacia.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 87,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "dw-7b382a67d0",
+      "title": "Conversaciones entre Rusia y Ucrania en Abu Dabi: ¿se producirá un avance decisivo?",
+      "summary": "La delegación rusa que participa en las conversaciones con Ucrania cuenta con una representación de alto nivel. También viajan a Abu Dabi representantes de países europeos. ¿Qué significa?",
+      "content": "",
+      "url": "https://www.dw.com/es/conversaciones-entre-rusia-y-ucrania-en-abu-dabi-¿se-producirá-un-avance-decisivo/a-79910461?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-11-10T16:51:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "country": "Alemania / Global",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "france24-446e9ebbaf",
+      "title": "Trump habla con CEO de Nvidia en medio de investigación de posible espionaje de su amante",
+      "summary": "Tras hacerse conocida la relación extramatrimonial del presidente de Nvidia, Jensen Huang, con Alice Huang, una presunta espía china, el presidente de Estados Unidos aseguró que el FBI se está encargando de la investigación y que contactó al CEO, a quién le preguntó si sabía que estaba con una espía y que le creía. Según algunos...",
+      "content": "<p>Tras hacerse conocida la relación extramatrimonial del presidente de Nvidia, Jensen Huang, con Alice Huang, una presunta espía china, el presidente de Estados Unidos aseguró que el FBI se está encargando de la investigación y que contactó al CEO, a quién le preguntó si sabía que estaba con una espía y que le creía. Según algunos indicios, la ciudadana de Shanghai pudo haber filtrado información clasificada a servicios de inteligencia de Beijing.</p>",
+      "url": "https://www.france24.com/es/video/20261110-trump-habla-con-ceo-de-nvidia-en-medio-de-investigaci%C3%B3n-de-posible-espionaje-de-su-amante",
+      "image": "https://s.france24.com/media/display/f6b55b3e-dd20-11f1-a85b-695cb59fade5/w:1024/p:16x9/ES-20261110-073730-073923-CS.jpg",
+      "publishedAt": "2026-11-10T16:45:50+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "alta",
+      "relevanceScore": 81,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
     {
       "id": "lasillavacia-cb65257ab3",
       "title": "Los primeros 100 días de De la Espriella, según The Economist",
@@ -1008,6 +1078,46 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "france24-677dacd8c0",
+      "title": "China dispara sus exportaciones y supera el billón de dólares de superávit comercial",
+      "summary": "China registró en octubre un crecimiento interanual del 35,2% en sus exportaciones, impulsadas por la demanda global de productos tecnológicos y del sector transporte. Entre enero y octubre, el superávit comercial acumulado alcanzó los 1,04 billones de dólares, encaminándose a superar el récord del año pasado. Sin embargo, el...",
+      "content": "<p>China registró en octubre un crecimiento interanual del 35,2% en sus exportaciones, impulsadas por la demanda global de productos tecnológicos y del sector transporte. Entre enero y octubre, el superávit comercial acumulado alcanzó los 1,04 billones de dólares, encaminándose a superar el récord del año pasado. Sin embargo, el dinamismo exterior contrasta con las dificultades de su mercado inmobiliario y aumenta las tensiones con socios comerciales preocupados por la competencia de los productos chinos.</p>",
+      "url": "https://www.france24.com/es/programas/econom%C3%ADa/20261110-china-dispara-sus-exportaciones-y-supera-el-bill%C3%B3n-de-d%C3%B3lares-de-super%C3%A1vit-comercial",
+      "image": "https://s.france24.com/media/display/966d0d98-dd12-11f1-a610-5f54d898a954/w:1024/p:16x9/AP19063194641083.jpg",
+      "publishedAt": "2026-11-10T16:45:07+00:00",
+      "sourceId": "france24",
+      "sourceName": "France 24 Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.france24.com/es",
+      "region": "mundo",
+      "country": "Francia / Global",
+      "independent": false,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "dw-b09dfb4dec",
+      "title": "Establecen récord Guinness de vuelo humano impulsado por una catapulta",
+      "summary": "Dos atletas fueron impulsados a velocidades de hasta 180 km/h desde la chimenea más alta de Europa.",
+      "content": "",
+      "url": "https://www.dw.com/es/establecen-récord-guinness-de-vuelo-humano-impulsado-por-una-catapulta/a-79911550?maca=spa-rss-sp-all-1122-xml-mrss",
+      "image": null,
+      "publishedAt": "2026-11-10T16:41:00+00:00",
+      "sourceId": "dw",
+      "sourceName": "DW Español",
+      "sourceType": "Medio Público Internacional",
+      "sourceSite": "https://www.dw.com/es",
+      "region": "mundo",
+      "country": "Alemania / Global",
+      "independent": false,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 71,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "radiouchile-11e97f40ab",
       "title": "Danstar arriba esta semana a Punta Arenas para alistar su travesía a las Malvinas en medio de tensiones con Argentina",
       "summary": "La embarcación, con capacidad para mil 400 toneladas, transportará alimentos y materiales de construcción para reactivar la conexión marítima interrumpida desde 2011. La entrada Danstar arriba esta semana a Punta Arenas para alistar su travesía a las Malvinas en medio de tensiones con Argentina se publicó primero en Diario y Radio...",
@@ -1025,26 +1135,6 @@
       "category": "Geopolítica y Mundo",
       "relevanceTier": "alta",
       "relevanceScore": 88,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "lasillavacia-ce0dcb8836",
-      "title": "Colombia buscaría US$15.000 millones con el FMI, según Bloomberg",
-      "summary": "Sería un Acuerdo de Derecho de Giro que se desembolsa a plazos, que, a su vez, están supeditados a que el país cumpla con unas metas cada 3 o 6 meses. The post Colombia buscaría US$15.000 millones con el FMI, según Bloomberg appeared first on La Silla Vacía .",
-      "content": "<p>El gobierno está buscando un préstamo de alrededor de 15.000 millones de dólares con el Fondo Monetario Internacional (FMI), reveló hoy la agencia especializada Bloomberg, que cita fuentes familiarizadas con la situación.</p><p>Según Bloomberg, el crédito sería un Acuerdo de Derecho de Giro (Stand-By). Este tipo de acuerdo fija un monto total, en este caso unos 15.000 millones de dólares, que se desembolsa por tramos. Cada tramo se libera a medida que el país cumple unas metas que el FMI revisa cada trimestre o cada semestre. El gobierno no está obligado a retirar cada tramo: si después de una revisión considera que no necesita los recursos, puede dejarlos sin usar.</p><p>Cada desembolso se paga en un plazo de entre tres años y tres meses y cinco años. El gobierno no ha confirmado una cifra exacta de solicitud y dice que las conversaciones con el Fondo siguen abiertas.</p><p>Lo que sí se sabe es que el objetivo del préstamo sería estabilizar las finanzas públicas. Estas atraviesan una crisis por una deuda alta y un déficit fiscal histórico, es decir, la enorme diferencia que hay entre ingresos y gastos de la Nación.</p><p>El monto que se menciona está cerca del máximo al que Colombia podría acceder. El tope acumulado es el 600% de la cuota del país en el Fondo, lo que equivale a unos 16.680 millones de dólares.</p><p>El gobierno ya estaría encaminado a cumplir las condiciones que pediría el Fondo. Este tipo de préstamo exige compromisos de política fiscal, que suelen traducirse en recortes de gasto o en más impuestos. Buena parte de esas posibles condiciones ya estarían incluidas en la tributaria y ley de ajuste fiscal que el gobierno radicó y que fue destacada por el FMI en días pasados.</p><p>“La ley de rescate es una acción previa necesaria para el crédito del FMI”, le dijo un inversionista enterado de la situación a La Silla.</p><p>La aprobación de la tributaria no está garantizada. El gobierno apenas el sábado comenzó los diálogos y ya hay quejas por el aumento de impuestos de las bancadas clave para la aprobación como el uribismo y el liberalismo.</p><p>Sobre cómo cae la tributaria en el Congreso lea esta nota y escuche el episodio de hoy de Huevos Revueltos con Política:</p><p>The post Colombia buscaría US$15.000 millones con el FMI, según Bloomberg appeared first on La Silla Vacía.</p>",
-      "url": "https://www.lasillavacia.com/en-vivo/colombia-buscaria-us15-000-millones-con-el-fmi-segun-bloomberg/",
-      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/09/FMI-Colombia-MinHacienda.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
-      "publishedAt": "2026-11-10T16:33:17+00:00",
-      "sourceId": "lasillavacia",
-      "sourceName": "La Silla Vacía",
-      "sourceType": "Poder y Política",
-      "sourceSite": "https://www.lasillavacia.com",
-      "region": "latam",
-      "country": "Colombia",
-      "independent": true,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "alta",
-      "relevanceScore": 87,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1228,30 +1318,10 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "dw-7b382a67d0",
-      "title": "Conversaciones entre Rusia y Ucrania en Abu Dabi: ¿se producirá un avance decisivo?",
-      "summary": "La delegación rusa que participa en las conversaciones con Ucrania cuenta con una representación de alto nivel. También viajan a Abu Dabi representantes de países europeos. ¿Qué significa?",
-      "content": "",
-      "url": "https://www.dw.com/es/conversaciones-entre-rusia-y-ucrania-en-abu-dabi-¿se-producirá-un-avance-decisivo/a-79910461?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-11-10T16:11:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "country": "Alemania / Global",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 71,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "eldiarioes-1f98c71ef5",
       "title": "Koldo García reta a Okdiario a que difunda el contrato del millón de euros que supuestamente firmaron con él",
       "summary": "El exasesor ministerial difunde un nuevo audio desde la cárcel en el que conmina a Eduardo Inda a que aclare quién firmó el contrato que ese digital blande para justificar el pago de 242.000 euros al despacho de su abogada Koldo García afirma que el abogado del PP le ofreció un millón por mentir contra el Gobierno de Sánchez Koldo...",
-      "content": "<p>El exasesor ministerial difunde un nuevo audio desde la cárcel en el que conmina a Eduardo Inda a que aclare quién firmó el contrato que ese digital blande para justificar el pago de 242.000 euros al despacho de su abogada</p><p>Koldo García afirma que el abogado del PP le ofreció un millón por mentir contra el Gobierno de Sánchez</p><p>Koldo García ha vuelto a la carga este martes desde la cárcel. En un nuevo audio de quien fuera asesor ministerial de José Luis Ábalos ha arremetido esta vez contra el director de la web Okdiario, Eduardo Inda, al que le conmina a que enseñe no solo extractos sino el contrato “íntegro” que esa cabecera sostiene que él mismo habría firmado con el digital a cambio de colaborar con podcasts, docuseries y más contenidos.</p><p>“Quiero decirle a Inda (...), le pido que enseñe el contrato completo, íntegro, incluidos los anexos. También que me enseñe quién firma el contrato porque no lo veo bien cuando lo enseña por los platós. De esa manera veremos si yo o alguien autorizado por mi persona lo ha firmado. Y de paso vemos los anexos”, señala en ese nuevo audio al que ha tenido acceso elDiario.es.</p><p>El pasado 29 de octubre salió a la luz que quien pagó la defensa de Koldo García fue la editora de Okdiario, Dos Mil Palabras SL, a razón de 242.000 euros en dos facturas. Un día después, el digital de Inda publicó que en realidad ese pago fue en el marco de un contrato de colaboración mercantil redactado en Madrid el 26 de noviembre de 2025 entre su editora y Koldo García.</p><p>Explicaba que el objetivo era dejar por escrito que el exasesor ministerial la cesión de derechos para la elaboración de contenidos periodísticos y audiovisuales. Por tanto, para el digital, ese pago no guardaba relación alguna con su defensa ante los tribunales. Y eso que el concepto de las dos facturas era claro: “Honorarios, aranceles y gastos por asesoramiento jurídico y procedimientos del señor D. Koldo García”.</p><p>Esta nueva grabación llega después de dos entregas previas. Una fue adelantada por la Cadena Ser en la que sostenía que el abogado del PP Alberto Durán le ofreció en una reunión el pago de hasta un millón de euros, evitar la cárcel y sacar a su hermano Joseba García y a su pareja Patricia Uriz del procedimiento judicial a cambio de declaraciones que afectaran al presidente y especialmente a Begoña Gómez.</p><p>En la segunda grabación, Koldo García confirmaba que mantuvo esa reunión con Durán y que en la misma se le hicieron ofrecimientos de parte del PP. En concreto, explicaba, se le habría ofrecido el pago de su defensa que en aquel momento no era dirigida por Leticia de la Hoz sino por el letrado Ismael Oliver -investigado en el caso Leire Díez-. Y apuntaba que ese pago de su defensa “se llevó a cabo gracias a la entrevista” que concedió a Eduardo Inda para la web Okdiario. Se habría materializado por medio de dos facturas y habría sido cobrado por el despacho de De la Hoz.</p><p>Koldo García añadí que, con posterioridad a ese primer pago (que según las facturas fue de 242.000 euros), se le ofreció “otra cantidad de dinero por meterse con el presidente, con la mujer del presidente, con Zapatero o con miembros del Gobierno”. Y recalcaba que a eso ya no accedió.</p><p>“Está claro que no accedí a todo ello y a esas barbaridades que me pedían y al día siguiente me metieron en la cárcel”, indica en esta nueva declaración en la que subraya que está en disposición demostrarlo porque “las cosas no hay que hablarlas, hay que demostrarlas”: Yo daré el remate final“.</p><p>En el audio, Koldo García acusaba al PP de actuar como una “mafia”: “Así funciona el Partido Popular. Las cloacas y la mafia del Partido Popular nunca se han ido de las instituciones, siempre se han quedado ahí y eso sí que lo puedo demostrar. Más aún, lo están demostrando casi ellos solitos. Pero bueno, yo daré el remate final”.</p>",
+      "content": "<p>El exasesor ministerial difunde un nuevo audio desde la cárcel en el que conmina a Eduardo Inda a que aclare quién firmó el contrato que ese digital blande para justificar el pago de 242.000 euros al despacho de su abogada</p><p>Koldo García afirma que el abogado del PP le ofreció un millón por mentir contra el Gobierno de Sánchez</p><p>Koldo García ha vuelto a la carga este martes desde la cárcel. En un nuevo audio de quien fuera asesor ministerial de José Luis Ábalos ha arremetido esta vez contra el director de la web Okdiario, Eduardo Inda, al que le conmina a que enseñe no solo extractos sino el contrato “íntegro” que esa cabecera sostiene que él mismo habría firmado con el digital a cambio de colaborar con podcasts, docuseries y más contenidos.</p><p>“Quiero decirle a Inda (...), le pido que enseñe el contrato completo, íntegro, incluidos los anexos. También que me enseñe quién firma el contrato porque no lo veo bien cuando lo enseña por los platós. De esa manera veremos si yo o alguien autorizado por mi persona lo ha firmado. Y de paso vemos los anexos”, señala en ese nuevo audio adelantado por &#x27;Mañaneros 360&#x27; y al que ha tenido acceso elDiario.es.</p><p>El pasado 29 de octubre salió a la luz que quien pagó la defensa de Koldo García fue la editora de Okdiario, Dos Mil Palabras SL, a razón de 242.000 euros en dos facturas. Un día después, el digital de Inda publicó que en realidad ese pago fue en el marco de un contrato de colaboración mercantil redactado en Madrid el 26 de noviembre de 2025 entre su editora y Koldo García.</p><p>Explicaba que el objetivo era dejar por escrito que el exasesor ministerial la cesión de derechos para la elaboración de contenidos periodísticos y audiovisuales. Por tanto, para el digital, ese pago no guardaba relación alguna con su defensa ante los tribunales. Y eso que el concepto de las dos facturas era claro: “Honorarios, aranceles y gastos por asesoramiento jurídico y procedimientos del señor D. Koldo García”.</p><p>Esta nueva grabación llega después de dos entregas previas. Una fue adelantada por la Cadena Ser en la que sostenía que el abogado del PP Alberto Durán le ofreció en una reunión el pago de hasta un millón de euros, evitar la cárcel y sacar a su hermano Joseba García y a su pareja Patricia Uriz del procedimiento judicial a cambio de declaraciones que afectaran al presidente y especialmente a Begoña Gómez.</p><p>En la segunda grabación, Koldo García confirmaba que mantuvo esa reunión con Durán y que en la misma se le hicieron ofrecimientos de parte del PP. En concreto, explicaba, se le habría ofrecido el pago de su defensa que en aquel momento no era dirigida por Leticia de la Hoz sino por el letrado Ismael Oliver -investigado en el caso Leire Díez-. Y apuntaba que ese pago de su defensa “se llevó a cabo gracias a la entrevista” que concedió a Eduardo Inda para la web Okdiario. Se habría materializado por medio de dos facturas y habría sido cobrado por el despacho de De la Hoz.</p><p>Koldo García añadí que, con posterioridad a ese primer pago (que según las facturas fue de 242.000 euros), se le ofreció “otra cantidad de dinero por meterse con el presidente, con la mujer del presidente, con Zapatero o con miembros del Gobierno”. Y recalcaba que a eso ya no accedió.</p><p>“Está claro que no accedí a todo ello y a esas barbaridades que me pedían y al día siguiente me metieron en la cárcel”, indica en esta nueva declaración en la que subraya que está en disposición demostrarlo porque “las cosas no hay que hablarlas, hay que demostrarlas”: Yo daré el remate final“.</p><p>En el audio, Koldo García acusaba al PP de actuar como una “mafia”: “Así funciona el Partido Popular. Las cloacas y la mafia del Partido Popular nunca se han ido de las instituciones, siempre se han quedado ahí y eso sí que lo puedo demostrar. Más aún, lo están demostrando casi ellos solitos. Pero bueno, yo daré el remate final”.</p>",
       "url": "https://www.eldiario.es/politica/koldo-garcia-reta-okdiario-difunda-contrato-millon-euros-supuestamente-firmaron_1_13652898.html",
       "image": "https://static.eldiario.es/clip/ca7f8759-4609-4487-b6c8-e99b6e50f5cd_16-9-discover-aspect-ratio_default_0_x931y276.jpg",
       "publishedAt": "2026-11-10T16:07:56+00:00",
@@ -1368,6 +1438,46 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
+      "id": "lasillavacia-ce0dcb8836",
+      "title": "Colombia buscaría US$15.000 millones con el FMI, reporta Bloomberg",
+      "summary": "Sería un Acuerdo de Derecho de Giro que se desembolsa a plazos, que, a su vez, están supeditados a que el país cumpla con unas metas cada 3 o 6 meses. The post Colombia buscaría US$15.000 millones con el FMI, reporta Bloomberg appeared first on La Silla Vacía .",
+      "content": "<p>El gobierno está buscando un préstamo de alrededor de 15.000 millones de dólares con el Fondo Monetario Internacional (FMI), reveló hoy la agencia especializada Bloomberg, que cita fuentes familiarizadas con la situación.</p><p>Según Bloomberg, el crédito sería un Acuerdo de Derecho de Giro (Stand-By). Este tipo de acuerdo fija un monto total, en este caso unos 15.000 millones de dólares, que se desembolsa por tramos. Cada tramo se libera a medida que el país cumple unas metas que el FMI revisa cada trimestre o cada semestre. El gobierno no está obligado a retirar cada tramo: si después de una revisión considera que no necesita los recursos, puede dejarlos sin usar.</p><p>Cada desembolso se paga en un plazo de entre tres años y tres meses y cinco años. El gobierno no ha confirmado una cifra exacta de solicitud y dice que las conversaciones con el Fondo siguen abiertas.</p><p>Lo que sí se sabe es que el objetivo del préstamo sería estabilizar las finanzas públicas. Estas atraviesan una crisis por una deuda alta y un déficit fiscal histórico, es decir, la enorme diferencia que hay entre ingresos y gastos de la Nación.</p><p>El monto que se menciona está cerca del máximo al que Colombia podría acceder. El tope acumulado es el 600% de la cuota del país en el Fondo, lo que equivale a unos 16.680 millones de dólares.</p><p>El gobierno ya estaría encaminado a cumplir las condiciones que pediría el Fondo. Este tipo de préstamo exige compromisos de política fiscal, que suelen traducirse en recortes de gasto o en más impuestos. Buena parte de esas posibles condiciones ya estarían incluidas en la tributaria y ley de ajuste fiscal que el gobierno radicó y que fue destacada por el FMI en días pasados.</p><p>“La ley de rescate es una acción previa necesaria para el crédito del FMI”, le dijo un inversionista enterado de la situación a La Silla.</p><p>La aprobación de la tributaria no está garantizada. El gobierno apenas el sábado comenzó los diálogos y ya hay quejas por el aumento de impuestos de las bancadas clave para la aprobación como el uribismo y el liberalismo.</p><p>Sobre cómo cae la tributaria en el Congreso lea esta nota y escuche el episodio de hoy de Huevos Revueltos con Política:</p><p>The post Colombia buscaría US$15.000 millones con el FMI, reporta Bloomberg appeared first on La Silla Vacía.</p>",
+      "url": "https://www.lasillavacia.com/en-vivo/colombia-buscaria-us15-000-millones-con-el-fmi-segun-bloomberg/",
+      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/09/FMI-Colombia-MinHacienda.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
+      "publishedAt": "2026-11-10T15:59:17+00:00",
+      "sourceId": "lasillavacia",
+      "sourceName": "La Silla Vacía",
+      "sourceType": "Poder y Política",
+      "sourceSite": "https://www.lasillavacia.com",
+      "region": "latam",
+      "country": "Colombia",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 87,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "malaespina-b27e661264",
+      "title": "Reforma a la ley de plásticos de un solo uso: qué productos permite y por qué su reglamento se posterga hasta 2028",
+      "summary": "Síntesis Contexto: La Ley 21.847 modifica la normativa sobre plásticos de un solo uso y posterga hasta el 7 de enero de 2028 la entrada en vigor de su reglamento. ¿Qué cambia con la reforma? Permite entregar productos de madera, papel o cartón sin certificación de biodegradabilidad y establece mecanismos alternativos para acreditar...",
+      "content": "<p>Contexto: La Ley 21.847 modifica la normativa sobre plásticos de un solo uso y posterga hasta el 7 de enero de 2028 la entrada en vigor de su reglamento.</p><p>¿Qué cambia con la reforma? Permite entregar productos de madera, papel o cartón sin certificación de biodegradabilidad y establece mecanismos alternativos para acreditar requisitos técnicos. Sin embargo, las prohibiciones sobre plásticos de un solo uso continúan vigentes.</p><p>La entrada Reforma a la ley de plásticos de un solo uso: qué productos permite y por qué su reglamento se posterga hasta 2028 se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/pais/2026/11/10/reforma-a-la-ley-de-plasticos-de-un-solo-uso-que-productos-permite-y-por-que-su-reglamento-se-posterga-hasta-2028/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Copia-de-Portadas-chequeos-6.webp",
+      "publishedAt": "2026-11-10T15:57:03+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "cooperativa-4939225781",
       "title": "Con presencia del Presidente Kast, comenzó la marcha blanca del Teleférico Bicentenario",
       "summary": "Nota publicada por Radio Cooperativa (Radio Informativa Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -1411,7 +1521,7 @@
       "id": "cooperativa-e2c2665fd5",
       "title": "Kast llamó a camioneros a \"pensar en Chile\" frente al paro por el alza de las bencinas",
       "summary": "En el marco de la inauguración de la marcha blanca del teleférico que unirá a las comunas de Huechuraba y Providencia, el Presidente José Antonio Kast se refirió brevemente a la movilización que mantienen los gremios de transportistas en varias regiones del país por el alza de los precios de los combustibles. En su discurso, el...",
-      "content": "<p>En el marco de la inauguración de la marcha blanca del teleférico que unirá a las comunas de Huechuraba y Providencia, el Presidente José Antonio Kast se refirió brevemente a la movilización que mantienen los gremios de transportistas en varias regiones del país por el alza de los precios de los combustibles.</p><p>En su discurso, el Mandatario reconoció la complejidad económica del panorama actual, marcada por la dependencia de la importación de petróleo y diésel que mantiene Chile, y aseguró que este 2026 &quot;ha sido difícil, no ha sido un año fácil&quot;.</p><p>&quot;Hoy día hay una situación de tensión con los transportistas. Y el llamado es a que pensemos en Chile, en que pensemos todos cómo vamos mejorando la situación: en los que generan la carga, aquellos que tienen que pagar el flete, en aquellos que hacen el transporte&quot;, aseveró.</p><p>El jefe de Estado hizo hincapié en que su Gobierno también ha ido &quot;avanzando en temas de seguridad, porque suben los costos de la bencina, del petróleo, pero también nosotros hemos ido apretando la mano en temas de seguridad. Hoy día hay menos robos de camiones, hoy día hay menos asaltos, y eso también hay que considerarlo&quot;.</p><p>Por su parte, el biministro de Transportes y Obras Públicas, Louis De Grange, afirmó que el Gobierno mantiene un diálogo permanente con los gremios de camioneros.</p><p>La autoridad también abordó el origen del conflicto, atribuyendo el aumento en el precio de las bencinas a la situación que se registra a nivel internacional.</p>",
+      "content": "<p>En el marco de la inauguración de la marcha blanca del teleférico que unirá a las comunas de Huechuraba y Providencia, el Presidente José Antonio Kast se refirió brevemente a la movilización que mantienen los gremios de transportistas en varias regiones del país por el alza de los precios de los combustibles.</p><p>En su discurso, el Mandatario reconoció la complejidad económica del panorama actual, marcada por la dependencia de la importación de petróleo y diésel que mantiene Chile, y aseguró que este 2026 &quot;ha sido difícil, no ha sido un año fácil&quot;.</p><p>&quot;Hoy día hay una situación de tensión con los transportistas. Y el llamado es a que pensemos en Chile, en que pensemos todos cómo vamos mejorando la situación: en los que generan la carga, aquellos que tienen que pagar el flete, en aquellos que hacen el transporte&quot;, aseveró.</p><p>El jefe de Estado hizo hincapié en que su Gobierno también ha ido &quot;avanzando en temas de seguridad, porque suben los costos de la bencina, del petróleo, pero también nosotros hemos ido apretando la mano en temas de seguridad. Hoy día hay menos robos de camiones, hoy día hay menos asaltos, y eso también hay que considerarlo&quot;.</p><p>Por su parte, el biministro de Transportes y Obras Públicas, Louis De Grange, afirmó que el Gobierno mantiene un diálogo permanente con los gremios de camioneros.</p><p>La autoridad también abordó el origen del conflicto, atribuyendo el aumento en el precio de las bencinas a la situación que se registra a nivel internacional.</p><p>El biministro de Economía y Minería, Daniel Mas, llamó a &quot;insistir en el diálogo, queremos invitar a todos los que no se han sentido escuchados a juntarnos, busquemos puntos de encuentro, el país necesita activarse a la brevedad, lo que menos necesitamos es paralizarnos y vamos a poner como gobierno todo lo que esté de nuestra para poder hacerlo&quot;.</p><p>&quot;Los combustibles están realmente a un precio carísimo, eso tiene un efecto tremendo, no solo sobre los transportistas, sino que sobre la vida de todos los chilenos. El gobierno ha tomado y va a seguir tomando todas las medidas necesarias para aliviarle el bolsillo a todos los chilenos&quot;, aseveró.</p><p>&quot;Hacemos un llamado al diálogo, las diferencias hay que resolverlas en conjunto, el objetivo es el mismo para todos&quot;, añadió.</p>",
       "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/kast-llamo-a-camioneros-a-pensar-en-chile-frente-al-paro-por-el-alza/2026-11-10/124428.html",
       "image": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110124428.jpg",
       "publishedAt": "2026-11-10T15:44:28+00:00",
@@ -1468,26 +1578,6 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "ojopublico-8c71b9132d",
-      "title": "- Ojo-Público",
-      "summary": "Nota publicada por Ojo Público (Investigación y Amazonía). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM1VUeVRYOTBaTTJYX2xJQU1ENFBKRXAzNlZudXpLQmM5cTctLXl1OHlIOURieGRsWFg3aW5McFc0MGMzczRUQjQwMVBPYnBfdHA2aUM4RGsyZWlzalBWV2xXRjRuRjY0anlXUEZEYXBPek5nUWNuNEQ1TDJnMDlOSG5xR0xXc0xMVjdrODJ3?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-10T15:39:59+00:00",
-      "sourceId": "ojopublico",
-      "sourceName": "Ojo Público",
-      "sourceType": "Investigación y Amazonía",
-      "sourceSite": "https://ojo-publico.com",
-      "region": "latam",
-      "country": "Perú",
-      "independent": true,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 91,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "fastcheck-edc205950b",
       "title": "Esta portada de Vogue con los principales representantes de Partido Demócrata en Estados Unidos no existe: está generada con IA",
       "summary": "Luego de las elecciones de medio mandato en Estados Unidos, circula en redes sociales la imagen de una portada de Vogue protagonizada por figuras demócratas tales como Abdul El-Sayed, Barack Obama, Zohran Mamdani y Jon Ossoff. Fast Check califica el contenido como #Falso, pues luego de realizar búsquedas inversas, avanzadas y...",
@@ -1506,46 +1596,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "cooperativa-af0264756d",
-      "title": "Líder de Rammstein confirmó show en Chile y será solo para mayores de edad",
-      "summary": "El cantante alemán Till Lindemann , líder de la banda Rammstein , anunció su regreso a Chile en plan solista con un espectáculo que será exclusivo para mayores de edad . Su show se realizará el próximo 20 de abril de 2027 en el Teatro Caupolicán , en Santiago, como parte de su gira mundial en solitario. \" Este espectáculo está...",
-      "content": "<p>El cantante alemán Till Lindemann, líder de la banda Rammstein, anunció su regreso a Chile en plan solista con un espectáculo que será exclusivo para mayores de edad.</p><p>Su show se realizará el próximo 20 de abril de 2027 en el Teatro Caupolicán, en Santiago, como parte de su gira mundial en solitario.</p><p>&quot;Este espectáculo está restringido a mayores de 18 años. Se exigirá un documento de identidad válido con fotografía para acceder al recinto&quot;, precisó la productora DG Medios.</p><p>Desde DG Medios confirmaron que las entradas podrán adquirirse mediante el sistema Puntoticket, iniciando la venta general este viernes 13 de noviembre, a las 10:00 horas.</p><p>Los precios de los tickets van desde los 66.529 a los 117.500 pesos, incluyendo cargo por servicio.</p><p>Una publicación compartida por DG Medios (@dgmedios)</p>",
-      "url": "https://www.cooperativa.cl/noticias/magazine/musica/shows-en-vivo/lider-de-rammstein-confirmo-show-en-chile-y-sera-solo-para-mayores-de/2026-11-10/122323.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110122323.jpg",
-      "publishedAt": "2026-11-10T15:23:23+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Investigación y Poder",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 81,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "france24-9688dbdd8b",
-      "title": "Trump y la migración tras el voto de castigo: ¿mano dura o distensión?",
-      "summary": "Tras las elecciones de mitad de mandato, el Gobierno de Donald Trump parece dar señales de acercamiento a los demócratas y de reconocer errores en su política migratoria. Sin embargo, el nombramiento de Stephen Miller, considerado el arquitecto de las medidas migratorias más restrictivas de su Administración, como nuevo Jefe de...",
-      "content": "<p>Tras las elecciones de mitad de mandato, el Gobierno de Donald Trump parece dar señales de acercamiento a los demócratas y de reconocer errores en su política migratoria. Sin embargo, el nombramiento de Stephen Miller, considerado el arquitecto de las medidas migratorias más restrictivas de su Administración, como nuevo Jefe de Gabinete plantea interrogantes sobre el rumbo que tomará la Casa Blanca. ¿Estamos ante un giro hacia la distensión o, por el contrario, ante un endurecimiento de la política migratoria? Lo analizamos con Jerónimo Cortina, profesor de la Universidad de Houston, y revisamos los datos sobre la participación y las motivaciones del voto latino en las elecciones de mitad de mandato.</p>",
-      "url": "https://www.france24.com/es/programas/migrantes/20261110-trump-y-la-migraci%C3%B3n-tras-el-voto-de-castigo-mano-dura-o-distensi%C3%B3n",
-      "image": "https://s.france24.com/media/display/45ec0ac8-dd16-11f1-acc7-5f54d898a954/w:1024/p:16x9/WEB-PORTADA-10NOV-MIG.jpg",
-      "publishedAt": "2026-11-10T15:16:54+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "radiouchile-cf5067f17a",
@@ -1646,46 +1696,6 @@
       "relevanceTier": "alta",
       "relevanceScore": 87,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "france24-e188ba3f24",
-      "title": "Colombia: ¿peligra la justicia del Acuerdo de Paz? Habla el presidente de la JEP",
-      "summary": "La Jurisdicción Especial para la Paz (JEP), el tribunal de justicia transicional nacido del Acuerdo de Paz de 2016, vive un momento decisivo. El nuevo Gobierno de Colombia propone recortar con fuerza su presupuesto y adelantar a 2028 el cierre de su mandato, lo que siembra dudas sobre si podrá cumplir sus objetivos. En France 24...",
-      "content": "<p>La Jurisdicción Especial para la Paz (JEP), el tribunal de justicia transicional nacido del Acuerdo de Paz de 2016, vive un momento decisivo. El nuevo Gobierno de Colombia propone recortar con fuerza su presupuesto y adelantar a 2028 el cierre de su mandato, lo que siembra dudas sobre si podrá cumplir sus objetivos. En France 24 hablamos con su recién posesionado presidente, el magistrado Danilo Rojas, sobre los retos de la jurisdicción, el futuro de los macrocasos y lo que está en juego para las víctimas.</p>",
-      "url": "https://www.france24.com/es/programas/la-entrevista/20261110-colombia-peligra-la-justicia-del-acuerdo-de-paz-habla-el-presidente-de-la-jep",
-      "image": "https://s.france24.com/media/display/359891a6-dd15-11f1-93d3-5f54d898a954/w:1024/p:16x9/WEB-PORTADA-10NOV-ENT.jpg",
-      "publishedAt": "2026-11-10T14:48:16+00:00",
-      "sourceId": "france24",
-      "sourceName": "France 24 Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.france24.com/es",
-      "region": "mundo",
-      "country": "Francia / Global",
-      "independent": false,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "dw-e60f369723",
-      "title": "Hegseth desafía su destitución: \"Esto es sabotaje\"",
-      "summary": "Pete Hegseth rechazó las acusaciones en su contra y defendió la guerra contra Irán después de que un congresista republicano impulsara un proceso para destituirlo.",
-      "content": "",
-      "url": "https://www.dw.com/es/hegseth-desafía-su-destitución-esto-es-sabotaje/a-79910709?maca=spa-rss-sp-all-1122-xml-mrss",
-      "image": null,
-      "publishedAt": "2026-11-10T14:47:00+00:00",
-      "sourceId": "dw",
-      "sourceName": "DW Español",
-      "sourceType": "Medio Público Internacional",
-      "sourceSite": "https://www.dw.com/es",
-      "region": "mundo",
-      "country": "Alemania / Global",
-      "independent": false,
-      "category": "Geopolítica y Mundo",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 76,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "fastcheck-979715aa5b",
@@ -1929,9 +1939,9 @@
     },
     {
       "id": "timeline-a88bf93f45",
-      "title": "Paro de camioneros reúne cerca de 40 máquinas en la ruta entre Calama y Antofagasta",
-      "summary": "Cerca de 40 camiones participaban durante la mañana de este martes en una movilización en la Ruta CH-25, que conecta Calama con Antofagasta, en el marco del paro de transportistas motivado por el aumento del precio de los combustibles. La convocatoria reúne a integrantes de la Confederación Fuerza del Norte, junto a dirigentes de...",
-      "content": "<p>Cerca de 40 camiones participaban durante la mañana de este martes en una movilización en la Ruta CH-25, que conecta Calama con Antofagasta, en el marco del paro de transportistas motivado por el aumento del precio de los combustibles.</p><p>La convocatoria reúne a integrantes de la Confederación Fuerza del Norte, junto a dirigentes de agrupaciones gremiales más pequeñas y transportistas independientes, quienes manifiestan su preocupación por el encarecimiento del diésel y el impacto que tiene en los costos de operación del transporte de carga.</p><p>En la Región de Antofagasta, la Delegación Presidencial Regional informó cerca de las 10:00 horas que la movilización se concentraba en el kilómetro 106 de la Ruta CH-25, a la altura del sector de Enaex.</p><p>Pese a la presencia de los camiones, el tránsito se mantenía habilitado para vehículos menores, buses de pasajeros y unidades de emergencia.</p><p>La entrada Paro de camioneros reúne cerca de 40 máquinas en la ruta entre Calama y Antofagasta se publicó primero en Timeline.cl.</p>",
+      "title": "Paro de camioneros reúne 78 máquinas en la ruta entre Calama y Antofagasta",
+      "summary": "Cerca de 80 camiones participaban durante la mañana de este martes en una movilización en la Ruta CH-25, que conecta Calama con Antofagasta, en el marco del paro de transportistas motivado por el aumento del precio de los combustibles. La convocatoria reúne a integrantes de la Confederación Fuerza del Norte, junto a dirigentes de...",
+      "content": "<p>Cerca de 80 camiones participaban durante la mañana de este martes en una movilización en la Ruta CH-25, que conecta Calama con Antofagasta, en el marco del paro de transportistas motivado por el aumento del precio de los combustibles.</p><p>La convocatoria reúne a integrantes de la Confederación Fuerza del Norte, junto a dirigentes de agrupaciones gremiales más pequeñas y transportistas independientes, quienes manifiestan su preocupación por el encarecimiento del diésel y el impacto que tiene en los costos de operación del transporte de carga.</p><p>En la Región de Antofagasta, la Delegación Presidencial Regional informó cerca de las 10:00 horas que la movilización se concentraba en el kilómetro 106 de la Ruta CH-25, a la altura del sector de Enaex.</p><p>Pese a la presencia de las 78 máquinas, el tránsito se mantenía habilitado para vehículos menores, buses de pasajeros y unidades de emergencia.</p><p>La entrada Paro de camioneros reúne 78 máquinas en la ruta entre Calama y Antofagasta se publicó primero en Timeline.cl.</p>",
       "url": "https://www.timeline.cl/paro-de-camioneros-reune-cerca-de-40-maquinas-en-la-ruta-entre-calama-y-antofagasta/",
       "image": "https://www.timeline.cl/wp-content/uploads/2026/11/10-camiones.jpg",
       "publishedAt": "2026-11-10T13:57:56+00:00",
@@ -1988,23 +1998,23 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "lasillavacia-626bda280f",
-      "title": "Inflación llegó a 6,30% en octubre y continúa la tendencia al alza",
-      "summary": "En lo corrido del año, el costo de vida acumula un aumento del 5,94 %. Ahora vienen dos discusiones clave: el salario mínimo y las tasas de interés. The post Inflación llegó a 6,30% en octubre y continúa la tendencia al alza appeared first on La Silla Vacía .",
-      "content": "<p>El Departamento Administrativo Nacional de Estadística (Dane) informó el 9 de noviembre que la inflación anual llegó al 6,30 % en octubre de 2026, similar al 6,29 % de septiembre. Sin embargo, sigue por encima del 5,51 % registrado en octubre del año pasado.</p><p>En lo corrido del año los precios han subido 5,94 %.</p><p>Recreación y alojamiento fueron los que más subieron en octubre. Recreación y cultura aumentó 0,44% y alojamiento y servicios públicos, 0,30%</p><p>El dato quedó por debajo de lo que esperaba el mercado. La encuesta de Citi a analistas proyectaba una inflación del 6,38 %. Skandia y Positiva esperaban un 6,30 %, mientras que Itaú, Anif y Corficolombiana calculaban cifras entre el 6,33 % y el 6,35 %.</p><p>Lo que viene ahora son dos discusiones clave: el mínimo y las tasas de interés. Por el lado de las tasas, el Banco de la República tendrá una nueva reunión para decidir si vuelve a subirlas. En su última decisión, el Banco, con apoyo del ministerio de Hacienda, las aumentó en 0,25 puntos porcentuales. La idea es frenar la inflación, pero esta medida también encarece los créditos y puede desestimular la inversión y el consumo.</p><p>El otro frente es el salario mínimo. La inflación es uno de los datos que sirve de base para negociar el aumento de 2027, que no debería quedar por debajo del costo de vida. La cifra de octubre es la penúltima que tendrán sobre la mesa el gobierno, los empresarios y las centrales obreras antes de reunirse el próximo 18 de noviembre.</p><p>Acá puede consultar el boletín técnico:</p><p>The post Inflación llegó a 6,30% en octubre y continúa la tendencia al alza appeared first on La Silla Vacía.</p>",
-      "url": "https://www.lasillavacia.com/en-vivo/inflacion-llego-a-630-en-octubre-y-continua-la-tendencia-al-alza/",
-      "image": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/11/Juan-Manuel-Alvarado-Dane.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
-      "publishedAt": "2026-11-10T13:33:16+00:00",
-      "sourceId": "lasillavacia",
-      "sourceName": "La Silla Vacía",
-      "sourceType": "Poder y Política",
-      "sourceSite": "https://www.lasillavacia.com",
-      "region": "latam",
-      "country": "Colombia",
+      "id": "terram-b9a0dca466",
+      "title": "[El Observador] Hijuelas alerta que derrame de relaves pudo afectar 50 millones de litros de agua",
+      "summary": "La alcaldesa Verónica Rossat advirtió sobre la magnitud que podría alcanzar el impacto ambiental del derrame de Codelco en el río Blanco. Además, cuestionó que los análisis dependan de la propia minera y exigió una investigación independiente para determinar las consecuencias del incidente. Fuente: El Observador, 9 de noviembre de 2026.",
+      "content": "<p>Hasta 50 millones de litros de agua podrían haberse visto afectados por el derrame de relaves de Codelco División Andina, según la estimación entregada por la alcaldesa de Hijuelas, Verónica Rossat. La autoridad calificó el incidente como una catástrofe sanitaria y ambiental, advirtiendo que sus consecuencias podrían ser mucho mayores que la cantidad de residuos vertidos al río Blanco, afluente del Aconcagua.</p><p>La emergencia se registró el jueves 5 de noviembre, en el sector cordillerano de Río Blanco, comuna de Los Andes, donde una obstrucción en el sistema de transporte de relaves de la minera estatal provocó que entre 1.000 y 5.000 litros de material alcanzaran el cauce del río.</p><p>Para la alcaldesa, el volumen de residuos reconocido por Codelco no refleja necesariamente la magnitud del daño que podría provocar su contacto con el agua.</p><p>“Esa cantidad de residuos contaminan de forma directa 50 millones de litros de agua, además de dejar en el cauce aproximadamente dos toneladas de lodo tóxico”, afirmó Rossat.</p><p>Sin embargo, tanto el volumen de agua potencialmente contaminada como la cantidad de lodo mencionada corresponden a estimaciones de la autoridad comunal, cuyos fundamentos técnicos no fueron detallados. Hasta ahora, no se han presentado resultados concluyentes que permitan establecer esos impactos.</p><p>Cuestiona investigación realizada por Codelco</p><p>La alcaldesa también manifestó su preocupación por los análisis ambientales realizados por encargo de Codelco, argumentando que no resulta suficiente depender de los antecedentes proporcionados por la propia empresa involucrada en el incidente.</p><p>Rossat sostuvo que una emergencia de estas características requiere una evaluación independiente, capaz de establecer las consecuencias reales del derrame y determinar eventuales responsabilidades.</p><p>La preocupación de la autoridad se relaciona directamente con la importancia del río Aconcagua para Hijuelas, comuna donde la agricultura constituye una de las principales actividades económicas.</p><p>Sus aguas permiten el riego de plantaciones de frutas, verduras y flores, además de ser utilizadas para el abastecimiento de animales. A ello se suma la presencia de pozos de captación que contribuyen al suministro de agua potable en distintos sectores de la región.</p><p>La alcaldesa también hizo referencia al Decreto Supremo 90 del año 2000, que establece normas de emisión para la descarga de residuos líquidos en aguas superficiales, insistiendo en que deben investigarse las posibles infracciones a la normativa ambiental.</p><p>“Se debe sancionar cualquier escurrimiento y acá hablamos de 5 mil litros vertidos al río Aconcagua”, sostuvo Rossat, en referencia a la conexión del río Blanco con el principal cauce del valle.</p><p>Por su parte, Codelco informó que los primeros monitoreos efectuados por una entidad técnica en los ríos Blanco y Aconcagua no detectaron alteraciones significativas en los parámetros evaluados, entre ellos pH, conductividad y temperatura. Estos resultados preliminares, sin embargo, no permiten descartar por sí solos todos los posibles efectos ambientales del derrame.</p><p>En paralelo, la Superintendencia del Medio Ambiente inició una fiscalización en terreno y solicitó antecedentes técnicos a la minera para determinar el volumen de material derramado, su composición y las eventuales consecuencias sobre el agua, el suelo y los ecosistemas del sector.</p><p>Cabe recordar que la Municipalidad de Hijuelas presentó una denuncia el mismo jueves 5 de noviembre, ante las autoridades sanitarias y la Dirección General de Aguas (DGA), debido a los posibles riesgos para la comunidad.</p><p>La administración comunal espera que las investigaciones permitan aclarar la magnitud del incidente y entregar certezas a las familias y agricultores que dependen del río Aconcagua.</p>",
+      "url": "https://www.terram.cl/el-observador-hijuelas-alerta-que-derrame-de-relaves-pudo-afectar-50-millones-de-litros-de-agua/",
+      "image": "https://www.terram.cl/wp-content/uploads/2026/11/Rio-Blanco-Los-Andes-768x512-1.jpg",
+      "publishedAt": "2026-11-10T13:31:49+00:00",
+      "sourceId": "terram",
+      "sourceName": "Fundación Terram",
+      "sourceType": "Medioambiente y Territorio",
+      "sourceSite": "https://www.terram.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
-      "category": "Economía y Sociedad",
+      "category": "Medioambiente y Territorio",
       "relevanceTier": "alta",
-      "relevanceScore": 92,
+      "relevanceScore": 89,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2025,26 +2035,6 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "terram-b9a0dca466",
-      "title": "[El Observador] Hijuelas alerta que derrame de relaves pudo afectar 50 millones de litros de agua",
-      "summary": "La alcaldesa Verónica Rossat advirtió sobre la magnitud que podría alcanzar el impacto ambiental del derrame de Codelco en el río Blanco. Además, cuestionó que los análisis dependan de la propia minera y exigió una investigación independiente para determinar las consecuencias del incidente. Fuente: El Observador, 9 de noviembre de 2026.",
-      "content": "<p>Hasta 50 millones de litros de agua podrían haberse visto afectados por el derrame de relaves de Codelco División Andina, según la estimación entregada por la alcaldesa de Hijuelas, Verónica Rossat. La autoridad calificó el incidente como una catástrofe sanitaria y ambiental, advirtiendo que sus consecuencias podrían ser mucho mayores que la cantidad de residuos vertidos al río Blanco, afluente del Aconcagua.</p><p>La emergencia se registró el jueves 5 de noviembre, en el sector cordillerano de Río Blanco, comuna de Los Andes, donde una obstrucción en el sistema de transporte de relaves de la minera estatal provocó que entre 1.000 y 5.000 litros de material alcanzaran el cauce del río.</p><p>Para la alcaldesa, el volumen de residuos reconocido por Codelco no refleja necesariamente la magnitud del daño que podría provocar su contacto con el agua.</p><p>“Esa cantidad de residuos contaminan de forma directa 50 millones de litros de agua, además de dejar en el cauce aproximadamente dos toneladas de lodo tóxico”, afirmó Rossat.</p><p>Sin embargo, tanto el volumen de agua potencialmente contaminada como la cantidad de lodo mencionada corresponden a estimaciones de la autoridad comunal, cuyos fundamentos técnicos no fueron detallados. Hasta ahora, no se han presentado resultados concluyentes que permitan establecer esos impactos.</p><p>Cuestiona investigación realizada por Codelco</p><p>La alcaldesa también manifestó su preocupación por los análisis ambientales realizados por encargo de Codelco, argumentando que no resulta suficiente depender de los antecedentes proporcionados por la propia empresa involucrada en el incidente.</p><p>Rossat sostuvo que una emergencia de estas características requiere una evaluación independiente, capaz de establecer las consecuencias reales del derrame y determinar eventuales responsabilidades.</p><p>La preocupación de la autoridad se relaciona directamente con la importancia del río Aconcagua para Hijuelas, comuna donde la agricultura constituye una de las principales actividades económicas.</p><p>Sus aguas permiten el riego de plantaciones de frutas, verduras y flores, además de ser utilizadas para el abastecimiento de animales. A ello se suma la presencia de pozos de captación que contribuyen al suministro de agua potable en distintos sectores de la región.</p><p>La alcaldesa también hizo referencia al Decreto Supremo 90 del año 2000, que establece normas de emisión para la descarga de residuos líquidos en aguas superficiales, insistiendo en que deben investigarse las posibles infracciones a la normativa ambiental.</p><p>“Se debe sancionar cualquier escurrimiento y acá hablamos de 5 mil litros vertidos al río Aconcagua”, sostuvo Rossat, en referencia a la conexión del río Blanco con el principal cauce del valle.</p><p>Por su parte, Codelco informó que los primeros monitoreos efectuados por una entidad técnica en los ríos Blanco y Aconcagua no detectaron alteraciones significativas en los parámetros evaluados, entre ellos pH, conductividad y temperatura. Estos resultados preliminares, sin embargo, no permiten descartar por sí solos todos los posibles efectos ambientales del derrame.</p><p>En paralelo, la Superintendencia del Medio Ambiente inició una fiscalización en terreno y solicitó antecedentes técnicos a la minera para determinar el volumen de material derramado, su composición y las eventuales consecuencias sobre el agua, el suelo y los ecosistemas del sector.</p><p>Cabe recordar que la Municipalidad de Hijuelas presentó una denuncia el mismo jueves 5 de noviembre, ante las autoridades sanitarias y la Dirección General de Aguas (DGA), debido a los posibles riesgos para la comunidad.</p><p>La administración comunal espera que las investigaciones permitan aclarar la magnitud del incidente y entregar certezas a las familias y agricultores que dependen del río Aconcagua.</p>",
-      "url": "https://www.terram.cl/el-observador-hijuelas-alerta-que-derrame-de-relaves-pudo-afectar-50-millones-de-litros-de-agua/",
-      "image": "https://www.terram.cl/wp-content/uploads/2026/11/Rio-Blanco-Los-Andes-768x512-1.jpg",
-      "publishedAt": "2026-11-10T13:31:49+00:00",
-      "sourceId": "terram",
-      "sourceName": "Fundación Terram",
-      "sourceType": "Medioambiente y Territorio",
-      "sourceSite": "https://www.terram.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Medioambiente y Territorio",
-      "relevanceTier": "alta",
-      "relevanceScore": 89,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -2109,9 +2099,9 @@
     },
     {
       "id": "radiouchile-20a6c13ead",
-      "title": "Senador Walker por rebajas de condena: “El ministro Rabat tiene que dar un paso al costado”",
-      "summary": "El parlamentario insistió en que \"no hay un vacío legal\" respecto de la exclusión del beneficio para condenados por delitos sexuales contra menores de edad. Así, aseguró que \"queda en entredicho\" la figura del titular de Justicia. La entrada Senador Walker por rebajas de condena: “El ministro Rabat tiene que dar un paso al costado” se...",
-      "content": "<p>En conversación con la primera edición de Radioanálisis, el senador Matías Walker, independiente e integrante del comité de Evópoli, abordó la polémica por las rebajas de condena otorgadas por el ministro de Justicia, Fernando Rabat, a sentenciados por delitos sexuales contra menores de edad.</p><p>El parlamentario cuestionó las explicaciones que ha entregado el titular de Justicia en esta materia. Si bien Rabat indicó inicialmente que estaba obligado a firmar los decretos por una jurisprudencia de la Corte Suprema, Walker afirmó que “ya desde febrero de este año hay fallos consistentes (…) que son contestes en decir que las condenas previas al 2022 deben ser excluidas, porque estamos hablando de un beneficio, una mera expectativa, no un derecho adquirido”.</p><p>En ese sentido, aseguró que “queda en entredicho la figura del ministro Rabat”, así como la del resto del equipo involucrado en la decisión.</p><p>Además, Walker fue enfático en señalar que “desde la UDI hasta el Partido Comunista, todos han sido contestes en reafirmar que acá no hay un vacío legal”. Explicó que “en 2022 se excluyó expresamente y ese proyecto de ley tenía como único fin excluir a los condenados por delitos sexuales contra menores de estos beneficios”.</p><p>“Dicho lo anterior, obviamente que el ministro Rabat tiene que dar un paso al costado, porque tiene que darse cuenta de que está arrastrando a una crisis a todo el Gobierno y al Presidente”, agregó.</p><p>A juicio del parlamentario, “con estos 56 decretos ha habido un retroceso muy importante en los avances que hemos tenido en los últimos 10 años en un bloque legislativo de protección a la infancia”.</p><p>“El ministro cometió un profundo error, lo reconoció el propio Presidente, el problema es que a partir de ese reconocimiento no se han ejercido las responsabilidades políticas, ni tampoco las responsabilidades administrativas”, criticó.</p><p>Walker aseguró que, cuando se aprobó la ley que excluye del beneficio a delincuentes condenados por delitos sexuales en contra de menores de edad, “el ministro de la época fue claro que acá no estábamos hablando de irretroactividad a la ley penal”.</p><p>El senador detalló que, por lo tanto, se determinó que la exclusión de rebaja de condena “debía aplicarse antes y después del 2022, porque estábamos hablando de un beneficio penitenciario precisamente y no de un derecho”.</p><p>Junto a lo anterior, apuntó a una vulneración de la Ley de Garantías de la Infancia con el criterio aplicado por el Ejecutivo: “Si alguien tuviera la menor duda, ¿qué debió hacer? Recurrir a la ley de garantías, porque las víctimas son menores de edad, abusados sexualmente, violados y, por lo tanto, la interpretación que yo haga debe ser la interpretación más favorable a los niños, niñas y adolescentes, por lo que no puedo otorgar esta rebaja de condena”.</p><p>La entrada Senador Walker por rebajas de condena: “El ministro Rabat tiene que dar un paso al costado” se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "title": "Senador Matías Walker por rebajas de condena: “El ministro Rabat tiene que dar un paso al costado”",
+      "summary": "El parlamentario insistió en que \"no hay un vacío legal\" respecto de la exclusión del beneficio para condenados por delitos sexuales contra menores de edad. Así, aseguró que \"queda en entredicho\" la figura del titular de Justicia. La entrada Senador Matías Walker por rebajas de condena: “El ministro Rabat tiene que dar un paso al...",
+      "content": "<p>En conversación con la primera edición de Radioanálisis, el senador Matías Walker, independiente e integrante del comité de Evópoli, abordó la polémica por las rebajas de condena otorgadas por el ministro de Justicia, Fernando Rabat, a sentenciados por delitos sexuales contra menores de edad.</p><p>El parlamentario cuestionó las explicaciones que ha entregado el titular de Justicia en esta materia. Si bien Rabat indicó inicialmente que estaba obligado a firmar los decretos por una jurisprudencia de la Corte Suprema, Walker afirmó que “ya desde febrero de este año hay fallos consistentes (…) que son contestes en decir que las condenas previas al 2022 deben ser excluidas, porque estamos hablando de un beneficio, una mera expectativa, no un derecho adquirido”.</p><p>En ese sentido, aseguró que “queda en entredicho la figura del ministro Rabat”, así como la del resto del equipo involucrado en la decisión.</p><p>Además, Walker fue enfático en señalar que “desde la UDI hasta el Partido Comunista, todos han sido contestes en reafirmar que acá no hay un vacío legal”. Explicó que “en 2022 se excluyó expresamente y ese proyecto de ley tenía como único fin excluir a los condenados por delitos sexuales contra menores de estos beneficios”.</p><p>“Dicho lo anterior, obviamente que el ministro Rabat tiene que dar un paso al costado, porque tiene que darse cuenta de que está arrastrando a una crisis a todo el Gobierno y al Presidente”, agregó.</p><p>A juicio del parlamentario, “con estos 56 decretos ha habido un retroceso muy importante en los avances que hemos tenido en los últimos 10 años en un bloque legislativo de protección a la infancia”.</p><p>“El ministro cometió un profundo error, lo reconoció el propio Presidente, el problema es que a partir de ese reconocimiento no se han ejercido las responsabilidades políticas, ni tampoco las responsabilidades administrativas”, criticó.</p><p>Walker aseguró que, cuando se aprobó la ley que excluye del beneficio a delincuentes condenados por delitos sexuales en contra de menores de edad, “el ministro de la época fue claro que acá no estábamos hablando de irretroactividad a la ley penal”.</p><p>El senador detalló que, por lo tanto, se determinó que la exclusión de rebaja de condena “debía aplicarse antes y después del 2022, porque estábamos hablando de un beneficio penitenciario precisamente y no de un derecho”.</p><p>Junto a lo anterior, apuntó a una vulneración de la Ley de Garantías de la Infancia con el criterio aplicado por el Ejecutivo: “Si alguien tuviera la menor duda, ¿qué debió hacer? Recurrir a la ley de garantías, porque las víctimas son menores de edad, abusados sexualmente, violados y, por lo tanto, la interpretación que yo haga debe ser la interpretación más favorable a los niños, niñas y adolescentes, por lo que no puedo otorgar esta rebaja de condena”.</p><p>La entrada Senador Matías Walker por rebajas de condena: “El ministro Rabat tiene que dar un paso al costado” se publicó primero en Diario y Radio Universidad Chile.</p>",
       "url": "https://radio.uchile.cl/2026/11/10/senador-walker-por-rebajas-de-condena-el-ministro-rabat-tiene-que-dar-un-paso-al-costado/",
       "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/10101315/matias-walker.jpg",
       "publishedAt": "2026-11-10T13:22:00+00:00",
@@ -2348,6 +2338,26 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
+      "id": "malaespina-816dd46028",
+      "title": "Cuidado con este correo que suplanta a la Administradora de Fondos de Cesantía y advierte deudas previsionales: no fue enviado por la entidad",
+      "summary": "Síntesis Contexto: La Administradora de Fondos de Cesantía (AFC Chile) alertó sobre el envío de un e-mail que suplanta a la entidad y advierte deudas previsionales. ¿Qué dice el correo? Según la imagen difundida, el e-mail ofrece \"una última instancia para regularizar la deuda directamente\". Sin embargo, la notificación de cobranza...",
+      "content": "<p>Contexto: La Administradora de Fondos de Cesantía (AFC Chile) alertó sobre el envío de un e-mail que suplanta a la entidad y advierte deudas previsionales.</p><p>¿Qué dice el correo? Según la imagen difundida, el e-mail ofrece &quot;una última instancia para regularizar la deuda directamente&quot;. Sin embargo, la notificación de cobranza prejudicial por cotizaciones impagas es realizada por la Tesorería General de la República y el pago se canaliza a través de Previred.</p><p>La entrada Cuidado con este correo que suplanta a la Administradora de Fondos de Cesantía y advierte deudas previsionales: no fue enviado por la entidad se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/pais/2026/11/10/cuidado-con-este-correo-que-suplanta-a-la-administradora-de-fondos-de-cesantia-y-advierte-deudas-previsionales-no-fue-enviado-por-la-entidad/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-Cuidado-con-este-correo-que-suplanta-a-la-Administradora-de-Fondos-de-Cesantia-y-advierte-deudas-previsionales.webp",
+      "publishedAt": "2026-11-10T12:00:00+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "timeline-f9a9b09c0a",
       "title": "Tocar música ambiental en restaurantes o eventos: ¿pituto fome pero necesario?",
       "summary": "La entrada Tocar música ambiental en restaurantes o eventos: ¿pituto fome pero necesario? se publicó primero en Timeline.cl .",
@@ -2366,6 +2376,26 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 78,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "malaespina-4e4ffde4ac",
+      "title": "Este video no muestra disturbios en Polonia por la crisis del Tribunal Constitucional: es de un concierto conmemorativo",
+      "summary": "Síntesis ¿Qué pasó? Se difundió un video que supuestamente muestra a polacos manifestándose en defensa de su gobierno en medio de la crisis del Tribunal Constitucional. ¿Cómo lo calificamos? Consideramos que se trata de publicaciones falsas. ¿Cómo lo sabemos? El video en realidad corresponde a un concierto conmemorativo por el...",
+      "content": "<p>¿Qué pasó? Se difundió un video que supuestamente muestra a polacos manifestándose en defensa de su gobierno en medio de la crisis del Tribunal Constitucional.</p><p>¿Cómo lo calificamos? Consideramos que se trata de publicaciones falsas.</p><p>¿Cómo lo sabemos? El video en realidad corresponde a un concierto conmemorativo por el aniversario del Levantamiento de Varsovia, realizado el 1 de agosto de 2026.</p><p>La entrada Este video no muestra disturbios en Polonia por la crisis del Tribunal Constitucional: es de un concierto conmemorativo se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/10/este-video-no-muestra-disturbios-en-polonia-por-la-crisis-del-tribunal-constitucional-es-de-un-concierto-conmemorativo/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-Polonia-manifestacion.webp",
+      "publishedAt": "2026-11-10T12:00:00+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Cultura y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 99,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "radiouchile-84acbc1538",
@@ -2488,6 +2518,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "cooperativa-ffc69af29f",
+      "title": "Camioneros en paro se reunirán con el Ministerio de Transportes",
+      "summary": "Camioneros de varias regiones del país iniciaron este martes bloqueos parciales de rutas en protesta por las alzas de precios de los combustibles , a pesar de que el Gobierno anunció en la víspera medidas para atenuar estos aumentos de los valores a través de un proyecto de ley . Las principales demandas de los camioneros, a quienes...",
+      "content": "<p>Camioneros de varias regiones del país iniciaron este martes bloqueos parciales de rutas en protesta por las alzas de precios de los combustibles, a pesar de que el Gobierno anunció en la víspera medidas para atenuar estos aumentos de los valores a través de un proyecto de ley.</p><p>Las principales demandas de los camioneros, a quienes se les sumaron los buses interurbanos y organizaciones como &quot;No + TAG&quot;, tienen que ver con la reactivación del Mepco, la eliminación del impuesto específico de los combustibles y la revisión de los cobros d los TAG y peajes.</p><p>Alrededor de las 11:00 horas, los transportistas llegaron a un acuerdo con el Gobierno para dialogar sus causas en el Ministerio de Transportes, instancia en la que también participarán las otras organizaciones que se sumaron. La reunión se celebrará a las 15:00 horas en las oficinas de la cartera.</p><p>Más temprano, el delegado presidencial de la Región Metropolitana, Germán Codina, solicitó el despeje de la ruta para llegar a un acuerdo. Sin embargo, los camioneros se rehusaron al solicitar una reunión con el biministro de Obras Públicas y Transportes, Louis de Grange, pidiendo que llegara hasta la Ruta 68.</p><p>El dirigente de la Cooperativa de Transportes Unidos de Chile, Manuel Bernales, señaló que &quot;hemos pedido que venga una autoridad para hacer una reunión efectiva con todos los gremios a nivel nacional y poder buscar un diálogo, una solución. Nosotros lo que buscamos es el Mepco, que se restablezca el Mepco, que se bajen los combustibles de verdad&quot;.</p><p>Asimismo, manifestó su desacuerdo con las medidas anunciadas por el Ejecutivo: &quot;El presidente anuncia un proyecto por 20 pesos de alza, ni siquiera una baja, que máximo 20 pesos por tres meses, ¿y después qué va a pasar? Lo van a subir 580 de nuevo como cuando partió esto, que valía 990 pesos el litro y hoy día vale 1.650&quot;.</p><p>Por su parte, el presidente de la Asociación de Buses Interurbanos, Juan Cornejo, detalló los motivos de su adhesión al paro: &quot;Sostuvimos reuniones por Ley del Lobby con Hacienda; Hacienda nos derivó al Ministerio de Transporte; de allí nos fuimos de secretaria en secretaria y no llegamos a ninguna parte&quot;.</p><p>&quot;Creemos que existen los mecanismos para que haya una solución. Nosotros el impacto del combustible realmente no lo podemos subir a lo que son los usuarios. Lamentablemente el combustible subió mucho, nosotros hubiésemos pedido que ojalá Hacienda haya tenido otro tipo de medida de impacto para nuestras asociaciones, pero no lo fue&quot;, aseveró.</p><p>El delegado Germán Codina precisó sobre el encuentro que contempla las distintas organizaciones que están movilizadas en este momento y aseguró que &quot;existe toda la disposición del Ministerio de Transportes a poder recibirlos, generar un espacio de encuentro y sabiendo sí que no existen varitas mágicas (...) Esta es una situación de carácter internacional que repercute en el precio de los combustibles, que también golpea a nuestro país&quot;.</p><p>En la comuna de Paine, sur de Santiago, altura del kilómetro 41, se mantienen camiones ocupando una pista de circulación: los vehículos que van hacia el sur tienen solo una pista, lo que ha generado gran congestión.</p><p>Otros transportistas se han apostado en la salida norte de la Región Metropolitana en la comuna de Quilicura.</p><p>En la Ruta 68, en dirección a Valparaíso, cerca de 30 camioneros independientes decidieron bloquear la zona con las principales demandas: que existan cambios al Mepco, la eliminación del impuesto específico a los combustibles y una revisión de los cobros del TAG y peajes.</p><p>El dirigente, Matías Campo, confirmó que no han conversado con el Gobierno: &quot;Las confederaciones de camiones más grandes están todas arregladitas, por eso ellos no salen a movilizarnos. Nosotros somos camiones pymes, somos grúas pymes, somos taxistas pymes. Entonces, somos parte importante del país, que mueve realmente el país. Nosotros lo que esperamos es poder que se abra una mesa de trabajo y atacar estos tres puntos&quot;.</p><p>En la comuna de San Bernardo, a la altura del kilómetro 20 de la Ruta 5 Sur, se encuentran dos pistas habilitadas para el tránsito. No obstante, los camiones que se están sumando a la movilización avanzan apenas a 5 kilómetros por hora, lo que ha generado una alta congestión vehicular.</p><p>En el Biobío, cerca de 720 camiones se han reunido en las comunas de Cabrero, Los Ángeles, Mulchén, Concepción, Talcahuano, Hualpén y Contulmo, sumando una nueva petición sobre las autopistas concesionadas y el precio del TAG.</p><p>Y los transportistas escolares anunciaron que se sumarán a la protesta durante la jornada.</p><p>Hasta ahora el llamado es a no bloquear el paso; sino solo hacer más estrechas las rutas para ralentizar el traslado de otros medios de transportes</p><p>En Coquimbo también hay movilización. Camioneros apostados a la altura de Lagunillas, al sur de Coquimbo. También se mantiene bloqueada una pista y se espera que se sumen transportistas de Ovalle.</p><p>En la Región de Tarapacá, un grupo de camiones se apostaron en la Ruta 5 Norte, a la altura del cruce con la Ruta 16 cerca de Humberstone, al extremo norte de Pozo Almonte. Asimismo, se registran bloqueos y cortes en la Ruta 1, que conecta Iquique con el Aeropuerto Internacional Diego Aracena; en este lugar, se está permitiendo el tránsito de vehículos livianos, pero se bloqueó a vehículos de transporte de carga.</p><p>En el puerto de Iquique se detuvo el tránsito de vehículos de transporte de carga. Desde la Empresa Portuaria de Iquique se anunció la suspensión de la apertura.</p><p>El dirigente del Comando de Defensa Puerto Iquique y Unión de Camioneros, Rafael Miranda, señaló que las rutas 106 y 504 se encuentran despejadas, a diferencia de los accesos a los terminales portuarios. Asimismo, adelantó que &quot;ya se están tomando posiciones también para el bloqueo de Zofri y barrio industrial para que no transiten vehículos de carga. Acá no se mueve ningún camión en el puerto de Iquique&quot;.</p><p>De todas formas, reparó en que dentro del recinto portuario siguen los faenas y recibieron barcos, &quot;solamente el transporte no ingresa ni sale&quot;.</p><p>En paralelo, este martes comenzaba la temporada de cruceros en la ciudad de Iquique y se esperaba la llegada del crucero Viking Polaris, programada para esta mañana, sin embargo, fue cancelada. La delegada presidencial de Tarapacá, Adriana Tapia, aseguró que la cancelación tuvo &quot;razones comerciales&quot; y no con la movilización de los camioneros.</p>",
+      "url": "https://www.cooperativa.cl/noticias/pais/transportes/camioneros-en-paro-se-reuniran-con-el-ministerio-de-transportes/2026-11-10/073518.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000001320261110073518.jpg",
+      "publishedAt": "2026-11-10T10:35:18+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 81,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
       "id": "propublica-4d8e4f1007",
       "title": "The Garbage Man: Bill Gates Has Earned Billions Investing in Climate-Polluting Landfills",
       "summary": "The post The Garbage Man: Bill Gates Has Earned Billions Investing in Climate-Polluting Landfills appeared first on ProPublica .",
@@ -2608,24 +2658,24 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "ciclismo-chile-2c1ff618a0",
-      "title": "El ciclismo se tomó Los Ríos: Héctor Quintana y Yarela González ganan el Grand Prix Lago Ranco 2026",
-      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>El ciclismo se tomó Los Ríos: Héctor Quintana y Yarela González ganan el Grand Prix Lago Ranco 2026 BioBioChile</p>",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPbmxETmJ6MVpyQjM5QjVNbkdFM09CQlc1Z2xzaXlWVk1kNlZNT3ZsUWwyMEJoa01xRXZrVWhVZzZlZmltcjFsalo5VGloQjdvdzVLWGZxRUpKbDdPcWlNOG45VDJZczQtVWZibjRTdE9acG9GSGc3c2JvSUdyNy1UR1ROWTJqYzNTUU1fSVJhV1dFV2RkLVp1bll4N0xRUE1jTU15MVdKUVJQUGRkN1lOSUlQWm1ESy11d3UyWjNRYm5oWWdCMnBCVkZubDY4a3dBUWhRWGJETU02aGdvc0QxU3ZZYXhBeFIxS0ttdVBRNjNkMW9PeEdxREo2UjBackZkOU9n?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-10T01:49:26+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "country": "Chile",
+      "id": "jacobinlat-1f6288d548",
+      "title": "¿Ecuador sigue siendo una democracia?",
+      "summary": "Tras proscribir al partido opositor de las elecciones de noviembre, el gobierno de ultraderecha de Daniel Noboa detuvo a su líder, Luisa González, desdibujando la línea entre democracia y dictadura. La entrada ¿Ecuador sigue siendo una democracia? se publicó primero en Jacobin Revista .",
+      "content": "<p>«Te mentiría si te dijera que ayer no le eché doble seguro a la puerta, por si a la madrugada nos vienen a tumbar». Esas fueron las palabras de Jahiren Noriega, integrante de la Asamblea Nacional de Ecuador, al día siguiente de la detención de Luisa González, candidata presidencial del Movimiento Revolución Ciudadana en las dos últimas elecciones federales del país y hoy la principal figura opositora.</p><p>En Ecuador, donde ya no existe la separación de poderes, el uso del lawfare por parte del gobierno de ultraderecha del presidente Daniel Noboa desdibuja la línea entre democracia y dictadura. Para los miembros del Movimiento Revolución Ciudadana, el partido alineado con el expresidente socialista Rafael Correa, la persecución política no es nada nuevo, y los dirigentes de izquierda y los movimientos sociales de toda América Latina seguramente reconocerán el manual. Pero la detención de González el jueves pasado marca una escalada alarmante en el audaz uso de los tribunales por parte de Noboa para perseguir a sus opositores y, en Ecuador, un país con una rica historia de protesta que ha permanecido inusualmente callado a lo largo de su presidencia, la izquierda enfrenta su mayor prueba hasta ahora.</p><p>Tras fracasar en el intento de trazar una línea entre González y un grupo que quizás ni siquiera exista, la fiscalía sostiene ahora sin pudor que los tribunales se equivocaron la primera vez, ya que el lavado de dinero sí ocurrió, y Aquiles Álvarez, el alcalde de Guayaquil, la ciudad más grande de Ecuador, está involucrado. También miembro de Revolución Ciudadana, Álvarez fue detenido en febrero en el Caso Goleada, una causa farsesca en la que se lo acusó de construir una estructura empresarial para generar ganancias ilegalmente. Sigue encarcelado.</p><p>La reacción a la detención de González fue inmediata. Correa, que vive en un exilio autoimpuesto y recibió asilo en Bélgica, estuvo entre los primeros en pronunciarse y dijo: «En Ecuador existe una verdadera dictadura. No respeta la Constitución ni los derechos humanos». El exmandatario tambien apuntó al momento elegido para el arresto, ya que los ecuatorianos irán a las urnas el 29 de noviembre para unas elecciones locales. La oposición ya había sido proscrita de las elecciones en el momento de la investigación del Caso Caja Chica. Los comicios de este mes se realizarán en medio de un aumento del delito, una crisis energética que provoca apagones regulares en todo el país, una drástica escasez de medicamentos en los hospitales, que se encuentran en franco deterioro, y masacres carcelarias frecuentes.</p><p>«Siempre que necesitan salir de una crisis, inventan este tipo de espectáculo», dijo Orlando Pérez, periodista y escritor ecuatoriano.</p><p>Gabriela Rivadeneira, quien reemplazó a González como presidenta del Movimiento Revolución Ciudadana, también reaccionó rápidamente y describió la detención de González como un «secuestro». Por su parte, el asambleísta Xavier Lasso advirtió que los blancos no se limitan a los correístas, sino que se extienden a médicos, estudiantes, indígenas, empresarios y periodistas.</p><p>González y Álvarez están lejos de ser los únicos ejemplos de la persecución de Noboa. El mayor trofeo en el gabinete del presidente es Jorge Glas, vicepresidente de Ecuador bajo Correa. Glas fue acusado en el Caso Reconstrucción de Manabí de malversar fondos públicos vinculados a la emergencia causada por un terremoto. Se le concedió asilo en México pero, en una escena de película y en flagrante violación del derecho internacional, fue secuestrado de su embajada en Ecuador por policías que irrumpieron en medio de la noche. Se encuentra recluido en la Cárcel del Encuentro, una prisión de máxima seguridad, y las condiciones de su encarcelamiento han sido descritas como de tortura sistemática. Su defensa denuncia acceso restringido a la hidratación, pérdida significativa de masa muscular, hambre recurrente, administración de medicamentos por personal no médico y claros signos de desnutrición.</p><p>«Van a enterrar viva a González», advirtió Correa. «Tal como lo han hecho con Aquiles Álvarez, tal como lo han hecho con Jorge Glas».</p><p>Los ataques recientes plantean varias preguntas. ¿Está Noboa persiguiendo a González por exponer los cargamentos de fruta de la empresa familiar del presidente que se usaron para el tráfico de cocaína? ¿Dónde está la investigación sobre las inconsistencias en el financiamiento de la campaña relacionadas con el partido de Noboa? ¿Por qué José Julio Neira, uno de los ministros de Noboa, publica un video detallado sobre el Caso Laberinto? ¿Dónde está la separación de poderes? ¿Dónde está la comunidad internacional?</p><p>Estas preguntas son, por supuesto, en gran medida retóricas. Quedaron atrás los días de las dictaduras militares de América Latina, cuando la ultraderecha afirmaba su control con soldados en las calles. Como demuestra Noboa, los autoritarios de hoy simplemente necesitan infiltrar las instituciones democráticas de un país y asegurarse de que la fiscalía responda al Poder Ejecutivo.</p><p>«Hay una nueva generación de golpes de Estado y de ataques a los sistemas democráticos», dice Alexander Madrigal, politólogo internacional, profesor e investigador de la Universidad Nacional de Colombia.</p><p>Las formas de persecución contra la oposición se han innovado. En la era de las dictaduras militares, las desapariciones, las acciones directas del Estado, los agentes encubiertos, etcétera, eran un mal hábito de los regímenes latinoamericanos. Pero hoy estamos, podría decirse, revitalizando nuevas formas de persecución política y de ataques a las ideas opuestas. Y esto se debe a, o puede leerse como, el desprestigio por parte de la nueva derecha. (…) Estamos hablando del uso del aparato estatal para eliminar judicialmente a la oposición. Esto también es facilitado por el apoyo de Estados Unidos.</p><p>El camino que se avecina no es para los débiles de corazón. La ultraderecha actual de Ecuador se conforma con usar los tribunales para hostigar y encarcelar a dirigentes de izquierda y para proscribir directamente a la oposición. En este contexto, puede tomarse inspiración de la asambleísta Noriega, la integrante del Movimiento Revolución Ciudadana que cerró su puerta con doble llave. «Tenemos que continuar», dijo. «Tenemos que continuar con firmeza, con coraje. No creo que este país necesite más mártires».</p>",
+      "url": "https://jacobinlat.com/2026/11/ecuador-sigue-siendo-una-democracia/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/607271132937.jpg",
+      "publishedAt": "2026-11-10T06:54:03+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
       "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 85,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "globalvoices-15a0116018",
@@ -2648,24 +2698,24 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "ciper-50f8191059",
-      "title": "Kast anuncia nueva alza de $40 en los combustibles, pero presenta proyecto para limitar los aumentos; gobierno amplía suspensión de rebajas de condena a todos los delitos, y avisos de ofertas laborales caen 12,6% anual",
-      "summary": "La entrada Kast anuncia nueva alza de $40 en los combustibles, pero presenta proyecto para limitar los aumentos; gobierno amplía suspensión de rebajas de condena a todos los delitos, y avisos de ofertas laborales caen 12,6% anual se publicó primero en CIPER Chile .",
-      "content": "<p>En tiempos de incertidumbre y fake news, el periodismo de CIPER es más necesario que nunca.</p><p>Tu aporte mensual nos permite seguir investigando</p><p>RADAR DE CIPER: LA SELECCIÓN DE LAS NOTICIAS MÁS RELEVANTES DE LA ÚLTIMA JORNADA</p><p>-- --&gt; --&gt; --&gt; --&gt; --&gt; --&gt; A continuación, te entregamos un resumen de los hechos más relevantes hasta las 20 horas del lunes 9 de noviembre del 2026 seleccionados para ti por el equipo CIPER.</p><p>Tras participar en el comité político de este lunes, el Presidente José Antonio Kast dio a conocer que este jueves el precio de los combustibles aumentará alrededor de $40. También anunció que presentará un proyecto de ley con discusión inmediata para contener las variaciones y no cruzar en los próximos 90 días el límite de $20 por litro de las gasolinas y el diésel.</p><p>El mandatario señaló sobre la iniciativa que “ojalá se pueda tramitar esta semana para que cualquier alza que venga en los próximos 90 días no supere el techo de $20, tanto en bencinas como diésel”. Agregó que «eso es un esfuerzo fiscal muy importante, pero va a garantizar una estabilidad para los transportistas, para cada una de las familias en Chile».</p><p>Pese al anuncio de Kast, asociaciones de camioneros del centro, sur y norte del país mantendrán el paro anunciado desde las 00:00 horas de este martes. El presidente de la Confederación de Dueños de Camiones de la zona Centro-Sur, Fredy Martínez, dijo a Emol que “es una buena señal, pero insuficiente”, y que la movilización es indefinida. El diésel ha subido más de $630 desde el “bencinazo” de marzo.</p><p>El presidente realizó un punto de prensa este lunes (Créditos: Sebastián Beltrán Gaete / Agencia Uno)</p><p>El gobierno anunció este lunes que suspendió todas las tramitaciones de rebajas de condena que revisa el Ministerio de Justicia sin distinción del delito, hasta que se resuelva el proyecto que busca derogar la ley que permite este beneficio. El vocero de gobierno, Gonzalo Arenas, aseguró que el ministro de Justicia, Fernando Rabat, tomó la decisión el jueves 5 de noviembre pasado.</p><p>El anuncio se dio luego de que Bío-Bío revelara el domingo en la noche que ese mismo 5 de noviembre Rabat firmó un decreto que redujo en 10 meses la condena de Peter Rojas, sentenciado a cinco años por el homicidio de un adulto mayor de 83 años en Catemu. La semana pasada se conoció además que en este gobierno se rebajó la condena a 115 narcotraficantes extranjeros.</p><p>El proyecto de derogación fue presentado a fines de octubre por los senadores Arturo Squella (Partido Republicano), Andrés Longton (RN), Karim Bianchi (independiente) y Pedro Araya (PPD), y el viernes el gobierno anunció que lo patrocinará y le dará discusión inmediata.</p><p>En paralelo, los presidentes de los partidos de oposición se reunieron este lunes en la sede del Frente Amplio para revisar la acusación constitucional contra Rabat, que impulsan luego de que el medio Interferencia revelara que el ministro firmó 56 decretos de rebaja de condena a condenados por agresiones sexuales a menores. El presidente de la Democracia Cristiana, Álvaro Ortíz, aseguró que el libelo se presentará esta semana, sin dar una fecha concreta.</p><p>Imagen referencial (Créditos: Hans Scott / Agencia Uno)</p><p>El Índice de Avisos Laborales de Internet (IALI) del Banco Central registró 73,3 puntos, demostrando una contracción de 12,6% en comparación al mismo mes de 2025 cuando llegó a 83,9 puntos. Emol informó que el índice ya lleva 12 meses consecutivos en caída. Este índice corresponde al promedio simple de los avisos publicados en los principales portales web de empleo del país.</p><p>La mala cifra que informó el Banco Central es una confirmación de la grave crisis de empleo en el país, cuya tasa de desempleo llegó al 9,8% en el trimestre julio-septiembre según el Instituto Nacional de Estadísticas (INE), lo que implica que hay más de un millón de personas sin trabajo en el país.</p><p>Imagen referencial (Créditos: Francisco Flores / Agencia Uno)</p><p>El exministro de Transportes del gobierno de Gabriel Boric, Juan Carlos Muñoz, recibió un reconocimiento internacional luego de que la revista Time lo incluyó en su lista de los 100 líderes climáticos del mundo.</p><p>El medio justificó el galardón del exsecretario de Estado por su aporte en la electromovilidad del país. Destacaron que “los autobuses eléctricos se han convertido en parte de la vida cotidiana en Santiago. Juan Carlos Muñoz encabezó la transición de Chile hacia un transporte público eléctrico durante su gestión como ministro de Transportes y Telecomunicaciones. Su mandato concluyó a principios de este año, pero los resultados de su visión —que concibe el transporte público como un instrumento de sostenibilidad urbana— siguen haciéndose patentes: para 2026, Santiago cuenta con aproximadamente 4.400 autobuses eléctricos, lo que la convierte en la única ciudad fuera de China que posee una flota de tal magnitud”.</p><p>Muñoz, en tanto, señaló que “mejorar el transporte público no es solo una acción climática, es la base para lograr un cambio duradero en la forma en que se desplazan las ciudades”.</p><p>En 2024, el entonces ministro Muñoz presentaba la renovación de la flota RED en la zona sur de Santiago (Créditos: Diego Martín / Agencia Uno)</p><p>--&gt; --&gt; --&gt; --&gt; Rabat rechazó al menos nueve rebajas de penas y las disputó en tribunales: en seis los jueces le dieron la razón y no otorgaron el beneficioVER MÁS Fallos de cortes de apelaciones establecen que Rabat sí podía rechazar las rebajas de condenasVER MÁS Lo que calló RabatVER MÁS ¿Cómo se financia CIPER? Ver informes de ingresos ¿Cómo apoyar a CIPER? Conoce las opciones Principios de CIPER Lo que nos mueve Directorio Fundación CIPER Nuestro directorio Equipo CIPER Conócenos Investigaciones con impacto Revísalas Premios obtenidos Ver premios Libros CIPER Conócelos Enviar cartas y columnas Revisa las opciones</p>",
-      "url": "https://www.ciperchile.cl/2026/11/09/radar-09-11-26/?utm_source=rss&utm_medium=rss&utm_campaign=radar-09-11-26",
+      "id": "ciclismo-chile-2c1ff618a0",
+      "title": "El ciclismo se tomó Los Ríos: Héctor Quintana y Yarela González ganan el Grand Prix Lago Ranco 2026",
+      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>El ciclismo se tomó Los Ríos: Héctor Quintana y Yarela González ganan el Grand Prix Lago Ranco 2026 BioBioChile</p>",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPbmxETmJ6MVpyQjM5QjVNbkdFM09CQlc1Z2xzaXlWVk1kNlZNT3ZsUWwyMEJoa01xRXZrVWhVZzZlZmltcjFsalo5VGloQjdvdzVLWGZxRUpKbDdPcWlNOG45VDJZczQtVWZibjRTdE9acG9GSGc3c2JvSUdyNy1UR1ROWTJqYzNTUU1fSVJhV1dFV2RkLVp1bll4N0xRUE1jTU15MVdKUVJQUGRkN1lOSUlQWm1ESy11d3UyWjNRYm5oWWdCMnBCVkZubDY4a3dBUWhRWGJETU02aGdvc0QxU3ZZYXhBeFIxS0ttdVBRNjNkMW9PeEdxREo2UjBackZkOU9n?oc=5",
       "image": null,
-      "publishedAt": "2026-11-09T22:59:08+00:00",
-      "sourceId": "ciper",
-      "sourceName": "CIPER Chile",
-      "sourceType": "Investigación Independiente",
-      "sourceSite": "https://www.ciperchile.cl",
+      "publishedAt": "2026-11-10T01:49:26+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Investigación y Poder",
+      "category": "Ciclismo y Deporte",
       "relevanceTier": "alta",
-      "relevanceScore": 99,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "globalvoices-4b1ff624bb",
@@ -2686,6 +2736,26 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 70,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "ciper-50f8191059",
+      "title": "Kast anuncia nueva alza de $40 en los combustibles, pero presenta proyecto para limitar los aumentos; gobierno amplía suspensión de rebajas de condena a todos los delitos, y avisos de ofertas laborales caen 12,6% anual",
+      "summary": "La entrada Kast anuncia nueva alza de $40 en los combustibles, pero presenta proyecto para limitar los aumentos; gobierno amplía suspensión de rebajas de condena a todos los delitos, y avisos de ofertas laborales caen 12,6% anual se publicó primero en CIPER Chile .",
+      "content": "<p>En tiempos de incertidumbre y fake news, el periodismo de CIPER es más necesario que nunca.</p><p>Tu aporte mensual nos permite seguir investigando</p><p>RADAR DE CIPER: LA SELECCIÓN DE LAS NOTICIAS MÁS RELEVANTES DE LA ÚLTIMA JORNADA</p><p>-- --&gt; --&gt; --&gt; --&gt; --&gt; --&gt; A continuación, te entregamos un resumen de los hechos más relevantes hasta las 20 horas del lunes 9 de noviembre del 2026 seleccionados para ti por el equipo CIPER.</p><p>Tras participar en el comité político de este lunes, el Presidente José Antonio Kast dio a conocer que este jueves el precio de los combustibles aumentará alrededor de $40. También anunció que presentará un proyecto de ley con discusión inmediata para contener las variaciones y no cruzar en los próximos 90 días el límite de $20 por litro de las gasolinas y el diésel.</p><p>El mandatario señaló sobre la iniciativa que “ojalá se pueda tramitar esta semana para que cualquier alza que venga en los próximos 90 días no supere el techo de $20, tanto en bencinas como diésel”. Agregó que «eso es un esfuerzo fiscal muy importante, pero va a garantizar una estabilidad para los transportistas, para cada una de las familias en Chile».</p><p>Pese al anuncio de Kast, asociaciones de camioneros del centro, sur y norte del país mantendrán el paro anunciado desde las 00:00 horas de este martes. El presidente de la Confederación de Dueños de Camiones de la zona Centro-Sur, Fredy Martínez, dijo a Emol que “es una buena señal, pero insuficiente”, y que la movilización es indefinida. El diésel ha subido más de $630 desde el “bencinazo” de marzo.</p><p>El presidente realizó un punto de prensa este lunes (Créditos: Sebastián Beltrán Gaete / Agencia Uno)</p><p>El gobierno anunció este lunes que suspendió todas las tramitaciones de rebajas de condena que revisa el Ministerio de Justicia sin distinción del delito, hasta que se resuelva el proyecto que busca derogar la ley que permite este beneficio. El vocero de gobierno, Gonzalo Arenas, aseguró que el ministro de Justicia, Fernando Rabat, tomó la decisión el jueves 5 de noviembre pasado.</p><p>El anuncio se dio luego de que Bío-Bío revelara el domingo en la noche que ese mismo 5 de noviembre Rabat firmó un decreto que redujo en 10 meses la condena de Peter Rojas, sentenciado a cinco años por el homicidio de un adulto mayor de 83 años en Catemu. La semana pasada se conoció además que en este gobierno se rebajó la condena a 115 narcotraficantes extranjeros.</p><p>El proyecto de derogación fue presentado a fines de octubre por los senadores Arturo Squella (Partido Republicano), Andrés Longton (RN), Karim Bianchi (independiente) y Pedro Araya (PPD), y el viernes el gobierno anunció que lo patrocinará y le dará discusión inmediata.</p><p>En paralelo, los presidentes de los partidos de oposición se reunieron este lunes en la sede del Frente Amplio para revisar la acusación constitucional contra Rabat, que impulsan luego de que el medio Interferencia revelara que el ministro firmó 56 decretos de rebaja de condena a condenados por agresiones sexuales a menores. El presidente de la Democracia Cristiana, Álvaro Ortíz, aseguró que el libelo se presentará esta semana, sin dar una fecha concreta.</p><p>Imagen referencial (Créditos: Hans Scott / Agencia Uno)</p><p>El Índice de Avisos Laborales de Internet (IALI) del Banco Central registró 73,3 puntos, demostrando una contracción de 12,6% en comparación al mismo mes de 2025 cuando llegó a 83,9 puntos. Emol informó que el índice ya lleva 12 meses consecutivos en caída. Este índice corresponde al promedio simple de los avisos publicados en los principales portales web de empleo del país.</p><p>La mala cifra que informó el Banco Central es una confirmación de la grave crisis de empleo en el país, cuya tasa de desempleo llegó al 9,8% en el trimestre julio-septiembre según el Instituto Nacional de Estadísticas (INE), lo que implica que hay más de un millón de personas sin trabajo en el país.</p><p>Imagen referencial (Créditos: Francisco Flores / Agencia Uno)</p><p>El exministro de Transportes del gobierno de Gabriel Boric, Juan Carlos Muñoz, recibió un reconocimiento internacional luego de que la revista Time lo incluyó en su lista de los 100 líderes climáticos del mundo.</p><p>El medio justificó el galardón del exsecretario de Estado por su aporte en la electromovilidad del país. Destacaron que “los autobuses eléctricos se han convertido en parte de la vida cotidiana en Santiago. Juan Carlos Muñoz encabezó la transición de Chile hacia un transporte público eléctrico durante su gestión como ministro de Transportes y Telecomunicaciones. Su mandato concluyó a principios de este año, pero los resultados de su visión —que concibe el transporte público como un instrumento de sostenibilidad urbana— siguen haciéndose patentes: para 2026, Santiago cuenta con aproximadamente 4.400 autobuses eléctricos, lo que la convierte en la única ciudad fuera de China que posee una flota de tal magnitud”.</p><p>Muñoz, en tanto, señaló que “mejorar el transporte público no es solo una acción climática, es la base para lograr un cambio duradero en la forma en que se desplazan las ciudades”.</p><p>En 2024, el entonces ministro Muñoz presentaba la renovación de la flota RED en la zona sur de Santiago (Créditos: Diego Martín / Agencia Uno)</p><p>--&gt; --&gt; --&gt; --&gt; Rabat rechazó al menos nueve rebajas de penas y las disputó en tribunales: en seis los jueces le dieron la razón y no otorgaron el beneficioVER MÁS Fallos de cortes de apelaciones establecen que Rabat sí podía rechazar las rebajas de condenasVER MÁS Lo que calló RabatVER MÁS ¿Cómo se financia CIPER? Ver informes de ingresos ¿Cómo apoyar a CIPER? Conoce las opciones Principios de CIPER Lo que nos mueve Directorio Fundación CIPER Nuestro directorio Equipo CIPER Conócenos Investigaciones con impacto Revísalas Premios obtenidos Ver premios Libros CIPER Conócelos Enviar cartas y columnas Revisa las opciones</p>",
+      "url": "https://www.ciperchile.cl/2026/11/09/radar-09-11-26/?utm_source=rss&utm_medium=rss&utm_campaign=radar-09-11-26",
+      "image": null,
+      "publishedAt": "2026-11-09T22:59:08+00:00",
+      "sourceId": "ciper",
+      "sourceName": "CIPER Chile",
+      "sourceType": "Investigación Independiente",
+      "sourceSite": "https://www.ciperchile.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Investigación y Poder",
+      "relevanceTier": "alta",
+      "relevanceScore": 99,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "diariouach-9bebd1a3b2",
@@ -2888,6 +2958,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "malaespina-a8c988657a",
+      "title": "Papa León XIV no dijo “no confundamos el amor entre hermanos con la aberración del incesto” en su discurso en Argentina",
+      "summary": "Síntesis ¿Qué pasó? En redes sociales, usuarios aseguran que el papa León XIV habría dicho la frase “No confundamos el amor entre hermanos con la aberración del incesto” durante su discruso frente al presidente Javier Milei en el Palacio Libertad, Argentina. ¿Cómo lo calificamos? Consideramos que la información es falsa. ¿Cómo lo...",
+      "content": "<p>¿Qué pasó? En redes sociales, usuarios aseguran que el papa León XIV habría dicho la frase “No confundamos el amor entre hermanos con la aberración del incesto” durante su discruso frente al presidente Javier Milei en el Palacio Libertad, Argentina.</p><p>¿Cómo lo calificamos? Consideramos que la información es falsa.</p><p>¿Cómo lo sabemos? Una revisión de la transmisión oficial y del documento escrito publicado en el sitio web del Vaticano confirma que el Pontífice jamás pronunció dicha frase durante el encuentro. Además, el video viral usa un fragmento real de su alocución, pero descontextualizado, en el cual el Papa hablaba en realidad sobre la importancia de la educación y el desarrollo de los jóvenes. La entrada Papa León XIV no dijo “no confundamos el amor entre hermanos con la aberración del incesto” en su discurso en Argentina se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/09/papa-leon-xiv-no-dijo-no-confundamos-el-amor-entre-hermanos-con-la-aberracion-del-incesto-en-su-discurso-en-argentina/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Papa-Leon-XIV-no-dijo-_No-confundamos-el-amor-entre-hermanos-con-la-aberracion-del-incesto_-en-su-discurso-en-el-Palacio-Libertad.webp",
+      "publishedAt": "2026-11-09T19:36:27+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "alta",
+      "relevanceScore": 90,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
       "id": "diariouach-ff7fe05820",
       "title": "Doctorado en Ciencias de la Acuicultura UACh obtiene acreditación por cinco años",
       "summary": "Un importante logro académico alcanzó el Doctorado en Ciencias de la Acuicultura de la…",
@@ -3008,24 +3098,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "eldesconcierto-80e6957fb5",
-      "title": "Ueno Bank en Paraguay y sus nexos con Fernando Cerimedo: financió gala donde fue premiado",
-      "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Ueno Bank en Paraguay y sus nexos con Fernando Cerimedo: financió gala donde fue premiado El Desconcierto</p>",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWVRzcW9aVm1VNUU1dUxGc1lDbWJHVGxOdHg3VXp5NXVjSmVhUy1TSjFYbUFRanRpYmNOX1FfbGtmamhldGIzTHlreDlkSHU2LVRXaTE2YVZEZjk0bnBISnQ2MmU1dGwzTGt1RURZQTNFa01OYzBYZXNvRnRQcS1pTmY5Q2ZUdTdBZl9rQ3dzSXcwOVk5dmpQVXc2ZEF0NFpWM0k1S09EcVNoa2VEazNDTGRJdk9waUJwS0lkNjJoWQ?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-09T16:36:00+00:00",
-      "sourceId": "eldesconcierto",
-      "sourceName": "El Desconcierto",
-      "sourceType": "Periodismo Independiente",
-      "sourceSite": "https://eldesconcierto.cl",
+      "id": "malaespina-436c635194",
+      "title": "Qué pueden hacer los demócratas con las mayorías en el Congreso (y qué puede hacer Trump)",
+      "summary": "Síntesis Contexto: Tras las elecciones de mitad de período del 3 de noviembre, los demócratas consiguieron el control de ambas cámaras del Congreso de Estados Unidos, que asumirán en enero de 2027. ¿Qué podrán hacer los demócratas? Abrir investigaciones sobre el gobierno de Trump, fiscalizar sus políticas migratorias y militares,...",
+      "content": "<p>Contexto: Tras las elecciones de mitad de período del 3 de noviembre, los demócratas consiguieron el control de ambas cámaras del Congreso de Estados Unidos, que asumirán en enero de 2027.</p><p>¿Qué podrán hacer los demócratas? Abrir investigaciones sobre el gobierno de Trump, fiscalizar sus políticas migratorias y militares, bloquear nominaciones y promover cambios legislativos. Sin embargo, el presidente conserva la facultad de vetar leyes, lo que podría limitar la agenda demócrata.</p><p>La entrada Qué pueden hacer los demócratas con las mayorías en el Congreso (y qué puede hacer Trump) se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/09/que-pueden-hacer-los-democratas-con-las-mayorias-en-el-congreso-y-que-puede-hacer-trump/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Copia-de-Portadas-chequeos-5.webp",
+      "publishedAt": "2026-11-09T17:17:15+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "alta",
+      "relevanceScore": 99,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "elmostrador-42c23f5a39",
@@ -3045,6 +3135,26 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 86,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "malaespina-ed535ce99c",
+      "title": "Paro nacional de camioneros: qué exigen los transportistas ante el alza de los combustibles",
+      "summary": "Síntesis Contexto: Organizaciones de transportistas convocaron a un paro nacional para el 10 de noviembre por el aumento de los combustibles y los costos operacionales. Las manifestaciones comenzaron el lunes en distintas ciudades del país. ¿Qué exigen los camioneros? Modificar el MEPCO, eliminar el impuesto específico a los...",
+      "content": "<p>Contexto: Organizaciones de transportistas convocaron a un paro nacional para el 10 de noviembre por el aumento de los combustibles y los costos operacionales. Las manifestaciones comenzaron el lunes en distintas ciudades del país.</p><p>¿Qué exigen los camioneros? Modificar el MEPCO, eliminar el impuesto específico a los combustibles, revisar los cobros de TAG y peajes y reajustar las tarifas de los fletes. Algunos dirigentes también piden congelar el precio del diésel durante cinco o seis meses.</p><p>La entrada Paro nacional de camioneros: qué exigen los transportistas ante el alza de los combustibles se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/pais/2026/11/09/paro-nacional-de-camioneros-que-exigen-los-transportistas-ante-el-alza-de-los-combustibles/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Copia-de-Portadas-chequeos-4.webp",
+      "publishedAt": "2026-11-09T17:16:48+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3288,6 +3398,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "jacobinlat-3bf3bf4c52",
+      "title": "Paraguay: las contradicciones del paraíso neoliberal",
+      "summary": "La crisis que precipitó la caída de Peña expuso las contradicciones del «modelo paraguayo», celebrado por las derechas latinoamericanas. El supuesto paraíso del libre mercado mostró una estrecha relación entre poder político, grandes grupos empresariales y recursos del Estado. La entrada Paraguay: las contradicciones del paraíso...",
+      "content": "<p>La crisis que precipitó la caída de Peña expuso las contradicciones del «modelo paraguayo», celebrado por las derechas latinoamericanas. El supuesto paraíso del libre mercado mostró una estrecha relación entre poder político, grandes grupos empresariales y recursos del Estado.</p><p>La entrada Paraguay: las contradicciones del paraíso neoliberal se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/paraguay-las-contradicciones-del-paraiso-neoliberal/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/paraguay-1.jpg",
+      "publishedAt": "2026-11-09T12:07:26+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 81,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
       "id": "eldesconcierto-abac2cc89a",
       "title": "Aprobación de Kast llega a su peor cifra con un 24% y su frase todo va a estar bien decepciona a un 46%",
       "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -3305,6 +3435,26 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 84,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "malaespina-9dd70a6995",
+      "title": "Un entrenamiento militar en Kazajistán es vinculado erróneamente a operativos contra pandillas en Haití",
+      "summary": "Síntesis ¿Qué pasó? En redes sociales se difundió un video que supuestamente muestra el primer enfrentamiento armado entre soldados salvadoreños y bandas criminales en Haití. ¿Cómo lo calificamos? Consideramos que esta información es falsa. ¿Cómo lo sabemos? La secuencia fue publicada el 28 de julio de 2026 y corresponde a un...",
+      "content": "<p>¿Qué pasó? En redes sociales se difundió un video que supuestamente muestra el primer enfrentamiento armado entre soldados salvadoreños y bandas criminales en Haití.</p><p>¿Cómo lo calificamos? Consideramos que esta información es falsa.</p><p>¿Cómo lo sabemos? La secuencia fue publicada el 28 de julio de 2026 y corresponde a un entrenamiento de las Fuerzas de Operaciones Especiales de Kazajistán. Además, los uniformes de los soldados coinciden con los utilizados por esa unidad militar.</p><p>La entrada Un entrenamiento militar en Kazajistán es vinculado erróneamente a operativos contra pandillas en Haití se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/09/un-entrenamiento-militar-en-kazajistan-es-vinculado-erroneamente-a-operativos-contra-pandillas-en-haiti/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/el-salvador.webp",
+      "publishedAt": "2026-11-09T12:00:00+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3326,6 +3476,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 83,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "malaespina-70464c454e",
+      "title": "No, la revista TIME no ha publicado una portada sobre las “cámaras de tortura” en Kiev con una foto del niño que habría estado retenido",
+      "summary": "Síntesis ¿Qué circula? Una portada atribuida a la revista TIME sobre las \"cámaras de tortura\" en Kiev. ¿Cómo lo calificamos? Consideramos que el contenido viral es falso. ¿Cómo lo sabemos? La imagen fue generada con inteligencia artificial; así lo indica el análisis con SynthID que identificó una marca de agua de Open AI. La entrada...",
+      "content": "<p>¿Qué circula? Una portada atribuida a la revista TIME sobre las &quot;cámaras de tortura&quot; en Kiev.</p><p>¿Cómo lo calificamos? Consideramos que el contenido viral es falso.</p><p>¿Cómo lo sabemos? La imagen fue generada con inteligencia artificial; así lo indica el análisis con SynthID que identificó una marca de agua de Open AI.</p><p>La entrada No, la revista TIME no ha publicado una portada sobre las “cámaras de tortura” en Kiev con una foto del niño que habría estado retenido se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/09/no-la-revista-time-no-ha-publicado-una-portada-sobre-las-camaras-de-tortura-en-kiev-con-una-foto-del-nino-que-habria-estado-retenido/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-La-revista-TIME-no-ha-publicado-una-portada-sobre-las-camaras-de-tortura-en-Kiev.webp",
+      "publishedAt": "2026-11-09T12:00:00+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 81,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "theintercept-52f8d8eb17",
@@ -3448,24 +3618,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cenital-a7b087bfdb",
-      "title": "Repetición y diferencia",
-      "summary": "Después de entregar un libro, rara vez queda algo por decir. Sobre el dinero todavía hay mucho por elaborar, porque está vivo y en transformación.",
-      "content": "<p>I. Me suele pasar que, luego de publicar un libro, algo de la pregunta que me llevó a escribirlo se calma, se aquieta. La culminación del trabajo coincide, en algún sentido, con la culminación de la inquietud, del entusiasmo por saber, de las ganas de seguir en el asunto. Por un tiempo, ya no quiero saber más nada con eso. Quiero que, por el contrario, eso mismo que dije y que escribí tenga sus efectos y, en todo caso, que sean otros lo que digan. Pero esta vez, una vez publicado El libro del dinero, no me está pasando. Me pasa que sigo con inquietud, con ganas de seguir pensando. Como si no terminara de poder pasar a otra cosa. Y es que si bien todos los asuntos de los que me ocupé anteriormente (amor, cuerpo, humor) son asuntos vivos, el dinero quizás lo sea todavía más, en el sentido en que no hay modo de soslayarlo, está todo el tiempo presente. Siempre se lo puede seguir escrutando, porque mantiene su dimensión de enigma y, por supuesto, de tabú. Sigue teniendo algo intocado e intocable.</p><p>II. Entonces, cada vez que me cruzo con algo que refiere al asunto, me quedo tildada, no puedo seguir de largo, quedé monotemática. En todos los demás libros dejé una cantidad de cosas afuera y eso no me molestaba. En este, me pone mal encontrarme con cosas que podrían haber estado. Por ejemplo, escucho “Jardín de gente”, de Spinetta, una vez más y resulta que escucho, como si fuera la primera vez, este verso: “Con dinero no se inventa el amor”. Y me da ganas de pensar algo sobre eso. No es que no lo haya pensado en el libro, pero ahora pienso otras cosas. Por ejemplo, la relación entre la invención y la no posesión; entre la imaginación y la no posesión, entre Eros y la desposesión de sí. Eros y el deseo que, justamente, no es un bien, no es la posesión de un objeto. Pero, insisto, ahora me tildo en la palabra invención. En que con dinero no se puede inventar el amor. Me volví a acordar de esto que dice Roland Barthes: “Estar con quien se ama y pensar en otra cosa: es de esta manera como tengo los mejores pensamientos, como invento lo mejor”. Estar con el otro, pero no llenar el espacio entre uno y el otro, no apelmazarse con el otro, no encimarse. Inventar el amor requiere espacio. La posesión lo impide. Y por eso la vehemencia de Allouch cuando dice “el amor posesivo no existe. Hay una antinomia entre poseer y amar”. Y por eso la vehemencia de Anne Carson cuando dice “Eros es expropiación”.</p><p>III. Llega a mis manos un libro que me interesa muchísimo, se llama Bronca. Cómo organizar el malestar social, de Rocco Carbone, editado por Sudamericana. Lo abro y empiezo a hojearlo. En principio me gusta mucho cómo está organizado en fragmentos. Pero aparece un fragmento del que ya no puedo pasar. No sólo por lo mucho que me interesa, sino porque, si bien la abordé en el libro, es una de las cosas que me siguen suscitando molestias: el pasaje total de la materialidad a la digitalidad. Cito a Carbone: “El dinero, para el capitalismo, no tiene historia. Se lo enuncia desde los tiempos remotos del imperio romano con una pequeña oración repleta de cinismo pecunia non olet. Y huele menos en el instante de la digitalización del capital (…). Puesto que el dinero no huele, los poderosos –sujetos y grupos– fugan “sus” capitales hacia cuevas fiscales y hacia la inmaterialidad de las plataformas digitales –aparatos del capitalismo digital– a un clic de distancia”.</p><p>IV. En este caso se trata de dinero, pero esa distancia con la materialidad y ese pasaje a lo digital también afecta los cuerpos. La digitalización de la vida cotidiana es funcional a lo intocable, a lo intocado. La represión se expande cómodamente en la digitalidad. La digitalidad es una gran aliada de la distancia, de la falta de contacto, de la imposibilidad cada vez mayor de establecer lazos. Y ahora me refiero no sólo a la distancia de los cuerpos, sino a la distancia también metafórica. Al ensimismamiento en el que cada uno de nosotros anda. Falta de contacto no sólo porque ya no tocamos a los otros, no los escuchamos, sino porque al estar conectados todo el tiempo, no estamos en contacto.</p><p>V. Algo de esto pensé en el libro, pero luego, a partir de una determinada conversación, me quedé pensando todavía más. A partir de la pandemia, casi la mayoría de los pagos al analista se hacen por transferencia bancaria. Lo lamento mucho. Primero, porque el acto de pagar, ese mero acto, despliega toda una serie de detalles que dicen mucho. Incluso aunque el analista no interprete eso, o no lo interprete necesariamente. La gesticulación alrededor del dinero, los modos de entregarlo, la demora, el rodeo, la ejecutividad precisa, etc., dicen mucho. Y bastante de eso queda escatimado en la transferencia bancaria, casi que el que queda escatimado es el sujeto. Incluso cuando no va a pagar, o cuando se olvida de pagar, se ahorra la incomodidad de asumir eso. Y pienso que se va a armando una especie de demanda infantil: que el analista le recuerde que debe, hacer pasar todo el tiempo por el Otro la mención del pago. El olvido del pago es un olvido que, como otros, habrá que desplegar en la sesión. Pero el sujeto escondido detrás del “comprobante de transferencia” que se manda o se “olvida” de mandar, produce demasiados actos fallidos. Aparecer, hacerse presente y asumir el acto del pago o asumir que no se va a pagar, siempre son gestos más propiciatorios. Seguir escondidos detrás del comprobante de transferencia y pretender que el que “controle” eso sea el analista no deja de ser un gesto pueril que, por supuesto, también habrá que pensar en la sesión. En todo caso, resulta una escena bastante tediosa, trabajosa y para nada interesante en la escena transferencial. Y, como si fuera poco, el analista, que es una persona que vive en este mundo y en esta época, tiene ahora una tarea más: controlar los comprobantes de pago de cada sesión de cada paciente. Tarea que, por supuesto, muchos no asumimos y por no asumirla, aceptamos perder. Entiendo que transferir es más “cómodo”, pero en estas escenas lo que se advierte es que la comodidad es funcional a la neurosis de cada quien, en esa comodidad no se nota nada, el sujeto no se nota, ni se anoticia de nada. Además, ¿quién dijo que el análisis tiene que ser cómodo?</p><p>Por otra parte, también lo lamento porque no me gusta que se use la misma palabra que se usa para ese acontecimiento tan lindo llamado transferencia.</p><p>VII. Por último, algo en lo que me metí en el libro y que, sin embargo, no olvidé, versa alrededor de las características de este capitalismo actual. Porque puesta a pensar en la diferencia entre los millonarios de antes y los de ahora, encuentro ahora esto que dice Rocco Carbone y que precisa muy bien las cosas: “El capitalismo del siglo XXI ya no lucha por algo, sino que viene por todo y la contradicción principal que lo sostiene ya no es capital versus trabajo, sino versus vida. Hemos pasado de la concepción vital de trabajar full time a la otra: trabajar full life, sea bajo la modalidad del trabajo formal, informal, cooperativista, monotributista, cartonero, de plataforma o intermitente. El capitalismo delirante (…) es un poder de conquista total que afecta a las entidades vivientes”. ¿Qué hacer? En principio, por mi parte, voy a terminar de leer el libro de Carbone, un libro que tiene aire, el aire de lo posible, el aire de lo común. Dejo esto que suscitó en mí la convicción de que no estamos solos: “Queda organizar un movimiento a la igualdad porque el capitalismo en su fase fascista (…) tiende a aumentar todas las desigualdades. La igualdad, esa virtud, es la imaginación de la diferencia no jerárquica. Y esa imaginación, en cuanto tal, nos sugiere reinventar lo existente”.</p><p>Reinventar lo existente, repito en voz alta.</p>",
-      "url": "https://cenital.com/repeticion-y-diferencia/",
-      "image": "https://cenital.com/wp-content/uploads/2026/11/Cenital_Rediseno2026_Portada-Notas_Kohan_Web_37.jpg",
-      "publishedAt": "2026-11-08T12:30:00+00:00",
-      "sourceId": "cenital",
-      "sourceName": "Cenital",
-      "sourceType": "Análisis y Geopolítica",
-      "sourceSite": "https://cenital.com",
+      "id": "jacobinlat-741cf16a9a",
+      "title": "Brasil y las lecciones estratégicas de la lucha contra la extrema derecha",
+      "summary": "La remontada de Lula confirma una estrategia que rechaza tanto la moderación programática como el aislamiento sectario. La movilización popular que derrotó a la derecha nació de la batalla electoral y abrió la posibilidad de pasar de la resistencia a la ofensiva. La entrada Brasil y las lecciones estratégicas de la lucha contra la...",
+      "content": "<p>La remontada de Lula confirma una estrategia que rechaza tanto la moderación programática como el aislamiento sectario. La movilización popular que derrotó a la derecha nació de la batalla electoral y abrió la posibilidad de pasar de la resistencia a la ofensiva.</p><p>La entrada Brasil y las lecciones estratégicas de la lucha contra la extrema derecha se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/brasil-y-las-lecciones-estrategicas-de-la-lucha-contra-la-extrema-derecha/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/Pt.jpg",
+      "publishedAt": "2026-11-08T15:52:32+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
       "region": "latam",
-      "country": "Argentina",
+      "country": "Latinoamérica",
       "independent": true,
-      "category": "Política y Actualidad",
+      "category": "Geopolítica y Mundo",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 79,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+      "relevanceScore": 80,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "ciper-c54c8a6a01",
@@ -3486,6 +3656,46 @@
       "relevanceTier": "alta",
       "relevanceScore": 96,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "jacobinlat-5a4cc50991",
+      "title": "No alcanza con estar en contra del capitalismo",
+      "summary": "Los socialistas necesitamos algo más que una crítica del capitalismo. Necesitamos una descripción concreta de cómo podría funcionar una economía socialista y de cómo mejoraría la vida de la gente común. La entrada No alcanza con estar en contra del capitalismo se publicó primero en Jacobin Revista .",
+      "content": "<p>Los socialistas necesitamos algo más que una crítica del capitalismo. Necesitamos una descripción concreta de cómo podría funcionar una economía socialista y de cómo mejoraría la vida de la gente común.</p><p>La entrada No alcanza con estar en contra del capitalismo se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/no-alcanza-con-estar-en-contra-del-capitalismo/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/fabrica.jpg",
+      "publishedAt": "2026-11-08T13:57:54+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 85,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "cenital-a7b087bfdb",
+      "title": "Repetición y diferencia",
+      "summary": "Después de entregar un libro, rara vez queda algo por decir. Sobre el dinero todavía hay mucho por elaborar, porque está vivo y en transformación.",
+      "content": "<p>I. Me suele pasar que, luego de publicar un libro, algo de la pregunta que me llevó a escribirlo se calma, se aquieta. La culminación del trabajo coincide, en algún sentido, con la culminación de la inquietud, del entusiasmo por saber, de las ganas de seguir en el asunto. Por un tiempo, ya no quiero saber más nada con eso. Quiero que, por el contrario, eso mismo que dije y que escribí tenga sus efectos y, en todo caso, que sean otros lo que digan. Pero esta vez, una vez publicado El libro del dinero, no me está pasando. Me pasa que sigo con inquietud, con ganas de seguir pensando. Como si no terminara de poder pasar a otra cosa. Y es que si bien todos los asuntos de los que me ocupé anteriormente (amor, cuerpo, humor) son asuntos vivos, el dinero quizás lo sea todavía más, en el sentido en que no hay modo de soslayarlo, está todo el tiempo presente. Siempre se lo puede seguir escrutando, porque mantiene su dimensión de enigma y, por supuesto, de tabú. Sigue teniendo algo intocado e intocable.</p><p>II. Entonces, cada vez que me cruzo con algo que refiere al asunto, me quedo tildada, no puedo seguir de largo, quedé monotemática. En todos los demás libros dejé una cantidad de cosas afuera y eso no me molestaba. En este, me pone mal encontrarme con cosas que podrían haber estado. Por ejemplo, escucho “Jardín de gente”, de Spinetta, una vez más y resulta que escucho, como si fuera la primera vez, este verso: “Con dinero no se inventa el amor”. Y me da ganas de pensar algo sobre eso. No es que no lo haya pensado en el libro, pero ahora pienso otras cosas. Por ejemplo, la relación entre la invención y la no posesión; entre la imaginación y la no posesión, entre Eros y la desposesión de sí. Eros y el deseo que, justamente, no es un bien, no es la posesión de un objeto. Pero, insisto, ahora me tildo en la palabra invención. En que con dinero no se puede inventar el amor. Me volví a acordar de esto que dice Roland Barthes: “Estar con quien se ama y pensar en otra cosa: es de esta manera como tengo los mejores pensamientos, como invento lo mejor”. Estar con el otro, pero no llenar el espacio entre uno y el otro, no apelmazarse con el otro, no encimarse. Inventar el amor requiere espacio. La posesión lo impide. Y por eso la vehemencia de Allouch cuando dice “el amor posesivo no existe. Hay una antinomia entre poseer y amar”. Y por eso la vehemencia de Anne Carson cuando dice “Eros es expropiación”.</p><p>III. Llega a mis manos un libro que me interesa muchísimo, se llama Bronca. Cómo organizar el malestar social, de Rocco Carbone, editado por Sudamericana. Lo abro y empiezo a hojearlo. En principio me gusta mucho cómo está organizado en fragmentos. Pero aparece un fragmento del que ya no puedo pasar. No sólo por lo mucho que me interesa, sino porque, si bien la abordé en el libro, es una de las cosas que me siguen suscitando molestias: el pasaje total de la materialidad a la digitalidad. Cito a Carbone: “El dinero, para el capitalismo, no tiene historia. Se lo enuncia desde los tiempos remotos del imperio romano con una pequeña oración repleta de cinismo pecunia non olet. Y huele menos en el instante de la digitalización del capital (…). Puesto que el dinero no huele, los poderosos –sujetos y grupos– fugan “sus” capitales hacia cuevas fiscales y hacia la inmaterialidad de las plataformas digitales –aparatos del capitalismo digital– a un clic de distancia”.</p><p>IV. En este caso se trata de dinero, pero esa distancia con la materialidad y ese pasaje a lo digital también afecta los cuerpos. La digitalización de la vida cotidiana es funcional a lo intocable, a lo intocado. La represión se expande cómodamente en la digitalidad. La digitalidad es una gran aliada de la distancia, de la falta de contacto, de la imposibilidad cada vez mayor de establecer lazos. Y ahora me refiero no sólo a la distancia de los cuerpos, sino a la distancia también metafórica. Al ensimismamiento en el que cada uno de nosotros anda. Falta de contacto no sólo porque ya no tocamos a los otros, no los escuchamos, sino porque al estar conectados todo el tiempo, no estamos en contacto.</p><p>V. Algo de esto pensé en el libro, pero luego, a partir de una determinada conversación, me quedé pensando todavía más. A partir de la pandemia, casi la mayoría de los pagos al analista se hacen por transferencia bancaria. Lo lamento mucho. Primero, porque el acto de pagar, ese mero acto, despliega toda una serie de detalles que dicen mucho. Incluso aunque el analista no interprete eso, o no lo interprete necesariamente. La gesticulación alrededor del dinero, los modos de entregarlo, la demora, el rodeo, la ejecutividad precisa, etc., dicen mucho. Y bastante de eso queda escatimado en la transferencia bancaria, casi que el que queda escatimado es el sujeto. Incluso cuando no va a pagar, o cuando se olvida de pagar, se ahorra la incomodidad de asumir eso. Y pienso que se va a armando una especie de demanda infantil: que el analista le recuerde que debe, hacer pasar todo el tiempo por el Otro la mención del pago. El olvido del pago es un olvido que, como otros, habrá que desplegar en la sesión. Pero el sujeto escondido detrás del “comprobante de transferencia” que se manda o se “olvida” de mandar, produce demasiados actos fallidos. Aparecer, hacerse presente y asumir el acto del pago o asumir que no se va a pagar, siempre son gestos más propiciatorios. Seguir escondidos detrás del comprobante de transferencia y pretender que el que “controle” eso sea el analista no deja de ser un gesto pueril que, por supuesto, también habrá que pensar en la sesión. En todo caso, resulta una escena bastante tediosa, trabajosa y para nada interesante en la escena transferencial. Y, como si fuera poco, el analista, que es una persona que vive en este mundo y en esta época, tiene ahora una tarea más: controlar los comprobantes de pago de cada sesión de cada paciente. Tarea que, por supuesto, muchos no asumimos y por no asumirla, aceptamos perder. Entiendo que transferir es más “cómodo”, pero en estas escenas lo que se advierte es que la comodidad es funcional a la neurosis de cada quien, en esa comodidad no se nota nada, el sujeto no se nota, ni se anoticia de nada. Además, ¿quién dijo que el análisis tiene que ser cómodo?</p><p>Por otra parte, también lo lamento porque no me gusta que se use la misma palabra que se usa para ese acontecimiento tan lindo llamado transferencia.</p><p>VII. Por último, algo en lo que me metí en el libro y que, sin embargo, no olvidé, versa alrededor de las características de este capitalismo actual. Porque puesta a pensar en la diferencia entre los millonarios de antes y los de ahora, encuentro ahora esto que dice Rocco Carbone y que precisa muy bien las cosas: “El capitalismo del siglo XXI ya no lucha por algo, sino que viene por todo y la contradicción principal que lo sostiene ya no es capital versus trabajo, sino versus vida. Hemos pasado de la concepción vital de trabajar full time a la otra: trabajar full life, sea bajo la modalidad del trabajo formal, informal, cooperativista, monotributista, cartonero, de plataforma o intermitente. El capitalismo delirante (…) es un poder de conquista total que afecta a las entidades vivientes”. ¿Qué hacer? En principio, por mi parte, voy a terminar de leer el libro de Carbone, un libro que tiene aire, el aire de lo posible, el aire de lo común. Dejo esto que suscitó en mí la convicción de que no estamos solos: “Queda organizar un movimiento a la igualdad porque el capitalismo en su fase fascista (…) tiende a aumentar todas las desigualdades. La igualdad, esa virtud, es la imaginación de la diferencia no jerárquica. Y esa imaginación, en cuanto tal, nos sugiere reinventar lo existente”.</p><p>Reinventar lo existente, repito en voz alta.</p>",
+      "url": "https://cenital.com/repeticion-y-diferencia/",
+      "image": "https://cenital.com/wp-content/uploads/2026/11/Cenital_Rediseno2026_Portada-Notas_Kohan_Web_37.jpg",
+      "publishedAt": "2026-11-08T12:30:00+00:00",
+      "sourceId": "cenital",
+      "sourceName": "Cenital",
+      "sourceType": "Análisis y Geopolítica",
+      "sourceSite": "https://cenital.com",
+      "region": "latam",
+      "country": "Argentina",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 79,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
       "id": "eldesconcierto-192d34e5d9",
@@ -3928,24 +4138,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "interferencia-b45b2df1cd",
-      "title": "“Hay muchos casos que tienen que haber tenido reincidencias”: Arenas explica rebajas de condena a delincuentes que volvieron a cometer delitos",
-      "summary": "Las declaraciones de Arenas llegaron al término del comité político que encabezó el Presidente Kast tras su regreso de Europa, y pocas horas después de que se conociera un caso documentado de reincidencia. Como dio a conocer Interferencia en un artículo publicado este viernes , el venezolano Edixon Escobar García, a quien el ministro...",
-      "content": "<p>Las declaraciones de Arenas llegaron al término del comité político que encabezó el Presidente Kast tras su regreso de Europa, y pocas horas después de que se conociera un caso documentado de reincidencia. Como dio a conocer Interferencia en un artículo publicado este viernes, el venezolano Edixon Escobar García, a quien el ministro Rabat le rebajó seis meses de condena por narcotráfico el 23 de abril, permanece en prisión preventiva desde el 30 de octubre en Arica, imputado nuevamente por tráfico de drogas.</p><p>Frente a ese caso, el vocero optó por ampliar el foco. “Son miles y miles de casos que han sido beneficiados con esta ley de rebaja de condenas”, sostuvo, y defendió que “no fue este gobierno el que ha dejado libre a personas”. Según precisó Arenas “las personas que se acogieron al beneficio de rebaja de condenas vienen del año 2003”. Las reincidencias, indicó, se explicarían porque la ley “no tenía exclusiones” más allá de los delitos sexuales.</p><p>El argumento no es nuevo. El 27 de octubre, consultado por los informes de Gendarmería que advertían un alto riesgo de reincidencia en algunos de los beneficiados, el propio Rabat había dicho que “no es el Ministerio de Justicia quien analiza el mérito de la solicitud” y que, en el sistema vigente desde 2003, “ese riesgo siempre ha estado latente”, como recogió 24 Horas.</p><p>El proyecto que el gobierno patrocinará es una moción de los senadores Andrés Longton (RN), Arturo Squella (Republicano), Karim Bianchi (IND) y Pedro Araya (PPD), que elimina el beneficio para todos los condenados y no solo para quienes cometieron delitos sexuales. “Ni siquiera vamos a tratar de dar una interpretación más adecuada”, afirmó Arenas. “Nadie más va a poder acceder a estos beneficios de rebaja de penas”, agregó.</p><p>El vocero también cargó contra la oposición, a la que acusó de no haber logrado el acuerdo para que la Comisión de Constitución del Senado comenzara a tramitar los proyectos que restringen los beneficios penitenciarios. A su juicio, esa postura “demuestra una pequeñez política gigantesca” y confirma que “se está estirando esta famosa presentación de la acusación constitucional” contra Rabat, reprochó en declaraciones recogidas por CNN Chile.</p><p>Consultado por un eventual ajuste ministerial que dejara fuera al titular de Justicia, Arenas fue categórico: “No hay cambios de gabinete actualmente en nuestro gobierno”. “Todos los ministros cuentan con el respaldo del Presidente de la República”, insistió. Era la segunda vez en la semana que el vocero cerraba esa puerta. El miércoles 4 ya había asegurado que “nadie en el gobierno está hablando o pensando en un cambio de gabinete” y que, “mientras esté este gabinete, cuenta con todo el respaldo del Presidente de la República”.</p><p>Las aristas que complican al ministro</p><p>El respaldo del gobierno llega en la semana en que el caso sumó nuevos frentes. Desde que Interferencia reveló el 21 de octubre los 56 decretos que rebajaron condenas a condenados por delitos sexuales contra menores, y que el ministro atribuyó a la Corte Suprema, este medio ha publicado los decretos que desmienten la “doctrina Rabat”, las rebajas a integrantes de una banda que decía ser del Tren de Aragua, las que el ministerio aprobó pese a las objeciones de sus propias Seremi y, este jueves, las que beneficiaron a extranjeros condenados por narcotráfico.</p><p>Otros medios han abierto nuevas líneas. El miércoles 4, Ciper analizó 15 recursos de amparo presentados este año por condenados por delitos sexuales contra menores. En 13 de ellos, las cortes de Santiago y Valparaíso solo ordenaron al ministerio pronunciarse, y en uno los jueces precisaron que podía “reconocer o rechazar el beneficio”, lo que contradice la tesis de Rabat de que estaba obligado a conceder las rebajas. Al día siguiente, Reportea documentó que entre marzo y junio la Corte Suprema confirmó al menos seis rechazos del ministerio a este tipo de rebajas, fallos que Rabat no mencionó ante el Congreso.</p><p>La unidad de investigación de BioBioChile, en tanto, ha identificado a 43 de los 56 beneficiados, en un caso en que el ministerio aún no entrega la nómina completa. Y este viernes, T13 informó que Rabat abrió un sumario para determinar quién filtró los decretos, mientras sondea abogados para su defensa ante la acusación constitucional que la oposición prepara presentar en los próximos días.</p><p>Oficio por los extranjeros beneficiados</p><p>La arista de los extranjeros también llegó al Congreso. Este viernes, a partir de lo revelado por Interferencia, los diputados Juan Santana (PS), César Valenzuela (PS), Consuelo Veloso (FA) y Marcos Barraza (PC) oficiaron al Servicio Nacional de Migraciones, a la Subsecretaría del Interior y a la Policía de Investigaciones (PDI), que hoy depende del Ministerio de Seguridad, para conocer la situación migratoria de los extranjeros condenados por drogas que recibieron rebajas de condena. Los parlamentarios piden precisar cuántos tenían una orden de expulsión vigente, cuántos fueron efectivamente expulsados al salir de la cárcel y cuántos permanecen hoy en Chile.</p><p>Santana calificó la consulta como “muy sencilla”: saber “si es que realizaron los actos administrativos necesarios para concretar estas expulsiones”. Veloso planteó la necesidad de conocer “cuál es el estado de estas personas” y “si es que van a hacer su trabajo realmente y a decretar estas órdenes de expulsión”, “para evitar seguir manteniendo en riesgo permanente a la población”.</p><p>Barraza fue más duro: “Este se suponía que iba a ser el gobierno de la seguridad pública”, reprochó, antes de acusar a “un gobierno que trata con amor a los delincuentes”. Valenzuela, en tanto, ironizó que “nunca tuvimos dudas que este gobierno iba a ser el gobierno que iba a defender a los súper ricos”, y agregó: “nos sorprende que además se haya transformado en el gobierno que defiende a los narcos”.</p>",
-      "url": "https://interferencia.cl/%3Ca%20href%3D%22/articulos/hay-muchos-casos-que-tienen-que-haber-tenido-reincidencias-arenas-explica-rebajas-de%22%3E%E2%80%9CHay%20muchos%20casos%20que%20tienen%20que%20haber%20tenido%20reincidencias%E2%80%9D%3A%20Arenas%20explica%20rebajas%20de%20condena%20a%20delincuentes%20que%20volvieron%20a%20cometer%20delitos%3C/a%3E",
-      "image": "https://interferencia.cl/sites/default/files/styles/article/public/captura_de_pantalla_2026-11-06_a_las_19.50.04.png?itok=5Qn2_vFY&amp;c=f255b451a7cde26e19f2747a635a45ab",
-      "publishedAt": "2026-11-07T09:00:00+00:00",
-      "sourceId": "interferencia",
-      "sourceName": "Interferencia",
-      "sourceType": "Investigación y Poder",
-      "sourceSite": "https://interferencia.cl",
-      "region": "chile",
-      "country": "Chile",
+      "id": "jacobinlat-ee9cf47bcc",
+      "title": "DSA evalúa una candidatura presidencial de AOC en 2028",
+      "summary": "Los miembros de los Socialistas Democráticos de Estados Unidos (DSA) están pensando seriamente en una campaña presidencial nacional de Alexandria Ocasio-Cortez en 2028 que llegaría a millones de trabajadores y tendría el potencial de transformar la política estadounidense. La entrada DSA evalúa una candidatura presidencial de AOC en...",
+      "content": "<p>Los miembros de los Socialistas Democráticos de Estados Unidos (DSA) están pensando seriamente en una campaña presidencial nacional de Alexandria Ocasio-Cortez en 2028 que llegaría a millones de trabajadores y tendría el potencial de transformar la política estadounidense.</p><p>La entrada DSA evalúa una candidatura presidencial de AOC en 2028 se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/dsa-evalua-una-candidatura-presidencial-de-aoc-en-2028/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/304435546798.jpg",
+      "publishedAt": "2026-11-07T10:22:44+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 97,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Geopolítica y Mundo",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "eldesconcierto-00282048ec",
@@ -3965,6 +4175,26 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 84,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "interferencia-b45b2df1cd",
+      "title": "“Hay muchos casos que tienen que haber tenido reincidencias”: Arenas explica rebajas de condena a delincuentes que volvieron a cometer delitos",
+      "summary": "Las declaraciones de Arenas llegaron al término del comité político que encabezó el Presidente Kast tras su regreso de Europa, y pocas horas después de que se conociera un caso documentado de reincidencia. Como dio a conocer Interferencia en un artículo publicado este viernes , el venezolano Edixon Escobar García, a quien el ministro...",
+      "content": "<p>Las declaraciones de Arenas llegaron al término del comité político que encabezó el Presidente Kast tras su regreso de Europa, y pocas horas después de que se conociera un caso documentado de reincidencia. Como dio a conocer Interferencia en un artículo publicado este viernes, el venezolano Edixon Escobar García, a quien el ministro Rabat le rebajó seis meses de condena por narcotráfico el 23 de abril, permanece en prisión preventiva desde el 30 de octubre en Arica, imputado nuevamente por tráfico de drogas.</p><p>Frente a ese caso, el vocero optó por ampliar el foco. “Son miles y miles de casos que han sido beneficiados con esta ley de rebaja de condenas”, sostuvo, y defendió que “no fue este gobierno el que ha dejado libre a personas”. Según precisó Arenas “las personas que se acogieron al beneficio de rebaja de condenas vienen del año 2003”. Las reincidencias, indicó, se explicarían porque la ley “no tenía exclusiones” más allá de los delitos sexuales.</p><p>El argumento no es nuevo. El 27 de octubre, consultado por los informes de Gendarmería que advertían un alto riesgo de reincidencia en algunos de los beneficiados, el propio Rabat había dicho que “no es el Ministerio de Justicia quien analiza el mérito de la solicitud” y que, en el sistema vigente desde 2003, “ese riesgo siempre ha estado latente”, como recogió 24 Horas.</p><p>El proyecto que el gobierno patrocinará es una moción de los senadores Andrés Longton (RN), Arturo Squella (Republicano), Karim Bianchi (IND) y Pedro Araya (PPD), que elimina el beneficio para todos los condenados y no solo para quienes cometieron delitos sexuales. “Ni siquiera vamos a tratar de dar una interpretación más adecuada”, afirmó Arenas. “Nadie más va a poder acceder a estos beneficios de rebaja de penas”, agregó.</p><p>El vocero también cargó contra la oposición, a la que acusó de no haber logrado el acuerdo para que la Comisión de Constitución del Senado comenzara a tramitar los proyectos que restringen los beneficios penitenciarios. A su juicio, esa postura “demuestra una pequeñez política gigantesca” y confirma que “se está estirando esta famosa presentación de la acusación constitucional” contra Rabat, reprochó en declaraciones recogidas por CNN Chile.</p><p>Consultado por un eventual ajuste ministerial que dejara fuera al titular de Justicia, Arenas fue categórico: “No hay cambios de gabinete actualmente en nuestro gobierno”. “Todos los ministros cuentan con el respaldo del Presidente de la República”, insistió. Era la segunda vez en la semana que el vocero cerraba esa puerta. El miércoles 4 ya había asegurado que “nadie en el gobierno está hablando o pensando en un cambio de gabinete” y que, “mientras esté este gabinete, cuenta con todo el respaldo del Presidente de la República”.</p><p>Las aristas que complican al ministro</p><p>El respaldo del gobierno llega en la semana en que el caso sumó nuevos frentes. Desde que Interferencia reveló el 21 de octubre los 56 decretos que rebajaron condenas a condenados por delitos sexuales contra menores, y que el ministro atribuyó a la Corte Suprema, este medio ha publicado los decretos que desmienten la “doctrina Rabat”, las rebajas a integrantes de una banda que decía ser del Tren de Aragua, las que el ministerio aprobó pese a las objeciones de sus propias Seremi y, este jueves, las que beneficiaron a extranjeros condenados por narcotráfico.</p><p>Otros medios han abierto nuevas líneas. El miércoles 4, Ciper analizó 15 recursos de amparo presentados este año por condenados por delitos sexuales contra menores. En 13 de ellos, las cortes de Santiago y Valparaíso solo ordenaron al ministerio pronunciarse, y en uno los jueces precisaron que podía “reconocer o rechazar el beneficio”, lo que contradice la tesis de Rabat de que estaba obligado a conceder las rebajas. Al día siguiente, Reportea documentó que entre marzo y junio la Corte Suprema confirmó al menos seis rechazos del ministerio a este tipo de rebajas, fallos que Rabat no mencionó ante el Congreso.</p><p>La unidad de investigación de BioBioChile, en tanto, ha identificado a 43 de los 56 beneficiados, en un caso en que el ministerio aún no entrega la nómina completa. Y este viernes, T13 informó que Rabat abrió un sumario para determinar quién filtró los decretos, mientras sondea abogados para su defensa ante la acusación constitucional que la oposición prepara presentar en los próximos días.</p><p>Oficio por los extranjeros beneficiados</p><p>La arista de los extranjeros también llegó al Congreso. Este viernes, a partir de lo revelado por Interferencia, los diputados Juan Santana (PS), César Valenzuela (PS), Consuelo Veloso (FA) y Marcos Barraza (PC) oficiaron al Servicio Nacional de Migraciones, a la Subsecretaría del Interior y a la Policía de Investigaciones (PDI), que hoy depende del Ministerio de Seguridad, para conocer la situación migratoria de los extranjeros condenados por drogas que recibieron rebajas de condena. Los parlamentarios piden precisar cuántos tenían una orden de expulsión vigente, cuántos fueron efectivamente expulsados al salir de la cárcel y cuántos permanecen hoy en Chile.</p><p>Santana calificó la consulta como “muy sencilla”: saber “si es que realizaron los actos administrativos necesarios para concretar estas expulsiones”. Veloso planteó la necesidad de conocer “cuál es el estado de estas personas” y “si es que van a hacer su trabajo realmente y a decretar estas órdenes de expulsión”, “para evitar seguir manteniendo en riesgo permanente a la población”.</p><p>Barraza fue más duro: “Este se suponía que iba a ser el gobierno de la seguridad pública”, reprochó, antes de acusar a “un gobierno que trata con amor a los delincuentes”. Valenzuela, en tanto, ironizó que “nunca tuvimos dudas que este gobierno iba a ser el gobierno que iba a defender a los súper ricos”, y agregó: “nos sorprende que además se haya transformado en el gobierno que defiende a los narcos”.</p>",
+      "url": "https://interferencia.cl/%3Ca%20href%3D%22/articulos/hay-muchos-casos-que-tienen-que-haber-tenido-reincidencias-arenas-explica-rebajas-de%22%3E%E2%80%9CHay%20muchos%20casos%20que%20tienen%20que%20haber%20tenido%20reincidencias%E2%80%9D%3A%20Arenas%20explica%20rebajas%20de%20condena%20a%20delincuentes%20que%20volvieron%20a%20cometer%20delitos%3C/a%3E",
+      "image": "https://interferencia.cl/sites/default/files/styles/article/public/captura_de_pantalla_2026-11-06_a_las_19.50.04.png?itok=5Qn2_vFY&amp;c=f255b451a7cde26e19f2747a635a45ab",
+      "publishedAt": "2026-11-07T09:00:00+00:00",
+      "sourceId": "interferencia",
+      "sourceName": "Interferencia",
+      "sourceType": "Investigación y Poder",
+      "sourceSite": "https://interferencia.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "alta",
+      "relevanceScore": 97,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -4208,6 +4438,26 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
+      "id": "jacobinlat-f8769a43b0",
+      "title": "La biblioteca argentina del marxismo",
+      "summary": "Antes de 1976, el lector argentino tenía a mano más ediciones marxistas que en cualquier otro lugar de América Latina. Horacio Tarcus reconstruye ese proceso y la forma en que la dictadura de 1976 intentó destruirlo. La entrada La biblioteca argentina del marxismo se publicó primero en Jacobin Revista .",
+      "content": "<p>Antes de 1976, el lector argentino tenía a mano más ediciones marxistas que en cualquier otro lugar de América Latina. Horacio Tarcus reconstruye ese proceso y la forma en que la dictadura de 1976 intentó destruirlo.</p><p>La entrada La biblioteca argentina del marxismo se publicó primero en Jacobin Revista.</p>",
+      "url": "https://jacobinlat.com/2026/11/la-biblioteca-argentina-del-marxismo/",
+      "image": "https://jacobinlat.com/wp-content/uploads/2026/11/lomos.jpg",
+      "publishedAt": "2026-11-06T12:59:22+00:00",
+      "sourceId": "jacobinlat",
+      "sourceName": "Jacobin América Latina",
+      "sourceType": "Análisis Latinoamericano",
+      "sourceSite": "https://jacobinlat.com",
+      "region": "latam",
+      "country": "Latinoamérica",
+      "independent": true,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 80,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
       "id": "brecha-17a7315926",
       "title": "Sobre la justicia poética y sonora",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -4268,24 +4518,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-bbcbf0594c",
-      "title": "Adriana Calcanhotto Archivos",
-      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJamdNcnF3QzNjQWhlVGJsbGtWdS10eE5lRlVBT1YyM25OV05iWEtDRkZSYy1ON2FtaGFmNk9hb09laHBtUFhsaWNla2N0VU13OHhaX2x6RUhDUQ?oc=5",
+      "id": "eldesconcierto-8e0bf694a9",
+      "title": "Kast y su hombre de confianza: sin título y con sueldo de $4 millones como asesor de Iván Poduje",
+      "summary": "Nota publicada por El Desconcierto (Periodismo Independiente). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Kast y su hombre de confianza: sin título y con sueldo de $4 millones como asesor de Iván Poduje El Desconcierto</p>",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXd0SERQZFpMM2JlaVAxQ3gyVmlScmJ4Z2ttWi1hUVlISFRLYkVybVo0cG1OeTlxbGlqbG9fb0lpd3IzZVZiMXJvNi0tWnlVYlVUNEFkeWhlNlVVRUlkeVp0QnBuc3hMRF94M1NQT1h4bENlSFVMeF95b1NHSUtmZFplbUVLQzZGeU9OVncyeldIOFJFOE5LNlhzcXkxXzFfRTh6QWV2aDRQdFpYYjlzVWFVVzRTMk5kWGh0Zg?oc=5",
       "image": null,
-      "publishedAt": "2026-11-06T06:14:13+00:00",
-      "sourceId": "brecha",
-      "sourceName": "Semanario Brecha",
-      "sourceType": "Periodismo Indep. LatAm",
-      "sourceSite": "https://brecha.com.uy",
-      "region": "latam",
-      "country": "Uruguay",
+      "publishedAt": "2026-11-06T08:00:00+00:00",
+      "sourceId": "eldesconcierto",
+      "sourceName": "El Desconcierto",
+      "sourceType": "Periodismo Independiente",
+      "sourceSite": "https://eldesconcierto.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 78,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 84,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "interferencia-e5592c0565",
@@ -4308,13 +4558,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-957ad4f1ab",
-      "title": "Del papa anticomunista al pontífice antitrumpista",
+      "id": "brecha-bbcbf0594c",
+      "title": "Adriana Calcanhotto Archivos",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55NUpJRXNPTlJHcTktUnIwMkxpc0pXTVNKYUxQOFc0R0l1LVhGUXRHYy1uYlIzeUE5M01GMzdCWGxTTlBXYnE1VFEybG1PQUlURGVXcTVyNUVmVk8xLWxUVWpCUldHdEg3VzFtcUhuUm1pa3k1VzAxVFo2azY?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJamdNcnF3QzNjQWhlVGJsbGtWdS10eE5lRlVBT1YyM25OV05iWEtDRkZSYy1ON2FtaGFmNk9hb09laHBtUFhsaWNla2N0VU13OHhaX2x6RUhDUQ?oc=5",
       "image": null,
-      "publishedAt": "2026-11-06T03:33:25+00:00",
+      "publishedAt": "2026-11-06T06:14:13+00:00",
       "sourceId": "brecha",
       "sourceName": "Semanario Brecha",
       "sourceType": "Periodismo Indep. LatAm",
@@ -4324,7 +4574,7 @@
       "independent": true,
       "category": "Política y Actualidad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 82,
+      "relevanceScore": 78,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
@@ -4348,13 +4598,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-dc22454144",
-      "title": "Norman Flores",
+      "id": "brecha-957ad4f1ab",
+      "title": "Del papa anticomunista al pontífice antitrumpista",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUdlA0djlIVHo0ZFo1YlcwWWUxQUg4NDJ2dHpBaTM5NE9IaGYtSS1SUkdFVE00ZWl1aUx1S1M3LWpqVXo2QTlIbkdyNzRvSHIxZ2VMTlZR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55NUpJRXNPTlJHcTktUnIwMkxpc0pXTVNKYUxQOFc0R0l1LVhGUXRHYy1uYlIzeUE5M01GMzdCWGxTTlBXYnE1VFEybG1PQUlURGVXcTVyNUVmVk8xLWxUVWpCUldHdEg3VzFtcUhuUm1pa3k1VzAxVFo2azY?oc=5",
       "image": null,
-      "publishedAt": "2026-11-06T03:19:56+00:00",
+      "publishedAt": "2026-11-06T03:33:25+00:00",
       "sourceId": "brecha",
       "sourceName": "Semanario Brecha",
       "sourceType": "Periodismo Indep. LatAm",
@@ -4388,13 +4638,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "brecha-333facca3f",
-      "title": "El arca de Noé",
+      "id": "brecha-dc22454144",
+      "title": "Norman Flores",
       "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
       "content": "",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qWUFLMUNQTV9NcDN3cno4QXBNTXBtZUVLdGkwQlE5bTJtR3B2WklRNE1pTVJkbHJPZ2N6M1J5dENUVXRYeVZTVjhIM2Q1Wkhz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUdlA0djlIVHo0ZFo1YlcwWWUxQUg4NDJ2dHpBaTM5NE9IaGYtSS1SUkdFVE00ZWl1aUx1S1M3LWpqVXo2QTlIbkdyNzRvSHIxZ2VMTlZR?oc=5",
       "image": null,
-      "publishedAt": "2026-11-06T03:18:44+00:00",
+      "publishedAt": "2026-11-06T03:19:56+00:00",
       "sourceId": "brecha",
       "sourceName": "Semanario Brecha",
       "sourceType": "Periodismo Indep. LatAm",
@@ -4425,6 +4675,26 @@
       "category": "Medioambiente y Territorio",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 76,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "brecha-333facca3f",
+      "title": "El arca de Noé",
+      "summary": "Nota publicada por Semanario Brecha (Periodismo Indep. LatAm). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qWUFLMUNQTV9NcDN3cno4QXBNTXBtZUVLdGkwQlE5bTJtR3B2WklRNE1pTVJkbHJPZ2N6M1J5dENUVXRYeVZTVjhIM2Q1Wkhz?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-06T03:18:44+00:00",
+      "sourceId": "brecha",
+      "sourceName": "Semanario Brecha",
+      "sourceType": "Periodismo Indep. LatAm",
+      "sourceSite": "https://brecha.com.uy",
+      "region": "latam",
+      "country": "Uruguay",
+      "independent": true,
+      "category": "Política y Actualidad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 82,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
