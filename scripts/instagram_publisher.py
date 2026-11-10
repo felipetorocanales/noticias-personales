@@ -83,11 +83,6 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
     ig_account_id = ig_account_id or os.environ.get("INSTAGRAM_ACCOUNT_ID")
     ig_token = ig_token or os.environ.get("INSTAGRAM_ACCESS_TOKEN")
 
-    # 1. Generar la imagen visual
-    output_img = f"public/instagram_posts/{article['id']}.jpg"
-    create_instagram_card(article, output_img)
-    print(f"[IMAGEN] Imagen de publicación lista en: {output_img}")
-
     if not ig_account_id or not ig_token:
         print("\n" + "="*70)
         print("⚠️ CREDENCIALES DE INSTAGRAM NO DETECTADAS")
@@ -96,15 +91,46 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
         print("en tu cuenta de Instagram necesitas configurar 2 variables de entorno:")
         print("  1. INSTAGRAM_ACCOUNT_ID (El ID de tu cuenta profesional de Instagram)")
         print("  2. INSTAGRAM_ACCESS_TOKEN (Token generado en Meta for Developers)")
-        print("\n📌 Pasos para obtenerlas:")
-        print("  a) En tu Instagram: Cambia tu cuenta a 'Profesional / Creador' (gratis).")
-        print("  b) Vincula tu cuenta de Instagram a una página de Facebook.")
-        print("  c) Entra a developers.facebook.com -> Mis Apps -> Crear App (Negocios).")
-        print("  d) Agrega el producto 'Instagram Graph API' y genera un Token con permisos:")
-        print("     - instagram_basic")
-        print("     - instagram_content_publish")
         print("="*70)
         return False
+
+    norm_t = _norm_title(article.get("title", ""))
+
+    # 0. Verificación de seguridad A: Historial local
+    history = load_history()
+    if any(_norm_title(h.get("title", "")) == norm_t for h in history):
+        print(f"🛡️ [SEGURIDAD] La noticia '{article.get('title')}' ya existe en el historial local. Cancelando publicación duplicada.")
+        return True
+
+    # 0. Verificación de seguridad B: Chequeo en vivo en el feed de Instagram (Meta Graph API)
+    api_base = "https://graph.instagram.com/v20.0" if ig_token.startswith("IG") else "https://graph.facebook.com/v21.0"
+    try:
+        check_url = f"{api_base}/{ig_account_id}/media?fields=id,caption,timestamp&limit=20&access_token={ig_token}"
+        req_check = urllib.request.Request(check_url)
+        with urllib.request.urlopen(req_check, timeout=12) as c_resp:
+            media_data = json.loads(c_resp.read().decode()).get("data", [])
+            for item in media_data:
+                cap_first = _norm_title(item.get("caption", "").split("\n")[0])
+                if norm_t and (norm_t in cap_first or cap_first in norm_t or (len(norm_t) > 20 and norm_t[:25] in cap_first)):
+                    print(f"🛡️ [ANTI-DUPLICADO] La noticia '{article.get('title')}' YA ESTÁ publicada en Instagram (Post ID: {item.get('id')}). Sincronizando historial.")
+                    history.append({
+                        "articleId": article["id"],
+                        "articleUrl": article.get("url", ""),
+                        "sourceId": article.get("sourceId", ""),
+                        "title": article["title"],
+                        "postId": item.get("id"),
+                        "publishedAt": article.get("publishedAt"),
+                        "timestamp": item.get("timestamp") or datetime.now(timezone.utc).isoformat()
+                    })
+                    save_history(history)
+                    return True
+    except Exception as e:
+        print(f"[AVISO] Chequeo en vivo de Instagram no disponible: {e}")
+
+    # 1. Generar la imagen visual
+    output_img = f"public/instagram_posts/{article['id']}.jpg"
+    create_instagram_card(article, output_img)
+    print(f"[IMAGEN] Imagen de publicación lista en: {output_img}")
 
     # 2. Subir imagen a Cloud Storage para que Instagram la descargue en milisegundos
     bucket_url = f"gs://pulso-instagram-media/{article['id']}.jpg"
@@ -119,9 +145,6 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
 
     caption = generate_caption(article)
 
-    # Determinar endpoint según el tipo de token (Instagram Login vs Facebook Login)
-    api_base = "https://graph.instagram.com/v20.0" if ig_token.startswith("IG") else "https://graph.facebook.com/v21.0"
-
     # Paso A: Crear el contenedor del medio en Meta / Instagram
     print(f"[META] Creando contenedor de medio en Instagram ({api_base}) para cuenta {ig_account_id}...")
     container_url = f"{api_base}/{ig_account_id}/media"
@@ -133,7 +156,7 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
 
     try:
         req = urllib.request.Request(container_url, data=container_data)
-        with urllib.request.urlopen(req, timeout=20) as resp:
+        with urllib.request.urlopen(req, timeout=25) as resp:
             res_json = json.loads(resp.read().decode())
             creation_id = res_json.get("id")
             print(f"[META] Contenedor creado con ID: {creation_id}")
@@ -144,7 +167,7 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
     # Paso B: Esperar a que Meta termine de procesar el medio (status_code == 'FINISHED')
     print(f"[META] Esperando procesamiento del medio en Instagram...")
     import time
-    for _ in range(10):
+    for _ in range(15):
         time.sleep(2)
         try:
             status_url = f"{api_base}/{creation_id}?fields=status_code&access_token={ig_token}"
@@ -170,7 +193,7 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
 
     try:
         req = urllib.request.Request(publish_url, data=publish_data)
-        with urllib.request.urlopen(req, timeout=20) as resp:
+        with urllib.request.urlopen(req, timeout=30) as resp:
             publish_res = json.loads(resp.read().decode())
             post_id = publish_res.get("id")
             print(f"🎉 [ÉXITO] Noticia publicada en Instagram con Post ID: {post_id}")
@@ -189,6 +212,29 @@ def publish_to_instagram(article, ig_account_id=None, ig_token=None):
             return True
     except Exception as e:
         print(f"[ERROR] Error al publicar en Instagram: {e}")
+        # Rescate: Verificar si el post se publicó a pesar del error de socket/timeout
+        try:
+            check_url = f"{api_base}/{ig_account_id}/media?fields=id,caption,timestamp&limit=5&access_token={ig_token}"
+            with urllib.request.urlopen(urllib.request.Request(check_url), timeout=10) as c_resp:
+                media_data = json.loads(c_resp.read().decode()).get("data", [])
+                for item in media_data:
+                    cap_first = _norm_title(item.get("caption", "").split("\n")[0])
+                    if norm_t and (norm_t in cap_first or cap_first in norm_t):
+                        print(f"🎉 [RECUPERADO] El post sí se publicó en Meta con ID: {item.get('id')}. Guardando en historial.")
+                        history = load_history()
+                        history.append({
+                            "articleId": article["id"],
+                            "articleUrl": article.get("url", ""),
+                            "sourceId": article.get("sourceId", ""),
+                            "title": article["title"],
+                            "postId": item.get("id"),
+                            "publishedAt": article.get("publishedAt"),
+                            "timestamp": item.get("timestamp") or datetime.now(timezone.utc).isoformat()
+                        })
+                        save_history(history)
+                        return True
+        except Exception:
+            pass
         return False
 
 
@@ -354,10 +400,20 @@ def prepare_post():
         data = json.load(f)
     history = load_history()
     if not check_cooldown(history):
+        if os.path.exists(PENDING_POST_FILE):
+            try:
+                os.remove(PENDING_POST_FILE)
+            except Exception:
+                pass
         return None
     candidate = get_candidate(data, history)
     if not candidate:
         print("No se encontraron notas nuevas pendientes de publicar.")
+        if os.path.exists(PENDING_POST_FILE):
+            try:
+                os.remove(PENDING_POST_FILE)
+            except Exception:
+                pass
         return None
 
     print(f"Candidato preparado: [{candidate.get('category')}] {candidate.get('title')}")
@@ -376,7 +432,8 @@ def publish_pending_post():
     with open(PENDING_POST_FILE, "r", encoding="utf-8") as f:
         candidate = json.load(f)
     success = publish_to_instagram(candidate)
-    if success and os.path.exists(PENDING_POST_FILE):
+    # Si tuvo exito o ya estaba publicado, eliminar el archivo pendiente
+    if os.path.exists(PENDING_POST_FILE):
         try:
             os.remove(PENDING_POST_FILE)
         except Exception:

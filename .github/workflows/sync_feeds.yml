@@ -2,8 +2,8 @@ name: Pulso News Auto Sync
 
 on:
   schedule:
-    # Run every 15 minutes 24/7
-    - cron: '4,19,34,49 * * * *'
+    # Ejecutar cada 1 hora para optimizar cuota de GitHub Actions (dentro de las 2.000 min/mes gratuitas)
+    - cron: '15 10-23,0-3 * * *'
   workflow_dispatch:
 
 concurrency:
