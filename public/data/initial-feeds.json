@@ -1,15 +1,25 @@
 {
-  "generatedAt": "2026-11-10T11:49:12.892219+00:00",
+  "generatedAt": "2026-11-10T12:02:02.201402+00:00",
   "schemaVersion": 2,
   "maxAgeDays": 14.0,
   "googleNewsWindow": "when:7d",
-  "totalArticles": 212,
-  "totalBlockedFarandula": 7,
+  "totalArticles": 211,
+  "totalBlockedFarandula": 9,
   "blockedExamples": [
     {
       "title": "Colo-Colo y la soledad del poder",
       "source": "Interferencia",
       "reason": "fútbol"
+    },
+    {
+      "title": "Flavio Salazar, vicepdte. del Senado Universitario: “Defender la U. de Chile es defender capacidades estratégicas para el desarrollo del país”",
+      "source": "Radio U. de Chile",
+      "reason": "universidad de chile"
+    },
+    {
+      "title": "Trabzonspor reactivó interés por Marcelino Núñez ante falta de minutos en Ipswich",
+      "source": "Radio Cooperativa",
+      "reason": "mediocampista"
     },
     {
       "title": "¿Cuándo y dónde ver la final de la Copa de la Liga entre Coquimbo Unido y O'Higgins?",
@@ -512,7 +522,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 12.8
+      "newestAgeHours": 13.0
     },
     {
       "id": "interferencia",
@@ -525,7 +535,7 @@
       "count": 9,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 2.8
+      "newestAgeHours": 3.0
     },
     {
       "id": "fastcheck",
@@ -538,7 +548,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 15.0
+      "newestAgeHours": 15.2
     },
     {
       "id": "radiouchile",
@@ -549,7 +559,7 @@
       "independent": true,
       "status": "ok",
       "count": 10,
-      "blocked": 0,
+      "blocked": 1,
       "staleDropped": 0,
       "newestAgeHours": 0.0
     },
@@ -564,7 +574,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 16.7
+      "newestAgeHours": 16.9
     },
     {
       "id": "eldesconcierto",
@@ -577,7 +587,7 @@
       "count": 10,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 19.2
+      "newestAgeHours": 19.4
     },
     {
       "id": "laderasur",
@@ -587,10 +597,10 @@
       "type": "Naturaleza y Ciencia Indep.",
       "independent": true,
       "status": "ok",
-      "count": 9,
+      "count": 8,
       "blocked": 0,
-      "staleDropped": 9,
-      "newestAgeHours": 13.7
+      "staleDropped": 10,
+      "newestAgeHours": 87.2
     },
     {
       "id": "resumen",
@@ -603,7 +613,7 @@
       "count": 2,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 64.6
+      "newestAgeHours": 64.9
     },
     {
       "id": "elciudadano",
@@ -616,7 +626,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.4
+      "newestAgeHours": 0.6
     },
     {
       "id": "malaespina",
@@ -629,7 +639,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 16.2
+      "newestAgeHours": 0.0
     },
     {
       "id": "vergara240",
@@ -642,7 +652,7 @@
       "count": 1,
       "blocked": 0,
       "staleDropped": 17,
-      "newestAgeHours": 16.0
+      "newestAgeHours": 16.2
     },
     {
       "id": "terram",
@@ -655,7 +665,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 21.9
+      "newestAgeHours": 22.1
     },
     {
       "id": "timeline",
@@ -681,7 +691,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 13.1
+      "newestAgeHours": 13.3
     },
     {
       "id": "cooperativa",
@@ -692,9 +702,9 @@
       "independent": false,
       "status": "ok",
       "count": 6,
-      "blocked": 4,
+      "blocked": 5,
       "staleDropped": 1,
-      "newestAgeHours": 0.2
+      "newestAgeHours": 0.3
     },
     {
       "id": "elfaro",
@@ -720,7 +730,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 49.8
+      "newestAgeHours": 50.0
     },
     {
       "id": "lasillavacia",
@@ -733,7 +743,7 @@
       "count": 8,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 6.8
+      "newestAgeHours": 7.0
     },
     {
       "id": "ojopublico",
@@ -746,7 +756,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.1
+      "newestAgeHours": 4.3
     },
     {
       "id": "cuestionpublica",
@@ -759,7 +769,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 17.5
+      "newestAgeHours": 17.7
     },
     {
       "id": "chequeado",
@@ -772,7 +782,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 15,
-      "newestAgeHours": 256.0
+      "newestAgeHours": 256.2
     },
     {
       "id": "piedepagina",
@@ -785,7 +795,7 @@
       "count": 6,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 49.8
+      "newestAgeHours": 50.0
     },
     {
       "id": "cenital",
@@ -798,7 +808,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.6
+      "newestAgeHours": 0.8
     },
     {
       "id": "brecha",
@@ -811,7 +821,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 83.3
+      "newestAgeHours": 83.5
     },
     {
       "id": "jacobinlat",
@@ -824,7 +834,7 @@
       "count": 6,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.9
+      "newestAgeHours": 5.1
     },
     {
       "id": "ciclismo-chile",
@@ -837,7 +847,7 @@
       "count": 8,
       "blocked": 1,
       "staleDropped": 0,
-      "newestAgeHours": 10.0
+      "newestAgeHours": 10.2
     },
     {
       "id": "ciclo21",
@@ -850,7 +860,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.5
+      "newestAgeHours": 0.7
     },
     {
       "id": "brujulabike",
@@ -863,7 +873,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 2.6
+      "newestAgeHours": 2.8
     },
     {
       "id": "esciclismo",
@@ -876,7 +886,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": -1.0
+      "newestAgeHours": -0.8
     },
     {
       "id": "propublica",
@@ -889,7 +899,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.8
+      "newestAgeHours": 2.0
     },
     {
       "id": "bellingcat",
@@ -902,7 +912,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 7,
-      "newestAgeHours": 122.0
+      "newestAgeHours": 122.3
     },
     {
       "id": "theintercept",
@@ -915,7 +925,7 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 16.6
+      "newestAgeHours": 16.8
     },
     {
       "id": "eldiarioes",
@@ -928,7 +938,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 1.1
+      "newestAgeHours": 1.3
     },
     {
       "id": "elsalto",
@@ -941,7 +951,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 150.0
+      "newestAgeHours": 150.2
     },
     {
       "id": "sinpermiso",
@@ -967,7 +977,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 0.1
+      "newestAgeHours": 0.3
     },
     {
       "id": "dw",
@@ -980,7 +990,7 @@
       "count": 3,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 3.2
+      "newestAgeHours": 3.4
     },
     {
       "id": "globalvoices",
@@ -993,10 +1003,50 @@
       "count": 4,
       "blocked": 0,
       "staleDropped": 0,
-      "newestAgeHours": 4.8
+      "newestAgeHours": 5.0
     }
   ],
   "articles": [
+    {
+      "id": "esciclismo-dc3cfc722b",
+      "title": "Caja Rural-Alea debutará en la Vuelta al Táchira con Maestre como jefe de filas",
+      "summary": "El equipo navarro Caja Rural-Alea participará por primera vez en la Vuelta al Táchira en Bicicleta y se convierte en la segunda escuadra extranjera confirmada para la ronda...",
+      "content": "<p>El equipo navarro Caja Rural-Alea participar por primera vez en la Vuelta al Tchira en Bicicleta y se convierte en la segunda escuadra extranjera confirmada para la ronda andina, despus del conjunto colombiano GW Erco Sportfitness.</p><p>La participacin se anunci este lunes 9 de noviembre durante el programa &quot;Tiempo de Juego&quot;, emitido desde San Cristbal por San Sebastin 92.7 FM (Gran Circuito Lder). En la entrevista, el corredor venezolano Winston Maestre confirm que asumir el liderazgo del equipo espaol en las carreteras tachirenses.</p><p>Despus de una temporada en Europa condicionada por las cadas y los problemas de salud, Maestre afrontar la cita con una motivacin renovada y un plan de preparacin fsica iniciado hace mes y medio.</p><p>&quot;Tengo una ilusin muy grande; este ao fue bastante duro por las cadas y la salud, pero espero empezar la temporada con buen pie y terminarla con toda la energa posible&quot;, declar el ciclista natural de Los Puertos de Altagracia.</p><p>Con la incorporacin de la filial formativa del conjunto espaol Caja Rural-Alea, la Vuelta al Tchira, que celebrar este ao su 62 edicin, refuerza su perfil tcnico e internacional antes del inicio del calendario de la Unin Ciclista Internacional (UCI) en Venezuela.</p><p>Quieres recibir nuestras alertas de ciclismo?Te enviaremos slo las noticias ms relevantes.</p>",
+      "url": "https://www.esciclismo.com/actualidad/carretera/93778.html",
+      "image": "https://www.esciclismo.com/actualidad/imagenes/b/vuelta-al-tachira-peloton-et8-2026-vtachira-wh.jpg",
+      "publishedAt": "2026-11-10T12:52:00+00:00",
+      "sourceId": "esciclismo",
+      "sourceName": "EsCiclismo",
+      "sourceType": "Ciclismo Global y Pruebas UCI",
+      "sourceSite": "https://www.esciclismo.com",
+      "region": "mundo",
+      "country": "España",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+    },
+    {
+      "id": "malaespina-816dd46028",
+      "title": "Cuidado con este correo que suplanta a la Administradora de Fondos de Cesantía y advierte deudas previsionales: no fue enviado por la entidad",
+      "summary": "Síntesis Contexto: La Administradora de Fondos de Cesantía (AFC Chile) alertó sobre el envío de un e-mail que suplanta a la entidad y advierte deudas previsionales. ¿Qué dice el correo? Según la imagen difundida, el e-mail ofrece \"una última instancia para regularizar la deuda directamente\". Sin embargo, la notificación de cobranza...",
+      "content": "<p>Contexto: La Administradora de Fondos de Cesantía (AFC Chile) alertó sobre el envío de un e-mail que suplanta a la entidad y advierte deudas previsionales.</p><p>¿Qué dice el correo? Según la imagen difundida, el e-mail ofrece &quot;una última instancia para regularizar la deuda directamente&quot;. Sin embargo, la notificación de cobranza prejudicial por cotizaciones impagas es realizada por la Tesorería General de la República y el pago se canaliza a través de Previred.</p><p>La entrada Cuidado con este correo que suplanta a la Administradora de Fondos de Cesantía y advierte deudas previsionales: no fue enviado por la entidad se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/pais/2026/11/10/cuidado-con-este-correo-que-suplanta-a-la-administradora-de-fondos-de-cesantia-y-advierte-deudas-previsionales-no-fue-enviado-por-la-entidad/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-Cuidado-con-este-correo-que-suplanta-a-la-Administradora-de-Fondos-de-Cesantia-y-advierte-deudas-previsionales.webp",
+      "publishedAt": "2026-11-10T12:00:00+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 85,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
     {
       "id": "esciclismo-4c8b710fd4",
       "title": "El UAE Emirates-XRG de Pogacar repetirá concentración de pretemporada en Benidorm",
@@ -1018,13 +1068,53 @@
       "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
-      "id": "radiouchile-be2710b9d7",
-      "title": "“No es solamente la crisis de un banco”: claves del caso Ueno que sacude a Paraguay",
-      "summary": "En menos de cinco años, Ueno Bank pasó de ser el símbolo de la modernización financiera paraguaya a convertirse en el epicentro de una crisis que ha sacudido al sistema político y económico del país. La entrada “No es solamente la crisis de un banco”: claves del caso Ueno que sacude a Paraguay se publicó primero en Diario y Radio...",
-      "content": "<p>La intervención de la entidad por parte del Banco Central, la detención de sus principales directivos y la caída del presidente Santiago Peña han puesto bajo la lupa la estrecha relación entre el poder político, el sector financiero y un banco que logró captar millones de clientes entre los sectores tradicionalmente excluidos de la banca.</p><p>Ueno irrumpió en diciembre de 2021 como una financiera digital con atención las 24 horas. Dos años después obtuvo licencia bancaria y para 2026 aseguraba contar con tres millones de clientes, una cifra equivalente a casi la mitad de la población paraguaya.</p><p>Su éxito se apoyó en una estrategia agresiva de expansión, con beneficios, reintegros y facilidades de acceso que atrajeron especialmente a personas que permanecían al margen del sistema financiero tradicional. Según explicó a RFI Julien Demelenne, especialista en Paraguay y doctorante de la Escuela de Altos Estudios en Ciencias Sociales (EHESS), el banco logró conquistar a sectores que habitualmente no podían acceder a los servicios bancarios clásicos.</p><p>“Ueno Bank fue el banco que ofreció servicios bancarios a un sector mayoritariamente excluido del sistema financiero, que está prácticamente dentro del mercado informal, que no tiene contrato laboral, que no tiene ingresos fijos y que justamente no consigue abrir una cuenta en un banco tradicional porque no cumple con los criterios. Entonces, Ueno Bank les ofreció una serie de facilidades de pago, de reintegro y de acceso al sistema financiero y al sistema crediticio también, porque hay que pensar que la economía informal de Paraguay es mayoritaria”.</p><p>La entidad también recibió depósitos de empresas, organismos como la Conmebol y entidades estatales, entre ellas el Instituto de Previsión Social y la represa binacional de Itaipú.</p><p>La expansión acelerada terminó abruptamente el 2 de noviembre, cuando el Banco Central determinó que la solvencia de Ueno había caído por debajo de la mitad del mínimo legal exigido.</p><p>Las autoridades detectaron además deficiencias en los mecanismos de evaluación crediticia, inconsistencias en la documentación para otorgar préstamos y operaciones con empresas vinculadas al grupo controlador.</p><p>La suspensión de actividades dejó a millones de clientes sin acceso inmediato a sus depósitos y abrió interrogantes sobre el verdadero alcance del crecimiento que exhibía la entidad.</p><p>Además de su agresiva estrategia comercial, Ueno destacó por sus servicios digitales, horarios extendidos y políticas destinadas a captar nuevos clientes y depósitos. Sin embargo, el deterioro de sus indicadores financieros terminó revelando la fragilidad de un modelo cuyo crecimiento había sorprendido incluso a observadores del sector.</p><p>La caída de Ueno pronto dejó de ser un asunto exclusivamente financiero.</p><p>Para Demelenne, la intervención del banco puso de relieve una cuestión que trasciende ampliamente la situación financiera de la entidad y que afecta al funcionamiento mismo del Estado paraguayo.</p><p>“Hay que pensar que no es simplemente una crisis financiera, es también una crisis política. Es un debate que es central ahora en la cuestión política: el tema de las puertas giratorias. Vemos personas que estaban en el sector privado que pasan al sector público y, del sector público, pasan al sector privado. Entonces, la clase política y la clase financiera se entremezclan, están imbricadas las dos y juegan un doble juego”, dice.</p><p>Las acusaciones contra Santiago Peña se centran especialmente en la presunta canalización de más de 800 millones de dólares de fondos públicos hacia la entidad y en el nombramiento de figuras vinculadas al banco en organismos encargados de supervisar el sistema financiero.</p><p>También se cuestiona la presencia de antiguos responsables o accionistas de Ueno en puestos de decisión dentro del aparato estatal. Tras perder el apoyo de su propio Partido Colorado, Peña fue destituido y permanece en prisión preventiva mientras avanzan las investigaciones judiciales.</p><p>Para contener el pánico, las autoridades aprobaron medidas de emergencia que permitieron devolver depósitos a pequeños ahorradores. Según cifras oficiales, cerca de 1,2 millones de clientes ya habían recuperado sus fondos hasta el pasado fin de semana.</p><p>Sin embargo, los grandes depositantes deberán esperar el proceso de liquidación de activos y recuperación de créditos.</p><p>La crisis también golpeó a la economía paraguaya. El dólar se disparó y empresarios reportan fuertes caídas en las ventas, así como dificultades para importar mercancías y mantener la actividad comercial.</p><p>Las consecuencias no se limitan al sector bancario. Ocho directivos de Ueno fueron detenidos, entre ellos su director ejecutivo Miguel Vázquez, mientras las investigaciones avanzan sobre el conjunto de empresas vinculadas al grupo.</p><p>En conversación con RFI, Julien Demelenne considera que el caso Ueno debe leerse también en el contexto de las tensiones entre distintos grupos económicos con influencia política y mediática.</p><p>“La crisis no es solamente una crisis de la figura de Santiago Peña o de un banco en particular. Es todo un conglomerado económico que desestabilizaba a los otros conglomerados del poder económico. Hubo una guerra declarada entre, por ejemplo, el sector de Ueno Bank, que es el Grupo Vázquez, y el sector del grupo Zuccolillo, conglomerado que controla medios de comunicación”.”</p><p>La crisis amenaza con extenderse a ese conglomerado empresarial. El eventual cierre o debilitamiento de algunas de sus compañías podría provocar miles de despidos y amplificar el impacto económico del colapso bancario.</p><p>Más allá de las responsabilidades judiciales que determinen los tribunales, el caso Ueno ha abierto un amplio debate en Paraguay sobre la regulación financiera, la utilización de fondos públicos y la relación entre poder económico, poder político y medios de comunicación.</p><p>La entrada “No es solamente la crisis de un banco”: claves del caso Ueno que sacude a Paraguay se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/10/no-es-solamente-la-crisis-de-un-banco-claves-del-caso-ueno-que-sacude-a-paraguay/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/09084620/casa-de-santiago-pena.jpg",
-      "publishedAt": "2026-11-10T11:46:45+00:00",
+      "id": "malaespina-4e4ffde4ac",
+      "title": "Este video no muestra disturbios en Polonia por la crisis del Tribunal Constitucional: es de un concierto conmemorativo",
+      "summary": "Síntesis ¿Qué pasó? Se difundió un video que supuestamente muestra a polacos manifestándose en defensa de su gobierno en medio de la crisis del Tribunal Constitucional. ¿Cómo lo calificamos? Consideramos que se trata de publicaciones falsas. ¿Cómo lo sabemos? El video en realidad corresponde a un concierto conmemorativo por el...",
+      "content": "<p>¿Qué pasó? Se difundió un video que supuestamente muestra a polacos manifestándose en defensa de su gobierno en medio de la crisis del Tribunal Constitucional.</p><p>¿Cómo lo calificamos? Consideramos que se trata de publicaciones falsas.</p><p>¿Cómo lo sabemos? El video en realidad corresponde a un concierto conmemorativo por el aniversario del Levantamiento de Varsovia, realizado el 1 de agosto de 2026.</p><p>La entrada Este video no muestra disturbios en Polonia por la crisis del Tribunal Constitucional: es de un concierto conmemorativo se publicó primero en Mala Espina.</p>",
+      "url": "https://www.malaespinacheck.cl/mundo/2026/11/10/este-video-no-muestra-disturbios-en-polonia-por-la-crisis-del-tribunal-constitucional-es-de-un-concierto-conmemorativo/",
+      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Portada-Polonia-manifestacion.webp",
+      "publishedAt": "2026-11-10T12:00:00+00:00",
+      "sourceId": "malaespina",
+      "sourceName": "Mala Espina Check",
+      "sourceType": "Fact-Checking / Política",
+      "sourceSite": "https://malaespinacheck.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Cultura y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 99,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "timeline-f9a9b09c0a",
+      "title": "Tocar música ambiental en restaurantes o eventos: ¿pituto fome pero necesario?",
+      "summary": "La entrada Tocar música ambiental en restaurantes o eventos: ¿pituto fome pero necesario? se publicó primero en Timeline.cl .",
+      "content": "<p>La entrada Tocar música ambiental en restaurantes o eventos: ¿pituto fome pero necesario? se publicó primero en Timeline.cl.</p>",
+      "url": "https://www.timeline.cl/tocar-musica-ambiental-en-restaurantes-o-eventos-pituto-fome-pero-necesario/",
+      "image": "https://www.timeline.cl/wp-content/uploads/2026/11/musica-ambiental.jpg",
+      "publishedAt": "2026-11-10T11:58:34+00:00",
+      "sourceId": "timeline",
+      "sourceName": "Timeline Antofagasta",
+      "sourceType": "Regional Independiente (Norte)",
+      "sourceSite": "https://timeline.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Cultura y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 78,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
+      "id": "radiouchile-84acbc1538",
+      "title": "Comenzó paro camionero: Transportistas se despliegan en diversas rutas del país",
+      "summary": "Por el momento, los principales focos de la movilización, impulsada por la Confederación Fuerza del Norte (CTFN), se registran en las regiones de Tarapacá y Bío Bío. En Santiago, los camioneros se están reuniendo en el nudo Quilicura. La entrada Comenzó paro camionero: Transportistas se despliegan en diversas rutas del país se publicó...",
+      "content": "<p>Con la ocupación de distintas rutas en el país comenzó el paro nacional de camioneros convocado inicialmente por la Confederación Fuerza del Norte (CTFN) y al cual se han sumado otras organizaciones regionales, aunque los gremios nacionales aún no se han plegado.</p><p>Los principales focos se registran en diversos puntos de la Ruta 5, especialmente en la Región de Tarapacá y del Biobío. En la Metropolitana se están reuniendo en el nudo Quilicura. El incidente más grave ocurre al sur de la ciudad de Los Ángeles con un taco de proporciones en la la carretera.</p><p>La protesta busca presionar al Gobierno para que adopte medidas frente al encarecimiento de la actividad del transporte de carga. Según ha advertido la CTFN, el escenario actual mantiene a pequeños y medianos empresarios del rubro “al borde de la quiebra”. Los dirigentes no quedaron conformes con los anuncios de ayer del Gobierno para frenar las alzas.</p><p>En todo caso, la movilización no cuenta con el respaldo de dos de las principales organizaciones del sector: la Confederación Nacional del Transporte de Carga de Chile (CNTC) y la Confederación Nacional de Dueños de Camiones de Chile (CNDC), que hasta el momento han descartado sumarse al paro.</p><p>“Sabemos que la coyuntura es difícil. En las actuales circunstancias, con una economía deprimida, altos precios de los combustibles e insumos en general, menos viajes y carga a transportar, dólar alto y perspectivas que es necesario mirar con atención, un paro del transporte de carga solo puede añadir otro elemento negativo en este contexto. Por tanto no es ninguna solución, no es un aporte”, sostuvo la CNDC.</p><p>Pese a la postura de ambas confederaciones, otros gremios del transporte han expresado su respaldo a la convocatoria de la CTFN. La paralización comenzará este martes 10 de noviembre y se desarrollará en distintos horarios y puntos del país.</p><p>La entrada Comenzó paro camionero: Transportistas se despliegan en diversas rutas del país se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/10/comenzo-paro-camionero-transportistas-se-despliegan-en-diversas-rutas-del-pais/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/10084759/paro-de-camioneros.jpg",
+      "publishedAt": "2026-11-10T11:57:32+00:00",
       "sourceId": "radiouchile",
       "sourceName": "Radio U. de Chile",
       "sourceType": "Universitario / Pluralista",
@@ -1032,9 +1122,9 @@
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Economía y Sociedad",
+      "category": "Política y Actualidad",
       "relevanceTier": "alta",
-      "relevanceScore": 89,
+      "relevanceScore": 88,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -1058,24 +1148,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "timeline-f53ade745c",
-      "title": "Hija de adulto mayor desaparecido en Antofagasta hace una semana pide que las instituciones se involucren más en la búsqueda",
-      "summary": "Hoy se cumple una semana desde que su familia vio por última vez a Simón Chirinos. El adulto mayor de 83 años salió de su casa para realizar unas compras en el centro de Antofagasta, sin embargo, al regresar en un taxibus de la línea 102, Chirinos no bajó en su domicilio. Pasadas las 19 […] La entrada Hija de adulto mayor desaparecido...",
-      "content": "<p>Hoy se cumple una semana desde que su familia vio por última vez a Simón Chirinos. El adulto mayor de 83 años salió de su casa para realizar unas compras en el centro de Antofagasta, sin embargo, al regresar en un taxibus de la línea 102, Chirinos no bajó en su domicilio. Pasadas las 19 horas, las cámaras lo registraron descendiendo en Playa Amarilla, en el extremo sur de Antofagasta, lugar donde se perdió su rastro.</p><p>Debido a que los días pasan y no existe ningún indicio sobre su paradero, Yeirama, hija de Simón, pidió que “se involucren un poco más las instituciones en la búsqueda de mi padre”. Esto llevaría un poco de tranquilidad a la familia que desde el martes pasado interrumpió toda su rutina para concentrarse en encontrar a Chirinos.</p><p>Yeirama dejó de trabajar por completo para salir en búsqueda de su papá. El otro hijo de Simón viajó apenas supo lo que había ocurrido con su padre y permanece en Antofagasta. En Iquique, ciudad donde reside, quedaron su esposa y dos nietos de Simón.</p><p>A pesar de que la búsqueda se concentra en la zona sur, Yeirama explicó que de todas formas cubren amplios sectores, porque todavía no saben hacia dónde se dirigió tras bajar de la micro.</p><p>También relató que recibieron datos por el posible paradero de su padre, pero explicó que solo son informaciones que no pudieron verificar. “Se revisaron algunos videos, pero en ninguno logramos verlo”, precisó Yeirama.</p><p>La hija de Simón detalló que, si bien su padre estaba en buenas condiciones y acostumbra a salir para realizar compras o buscar a su nieto, no podía descartar que sufriera un episodio de desorientación. Ellos viven en Llacolén y el martes pasado el exdetective venezolano descendió en Playa Amarilla, mucho más al sur de la ciudad.</p><p>En ese contexto, Yeirama señaló que “ya en este punto con tanto tiempo habría aparecido en algún sitio. No sabemos (qué pudo pasarle), probablemente estuvo ubicado y algo le pasó o alguien le hizo algo”.</p><p>La familia sostuvo que sería de gran utilidad recibir “más apoyo de las instituciones, que se involucren y ayuden en su búsqueda. Si la comunidad lo ve, que lo retengan, le tomen fotos; si alguien tiene información que la comente, que la haga llegar a nosotros”.</p><p>Yeirama expuso que el fin de semana no hubo despliegue policial y que por tierra solo estuvieron civiles buscando a su padre. Al mismo tiempo agregó que desde la fiscalía le manifestaron que le darían una cita, “como si esto no fuera una emergencia”, cuestionó.</p><p>Simón Chirinos es venezolano jubilado y trabajó cerca de 30 años como detective en Caracas. Llegó hace tres años a Antofagasta junto a su esposa para vivir con su hija y dos nietos. En la ciudad, constantemente salía para buscar a su nieto de 12 años que estudia en pleno centro de la comuna. De hecho, el último día que fue visto, retiró a su nieto del colegio, lo llevó hasta su hogar y luego regresó para comprar algunas cosas en el Mercado. Para volver a Llacolén tomó una máquina de la línea 102, cuya cámara registró las últimas imágenes conocidas de Simón a las 19 horas con 23 minutos, cuando bajó en Playa Amarilla.</p><p>Cualquier información sobre el paradero de Simón Chirinos puede canalizarse a través de la PDI, Carabineros o contactar directamente a su familia en el teléfono +56989861985.</p><p>La entrada Hija de adulto mayor desaparecido en Antofagasta hace una semana pide que las instituciones se involucren más en la búsqueda se publicó primero en Timeline.cl.</p>",
-      "url": "https://www.timeline.cl/hija-de-adulto-mayor-desaparecido-en-antofagasta-hace-una-semana-pide-que-las-instituciones-se-involucren-mas-en-la-busqueda/",
-      "image": "https://www.timeline.cl/wp-content/uploads/2026/11/perdido-afta.jpg",
-      "publishedAt": "2026-11-10T11:41:27+00:00",
-      "sourceId": "timeline",
-      "sourceName": "Timeline Antofagasta",
-      "sourceType": "Regional Independiente (Norte)",
-      "sourceSite": "https://timeline.cl",
+      "id": "radiouchile-be2710b9d7",
+      "title": "“No es solamente la crisis de un banco”: claves del caso Ueno que sacude a Paraguay",
+      "summary": "En menos de cinco años, Ueno Bank pasó de ser el símbolo de la modernización financiera paraguaya a convertirse en el epicentro de una crisis que ha sacudido al sistema político y económico del país. La entrada “No es solamente la crisis de un banco”: claves del caso Ueno que sacude a Paraguay se publicó primero en Diario y Radio...",
+      "content": "<p>La intervención de la entidad por parte del Banco Central, la detención de sus principales directivos y la caída del presidente Santiago Peña han puesto bajo la lupa la estrecha relación entre el poder político, el sector financiero y un banco que logró captar millones de clientes entre los sectores tradicionalmente excluidos de la banca.</p><p>Ueno irrumpió en diciembre de 2021 como una financiera digital con atención las 24 horas. Dos años después obtuvo licencia bancaria y para 2026 aseguraba contar con tres millones de clientes, una cifra equivalente a casi la mitad de la población paraguaya.</p><p>Su éxito se apoyó en una estrategia agresiva de expansión, con beneficios, reintegros y facilidades de acceso que atrajeron especialmente a personas que permanecían al margen del sistema financiero tradicional. Según explicó a RFI Julien Demelenne, especialista en Paraguay y doctorante de la Escuela de Altos Estudios en Ciencias Sociales (EHESS), el banco logró conquistar a sectores que habitualmente no podían acceder a los servicios bancarios clásicos.</p><p>“Ueno Bank fue el banco que ofreció servicios bancarios a un sector mayoritariamente excluido del sistema financiero, que está prácticamente dentro del mercado informal, que no tiene contrato laboral, que no tiene ingresos fijos y que justamente no consigue abrir una cuenta en un banco tradicional porque no cumple con los criterios. Entonces, Ueno Bank les ofreció una serie de facilidades de pago, de reintegro y de acceso al sistema financiero y al sistema crediticio también, porque hay que pensar que la economía informal de Paraguay es mayoritaria”.</p><p>La entidad también recibió depósitos de empresas, organismos como la Conmebol y entidades estatales, entre ellas el Instituto de Previsión Social y la represa binacional de Itaipú.</p><p>La expansión acelerada terminó abruptamente el 2 de noviembre, cuando el Banco Central determinó que la solvencia de Ueno había caído por debajo de la mitad del mínimo legal exigido.</p><p>Las autoridades detectaron además deficiencias en los mecanismos de evaluación crediticia, inconsistencias en la documentación para otorgar préstamos y operaciones con empresas vinculadas al grupo controlador.</p><p>La suspensión de actividades dejó a millones de clientes sin acceso inmediato a sus depósitos y abrió interrogantes sobre el verdadero alcance del crecimiento que exhibía la entidad.</p><p>Además de su agresiva estrategia comercial, Ueno destacó por sus servicios digitales, horarios extendidos y políticas destinadas a captar nuevos clientes y depósitos. Sin embargo, el deterioro de sus indicadores financieros terminó revelando la fragilidad de un modelo cuyo crecimiento había sorprendido incluso a observadores del sector.</p><p>La caída de Ueno pronto dejó de ser un asunto exclusivamente financiero.</p><p>Para Demelenne, la intervención del banco puso de relieve una cuestión que trasciende ampliamente la situación financiera de la entidad y que afecta al funcionamiento mismo del Estado paraguayo.</p><p>“Hay que pensar que no es simplemente una crisis financiera, es también una crisis política. Es un debate que es central ahora en la cuestión política: el tema de las puertas giratorias. Vemos personas que estaban en el sector privado que pasan al sector público y, del sector público, pasan al sector privado. Entonces, la clase política y la clase financiera se entremezclan, están imbricadas las dos y juegan un doble juego”, dice.</p><p>Las acusaciones contra Santiago Peña se centran especialmente en la presunta canalización de más de 800 millones de dólares de fondos públicos hacia la entidad y en el nombramiento de figuras vinculadas al banco en organismos encargados de supervisar el sistema financiero.</p><p>También se cuestiona la presencia de antiguos responsables o accionistas de Ueno en puestos de decisión dentro del aparato estatal. Tras perder el apoyo de su propio Partido Colorado, Peña fue destituido y permanece en prisión preventiva mientras avanzan las investigaciones judiciales.</p><p>Para contener el pánico, las autoridades aprobaron medidas de emergencia que permitieron devolver depósitos a pequeños ahorradores. Según cifras oficiales, cerca de 1,2 millones de clientes ya habían recuperado sus fondos hasta el pasado fin de semana.</p><p>Sin embargo, los grandes depositantes deberán esperar el proceso de liquidación de activos y recuperación de créditos.</p><p>La crisis también golpeó a la economía paraguaya. El dólar se disparó y empresarios reportan fuertes caídas en las ventas, así como dificultades para importar mercancías y mantener la actividad comercial.</p><p>Las consecuencias no se limitan al sector bancario. Ocho directivos de Ueno fueron detenidos, entre ellos su director ejecutivo Miguel Vázquez, mientras las investigaciones avanzan sobre el conjunto de empresas vinculadas al grupo.</p><p>En conversación con RFI, Julien Demelenne considera que el caso Ueno debe leerse también en el contexto de las tensiones entre distintos grupos económicos con influencia política y mediática.</p><p>“La crisis no es solamente una crisis de la figura de Santiago Peña o de un banco en particular. Es todo un conglomerado económico que desestabilizaba a los otros conglomerados del poder económico. Hubo una guerra declarada entre, por ejemplo, el sector de Ueno Bank, que es el Grupo Vázquez, y el sector del grupo Zuccolillo, conglomerado que controla medios de comunicación”.”</p><p>La crisis amenaza con extenderse a ese conglomerado empresarial. El eventual cierre o debilitamiento de algunas de sus compañías podría provocar miles de despidos y amplificar el impacto económico del colapso bancario.</p><p>Más allá de las responsabilidades judiciales que determinen los tribunales, el caso Ueno ha abierto un amplio debate en Paraguay sobre la regulación financiera, la utilización de fondos públicos y la relación entre poder económico, poder político y medios de comunicación.</p><p>La entrada “No es solamente la crisis de un banco”: claves del caso Ueno que sacude a Paraguay se publicó primero en Diario y Radio Universidad Chile.</p>",
+      "url": "https://radio.uchile.cl/2026/11/10/no-es-solamente-la-crisis-de-un-banco-claves-del-caso-ueno-que-sacude-a-paraguay/",
+      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/09084620/casa-de-santiago-pena.jpg",
+      "publishedAt": "2026-11-10T11:46:45+00:00",
+      "sourceId": "radiouchile",
+      "sourceName": "Radio U. de Chile",
+      "sourceType": "Universitario / Pluralista",
+      "sourceSite": "https://radio.uchile.cl",
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Derechos Humanos y Ciudadanía",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 74,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+      "category": "Economía y Sociedad",
+      "relevanceTier": "alta",
+      "relevanceScore": 89,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "france24-de5d445f3e",
@@ -1098,6 +1188,26 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
+      "id": "timeline-f53ade745c",
+      "title": "Hija de adulto mayor desaparecido en Antofagasta hace una semana pide que las instituciones se involucren más en la búsqueda",
+      "summary": "Hoy se cumple una semana desde que su familia vio por última vez a Simón Chirinos. El adulto mayor de 83 años salió de su casa para realizar unas compras en el centro de Antofagasta, sin embargo, al regresar en un taxibus de la línea 102, Chirinos no bajó en su domicilio. Pasadas las 19 […] La entrada Hija de adulto mayor desaparecido...",
+      "content": "<p>Hoy se cumple una semana desde que su familia vio por última vez a Simón Chirinos. El adulto mayor de 83 años salió de su casa para realizar unas compras en el centro de Antofagasta, sin embargo, al regresar en un taxibus de la línea 102, Chirinos no bajó en su domicilio. Pasadas las 19 horas, las cámaras lo registraron descendiendo en Playa Amarilla, en el extremo sur de Antofagasta, lugar donde se perdió su rastro.</p><p>Debido a que los días pasan y no existe ningún indicio sobre su paradero, Yeirama, hija de Simón, pidió que “se involucren un poco más las instituciones en la búsqueda de mi padre”. Esto llevaría un poco de tranquilidad a la familia que desde el martes pasado interrumpió toda su rutina para concentrarse en encontrar a Chirinos.</p><p>Yeirama dejó de trabajar por completo para salir en búsqueda de su papá. El otro hijo de Simón viajó apenas supo lo que había ocurrido con su padre y permanece en Antofagasta. En Iquique, ciudad donde reside, quedaron su esposa y dos nietos de Simón.</p><p>A pesar de que la búsqueda se concentra en la zona sur, Yeirama explicó que de todas formas cubren amplios sectores, porque todavía no saben hacia dónde se dirigió tras bajar de la micro.</p><p>También relató que recibieron datos por el posible paradero de su padre, pero explicó que solo son informaciones que no pudieron verificar. “Se revisaron algunos videos, pero en ninguno logramos verlo”, precisó Yeirama.</p><p>La hija de Simón detalló que, si bien su padre estaba en buenas condiciones y acostumbra a salir para realizar compras o buscar a su nieto, no podía descartar que sufriera un episodio de desorientación. Ellos viven en Llacolén y el martes pasado el exdetective venezolano descendió en Playa Amarilla, mucho más al sur de la ciudad.</p><p>En ese contexto, Yeirama señaló que “ya en este punto con tanto tiempo habría aparecido en algún sitio. No sabemos (qué pudo pasarle), probablemente estuvo ubicado y algo le pasó o alguien le hizo algo”.</p><p>La familia sostuvo que sería de gran utilidad recibir “más apoyo de las instituciones, que se involucren y ayuden en su búsqueda. Si la comunidad lo ve, que lo retengan, le tomen fotos; si alguien tiene información que la comente, que la haga llegar a nosotros”.</p><p>Yeirama expuso que el fin de semana no hubo despliegue policial y que por tierra solo estuvieron civiles buscando a su padre. Al mismo tiempo agregó que desde la fiscalía le manifestaron que le darían una cita, “como si esto no fuera una emergencia”, cuestionó.</p><p>Simón Chirinos es venezolano jubilado y trabajó cerca de 30 años como detective en Caracas. Llegó hace tres años a Antofagasta junto a su esposa para vivir con su hija y dos nietos. En la ciudad, constantemente salía para buscar a su nieto de 12 años que estudia en pleno centro de la comuna. De hecho, el último día que fue visto, retiró a su nieto del colegio, lo llevó hasta su hogar y luego regresó para comprar algunas cosas en el Mercado. Para volver a Llacolén tomó una máquina de la línea 102, cuya cámara registró las últimas imágenes conocidas de Simón a las 19 horas con 23 minutos, cuando bajó en Playa Amarilla.</p><p>Cualquier información sobre el paradero de Simón Chirinos puede canalizarse a través de la PDI, Carabineros o contactar directamente a su familia en el teléfono +56989861985.</p><p>La entrada Hija de adulto mayor desaparecido en Antofagasta hace una semana pide que las instituciones se involucren más en la búsqueda se publicó primero en Timeline.cl.</p>",
+      "url": "https://www.timeline.cl/hija-de-adulto-mayor-desaparecido-en-antofagasta-hace-una-semana-pide-que-las-instituciones-se-involucren-mas-en-la-busqueda/",
+      "image": "https://www.timeline.cl/wp-content/uploads/2026/11/perdido-afta.jpg",
+      "publishedAt": "2026-11-10T11:41:27+00:00",
+      "sourceId": "timeline",
+      "sourceName": "Timeline Antofagasta",
+      "sourceType": "Regional Independiente (Norte)",
+      "sourceSite": "https://timeline.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Derechos Humanos y Ciudadanía",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 74,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+    },
+    {
       "id": "radiouchile-8c3a9f3e46",
       "title": "Congreso aprobó ley que permite a municipalidades postergar ingreso a SLEP",
       "summary": "El proyecto, que ya fue aprobado en el Senado, otorga mayor flexibilidad y gradualidad en la implementación del sistema, permitiendo al Presidente de la República regular el traspaso, con plazos acotados. La entrada Congreso aprobó ley que permite a municipalidades postergar ingreso a SLEP se publicó primero en Diario y Radio...",
@@ -1118,13 +1228,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-40fbf866dd",
-      "title": "Paul McCartney se convirtió en multimillonario: Es el tercer cantante más rico del mundo",
-      "summary": "El cantante británico Paul McCartney se ha convertido en un multimillonario tras alcanzar una fortuna estimada en 1.400 millones dólares , según un análisis de su patrimonio publicado este lunes por la revista Forbes , que lo sitúa como el tercer artista más acaudalado del mundo . La fortuna del cantante de la mítica banda The Beatles...",
-      "content": "<p>El cantante británico Paul McCartney se ha convertido en un multimillonario tras alcanzar una fortuna estimada en 1.400 millones dólares, según un análisis de su patrimonio publicado este lunes por la revista Forbes, que lo sitúa como el tercer artista más acaudalado del mundo.</p><p>La fortuna del cantante de la mítica banda The Beatles se sitúa por debajo de la que amasa la estrella estadounidense Taylor Swift, con 2.000 millones de dólares, y el rapero Jay-Z, con 2.800 millones de dólares.</p><p>La suma procede del &quot;valor de sus catálogos musicales, los cheques de regalías que ha cobrado, los cientos de millones que ha ganado con sus giras mundiales, sus propiedades inmobiliarias en el Reino Unido y los Hamptons, además de una colección de arte que incluye obras de Picasso y Magritte&quot;, precisó la revista.</p><p>Aunque la mayor parte de sus ganancias proviene de su editorial MLP Communications, que fundó en 1969 para gestionar tanto el catálogo musical de la banda británica como de otros artistas.</p><p>Además, cada miembro de The Beatle recibe el 25 por ciento de las ganancias la empresa matriz del grupo, Apple Corps, que genera aproximadamente 50 millones de dólares al año por derechos de autor de reproducciones en streaming, venta de vinilos y el merchandising o comercialización de la marca.</p>",
-      "url": "https://www.cooperativa.cl/noticias/magazine/musica/paul-mccartney/paul-mccartney-se-convirtio-en-multimillonario-es-el-tercer-cantante/2026-11-10/082634.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110082634.jpg",
-      "publishedAt": "2026-11-10T11:26:34+00:00",
+      "id": "cooperativa-0c71a5b552",
+      "title": "Stray Kids dejó a Latinoamérica fuera de su nueva gira mundial",
+      "summary": "Stray Kids , uno de los grupos de K-pop con más seguidores en todo el mundo, anunció una gira mundial con la que recorrerá Norteamérica, Europa y parte de Asia , con la que ofrecerán una treintena de actuaciones en 25 ciudades, dejando a Latinoamérica fuera del tour en esta oportunidad. La gira, bautizada \"Run it\" y anunciada por la...",
+      "content": "<p>Stray Kids, uno de los grupos de K-pop con más seguidores en todo el mundo, anunció una gira mundial con la que recorrerá Norteamérica, Europa y parte de Asia, con la que ofrecerán una treintena de actuaciones en 25 ciudades, dejando a Latinoamérica fuera del tour en esta oportunidad.</p><p>La gira, bautizada &quot;Run it&quot; y anunciada por la promotora Live Nation, comenzará el 16 y 17 de enero en Bangkok, y visitará Singapur -6 y 7 de marzo-, Yokohama -24 y 25 de abril-, y Osaka -4 y 5 de mayo-.</p><p>El 16 de mayo da el salto a Norteamérica con una actuación en Seattle, seguida de conciertos en Vancouver (19 de mayo), Santa Clara (22), San Diego (25) y Los Ángeles (29), luego continuarán en Arlington (3 de junio), Houston (5), Atlanta (8), Miami (11), Orlando (14), Chicago (18), Baltimore (22), Toronto (25) y East Rutherford, donde actuarán el 29 de junio.</p><p>Tras su paso por Norteamérica, Stray Kids llegará a Europa el 9 de julio con un concierto en París, al que seguirán actuaciones en Londres (13 de julio), Múnich (17), Viena (21) y Barcelona (24), donde el grupo actuará en el Estadio Olímpico Lluís Companys. La gira europea finalizará con dos últimas citas en Arnhem (Países Bajos), el 27 de julio, y Milán, el día 31.</p><p>Uno de los ocho integrantes de la banda, el cantante Lee Know, no participará en los tramos de Norteamérica y Europa de la gira, porque estará haciendo el servicio militar obligatorio en Corea del Sur.</p><p>Las entradas estarán disponibles a partir del miércoles 18 de noviembre en primer lugar a través de la preventa, y la venta general comienza el jueves 19 de noviembre.</p><p>Stray Kids hizo una serie de conciertos esta primavera por América Latina, que le llevó a visitar Buenos Aires, Bogotá y Ciudad de México. El grupo también encabezó el festival Rock in Rio, haciendo historia como el primer grupo de K-pop en ser cabeza de cartel de este festival.</p>",
+      "url": "https://www.cooperativa.cl/noticias/magazine/musica/stray-kids-dejo-a-latinoamerica-fuera-de-su-nueva-gira-mundial/2026-11-10/083538.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110083538.jpg",
+      "publishedAt": "2026-11-10T11:35:38+00:00",
       "sourceId": "cooperativa",
       "sourceName": "Radio Cooperativa",
       "sourceType": "Radio Informativa Nacional",
@@ -1132,9 +1242,9 @@
       "region": "chile",
       "country": "Chile",
       "independent": false,
-      "category": "Cultura y Sociedad",
+      "category": "Geopolítica y Mundo",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 72,
+      "relevanceScore": 76,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1158,13 +1268,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cooperativa-f4e013c799",
-      "title": "Investigan homicidio en El Bosque: Sujeto disparó al menos cinco veces contra víctima",
-      "summary": "Personal de la Fiscalía ECOH y Carabineros investiga el homicidio de un hombre de 35 años ocurrido durante la madrugada de este martes en la calle Vecinal Oriente , en la comuna de El Bosque. El hombre fue abordado en la vía pública por un sujeto, quien percutó al menos cinco disparos en su contra. El fiscal Claudio Astica dijo que...",
-      "content": "<p>Personal de la Fiscalía ECOH y Carabineros investiga el homicidio de un hombre de 35 años ocurrido durante la madrugada de este martes en la calle Vecinal Oriente, en la comuna de El Bosque.</p><p>El hombre fue abordado en la vía pública por un sujeto, quien percutó al menos cinco disparos en su contra.</p><p>El fiscal Claudio Astica dijo que &quot;se encontraba en la vía pública, caminando en calle Vecinal Oriente en dirección hacia el sur, cuando es interceptado por un sujeto que venía a bordo de un vehículo, el cual se baja del vehículo portando un arma de fuego, se dirige hacia la víctima y le dispara en diversas oportunidades, provocándole la muerte en la vía pública&quot;.</p><p>Hasta el momento se desconoce el móvil del crimen.</p><p>Hasta la comuna de El Bosque se trasladó @ECOH_FiscaliaRM para investigar el homicidio con arma de fuego de un hombre, quien recibió múltiples impactos balísticos por parte de un desconocido mientras transitaba por calle Vecinal Oriente. Se trabaja con @PDI_CHILE https://t.co/CRvq5z0hba</p>",
-      "url": "https://www.cooperativa.cl/noticias/pais/policial/homicidios/investigan-homicidio-en-el-bosque-sujeto-disparo-al-menos-cinco-veces/2026-11-10/082244.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110082244.jpg",
-      "publishedAt": "2026-11-10T11:22:44+00:00",
+      "id": "cooperativa-40fbf866dd",
+      "title": "Paul McCartney se convirtió en multimillonario: Es el tercer cantante más rico del mundo",
+      "summary": "El cantante británico Paul McCartney se ha convertido en un multimillonario tras alcanzar una fortuna estimada en 1.400 millones dólares , según un análisis de su patrimonio publicado este lunes por la revista Forbes , que lo sitúa como el tercer artista más acaudalado del mundo . La fortuna del cantante de la mítica banda The Beatles...",
+      "content": "<p>El cantante británico Paul McCartney se ha convertido en un multimillonario tras alcanzar una fortuna estimada en 1.400 millones dólares, según un análisis de su patrimonio publicado este lunes por la revista Forbes, que lo sitúa como el tercer artista más acaudalado del mundo.</p><p>La fortuna del cantante de la mítica banda The Beatles se sitúa por debajo de la que amasa la estrella estadounidense Taylor Swift, con 2.000 millones de dólares, y el rapero Jay-Z, con 2.800 millones de dólares.</p><p>La suma procede del &quot;valor de sus catálogos musicales, los cheques de regalías que ha cobrado, los cientos de millones que ha ganado con sus giras mundiales, sus propiedades inmobiliarias en el Reino Unido y los Hamptons, además de una colección de arte que incluye obras de Picasso y Magritte&quot;, precisó la revista.</p><p>Aunque la mayor parte de sus ganancias proviene de su editorial MLP Communications, que fundó en 1969 para gestionar tanto el catálogo musical de la banda británica como de otros artistas.</p><p>Además, cada miembro de The Beatle recibe el 25 por ciento de las ganancias la empresa matriz del grupo, Apple Corps, que genera aproximadamente 50 millones de dólares al año por derechos de autor de reproducciones en streaming, venta de vinilos y el merchandising o comercialización de la marca.</p>",
+      "url": "https://www.cooperativa.cl/noticias/magazine/musica/paul-mccartney/paul-mccartney-se-convirtio-en-multimillonario-es-el-tercer-cantante/2026-11-10/082634.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110082634.jpg",
+      "publishedAt": "2026-11-10T11:26:34+00:00",
       "sourceId": "cooperativa",
       "sourceName": "Radio Cooperativa",
       "sourceType": "Radio Informativa Nacional",
@@ -1172,9 +1282,9 @@
       "region": "chile",
       "country": "Chile",
       "independent": false,
-      "category": "Investigación y Poder",
+      "category": "Cultura y Sociedad",
       "relevanceTier": "bajo_radar",
-      "relevanceScore": 77,
+      "relevanceScore": 72,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1195,6 +1305,26 @@
       "category": "Ciclismo y Deporte",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 82,
+      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
+    },
+    {
+      "id": "cooperativa-f4e013c799",
+      "title": "Investigan homicidio en El Bosque: Sujeto disparó al menos cinco veces contra víctima",
+      "summary": "Personal de la Fiscalía ECOH y Carabineros investiga el homicidio de un hombre de 35 años ocurrido durante la madrugada de este martes en la calle Vecinal Oriente , en la comuna de El Bosque. El hombre fue abordado en la vía pública por un sujeto, quien percutó al menos cinco disparos en su contra. El fiscal Claudio Astica dijo que...",
+      "content": "<p>Personal de la Fiscalía ECOH y Carabineros investiga el homicidio de un hombre de 35 años ocurrido durante la madrugada de este martes en la calle Vecinal Oriente, en la comuna de El Bosque.</p><p>El hombre fue abordado en la vía pública por un sujeto, quien percutó al menos cinco disparos en su contra.</p><p>El fiscal Claudio Astica dijo que &quot;se encontraba en la vía pública, caminando en calle Vecinal Oriente en dirección hacia el sur, cuando es interceptado por un sujeto que venía a bordo de un vehículo, el cual se baja del vehículo portando un arma de fuego, se dirige hacia la víctima y le dispara en diversas oportunidades, provocándole la muerte en la vía pública&quot;.</p><p>Hasta el momento se desconoce el móvil del crimen.</p><p>Hasta la comuna de El Bosque se trasladó @ECOH_FiscaliaRM para investigar el homicidio con arma de fuego de un hombre, quien recibió múltiples impactos balísticos por parte de un desconocido mientras transitaba por calle Vecinal Oriente. Se trabaja con @PDI_CHILE https://t.co/CRvq5z0hba</p>",
+      "url": "https://www.cooperativa.cl/noticias/pais/policial/homicidios/investigan-homicidio-en-el-bosque-sujeto-disparo-al-menos-cinco-veces/2026-11-10/082244.html",
+      "image": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110082244.jpg",
+      "publishedAt": "2026-11-10T11:22:44+00:00",
+      "sourceId": "cooperativa",
+      "sourceName": "Radio Cooperativa",
+      "sourceType": "Radio Informativa Nacional",
+      "sourceSite": "https://www.cooperativa.cl",
+      "region": "chile",
+      "country": "Chile",
+      "independent": false,
+      "category": "Investigación y Poder",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 77,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
@@ -1281,7 +1411,7 @@
       "id": "cooperativa-78999bdbd1",
       "title": "Camioneros ocupan rutas en varias regiones del país",
       "summary": "Camioneros de varias regiones del país iniciaron este martes bloqueos parciales de rutas en protesta por las alzas de precios de los combustibles , a pesar de que el Gobierno anunció en la víspera medidas para atenuar estos aumentos de los valores a través de un proyecto de ley . En la comuna de Paine, sur de Santiago, altura del...",
-      "content": "<p>Camioneros de varias regiones del país iniciaron este martes bloqueos parciales de rutas en protesta por las alzas de precios de los combustibles, a pesar de que el Gobierno anunció en la víspera medidas para atenuar estos aumentos de los valores a través de un proyecto de ley.</p><p>En la comuna de Paine, sur de Santiago, altura del kilómetro 41, se mantienen camiones ocupando una pista de circulación: los vehículos que van hacia el sur tienen solo una pista, lo que ha generado gran congestión.</p><p>Otros transportistas se han apostado en la salida norte de la Región Metropolitana en la comuna de Quilicura.</p><p>En la Región del Biobío, se esperan cuatro puntos de reunión de camioneros. El principal de ellos ocupa una pista de la Ruta 5 Sur para estrechar el paso de vehículos.</p><p>Y los transportistas escolares anunciaron que se sumarán a la protesta durante la jornada.</p><p>Hasta ahora el llamado es a no bloquear el paso; sino solo hacer más estrechas las rutas para ralentizar el traslado de otros medios de transportes</p><p>En Coquimbo también hay movilización. Camioneros apostados a la altura de Lagunillas, al sur de Coquimbo. También se mantiene bloqueada una pista y se espera que se sumen transportistas de Ovalle.</p><p>En la Región de Tarapacá, un grupo de camiones se apostaron en la Ruta 5 Norte, a la altura del cruce con la Ruta 16 cerca de Humberstone, al extremo norte de Pozo Almonte. Asimismo, se registran bloqueos y cortes en la Ruta 1, que conecta Iquique con el Aeropuerto Internacional Diego Aracena; en este lugar, se está permitiendo el tránsito de vehículos livianos, pero se bloqueó a vehículos de transporte de carga.</p><p>En el puerto de Iquique se detuvo el tránsito de vehículos de transporte de carga. Desde la Empresa Portuaria de Iquique se anunció la suspensión de la apertura; hoy iniciaba la temporada de cruceros en la Región de Tarapacá, sin embargo, la nave que tenía previsto recalar a las 08:00 de la mañana no lo hará.</p>",
+      "content": "<p>Camioneros de varias regiones del país iniciaron este martes bloqueos parciales de rutas en protesta por las alzas de precios de los combustibles, a pesar de que el Gobierno anunció en la víspera medidas para atenuar estos aumentos de los valores a través de un proyecto de ley.</p><p>En la comuna de Paine, sur de Santiago, altura del kilómetro 41, se mantienen camiones ocupando una pista de circulación: los vehículos que van hacia el sur tienen solo una pista, lo que ha generado gran congestión.</p><p>Otros transportistas se han apostado en la salida norte de la Región Metropolitana en la comuna de Quilicura.</p><p>En la Ruta 68, en dirección a Valparaíso, cerca de 30 camioneros independientes decidieron bloquear la zona con las principales demandas: que existan cambios al Mepco, la eliminación del impuesto específico a los combustibles y una revisión de los cobros del TAG y peajes.</p><p>El dirigente, Matías Campo, confirmó que no han conversado con el Gobierno: &quot;Las confederaciones de camiones más grandes están todas arregladitas, por eso ellos no salen a movilizarnos. Nosotros somos camiones pymes, somos grúas pymes, somos taxistas pymes. Entonces, somos parte importante del país, que mueve realmente el país. Nosotros lo que esperamos es poder que se abra una mesa de trabajo y atacar estos tres puntos&quot;.</p><p>En la Región del Biobío, se esperan cuatro puntos de reunión de camioneros. El principal de ellos ocupa una pista de la Ruta 5 Sur para estrechar el paso de vehículos.</p><p>Y los transportistas escolares anunciaron que se sumarán a la protesta durante la jornada.</p><p>Hasta ahora el llamado es a no bloquear el paso; sino solo hacer más estrechas las rutas para ralentizar el traslado de otros medios de transportes</p><p>En Coquimbo también hay movilización. Camioneros apostados a la altura de Lagunillas, al sur de Coquimbo. También se mantiene bloqueada una pista y se espera que se sumen transportistas de Ovalle.</p><p>En la Región de Tarapacá, un grupo de camiones se apostaron en la Ruta 5 Norte, a la altura del cruce con la Ruta 16 cerca de Humberstone, al extremo norte de Pozo Almonte. Asimismo, se registran bloqueos y cortes en la Ruta 1, que conecta Iquique con el Aeropuerto Internacional Diego Aracena; en este lugar, se está permitiendo el tránsito de vehículos livianos, pero se bloqueó a vehículos de transporte de carga.</p><p>En el puerto de Iquique se detuvo el tránsito de vehículos de transporte de carga. Desde la Empresa Portuaria de Iquique se anunció la suspensión de la apertura; hoy iniciaba la temporada de cruceros en la Región de Tarapacá, sin embargo, la nave que tenía previsto recalar a las 08:00 de la mañana no lo hará.</p>",
       "url": "https://www.cooperativa.cl/noticias/pais/transportes/camioneros-ocupan-rutas-en-varias-regiones-del-pais/2026-11-10/073518.html",
       "image": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110073518.jpg",
       "publishedAt": "2026-11-10T10:35:18+00:00",
@@ -1738,26 +1868,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "cooperativa-5f53ecf901",
-      "title": "Antofagasta en alerta: paralizan faenas pesqueras tras ola de ataques de lobos marinos",
-      "summary": "Una grave situación de seguridad mantiene paralizadas las faenas extractivas en el borde costero de Antofagasta , luego de registrarse al menos 23 ataques de lobos marinos contra buzos y pescadores artesanales: 15 en la caleta Coloso y ocho en el terminal pesquero. Los trabajadores denuncian que los animales han adoptado conductas...",
-      "content": "<p>Una grave situación de seguridad mantiene paralizadas las faenas extractivas en el borde costero de Antofagasta, luego de registrarse al menos 23 ataques de lobos marinos contra buzos y pescadores artesanales: 15 en la caleta Coloso y ocho en el terminal pesquero.</p><p>Los trabajadores denuncian que los animales han adoptado conductas agresivas, poniendo en riesgo la integridad de quienes desarrollan actividades en el mar e incluso de los bañistas.</p><p>Alex Coss, representante del sector afectado, señaló que la situación ha impedido que los trabajadores salgan a faenar. &quot;Los buzos y las embarcaciones estamos todos afectados. Nadie quiere salir a trabajar por el daño que está ocurriendo con los buzos&quot;, relató.</p><p>Miguel Sandoval, pescador de la zona, advirtió que &quot;ahora el problema es que esos lobos se metan a los balnearios&quot;, agregando que los animales &quot;ya no pasan por el lado; ahora están atacando&quot;.</p><p>Uno de los afectados relató que &quot;el día sábado, trabajando en el sector balneario, fui atacado por un lobo marino. El animal no intentó quitarme ningún producto de las manos; solamente ataca por atacar&quot;.</p><p>&quot;Hago un llamado a la autoridad a tomar cartas en el asunto, ya que, ni Dios lo quiera, pueden cobrar la vida de un buzo&quot;, sostuvo.</p><p>Desde la Corporación Tampo, su vicepresidente, Carlos Guerra, explicó que este comportamiento podría estar relacionado con los denominados &quot;lobos cebados&quot;, ejemplares que modifican sus conductas al acostumbrarse a recibir alimentos de las personas.</p><p>&quot;El lobo marino no es amigo del ser humano. El lobo marino ve al ser humano como enemigo, como competidor o como alguien que le suministra algo, alimento en este caso&quot;, explicó.</p><p>En ese sentido, advirtió que alimentar a estos animales puede generar conductas agresivas para conseguir comida. &quot;Esta conducta errada de las personas de darles alimento a los lobos los transforma en lobos cebados. Es más &#x27;fácil&#x27; para él quitarle el pescado al ser humano o seguirlo y sacarle los peces de las redes&quot;, indicó.</p><p>Frente a la emergencia y la paralización de las flotas, la directora regional de Sernapesca, Pilar Irribarren, llamó a la prudencia y al autocuidado, mientras continúan las coordinaciones con los organismos competentes para abordar la situación.</p>",
-      "url": "https://www.cooperativa.cl/noticias/economia/sectores-productivos/pesca/antofagasta-en-alerta-paralizan-faenas-pesqueras-tras-ola-de-ataques-de/2026-11-09/234143.html",
-      "image": "https://www.cooperativa.cl/noticias/site/artic/20261109/imag/foto_0000000220261109234143.jpg",
-      "publishedAt": "2026-11-10T02:41:43+00:00",
-      "sourceId": "cooperativa",
-      "sourceName": "Radio Cooperativa",
-      "sourceType": "Radio Informativa Nacional",
-      "sourceSite": "https://www.cooperativa.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": false,
-      "category": "Economía y Sociedad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 77,
-      "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
       "id": "ciclismo-chile-2c1ff618a0",
       "title": "El ciclismo se tomó Los Ríos: Héctor Quintana y Yarela González ganan el Grand Prix Lago Ranco 2026",
       "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
@@ -2038,46 +2148,6 @@
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
-      "id": "laderasur-777dda977f",
-      "title": "¿Qué quedó después del incendio del pozo Krem-1? Detectan contaminantes en Veracruz",
-      "summary": "Nota publicada por Ladera Sur (Naturaleza y Ciencia Indep.). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>¿Qué quedó después del incendio del pozo Krem-1? Detectan contaminantes en Veracruz Ladera Sur</p>",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY1hCS2hkRXhScGpBa1kyNk82bDRDM1RjVlZGLTk5bmJtX3h0dTBCVnZkY1JRSFNCekpiUnJxb0trTzNCQmpSUWNTaVpYQmFjeEJJZldrS3dWNEtaSXkweXlocDRqb0hpWmI5Ml9RcERtWGJZQUc4WWxTYXljM2o2SXV3WEluT3R5aGhGQjJoc1g5NDZrTW9iVHdTVkNWVEV5eEdTdzIxbzZqbzlXV3NSZ3poOA?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-09T22:08:33+00:00",
-      "sourceId": "laderasur",
-      "sourceName": "Ladera Sur",
-      "sourceType": "Naturaleza y Ciencia Indep.",
-      "sourceSite": "https://laderasur.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Medioambiente y Territorio",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 80,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "diariouach-a2b28802a4",
-      "title": "Dr. Jesús Lara: académico conversó en Radio UACh sobre la investigación histórica en torno a la Beatita Benavides",
-      "summary": "El académico del Instituto de Especialidades Pedagógicas de la Universidad Austral de Chile, Sede…",
-      "content": "<p>El académico del Instituto de Especialidades Pedagógicas de la Universidad Austral de Chile, Sede Puerto Montt, Jesús Lara, participó en el programa La Libertad se Conquista, de Radio Universidad Austral de Chile, donde abordó los avances y desafíos de la investigación histórica que desarrolla en torno a la figura de la Beatita Benavides, cuyo proceso de canonización se encuentra actualmente en curso.</p><p>Durante la entrevista, explicó que su incorporación a este trabajo surgió a partir de una invitación de la Orden de Predicadores, considerando su trayectoria de aproximadamente 16 años en el estudio de la historia de la Iglesia y la educación de la orden dominica en Chile. Sus antecedentes fueron posteriormente revisados por el Dicasterio de las Causas de los Santos, organismo del Vaticano encargado de las causas de beatificación y canonización, que aprobó su participación como colaborador en esta investigación. Su labor consiste en reunir, analizar y documentar antecedentes históricos que permitan avanzar en la elaboración de la Positio, un extenso estudio histórico, crítico y teológico que reúne las fuentes necesarias para la evaluación de la causa.</p><p>La investigación contempla la revisión de documentación histórica conservada en el archivo del Convento de Santo Domingo, en Santiago, donde se encuentra el archivo personal de Benavides, organizado en cinco secciones que reúnen antecedentes desde el siglo XVIII hasta la actualidad. Entre los documentos consultados figuran registros religiosos, correspondencia, testimonios de personas que recibieron su ayuda y antecedentes sobre la labor de acogida y cuidado que desarrolló durante su vida.</p><p>En ese sentido, el investigador destacó que uno de los aspectos relevantes del estudio es reconstruir el contexto histórico y social en que vivió Benavides, además de contrastar los relatos de tradición oral y las expresiones de devoción popular con fuentes documentales de la época. Según explicó, los testimonios conservados dan cuenta de cómo su vivienda llegó a convertirse en un espacio de acogida para personas enfermas, huérfanos y quienes se encontraban en situación de calle.</p><p>Respecto de la importancia que tendría una eventual canonización, Lara señaló que Benavides podría convertirse en la primera santa laica de Chile, lo que representaría un hito para la historia religiosa y cultural del país. Su condición de laica y la labor social que desarrolló durante su vida constituyen elementos especialmente significativos para comprender su figura.</p><p>El proceso contempla todavía distintas etapas de revisión. Entre los próximos pasos se encuentra una reunión con el relator de la causa, en la que se evaluará la continuidad del académico como colaborador y se definirán los aspectos que deberán profundizarse para avanzar en la elaboración de la Positio. Este encuentro podría realizarse en Roma. Posteriormente, el documento deberá ser evaluado por las instancias correspondientes del Vaticano.</p><p>La investigación cuenta también con el apoyo de Carlos Olivares, encargado del archivo del Convento de Santo Domingo, cuyo trabajo de catalogación y conocimiento de los documentos históricos ha sido fundamental para acceder a nuevos antecedentes.</p><p>La participación del académico en este espacio radial permitió compartir con la audiencia los alcances de una investigación que busca contribuir, desde el trabajo histórico y documental, al conocimiento de una figura relevante de la religiosidad popular chilena.</p><p>Revisa la entrevista completa aquí.</p>",
-      "url": "https://diario.uach.cl/dr-jesus-lara-academico-converso-en-radio-uach-sobre-la-investigacion-historica-en-torno-a-la-beatita-benavides/",
-      "image": "https://diario.uach.cl/wp-content/uploads/2026/11/IMG_7150.jpg",
-      "publishedAt": "2026-11-09T22:35:41+00:00",
-      "sourceId": "diariouach",
-      "sourceName": "Diario UACh (Valdivia)",
-      "sourceType": "Regional / Ciencia (Sur)",
-      "sourceSite": "https://diario.uach.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Investigación y Poder",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 77,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
       "id": "lasillavacia-f69fca2e7f",
       "title": "Uribismo cierra la puerta a una alianza electoral con Petro para 2027",
       "summary": "Gustavo Petro le propuso unirse en las próximas elecciones para “defender la Constitución”: Uribe contestó que “ese tema nunca ha existido”. The post Uribismo cierra la puerta a una alianza electoral con Petro para 2027 appeared first on La Silla Vacía .",
@@ -2098,13 +2168,13 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "diariouach-90f6837050",
-      "title": "Académica de FACEA UACh participó en cumbre internacional sobre ciencia, innovación y economía azul en Portugal",
-      "summary": "Uno de los principales resultados de la Cumbre fue la Declaración de Maia, documento…",
-      "content": "<p>Uno de los principales resultados de la Cumbre fue la Declaración de Maia, documento que busca avanzar desde los compromisos hacia acciones concretas para construir el Espacio Común Eurolatinoamericano y Caribeño de Educación Superior, Ciencia, Tecnología e Innovación.</p><p>Entre el 21 y el 23 de octubre se realizó en Oporto y Maia, Portugal, la VII Cumbre Académica América Latina, el Caribe y Unión Europea (ALC-UE), encuentro que reunió a representantes de universidades, centros de investigación y organismos internacionales para abordar los desafíos de la educación superior, la ciencia, la tecnología y la innovación, y donde estuvo representada la UACh con la participación de la Prof. Gabriela González, académica de la Facultad de Ciencias Económicas y Administrativas (FACEA) y gestora de los Centros de Desarrollo de Negocios Sercotec Valdivia y del Ranco.</p><p>En el marco del foro “Ciencia e Innovación en la Economía Azul”, donde participó como panelista, abordó las oportunidades y desafíos del emprendimiento femenino en este ámbito, destacando la necesidad de fortalecer los negocios liderados por mujeres mediante el acompañamiento empresarial, el acceso a tecnologías, el financiamiento y la articulación entre universidades, instituciones públicas y sector productivo.</p><p>Allí relevó el potencial de la Región de Los Ríos para impulsar iniciativas de economía azul, considerando sus ecosistemas fluviales y costeros, biodiversidad y capacidades académicas. Desde esta perspectiva, la académica destacó la importancia de conectar el conocimiento con la innovación y la cooperación internacional para generar proyectos sostenibles y oportunidades de desarrollo territorial.</p><p>Su participación también permitió proyectar nuevas posibilidades de vinculación académica e institucional, apoyadas en la trayectoria de internacionalización de la académica, que incluye formación en Shanghai University of Finance and Economics, en China.</p><p>“Fue un encuentro muy provechoso, que permitió compartir experiencias, conocer distintas perspectivas y reflexionar sobre los desafíos que enfrentamos en materia de innovación, emprendimiento y desarrollo sostenible. Me alegra mucho que, a partir de esta Cumbre, pueda ser parte de esta red internacional de colaboración académica, que abre nuevas oportunidades para generar vínculos, intercambiar conocimientos e impulsar iniciativas conjuntas que contribuyan al desarrollo de nuestros territorios”, señaló Gabriela González.</p><p>Uno de los principales resultados de la Cumbre fue la Declaración de Maia, documento que busca avanzar desde los compromisos hacia acciones concretas para construir el Espacio Común Eurolatinoamericano y Caribeño de Educación Superior, Ciencia, Tecnología e Innovación.</p><p>La declaración recoge propuestas dirigidas a las autoridades de ambas regiones y plantea la necesidad de establecer iniciativas con objetivos definidos, responsables, plazos y mecanismos de seguimiento que permitan evaluar sus resultados. Entre sus principales prioridades se encuentran el fortalecimiento de la movilidad de estudiantes y académicos, el reconocimiento de estudios y cualificaciones, la cooperación en programas doctorales y la creación de redes internacionales de investigación. También propone mejorar la articulación entre universidades e instituciones, facilitando el intercambio de conocimientos y el desarrollo de capacidades científicas y tecnológicas.</p><p>El documento además incorpora desafíos emergentes que requieren respuestas colaborativas, como el uso responsable de la inteligencia artificial en la educación y la investigación, la sostenibilidad ambiental, la transición energética y la protección de los océanos. En este último ámbito, la economía azul adquiere especial relevancia como espacio para vincular investigación, innovación y desarrollo económico sostenible.</p><p>Para dimensionar el alcance de esta iniciativa, la Declaración de Maia identifica una comunidad académica birregional de aproximadamente 8.700 universidades, 52 millones de estudiantes y 4,5 millones de profesores, cuyo potencial de colaboración podría contribuir significativamente a enfrentar desafíos compartidos.</p><p>La Prof. González señala que “para la Universidad Austral de Chile, estos acuerdos representan oportunidades para ampliar la colaboración científica y académica en áreas como sostenibilidad, innovación, investigación marina y desarrollo territorial, fortaleciendo su vinculación con redes internacionales de conocimiento”, puntualizó.</p>",
-      "url": "https://diario.uach.cl/academica-de-facea-uach-participo-en-cumbre-internacional-sobre-ciencia-innovacion-y-economia-azul-en-portugal/",
-      "image": "https://diario.uach.cl/wp-content/uploads/2026/11/GG-Maia.jpeg",
-      "publishedAt": "2026-11-09T22:32:32+00:00",
+      "id": "diariouach-a2b28802a4",
+      "title": "Dr. Jesús Lara: académico conversó en Radio UACh sobre la investigación histórica en torno a la Beatita Benavides",
+      "summary": "El académico del Instituto de Especialidades Pedagógicas de la Universidad Austral de Chile, Sede…",
+      "content": "<p>El académico del Instituto de Especialidades Pedagógicas de la Universidad Austral de Chile, Sede Puerto Montt, Jesús Lara, participó en el programa La Libertad se Conquista, de Radio Universidad Austral de Chile, donde abordó los avances y desafíos de la investigación histórica que desarrolla en torno a la figura de la Beatita Benavides, cuyo proceso de canonización se encuentra actualmente en curso.</p><p>Durante la entrevista, explicó que su incorporación a este trabajo surgió a partir de una invitación de la Orden de Predicadores, considerando su trayectoria de aproximadamente 16 años en el estudio de la historia de la Iglesia y la educación de la orden dominica en Chile. Sus antecedentes fueron posteriormente revisados por el Dicasterio de las Causas de los Santos, organismo del Vaticano encargado de las causas de beatificación y canonización, que aprobó su participación como colaborador en esta investigación. Su labor consiste en reunir, analizar y documentar antecedentes históricos que permitan avanzar en la elaboración de la Positio, un extenso estudio histórico, crítico y teológico que reúne las fuentes necesarias para la evaluación de la causa.</p><p>La investigación contempla la revisión de documentación histórica conservada en el archivo del Convento de Santo Domingo, en Santiago, donde se encuentra el archivo personal de Benavides, organizado en cinco secciones que reúnen antecedentes desde el siglo XVIII hasta la actualidad. Entre los documentos consultados figuran registros religiosos, correspondencia, testimonios de personas que recibieron su ayuda y antecedentes sobre la labor de acogida y cuidado que desarrolló durante su vida.</p><p>En ese sentido, el investigador destacó que uno de los aspectos relevantes del estudio es reconstruir el contexto histórico y social en que vivió Benavides, además de contrastar los relatos de tradición oral y las expresiones de devoción popular con fuentes documentales de la época. Según explicó, los testimonios conservados dan cuenta de cómo su vivienda llegó a convertirse en un espacio de acogida para personas enfermas, huérfanos y quienes se encontraban en situación de calle.</p><p>Respecto de la importancia que tendría una eventual canonización, Lara señaló que Benavides podría convertirse en la primera santa laica de Chile, lo que representaría un hito para la historia religiosa y cultural del país. Su condición de laica y la labor social que desarrolló durante su vida constituyen elementos especialmente significativos para comprender su figura.</p><p>El proceso contempla todavía distintas etapas de revisión. Entre los próximos pasos se encuentra una reunión con el relator de la causa, en la que se evaluará la continuidad del académico como colaborador y se definirán los aspectos que deberán profundizarse para avanzar en la elaboración de la Positio. Este encuentro podría realizarse en Roma. Posteriormente, el documento deberá ser evaluado por las instancias correspondientes del Vaticano.</p><p>La investigación cuenta también con el apoyo de Carlos Olivares, encargado del archivo del Convento de Santo Domingo, cuyo trabajo de catalogación y conocimiento de los documentos históricos ha sido fundamental para acceder a nuevos antecedentes.</p><p>La participación del académico en este espacio radial permitió compartir con la audiencia los alcances de una investigación que busca contribuir, desde el trabajo histórico y documental, al conocimiento de una figura relevante de la religiosidad popular chilena.</p><p>Revisa la entrevista completa aquí.</p>",
+      "url": "https://diario.uach.cl/dr-jesus-lara-academico-converso-en-radio-uach-sobre-la-investigacion-historica-en-torno-a-la-beatita-benavides/",
+      "image": "https://diario.uach.cl/wp-content/uploads/2026/11/IMG_7150.jpg",
+      "publishedAt": "2026-11-09T22:35:41+00:00",
       "sourceId": "diariouach",
       "sourceName": "Diario UACh (Valdivia)",
       "sourceType": "Regional / Ciencia (Sur)",
@@ -2112,7 +2182,7 @@
       "region": "chile",
       "country": "Chile",
       "independent": true,
-      "category": "Economía y Sociedad",
+      "category": "Investigación y Poder",
       "relevanceTier": "bajo_radar",
       "relevanceScore": 77,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
@@ -2138,24 +2208,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "cenital-d7d5262ab8",
-      "title": "Una investigación encontró 1.183 videos de abuso sexual infantil explícito en TikTok",
-      "summary": "Esto es algo de lo que vas a encontrar hoy: UCA, Cottolengo, Monumento a los Españoles, Paraguay y Nvidia.",
-      "content": "<p>Esto es algo de lo que pasó hoy: el papa en la UCA, en el Cottolengo Don Orione y en el Monumento de los Españoles; allanaron la casa de Santiago Peña; una investigación sobre el CEO de Nvidia.</p><p>Los movimientos populares, la economía popular y los trabajadores informales (…) no esperan pasivamente la asistencia del Estado; se organizan desde abajo para construir soluciones comunitarias. (…) Demandan inclusión social y abogan por las tres T: tierra, techo y trabajo.</p><p>UCA. Hace minutos, León XIV habló en la UCA ante funcionarios, empresarios y dirigentes sindicales. Allí dio el más político de sus discursos del día: habló del desempleo como un “drama”, de trabajadores informales, de justicia social, de inclusión, destacó el rol de los gremios y hasta mencionó el reclamo de tierra, techo y trabajo. También advirtió sobre cómo la IA, los algoritmos y la automatización desregulada pueden poner en riesgo el trabajo y amenazar el desarrollo humano: “La técnica debe estar siempre supeditada a la ética”.</p><p>Cottolengo. Cerca de las nueve de la mañana, el papa estuvo en el sur del conurbano bonaerense y saludó a los residentes del Pequeño Cottolengo Argentino de Don Orione. Junto a dos de ellos, Abel Pintos cantó su tema “La llave”. Cuando habló frente al público, el pontífice dijo que “el progreso de una nación se mide por la acogida que sabe dispensar a todas las personas con discapacidad” y que “sus vidas no son un peso para la sociedad”. El santo padre se emocionó al escuchar la historia de Marta Griselda Torres, quien nació con una discapacidad que le impide ver y caminar.</p><p>Monumento. De ahí se fue hasta el Monumento de los Españoles para dar una misa. Se estima que reunió a unas 2 millones de personas. León evocó a Francisco, recordó sus palabras sobre la familia y se refirió a ella como “el lugar privilegiado para conocer y encontrar a Cristo”. Después de él habló Jorge García Cuerva: el arzobispo de Buenos Aires mencionó las heridas de las familias argentinas: “los problemas económicos, la violencia doméstica, los jóvenes afectados por distintas adicciones y los abuelos solos”. Norberto Milei y Alicia Lucich –padres de Javier y Karina– estuvieron presentes. Soledad Pastorutti cantó en la previa.</p><p>Nvidia. El directorio de la empresa estadounidense de microchips Nvidia abrió una investigación para determinar si su CEO, Jensen Huang, fue blanco de una operación de inteligencia extranjera. Según el New York Times, funcionarios de Estados Unidos aseguran que la ciudadana china Alice Huang (la coincidencia en el apellido es casual), exdirectiva de Megaspeed –una empresa de Singapur que le compra chips– tenía una relación cercana con él y le pasaba información a China, algo que en Pekín desmienten. El CEO admitió haberle sido infiel a su esposa, sin precisar con quién. A raíz de esto, las acciones de Nvidia –una de las compañías más grandes del mundo– cayeron cerca de 5% en Wall Street.</p><p>Por si te lo perdiste, salió #MundoPropio. Martín Schapiro escribe sobre el potencial del Partido Demócrata de cara a las próximas elecciones presidenciales.</p><p>El papa León XIV habla por teléfono todos los días con su hermano John Prevost. Según contó este último, juegan muy seguido al Wordle.</p><p>Como no podía ser de otra manera, armé un Wordle para este lunes. La palabra a adivinar está perdida en este correo. Mostrame qué tal te va.</p><p>Antes de irme, un abrazo especial para los hinchas de Boca, flamantes campeones de la Liga Profesional de Fútbol. Salud. Nos leemos mañana 🙂</p>",
-      "url": "https://cenital.com/una-investigacion-encontro-1-183-videos-de-abuso-sexual-infantil-explicito-en-tiktok/",
-      "image": "https://cenital.com/wp-content/uploads/2024/12/TikTok.jpg",
-      "publishedAt": "2026-11-09T21:38:40+00:00",
-      "sourceId": "cenital",
-      "sourceName": "Cenital",
-      "sourceType": "Análisis y Geopolítica",
-      "sourceSite": "https://cenital.com",
-      "region": "latam",
-      "country": "Argentina",
+      "id": "diariouach-90f6837050",
+      "title": "Académica de FACEA UACh participó en cumbre internacional sobre ciencia, innovación y economía azul en Portugal",
+      "summary": "Uno de los principales resultados de la Cumbre fue la Declaración de Maia, documento…",
+      "content": "<p>Uno de los principales resultados de la Cumbre fue la Declaración de Maia, documento que busca avanzar desde los compromisos hacia acciones concretas para construir el Espacio Común Eurolatinoamericano y Caribeño de Educación Superior, Ciencia, Tecnología e Innovación.</p><p>Entre el 21 y el 23 de octubre se realizó en Oporto y Maia, Portugal, la VII Cumbre Académica América Latina, el Caribe y Unión Europea (ALC-UE), encuentro que reunió a representantes de universidades, centros de investigación y organismos internacionales para abordar los desafíos de la educación superior, la ciencia, la tecnología y la innovación, y donde estuvo representada la UACh con la participación de la Prof. Gabriela González, académica de la Facultad de Ciencias Económicas y Administrativas (FACEA) y gestora de los Centros de Desarrollo de Negocios Sercotec Valdivia y del Ranco.</p><p>En el marco del foro “Ciencia e Innovación en la Economía Azul”, donde participó como panelista, abordó las oportunidades y desafíos del emprendimiento femenino en este ámbito, destacando la necesidad de fortalecer los negocios liderados por mujeres mediante el acompañamiento empresarial, el acceso a tecnologías, el financiamiento y la articulación entre universidades, instituciones públicas y sector productivo.</p><p>Allí relevó el potencial de la Región de Los Ríos para impulsar iniciativas de economía azul, considerando sus ecosistemas fluviales y costeros, biodiversidad y capacidades académicas. Desde esta perspectiva, la académica destacó la importancia de conectar el conocimiento con la innovación y la cooperación internacional para generar proyectos sostenibles y oportunidades de desarrollo territorial.</p><p>Su participación también permitió proyectar nuevas posibilidades de vinculación académica e institucional, apoyadas en la trayectoria de internacionalización de la académica, que incluye formación en Shanghai University of Finance and Economics, en China.</p><p>“Fue un encuentro muy provechoso, que permitió compartir experiencias, conocer distintas perspectivas y reflexionar sobre los desafíos que enfrentamos en materia de innovación, emprendimiento y desarrollo sostenible. Me alegra mucho que, a partir de esta Cumbre, pueda ser parte de esta red internacional de colaboración académica, que abre nuevas oportunidades para generar vínculos, intercambiar conocimientos e impulsar iniciativas conjuntas que contribuyan al desarrollo de nuestros territorios”, señaló Gabriela González.</p><p>Uno de los principales resultados de la Cumbre fue la Declaración de Maia, documento que busca avanzar desde los compromisos hacia acciones concretas para construir el Espacio Común Eurolatinoamericano y Caribeño de Educación Superior, Ciencia, Tecnología e Innovación.</p><p>La declaración recoge propuestas dirigidas a las autoridades de ambas regiones y plantea la necesidad de establecer iniciativas con objetivos definidos, responsables, plazos y mecanismos de seguimiento que permitan evaluar sus resultados. Entre sus principales prioridades se encuentran el fortalecimiento de la movilidad de estudiantes y académicos, el reconocimiento de estudios y cualificaciones, la cooperación en programas doctorales y la creación de redes internacionales de investigación. También propone mejorar la articulación entre universidades e instituciones, facilitando el intercambio de conocimientos y el desarrollo de capacidades científicas y tecnológicas.</p><p>El documento además incorpora desafíos emergentes que requieren respuestas colaborativas, como el uso responsable de la inteligencia artificial en la educación y la investigación, la sostenibilidad ambiental, la transición energética y la protección de los océanos. En este último ámbito, la economía azul adquiere especial relevancia como espacio para vincular investigación, innovación y desarrollo económico sostenible.</p><p>Para dimensionar el alcance de esta iniciativa, la Declaración de Maia identifica una comunidad académica birregional de aproximadamente 8.700 universidades, 52 millones de estudiantes y 4,5 millones de profesores, cuyo potencial de colaboración podría contribuir significativamente a enfrentar desafíos compartidos.</p><p>La Prof. González señala que “para la Universidad Austral de Chile, estos acuerdos representan oportunidades para ampliar la colaboración científica y académica en áreas como sostenibilidad, innovación, investigación marina y desarrollo territorial, fortaleciendo su vinculación con redes internacionales de conocimiento”, puntualizó.</p>",
+      "url": "https://diario.uach.cl/academica-de-facea-uach-participo-en-cumbre-internacional-sobre-ciencia-innovacion-y-economia-azul-en-portugal/",
+      "image": "https://diario.uach.cl/wp-content/uploads/2026/11/GG-Maia.jpeg",
+      "publishedAt": "2026-11-09T22:32:32+00:00",
+      "sourceId": "diariouach",
+      "sourceName": "Diario UACh (Valdivia)",
+      "sourceType": "Regional / Ciencia (Sur)",
+      "sourceSite": "https://diario.uach.cl",
+      "region": "chile",
+      "country": "Chile",
       "independent": true,
-      "category": "Investigación y Poder",
-      "relevanceTier": "alta",
-      "relevanceScore": 89,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
+      "category": "Economía y Sociedad",
+      "relevanceTier": "bajo_radar",
+      "relevanceScore": 77,
+      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
     },
     {
       "id": "radiouchile-80837129a8",
@@ -2178,24 +2248,24 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "esciclismo-6d62a49e55",
-      "title": "Club La Santa anuncia la evolución de su evento de mountain bike: llega la 2 Stage MTB Race Lanzarote",
-      "summary": "Club La Santa confirma la llegada de la 2 Stage MTB Race Lanzarote, una cita deportiva que se celebrará el 13 y 14 de noviembre de 2027. Este evento, que se disputará en medio de...",
-      "content": "<p>Club La Santa confirma la llegada de la 2 Stage MTB Race Lanzarote, una cita deportiva que se celebrar el 13 y 14 de noviembre de 2027. Este evento, que se disputar en medio de los parajes volcnicos de la isla, congregar a cientos de ciclistas profesionales y aficionados de todo el mundo. Con esta nueva propuesta, el complejo hotelero reafirma su liderazgo en la promocin del deporte y del turismo activo de mxima calidad.</p><p>Esta prueba nace como la evolucin natural de la mtica 4 Stage MTB Race Lanzarote. Para adaptarse a las demandas del calendario deportivo y ofrecer una experiencia ms vibrante, la competicin pasa ahora a tener dos etapas en lugar de las cuatro habituales. La transformacin hacia un formato concentrado permitir a los participantes disfrutar de una prueba ms dinmica y accesible, manteniendo intacta la exigencia y los recorridos emblemticos.</p><p>Adems, de cara al estreno, otra novedad destacable ser la incorporacin de la modalidad gravel, una disciplina que sigue creciendo y que encaja a la perfeccin con los recorridos del evento.</p><p>Para que la celebracin de esta prueba sea posible y cuente con los ms altos estndares de nivel y seguridad, es indispensable el apoyo y la colaboracin de las instituciones pblicas. Entre ellas, es fundamental el respaldo del Cabildo de Lanzarote, Lanzarote Sports Destination, el Gobierno de Canarias y los Ayuntamientos de Tinajo y Teguise. Su compromiso conjunto es clave para seguir posicionando a la isla como un destino deportivo de primer orden.</p><p>La preparacin de la primera edicin de esta 2 Stage MTB Race Lanzarote ya ha arrancado. El evento ofrecer una combinacin de superacin, deporte y naturaleza en un entorno inigualable. La emocin por formar parte de la nueva 2 Stage MTB Race Lanzarote ya est presente, por lo que las inscripciones ya estn abiertas a travs de clublasanta.com/es/2stagemtb.</p><p>Quieres recibir nuestras alertas de ciclismo?Te enviaremos slo las noticias ms relevantes.</p>",
-      "url": "https://www.esciclismo.com/actualidad/mountain-bike/93775.html",
-      "image": "https://www.esciclismo.com/actualidad/imagenes/b/2-stage-mtb-pre-inscripciones-2026-clublasanta-e.jpg",
-      "publishedAt": "2026-11-09T21:25:00+00:00",
-      "sourceId": "esciclismo",
-      "sourceName": "EsCiclismo",
-      "sourceType": "Ciclismo Global y Pruebas UCI",
-      "sourceSite": "https://www.esciclismo.com",
-      "region": "mundo",
-      "country": "España",
+      "id": "cenital-d7d5262ab8",
+      "title": "Una investigación encontró 1.183 videos de abuso sexual infantil explícito en TikTok",
+      "summary": "Esto es algo de lo que vas a encontrar hoy: UCA, Cottolengo, Monumento a los Españoles, Paraguay y Nvidia.",
+      "content": "<p>Esto es algo de lo que pasó hoy: el papa en la UCA, en el Cottolengo Don Orione y en el Monumento de los Españoles; allanaron la casa de Santiago Peña; una investigación sobre el CEO de Nvidia.</p><p>Los movimientos populares, la economía popular y los trabajadores informales (…) no esperan pasivamente la asistencia del Estado; se organizan desde abajo para construir soluciones comunitarias. (…) Demandan inclusión social y abogan por las tres T: tierra, techo y trabajo.</p><p>UCA. Hace minutos, León XIV habló en la UCA ante funcionarios, empresarios y dirigentes sindicales. Allí dio el más político de sus discursos del día: habló del desempleo como un “drama”, de trabajadores informales, de justicia social, de inclusión, destacó el rol de los gremios y hasta mencionó el reclamo de tierra, techo y trabajo. También advirtió sobre cómo la IA, los algoritmos y la automatización desregulada pueden poner en riesgo el trabajo y amenazar el desarrollo humano: “La técnica debe estar siempre supeditada a la ética”.</p><p>Cottolengo. Cerca de las nueve de la mañana, el papa estuvo en el sur del conurbano bonaerense y saludó a los residentes del Pequeño Cottolengo Argentino de Don Orione. Junto a dos de ellos, Abel Pintos cantó su tema “La llave”. Cuando habló frente al público, el pontífice dijo que “el progreso de una nación se mide por la acogida que sabe dispensar a todas las personas con discapacidad” y que “sus vidas no son un peso para la sociedad”. El santo padre se emocionó al escuchar la historia de Marta Griselda Torres, quien nació con una discapacidad que le impide ver y caminar.</p><p>Monumento. De ahí se fue hasta el Monumento de los Españoles para dar una misa. Se estima que reunió a unas 2 millones de personas. León evocó a Francisco, recordó sus palabras sobre la familia y se refirió a ella como “el lugar privilegiado para conocer y encontrar a Cristo”. Después de él habló Jorge García Cuerva: el arzobispo de Buenos Aires mencionó las heridas de las familias argentinas: “los problemas económicos, la violencia doméstica, los jóvenes afectados por distintas adicciones y los abuelos solos”. Norberto Milei y Alicia Lucich –padres de Javier y Karina– estuvieron presentes. Soledad Pastorutti cantó en la previa.</p><p>Nvidia. El directorio de la empresa estadounidense de microchips Nvidia abrió una investigación para determinar si su CEO, Jensen Huang, fue blanco de una operación de inteligencia extranjera. Según el New York Times, funcionarios de Estados Unidos aseguran que la ciudadana china Alice Huang (la coincidencia en el apellido es casual), exdirectiva de Megaspeed –una empresa de Singapur que le compra chips– tenía una relación cercana con él y le pasaba información a China, algo que en Pekín desmienten. El CEO admitió haberle sido infiel a su esposa, sin precisar con quién. A raíz de esto, las acciones de Nvidia –una de las compañías más grandes del mundo– cayeron cerca de 5% en Wall Street.</p><p>Por si te lo perdiste, salió #MundoPropio. Martín Schapiro escribe sobre el potencial del Partido Demócrata de cara a las próximas elecciones presidenciales.</p><p>El papa León XIV habla por teléfono todos los días con su hermano John Prevost. Según contó este último, juegan muy seguido al Wordle.</p><p>Como no podía ser de otra manera, armé un Wordle para este lunes. La palabra a adivinar está perdida en este correo. Mostrame qué tal te va.</p><p>Antes de irme, un abrazo especial para los hinchas de Boca, flamantes campeones de la Liga Profesional de Fútbol. Salud. Nos leemos mañana 🙂</p>",
+      "url": "https://cenital.com/una-investigacion-encontro-1-183-videos-de-abuso-sexual-infantil-explicito-en-tiktok/",
+      "image": "https://cenital.com/wp-content/uploads/2024/12/TikTok.jpg",
+      "publishedAt": "2026-11-09T21:38:40+00:00",
+      "sourceId": "cenital",
+      "sourceName": "Cenital",
+      "sourceType": "Análisis y Geopolítica",
+      "sourceSite": "https://cenital.com",
+      "region": "latam",
+      "country": "Argentina",
       "independent": true,
-      "category": "Ciclismo y Deporte",
+      "category": "Investigación y Poder",
       "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
+      "relevanceScore": 89,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "radiouchile-7c41253bff",
@@ -2356,26 +2426,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 74,
       "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
-    },
-    {
-      "id": "radiouchile-a911edac4a",
-      "title": "Martina Yopo sobre fertilización asistida: “Tenemos que avanzar en una cobertura pública más amplia y generosa”",
-      "summary": "La socióloga e integrante de la Comisión de Natalidad confirmó que la instancia dedicó una sesión a técnicas de reproducción asistida, pero aclaró que aún no existe consenso sobre su inclusión en la propuesta final. La entrada Martina Yopo sobre fertilización asistida: “Tenemos que avanzar en una cobertura pública más amplia y...",
-      "content": "<p>La socióloga y académica de la Pontificia Universidad Católica de Chile, Martina Yopo, confirmó que la Comisión de Natalidad convocada por el Gobierno, dedicó una sesión a discutir sobre la salud sexual y reproductiva, incluyendo las técnicas de reproducción asistida.</p><p>En conversación con el programa Semáforo de Radio Universidad de Chile la especialista, quien codirigió el documental “Reproducción en espera”, aclaró que sus declaraciones son a título personal y que no representan la postura oficial de la instancia.</p><p>En ese sentido, sostuvo que: “Efectivamente tuvimos una discusión donde hubo distintos puntos de vista, distintas mirada sobre este tema, pero creo que tuvimos una buena conversación. El resultado final de eso es algo que todavía tenemos que, de alguna manera, llegar a un consenso”.</p><p>“Mi opinión personal es que sí tenemos que avanzar en una cobertura pública más amplia y generosa para hablar de la familia”, subrayó la especialista.</p><p>Yopo insistió en la necesidad de que las decisiones no respondan solo a convicciones particulares. En esa línea, recalcó que es “fundamental tener una discusión plural donde se puedan tener y discutir todos los puntos de vista, pero que sí sea una conversación basada en evidencia y no solamente en creencias personales e ideologías que son privadas y no compartidas por toda la sociedad”.</p><p>La entrada Martina Yopo sobre fertilización asistida: “Tenemos que avanzar en una cobertura pública más amplia y generosa” se publicó primero en Diario y Radio Universidad Chile.</p>",
-      "url": "https://radio.uchile.cl/2026/11/09/martina-yopo-sobre-fertilizacion-asistida-tenemos-que-avanzar-en-una-cobertura-publica-mas-amplia-y-generosa/",
-      "image": "https://uchile-media-storage.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/11/09175914/martina-yopo.png",
-      "publishedAt": "2026-11-09T21:00:30+00:00",
-      "sourceId": "radiouchile",
-      "sourceName": "Radio U. de Chile",
-      "sourceType": "Universitario / Pluralista",
-      "sourceSite": "https://radio.uchile.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 88,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "globalvoices-1ed864de8a",
@@ -2818,24 +2868,24 @@
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
     },
     {
-      "id": "timeline-86ceb536ad",
-      "title": "Dos colegios de Antofagasta obtienen medalla de oro en competencia mundial de ciencias en Corea del Sur",
-      "summary": "Los proyectos “Second Bites” de la Escuela “General Manuel Baquedano” y “Eco-Volt: un mundo de energías limpias” del Liceo “La Portada”, ambos recintos educacionales de Antofagasta, ganaron el primer lugar en las categorías Junior y Senior respectivamente, en el Global Youth Summit 2026 realizado en Corea del Sur. Tras competir con...",
-      "content": "<p>Los proyectos “Second Bites” de la Escuela “General Manuel Baquedano” y “Eco-Volt: un mundo de energías limpias” del Liceo “La Portada”, ambos recintos educacionales de Antofagasta, ganaron el primer lugar en las categorías Junior y Senior respectivamente, en el Global Youth Summit 2026 realizado en Corea del Sur. Tras competir con más de 40 delegaciones de diversas partes del mundo, los antofagastinos regresan a Chile con medalla de oro.</p><p>Ambas delegaciones avanzaron a las semifinales, destacando entre los 44 equipos participantes provenientes de distintos países. Sus propuestas sobresalieron por abordar desafíos ambientales mediante soluciones innovadoras y sostenibles, demostrando el potencial de las nuevas generaciones para contribuir a la búsqueda de respuestas concretas a problemáticas de sus comunidades. En la fase final, se enfrentaron a 28 equipos en Senior y 16 en Junior. Los proyectos fueron evaluados considerando su sostenibilidad y su alineación con los objetivos y características de cada categoría.</p><p>Desde Seúl la profesora de Ciencias de la Escuela “Manuel Baquedano”, Karina Lara, comentó a la distancia estar “impactada porque los proyectos de los otros países eran de muy buen nivel. Al momento de escuchar que el primer lugar era nuestro no lo podíamos creer”.</p><p>La delegación del establecimiento la completaron los alumnos Pedro Díaz, Cristopher López, Jeicoo Elgueta, Stanley Peña (no pudo participar por trámites administrativos) y la docente Leslie Escobar.</p><p>“Debemos crear otro proyecto en un tiempo acotado, ver la temática y comenzar a trabajar para seguir expandiendo las ciencias en nuestra escuela, es pequeña, pero se pueden obtener grandes resultados”, comentó la docente que proyecta el próximo desafío en Indonesia 2027.</p><p>El proyecto del Liceo “La Portada” “Eco-Volt: un mundo de energías limpias” que consistía en la construcción de paneles solares móviles también regresa a Antofagasta con el trofeo del primer lugar. Una de las docentes a cargo de la delegación, Gabriela Ríos, comentó desde Seúl que “estamos muy contentos, decirles a los niños que perseverando todo se puede lograr, la creatividad no tiene límites. Que la confianza que generaron no se les acabe, sigan desarrollándola. Estamos muy orgullosas y se merecen el primer lugar”. La delegación la completaron la docente de Ciencias Pamela Monardes y los estudiantes Maximiliano Sáez, Gustavo Soto, Hugo Adaos y Paz Lee.</p><p>El tercer establecimiento que representó a la Corporación Municipal de Desarrollo Social en Corea del Sur fue la Escuela “Humberto González Echegoyen” la cual, si bien no obtuvo uno de los primeros lugares con su proyecto “Kauzai”, fue una experiencia llena de aprendizaje y aventuras para los alumnos que cursan entre 5° y 8° básico.</p><p>La entrada Dos colegios de Antofagasta obtienen medalla de oro en competencia mundial de ciencias en Corea del Sur se publicó primero en Timeline.cl.</p>",
-      "url": "https://www.timeline.cl/dos-colegios-de-antofagasta-obtienen-medalla-de-oro-en-competencia-mundial-de-ciencias-en-corea-del-sur/",
-      "image": "https://www.timeline.cl/wp-content/uploads/2026/11/09-colegios.jpg",
-      "publishedAt": "2026-11-09T15:31:20+00:00",
-      "sourceId": "timeline",
-      "sourceName": "Timeline Antofagasta",
-      "sourceType": "Regional Independiente (Norte)",
-      "sourceSite": "https://timeline.cl",
+      "id": "fastcheck-7254fad063",
+      "title": "Kast en mínimos",
+      "summary": "A ocho meses de asumir, el gobierno de José Antonio Kast llegó a mínimos y sigue cayendo, sostiene Cristóbal Karle. Para el autor, la rebaja de condenas por decreto a responsables de crímenes atroces, que costó la salida de un subsecretario y tensiona al oficialismo ante una acusación constitucional contra el ministro Rabat, se suma a...",
+      "content": "<p>A ocho meses de asumir, el gobierno de José Antonio Kast llegó a mínimos y sigue cayendo, sostiene Cristóbal Karle. Para el autor, la rebaja de condenas por decreto a responsables de crímenes atroces, que costó la salida de un subsecretario y tensiona al oficialismo ante una acusación constitucional contra el ministro Rabat, se suma a una economía en recesión técnica, desempleo cercano a los dos dígitos y una agenda vacía fuera del programa económico de Jorge Quiroz, que tampoco entrega resultados. Karle advierte además que la oposición, salvo excepciones, carece de alternativas propias y usa la condena a la ultraderecha para ocultar esa falta.</p>",
+      "url": "https://www.fastcheck.cl/2026/11/09/kast-en-minimos/",
+      "image": "https://www.fastcheck.cl/media/images/2026/11/kast-en-minimos.webp",
+      "publishedAt": "2026-11-09T14:18:00+00:00",
+      "sourceId": "fastcheck",
+      "sourceName": "Fast Check CL",
+      "sourceType": "Fact-Checking Independiente",
+      "sourceSite": "https://www.fastcheck.cl",
       "region": "chile",
       "country": "Chile",
       "independent": true,
       "category": "Política y Actualidad",
-      "relevanceTier": "bajo_radar",
-      "relevanceScore": 70,
-      "relevanceReason": "Historia regional, comunitaria o de nicho fuera de la agenda mediática tradicional"
+      "relevanceTier": "alta",
+      "relevanceScore": 98,
+      "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
       "id": "elmostrador-8b258ff08e",
@@ -2855,26 +2905,6 @@
       "category": "Política y Actualidad",
       "relevanceTier": "alta",
       "relevanceScore": 86,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "fastcheck-7254fad063",
-      "title": "Kast en mínimos",
-      "summary": "A ocho meses de asumir, el gobierno de José Antonio Kast llegó a mínimos y sigue cayendo, sostiene Cristóbal Karle. Para el autor, la rebaja de condenas por decreto a responsables de crímenes atroces, que costó la salida de un subsecretario y tensiona al oficialismo ante una acusación constitucional contra el ministro Rabat, se suma a...",
-      "content": "<p>A ocho meses de asumir, el gobierno de José Antonio Kast llegó a mínimos y sigue cayendo, sostiene Cristóbal Karle. Para el autor, la rebaja de condenas por decreto a responsables de crímenes atroces, que costó la salida de un subsecretario y tensiona al oficialismo ante una acusación constitucional contra el ministro Rabat, se suma a una economía en recesión técnica, desempleo cercano a los dos dígitos y una agenda vacía fuera del programa económico de Jorge Quiroz, que tampoco entrega resultados. Karle advierte además que la oposición, salvo excepciones, carece de alternativas propias y usa la condena a la ultraderecha para ocultar esa falta.</p>",
-      "url": "https://www.fastcheck.cl/2026/11/09/kast-en-minimos/",
-      "image": "https://www.fastcheck.cl/media/images/2026/11/kast-en-minimos.webp",
-      "publishedAt": "2026-11-09T14:18:00+00:00",
-      "sourceId": "fastcheck",
-      "sourceName": "Fast Check CL",
-      "sourceType": "Fact-Checking Independiente",
-      "sourceSite": "https://www.fastcheck.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Política y Actualidad",
-      "relevanceTier": "alta",
-      "relevanceScore": 98,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3378,26 +3408,6 @@
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
-      "id": "malaespina-5b1e42559a",
-      "title": "Este vídeo de operarios y vehículos limpiando la Puerta del Sol (Madrid) tras el desalojo de la acampada es IA",
-      "summary": "Síntesis ¿Qué pasó? En redes sociales se difundió un video que supuestamente muestra el desalojo y limpieza de la acampada en la Puerta del Sol de Madrid. ¿Cómo lo calificamos? Consideramos que esta información es falsa. ¿Cómo lo sabemos? El video proviene de una cuenta de TikTok que publica contenido generado con inteligencia...",
-      "content": "<p>¿Qué pasó? En redes sociales se difundió un video que supuestamente muestra el desalojo y limpieza de la acampada en la Puerta del Sol de Madrid.</p><p>¿Cómo lo calificamos? Consideramos que esta información es falsa.</p><p>¿Cómo lo sabemos? El video proviene de una cuenta de TikTok que publica contenido generado con inteligencia artificial y está etiquetado como tal. Además, presenta inconsistencias con la ubicación real.</p><p>La entrada Este vídeo de operarios y vehículos limpiando la Puerta del Sol (Madrid) tras el desalojo de la acampada es IA se publicó primero en Mala Espina.</p>",
-      "url": "https://www.malaespinacheck.cl/mundo/2026/11/08/este-video-de-operarios-y-vehiculos-limpiando-la-puerta-del-sol-madrid-tras-el-desalojo-de-la-acampada-es-ia/",
-      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/desalojo.webp",
-      "publishedAt": "2026-11-08T12:00:00+00:00",
-      "sourceId": "malaespina",
-      "sourceName": "Mala Espina Check",
-      "sourceType": "Fact-Checking / Política",
-      "sourceSite": "https://malaespinacheck.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
       "id": "cenital-104e3da1be",
       "title": "La mala hora de Milei: 13 días radioactivos para el plan reelección",
       "summary": "La remontada de Lula y la paliza a Trump. Incertidumbre económica e interna desatada. El desafío de Bullrich y la coincidencia con CFK. El voto joven en Estados Unidos. La sugerencia que le hacen a Kicillof: “No hables con…”",
@@ -3415,26 +3425,6 @@
       "category": "Geopolítica y Mundo",
       "relevanceTier": "alta",
       "relevanceScore": 83,
-      "relevanceReason": "Alto impacto público, investigativo o estructural"
-    },
-    {
-      "id": "malaespina-42d48a1d80",
-      "title": "Esta imagen de un set de grabación en una visita de Claudia Sheinbaum a un hospital del IMSS fue generada con IA",
-      "summary": "Síntesis ¿Qué pasó? En redes sociales circula una imagen de la presidenta de México, Claudia Sheinbaum, saludando a personal del Instituto Mexicano del Seguro Social (IMSS). Supuestamente, detrás se ve un set de grabación que captura la escena. ¿Cómo lo calificamos? Consideramos que la información es falsa. ¿Cómo lo sabemos? La...",
-      "content": "<p>¿Qué pasó? En redes sociales circula una imagen de la presidenta de México, Claudia Sheinbaum, saludando a personal del Instituto Mexicano del Seguro Social (IMSS). Supuestamente, detrás se ve un set de grabación que captura la escena.</p><p>¿Cómo lo calificamos? Consideramos que la información es falsa.</p><p>¿Cómo lo sabemos? La ilustración fue generada con Inteligencia Artificial (IA). Incluso, tiene marca de agua de Synth ID de Google. La entrada Esta imagen de un set de grabación en una visita de Claudia Sheinbaum a un hospital del IMSS fue generada con IA se publicó primero en Mala Espina.</p>",
-      "url": "https://www.malaespinacheck.cl/mundo/2026/11/08/esta-imagen-de-un-set-de-grabacion-en-una-visita-de-claudia-sheinbaum-a-un-hospital-del-imss-fue-generada-con-ia/",
-      "image": "https://www.malaespinacheck.cl/wp-content/uploads/2026/11/Esta-imagen-de-un-set-de-grabacion-en-una-visita-de-Claudia-Sheinbaum-a-un-hospital-del-IMSS-fue-generada-con-IA-1.webp",
-      "publishedAt": "2026-11-08T12:00:00+00:00",
-      "sourceId": "malaespina",
-      "sourceName": "Mala Espina Check",
-      "sourceType": "Fact-Checking / Política",
-      "sourceSite": "https://malaespinacheck.cl",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Ciencia, Salud y Futuro",
-      "relevanceTier": "alta",
-      "relevanceScore": 85,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
     },
     {
@@ -3796,6 +3786,26 @@
       "relevanceTier": "alta",
       "relevanceScore": 96,
       "relevanceReason": "Alto impacto público, investigativo o estructural"
+    },
+    {
+      "id": "ciclismo-chile-f33eecd9ee",
+      "title": "Angol recibe nueva fecha del campeonato nacional de mountainbike con competidores de distintas edades",
+      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
+      "content": "<p>Angol recibe nueva fecha del campeonato nacional de mountainbike con competidores de distintas edades Radio Universal</p>",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdF9hdVVMc0wtOWYzQmZfYnJNNVhlYk1VemgzcVQ0N1VOXzNkbzVEcHBiV1ZHZ2huN2ZPYjNibVNTMGlYODhQY3pNcnFVQ3JaUEZ5eExHRk14d0Z0UTBWZEV0RE1zRDN3LUU0aXZGN1cwM2VLcHRxSTZVSzVqLWhOakxnWTJ1enRYYVNTblQ0LXdqR19LSTU0Ry13RDNHWEtlNE54RWtNM3pfRXg1RXBad1lqdkNwdWxyN0NpcXIyb1gwZWhjNkJCWDBzWQ?oc=5",
+      "image": null,
+      "publishedAt": "2026-11-07T14:38:56+00:00",
+      "sourceId": "ciclismo-chile",
+      "sourceName": "Ciclismo Chile",
+      "sourceType": "Ciclismo y Deporte Nacional",
+      "sourceSite": "https://news.google.com",
+      "region": "chile",
+      "country": "Chile",
+      "independent": true,
+      "category": "Ciclismo y Deporte",
+      "relevanceTier": "alta",
+      "relevanceScore": 94,
+      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "eldesconcierto-0e96090a29",
@@ -4956,26 +4966,6 @@
       "relevanceTier": "bajo_radar",
       "relevanceScore": 82,
       "relevanceReason": "Bajo el radar: hallazgo específico, crónica local o análisis periférico"
-    },
-    {
-      "id": "ciclismo-chile-3bf753f701",
-      "title": "Principios de demencia e iba en sentido contrario: Qué se sabe del fatal atropello a ciclista en la Ruta 78",
-      "summary": "Nota publicada por Ciclismo Chile (Ciclismo y Deporte Nacional). Haz clic para leer el reportaje o cobertura completa en la fuente original.",
-      "content": "<p>Principios de demencia e iba en sentido contrario: Qué se sabe del fatal atropello a ciclista en la Ruta 78 Teletrece</p>",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc0dYbEZPZE4tR19qT2VxZktwMzdMaC1PUXBSRDFpV1IzTW1aMUVmQklEbmRlTHItNVRYeHBqYldQV2ZraTJ2MURfSl9aUWxiSnotamtZWU12MEUxNmMxVTBJZTNmNmZTRFg3dmc2Tjd0T19WWi15dVl0ZHZ1eUliYjQ5S3RmeGZYME5qWUlhdlIxcmFOWUpDZld3WFhrOHl4MmEwN2VuVy1jNlVHZUlQUkNfLXI0cE14anNkLXJaTF9adw?oc=5",
-      "image": null,
-      "publishedAt": "2026-11-03T11:54:00+00:00",
-      "sourceId": "ciclismo-chile",
-      "sourceName": "Ciclismo Chile",
-      "sourceType": "Ciclismo y Deporte Nacional",
-      "sourceSite": "https://news.google.com",
-      "region": "chile",
-      "country": "Chile",
-      "independent": true,
-      "category": "Ciclismo y Deporte",
-      "relevanceTier": "alta",
-      "relevanceScore": 94,
-      "relevanceReason": "Ciclismo destacado: cobertura especializada de la disciplina"
     },
     {
       "id": "anfibia-007acf1746",
