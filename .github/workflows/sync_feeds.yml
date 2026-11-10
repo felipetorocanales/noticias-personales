@@ -6,6 +6,10 @@ on:
     - cron: '4,19,34,49 * * * *'
   workflow_dispatch:
 
+concurrency:
+  group: sync-feeds
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -62,27 +66,29 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add public/data/instagram_history.json public/data/initial-feeds.json public/data/archive.json public/instagram_posts/
+          git add public/data/instagram_history.json public/data/initial-feeds.json public/data/archive.json public/instagram_posts/ 2>/dev/null || true
           if ! git diff --quiet || ! git diff --staged --quiet; then
-            git commit -m "chore(sync): update feeds and instagram publication [skip ci]"
             pushed=0
             for i in 1 2 3 4 5; do
-              echo "Intento $i de push..."
-              if git pull --rebase origin main && git push origin main; then
+              echo "Intento $i de commit y push..."
+              # Sincronizar suavemente con el último commit remoto antes de commitear
+              git fetch origin main
+              git reset --soft origin/main
+              git add public/data/instagram_history.json public/data/initial-feeds.json public/data/archive.json public/instagram_posts/ 2>/dev/null || true
+              if git diff --staged --quiet; then
+                echo "Los datos remotos ya contienen esta actualización. Nada que pushear."
                 pushed=1
                 break
               fi
-              echo "Conflicto o carrera remota detectada. Reintentando..."
-              git rebase --abort 2>/dev/null || true
-              git pull origin main --no-edit -X ours 2>/dev/null || true
+              git commit -m "chore(sync): update feeds and instagram publication [skip ci]" || true
               if git push origin main; then
                 pushed=1
                 break
               fi
-              sleep 2
+              echo "Carrera remota detectada. Reintentando en 3 segundos..."
+              sleep 3
             done
             if [ $pushed -eq 0 ]; then
-              echo "Error: No se pudo realizar el push tras 5 intentos."
-              exit 1
+              echo "Aviso: No se pudo pushear en este ciclo (se sincronizará en el próximo de 15 min)."
             fi
           fi
