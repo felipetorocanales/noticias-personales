@@ -536,15 +536,27 @@ function setupTheme() {
 
 async function loadInitialSnapshot() {
   try {
-    const res = await fetch(`/data/initial-feeds.json?_cb=${Date.now()}`, {
-      cache: "no-store",
-      headers: {
-        "Cache-Control": "no-cache, no-store, must-revalidate",
-        "Pragma": "no-cache"
-      }
-    });
-    if (!res.ok) throw new Error("No se pudo cargar initial-feeds.json");
-    const data = await res.json();
+    let data = null;
+    const gcsUrl = `https://storage.googleapis.com/pulso-instagram-media/data/initial-feeds.json?_cb=${Date.now()}`;
+    const localUrl = `/data/initial-feeds.json?_cb=${Date.now()}`;
+
+    // Intentar primero GCS directo (siempre al día vía Cloud Function), con fallback al archivo local de Hosting
+    try {
+      const gcsRes = await fetch(gcsUrl, { cache: "no-store" });
+      if (gcsRes.ok) data = await gcsRes.json();
+    } catch (_) {}
+
+    if (!data) {
+      const res = await fetch(localUrl, {
+        cache: "no-store",
+        headers: {
+          "Cache-Control": "no-cache, no-store, must-revalidate",
+          "Pragma": "no-cache"
+        }
+      });
+      if (!res.ok) throw new Error("No se pudo cargar initial-feeds.json");
+      data = await res.json();
+    }
 
     state.sources = [...(data.sources || []), ...state.customSources];
     state.sourceStats = data.sourceStats || [];
@@ -1936,7 +1948,7 @@ function bindEvents() {
     document.getElementById("rssNameInput").value = "";
     document.getElementById("rssUrlInput").value = "";
     openSourcesModal();
-    await refreshLiveFeeds(false);
+    await fetchLiveUpdates();
   });
 
   initFeedbackModal();

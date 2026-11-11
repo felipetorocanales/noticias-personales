@@ -1,9 +1,9 @@
 name: Pulso News Auto Sync
 
 on:
-  schedule:
-    # Repositorio público: minutos ilimitados en GitHub Actions; ejecutar cada 15 min 24/7
-    - cron: '4,19,34,49 * * * *'
+  # Desactivado cron de GitHub Actions en favor de Cloud Functions + Cloud Scheduler:
+  # schedule:
+  #   - cron: '4,19,34,49 * * * *'
   workflow_dispatch:
 
 concurrency:
