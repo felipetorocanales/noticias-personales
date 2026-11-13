@@ -50,6 +50,13 @@
           ]
         }
       ],
+      "redirects": [
+        {
+          "source": "/data/initial-feeds.json",
+          "destination": "https://storage.googleapis.com/pulso-instagram-media/data/initial-feeds.json",
+          "type": 302
+        }
+      ],
       "rewrites": [
         {
           "source": "/api/refresh",
