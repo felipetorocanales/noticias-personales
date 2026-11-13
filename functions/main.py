@@ -56,15 +56,30 @@ def refresh_feeds(request):
         # 3. Instagram: evaluar candidato y publicar si cumple cooldown/horario
         ig_result = "omitted"
         try:
-            history = download_json_from_gcs("data/instagram_history.json", default=[])
+            history = download_json_from_gcs("data/instagram_history.json", default=None)
+            # Si el historial en GCS no existe o está vacío, sembrar con el historial base
+            if not history:
+                seed_file = os.path.join(os.path.dirname(__file__), "initial_instagram_history.json")
+                if os.path.exists(seed_file):
+                    try:
+                        with open(seed_file, "r", encoding="utf-8") as f:
+                            history = json.load(f)
+                        upload_json_to_gcs("data/instagram_history.json", history)
+                    except Exception as seed_err:
+                        print(f"[HISTORIAL] Error cargando seed: {seed_err}")
+                if not history:
+                    history = []
+
             if instagram_publisher.check_cooldown(history):
                 candidate = instagram_publisher.get_candidate(payload, history)
                 if candidate:
                     published = instagram_publisher.publish_to_instagram(candidate)
-                    ig_result = "published" if published else "failed"
-                    # Si se publicó, actualizar historial en Cloud Storage
-                    new_history = instagram_publisher.load_history()
-                    upload_json_to_gcs("data/instagram_history.json", new_history)
+                    if published:
+                        ig_result = "published"
+                        new_history = instagram_publisher.load_history()
+                        upload_json_to_gcs("data/instagram_history.json", new_history)
+                    else:
+                        ig_result = "failed"
                 else:
                     ig_result = "no_candidate"
             else:
