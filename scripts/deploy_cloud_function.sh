@@ -33,6 +33,18 @@ gcloud services enable \
 echo "=== 4. Configurando CORS en el bucket de Cloud Storage ==="
 gcloud storage buckets update "gs://${BUCKET_NAME}" --cors-file=cors.json || true
 
+ENV_VARS="PULSO_STORAGE_BUCKET=${BUCKET_NAME}"
+if [ -f ".env" ]; then
+  echo "Cargando variables desde .env..."
+  while IFS='=' read -r key val || [ -n "$key" ]; do
+    key=$(echo "$key" | tr -d '\r ' | xargs)
+    val=$(echo "$val" | tr -d '\r ' | xargs)
+    if [ "$key" = "INSTAGRAM_ACCOUNT_ID" ] || [ "$key" = "INSTAGRAM_ACCESS_TOKEN" ]; then
+      ENV_VARS="${ENV_VARS},${key}=${val}"
+    fi
+  done < .env
+fi
+
 echo "=== 5. Desplegando Cloud Function: ${FUNCTION_NAME} ==="
 gcloud functions deploy "$FUNCTION_NAME" \
   --gen2 \
@@ -44,7 +56,7 @@ gcloud functions deploy "$FUNCTION_NAME" \
   --allow-unauthenticated \
   --memory 512MB \
   --timeout 180s \
-  --set-env-vars PULSO_STORAGE_BUCKET="$BUCKET_NAME"
+  --set-env-vars "$ENV_VARS"
 
 FUNCTION_URL=$(gcloud functions describe "$FUNCTION_NAME" --region "$REGION" --format='value(serviceConfig.uri)')
 echo "Función desplegada en: ${FUNCTION_URL}"

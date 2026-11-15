@@ -37,6 +37,23 @@ try {
     Write-Host "Aviso: no se pudo actualizar CORS o ya estaba configurado." -ForegroundColor Yellow
 }
 
+# Detectar variables de Instagram desde .env o el entorno actual
+$envVars = "PULSO_STORAGE_BUCKET=$BucketName"
+if (Test-Path ".env") {
+    Write-Host "Leyendo credenciales desde .env..." -ForegroundColor Yellow
+    Get-Content ".env" | ForEach-Object {
+        $line = $_.Trim()
+        if ($line -and -not $line.StartsWith("#") -and $line.Contains("=")) {
+            $parts = $line.Split("=", 2)
+            $k = $parts[0].Trim()
+            $v = $parts[1].Trim()
+            if ($k -eq "INSTAGRAM_ACCOUNT_ID" -or $k -eq "INSTAGRAM_ACCESS_TOKEN") {
+                $envVars += ",$k=$v"
+            }
+        }
+    }
+}
+
 Write-Host "=== 5. Desplegando Cloud Function: $FunctionName (Python 3.11 Gen 2) ===" -ForegroundColor Cyan
 gcloud functions deploy $FunctionName `
     --gen2 `
@@ -48,7 +65,7 @@ gcloud functions deploy $FunctionName `
     --allow-unauthenticated `
     --memory 512MB `
     --timeout 180s `
-    --set-env-vars "PULSO_STORAGE_BUCKET=$BucketName"
+    --set-env-vars "$envVars"
 
 Write-Host "=== 6. Obteniendo URL de la función ===" -ForegroundColor Cyan
 $FunctionUrl = (gcloud functions describe $FunctionName --region $Region --format="value(serviceConfig.uri)").Trim()
