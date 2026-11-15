@@ -52,11 +52,9 @@ def generate_caption(article):
     region = article.get("region", "chile")
     country = article.get("country", "")
     if region == "chile":
-        hashtags = "#Pulso #NoticiasChile #Chile #PeriodismoIndependiente #Actualidad"
-    elif region == "latam":
-        hashtags = f"#Pulso #Latinoamérica #NoticiasLatAm #{country.replace(' ', '')} #PeriodismoIndependiente"
+        hashtags = "#Pulso #NoticiasChile #Chile #Actualidad #RegionesChile"
     else:
-        hashtags = "#Pulso #Internacional #Geopolítica #Mundo #PeriodismoIndependiente"
+        hashtags = "#Pulso #Internacional #NoticiasInternacionales #Mundo #Actualidad"
     if "ciclismo" in category.lower():
         hashtags += " #Ciclismo #CiclismoRuta #MTB #Gravel #Bicicleta #Cicloturismo #TeamChile"
     elif "investigación" in category.lower():
@@ -310,22 +308,14 @@ def get_candidate(data, history):
 
         # 1. Prioridad Chile
         if region == "chile":
-            score += 55.0
+            score += 50.0
             if force_chile:
-                score += 45.0
-        elif region == "latam":
-            score += 30.0  # Gran preferencia a Latinoamérica sobre Europa
-            if force_chile:
-                score -= 30.0
+                score += 40.0
         elif region == "mundo":
             if force_chile:
-                score -= 60.0
-            # Penalizar fuertemente si ya hubo una nota de España o Francia en los últimos 4 posts
-            if country in ["España", "Francia / Global", "Alemania / Global"]:
-                if any(c in ["España", "Francia / Global", "Alemania / Global"] for c in recent_countries[-4:]):
-                    score -= 75.0
-                else:
-                    score -= 25.0
+                score -= 50.0
+            else:
+                score += 15.0
 
         # 2. Anti-Repetición estricta de medio (evitar monopolios)
         if sid in recent_sources[-4:]:

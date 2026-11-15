@@ -17,7 +17,7 @@ if hasattr(sys.stdout, 'reconfigure'):
 
 SOURCES = [
     # =========================================================================
-    # CHILE (Prioridad Nacional Absoluta - Cobertura Exhaustiva)
+    # 1. CHILE NACIONAL - PERIODISMO INDEPENDIENTE Y DE INVESTIGACIÓN (50%)
     # =========================================================================
     {
         "id": "ciper",
@@ -68,6 +68,18 @@ SOURCES = [
         "maxArticles": 10
     },
     {
+        "id": "malaespina",
+        "name": "Mala Espina Check",
+        "url": "https://malaespinacheck.cl/feed/",
+        "site": "https://malaespinacheck.cl",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Fact-Checking / Política",
+        "independent": True,
+        "baseWeight": 86,
+        "maxArticles": 8
+    },
+    {
         "id": "elmostrador",
         "name": "El Mostrador",
         "url": "https://news.google.com/rss/search?q=site:elmostrador.cl&hl=es-419&gl=CL&ceid=CL:es-419",
@@ -101,54 +113,6 @@ SOURCES = [
         "type": "Naturaleza y Ciencia Indep.",
         "independent": True,
         "baseWeight": 84,
-        "maxArticles": 10
-    },
-    {
-        "id": "resumen",
-        "name": "Resumen.cl (Biobío)",
-        "url": "https://news.google.com/rss/search?q=site:resumen.cl&hl=es-419&gl=CL&ceid=CL:es-419",
-        "site": "https://resumen.cl",
-        "region": "chile",
-        "country": "Chile",
-        "type": "Prensa Independiente Regional",
-        "independent": True,
-        "baseWeight": 82,
-        "maxArticles": 10
-    },
-    {
-        "id": "elciudadano",
-        "name": "El Ciudadano",
-        "url": "https://www.elciudadano.com/feed/",
-        "site": "https://www.elciudadano.com",
-        "region": "chile",
-        "country": "Chile",
-        "type": "Prensa Alternativa",
-        "independent": True,
-        "baseWeight": 80,
-        "maxArticles": 8
-    },
-    {
-        "id": "malaespina",
-        "name": "Mala Espina Check",
-        "url": "https://malaespinacheck.cl/feed/",
-        "site": "https://malaespinacheck.cl",
-        "region": "chile",
-        "country": "Chile",
-        "type": "Fact-Checking / Política",
-        "independent": True,
-        "baseWeight": 85,
-        "maxArticles": 8
-    },
-    {
-        "id": "vergara240",
-        "name": "Vergara 240 (UDP)",
-        "url": "https://vergara240.udp.cl/feed/",
-        "site": "https://vergara240.udp.cl",
-        "region": "chile",
-        "country": "Chile",
-        "type": "Investigación y Crónica",
-        "independent": True,
-        "baseWeight": 85,
         "maxArticles": 8
     },
     {
@@ -164,27 +128,227 @@ SOURCES = [
         "maxArticles": 8
     },
     {
+        "id": "vergara240",
+        "name": "Vergara 240 (UDP)",
+        "url": "https://vergara240.udp.cl/feed/",
+        "site": "https://vergara240.udp.cl",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Investigación y Crónica",
+        "independent": True,
+        "baseWeight": 83,
+        "maxArticles": 8
+    },
+    {
+        "id": "elciudadano",
+        "name": "El Ciudadano",
+        "url": "https://www.elciudadano.com/feed/",
+        "site": "https://www.elciudadano.com",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Prensa Alternativa",
+        "independent": True,
+        "baseWeight": 80,
+        "maxArticles": 8
+    },
+
+    # =========================================================================
+    # 2. CHILE REGIONAL - DE ARICA A MAGALLANES (1 por región)
+    # =========================================================================
+    {
+        "id": "elmorrocotudo",
+        "name": "El Morrocotudo (Arica)",
+        "url": "https://news.google.com/rss/search?q=site:elmorrocotudo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.elmorrocotudo.cl",
+        "region": "chile",
+        "country": "Chile (Arica)",
+        "type": "Prensa Regional / Arica",
+        "independent": True,
+        "baseWeight": 79,
+        "maxArticles": 6
+    },
+    {
+        "id": "edicioncero",
+        "name": "Edición Cero (Tarapacá)",
+        "url": "https://news.google.com/rss/search?q=site:edicioncero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://edicioncero.cl",
+        "region": "chile",
+        "country": "Chile (Tarapacá)",
+        "type": "Prensa Regional / Iquique",
+        "independent": True,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+    {
         "id": "timeline",
         "name": "Timeline Antofagasta",
         "url": "https://timeline.cl/feed/",
         "site": "https://timeline.cl",
         "region": "chile",
-        "country": "Chile",
-        "type": "Regional Independiente (Norte)",
+        "country": "Chile (Antofagasta)",
+        "type": "Regional Independiente / Norte",
         "independent": True,
-        "baseWeight": 78,
+        "baseWeight": 80,
         "maxArticles": 8
     },
     {
+        "id": "nostalgica",
+        "name": "Nostálgica (Atacama)",
+        "url": "https://news.google.com/rss/search?q=site:nostalgica.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://nostalgica.cl",
+        "region": "chile",
+        "country": "Chile (Atacama)",
+        "type": "Radio y Prensa / Copiapó",
+        "independent": True,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+    {
+        "id": "diarioeldia",
+        "name": "Diario El Día (Coquimbo)",
+        "url": "https://news.google.com/rss/search?q=site:diarioeldia.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.diarioeldia.cl",
+        "region": "chile",
+        "country": "Chile (Coquimbo)",
+        "type": "Prensa Regional / La Serena",
+        "independent": False,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+    {
+        "id": "g5noticias",
+        "name": "G5 Noticias (Valparaíso)",
+        "url": "https://news.google.com/rss/search?q=site:g5noticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://g5noticias.cl",
+        "region": "chile",
+        "country": "Chile (Valparaíso)",
+        "type": "Prensa Regional / Valparaíso",
+        "independent": False,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+    {
+        "id": "eltipografo",
+        "name": "El Tipógrafo (O'Higgins)",
+        "url": "https://news.google.com/rss/search?q=site:eltipografo.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://eltipografo.cl",
+        "region": "chile",
+        "country": "Chile (O'Higgins)",
+        "type": "Prensa Regional / Rancagua",
+        "independent": False,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+    {
+        "id": "diariotalca",
+        "name": "Diario Talca (Maule)",
+        "url": "https://news.google.com/rss/search?q=site:diariotalca.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://diariotalca.cl",
+        "region": "chile",
+        "country": "Chile (Maule)",
+        "type": "Prensa Regional / Talca",
+        "independent": False,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+    {
+        "id": "ladiscusion",
+        "name": "La Discusión (Ñuble)",
+        "url": "https://news.google.com/rss/search?q=site:ladiscusion.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://ladiscusion.cl",
+        "region": "chile",
+        "country": "Chile (Ñuble)",
+        "type": "Prensa Regional / Chillán",
+        "independent": False,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+    {
+        "id": "resumen",
+        "name": "Resumen.cl (Biobío)",
+        "url": "https://news.google.com/rss/search?q=site:resumen.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://resumen.cl",
+        "region": "chile",
+        "country": "Chile (Biobío)",
+        "type": "Prensa Independiente / Concepción",
+        "independent": True,
+        "baseWeight": 82,
+        "maxArticles": 8
+    },
+    {
+        "id": "araucaniadiario",
+        "name": "Araucanía Diario (Araucanía)",
+        "url": "https://news.google.com/rss/search?q=site:araucaniadiario.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://araucaniadiario.cl",
+        "region": "chile",
+        "country": "Chile (Araucanía)",
+        "type": "Prensa Regional / Temuco",
+        "independent": False,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+    {
         "id": "diariouach",
-        "name": "Diario UACh (Valdivia)",
+        "name": "Diario UACh (Los Ríos)",
         "url": "https://diario.uach.cl/feed/",
         "site": "https://diario.uach.cl",
         "region": "chile",
-        "country": "Chile",
-        "type": "Regional / Ciencia (Sur)",
+        "country": "Chile (Los Ríos)",
+        "type": "Universitario / Valdivia",
         "independent": True,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+    {
+        "id": "diariodepuertomontt",
+        "name": "Diario Puerto Montt (Los Lagos)",
+        "url": "https://news.google.com/rss/search?q=site:diariodepuertomontt.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.diariodepuertomontt.cl",
+        "region": "chile",
+        "country": "Chile (Los Lagos)",
+        "type": "Prensa Regional / Puerto Montt",
+        "independent": False,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+    {
+        "id": "eldivisadero",
+        "name": "El Divisadero (Aysén)",
+        "url": "https://news.google.com/rss/search?q=site:eldivisadero.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.eldivisadero.cl",
+        "region": "chile",
+        "country": "Chile (Aysén)",
+        "type": "Prensa Regional / Coyhaique",
+        "independent": False,
         "baseWeight": 76,
+        "maxArticles": 6
+    },
+    {
+        "id": "elpinguino",
+        "name": "El Pingüino (Magallanes)",
+        "url": "https://news.google.com/rss/search?q=site:elpinguino.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://elpinguino.com",
+        "region": "chile",
+        "country": "Chile (Magallanes)",
+        "type": "Prensa Regional / Punta Arenas",
+        "independent": False,
+        "baseWeight": 78,
+        "maxArticles": 6
+    },
+
+    # =========================================================================
+    # 3. CHILE NACIONAL - MEDIOS MASIVOS / TRADICIONALES (50%)
+    # =========================================================================
+    {
+        "id": "biobiochile",
+        "name": "BioBioChile",
+        "url": "https://news.google.com/rss/search?q=site:biobiochile.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.biobiochile.cl",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Prensa Masiva Líder",
+        "independent": False,
+        "baseWeight": 80,
         "maxArticles": 8
     },
     {
@@ -196,136 +360,108 @@ SOURCES = [
         "country": "Chile",
         "type": "Radio Informativa Nacional",
         "independent": False,
+        "baseWeight": 79,
+        "maxArticles": 8
+    },
+    {
+        "id": "latercera",
+        "name": "La Tercera",
+        "url": "https://news.google.com/rss/search?q=site:latercera.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.latercera.com",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Prensa Escrita Nacional",
+        "independent": False,
+        "baseWeight": 78,
+        "maxArticles": 8
+    },
+    {
+        "id": "emol",
+        "name": "Emol",
+        "url": "https://news.google.com/rss/search?q=site:emol.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.emol.com",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Prensa Digital Nacional",
+        "independent": False,
+        "baseWeight": 77,
+        "maxArticles": 8
+    },
+    {
+        "id": "24horas",
+        "name": "24 Horas (TVN)",
+        "url": "https://news.google.com/rss/search?q=site:24horas.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.24horas.cl",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Televisión Pública Noticias",
+        "independent": False,
+        "baseWeight": 77,
+        "maxArticles": 8
+    },
+    {
+        "id": "t13",
+        "name": "Teletrece (T13)",
+        "url": "https://news.google.com/rss/search?q=site:t13.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.t13.cl",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Televisión Informativa",
+        "independent": False,
         "baseWeight": 76,
-        "maxArticles": 6
+        "maxArticles": 8
+    },
+    {
+        "id": "meganoticias",
+        "name": "Meganoticias",
+        "url": "https://news.google.com/rss/search?q=site:meganoticias.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.meganoticias.cl",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Televisión Masiva",
+        "independent": False,
+        "baseWeight": 75,
+        "maxArticles": 8
+    },
+    {
+        "id": "cnnchile",
+        "name": "CNN Chile",
+        "url": "https://news.google.com/rss/search?q=site:cnnchile.com&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.cnnchile.com",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Canal de Noticias 24/7",
+        "independent": False,
+        "baseWeight": 77,
+        "maxArticles": 8
+    },
+    {
+        "id": "adnradio",
+        "name": "ADN Radio",
+        "url": "https://news.google.com/rss/search?q=site:adnradio.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.adnradio.cl",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Radio Informativa Nacional",
+        "independent": False,
+        "baseWeight": 76,
+        "maxArticles": 8
+    },
+    {
+        "id": "df",
+        "name": "Diario Financiero",
+        "url": "https://news.google.com/rss/search?q=site:df.cl&hl=es-419&gl=CL&ceid=CL:es-419",
+        "site": "https://www.df.cl",
+        "region": "chile",
+        "country": "Chile",
+        "type": "Economía y Negocios",
+        "independent": False,
+        "baseWeight": 78,
+        "maxArticles": 8
     },
 
     # =========================================================================
-    # LATINOAMÉRICA (Prensa Independiente de Investigación en Español)
-    # =========================================================================
-    {
-        "id": "elfaro",
-        "name": "El Faro",
-        "url": "https://elfaro.net/es/feed",
-        "site": "https://elfaro.net",
-        "region": "latam",
-        "country": "Centroamérica",
-        "type": "Investigación y Corrupción",
-        "independent": True,
-        "baseWeight": 88,
-        "maxArticles": 8
-    },
-    {
-        "id": "anfibia",
-        "name": "Revista Anfibia",
-        "url": "https://revistaanfibia.com/feed/",
-        "site": "https://revistaanfibia.com",
-        "region": "latam",
-        "country": "Argentina",
-        "type": "Crónica y Ensayo Político",
-        "independent": True,
-        "baseWeight": 88,
-        "maxArticles": 8
-    },
-    {
-        "id": "lasillavacia",
-        "name": "La Silla Vacía",
-        "url": "https://www.lasillavacia.com/feed/",
-        "site": "https://www.lasillavacia.com",
-        "region": "latam",
-        "country": "Colombia",
-        "type": "Poder y Política",
-        "independent": True,
-        "baseWeight": 87,
-        "maxArticles": 8
-    },
-    {
-        "id": "ojopublico",
-        "name": "Ojo Público",
-        "url": "https://news.google.com/rss/search?q=site:ojo-publico.com&hl=es-419&gl=PE&ceid=PE:es-419",
-        "site": "https://ojo-publico.com",
-        "region": "latam",
-        "country": "Perú",
-        "type": "Investigación y Amazonía",
-        "independent": True,
-        "baseWeight": 86,
-        "maxArticles": 8
-    },
-    {
-        "id": "cuestionpublica",
-        "name": "Cuestión Pública",
-        "url": "https://cuestionpublica.com/feed/",
-        "site": "https://cuestionpublica.com",
-        "region": "latam",
-        "country": "Colombia",
-        "type": "Periodismo de Datos y Poder",
-        "independent": True,
-        "baseWeight": 85,
-        "maxArticles": 6
-    },
-    {
-        "id": "chequeado",
-        "name": "Chequeado",
-        "url": "https://chequeado.com/feed/",
-        "site": "https://chequeado.com",
-        "region": "latam",
-        "country": "Argentina",
-        "type": "Fact-Checking Regional",
-        "independent": True,
-        "baseWeight": 84,
-        "maxArticles": 6
-    },
-    {
-        "id": "piedepagina",
-        "name": "Pie de Página",
-        "url": "https://piedepagina.mx/feed/",
-        "site": "https://piedepagina.mx",
-        "region": "latam",
-        "country": "México",
-        "type": "Derechos Humanos y Territorio",
-        "independent": True,
-        "baseWeight": 84,
-        "maxArticles": 6
-    },
-    {
-        "id": "cenital",
-        "name": "Cenital",
-        "url": "https://cenital.com/feed/",
-        "site": "https://cenital.com",
-        "region": "latam",
-        "country": "Argentina",
-        "type": "Análisis y Geopolítica",
-        "independent": True,
-        "baseWeight": 83,
-        "maxArticles": 6
-    },
-    {
-        "id": "brecha",
-        "name": "Semanario Brecha",
-        "url": "https://news.google.com/rss/search?q=site:brecha.com.uy&hl=es-419&gl=CL&ceid=CL:es-419",
-        "site": "https://brecha.com.uy",
-        "region": "latam",
-        "country": "Uruguay",
-        "type": "Periodismo Indep. LatAm",
-        "independent": True,
-        "baseWeight": 82,
-        "maxArticles": 6
-    },
-    {
-        "id": "jacobinlat",
-        "name": "Jacobin América Latina",
-        "url": "https://jacobinlat.com/feed/",
-        "site": "https://jacobinlat.com",
-        "region": "latam",
-        "country": "Latinoamérica",
-        "type": "Análisis Latinoamericano",
-        "independent": True,
-        "baseWeight": 80,
-        "maxArticles": 6
-    },
-
-    # =========================================================================
-    # CICLISMO (Especializado - Nacional e Internacional)
+    # 4. CICLISMO Y DEPORTE
     # =========================================================================
     {
         "id": "ciclismo-chile",
@@ -336,120 +472,24 @@ SOURCES = [
         "country": "Chile",
         "type": "Ciclismo y Deporte Nacional",
         "independent": True,
-        "baseWeight": 90,
-        "maxArticles": 8
-    },
-    {
-        "id": "ciclo21",
-        "name": "Ciclo 21",
-        "url": "https://www.ciclo21.com/feed/",
-        "site": "https://www.ciclo21.com",
-        "region": "mundo",
-        "country": "España",
-        "type": "Periodismo Ciclista Especializado",
-        "independent": True,
-        "baseWeight": 82,
-        "maxArticles": 3
-    },
-    {
-        "id": "brujulabike",
-        "name": "Brújula Bike",
-        "url": "https://brujulabike.com/feed/",
-        "site": "https://brujulabike.com",
-        "region": "mundo",
-        "country": "España",
-        "type": "MTB, Gravel y Competición",
-        "independent": True,
-        "baseWeight": 82,
-        "maxArticles": 3
-    },
-    {
-        "id": "esciclismo",
-        "name": "EsCiclismo",
-        "url": "https://www.esciclismo.com/rss/",
-        "site": "https://www.esciclismo.com",
-        "region": "mundo",
-        "country": "España",
-        "type": "Ciclismo Global y Pruebas UCI",
-        "independent": True,
-        "baseWeight": 82,
-        "maxArticles": 3
+        "baseWeight": 88,
+        "maxArticles": 6
     },
 
     # =========================================================================
-    # GLOBAL / MUNDO (Investigación Internacional y Cables Acotados)
+    # 5. INTERNACIONAL GENERAL (Global, sin sesgo local de un país específico)
     # =========================================================================
     {
-        "id": "propublica",
-        "name": "ProPublica",
-        "url": "https://feeds.propublica.org/propublica/main",
-        "site": "https://www.propublica.org",
-        "region": "mundo",
-        "country": "EE.UU.",
-        "type": "Investigación Sin Fines de Lucro",
-        "independent": True,
-        "baseWeight": 86,
-        "maxArticles": 4
-    },
-    {
-        "id": "bellingcat",
-        "name": "Bellingcat",
-        "url": "https://www.bellingcat.com/feed/",
-        "site": "https://www.bellingcat.com",
+        "id": "bbcmundo",
+        "name": "BBC News Mundo",
+        "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
+        "site": "https://www.bbc.com/mundo",
         "region": "mundo",
         "country": "Global",
-        "type": "Investigación OSINT",
-        "independent": True,
-        "baseWeight": 86,
-        "maxArticles": 4
-    },
-    {
-        "id": "theintercept",
-        "name": "The Intercept",
-        "url": "https://theintercept.com/feed/?lang=en",
-        "site": "https://theintercept.com",
-        "region": "mundo",
-        "country": "EE.UU.",
-        "type": "Investigación Independiente",
-        "independent": True,
-        "baseWeight": 86,
-        "maxArticles": 4
-    },
-    {
-        "id": "eldiarioes",
-        "name": "elDiario.es",
-        "url": "https://www.eldiario.es/rss/",
-        "site": "https://www.eldiario.es",
-        "region": "mundo",
-        "country": "España",
-        "type": "Independiente de Socios",
-        "independent": True,
-        "baseWeight": 73,
-        "maxArticles": 3
-    },
-    {
-        "id": "elsalto",
-        "name": "El Salto Diario",
-        "url": "https://news.google.com/rss/search?q=site:elsaltodiario.com&hl=es-419&gl=CL&ceid=CL:es-419",
-        "site": "https://www.elsaltodiario.com",
-        "region": "mundo",
-        "country": "España",
-        "type": "Cooperativa Independiente",
-        "independent": True,
-        "baseWeight": 72,
-        "maxArticles": 3
-    },
-    {
-        "id": "sinpermiso",
-        "name": "Sin Permiso",
-        "url": "https://www.sinpermiso.info/rss.xml",
-        "site": "https://www.sinpermiso.info",
-        "region": "mundo",
-        "country": "España",
-        "type": "Análisis Internacional Indep.",
-        "independent": True,
-        "baseWeight": 68,
-        "maxArticles": 3
+        "type": "Internacional Global",
+        "independent": False,
+        "baseWeight": 82,
+        "maxArticles": 6
     },
     {
         "id": "france24",
@@ -457,11 +497,11 @@ SOURCES = [
         "url": "https://www.france24.com/es/rss",
         "site": "https://www.france24.com/es",
         "region": "mundo",
-        "country": "Francia / Global",
-        "type": "Medio Público Internacional",
+        "country": "Global",
+        "type": "Internacional Global",
         "independent": False,
-        "baseWeight": 71,
-        "maxArticles": 3
+        "baseWeight": 78,
+        "maxArticles": 6
     },
     {
         "id": "dw",
@@ -469,11 +509,11 @@ SOURCES = [
         "url": "https://rss.dw.com/xml/rss-sp-all",
         "site": "https://www.dw.com/es",
         "region": "mundo",
-        "country": "Alemania / Global",
-        "type": "Medio Público Internacional",
+        "country": "Global",
+        "type": "Internacional Global",
         "independent": False,
-        "baseWeight": 71,
-        "maxArticles": 3
+        "baseWeight": 78,
+        "maxArticles": 6
     },
     {
         "id": "globalvoices",
@@ -484,7 +524,7 @@ SOURCES = [
         "country": "Global",
         "type": "Periodismo Ciudadano Global",
         "independent": True,
-        "baseWeight": 70,
+        "baseWeight": 76,
         "maxArticles": 4
     }
 ]

@@ -100,7 +100,6 @@ function isGenericImageUrl(url) {
 const MAIN_FILTERS = [
   { id: "all", label: "Todo", icon: "⚡", matcher: () => true },
   { id: "chile", label: "Chile", icon: "🇨🇱", matcher: (a) => a.region === "chile" },
-  { id: "latam", label: "Latinoamérica", icon: "🌎", matcher: (a) => a.region === "latam" },
   { id: "mundo", label: "Mundo", icon: "🌍", matcher: (a) => a.region === "mundo" },
   { id: "high", label: "Alto Impacto", icon: "🔥", matcher: (a) => a.relevanceTier === "alta" },
   { id: "low", label: "Bajo el Radar", icon: "📡", matcher: (a) => a.relevanceTier === "bajo_radar" },
@@ -697,11 +696,9 @@ function populateSourceDropdown() {
   select.innerHTML = `<option value="all">Todos los medios (${state.sources.length})</option>`;
 
   const chileGroup = document.createElement("optgroup");
-  chileGroup.label = "🇨🇱 Chile (Independientes y Regionales)";
-  const latamGroup = document.createElement("optgroup");
-  latamGroup.label = "🌎 Latinoamérica (Independientes e Investigación)";
+  chileGroup.label = "🇨🇱 Chile (Nacional, Regional y Masivos)";
   const mundoGroup = document.createElement("optgroup");
-  mundoGroup.label = "🌍 Mundo (Global e Investigación)";
+  mundoGroup.label = "🌍 Mundo (Cobertura Global)";
 
   state.sources.forEach((src) => {
     const opt = document.createElement("option");
@@ -709,16 +706,13 @@ function populateSourceDropdown() {
     opt.textContent = `${src.name} — ${src.type}`;
     if (src.region === "chile") {
       chileGroup.appendChild(opt);
-    } else if (src.region === "latam") {
-      latamGroup.appendChild(opt);
     } else {
       mundoGroup.appendChild(opt);
     }
   });
 
   select.appendChild(chileGroup);
-  select.appendChild(latamGroup);
-  select.appendChild(mundoGroup);
+  if (mundoGroup.children.length > 0) select.appendChild(mundoGroup);
   select.value = currentVal || "all";
 
   const activeSourcesCount = document.getElementById("activeSourcesCount");
