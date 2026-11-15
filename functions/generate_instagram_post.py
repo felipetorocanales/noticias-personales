@@ -5,7 +5,28 @@ import textwrap
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-def get_font(font_name, size, fallback_name="arial.ttf"):
+FONTS_DIR = os.path.join(os.path.dirname(__file__), "fonts")
+
+def get_font(font_name, size, fallback_name="DejaVuSans.ttf"):
+    # 1. Prioridad: fuentes empaquetadas en fonts/ con soporte UTF-8 completo (á, é, í, ó, ú, ñ)
+    is_bold = "bold" in (font_name + (fallback_name or "")).lower() or "b.ttf" in font_name
+    search_names = [font_name]
+    if fallback_name:
+        search_names.append(fallback_name)
+    if is_bold:
+        search_names.extend(["DejaVuSerif-Bold.ttf", "DejaVuSans-Bold.ttf"])
+    else:
+        search_names.extend(["DejaVuSans.ttf", "DejaVuSerif.ttf"])
+
+    for candidate in search_names:
+        p = os.path.join(FONTS_DIR, candidate)
+        if os.path.exists(p):
+            try:
+                return ImageFont.truetype(p, size)
+            except Exception:
+                pass
+
+    # 2. Directorios del sistema (Windows / Linux)
     possible_dirs = [
         "C:\\Windows\\Fonts",
         "/usr/share/fonts/truetype/dejavu",
@@ -15,7 +36,7 @@ def get_font(font_name, size, fallback_name="arial.ttf"):
     ]
     for d in possible_dirs:
         if os.path.exists(d):
-            for candidate in [font_name, fallback_name, "DejaVuSerif-Bold.ttf", "DejaVuSans-Bold.ttf", "DejaVuSans.ttf"]:
+            for candidate in search_names:
                 p = os.path.join(d, candidate)
                 if os.path.exists(p):
                     try:
@@ -28,7 +49,9 @@ def get_font(font_name, size, fallback_name="arial.ttf"):
         return ImageFont.load_default()
 
 def create_instagram_card(article, output_path="public/instagram_posts/preview.jpg"):
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    out_dir = os.path.dirname(output_path)
+    if out_dir:
+        os.makedirs(out_dir, exist_ok=True)
     
     # Dimensiones estándar de Instagram Portrait (4:5)
     WIDTH = 1080
