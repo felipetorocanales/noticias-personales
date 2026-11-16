@@ -63,31 +63,34 @@ gcloud functions deploy $FunctionName `
     --entry-point refresh_feeds `
     --trigger-http `
     --allow-unauthenticated `
-    --memory 512MB `
+    --memory 256MB `
+    --max-instances 1 `
     --timeout 180s `
-    --set-env-vars "$envVars"
+    --update-env-vars "$envVars"
 
 Write-Host "=== 6. Obteniendo URL de la función ===" -ForegroundColor Cyan
 $FunctionUrl = (gcloud functions describe $FunctionName --region $Region --format="value(serviceConfig.uri)").Trim()
 Write-Host "URL de la función: $FunctionUrl" -ForegroundColor Green
 
-Write-Host "=== 7. Configurando Cloud Scheduler cada 15 minutos ===" -ForegroundColor Cyan
+Write-Host "=== 7. Configurando Cloud Scheduler (07:00 a 23:59 Chile, cada 20 min) ===" -ForegroundColor Cyan
 $jobExists = gcloud scheduler jobs describe $JobName --location $Region --format="value(name)" 2>$null
 if ($jobExists) {
     Write-Host "Actualizando job existente en Cloud Scheduler..." -ForegroundColor Yellow
     gcloud scheduler jobs update http $JobName `
         --location $Region `
-        --schedule "*/15 * * * *" `
+        --schedule "*/20 7-23 * * *" `
+        --time-zone "America/Santiago" `
         --uri $FunctionUrl `
         --http-method POST
 } else {
     Write-Host "Creando nuevo job en Cloud Scheduler..." -ForegroundColor Green
     gcloud scheduler jobs create http $JobName `
         --location $Region `
-        --schedule "*/15 * * * *" `
+        --schedule "*/20 7-23 * * *" `
+        --time-zone "America/Santiago" `
         --uri $FunctionUrl `
         --http-method POST `
-        --description "Sincroniza feeds RSS y publica en Instagram cada 15 minutos"
+        --description "Sincroniza feeds RSS y publica en Instagram cada 20 min (07:00-23:59 Chile)"
 }
 
 Write-Host "=== 8. Disparo de prueba inmediato ===" -ForegroundColor Cyan

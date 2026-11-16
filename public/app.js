@@ -536,12 +536,14 @@ function setupTheme() {
 async function loadInitialSnapshot() {
   try {
     let data = null;
-    const gcsUrl = `https://storage.googleapis.com/pulso-instagram-media/data/initial-feeds.json?_cb=${Date.now()}`;
-    const localUrl = `/data/initial-feeds.json?_cb=${Date.now()}`;
+    // Bucket de caché cada 10 minutos para aprovechar el CDN gratuito de Google Cloud Storage
+    const timeBucket = Math.floor(Date.now() / (10 * 60 * 1000));
+    const gcsUrl = `https://storage.googleapis.com/pulso-instagram-media/data/initial-feeds.json?v=${timeBucket}`;
+    const localUrl = `/data/initial-feeds.json?v=${timeBucket}`;
 
     // Intentar primero GCS directo (siempre al día vía Cloud Function), con fallback al archivo local de Hosting
     try {
-      const gcsRes = await fetch(gcsUrl, { cache: "no-store" });
+      const gcsRes = await fetch(gcsUrl);
       if (gcsRes.ok) data = await gcsRes.json();
     } catch (_) {}
 

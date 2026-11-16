@@ -49,9 +49,9 @@ def refresh_feeds(request):
         payload, archive = fetch_all()
         print(f"[OK] Feeds procesados: {payload.get('totalArticles')} artículos válidos.")
 
-        # 2. Guardar en Google Cloud Storage para consumo público inmediato
-        upload_json_to_gcs("data/initial-feeds.json", payload, cache_control="public, max-age=60, s-maxage=60")
-        upload_json_to_gcs("data/archive.json", archive, cache_control="public, max-age=300")
+        # 2. Guardar en Google Cloud Storage con caché CDN de 15 min (reduce lecturas y costos a ~$0)
+        upload_json_to_gcs("data/initial-feeds.json", payload, cache_control="public, max-age=600, s-maxage=900")
+        upload_json_to_gcs("data/archive.json", archive, cache_control="public, max-age=3600, s-maxage=3600")
 
         # 3. Instagram: evaluar candidato y publicar si cumple cooldown/horario
         ig_result = "omitted"

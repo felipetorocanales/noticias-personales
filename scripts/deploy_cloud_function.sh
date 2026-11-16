@@ -54,29 +54,32 @@ gcloud functions deploy "$FUNCTION_NAME" \
   --entry-point refresh_feeds \
   --trigger-http \
   --allow-unauthenticated \
-  --memory 512MB \
+  --memory 256MB \
+  --max-instances 1 \
   --timeout 180s \
-  --set-env-vars "$ENV_VARS"
+  --update-env-vars "$ENV_VARS"
 
 FUNCTION_URL=$(gcloud functions describe "$FUNCTION_NAME" --region "$REGION" --format='value(serviceConfig.uri)')
 echo "Función desplegada en: ${FUNCTION_URL}"
 
-echo "=== 6. Configurando Cloud Scheduler cada 15 minutos ==="
+echo "=== 6. Configurando Cloud Scheduler (07:00 a 23:59 Chile, cada 20 min) ==="
 if gcloud scheduler jobs describe "$JOB_NAME" --location "$REGION" >/dev/null 2>&1; then
   echo "Actualizando job existente en Cloud Scheduler..."
   gcloud scheduler jobs update http "$JOB_NAME" \
     --location "$REGION" \
-    --schedule "*/15 * * * *" \
+    --schedule "*/20 7-23 * * *" \
+    --time-zone "America/Santiago" \
     --uri "$FUNCTION_URL" \
     --http-method POST
 else
   echo "Creando nuevo job en Cloud Scheduler..."
   gcloud scheduler jobs create http "$JOB_NAME" \
     --location "$REGION" \
-    --schedule "*/15 * * * *" \
+    --schedule "*/20 7-23 * * *" \
+    --time-zone "America/Santiago" \
     --uri "$FUNCTION_URL" \
     --http-method POST \
-    --description "Sincroniza feeds RSS y publica en Instagram cada 15 minutos"
+    --description "Sincroniza feeds RSS y publica en Instagram cada 20 min (07:00-23:59 Chile)"
 fi
 
 echo "=== 7. Ejecutando primer disparo de prueba ==="
