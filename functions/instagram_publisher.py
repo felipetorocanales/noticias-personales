@@ -60,16 +60,32 @@ def save_history(history):
         print(f"[HISTORIAL] Aviso guardando en disco local: {e}")
 
 def generate_caption(article):
-    title = article.get("title", "")
-    summary = article.get("summary", "")
+    title = (article.get("title") or "").strip()
+    summary = (article.get("summary") or "").strip()
+    full_content = (article.get("fullContent") or "").strip()
     source = article.get("sourceName", "Prensa")
     category = article.get("category", "")
-    original_link = article.get("link", "").strip()
+    original_link = (article.get("url") or article.get("link") or "").strip()
     article_id = article.get("id", "")
     pulso_link = f"https://pulso-independiente.web.app/?id={article_id}"
-    
+
+    # Construir detalle enriquecido para el comentario/descripción de la imagen
+    detail_paragraphs = []
+    if summary:
+        detail_paragraphs.append(summary)
+    if full_content:
+        for p in full_content.split("\n\n"):
+            p = p.strip()
+            if len(p) > 45 and p[:35].lower() not in summary.lower():
+                detail_paragraphs.append(p)
+                if sum(len(x) for x in detail_paragraphs) > 850:
+                    break
+
+    detail_block = "\n\n".join(detail_paragraphs[:3]).strip()
+    if len(detail_block) > 1100:
+        detail_block = detail_block[:1097].rsplit(" ", 1)[0] + "..."
+
     region = article.get("region", "chile")
-    country = article.get("country", "")
     if region == "chile":
         hashtags = "#Pulso #NoticiasChile #Chile #Actualidad #RegionesChile"
     else:
@@ -77,21 +93,18 @@ def generate_caption(article):
     if "ciclismo" in category.lower():
         hashtags += " #Ciclismo #CiclismoRuta #MTB #Gravel #Bicicleta #Cicloturismo #TeamChile"
     elif "investigación" in category.lower():
-        hashtags += " #Investigacion #CIPER #Reportaje #Poder"
+        hashtags += " #Investigacion #Reportaje #Poder"
     elif "medioambiente" in category.lower():
         hashtags += " #Medioambiente #Clima #Sustentabilidad #Naturaleza"
-        
-    caption = f"""{title}
 
-{summary}
+    caption = f"""📌 {title}
 
-📰 Cobertura por: {source}
+{detail_block}
 
-🔗 Lee el reportaje completo:
-• Enlace directo: {pulso_link}
-• Fuente original: {original_link}
-
-👉 O entra al enlace de nuestra bio (@pulso.independiente.26) para abrirla al instante en nuestra web.
+📰 Fuente: {source}
+🔗 Reportaje completo en el enlace de nuestra bio (@pulso.independiente.26) o en:
+{pulso_link}
+{f"• Original: {original_link}" if original_link else ""}
 
 {hashtags}"""
     return caption.strip()

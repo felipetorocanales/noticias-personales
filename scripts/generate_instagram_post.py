@@ -1,9 +1,8 @@
 import os
 import json
 import urllib.request
-import textwrap
 from io import BytesIO
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont
 
 FONTS_DIR = os.path.join(os.path.dirname(__file__), "fonts")
 
@@ -14,7 +13,7 @@ def get_font(font_name, size, fallback_name="DejaVuSans.ttf"):
     if fallback_name:
         search_names.append(fallback_name)
     if is_bold:
-        search_names.extend(["DejaVuSerif-Bold.ttf", "DejaVuSans-Bold.ttf"])
+        search_names.extend(["RobotoCondensed-Bold.ttf", "DejaVuSans-Bold.ttf", "DejaVuSerif-Bold.ttf"])
     else:
         search_names.extend(["DejaVuSans.ttf", "DejaVuSerif.ttf"])
 
@@ -29,6 +28,7 @@ def get_font(font_name, size, fallback_name="DejaVuSans.ttf"):
     # 2. Directorios del sistema (Windows / Linux)
     possible_dirs = [
         "C:\\Windows\\Fonts",
+        "/usr/share/fonts/truetype/roboto/unhinted",
         "/usr/share/fonts/truetype/dejavu",
         "/usr/share/fonts/truetype/freefont",
         "/usr/share/fonts/truetype",
@@ -48,60 +48,82 @@ def get_font(font_name, size, fallback_name="DejaVuSans.ttf"):
     except Exception:
         return ImageFont.load_default()
 
+
+def _wrap_words_by_pixels(draw, words, font, max_width):
+    """Agrupa lista de (palabra, color) en líneas que no superen max_width."""
+    lines = []
+    current_line = []
+    space_w = draw.textlength(" ", font=font)
+
+    for word, color in words:
+        test_line = current_line + [(word, color)]
+        line_w = sum(draw.textlength(w, font=font) for w, _ in test_line) + space_w * (len(test_line) - 1)
+        if line_w <= max_width or not current_line:
+            current_line = test_line
+        else:
+            lines.append(current_line)
+            current_line = [(word, color)]
+    if current_line:
+        lines.append(current_line)
+    return lines
+
+
+def _build_colored_words(headline, highlight_color, primary_color):
+    """Colorea en amarillo/ámbar el tramo central o cláusula clave del titular."""
+    raw_words = headline.strip().split()
+    n = len(raw_words)
+    if n <= 4:
+        return [(w, primary_color) for w in raw_words]
+
+    # Si hay dos puntos (:), resaltar la segunda parte o primera según longitud
+    full_text = " ".join(raw_words)
+    if ":" in full_text:
+        parts = full_text.split(":", 1)
+        left_words = (parts[0] + ":").split()
+        right_words = parts[1].strip().split()
+        if 3 <= len(right_words) <= 12:
+            return [(w, primary_color) for w in left_words] + [(w, highlight_color) for w in right_words]
+        elif 2 <= len(left_words) <= 8:
+            return [(w, highlight_color) for w in left_words] + [(w, primary_color) for w in right_words]
+
+    # Por defecto: resaltar el bloque central (~40% de las palabras) como en el estilo viral
+    start_hl = max(2, int(n * 0.30))
+    end_hl = min(n - 2, max(start_hl + 3, int(n * 0.72)))
+
+    colored = []
+    for i, w in enumerate(raw_words):
+        c = highlight_color if (start_hl <= i < end_hl) else primary_color
+        colored.append((w, c))
+    return colored
+
+
 def create_instagram_card(article, output_path="public/instagram_posts/preview.jpg"):
     out_dir = os.path.dirname(output_path)
     if out_dir:
         os.makedirs(out_dir, exist_ok=True)
-    
+
     # Dimensiones estándar de Instagram Portrait (4:5)
     WIDTH = 1080
     HEIGHT = 1350
-    
-    # Paleta de colores editorial Pulso
-    BG_COLOR = (11, 14, 20)        # #0b0e14 pizarra oscura
-    CARD_BG = (18, 23, 34)         # #121722
-    ACCENT_CYAN = (56, 189, 248)   # #38bdf8
-    ACCENT_GOLD = (245, 158, 11)   # #f59e0b
-    TEXT_PRIMARY = (243, 246, 252) # #f3f6fc
-    TEXT_MUTED = (168, 179, 207)   # #a8b3cf
-    BORDER_COLOR = (35, 43, 58)    # borde sutil
-    
+
+    # Paleta de alto contraste tipo prensa digital viral (Fondo negro puro + blanco + amarillo)
+    BG_COLOR = (6, 8, 12)            # Negro profundo
+    CARD_BG = (16, 20, 28)
+    HIGHLIGHT_YELLOW = (244, 211, 94) # Amarillo editorial de alto impacto
+    ACCENT_GOLD = (245, 158, 11)
+    TEXT_PRIMARY = (255, 255, 255)   # Blanco puro
+    TEXT_MUTED = (165, 175, 195)
+    BORDER_COLOR = (32, 38, 50)
+
     img = Image.new("RGB", (WIDTH, HEIGHT), BG_COLOR)
     draw = ImageDraw.Draw(img)
-    
-    # Tipografías limpias y cross-platform
-    font_logo = get_font("georgiab.ttf", 52, "arialbd.ttf")
-    font_category = get_font("segoeuib.ttf", 24, "arialbd.ttf")
-    font_source = get_font("segoeui.ttf", 26, "arial.ttf")
-    font_title = get_font("georgiab.ttf", 46, "arialbd.ttf")
-    font_summary = get_font("segoeui.ttf", 29, "arial.ttf")
-    font_footer_left = get_font("segoeui.ttf", 23, "arial.ttf")
-    font_footer_url = get_font("segoeuib.ttf", 25, "arialbd.ttf")
-    
-    # 1. Cabecera Superior (0 a 115 px): Logo "Pulso." y Categoría
-    draw.text((55, 42), "Pulso", fill=TEXT_PRIMARY, font=font_logo)
-    logo_w = draw.textlength("Pulso", font=font_logo)
-    draw.text((55 + logo_w, 42), ".", fill=ACCENT_GOLD, font=font_logo)
-    
-    # Badge de Categoría (usando bullet ● para evitar emojis rotos [] en Linux)
-    category_text = article.get("category", "Actualidad").upper()
-    is_cycling = "ciclismo" in category_text.lower()
-    cat_badge = f"● {category_text}"
-    cat_color = ACCENT_CYAN if is_cycling else ACCENT_GOLD
-    
-    cat_w = draw.textlength(cat_badge, font=font_category)
-    badge_pad_x = 18
-    badge_box_w = cat_w + (badge_pad_x * 2)
-    badge_x = WIDTH - 55 - badge_box_w
-    draw.rounded_rectangle([badge_x, 44, WIDTH - 55, 94], radius=25, fill=CARD_BG, outline=BORDER_COLOR, width=1)
-    draw.text((badge_x + badge_pad_x, 56), cat_badge, fill=cat_color, font=font_category)
-    
-    # 2. Imagen Principal FULL-BLEED HORIZONTAL (Ocupa el 100% del ancho, de 0 a 1080 px)
+
+    # 1. IMAGEN PRINCIPAL SUPERIOR (Ocupa la mitad superior completa: 0 a 640 px)
     image_url = article.get("image")
-    img_y_start = 115
-    img_h = 590
-    img_w = WIDTH  # Ancho total sin marcos negros a los lados
-    
+    img_y_start = 0
+    img_h = 640
+    img_w = WIDTH
+
     loaded_photo = None
     if image_url:
         try:
@@ -122,86 +144,103 @@ def create_instagram_card(article, output_path="public/instagram_posts/preview.j
                 loaded_photo = raw_img.resize((img_w, img_h), Image.Resampling.LANCZOS)
         except Exception as e:
             print("[IMAGEN] Error descargando foto original:", e)
-            
+
     if loaded_photo:
         img.paste(loaded_photo, (0, img_y_start))
-        # Línea divisoria sutil arriba y abajo de la foto
-        draw.line([(0, img_y_start), (WIDTH, img_y_start)], fill=BORDER_COLOR, width=1)
-        draw.line([(0, img_y_start + img_h), (WIDTH, img_y_start + img_h)], fill=BORDER_COLOR, width=1)
     else:
-        # Fallback si la imagen no carga
         draw.rectangle([0, img_y_start, WIDTH, img_y_start + img_h], fill=CARD_BG)
-        draw.text((WIDTH // 2 - 140, img_y_start + 270), "COBERTURA PERIODÍSTICA", fill=TEXT_MUTED, font=font_category)
-        draw.line([(0, img_y_start), (WIDTH, img_y_start)], fill=BORDER_COLOR, width=1)
-        draw.line([(0, img_y_start + img_h), (WIDTH, img_y_start + img_h)], fill=BORDER_COLOR, width=1)
+        font_fallback = get_font("RobotoCondensed-Bold.ttf", 32)
+        draw.text((WIDTH // 2 - 170, img_y_start + 295), "PULSO INDEPENDIENTE", fill=TEXT_MUTED, font=font_fallback)
 
-    # 3. Metadatos de la Fuente
-    meta_y = img_y_start + img_h + 30
-    country = article.get("country")
-    source_name = article.get('sourceName', 'Prensa Independiente')
-    if country and country != "Chile":
-        src_label = f"{source_name} ({country})"
-    else:
-        src_label = source_name
-    src_text = f"Fuente: {src_label} · {article.get('publishedAt', '')[:10]}"
-    draw.text((55, meta_y), src_text, fill=ACCENT_CYAN, font=font_source)
-    
-    # 4. Titular Principal
-    title_y = meta_y + 42
-    raw_title = article.get("title", "")
-    wrapped_title = textwrap.fill(raw_title, width=37)
-    lines_title = wrapped_title.split("\n")[:4]
-    
-    for line in lines_title:
-        draw.text((55, title_y), line, fill=TEXT_PRIMARY, font=font_title)
-        title_y += 56
-        
-    # 5. Bajada / Resumen (Garantizando texto completo sin letras cortadas)
-    summary_y = title_y + 18
+    # Pequeña píldora flotante en la esquina superior izquierda sobre la foto con el logo "Pulso." y la fuente
+    font_badge = get_font("DejaVuSans-Bold.ttf", 22)
+    source_name = article.get("sourceName", "Pulso")
+    badge_text = f"Pulso. · {source_name}"
+    badge_w = draw.textlength(badge_text, font=font_badge)
+    draw.rounded_rectangle([32, 28, 32 + badge_w + 36, 74], radius=23, fill=(8, 10, 15))
+    draw.text((50, 39), badge_text, fill=HIGHLIGHT_YELLOW, font=font_badge)
+
+    # Línea sutil separadora entre la foto y el bloque tipográfico
+    draw.line([(0, img_h), (WIDTH, img_h)], fill=(40, 45, 55), width=2)
+
+    # 2. BLOQUE CENTRAL: SOLO TITULAR GIGANTE CENTRADO (Sin párrafo pequeño de resumen)
+    # Todo el detalle y contexto se entrega en el comentario/descripción del post
+    raw_title = (article.get("title") or "").strip()
+    # Limpiar posibles colas redundantes de nombre del medio al final del título (" - BioBioChile")
+    if " - " in raw_title and len(raw_title.split(" - ")[-1]) < 25:
+        raw_title = " - ".join(raw_title.split(" - ")[:-1]).strip()
+
+    # Si el titular es muy corto (<95 caracteres) y hay una primera frase concisa en el resumen, sumarla para dar contexto potente
     raw_summary = (article.get("summary") or "").strip()
-    if raw_summary:
-        raw_summary = raw_summary[0].upper() + raw_summary[1:]
-    wrapped_summary = textwrap.fill(raw_summary, width=53)
-    lines_summary = wrapped_summary.split("\n")[:3]
-    
-    for line in lines_summary:
-        draw.text((55, summary_y), line, fill=TEXT_MUTED, font=font_summary)
-        summary_y += 39
-        
-    # 6. Pie de Publicación (CTA) - Diseño amplio con separación garantizada
-    footer_y = HEIGHT - 80
-    draw.line([(55, footer_y - 25), (WIDTH - 55, footer_y - 25)], fill=BORDER_COLOR, width=1)
-    
-    # Texto de la izquierda (sin emojis para compatibilidad total)
-    cta_text = "Reportaje completo en la bio"
-    draw.text((55, footer_y), cta_text, fill=TEXT_PRIMARY, font=font_footer_left)
-    
-    # Dominio a la derecha (en píldora o texto ámbar asegurando margen)
-    url_text = "pulso-independiente.web.app"
-    url_w = draw.textlength(url_text, font=font_footer_url)
-    url_x = WIDTH - 55 - url_w
-    draw.text((url_x, footer_y), url_text, fill=ACCENT_GOLD, font=font_footer_url)
-    
+    if len(raw_title) < 95 and raw_summary:
+        first_sentence = raw_summary.split(". ")[0].strip()
+        if 20 < len(first_sentence) <= 95 and first_sentence.lower()[:25] not in raw_title.lower():
+            if not raw_title.endswith((".", "!", "?", '"', "”")):
+                raw_title += "."
+            raw_title = f"{raw_title} {first_sentence}."
+
+    # Si el texto supera 185 caracteres, resumirlo limpiamente
+    if len(raw_title) > 185:
+        cut = raw_title[:182].rsplit(" ", 1)[0]
+        raw_title = cut.rstrip(",;:") + "."
+
+    colored_words = _build_colored_words(raw_title, HIGHLIGHT_YELLOW, TEXT_PRIMARY)
+
+    # Ajustar dinámicamente el tamaño de la fuente condensada para que llene el bloque con gran impacto
+    text_area_top = img_h + 25
+    text_area_bottom = HEIGHT - 65
+    available_h = text_area_bottom - text_area_top
+    max_text_w = WIDTH - 84  # 42px de margen a cada lado
+
+    chosen_font = None
+    chosen_lines = []
+    line_spacing = 12
+
+    for font_size in [82, 76, 72, 68, 64, 60, 56, 52, 48]:
+        font_candidate = get_font("RobotoCondensed-Bold.ttf", font_size, "DejaVuSans-Bold.ttf")
+        lines = _wrap_words_by_pixels(draw, colored_words, font_candidate, max_text_w)
+        line_h = int(font_size * 1.13)
+        total_h = len(lines) * line_h
+        if total_h <= available_h and 3 <= len(lines) <= 7:
+            chosen_font = font_candidate
+            chosen_lines = lines
+            line_spacing = line_h
+            break
+
+    if not chosen_font:
+        for font_size in [68, 60, 54, 48, 44]:
+            font_candidate = get_font("RobotoCondensed-Bold.ttf", font_size, "DejaVuSans-Bold.ttf")
+            lines = _wrap_words_by_pixels(draw, colored_words, font_candidate, max_text_w)
+            line_h = int(font_size * 1.13)
+            if len(lines) * line_h <= available_h:
+                chosen_font = font_candidate
+                chosen_lines = lines
+                line_spacing = line_h
+                break
+        if not chosen_font:
+            chosen_font = get_font("RobotoCondensed-Bold.ttf", 44, "DejaVuSans-Bold.ttf")
+            chosen_lines = _wrap_words_by_pixels(draw, colored_words, chosen_font, max_text_w)[:7]
+            line_spacing = int(44 * 1.13)
+
+    # Centrar verticalmente el bloque del titular dentro del espacio negro inferior
+    total_block_h = len(chosen_lines) * line_spacing
+    current_y = text_area_top + max(0, (available_h - total_block_h) // 2)
+
+    space_w = draw.textlength(" ", font=chosen_font)
+    for line in chosen_lines:
+        line_w = sum(draw.textlength(w, font=chosen_font) for w, _ in line) + space_w * (len(line) - 1)
+        current_x = (WIDTH - line_w) / 2.0
+        for idx, (word, color) in enumerate(line):
+            draw.text((current_x, current_y), word, fill=color, font=chosen_font)
+            current_x += draw.textlength(word, font=chosen_font) + space_w
+        current_y += line_spacing
+
+    # 3. PIE DE PÁGINA MINIMALISTA (Discreto abajo)
+    font_footer = get_font("DejaVuSans.ttf", 21)
+    footer_msg = "Detalle completo en la descripción · pulso-independiente.web.app"
+    fw = draw.textlength(footer_msg, font=font_footer)
+    draw.text(((WIDTH - fw) / 2, HEIGHT - 48), footer_msg, fill=(120, 130, 150), font=font_footer)
+
     img.save(output_path, "JPEG", quality=95)
     print(f"[OK] Tarjeta Instagram generada exitosamente en: {output_path}")
     return output_path
-
-if __name__ == "__main__":
-    with open("public/data/initial-feeds.json", encoding="utf-8") as f:
-        data = json.load(f)
-    
-    # Buscar el artículo de Pogacar o Ciclismo para probar el resultado
-    sample = None
-    for a in data["articles"]:
-        if "Pogacar" in a.get("title", "") or a.get("category") == "Ciclismo y Deporte":
-            sample = a
-            break
-            
-    if not sample:
-        for a in data["articles"]:
-            if a.get("image"):
-                sample = a
-                break
-
-    if sample:
-        create_instagram_card(sample, "public/instagram_posts/preview.jpg")
