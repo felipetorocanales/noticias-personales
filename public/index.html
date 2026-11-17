@@ -16,21 +16,34 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css?v=3.0.2" />
+  <link rel="stylesheet" href="/styles.css?v=3.1.0" />
 </head>
 <body>
   <!-- Minimalist Clean Top Header -->
   <header class="app-header">
     <div class="container header-inner">
       <div class="brand">
-        <span class="brand-logo">PULSO<span class="brand-dot">.</span></span>
-        <span class="brand-tagline">INVESTIGACIÓN & CRÓNICA INDEPENDIENTE</span>
+        <span class="brand-logo" id="brandLogoHome">PULSO<span class="brand-dot">.</span></span>
+        <span class="brand-tagline">INVESTIGACIÓN & FISCALIZACIÓN CIUDADANA</span>
+      </div>
+
+      <!-- Mode Switcher: Noticias vs Lupa Parlamentaria -->
+      <div class="header-mode-switch" role="navigation" aria-label="Secciones principales">
+        <button type="button" class="mode-switch-btn active" id="navModeNewsBtn" data-switch-mode="news">
+          <span>📰</span>
+          <span>Noticias</span>
+        </button>
+        <button type="button" class="mode-switch-btn mode-switch-btn--lupa" id="navModeLupaBtn" data-switch-mode="lupa">
+          <span>🔍</span>
+          <span>Lupa Parlamentaria</span>
+          <span class="mode-switch-badge">NUEVO</span>
+        </button>
       </div>
 
       <!-- Quick Action Icons -->
       <div class="header-actions">
         <button class="btn-icon-nav" id="reloadAppBtn" title="Actualizar noticias y contenido" aria-label="Actualizar">🔄</button>
-        <button class="btn-icon-nav" id="searchToggleBtn" title="Buscar noticias" aria-label="Buscar">🔍</button>
+        <button class="btn-icon-nav" id="searchToggleBtn" title="Buscar noticias o parlamentarios" aria-label="Buscar">🔍</button>
         <button class="btn-icon-nav" id="themeToggleBtn" title="Cambiar tema" aria-label="Tema">☀️</button>
       </div>
     </div>
@@ -41,7 +54,7 @@
         <input
           type="search"
           id="searchInput"
-          placeholder="Buscar por tema, palabra clave o medio..."
+          placeholder="Buscar por tema, palabra clave, parlamentario o caso..."
           autocomplete="off"
         />
         <button class="clear-search-btn hidden" id="clearSearchBtn" title="Limpiar">✕</button>
@@ -50,7 +63,7 @@
     </div>
 
     <!-- Filter Bars: Filtro Principal (Ámbito/Impacto) + Subfiltro (Temáticas) -->
-    <div class="filters-section" aria-label="Filtros de noticias">
+    <div class="filters-section" id="newsFiltersSection" aria-label="Filtros de noticias">
       <div class="container filters-wrapper">
         <!-- Filtro Principal -->
         <div class="filters-main-bar" id="mainFiltersBar" role="tablist" aria-label="Filtro principal">
@@ -64,17 +77,23 @@
     </div>
   </header>
 
-  <!-- Feed Principal Unificado de Noticias -->
+  <!-- Feed Principal Unificado de Noticias y Lupa Parlamentaria -->
   <main class="container feed-container">
+    <!-- Vista 1: Feed de Noticias -->
     <div class="feed-grid" id="gridViewContainer">
       <!-- Tarjetas de noticias inyectadas dinámicamente -->
     </div>
+
+    <!-- Vista 2: Lupa Parlamentaria (Centro Interactivo de Investigación Ciudadana) -->
+    <section class="lupa-section hidden" id="lupaParlamentariaContainer" aria-label="Lupa Parlamentaria — Investigación y Historial del Congreso">
+      <!-- Inyectado dinámicamente por app.js -->
+    </section>
   </main>
 
   <!-- Minimalist Clean Footer -->
   <footer class="site-footer">
     <div class="container footer-clean">
-      <p>Pulso · Periodismo de investigación y crónica independiente sin farándula · 38 medios de Chile 🇨🇱, Latinoamérica 🌎 y el Mundo 🌍</p>
+      <p>Pulso Independiente · Periodismo de investigación, crónica y fiscalización parlamentaria sin farándula · Chile 🇨🇱 y el Mundo 🌍</p>
     </div>
   </footer>
 
@@ -365,9 +384,46 @@
     </div>
   </div>
 
+  <!-- MODAL 5: Expediente Interactivo de Parlamentario ("Lupa Parlamentaria") -->
+  <div class="modal-backdrop hidden" id="parliamentDossierModal" role="dialog" aria-modal="true" aria-labelledby="dossierModalTitle">
+    <div class="modal-card modal-dossier">
+      <div class="modal-header modal-dossier-header">
+        <div class="dossier-header-meta" id="dossierHeaderMeta">
+          <span class="dossier-code-badge">EXPEDIENTE DE FISCALIZACIÓN CIUDADANA</span>
+        </div>
+        <div class="dossier-header-actions">
+          <button type="button" class="btn-dossier-share" id="dossierShareLinkBtn" title="Copiar enlace directo a este expediente">
+            🔗 Compartir expediente
+          </button>
+          <button class="modal-close-btn" data-close-modal="parliamentDossierModal" aria-label="Cerrar expediente" title="Cerrar (Esc)">✕</button>
+        </div>
+      </div>
+      <div class="modal-body dossier-modal-scroll" id="dossierModalBody">
+        <!-- Contenido del expediente inyectado dinámicamente por app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 6: Comparador Cara a Cara de Parlamentarios -->
+  <div class="modal-backdrop hidden" id="parliamentCompareModal" role="dialog" aria-modal="true" aria-labelledby="compareModalTitle">
+    <div class="modal-card modal-compare">
+      <div class="modal-header modal-dossier-header">
+        <div>
+          <span class="dossier-code-badge">COMPARADOR TERRITORIAL Y DE BANCADA</span>
+          <h2 id="compareModalTitle" class="compare-modal-title">Contraste Cara a Cara de Parlamentarios</h2>
+        </div>
+        <button class="modal-close-btn" data-close-modal="parliamentCompareModal" aria-label="Cerrar comparador" title="Cerrar (Esc)">✕</button>
+      </div>
+      <div class="modal-body dossier-modal-scroll" id="compareModalBody">
+        <!-- Tabla comparativa inyectada dinámicamente -->
+      </div>
+    </div>
+  </div>
+
   <!-- Toast notification -->
   <div id="toastMessage" class="toast-popup hidden" role="status" aria-live="polite"></div>
 
-  <script src="/app.js?v=3.0.2" defer></script>
+  <script src="/app.js?v=3.1.0" defer></script>
 </body>
 </html>
+

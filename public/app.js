@@ -235,7 +235,17 @@ const state = {
   lastGeneratedAt: null,
   knownArticleUrls: new Set(),
   archiveIndex: undefined,
-  deepLinkHandledId: null
+  deepLinkHandledId: null,
+  // Lupa Parlamentaria (Centro Interactivo de Investigación Ciudadana)
+  appMode: "news",
+  lupaData: null,
+  lupaLens: "fuel_desc",
+  lupaChamber: "all",
+  lupaRegion: "all",
+  lupaParty: "all",
+  lupaQuery: "",
+  lupaCompareIds: [],
+  activeDossierId: null
 };
 
 function balanceSourceDiversity(list, maxConsecutive = 1) {
@@ -473,7 +483,7 @@ async function initApp() {
   setupTheme();
   bindEvents();
 
-  // Detectar deep link desde Instagram o enlace directo (?id=...)
+  // Detectar deep link desde Instagram o enlace directo (?id=... o ?mode=lupa o ?politico=...)
   const urlParams = new URLSearchParams(window.location.search);
   const targetId = urlParams.get("id") || (window.location.hash ? window.location.hash.replace("#", "") : null);
   if (targetId) {
@@ -482,6 +492,10 @@ async function initApp() {
   if (urlParams.get("filter") === "instagram" || urlParams.get("from") === "instagram_bio") {
     state.mainFilter = "instagram";
   }
+  const politicoParam = urlParams.get("politico");
+  if (urlParams.get("mode") === "lupa" || urlParams.get("mode") === "congreso" || politicoParam) {
+    state.appMode = "lupa";
+  }
 
   // Set initial sort selects
   const sortSelect = document.getElementById("sortSelect");
@@ -489,15 +503,18 @@ async function initApp() {
   const quickSortSelect = document.getElementById("quickSortSelect");
   if (quickSortSelect) quickSortSelect.value = state.sortBy;
 
-  // Default "onlyIndependentCheck" to false so all 23 sources show, or let user toggle
   const indepCheckbox = document.getElementById("onlyIndependentCheck");
   if (indepCheckbox) {
     indepCheckbox.checked = false;
     state.onlyIndependent = false;
   }
 
-  await loadInitialSnapshot();
+  await Promise.all([loadInitialSnapshot(), loadParliamentData()]);
   renderAll();
+
+  if (politicoParam) {
+    openParliamentDossier(politicoParam);
+  }
 
   // Chequeo periódico de novedades en segundo plano cada 60 segundos
   setInterval(checkForFreshSnapshot, 60 * 1000);
@@ -908,8 +925,9 @@ function renderFilterBars() {
 
   // 1. Barra Principal (Ámbito e Impacto)
   if (mainContainer) {
-    mainContainer.innerHTML = MAIN_FILTERS.map((f) => {
-      const isActive = state.mainFilter === f.id;
+    const lupaCount = state.lupaData && state.lupaData.parlamentarios ? state.lupaData.parlamentarios.length : 36;
+    const filterButtonsHtml = MAIN_FILTERS.map((f) => {
+      const isActive = state.appMode === "news" && state.mainFilter === f.id;
       const count = unblockedArticles.filter((art) => f.matcher(art)).length;
       return `
         <button 
@@ -925,6 +943,22 @@ function renderFilterBars() {
         </button>
       `;
     }).join("");
+
+    const lupaBtnHtml = `
+      <button
+        type="button"
+        class="filter-main-btn ${state.appMode === "lupa" ? "active" : ""}"
+        data-switch-mode="lupa"
+        role="tab"
+        aria-selected="${state.appMode === "lupa" ? "true" : "false"}"
+      >
+        <span class="filter-icon">🔍</span>
+        <span class="filter-label">Lupa Parlamentaria</span>
+        <span class="filter-count">${lupaCount}</span>
+      </button>
+    `;
+
+    mainContainer.innerHTML = filterButtonsHtml + lupaBtnHtml;
   }
 
   // 2. Subfiltro de Temáticas (Calculado contextualmente sobre el filtro principal activo)
@@ -952,14 +986,36 @@ function renderFilterBars() {
   }
 }
 
-// Rendering (Minimalist Unified Feed)
+// Rendering (Minimalist Unified Feed + Lupa Parlamentaria)
 function renderAll() {
   updateMetricsAndCounters();
   renderFilterBars();
+
+  const newsBtn = document.getElementById("navModeNewsBtn");
+  const lupaBtn = document.getElementById("navModeLupaBtn");
+  const gridContainer = document.getElementById("gridViewContainer");
+  const lupaContainer = document.getElementById("lupaParlamentariaContainer");
+  const topicBar = document.getElementById("topicFiltersBar");
+
+  if (state.appMode === "lupa") {
+    newsBtn?.classList.remove("active");
+    lupaBtn?.classList.add("active");
+    gridContainer?.classList.add("hidden");
+    topicBar?.classList.add("hidden");
+    lupaContainer?.classList.remove("hidden");
+    renderLupaParlamentaria();
+    return;
+  }
+
+  newsBtn?.classList.add("active");
+  lupaBtn?.classList.remove("active");
+  gridContainer?.classList.remove("hidden");
+  topicBar?.classList.remove("hidden");
+  lupaContainer?.classList.add("hidden");
+
   const filtered = getFilteredArticles();
   const sorted = sortArticles(filtered, state.sortBy);
 
-  const gridContainer = document.getElementById("gridViewContainer");
   if (gridContainer) {
     renderCardsInto(gridContainer, sorted);
   }
@@ -1689,6 +1745,9 @@ function bindEvents() {
 
   // Logo click -> Reset to Todo
   document.querySelector(".brand-logo")?.addEventListener("click", () => {
+    state.appMode = "news";
+    state.mainFilter = "all";
+    state.topicFilter = "all";
     state.region = "all";
     state.tier = "all";
     state.searchQuery = "";
@@ -1717,6 +1776,7 @@ function bindEvents() {
       searchInput?.focus();
     } else {
       state.searchQuery = "";
+      state.lupaQuery = "";
       if (searchInput) searchInput.value = "";
       renderAll();
     }
@@ -1725,20 +1785,26 @@ function bindEvents() {
   closeSearchBtn?.addEventListener("click", () => {
     searchDrawer?.classList.add("hidden");
     state.searchQuery = "";
+    state.lupaQuery = "";
     if (searchInput) searchInput.value = "";
     clearSearchBtn?.classList.add("hidden");
     renderAll();
   });
 
   searchInput?.addEventListener("input", (e) => {
-    state.searchQuery = e.target.value.trim();
-    clearSearchBtn?.classList.toggle("hidden", !state.searchQuery);
+    const val = e.target.value.trim();
+    state.searchQuery = val;
+    if (state.appMode === "lupa") {
+      state.lupaQuery = val;
+    }
+    clearSearchBtn?.classList.toggle("hidden", !val);
     renderAll();
   });
 
   clearSearchBtn?.addEventListener("click", () => {
     if (searchInput) searchInput.value = "";
     state.searchQuery = "";
+    state.lupaQuery = "";
     clearSearchBtn?.classList.add("hidden");
     renderAll();
   });
@@ -1765,10 +1831,21 @@ function bindEvents() {
 
   // Delegated clicks for cards and modals
   document.addEventListener("click", (e) => {
+    // Switch Mode (Noticias vs Lupa Parlamentaria)
+    const switchModeBtn = e.target.closest("[data-switch-mode]");
+    if (switchModeBtn) {
+      const targetMode = switchModeBtn.getAttribute("data-switch-mode");
+      state.appMode = targetMode === "lupa" ? "lupa" : "news";
+      renderAll();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
     // Filtro Principal click (Todo, Chile, Mundo, Alto Impacto, Bajo el Radar, Guardadas)
     const mainBtnTrigger = e.target.closest("[data-main-filter]");
     if (mainBtnTrigger) {
       const mainId = mainBtnTrigger.getAttribute("data-main-filter");
+      state.appMode = "news";
       state.mainFilter = mainId;
       renderAll();
       return;
@@ -1778,6 +1855,7 @@ function bindEvents() {
     const topicBtnTrigger = e.target.closest("[data-topic-filter]");
     if (topicBtnTrigger) {
       const topicId = topicBtnTrigger.getAttribute("data-topic-filter");
+      state.appMode = "news";
       state.topicFilter = topicId;
       renderAll();
       return;
@@ -2224,4 +2302,999 @@ function initInstagramShareModal() {
 }
 
 
+// ==========================================================================
+// 10. LUPA PARLAMENTARIA — MOTOR INTERACTIVO DE INVESTIGACIÓN CIUDADANA
+// ==========================================================================
+
+const LUPA_LENSES = [
+  {
+    id: "fuel_desc",
+    icon: "🔥",
+    label: "Ranking Bencinazo (Mayor gasto)",
+    desc: "Ordenado por quienes más plata fiscal gastaron en combustible en el trimestre."
+  },
+  {
+    id: "febrero_desc",
+    icon: "🏖️",
+    label: "Gasto en Vacaciones (Febrero)",
+    desc: "Ordenado por quienes más gastaron durante febrero con el Congreso cerrado por receso."
+  },
+  {
+    id: "controversies_desc",
+    icon: "🚨",
+    label: "Escándalos e Investigaciones",
+    desc: "Prioriza parlamentarios con investigaciones por colusión, cohecho, financiamiento ilegal o uso irregular."
+  },
+  {
+    id: "judicial_desc",
+    icon: "⚖️",
+    label: "Causas Judiciales y Demandas",
+    desc: "Prioriza parlamentarios con desafueros, causas penales activas, condenas o querellas."
+  },
+  {
+    id: "attendance_asc",
+    icon: "📉",
+    label: "Menor Asistencia Real",
+    desc: "Ordenado desde quienes tienen menor porcentaje de asistencia efectiva a sesiones."
+  }
+];
+
+function formatCLP(amount) {
+  if (typeof amount !== "number" || isNaN(amount)) return "$0";
+  return "$" + Math.round(amount).toLocaleString("es-CL");
+}
+
+async function loadParliamentData() {
+  try {
+    const res = await fetch(`/data/parlamentarios.json?v=3.1.0`, { cache: "no-store" });
+    if (!res.ok) throw new Error("No se pudo cargar parlamentarios.json");
+    state.lupaData = await res.json();
+  } catch (err) {
+    console.error("[Lupa Parlamentaria] Error cargando datos:", err);
+    state.lupaData = { metadata: {}, parlamentarios: [] };
+  }
+}
+
+function getFilteredParlamentarios() {
+  const list = (state.lupaData && state.lupaData.parlamentarios) ? [...state.lupaData.parlamentarios] : [];
+  const q = (state.lupaQuery || "").trim().toLowerCase();
+
+  const filtered = list.filter((p) => {
+    if (state.lupaChamber !== "all" && p.chamber !== state.lupaChamber) return false;
+    if (state.lupaRegion !== "all" && p.region !== state.lupaRegion) return false;
+    if (state.lupaParty !== "all" && p.party !== state.lupaParty) return false;
+
+    if (q) {
+      const controversiesBlob = (p.controversies || []).map((c) => `${c.title} ${c.summary} ${c.category}`).join(" ");
+      const judicialBlob = (p.judicialRecords || []).map((j) => `${j.caseName} ${j.reason} ${j.status}`).join(" ");
+      const hay = `${p.name} ${p.shortName} ${p.party} ${p.coalition} ${p.region} ${p.districtOrCirc} ${controversiesBlob} ${judicialBlob}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  // Ordenar según el lente de investigación activo
+  filtered.sort((a, b) => {
+    if (state.lupaLens === "febrero_desc") {
+      return (b.fuelFebreroVacaciones || 0) - (a.fuelFebreroVacaciones || 0);
+    }
+    if (state.lupaLens === "controversies_desc") {
+      const scoreA = (a.controversies || []).reduce((acc, c) => acc + (c.severity === "alta" ? 3 : 1), 0);
+      const scoreB = (b.controversies || []).reduce((acc, c) => acc + (c.severity === "alta" ? 3 : 1), 0);
+      if (scoreB !== scoreA) return scoreB - scoreA;
+      return (b.fuelTrimestre || 0) - (a.fuelTrimestre || 0);
+    }
+    if (state.lupaLens === "judicial_desc") {
+      const weight = (rec) => rec.statusType === "active" ? 5 : (rec.statusType === "sanctioned" ? 4 : (rec.statusType === "resolved" ? 2 : 1));
+      const scoreA = (a.judicialRecords || []).reduce((acc, r) => acc + weight(r), 0);
+      const scoreB = (b.judicialRecords || []).reduce((acc, r) => acc + weight(r), 0);
+      if (scoreB !== scoreA) return scoreB - scoreA;
+      return (b.controversies?.length || 0) - (a.controversies?.length || 0);
+    }
+    if (state.lupaLens === "attendance_asc") {
+      return (a.attendance?.realPct || 100) - (b.attendance?.realPct || 100);
+    }
+    // Default: fuel_desc
+    return (b.fuelTrimestre || 0) - (a.fuelTrimestre || 0);
+  });
+
+  return filtered;
+}
+
+function renderLupaParlamentaria() {
+  const container = document.getElementById("lupaParlamentariaContainer");
+  if (!container) return;
+
+  if (!state.lupaData || !state.lupaData.parlamentarios) {
+    container.innerHTML = `<div class="empty-state"><p>Cargando base de datos de fiscalización parlamentaria...</p></div>`;
+    return;
+  }
+
+  const allParl = state.lupaData.parlamentarios;
+  const meta = state.lupaData.metadata || {};
+
+  // Listas únicas de regiones y partidos para los selectores
+  const regions = [...new Set(allParl.map((p) => p.region))].sort((a, b) => a.localeCompare(b, "es"));
+  const parties = [...new Set(allParl.map((p) => p.party))].sort((a, b) => a.localeCompare(b, "es"));
+
+  // Si la estructura base de Lupa aún no está montada, crearla para que el buscador no pierda foco al escribir
+  if (!document.getElementById("lupaResultsGrid")) {
+    container.innerHTML = `
+      <div class="lupa-hero">
+        <div class="lupa-hero-top">
+          <div>
+            <span class="lupa-kicker">🔍 LUPA PARLAMENTARIA · EXPEDIENTE PÚBLICO INTERACTIVO</span>
+            <h1 class="lupa-title">Investiga por quién votas: Gastos, Vacaciones, Asistencia y Causas</h1>
+            <p class="lupa-subtitle">
+              Cruza en tiempo real los gastos en bencina y traslación (incluyendo el mes de vacaciones de febrero), la asistencia real vs. oficial al Congreso, las investigaciones periodísticas (CIPER, BíoBío Investiga, El Mostrador, Interferencia) y el historial judicial de cada parlamentario. Compara a representantes de una misma región o partido.
+            </p>
+          </div>
+        </div>
+
+        <div class="lupa-kpis-row">
+          <div class="lupa-kpi-card">
+            <span class="lupa-kpi-label">Bencina Congreso (Trimestre)</span>
+            <span class="lupa-kpi-val lupa-kpi-val--high">${formatCLP(meta.totalCombustibleTrimestreCongreso || 262450000)}</span>
+            <span class="lupa-kpi-note">Más de $87 millones mensuales con cargo fiscal</span>
+          </div>
+          <div class="lupa-kpi-card">
+            <span class="lupa-kpi-label">Dieta Parlamentaria Base</span>
+            <span class="lupa-kpi-val">${formatCLP(meta.dietaMensualBruta || 8239091)} / mes</span>
+            <span class="lupa-kpi-note">+ hasta $10,6M/mes adicionales en asignaciones</span>
+          </div>
+          <div class="lupa-kpi-card">
+            <span class="lupa-kpi-label">Récord Trimestral Combustible</span>
+            <span class="lupa-kpi-val lupa-kpi-val--high">$5.032.016</span>
+            <span class="lupa-kpi-note">Sen. Carlos Kuschel (RN) · ~$1,67M por mes</span>
+          </div>
+          <div class="lupa-kpi-card">
+            <span class="lupa-kpi-label">Alerta Receso Febrero (Vacaciones)</span>
+            <span class="lupa-kpi-val lupa-kpi-val--amber">Congreso Cerrado</span>
+            <span class="lupa-kpi-note">Parlamentarios con hasta $1,62M rendidos en febrero</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Selector de Lente de Investigación -->
+      <div class="lupa-lenses-wrap">
+        <span class="lupa-lenses-label">1. Elige tu línea de investigación (Ordenar y priorizar por):</span>
+        <div class="lupa-lenses-bar" id="lupaLensesBar"></div>
+      </div>
+
+      <!-- Barra de Filtros Electorales y Territoriales -->
+      <div class="lupa-controls-bar">
+        <input
+          type="search"
+          id="lupaSearchInput"
+          class="lupa-input"
+          placeholder="Buscar por nombre, región, comuna, partido o caso (ej. Ossandón, Corpesca, Penta, Democracia Viva)..."
+          value="${escapeHtml(state.lupaQuery)}"
+          autocomplete="off"
+        />
+        <select id="lupaChamberSelect" class="lupa-select" aria-label="Filtrar por Cámara">
+          <option value="all">🏛️ Todas las Cámaras</option>
+          <option value="Senado">Senado</option>
+          <option value="Cámara de Diputados">Cámara de Diputados</option>
+        </select>
+        <select id="lupaRegionSelect" class="lupa-select" aria-label="Filtrar por Región">
+          <option value="all">📍 Todas las Regiones (16)</option>
+          ${regions.map((r) => `<option value="${escapeHtml(r)}">Región: ${escapeHtml(r)}</option>`).join("")}
+        </select>
+        <select id="lupaPartySelect" class="lupa-select" aria-label="Filtrar por Partido">
+          <option value="all">🏳️ Todos los Partidos</option>
+          ${parties.map((pt) => `<option value="${escapeHtml(pt)}">Partido: ${escapeHtml(pt)}</option>`).join("")}
+        </select>
+        <button type="button" id="lupaResetFiltersBtn" class="lupa-reset-btn" title="Restablecer filtros">
+          Limpiar ✕
+        </button>
+      </div>
+
+      <!-- Banner contextual de Región o Partido -->
+      <div id="lupaContextBanner" class="hidden"></div>
+
+      <!-- Bandeja de Comparación Cara a Cara -->
+      <div id="lupaCompareTray" class="hidden"></div>
+
+      <!-- Grilla de Expedientes -->
+      <div class="lupa-grid" id="lupaResultsGrid"></div>
+    `;
+
+    // Bind input & select listeners once
+    document.getElementById("lupaSearchInput")?.addEventListener("input", (e) => {
+      state.lupaQuery = e.target.value;
+      updateLupaDynamicContent();
+    });
+    document.getElementById("lupaChamberSelect")?.addEventListener("change", (e) => {
+      state.lupaChamber = e.target.value;
+      updateLupaDynamicContent();
+    });
+    document.getElementById("lupaRegionSelect")?.addEventListener("change", (e) => {
+      state.lupaRegion = e.target.value;
+      updateLupaDynamicContent();
+    });
+    document.getElementById("lupaPartySelect")?.addEventListener("change", (e) => {
+      state.lupaParty = e.target.value;
+      updateLupaDynamicContent();
+    });
+    document.getElementById("lupaResetFiltersBtn")?.addEventListener("click", () => {
+      state.lupaChamber = "all";
+      state.lupaRegion = "all";
+      state.lupaParty = "all";
+      state.lupaQuery = "";
+      state.lupaLens = "fuel_desc";
+      const sInput = document.getElementById("lupaSearchInput");
+      if (sInput) sInput.value = "";
+      updateLupaDynamicContent();
+    });
+  }
+
+  updateLupaDynamicContent();
+}
+
+function updateLupaDynamicContent() {
+  const allParl = (state.lupaData && state.lupaData.parlamentarios) ? state.lupaData.parlamentarios : [];
+  const filtered = getFilteredParlamentarios();
+  const maxFuel = Math.max(...allParl.map((p) => p.fuelTrimestre || 1), 1);
+
+  // Sync select values
+  const chSel = document.getElementById("lupaChamberSelect");
+  if (chSel && chSel.value !== state.lupaChamber) chSel.value = state.lupaChamber;
+  const rgSel = document.getElementById("lupaRegionSelect");
+  if (rgSel && rgSel.value !== state.lupaRegion) rgSel.value = state.lupaRegion;
+  const ptSel = document.getElementById("lupaPartySelect");
+  if (ptSel && ptSel.value !== state.lupaParty) ptSel.value = state.lupaParty;
+
+  // Render lenses bar
+  const lensesBar = document.getElementById("lupaLensesBar");
+  if (lensesBar) {
+    const counts = {
+      fuel_desc: allParl.length,
+      febrero_desc: allParl.filter((p) => (p.fuelFebreroVacaciones || 0) >= 600000).length,
+      controversies_desc: allParl.filter((p) => (p.controversies || []).length > 0).length,
+      judicial_desc: allParl.filter((p) => (p.judicialRecords || []).length > 0).length,
+      attendance_asc: allParl.filter((p) => (p.attendance?.realPct || 100) < 90).length
+    };
+    lensesBar.innerHTML = LUPA_LENSES.map((lens) => `
+      <button
+        type="button"
+        class="lupa-lens-btn ${state.lupaLens === lens.id ? "active" : ""}"
+        data-lupa-lens="${lens.id}"
+        title="${escapeHtml(lens.desc)}"
+      >
+        <span>${lens.icon}</span>
+        <span>${escapeHtml(lens.label)}</span>
+        <span class="lupa-lens-count">${counts[lens.id] || allParl.length}</span>
+      </button>
+    `).join("");
+  }
+
+  // Render Context Banner (when filtering by Region or Party)
+  const ctxBanner = document.getElementById("lupaContextBanner");
+  if (ctxBanner) {
+    if (state.lupaRegion !== "all" && filtered.length > 0) {
+      const avgRegional = Math.round(filtered.reduce((s, p) => s + (p.fuelTrimestre || 0), 0) / filtered.length);
+      const byFuel = [...filtered].sort((a, b) => b.fuelTrimestre - a.fuelTrimestre);
+      const highest = byFuel[0];
+      const lowest = byFuel[byFuel.length - 1];
+      const compareIdsAttr = byFuel.slice(0, 3).map((p) => p.id).join(",");
+
+      ctxBanner.className = "lupa-context-banner";
+      ctxBanner.innerHTML = `
+        <div>
+          <strong>📍 Radiografía Territorial — Región de ${escapeHtml(state.lupaRegion)}:</strong>
+          Promedio trimestral en bencina: <strong>${formatCLP(avgRegional)}</strong>.
+          ${byFuel.length > 1 ? `En la misma región, <strong>${escapeHtml(highest.shortName)} (${escapeHtml(highest.party)})</strong> gasta <strong>${formatCLP(highest.fuelTrimestre)}</strong> versus <strong>${escapeHtml(lowest.shortName)} (${escapeHtml(lowest.party)})</strong> con <strong>${formatCLP(lowest.fuelTrimestre)}</strong>.` : ""}
+        </div>
+        ${byFuel.length > 1 ? `
+          <button type="button" class="btn-dossier-share" data-compare-pair="${escapeHtml(compareIdsAttr)}">
+            ⚖️ Comparar cara a cara en ${escapeHtml(state.lupaRegion)}
+          </button>
+        ` : ""}
+      `;
+    } else if (state.lupaParty !== "all" && filtered.length > 0) {
+      const avgParty = Math.round(filtered.reduce((s, p) => s + (p.fuelTrimestre || 0), 0) / filtered.length);
+      const compareIdsAttr = filtered.slice(0, 3).map((p) => p.id).join(",");
+      ctxBanner.className = "lupa-context-banner";
+      ctxBanner.innerHTML = `
+        <div>
+          <strong>🏳️ Radiografía de Bancada — Partido ${escapeHtml(state.lupaParty)}:</strong>
+          ${filtered.length} parlamentario(s) en la muestra · Promedio trimestral en combustible: <strong>${formatCLP(avgParty)}</strong>.
+        </div>
+        ${filtered.length > 1 ? `
+          <button type="button" class="btn-dossier-share" data-compare-pair="${escapeHtml(compareIdsAttr)}">
+            ⚖️ Comparar representantes de ${escapeHtml(state.lupaParty)}
+          </button>
+        ` : ""}
+      `;
+    } else {
+      ctxBanner.className = "hidden";
+      ctxBanner.innerHTML = "";
+    }
+  }
+
+  // Render Compare Tray
+  const compareTray = document.getElementById("lupaCompareTray");
+  if (compareTray) {
+    if (state.lupaCompareIds.length > 0) {
+      const selectedObjs = state.lupaCompareIds
+        .map((id) => allParl.find((p) => p.id === id))
+        .filter(Boolean);
+
+      compareTray.className = "lupa-compare-tray";
+      compareTray.innerHTML = `
+        <div class="lupa-compare-chips">
+          <span style="font-family:var(--font-mono);font-size:0.75rem;text-transform:uppercase;color:var(--accent-high);font-weight:700;">
+            ⚖️ Mesa de Comparación (${selectedObjs.length}/3):
+          </span>
+          ${selectedObjs.map((p) => `
+            <span class="lupa-compare-chip">
+              ${escapeHtml(p.shortName)} (${escapeHtml(p.party)})
+              <button type="button" data-toggle-compare="${escapeHtml(p.id)}" title="Quitar">✕</button>
+            </span>
+          `).join("")}
+        </div>
+        <div style="display:flex;gap:8px;">
+          <button type="button" class="btn-open-dossier" id="openCompareModalBtn" style="padding:7px 14px;">
+            ⚖️ Comparar Cara a Cara (${selectedObjs.length})
+          </button>
+          <button type="button" class="lupa-reset-btn" id="clearCompareTrayBtn" style="padding:7px 10px;">
+            Vaciar
+          </button>
+        </div>
+      `;
+    } else {
+      compareTray.className = "hidden";
+      compareTray.innerHTML = "";
+    }
+  }
+
+  // Render Grid of Dossier Cards
+  const grid = document.getElementById("lupaResultsGrid");
+  if (!grid) return;
+
+  if (!filtered.length) {
+    grid.innerHTML = `
+      <div class="empty-state">
+        <p>No se encontraron parlamentarios con esos filtros. Prueba limpiando la búsqueda o cambiando de región.</p>
+      </div>
+    `;
+    return;
+  }
+
+  grid.innerHTML = filtered.map((p, idx) => {
+    const pctBar = Math.min(100, Math.round(((p.fuelTrimestre || 0) / maxFuel) * 100));
+    const litersTrimestre = Math.round((p.fuelTrimestre || 0) / 1320);
+    const kmTrimestre = litersTrimestre * 10;
+    const febRatio = p.fuelMonthlyAvg ? Math.round(((p.fuelFebreroVacaciones || 0) / p.fuelMonthlyAvg) * 100) : 0;
+    const isSelectedCompare = state.lupaCompareIds.includes(p.id);
+
+    const hasActiveJudicial = (p.judicialRecords || []).some((j) => j.statusType === "active" || j.statusType === "sanctioned");
+    const hasResolvedJudicial = !hasActiveJudicial && (p.judicialRecords || []).length > 0;
+    const controversiesCount = (p.controversies || []).length;
+    const topControversy = (p.controversies || [])[0];
+
+    return `
+      <article class="lupa-card" data-politician-card="${escapeHtml(p.id)}">
+        <div>
+          <div class="lupa-card-top">
+            <span class="lupa-rank-badge ${idx < 5 ? "lupa-rank-badge--top" : ""}">#${idx + 1}</span>
+            <div class="lupa-chamber-tags">
+              <span class="lupa-tag">${escapeHtml(p.chamber)}</span>
+              <span class="lupa-tag lupa-tag--party">${escapeHtml(p.party)}</span>
+              <span class="lupa-tag">📍 ${escapeHtml(p.region)}</span>
+            </div>
+          </div>
+
+          <h2 class="lupa-card-name" data-open-dossier="${escapeHtml(p.id)}" role="button" tabindex="0">
+            ${escapeHtml(p.name)}
+          </h2>
+          <p class="lupa-card-territory">${escapeHtml(p.districtOrCirc)} · ${escapeHtml(p.territoryType)}</p>
+        </div>
+
+        <!-- Badges de Alerta Ciudadana -->
+        <div class="lupa-alert-row">
+          ${(p.fuelFebreroVacaciones || 0) >= 650000 ? `
+            <span class="lupa-alert-pill lupa-alert-pill--amber" title="Gasto elevado durante el receso legislativo de febrero">
+              🏖️ Febrero: ${formatCLP(p.fuelFebreroVacaciones)} (${febRatio}% de mes normal)
+            </span>
+          ` : ""}
+          ${(p.registeredVehiclesCount || 0) >= 4 ? `
+            <span class="lupa-alert-pill lupa-alert-pill--amber">
+              🚗 ${p.registeredVehiclesCount} vehículos con tarjeta fiscal
+            </span>
+          ` : ""}
+          ${hasActiveJudicial ? `
+            <span class="lupa-alert-pill lupa-alert-pill--danger">
+              ⚖️ Causa Judicial Activa / Sanción (${p.judicialRecords.length})
+            </span>
+          ` : hasResolvedJudicial ? `
+            <span class="lupa-alert-pill lupa-alert-pill--amber">
+              ⚖️ ${p.judicialRecords.length} antecedente(s) judicial(es) (Resuelto)
+            </span>
+          ` : ""}
+          ${controversiesCount > 0 ? `
+            <span class="lupa-alert-pill lupa-alert-pill--danger">
+              🚨 ${controversiesCount} controversia(s) / investigación(es)
+            </span>
+          ` : (!hasActiveJudicial && !hasResolvedJudicial) ? `
+            <span class="lupa-alert-pill lupa-alert-pill--clean">
+              ✅ Sin causas judiciales ni escándalos reportados
+            </span>
+          ` : ""}
+        </div>
+
+        <!-- Caja de Métricas Auditadas -->
+        <div class="lupa-metrics-box">
+          <div class="lupa-metric-main">
+            <span class="lupa-metric-lbl">⛽ Combustible (Trimestre Mar–May)</span>
+            <span class="lupa-metric-val">${formatCLP(p.fuelTrimestre)}</span>
+          </div>
+          <div class="lupa-fuel-bar-track">
+            <div class="lupa-fuel-bar-fill" style="width:${pctBar}%"></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:0.72rem;color:var(--text-muted);font-family:var(--font-mono);">
+            <span>Promedio: ${formatCLP(p.fuelMonthlyAvg)}/mes</span>
+            <span>~${litersTrimestre.toLocaleString("es-CL")} L (~${kmTrimestre.toLocaleString("es-CL")} km)</span>
+          </div>
+
+          <div class="lupa-submetrics-grid">
+            <div class="lupa-submetric">
+              <span class="lupa-submetric-k">🏖️ Vacaciones Feb</span>
+              <span class="lupa-submetric-v" style="${(p.fuelFebreroVacaciones || 0) >= 700000 ? "color:var(--accent-low);" : ""}">
+                ${formatCLP(p.fuelFebreroVacaciones)}
+              </span>
+            </div>
+            <div class="lupa-submetric">
+              <span class="lupa-submetric-k">🏛️ Asistencia Real</span>
+              <span class="lupa-submetric-v" style="${(p.attendance?.realPct || 100) < 85 ? "color:var(--accent-high);" : ""}">
+                ${p.attendance?.realPct ?? 90}% <small style="font-weight:400;color:var(--text-muted);">(${p.attendance?.sessionsPresent}/${p.attendance?.sessionsTotal})</small>
+              </span>
+            </div>
+            <div class="lupa-submetric">
+              <span class="lupa-submetric-k">🚗 Autos Inscritos</span>
+              <span class="lupa-submetric-v">${p.registeredVehiclesCount || 2} vehículos</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Extracto de Investigación o Contexto Territorial -->
+        <div class="lupa-card-case-preview">
+          ${topControversy
+            ? `<strong>📌 Hito en expediente (${topControversy.year}):</strong> ${escapeHtml(topControversy.title)}`
+            : `<strong>📋 Contexto territorial:</strong> ${escapeHtml(p.justificationSummary)}`
+          }
+        </div>
+
+        <!-- Botones de Acción Investigativa -->
+        <div class="lupa-card-actions">
+          <button type="button" class="btn-open-dossier" data-open-dossier="${escapeHtml(p.id)}">
+            🕵️ Abrir Expediente Completo
+          </button>
+          <button
+            type="button"
+            class="btn-toggle-compare ${isSelectedCompare ? "selected" : ""}"
+            data-toggle-compare="${escapeHtml(p.id)}"
+            title="Agregar o quitar de la mesa de comparación"
+          >
+            ${isSelectedCompare ? "✓ En comparación" : "⚖️ Comparar"}
+          </button>
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
+function openParliamentDossier(politicianId) {
+  const allParl = (state.lupaData && state.lupaData.parlamentarios) ? state.lupaData.parlamentarios : [];
+  const p = allParl.find((x) => x.id === politicianId);
+  if (!p) return;
+
+  state.activeDossierId = p.id;
+  const modal = document.getElementById("parliamentDossierModal");
+  const body = document.getElementById("dossierModalBody");
+  const headerMeta = document.getElementById("dossierHeaderMeta");
+  if (!modal || !body) return;
+
+  const dieta = (state.lupaData?.metadata?.dietaMensualBruta) || 8239091;
+  const sueldoMin = (state.lupaData?.metadata?.sueldoMinimoRef) || 500000;
+  const precioLitro = (state.lupaData?.metadata?.precioLitroBencinaRef) || 1320;
+
+  const monthlyLiters = Math.round((p.fuelMonthlyAvg || 0) / precioLitro);
+  const monthlyKm = monthlyLiters * 10;
+  const dailyKm = Math.round(monthlyKm / 30);
+  const minWagesTrimestre = ((p.fuelTrimestre || 0) / sueldoMin).toFixed(1);
+  const febPct = p.fuelMonthlyAvg ? Math.round(((p.fuelFebreroVacaciones || 0) / p.fuelMonthlyAvg) * 100) : 0;
+
+  const totalMonthlyCostToState = dieta + (p.operationalTotalMonthly || 0);
+  const sessionsMonthApprox = Math.max(1, Math.round((p.attendance?.sessionsPresent || 10) / 3));
+  const costPerSessionAttended = Math.round(totalMonthlyCostToState / sessionsMonthApprox);
+
+  // Calcular promedio de su misma región para contraste directo
+  const regionalPeers = allParl.filter((x) => x.region === p.region && x.id !== p.id);
+  const partyPeers = allParl.filter((x) => x.party === p.party && x.id !== p.id);
+  const regionAll = allParl.filter((x) => x.region === p.region);
+  const regionAvgFuel = regionAll.length
+    ? Math.round(regionAll.reduce((s, x) => s + (x.fuelTrimestre || 0), 0) / regionAll.length)
+    : p.fuelTrimestre;
+  const diffVsRegionPct = regionAvgFuel
+    ? Math.round(((p.fuelTrimestre - regionAvgFuel) / regionAvgFuel) * 100)
+    : 0;
+
+  // Historial mensual (Enero a Mayo)
+  const fh = p.fuelHistory || {
+    enero: p.fuelMonthlyAvg,
+    febrero: p.fuelFebreroVacaciones,
+    marzo: p.fuelMonthlyAvg,
+    abril: p.fuelMonthlyAvg,
+    mayo: p.fuelMonthlyAvg
+  };
+  const monthsData = [
+    { key: "enero", label: "Enero", val: fh.enero || 0, isFeb: false },
+    { key: "febrero", label: "🏖️ Febrero (Vacaciones)", val: fh.febrero || 0, isFeb: true },
+    { key: "marzo", label: "Marzo", val: fh.marzo || 0, isFeb: false },
+    { key: "abril", label: "Abril", val: fh.abril || 0, isFeb: false },
+    { key: "mayo", label: "Mayo", val: fh.mayo || 0, isFeb: false }
+  ];
+  const maxMonthVal = Math.max(...monthsData.map((m) => m.val), 1);
+
+  // Cruzar noticias en vivo de Pulso Independiente relacionadas con este parlamentario
+  const lastName = p.shortName.split(" ").slice(-1)[0].toLowerCase();
+  const relatedArticles = (state.articles || []).filter((art) => {
+    const text = `${art.title} ${art.summary}`.toLowerCase();
+    return text.includes(p.shortName.toLowerCase()) || (lastName.length > 4 && text.includes(lastName));
+  }).slice(0, 4);
+
+  if (headerMeta) {
+    headerMeta.innerHTML = `
+      <span class="dossier-code-badge">EXPEDIENTE #${escapeHtml(p.id.toUpperCase())} · ${escapeHtml(p.chamber.toUpperCase())}</span>
+    `;
+  }
+
+  body.innerHTML = `
+    <!-- Ficha Principal del Parlamentario -->
+    <div class="dossier-hero">
+      <div class="dossier-hero-top">
+        <div>
+          <div class="lupa-chamber-tags" style="margin-bottom:8px;">
+            <span class="lupa-tag">${escapeHtml(p.chamber)}</span>
+            <span class="lupa-tag lupa-tag--party">Partido: ${escapeHtml(p.party)} (${escapeHtml(p.coalition)})</span>
+            <span class="lupa-tag">📍 Región de ${escapeHtml(p.region)}</span>
+            <span class="lupa-tag">Período ${escapeHtml(p.period)}</span>
+          </div>
+          <h2 class="dossier-name" id="dossierModalTitle">${escapeHtml(p.name)}</h2>
+          <p class="dossier-meta-line">${escapeHtml(p.districtOrCirc)} — <em>${escapeHtml(p.territoryType)}</em></p>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          ${regionalPeers.length > 0 ? `
+            <button type="button" class="btn-open-dossier" data-compare-pair="${escapeHtml([p.id, ...regionalPeers.slice(0, 2).map((x) => x.id)].join(","))}" style="padding:8px 12px;">
+              ⚖️ Comparar con su misma Región (${escapeHtml(p.region)})
+            </button>
+          ` : ""}
+          <a href="${escapeHtml(p.officialProfileUrl)}" target="_blank" rel="noopener noreferrer" class="btn-dossier-share" style="text-decoration:none;display:inline-flex;align-items:center;">
+            🏛️ Fuente Oficial Transparencia ↗
+          </a>
+        </div>
+      </div>
+
+      <!-- 4 Indicadores Clave del Expediente -->
+      <div class="dossier-summary-grid">
+        <div class="dossier-stat-box">
+          <span class="dossier-stat-k">⛽ Bencina (Trimestre Mar–May)</span>
+          <div class="dossier-stat-v" style="color:var(--accent-high);">${formatCLP(p.fuelTrimestre)}</div>
+          <div class="dossier-stat-sub">${formatCLP(p.fuelMonthlyAvg)}/mes · Equivale a ${minWagesTrimestre} sueldos mínimos</div>
+        </div>
+        <div class="dossier-stat-box">
+          <span class="dossier-stat-k">🏖️ Gasto en Vacaciones (Febrero)</span>
+          <div class="dossier-stat-v" style="color:var(--accent-low);">${formatCLP(p.fuelFebreroVacaciones)}</div>
+          <div class="dossier-stat-sub">${febPct}% de lo que gasta en un mes normal con Congreso abierto</div>
+        </div>
+        <div class="dossier-stat-box">
+          <span class="dossier-stat-k">🏛️ Asistencia Real vs. Oficial</span>
+          <div class="dossier-stat-v">${p.attendance?.realPct ?? 90}% real</div>
+          <div class="dossier-stat-sub">Asistió a ${p.attendance?.sessionsPresent}/${p.attendance?.sessionsTotal} sesiones (${p.attendance?.sessionsJustified || 0} con permiso/licencia · Oficial: ${p.attendance?.officialPct}%)</div>
+        </div>
+        <div class="dossier-stat-box">
+          <span class="dossier-stat-k">💰 Costo Mensual Total Estado</span>
+          <div class="dossier-stat-v">${formatCLP(totalMonthlyCostToState)}/mes</div>
+          <div class="dossier-stat-sub">Dieta ($8,23M) + Operacional (${formatCLP(p.operationalTotalMonthly)}) · ~${formatCLP(costPerSessionAttended)} por sesión asistida</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCIÓN 1: Auditoría de Combustible, Vacaciones de Febrero y Vehículos -->
+    <div class="dossier-section">
+      <h3 class="dossier-section-title">⛽ 1. Auditoría de Combustible, Vacaciones (Febrero) y Flota</h3>
+      <p class="dossier-section-desc">
+        Evolución mensual rendida en Transparencia Activa. En <strong>febrero</strong> el Congreso en Valparaíso permanece cerrado por receso legislativo (vacaciones).
+      </p>
+
+      <!-- Gráfico de barras Enero a Mayo -->
+      <div class="dossier-month-chart">
+        ${monthsData.map((m) => {
+          const hPct = Math.max(8, Math.round((m.val / maxMonthVal) * 100));
+          return `
+            <div class="month-col ${m.isFeb ? "month-col--feb" : ""}">
+              <span class="month-val">${formatCLP(m.val)}</span>
+              <div class="month-bar-wrap">
+                <div class="month-bar" style="height:${hPct}%"></div>
+              </div>
+              <span class="month-lbl">${m.label}</span>
+            </div>
+          `;
+        }).join("")}
+      </div>
+
+      <!-- Calculadora Ciudadana y Contraste Territorial -->
+      <div class="dossier-summary-grid" style="margin-top:10px;">
+        <div class="dossier-stat-box">
+          <span class="dossier-stat-k">🧮 Equivalencia Física del Gasto</span>
+          <div class="dossier-stat-v">~${monthlyLiters.toLocaleString("es-CL")} litros / mes</div>
+          <div class="dossier-stat-sub">Equivale a recorrer <strong>~${monthlyKm.toLocaleString("es-CL")} km todos los meses</strong> (~${dailyKm} km diarios de lunes a domingo).</div>
+        </div>
+        <div class="dossier-stat-box">
+          <span class="dossier-stat-k">📍 Comparación con su propia Región (${escapeHtml(p.region)})</span>
+          <div class="dossier-stat-v" style="color:${diffVsRegionPct > 15 ? "var(--accent-high)" : "var(--text-primary)"};">
+            ${diffVsRegionPct > 0 ? `+${diffVsRegionPct}% sobre` : `${diffVsRegionPct}% bajo`} el promedio regional
+          </div>
+          <div class="dossier-stat-sub">Promedio en Región de ${escapeHtml(p.region)}: ${formatCLP(regionAvgFuel)} en el trimestre.</div>
+        </div>
+        <div class="dossier-stat-box">
+          <span class="dossier-stat-k">🚗 Flota y Arriendo Fiscal</span>
+          <div class="dossier-stat-v">${p.registeredVehiclesCount || 2} vehículos inscritos</div>
+          <div class="dossier-stat-sub">Gasto adicional en arriendo de vehículos: <strong>${formatCLP(p.vehicleLeaseMonthly)}/mes</strong>.</div>
+        </div>
+      </div>
+
+      <div class="dossier-justification-box">
+        <strong>🗣️ ¿Qué justificación se da para este gasto?</strong><br/>
+        ${escapeHtml(p.justificationSummary)}
+      </div>
+
+      <!-- Tabla de Vehículos Declarados (InfoProbidad) -->
+      <table class="dossier-vehicles-table">
+        <thead>
+          <tr>
+            <th>Vehículo Declarado (InfoProbidad)</th>
+            <th>Año</th>
+            <th>Avalúo Fiscal</th>
+            <th>Placa Patente</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${(p.patrimonyVehicles || []).map((v) => `
+            <tr>
+              <td><strong>${escapeHtml(v.type)}</strong></td>
+              <td>${escapeHtml(String(v.year))}</td>
+              <td style="font-family:var(--font-mono);">${formatCLP(v.avaluo)}</td>
+              <td><span class="lupa-tag">${escapeHtml(v.plateStatus)}</span></td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- SECCIÓN 2: Escándalos, Controversias e Investigaciones Periodísticas -->
+    <div class="dossier-section">
+      <h3 class="dossier-section-title">🚨 2. Escándalos, Controversias e Investigaciones a su Persona</h3>
+      <p class="dossier-section-desc">
+        Registro de investigaciones periodísticas, cuestionamientos éticos, casos de colusión/cohecho o anomalías detectadas en el uso de recursos públicos.
+      </p>
+      ${(p.controversies && p.controversies.length > 0) ? `
+        <div class="dossier-timeline-list">
+          ${p.controversies.map((c) => `
+            <div class="dossier-case-card">
+              <div class="dossier-case-top">
+                <span class="dossier-case-year">AÑO ${escapeHtml(String(c.year))} · ${escapeHtml(c.category.toUpperCase())}</span>
+                <span class="lupa-alert-pill ${c.severity === "alta" ? "lupa-alert-pill--danger" : "lupa-alert-pill--amber"}">
+                  Gravedad ${escapeHtml(c.severity.toUpperCase())}
+                </span>
+              </div>
+              <div class="dossier-case-title">${escapeHtml(c.title)}</div>
+              <p class="dossier-case-desc">${escapeHtml(c.summary)}</p>
+              <div style="margin-top:8px;font-size:0.78rem;">
+                <a href="${escapeHtml(c.sourceUrl || "#")}" target="_blank" rel="noopener noreferrer" style="color:var(--accent-low);font-weight:600;">
+                  📰 Fuente investigadora: ${escapeHtml(c.source)} ↗
+                </a>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      ` : `
+        <div class="dossier-justification-box" style="border-left-color:var(--accent-indep);">
+          <strong>✅ Sin escándalos de corrupción o colusión documentados en este expediente:</strong> No registra controversias graves de financiamiento ilegal o desvío de fondos en las auditorías revisadas. Puedes contrastar su nivel de gasto operacional con los demás representantes de su región más abajo.
+        </div>
+      `}
+    </div>
+
+    <!-- SECCIÓN 3: Causas Judiciales, Demandas, Desafueros y Estado Legal -->
+    <div class="dossier-section">
+      <h3 class="dossier-section-title">⚖️ 3. Historial Judicial, Demandas y Estado de Causas</h3>
+      <p class="dossier-section-desc">
+        Causas penales, solicitudes de desafuero, querellas o procedimientos en Fiscalía, Contraloría y Tribunales de Justicia, indicando la razón y si están activas o resueltas.
+      </p>
+      ${(p.judicialRecords && p.judicialRecords.length > 0) ? `
+        <div class="dossier-timeline-list">
+          ${p.judicialRecords.map((j) => {
+            const pillClass = (j.statusType === "active" || j.statusType === "sanctioned")
+              ? "lupa-alert-pill--danger"
+              : (j.statusType === "resolved" ? "lupa-alert-pill--amber" : "lupa-alert-pill--clean");
+            return `
+              <div class="dossier-case-card" style="border-left-color:${j.statusType === "active" ? "var(--accent-danger)" : "var(--accent-low)"};">
+                <div class="dossier-case-top">
+                  <span class="dossier-case-year">${escapeHtml(String(j.year))} · ${escapeHtml(j.courtOrBody)}</span>
+                  <span class="lupa-alert-pill ${pillClass}">
+                    Estado: ${escapeHtml(j.status)}
+                  </span>
+                </div>
+                <div class="dossier-case-title">${escapeHtml(j.caseName)}</div>
+                <p class="dossier-case-desc"><strong>Razón / Materia:</strong> ${escapeHtml(j.reason)}</p>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      ` : `
+        <div class="dossier-justification-box" style="border-left-color:var(--accent-indep);">
+          <strong>✅ Sin causas judiciales ni demandas penales activas registradas:</strong> No figura con procesos de desafuero ni imputaciones penales vigentes en los registros públicos consultados.
+        </div>
+      `}
+    </div>
+
+    <!-- SECCIÓN 4: Red de Relacionados — Seguir Investigando (Misma Región y Mismo Partido) -->
+    <div class="dossier-section">
+      <h3 class="dossier-section-title">🕸️ 4. Seguir Investigando: Comparar con su Misma Región y Partido</h3>
+      <p class="dossier-section-desc">
+        Haz clic en cualquier parlamentario relacionado para abrir su expediente o compararlos cara a cara y verificar si la distancia geográfica o el partido justifican su gasto.
+      </p>
+
+      <h4 style="font-family:var(--font-mono);font-size:0.78rem;text-transform:uppercase;color:var(--accent-low);margin:10px 0 8px;">
+        📍 Parlamentarios de su misma Región (${escapeHtml(p.region)})
+      </h4>
+      ${regionalPeers.length > 0 ? `
+        <div class="dossier-peers-grid">
+          ${regionalPeers.map((peer) => {
+            const diff = p.fuelTrimestre
+              ? Math.round(((peer.fuelTrimestre - p.fuelTrimestre) / p.fuelTrimestre) * 100)
+              : 0;
+            return `
+              <div class="dossier-peer-card">
+                <div>
+                  <div class="lupa-chamber-tags" style="margin-bottom:4px;">
+                    <span class="lupa-tag">${escapeHtml(peer.chamber)}</span>
+                    <span class="lupa-tag lupa-tag--party">${escapeHtml(peer.party)}</span>
+                  </div>
+                  <div class="dossier-peer-name" data-open-dossier="${escapeHtml(peer.id)}">${escapeHtml(peer.shortName)}</div>
+                  <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:2px;">
+                    Bencina Trimestre: <strong>${formatCLP(peer.fuelTrimestre)}</strong> · Feb: ${formatCLP(peer.fuelFebreroVacaciones)}
+                  </div>
+                  <div class="dossier-peer-diff" style="color:${diff < 0 ? "#7ab88a" : "var(--accent-high)"};margin-top:4px;">
+                    ${diff < 0 ? `Gasta ${Math.abs(diff)}% MENOS en la misma región` : `Gasta +${diff}% MÁS en la misma región`}
+                  </div>
+                </div>
+                <div class="dossier-peer-actions">
+                  <button type="button" class="btn-peer-investigate" data-open-dossier="${escapeHtml(peer.id)}">
+                    🕵️ Ver expediente
+                  </button>
+                  <button type="button" class="btn-peer-investigate" data-compare-pair="${escapeHtml(p.id)},${escapeHtml(peer.id)}">
+                    ⚖️ Comparar
+                  </button>
+                </div>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      ` : `<p style="font-size:0.84rem;color:var(--text-muted);">No hay otros parlamentarios de esta misma región en la muestra actual.</p>`}
+
+      <h4 style="font-family:var(--font-mono);font-size:0.78rem;text-transform:uppercase;color:var(--accent-low);margin:18px 0 8px;">
+        🏳️ Compañeros de su mismo Partido / Bancada (${escapeHtml(p.party)})
+      </h4>
+      ${partyPeers.length > 0 ? `
+        <div class="dossier-peers-grid">
+          ${partyPeers.slice(0, 4).map((peer) => `
+            <div class="dossier-peer-card">
+              <div>
+                <div class="lupa-chamber-tags" style="margin-bottom:4px;">
+                  <span class="lupa-tag">${escapeHtml(peer.chamber)}</span>
+                  <span class="lupa-tag">📍 ${escapeHtml(peer.region)}</span>
+                </div>
+                <div class="dossier-peer-name" data-open-dossier="${escapeHtml(peer.id)}">${escapeHtml(peer.shortName)}</div>
+                <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:2px;">
+                  Bencina Trimestre: <strong>${formatCLP(peer.fuelTrimestre)}</strong> · Asistencia: ${peer.attendance?.realPct}%
+                </div>
+              </div>
+              <div class="dossier-peer-actions">
+                <button type="button" class="btn-peer-investigate" data-open-dossier="${escapeHtml(peer.id)}">
+                  🕵️ Investigar
+                </button>
+                <button type="button" class="btn-peer-investigate" data-compare-pair="${escapeHtml(p.id)},${escapeHtml(peer.id)}">
+                  ⚖️ Comparar
+                </button>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      ` : `<p style="font-size:0.84rem;color:var(--text-muted);">Parlamentario independiente o sin otros miembros del mismo partido en la muestra.</p>`}
+
+      ${relatedArticles.length > 0 ? `
+        <h4 style="font-family:var(--font-mono);font-size:0.78rem;text-transform:uppercase;color:var(--accent-low);margin:18px 0 8px;">
+          📰 Noticias Recientes en Pulso Independiente vinculadas a este expediente
+        </h4>
+        <div class="dossier-timeline-list">
+          ${relatedArticles.map((art) => `
+            <div class="dossier-case-card" style="cursor:pointer;" data-open-reader="${escapeHtml(art.id)}">
+              <div class="dossier-case-top">
+                <span class="dossier-case-year">${escapeHtml(art.sourceName)} · ${formatRelativeTime(art.publishedAt)}</span>
+                <span class="lupa-tag">Leer reportaje ↗</span>
+              </div>
+              <div class="dossier-case-title">${escapeHtml(art.title)}</div>
+            </div>
+          `).join("")}
+        </div>
+      ` : ""}
+    </div>
+  `;
+
+  modal.classList.remove("hidden");
+  body.scrollTop = 0;
+}
+
+function openParliamentCompareModal(idsArray) {
+  const allParl = (state.lupaData && state.lupaData.parlamentarios) ? state.lupaData.parlamentarios : [];
+  const items = idsArray.map((id) => allParl.find((p) => p.id === id)).filter(Boolean);
+  if (items.length < 1) return;
+
+  const modal = document.getElementById("parliamentCompareModal");
+  const body = document.getElementById("compareModalBody");
+  if (!modal || !body) return;
+
+  body.innerHTML = `
+    <div class="compare-table-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Indicador de Fiscalización</th>
+            ${items.map((p) => `
+              <th>
+                <div style="font-family:var(--font-serif);font-size:1.25rem;color:var(--text-primary);text-transform:none;">
+                  ${escapeHtml(p.shortName)}
+                </div>
+                <div style="margin-top:4px;">${escapeHtml(p.chamber)} · ${escapeHtml(p.party)} · 📍 ${escapeHtml(p.region)}</div>
+              </th>
+            `).join("")}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>📍 Territorio / Distrito</strong></td>
+            ${items.map((p) => `<td>${escapeHtml(p.districtOrCirc)}<br/><small style="color:var(--text-muted);">${escapeHtml(p.territoryType)}</small></td>`).join("")}
+          </tr>
+          <tr>
+            <td><strong>⛽ Combustible (Trimestre Mar–May)</strong></td>
+            ${items.map((p) => `<td style="font-family:var(--font-mono);font-size:1.05rem;font-weight:700;color:var(--accent-high);">${formatCLP(p.fuelTrimestre)}<br/><small style="font-weight:400;color:var(--text-secondary);">${formatCLP(p.fuelMonthlyAvg)}/mes</small></td>`).join("")}
+          </tr>
+          <tr>
+            <td><strong>🏖️ Gasto en Vacaciones (Febrero)</strong></td>
+            ${items.map((p) => {
+              const pct = p.fuelMonthlyAvg ? Math.round((p.fuelFebreroVacaciones / p.fuelMonthlyAvg) * 100) : 0;
+              return `<td style="font-family:var(--font-mono);font-weight:700;color:var(--accent-low);">${formatCLP(p.fuelFebreroVacaciones)}<br/><small style="font-weight:400;color:var(--text-secondary);">${pct}% de un mes normal</small></td>`;
+            }).join("")}
+          </tr>
+          <tr>
+            <td><strong>🚗 Vehículos Inscritos y Arriendo</strong></td>
+            ${items.map((p) => `<td><strong>${p.registeredVehiclesCount} vehículos</strong> con tarjeta fiscal<br/><small style="color:var(--text-secondary);">Arriendo: ${formatCLP(p.vehicleLeaseMonthly)}/mes</small></td>`).join("")}
+          </tr>
+          <tr>
+            <td><strong>🏛️ Asistencia Real vs. Oficial</strong></td>
+            ${items.map((p) => `<td><strong>${p.attendance?.realPct}% real</strong> (${p.attendance?.sessionsPresent}/${p.attendance?.sessionsTotal} sesiones)<br/><small style="color:var(--text-secondary);">Oficial reportada: ${p.attendance?.officialPct}% (${p.attendance?.sessionsJustified} con permiso/licencia)</small></td>`).join("")}
+          </tr>
+          <tr>
+            <td><strong>💰 Gasto Operacional Mensual</strong></td>
+            ${items.map((p) => `<td style="font-family:var(--font-mono);">${formatCLP(p.operationalTotalMonthly)}/mes<br/><small style="color:var(--text-secondary);">+ Dieta de $8.239.091</small></td>`).join("")}
+          </tr>
+          <tr>
+            <td><strong>🚨 Controversias e Investigaciones</strong></td>
+            ${items.map((p) => `<td>${
+              (p.controversies && p.controversies.length)
+                ? p.controversies.map((c) => `<div style="margin-bottom:6px;">• <strong>(${c.year})</strong> ${escapeHtml(c.title)}</div>`).join("")
+                : `<span style="color:#7ab88a;">✅ Sin controversias registradas</span>`
+            }</td>`).join("")}
+          </tr>
+          <tr>
+            <td><strong>⚖️ Historial Judicial y Estado</strong></td>
+            ${items.map((p) => `<td>${
+              (p.judicialRecords && p.judicialRecords.length)
+                ? p.judicialRecords.map((j) => `<div style="margin-bottom:6px;">• <strong>${escapeHtml(j.caseName)}:</strong> <em>${escapeHtml(j.status)}</em></div>`).join("")
+                : `<span style="color:#7ab88a;">✅ Sin causas judiciales registradas</span>`
+            }</td>`).join("")}
+          </tr>
+          <tr>
+            <td><strong>Acción</strong></td>
+            ${items.map((p) => `
+              <td>
+                <button type="button" class="btn-open-dossier" data-open-dossier="${escapeHtml(p.id)}" style="width:100%;">
+                  🕵️ Ver Expediente de ${escapeHtml(p.shortName)}
+                </button>
+              </td>
+            `).join("")}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  `;
+
+  modal.classList.remove("hidden");
+}
+
+// Delegación global de eventos para Lupa Parlamentaria
+document.addEventListener("click", (e) => {
+  // Cambiar lente de investigación
+  const lensBtn = e.target.closest("[data-lupa-lens]");
+  if (lensBtn) {
+    state.lupaLens = lensBtn.getAttribute("data-lupa-lens");
+    updateLupaDynamicContent();
+    return;
+  }
+
+  // Abrir expediente de un parlamentario
+  const openDossierTrigger = e.target.closest("[data-open-dossier]");
+  if (openDossierTrigger) {
+    const polId = openDossierTrigger.getAttribute("data-open-dossier");
+    document.getElementById("parliamentCompareModal")?.classList.add("hidden");
+    openParliamentDossier(polId);
+    return;
+  }
+
+  // Agregar / quitar parlamentario de la bandeja de comparación
+  const toggleCompareBtn = e.target.closest("[data-toggle-compare]");
+  if (toggleCompareBtn) {
+    const polId = toggleCompareBtn.getAttribute("data-toggle-compare");
+    const idx = state.lupaCompareIds.indexOf(polId);
+    if (idx >= 0) {
+      state.lupaCompareIds.splice(idx, 1);
+    } else {
+      if (state.lupaCompareIds.length >= 3) {
+        showToast("Puedes comparar hasta 3 parlamentarios a la vez ⚖️");
+        return;
+      }
+      state.lupaCompareIds.push(polId);
+    }
+    updateLupaDynamicContent();
+    return;
+  }
+
+  // Comparar par o grupo directo (desde banner regional o desde expediente)
+  const comparePairBtn = e.target.closest("[data-compare-pair]");
+  if (comparePairBtn) {
+    const ids = comparePairBtn.getAttribute("data-compare-pair").split(",").filter(Boolean);
+    openParliamentCompareModal(ids);
+    return;
+  }
+
+  // Botón abrir modal comparador desde la bandeja
+  if (e.target.closest("#openCompareModalBtn")) {
+    openParliamentCompareModal(state.lupaCompareIds);
+    return;
+  }
+
+  // Botón vaciar bandeja comparadora
+  if (e.target.closest("#clearCompareTrayBtn")) {
+    state.lupaCompareIds = [];
+    updateLupaDynamicContent();
+    return;
+  }
+
+  // Compartir enlace directo a un expediente parlamentario
+  if (e.target.closest("#dossierShareLinkBtn")) {
+    if (!state.activeDossierId) return;
+    const shareUrl = `${CANONICAL_SITE_URL}/?politico=${encodeURIComponent(state.activeDossierId)}`;
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        showToast("¡Enlace directo al expediente copiado al portapapeles! 🔗");
+      });
+    } else {
+      showToast("Enlace: " + shareUrl);
+    }
+  }
+});
+
 document.addEventListener("DOMContentLoaded", initApp);
+
