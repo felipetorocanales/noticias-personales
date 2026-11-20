@@ -2012,6 +2012,13 @@ PARLAMENTARIOS = [
 
 
 def main():
+    try:
+        import generate_full_parlamentarios
+        print("[INFO] Ejecutando generador del Congreso completo (205 parlamentarios)...")
+        return
+    except Exception as e:
+        print("[WARN] Error cargando generador completo, usando muestra base:", e)
+
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     seen = {}
     for p in PARLAMENTARIOS:

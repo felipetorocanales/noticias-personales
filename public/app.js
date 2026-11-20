@@ -242,6 +242,7 @@ const state = {
   lupaLens: "fuel_desc",
   lupaChamber: "all",
   lupaRegion: "all",
+  lupaDistrict: "all",
   lupaParty: "all",
   lupaQuery: "",
   lupaCompareIds: [],
@@ -2362,12 +2363,17 @@ function getFilteredParlamentarios() {
   const filtered = list.filter((p) => {
     if (state.lupaChamber !== "all" && p.chamber !== state.lupaChamber) return false;
     if (state.lupaRegion !== "all" && p.region !== state.lupaRegion) return false;
+    if (state.lupaDistrict !== "all") {
+      const targetDist = parseInt(state.lupaDistrict, 10);
+      if (p.districtNumber !== targetDist) return false;
+    }
     if (state.lupaParty !== "all" && p.party !== state.lupaParty) return false;
 
     if (q) {
       const controversiesBlob = (p.controversies || []).map((c) => `${c.title} ${c.summary} ${c.category}`).join(" ");
       const judicialBlob = (p.judicialRecords || []).map((j) => `${j.caseName} ${j.reason} ${j.status}`).join(" ");
-      const hay = `${p.name} ${p.shortName} ${p.party} ${p.coalition} ${p.region} ${p.districtOrCirc} ${controversiesBlob} ${judicialBlob}`.toLowerCase();
+      const communesBlob = (p.communes || []).join(" ");
+      const hay = `${p.name} ${p.shortName} ${p.party} ${p.coalition} ${p.region} ${p.districtOrCirc} ${communesBlob} ${controversiesBlob} ${judicialBlob}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -2473,8 +2479,12 @@ function renderLupaParlamentaria() {
         />
         <select id="lupaChamberSelect" class="lupa-select" aria-label="Filtrar por Cámara">
           <option value="all">🏛️ Todas las Cámaras</option>
-          <option value="Senado">Senado</option>
-          <option value="Cámara de Diputados">Cámara de Diputados</option>
+          <option value="Senado">Senado (50)</option>
+          <option value="Cámara de Diputados">Cámara de Diputados (155)</option>
+        </select>
+        <select id="lupaDistrictSelect" class="lupa-select" aria-label="Filtrar por Distrito">
+          <option value="all">🗳️ Todos los Distritos (1 al 28)</option>
+          ${Array.from({length: 28}, (_, i) => i + 1).map((d) => `<option value="${d}">Distrito ${d}</option>`).join("")}
         </select>
         <select id="lupaRegionSelect" class="lupa-select" aria-label="Filtrar por Región">
           <option value="all">📍 Todas las Regiones (16)</option>
@@ -2506,10 +2516,27 @@ function renderLupaParlamentaria() {
     });
     document.getElementById("lupaChamberSelect")?.addEventListener("change", (e) => {
       state.lupaChamber = e.target.value;
+      if (state.lupaChamber === "Senado") {
+        state.lupaDistrict = "all";
+      }
+      updateLupaDynamicContent();
+    });
+    document.getElementById("lupaDistrictSelect")?.addEventListener("change", (e) => {
+      state.lupaDistrict = e.target.value;
+      if (state.lupaDistrict !== "all") {
+        state.lupaChamber = "Cámara de Diputados";
+        const sampleDip = allParl.find((p) => p.districtNumber === parseInt(state.lupaDistrict, 10));
+        if (sampleDip) {
+          state.lupaRegion = sampleDip.region;
+        }
+      }
       updateLupaDynamicContent();
     });
     document.getElementById("lupaRegionSelect")?.addEventListener("change", (e) => {
       state.lupaRegion = e.target.value;
+      if (state.lupaRegion === "all") {
+        state.lupaDistrict = "all";
+      }
       updateLupaDynamicContent();
     });
     document.getElementById("lupaPartySelect")?.addEventListener("change", (e) => {
@@ -2519,6 +2546,7 @@ function renderLupaParlamentaria() {
     document.getElementById("lupaResetFiltersBtn")?.addEventListener("click", () => {
       state.lupaChamber = "all";
       state.lupaRegion = "all";
+      state.lupaDistrict = "all";
       state.lupaParty = "all";
       state.lupaQuery = "";
       state.lupaLens = "fuel_desc";
@@ -2539,6 +2567,8 @@ function updateLupaDynamicContent() {
   // Sync select values
   const chSel = document.getElementById("lupaChamberSelect");
   if (chSel && chSel.value !== state.lupaChamber) chSel.value = state.lupaChamber;
+  const dtSel = document.getElementById("lupaDistrictSelect");
+  if (dtSel && dtSel.value !== state.lupaDistrict) dtSel.value = state.lupaDistrict;
   const rgSel = document.getElementById("lupaRegionSelect");
   if (rgSel && rgSel.value !== state.lupaRegion) rgSel.value = state.lupaRegion;
   const ptSel = document.getElementById("lupaPartySelect");
@@ -2568,10 +2598,34 @@ function updateLupaDynamicContent() {
     `).join("");
   }
 
-  // Render Context Banner (when filtering by Region or Party)
+  // Render Context Banner (District, Region, or Party)
   const ctxBanner = document.getElementById("lupaContextBanner");
   if (ctxBanner) {
-    if (state.lupaRegion !== "all" && filtered.length > 0) {
+    if (state.lupaDistrict !== "all" && filtered.length > 0) {
+      const distNum = parseInt(state.lupaDistrict, 10);
+      const avgDistrict = Math.round(filtered.reduce((s, p) => s + (p.fuelTrimestre || 0), 0) / filtered.length);
+      const byFuel = [...filtered].sort((a, b) => b.fuelTrimestre - a.fuelTrimestre);
+      const highest = byFuel[0];
+      const lowest = byFuel[byFuel.length - 1];
+      const diffPct = lowest && lowest.fuelTrimestre ? Math.round(((highest.fuelTrimestre - lowest.fuelTrimestre) / lowest.fuelTrimestre) * 100) : 0;
+      const compareIdsAttr = byFuel.map((p) => p.id).join(",");
+      const communesList = highest.communes || [];
+      const communesPreview = communesList.length ? ` (${communesList.join(", ")})` : "";
+
+      ctxBanner.className = "lupa-context-banner";
+      ctxBanner.innerHTML = `
+        <div>
+          <strong>📍 Radiografía Distrital — Distrito ${distNum}${escapeHtml(communesPreview)}:</strong>
+          ${filtered.length} diputadas y diputados en ejercicio · Promedio trimestral en bencina: <strong>${formatCLP(avgDistrict)}</strong>.
+          ${byFuel.length > 1 ? `<br/>En el mismo distrito y cumpliendo las mismas labores territoriales: <strong>${escapeHtml(highest.shortName)} (${escapeHtml(highest.party)})</strong> rinde <strong>${formatCLP(highest.fuelTrimestre)}</strong> vs <strong>${escapeHtml(lowest.shortName)} (${escapeHtml(lowest.party)})</strong> con <strong>${formatCLP(lowest.fuelTrimestre)}</strong> (una diferencia de <strong>+${diffPct}%</strong>).` : ""}
+        </div>
+        ${byFuel.length > 1 ? `
+          <button type="button" class="btn-dossier-share" data-compare-pair="${escapeHtml(compareIdsAttr)}">
+            ⚖️ Comparar a todos en el Distrito ${distNum}
+          </button>
+        ` : ""}
+      `;
+    } else if (state.lupaRegion !== "all" && filtered.length > 0) {
       const avgRegional = Math.round(filtered.reduce((s, p) => s + (p.fuelTrimestre || 0), 0) / filtered.length);
       const byFuel = [...filtered].sort((a, b) => b.fuelTrimestre - a.fuelTrimestre);
       const highest = byFuel[0];
@@ -2809,9 +2863,22 @@ function openParliamentDossier(politicianId) {
   const sessionsMonthApprox = Math.max(1, Math.round((p.attendance?.sessionsPresent || 10) / 3));
   const costPerSessionAttended = Math.round(totalMonthlyCostToState / sessionsMonthApprox);
 
-  // Calcular promedio de su misma región para contraste directo
+  // Calcular promedio de su misma región y distrito para contraste directo
   const regionalPeers = allParl.filter((x) => x.region === p.region && x.id !== p.id);
   const partyPeers = allParl.filter((x) => x.party === p.party && x.id !== p.id);
+  const districtPeers = p.districtNumber
+    ? allParl.filter((x) => x.districtNumber === p.districtNumber && x.id !== p.id)
+    : [];
+  const districtAll = p.districtNumber
+    ? allParl.filter((x) => x.districtNumber === p.districtNumber)
+    : [];
+  const districtAvgFuel = districtAll.length
+    ? Math.round(districtAll.reduce((s, x) => s + (x.fuelTrimestre || 0), 0) / districtAll.length)
+    : p.fuelTrimestre;
+  const diffVsDistrictPct = districtAvgFuel
+    ? Math.round(((p.fuelTrimestre - districtAvgFuel) / districtAvgFuel) * 100)
+    : 0;
+
   const regionAll = allParl.filter((x) => x.region === p.region);
   const regionAvgFuel = regionAll.length
     ? Math.round(regionAll.reduce((s, x) => s + (x.fuelTrimestre || 0), 0) / regionAll.length)
@@ -2859,17 +2926,22 @@ function openParliamentDossier(politicianId) {
             <span class="lupa-tag">${escapeHtml(p.chamber)}</span>
             <span class="lupa-tag lupa-tag--party">Partido: ${escapeHtml(p.party)} (${escapeHtml(p.coalition)})</span>
             <span class="lupa-tag">📍 Región de ${escapeHtml(p.region)}</span>
+            ${p.districtNumber ? `<span class="lupa-tag" style="background:rgba(217,119,6,0.15);color:var(--accent-low);font-weight:700;">🗳️ Distrito ${p.districtNumber}</span>` : ""}
             <span class="lupa-tag">Período ${escapeHtml(p.period)}</span>
           </div>
           <h2 class="dossier-name" id="dossierModalTitle">${escapeHtml(p.name)}</h2>
           <p class="dossier-meta-line">${escapeHtml(p.districtOrCirc)} — <em>${escapeHtml(p.territoryType)}</em></p>
         </div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;">
-          ${regionalPeers.length > 0 ? `
+          ${districtPeers.length > 0 ? `
+            <button type="button" class="btn-open-dossier" data-compare-pair="${escapeHtml([p.id, ...districtPeers.map((x) => x.id)].join(","))}" style="padding:8px 12px;background:var(--accent-low);">
+              ⚖️ Comparar con diputados de su Distrito ${p.districtNumber}
+            </button>
+          ` : (regionalPeers.length > 0 ? `
             <button type="button" class="btn-open-dossier" data-compare-pair="${escapeHtml([p.id, ...regionalPeers.slice(0, 2).map((x) => x.id)].join(","))}" style="padding:8px 12px;">
               ⚖️ Comparar con su misma Región (${escapeHtml(p.region)})
             </button>
-          ` : ""}
+          ` : "")}
           <a href="${escapeHtml(p.officialProfileUrl)}" target="_blank" rel="noopener noreferrer" class="btn-dossier-share" style="text-decoration:none;display:inline-flex;align-items:center;">
             🏛️ Fuente Oficial Transparencia ↗
           </a>
@@ -3045,6 +3117,52 @@ function openParliamentDossier(politicianId) {
       <p class="dossier-section-desc">
         Haz clic en cualquier parlamentario relacionado para abrir su expediente o compararlos cara a cara y verificar si la distancia geográfica o el partido justifican su gasto.
       </p>
+
+      ${districtPeers.length > 0 ? `
+        <div style="background:rgba(217, 119, 6, 0.08);border:1px solid rgba(217, 119, 6, 0.25);border-radius:10px;padding:14px;margin-bottom:20px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px;">
+            <h4 style="font-family:var(--font-mono);font-size:0.82rem;text-transform:uppercase;color:var(--accent-low);margin:0;">
+              🏛️ Compañeros del MISMO Distrito ${p.districtNumber} (Mismas labores territoriales)
+            </h4>
+            <button type="button" class="btn-dossier-share" data-compare-pair="${escapeHtml([p.id, ...districtPeers.map(x => x.id)].join(','))}" style="font-size:0.75rem;padding:4px 8px;">
+              ⚖️ Comparar a todos en el Distrito ${p.districtNumber}
+            </button>
+          </div>
+          <p style="font-size:0.78rem;color:var(--text-secondary);margin:0 0 10px;">
+            Representan exactamente a las mismas comunas: ${(p.communes || []).slice(0, 6).join(", ")}${(p.communes || []).length > 6 ? "..." : ""}. Compara quién gasta más y quién gasta menos teniendo las mismas funciones:
+          </p>
+          <div class="dossier-peers-grid">
+            ${districtPeers.map((peer) => {
+              const diff = p.fuelTrimestre ? Math.round(((peer.fuelTrimestre - p.fuelTrimestre) / p.fuelTrimestre) * 100) : 0;
+              return `
+                <div class="dossier-peer-card" style="border-left:3px solid var(--accent-low);">
+                  <div>
+                    <div class="lupa-chamber-tags" style="margin-bottom:4px;">
+                      <span class="lupa-tag lupa-tag--party">${escapeHtml(peer.party)}</span>
+                      <span class="lupa-tag">${escapeHtml(peer.chamber)}</span>
+                    </div>
+                    <div class="dossier-peer-name" data-open-dossier="${escapeHtml(peer.id)}">${escapeHtml(peer.shortName)}</div>
+                    <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:2px;">
+                      Bencina Trimestre: <strong>${formatCLP(peer.fuelTrimestre)}</strong> · Feb: ${formatCLP(peer.fuelFebreroVacaciones)}
+                    </div>
+                    <div class="dossier-peer-diff" style="color:${diff < 0 ? "#7ab88a" : "var(--accent-high)"};margin-top:4px;">
+                      ${diff < 0 ? `Gasta ${Math.abs(diff)}% MENOS en este distrito` : `Gasta +${diff}% MÁS en este distrito`}
+                    </div>
+                  </div>
+                  <div class="dossier-peer-actions">
+                    <button type="button" class="btn-peer-investigate" data-open-dossier="${escapeHtml(peer.id)}">
+                      🕵️ Ver expediente
+                    </button>
+                    <button type="button" class="btn-peer-investigate" data-compare-pair="${escapeHtml(p.id)},${escapeHtml(peer.id)}">
+                      ⚖️ Cara a cara
+                    </button>
+                  </div>
+                </div>
+              `;
+            }).join("")}
+          </div>
+        </div>
+      ` : ""}
 
       <h4 style="font-family:var(--font-mono);font-size:0.78rem;text-transform:uppercase;color:var(--accent-low);margin:10px 0 8px;">
         📍 Parlamentarios de su misma Región (${escapeHtml(p.region)})
